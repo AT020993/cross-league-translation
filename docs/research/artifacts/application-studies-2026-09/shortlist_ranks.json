@@ -1,0 +1,1390 @@
+{
+ "study": "B_shortlist_ranks",
+ "preregistration": "translation-application-studies-preregistration-2026-09-06.md",
+ "rows_source": "docs/research/artifacts/prelock-program-2026-09/walkforward_rows.parquet",
+ "n_rows": 674,
+ "n_rows_with_prior_flag": 674,
+ "results": {
+  "k10": {
+   "primary": {
+    "a": "per_league",
+    "b": "rtm_plus_league",
+    "k": 10,
+    "seasons": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ],
+    "per_season": {
+     "2020": {
+      "a": "per_league",
+      "b": "rtm_plus_league",
+      "k": 10,
+      "n": 134,
+      "stats_a": {
+       "mean_realised": 20.21834899549092,
+       "overpaid": 5,
+       "career_year_share": 0.9
+      },
+      "stats_b": {
+       "mean_realised": 21.076135575815446,
+       "overpaid": 4,
+       "career_year_share": 0.8
+      },
+      "delta_mean_realised_b_minus_a": 0.8577865803245253,
+      "delta_mean_realised_ci95": [
+       -0.7320155119794515,
+       1.9216758778552234
+      ],
+      "delta_overpaid_b_minus_a": -1,
+      "delta_overpaid_ci95": [
+       -2.0,
+       2.0
+      ],
+      "career_share_null_a": [
+       0.2,
+       0.8
+      ],
+      "career_share_null_b": [
+       0.3,
+       0.8
+      ]
+     },
+     "2021": {
+      "a": "per_league",
+      "b": "rtm_plus_league",
+      "k": 10,
+      "n": 101,
+      "stats_a": {
+       "mean_realised": 18.97223065198053,
+       "overpaid": 3,
+       "career_year_share": 0.7
+      },
+      "stats_b": {
+       "mean_realised": 19.931458842083735,
+       "overpaid": 2,
+       "career_year_share": 0.2
+      },
+      "delta_mean_realised_b_minus_a": 0.9592281901032038,
+      "delta_mean_realised_ci95": [
+       -1.2958482257192863,
+       3.1339303107148115
+      ],
+      "delta_overpaid_b_minus_a": -1,
+      "delta_overpaid_ci95": [
+       -4.0,
+       2.0
+      ],
+      "career_share_null_a": [
+       0.3,
+       0.9
+      ],
+      "career_share_null_b": [
+       0.3,
+       0.9
+      ]
+     },
+     "2022": {
+      "a": "per_league",
+      "b": "rtm_plus_league",
+      "k": 10,
+      "n": 106,
+      "stats_a": {
+       "mean_realised": 21.59472841935149,
+       "overpaid": 3,
+       "career_year_share": 0.5
+      },
+      "stats_b": {
+       "mean_realised": 21.59472841935149,
+       "overpaid": 3,
+       "career_year_share": 0.5
+      },
+      "delta_mean_realised_b_minus_a": 0.0,
+      "delta_mean_realised_ci95": [
+       -1.168050284158089,
+       1.4913530317653019
+      ],
+      "delta_overpaid_b_minus_a": 0,
+      "delta_overpaid_ci95": [
+       -2.0,
+       2.0
+      ],
+      "career_share_null_a": [
+       0.19750000000000006,
+       0.7
+      ],
+      "career_share_null_b": [
+       0.19750000000000006,
+       0.7
+      ]
+     },
+     "2023": {
+      "a": "per_league",
+      "b": "rtm_plus_league",
+      "k": 10,
+      "n": 102,
+      "stats_a": {
+       "mean_realised": 20.49331236448536,
+       "overpaid": 4,
+       "career_year_share": 0.7
+      },
+      "stats_b": {
+       "mean_realised": 21.376245002619044,
+       "overpaid": 2,
+       "career_year_share": 0.4
+      },
+      "delta_mean_realised_b_minus_a": 0.8829326381336848,
+      "delta_mean_realised_ci95": [
+       -4.112447952433944,
+       4.340793777244424
+      ],
+      "delta_overpaid_b_minus_a": -2,
+      "delta_overpaid_ci95": [
+       -4.0,
+       2.0
+      ],
+      "career_share_null_a": [
+       0.19750000000000006,
+       0.7
+      ],
+      "career_share_null_b": [
+       0.2,
+       0.7
+      ]
+     },
+     "2024": {
+      "a": "per_league",
+      "b": "rtm_plus_league",
+      "k": 10,
+      "n": 104,
+      "stats_a": {
+       "mean_realised": 20.31198571772069,
+       "overpaid": 3,
+       "career_year_share": 0.5
+      },
+      "stats_b": {
+       "mean_realised": 21.12171663993183,
+       "overpaid": 3,
+       "career_year_share": 0.2
+      },
+      "delta_mean_realised_b_minus_a": 0.8097309222111377,
+      "delta_mean_realised_ci95": [
+       -0.5777433465970095,
+       2.966890067793059
+      ],
+      "delta_overpaid_b_minus_a": 0,
+      "delta_overpaid_ci95": [
+       -3.0,
+       3.0
+      ],
+      "career_share_null_a": [
+       0.3,
+       0.9
+      ],
+      "career_share_null_b": [
+       0.2,
+       0.9
+      ]
+     },
+     "2025": {
+      "a": "per_league",
+      "b": "rtm_plus_league",
+      "k": 10,
+      "n": 127,
+      "stats_a": {
+       "mean_realised": 23.90218758191657,
+       "overpaid": 3,
+       "career_year_share": 0.8
+      },
+      "stats_b": {
+       "mean_realised": 24.077368320282666,
+       "overpaid": 3,
+       "career_year_share": 0.7
+      },
+      "delta_mean_realised_b_minus_a": 0.1751807383660946,
+      "delta_mean_realised_ci95": [
+       -1.7605449452069994,
+       2.7600782826604404
+      ],
+      "delta_overpaid_b_minus_a": 0,
+      "delta_overpaid_ci95": [
+       -3.0,
+       2.0
+      ],
+      "career_share_null_a": [
+       0.3,
+       0.9
+      ],
+      "career_share_null_b": [
+       0.3,
+       0.8
+      ]
+     }
+    },
+    "seasons_b_beats_a_on_mean_realised": 5,
+    "pooled_delta_mean_realised_b_minus_a": 0.6141431781897744,
+    "pooled_ci95": [
+     -0.5671698435310841,
+     1.4305126817518898
+    ],
+    "pooled_career_year_share_a": 0.6833333333333332,
+    "pooled_career_year_share_b": 0.4666666666666666,
+    "pooled_overpaid_a": 21,
+    "pooled_overpaid_b": 17
+   },
+   "placebo": {
+    "a": "one_global",
+    "b": "per_league",
+    "k": 10,
+    "seasons": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ],
+    "per_season": {
+     "2020": {
+      "a": "one_global",
+      "b": "per_league",
+      "k": 10,
+      "n": 134,
+      "stats_a": {
+       "mean_realised": 20.1738980414408,
+       "overpaid": 5,
+       "career_year_share": 0.8
+      },
+      "stats_b": {
+       "mean_realised": 20.21834899549092,
+       "overpaid": 5,
+       "career_year_share": 0.9
+      },
+      "delta_mean_realised_b_minus_a": 0.04445095405012012,
+      "delta_mean_realised_ci95": [
+       -1.686277146619787,
+       1.3350261923565288
+      ],
+      "delta_overpaid_b_minus_a": 0,
+      "delta_overpaid_ci95": [
+       -2.0,
+       1.0
+      ],
+      "career_share_null_a": [
+       0.3,
+       0.8
+      ],
+      "career_share_null_b": [
+       0.2,
+       0.8
+      ]
+     },
+     "2021": {
+      "a": "one_global",
+      "b": "per_league",
+      "k": 10,
+      "n": 101,
+      "stats_a": {
+       "mean_realised": 18.061094013136707,
+       "overpaid": 4,
+       "career_year_share": 0.5
+      },
+      "stats_b": {
+       "mean_realised": 18.97223065198053,
+       "overpaid": 3,
+       "career_year_share": 0.7
+      },
+      "delta_mean_realised_b_minus_a": 0.9111366388438249,
+      "delta_mean_realised_ci95": [
+       -1.2096667911001124,
+       3.4020286528324846
+      ],
+      "delta_overpaid_b_minus_a": -1,
+      "delta_overpaid_ci95": [
+       -4.0,
+       1.0
+      ],
+      "career_share_null_a": [
+       0.3,
+       0.9
+      ],
+      "career_share_null_b": [
+       0.3,
+       0.9
+      ]
+     },
+     "2022": {
+      "a": "one_global",
+      "b": "per_league",
+      "k": 10,
+      "n": 106,
+      "stats_a": {
+       "mean_realised": 20.902864883538165,
+       "overpaid": 4,
+       "career_year_share": 0.5
+      },
+      "stats_b": {
+       "mean_realised": 21.59472841935149,
+       "overpaid": 3,
+       "career_year_share": 0.5
+      },
+      "delta_mean_realised_b_minus_a": 0.6918635358133258,
+      "delta_mean_realised_ci95": [
+       -0.86878986287203,
+       2.9118363408975423
+      ],
+      "delta_overpaid_b_minus_a": -1,
+      "delta_overpaid_ci95": [
+       -3.0,
+       1.0
+      ],
+      "career_share_null_a": [
+       0.2,
+       0.7
+      ],
+      "career_share_null_b": [
+       0.19750000000000006,
+       0.7
+      ]
+     },
+     "2023": {
+      "a": "one_global",
+      "b": "per_league",
+      "k": 10,
+      "n": 102,
+      "stats_a": {
+       "mean_realised": 21.65012387466677,
+       "overpaid": 3,
+       "career_year_share": 0.6
+      },
+      "stats_b": {
+       "mean_realised": 20.49331236448536,
+       "overpaid": 4,
+       "career_year_share": 0.7
+      },
+      "delta_mean_realised_b_minus_a": -1.156811510181413,
+      "delta_mean_realised_ci95": [
+       -2.465934389285914,
+       1.6908193279078676
+      ],
+      "delta_overpaid_b_minus_a": 1,
+      "delta_overpaid_ci95": [
+       -2.0,
+       2.0
+      ],
+      "career_share_null_a": [
+       0.2,
+       0.7025000000000006
+      ],
+      "career_share_null_b": [
+       0.19750000000000006,
+       0.7
+      ]
+     },
+     "2024": {
+      "a": "one_global",
+      "b": "per_league",
+      "k": 10,
+      "n": 104,
+      "stats_a": {
+       "mean_realised": 21.571445383188234,
+       "overpaid": 3,
+       "career_year_share": 0.6
+      },
+      "stats_b": {
+       "mean_realised": 20.31198571772069,
+       "overpaid": 3,
+       "career_year_share": 0.5
+      },
+      "delta_mean_realised_b_minus_a": -1.259459665467542,
+      "delta_mean_realised_ci95": [
+       -2.7600323935104423,
+       3.8081328444401032
+      ],
+      "delta_overpaid_b_minus_a": 0,
+      "delta_overpaid_ci95": [
+       -4.0,
+       3.0
+      ],
+      "career_share_null_a": [
+       0.3,
+       0.9
+      ],
+      "career_share_null_b": [
+       0.3,
+       0.9
+      ]
+     },
+     "2025": {
+      "a": "one_global",
+      "b": "per_league",
+      "k": 10,
+      "n": 127,
+      "stats_a": {
+       "mean_realised": 23.58662435777252,
+       "overpaid": 4,
+       "career_year_share": 0.9
+      },
+      "stats_b": {
+       "mean_realised": 23.90218758191657,
+       "overpaid": 3,
+       "career_year_share": 0.8
+      },
+      "delta_mean_realised_b_minus_a": 0.31556322414405,
+      "delta_mean_realised_ci95": [
+       -2.74219005084388,
+       1.9462481565500764
+      ],
+      "delta_overpaid_b_minus_a": -1,
+      "delta_overpaid_ci95": [
+       -3.0,
+       2.0
+      ],
+      "career_share_null_a": [
+       0.3,
+       0.9
+      ],
+      "career_share_null_b": [
+       0.3,
+       0.9
+      ]
+     }
+    },
+    "seasons_b_beats_a_on_mean_realised": 4,
+    "pooled_delta_mean_realised_b_minus_a": -0.07554280379960569,
+    "pooled_ci95": [
+     -0.6886301073914438,
+     1.180841238714188
+    ],
+    "pooled_career_year_share_a": 0.65,
+    "pooled_career_year_share_b": 0.6833333333333332,
+    "pooled_overpaid_a": 23,
+    "pooled_overpaid_b": 21
+   }
+  },
+  "k5": {
+   "primary": {
+    "a": "per_league",
+    "b": "rtm_plus_league",
+    "k": 5,
+    "seasons": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ],
+    "per_season": {
+     "2020": {
+      "a": "per_league",
+      "b": "rtm_plus_league",
+      "k": 5,
+      "n": 134,
+      "stats_a": {
+       "mean_realised": 21.37596688747013,
+       "overpaid": 2,
+       "career_year_share": 0.8
+      },
+      "stats_b": {
+       "mean_realised": 22.534444500104815,
+       "overpaid": 2,
+       "career_year_share": 0.8
+      },
+      "delta_mean_realised_b_minus_a": 1.1584776126346839,
+      "delta_mean_realised_ci95": [
+       -1.5739593272121275,
+       2.316955225269375
+      ],
+      "delta_overpaid_b_minus_a": 0,
+      "delta_overpaid_ci95": [
+       -2.0,
+       2.0
+      ],
+      "career_share_null_a": [
+       0.2,
+       1.0
+      ],
+      "career_share_null_b": [
+       0.2,
+       1.0
+      ]
+     },
+     "2021": {
+      "a": "per_league",
+      "b": "rtm_plus_league",
+      "k": 5,
+      "n": 101,
+      "stats_a": {
+       "mean_realised": 18.943064535497673,
+       "overpaid": 2,
+       "career_year_share": 0.4
+      },
+      "stats_b": {
+       "mean_realised": 18.94306453549767,
+       "overpaid": 2,
+       "career_year_share": 0.4
+      },
+      "delta_mean_realised_b_minus_a": -3.552713678800501e-15,
+      "delta_mean_realised_ci95": [
+       -5.082585014064094,
+       2.693138349914937
+      ],
+      "delta_overpaid_b_minus_a": 0,
+      "delta_overpaid_ci95": [
+       -2.0,
+       2.0
+      ],
+      "career_share_null_a": [
+       0.2,
+       1.0
+      ],
+      "career_share_null_b": [
+       0.2,
+       1.0
+      ]
+     },
+     "2022": {
+      "a": "per_league",
+      "b": "rtm_plus_league",
+      "k": 5,
+      "n": 106,
+      "stats_a": {
+       "mean_realised": 21.149730361895156,
+       "overpaid": 3,
+       "career_year_share": 0.4
+      },
+      "stats_b": {
+       "mean_realised": 22.417693450181197,
+       "overpaid": 2,
+       "career_year_share": 0.2
+      },
+      "delta_mean_realised_b_minus_a": 1.2679630882860415,
+      "delta_mean_realised_ci95": [
+       -0.9478075199604881,
+       4.086470030506657
+      ],
+      "delta_overpaid_b_minus_a": -1,
+      "delta_overpaid_ci95": [
+       -3.0,
+       1.0
+      ],
+      "career_share_null_a": [
+       0.0,
+       0.8
+      ],
+      "career_share_null_b": [
+       0.0,
+       1.0
+      ]
+     },
+     "2023": {
+      "a": "per_league",
+      "b": "rtm_plus_league",
+      "k": 5,
+      "n": 102,
+      "stats_a": {
+       "mean_realised": 25.30978285603261,
+       "overpaid": 2,
+       "career_year_share": 0.6
+      },
+      "stats_b": {
+       "mean_realised": 22.573581045971203,
+       "overpaid": 2,
+       "career_year_share": 0.2
+      },
+      "delta_mean_realised_b_minus_a": -2.736201810061406,
+      "delta_mean_realised_ci95": [
+       -10.012893153807319,
+       5.008456297996426
+      ],
+      "delta_overpaid_b_minus_a": 0,
+      "delta_overpaid_ci95": [
+       -2.0,
+       3.0
+      ],
+      "career_share_null_a": [
+       0.0,
+       0.8
+      ],
+      "career_share_null_b": [
+       0.0,
+       1.0
+      ]
+     },
+     "2024": {
+      "a": "per_league",
+      "b": "rtm_plus_league",
+      "k": 5,
+      "n": 104,
+      "stats_a": {
+       "mean_realised": 22.828994405851,
+       "overpaid": 2,
+       "career_year_share": 0.4
+      },
+      "stats_b": {
+       "mean_realised": 22.98301339913353,
+       "overpaid": 1,
+       "career_year_share": 0.0
+      },
+      "delta_mean_realised_b_minus_a": 0.15401899328253066,
+      "delta_mean_realised_ci95": [
+       -1.0014674022928223,
+       5.2930587443198
+      ],
+      "delta_overpaid_b_minus_a": -1,
+      "delta_overpaid_ci95": [
+       -3.0,
+       2.0
+      ],
+      "career_share_null_a": [
+       0.19500000000000012,
+       1.0
+      ],
+      "career_share_null_b": [
+       0.0,
+       1.0
+      ]
+     },
+     "2025": {
+      "a": "per_league",
+      "b": "rtm_plus_league",
+      "k": 5,
+      "n": 127,
+      "stats_a": {
+       "mean_realised": 25.4564584583755,
+       "overpaid": 2,
+       "career_year_share": 1.0
+      },
+      "stats_b": {
+       "mean_realised": 26.108544440543284,
+       "overpaid": 3,
+       "career_year_share": 0.4
+      },
+      "delta_mean_realised_b_minus_a": 0.6520859821677831,
+      "delta_mean_realised_ci95": [
+       -2.748189197376604,
+       6.4426579667793344
+      ],
+      "delta_overpaid_b_minus_a": 1,
+      "delta_overpaid_ci95": [
+       -3.0,
+       2.0
+      ],
+      "career_share_null_a": [
+       0.2,
+       1.0
+      ],
+      "career_share_null_b": [
+       0.2,
+       1.0
+      ]
+     }
+    },
+    "seasons_b_beats_a_on_mean_realised": 4,
+    "pooled_delta_mean_realised_b_minus_a": 0.08272397771827163,
+    "pooled_ci95": [
+     -1.6311996874437242,
+     2.000725853177873
+    ],
+    "pooled_career_year_share_a": 0.6,
+    "pooled_career_year_share_b": 0.3333333333333333,
+    "pooled_overpaid_a": 13,
+    "pooled_overpaid_b": 12
+   },
+   "placebo": {
+    "a": "one_global",
+    "b": "per_league",
+    "k": 5,
+    "seasons": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ],
+    "per_season": {
+     "2020": {
+      "a": "one_global",
+      "b": "per_league",
+      "k": 5,
+      "n": 134,
+      "stats_a": {
+       "mean_realised": 23.266158637507626,
+       "overpaid": 2,
+       "career_year_share": 0.8
+      },
+      "stats_b": {
+       "mean_realised": 21.37596688747013,
+       "overpaid": 2,
+       "career_year_share": 0.8
+      },
+      "delta_mean_realised_b_minus_a": -1.890191750037495,
+      "delta_mean_realised_ci95": [
+       -3.7803835000749935,
+       2.153818151966881
+      ],
+      "delta_overpaid_b_minus_a": 0,
+      "delta_overpaid_ci95": [
+       -2.0,
+       1.0
+      ],
+      "career_share_null_a": [
+       0.19500000000000012,
+       1.0
+      ],
+      "career_share_null_b": [
+       0.2,
+       1.0
+      ]
+     },
+     "2021": {
+      "a": "one_global",
+      "b": "per_league",
+      "k": 5,
+      "n": 101,
+      "stats_a": {
+       "mean_realised": 18.86043541329904,
+       "overpaid": 3,
+       "career_year_share": 0.2
+      },
+      "stats_b": {
+       "mean_realised": 18.943064535497673,
+       "overpaid": 2,
+       "career_year_share": 0.4
+      },
+      "delta_mean_realised_b_minus_a": 0.08262912219863239,
+      "delta_mean_realised_ci95": [
+       -2.717603058348889,
+       6.305215502609705
+      ],
+      "delta_overpaid_b_minus_a": -1,
+      "delta_overpaid_ci95": [
+       -3.0,
+       2.0
+      ],
+      "career_share_null_a": [
+       0.2,
+       1.0
+      ],
+      "career_share_null_b": [
+       0.2,
+       1.0
+      ]
+     },
+     "2022": {
+      "a": "one_global",
+      "b": "per_league",
+      "k": 5,
+      "n": 106,
+      "stats_a": {
+       "mean_realised": 21.730616768580212,
+       "overpaid": 3,
+       "career_year_share": 0.4
+      },
+      "stats_b": {
+       "mean_realised": 21.149730361895156,
+       "overpaid": 3,
+       "career_year_share": 0.4
+      },
+      "delta_mean_realised_b_minus_a": -0.5808864066850568,
+      "delta_mean_realised_ci95": [
+       -2.0714901875368206,
+       2.5730833655479124
+      ],
+      "delta_overpaid_b_minus_a": 0,
+      "delta_overpaid_ci95": [
+       -1.0,
+       1.0
+      ],
+      "career_share_null_a": [
+       0.0,
+       1.0
+      ],
+      "career_share_null_b": [
+       0.0,
+       0.8
+      ]
+     },
+     "2023": {
+      "a": "one_global",
+      "b": "per_league",
+      "k": 5,
+      "n": 102,
+      "stats_a": {
+       "mean_realised": 24.551358260057956,
+       "overpaid": 2,
+       "career_year_share": 0.8
+      },
+      "stats_b": {
+       "mean_realised": 25.30978285603261,
+       "overpaid": 2,
+       "career_year_share": 0.6
+      },
+      "delta_mean_realised_b_minus_a": 0.7584245959746525,
+      "delta_mean_realised_ci95": [
+       -3.4749890793398883,
+       5.730271610542537
+      ],
+      "delta_overpaid_b_minus_a": 0,
+      "delta_overpaid_ci95": [
+       -2.0,
+       1.0
+      ],
+      "career_share_null_a": [
+       0.0,
+       0.8
+      ],
+      "career_share_null_b": [
+       0.0,
+       0.8
+      ]
+     },
+     "2024": {
+      "a": "one_global",
+      "b": "per_league",
+      "k": 5,
+      "n": 104,
+      "stats_a": {
+       "mean_realised": 19.562941176130142,
+       "overpaid": 3,
+       "career_year_share": 0.8
+      },
+      "stats_b": {
+       "mean_realised": 22.828994405851,
+       "overpaid": 2,
+       "career_year_share": 0.4
+      },
+      "delta_mean_realised_b_minus_a": 3.266053229720857,
+      "delta_mean_realised_ci95": [
+       -2.945651918211375,
+       7.314129019377326
+      ],
+      "delta_overpaid_b_minus_a": -1,
+      "delta_overpaid_ci95": [
+       -3.0,
+       2.0
+      ],
+      "career_share_null_a": [
+       0.2,
+       1.0
+      ],
+      "career_share_null_b": [
+       0.19500000000000012,
+       1.0
+      ]
+     },
+     "2025": {
+      "a": "one_global",
+      "b": "per_league",
+      "k": 5,
+      "n": 127,
+      "stats_a": {
+       "mean_realised": 27.40087320011521,
+       "overpaid": 1,
+       "career_year_share": 0.8
+      },
+      "stats_b": {
+       "mean_realised": 25.4564584583755,
+       "overpaid": 2,
+       "career_year_share": 1.0
+      },
+      "delta_mean_realised_b_minus_a": -1.9444147417397097,
+      "delta_mean_realised_ci95": [
+       -5.757981438449466,
+       1.5951420620458094
+      ],
+      "delta_overpaid_b_minus_a": 1,
+      "delta_overpaid_ci95": [
+       -1.0,
+       3.0
+      ],
+      "career_share_null_a": [
+       0.2,
+       1.0
+      ],
+      "career_share_null_b": [
+       0.2,
+       1.0
+      ]
+     }
+    },
+    "seasons_b_beats_a_on_mean_realised": 3,
+    "pooled_delta_mean_realised_b_minus_a": -0.051397658428019945,
+    "pooled_ci95": [
+     -1.1914509862980536,
+     1.9748652268242637
+    ],
+    "pooled_career_year_share_a": 0.6333333333333333,
+    "pooled_career_year_share_b": 0.6,
+    "pooled_overpaid_a": 14,
+    "pooled_overpaid_b": 13
+   }
+  },
+  "k20": {
+   "primary": {
+    "a": "per_league",
+    "b": "rtm_plus_league",
+    "k": 20,
+    "seasons": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ],
+    "per_season": {
+     "2020": {
+      "a": "per_league",
+      "b": "rtm_plus_league",
+      "k": 20,
+      "n": 134,
+      "stats_a": {
+       "mean_realised": 19.1426456225906,
+       "overpaid": 7,
+       "career_year_share": 0.85
+      },
+      "stats_b": {
+       "mean_realised": 19.303895695276072,
+       "overpaid": 5,
+       "career_year_share": 0.6
+      },
+      "delta_mean_realised_b_minus_a": 0.16125007268547265,
+      "delta_mean_realised_ci95": [
+       -1.0170316490539812,
+       1.3198143001823237
+      ],
+      "delta_overpaid_b_minus_a": -2,
+      "delta_overpaid_ci95": [
+       -6.0,
+       2.0
+      ],
+      "career_share_null_a": [
+       0.3,
+       0.6512500000000003
+      ],
+      "career_share_null_b": [
+       0.35,
+       0.7
+      ]
+     },
+     "2021": {
+      "a": "per_league",
+      "b": "rtm_plus_league",
+      "k": 20,
+      "n": 101,
+      "stats_a": {
+       "mean_realised": 18.65504060449341,
+       "overpaid": 6,
+       "career_year_share": 0.55
+      },
+      "stats_b": {
+       "mean_realised": 19.15745650548885,
+       "overpaid": 4,
+       "career_year_share": 0.45
+      },
+      "delta_mean_realised_b_minus_a": 0.5024159009954374,
+      "delta_mean_realised_ci95": [
+       -0.2735088696435917,
+       1.7423173116748907
+      ],
+      "delta_overpaid_b_minus_a": -2,
+      "delta_overpaid_ci95": [
+       -5.0,
+       1.0
+      ],
+      "career_share_null_a": [
+       0.4,
+       0.7512500000000003
+      ],
+      "career_share_null_b": [
+       0.4,
+       0.7512500000000003
+      ]
+     },
+     "2022": {
+      "a": "per_league",
+      "b": "rtm_plus_league",
+      "k": 20,
+      "n": 106,
+      "stats_a": {
+       "mean_realised": 20.651986668689894,
+       "overpaid": 3,
+       "career_year_share": 0.5
+      },
+      "stats_b": {
+       "mean_realised": 20.02799918297612,
+       "overpaid": 4,
+       "career_year_share": 0.3
+      },
+      "delta_mean_realised_b_minus_a": -0.6239874857137728,
+      "delta_mean_realised_ci95": [
+       -1.6000999305863441,
+       0.7740454250180933
+      ],
+      "delta_overpaid_b_minus_a": 1,
+      "delta_overpaid_ci95": [
+       -2.0,
+       4.0
+      ],
+      "career_share_null_a": [
+       0.25,
+       0.6012500000000003
+      ],
+      "career_share_null_b": [
+       0.25,
+       0.6
+      ]
+     },
+     "2023": {
+      "a": "per_league",
+      "b": "rtm_plus_league",
+      "k": 20,
+      "n": 102,
+      "stats_a": {
+       "mean_realised": 19.81855943659198,
+       "overpaid": 5,
+       "career_year_share": 0.6
+      },
+      "stats_b": {
+       "mean_realised": 20.268472414464224,
+       "overpaid": 5,
+       "career_year_share": 0.5
+      },
+      "delta_mean_realised_b_minus_a": 0.4499129778722448,
+      "delta_mean_realised_ci95": [
+       -0.3892616580576266,
+       2.0005754799625324
+      ],
+      "delta_overpaid_b_minus_a": 0,
+      "delta_overpaid_ci95": [
+       -3.0,
+       2.0
+      ],
+      "career_share_null_a": [
+       0.3,
+       0.65
+      ],
+      "career_share_null_b": [
+       0.3,
+       0.65
+      ]
+     },
+     "2024": {
+      "a": "per_league",
+      "b": "rtm_plus_league",
+      "k": 20,
+      "n": 104,
+      "stats_a": {
+       "mean_realised": 19.797682567562113,
+       "overpaid": 4,
+       "career_year_share": 0.6
+      },
+      "stats_b": {
+       "mean_realised": 19.89394794401987,
+       "overpaid": 4,
+       "career_year_share": 0.45
+      },
+      "delta_mean_realised_b_minus_a": 0.09626537645775812,
+      "delta_mean_realised_ci95": [
+       -0.33665498601354643,
+       1.1181456018962996
+      ],
+      "delta_overpaid_b_minus_a": 0,
+      "delta_overpaid_ci95": [
+       -3.0,
+       1.0
+      ],
+      "career_share_null_a": [
+       0.4,
+       0.8
+      ],
+      "career_share_null_b": [
+       0.4,
+       0.8
+      ]
+     },
+     "2025": {
+      "a": "per_league",
+      "b": "rtm_plus_league",
+      "k": 20,
+      "n": 127,
+      "stats_a": {
+       "mean_realised": 21.47060562955777,
+       "overpaid": 5,
+       "career_year_share": 0.8
+      },
+      "stats_b": {
+       "mean_realised": 20.765623825410593,
+       "overpaid": 8,
+       "career_year_share": 0.6
+      },
+      "delta_mean_realised_b_minus_a": -0.7049818041471774,
+      "delta_mean_realised_ci95": [
+       -1.535229629140442,
+       0.2802654519095416
+      ],
+      "delta_overpaid_b_minus_a": 3,
+      "delta_overpaid_ci95": [
+       -1.0,
+       5.0
+      ],
+      "career_share_null_a": [
+       0.39875000000000005,
+       0.8
+      ],
+      "career_share_null_b": [
+       0.4,
+       0.8
+      ]
+     }
+    },
+    "seasons_b_beats_a_on_mean_realised": 4,
+    "pooled_delta_mean_realised_b_minus_a": -0.01985416030833953,
+    "pooled_ci95": [
+     -0.31995506504257215,
+     0.5134247984232778
+    ],
+    "pooled_career_year_share_a": 0.65,
+    "pooled_career_year_share_b": 0.4833333333333334,
+    "pooled_overpaid_a": 30,
+    "pooled_overpaid_b": 30
+   },
+   "placebo": {
+    "a": "one_global",
+    "b": "per_league",
+    "k": 20,
+    "seasons": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ],
+    "per_season": {
+     "2020": {
+      "a": "one_global",
+      "b": "per_league",
+      "k": 20,
+      "n": 134,
+      "stats_a": {
+       "mean_realised": 18.265434303849805,
+       "overpaid": 9,
+       "career_year_share": 0.8
+      },
+      "stats_b": {
+       "mean_realised": 19.1426456225906,
+       "overpaid": 7,
+       "career_year_share": 0.85
+      },
+      "delta_mean_realised_b_minus_a": 0.8772113187407946,
+      "delta_mean_realised_ci95": [
+       -0.6283409033612647,
+       1.2522527893925293
+      ],
+      "delta_overpaid_b_minus_a": -2,
+      "delta_overpaid_ci95": [
+       -3.0,
+       2.0
+      ],
+      "career_share_null_a": [
+       0.35,
+       0.7
+      ],
+      "career_share_null_b": [
+       0.3,
+       0.6512500000000003
+      ]
+     },
+     "2021": {
+      "a": "one_global",
+      "b": "per_league",
+      "k": 20,
+      "n": 101,
+      "stats_a": {
+       "mean_realised": 17.891575576009643,
+       "overpaid": 8,
+       "career_year_share": 0.6
+      },
+      "stats_b": {
+       "mean_realised": 18.65504060449341,
+       "overpaid": 6,
+       "career_year_share": 0.55
+      },
+      "delta_mean_realised_b_minus_a": 0.7634650284837683,
+      "delta_mean_realised_ci95": [
+       -0.39790060799617183,
+       1.7433225808446247
+      ],
+      "delta_overpaid_b_minus_a": -2,
+      "delta_overpaid_ci95": [
+       -4.0,
+       1.0
+      ],
+      "career_share_null_a": [
+       0.4,
+       0.8
+      ],
+      "career_share_null_b": [
+       0.4,
+       0.7512500000000003
+      ]
+     },
+     "2022": {
+      "a": "one_global",
+      "b": "per_league",
+      "k": 20,
+      "n": 106,
+      "stats_a": {
+       "mean_realised": 19.74116373070079,
+       "overpaid": 4,
+       "career_year_share": 0.55
+      },
+      "stats_b": {
+       "mean_realised": 20.651986668689894,
+       "overpaid": 3,
+       "career_year_share": 0.5
+      },
+      "delta_mean_realised_b_minus_a": 0.9108229379891029,
+      "delta_mean_realised_ci95": [
+       -0.25518952525164806,
+       2.2910934965784966
+      ],
+      "delta_overpaid_b_minus_a": -1,
+      "delta_overpaid_ci95": [
+       -5.0,
+       2.0
+      ],
+      "career_share_null_a": [
+       0.25,
+       0.65
+      ],
+      "career_share_null_b": [
+       0.25,
+       0.6012500000000003
+      ]
+     },
+     "2023": {
+      "a": "one_global",
+      "b": "per_league",
+      "k": 20,
+      "n": 102,
+      "stats_a": {
+       "mean_realised": 18.955870502283034,
+       "overpaid": 6,
+       "career_year_share": 0.7
+      },
+      "stats_b": {
+       "mean_realised": 19.81855943659198,
+       "overpaid": 5,
+       "career_year_share": 0.6
+      },
+      "delta_mean_realised_b_minus_a": 0.8626889343089452,
+      "delta_mean_realised_ci95": [
+       -0.5558889303841924,
+       2.5348266461530127
+      ],
+      "delta_overpaid_b_minus_a": -1,
+      "delta_overpaid_ci95": [
+       -4.0,
+       1.0
+      ],
+      "career_share_null_a": [
+       0.29875,
+       0.65
+      ],
+      "career_share_null_b": [
+       0.3,
+       0.65
+      ]
+     },
+     "2024": {
+      "a": "one_global",
+      "b": "per_league",
+      "k": 20,
+      "n": 104,
+      "stats_a": {
+       "mean_realised": 19.5295275388603,
+       "overpaid": 4,
+       "career_year_share": 0.6
+      },
+      "stats_b": {
+       "mean_realised": 19.797682567562113,
+       "overpaid": 4,
+       "career_year_share": 0.6
+      },
+      "delta_mean_realised_b_minus_a": 0.2681550287018126,
+      "delta_mean_realised_ci95": [
+       -0.6490743345863598,
+       0.7796996155072645
+      ],
+      "delta_overpaid_b_minus_a": 0,
+      "delta_overpaid_ci95": [
+       -2.0,
+       3.0
+      ],
+      "career_share_null_a": [
+       0.39875000000000005,
+       0.8
+      ],
+      "career_share_null_b": [
+       0.4,
+       0.8
+      ]
+     },
+     "2025": {
+      "a": "one_global",
+      "b": "per_league",
+      "k": 20,
+      "n": 127,
+      "stats_a": {
+       "mean_realised": 20.945372038203786,
+       "overpaid": 6,
+       "career_year_share": 0.7
+      },
+      "stats_b": {
+       "mean_realised": 21.47060562955777,
+       "overpaid": 5,
+       "career_year_share": 0.8
+      },
+      "delta_mean_realised_b_minus_a": 0.5252335913539845,
+      "delta_mean_realised_ci95": [
+       -0.6916215901009651,
+       1.6138398586045626
+      ],
+      "delta_overpaid_b_minus_a": -1,
+      "delta_overpaid_ci95": [
+       -4.0,
+       3.0
+      ],
+      "career_share_null_a": [
+       0.4,
+       0.8
+      ],
+      "career_share_null_b": [
+       0.39875000000000005,
+       0.8
+      ]
+     }
+    },
+    "seasons_b_beats_a_on_mean_realised": 6,
+    "pooled_delta_mean_realised_b_minus_a": 0.7012628065964014,
+    "pooled_ci95": [
+     0.08414183517326151,
+     1.0303117122605392
+    ],
+    "pooled_career_year_share_a": 0.6583333333333333,
+    "pooled_career_year_share_b": 0.65,
+    "pooled_overpaid_a": 37,
+    "pooled_overpaid_b": 30
+   }
+  }
+ },
+ "verdict": "NOT SEPARABLE at this n: the ranking read does not separate; report the MAE decomposition only"
+}

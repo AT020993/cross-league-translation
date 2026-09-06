@@ -1,0 +1,514 @@
+{
+ "generated_by": "scripts/validate_translation_hierarchical.py",
+ "continental_source": "api",
+ "primary_arm_declared_before_run": "hier",
+ "tau2_estimator": "dl",
+ "alternatives": [
+  "hier_joint_beta",
+  "hier_recency1",
+  "hier_additive",
+  "hier_plus_rtm"
+ ],
+ "decomposition": [
+  "hier_no_league",
+  "hier_tier_beta"
+ ],
+ "min_stint_minutes": 36.0,
+ "rate_floor": 0.1,
+ "n_pooled": 674,
+ "n_stints": 32052,
+ "walkforward_mae_reproduced": {
+  "per_league": 3.086580833119666,
+  "one_global": 3.290826603716984,
+  "b0": 3.8864927856759652,
+  "rtm": 3.116392653985076,
+  "rtm_plus_league": 2.941881447636977
+ },
+ "pooled": {
+  "per_league": {
+   "n": 674,
+   "mae": 3.086580833119666,
+   "rmse": 3.944627174168078,
+   "r2": 0.3490965693565038,
+   "bias": -0.19993857311919278
+  },
+  "one_global": {
+   "n": 674,
+   "mae": 3.290826603716984,
+   "rmse": 4.198216770138885,
+   "r2": 0.2627167722539836,
+   "bias": -0.4341292356119431
+  },
+  "b0": {
+   "n": 674,
+   "mae": 3.8864927856759652,
+   "rmse": 4.978091995539075,
+   "r2": -0.03664599079675468,
+   "bias": 2.322911956651117
+  },
+  "rtm": {
+   "n": 674,
+   "mae": 3.116392653985076,
+   "rmse": 3.96931886248837,
+   "r2": 0.3409223082323237,
+   "bias": -0.439871769257122
+  },
+  "rtm_plus_league": {
+   "n": 674,
+   "mae": 2.941881447636977,
+   "rmse": 3.773430131989201,
+   "r2": 0.40436904181421773,
+   "bias": -0.45369585444737737
+  },
+  "hier": {
+   "n": 674,
+   "mae": 3.1103155913392495,
+   "rmse": 3.9546402181183313,
+   "r2": 0.34578786796877237,
+   "bias": -1.006598521750102
+  },
+  "hier_no_league": {
+   "n": 674,
+   "mae": 3.113973631822795,
+   "rmse": 3.957654032536007,
+   "r2": 0.3447903434663677,
+   "bias": 0.622292608691746
+  },
+  "hier_tier_beta": {
+   "n": 674,
+   "mae": 3.124029999922181,
+   "rmse": 3.9582309783901786,
+   "r2": 0.3445992969293482,
+   "bias": -0.9194328080095504
+  },
+  "hier_joint_beta": {
+   "n": 674,
+   "mae": 3.137916783452478,
+   "rmse": 3.9738348428324635,
+   "r2": 0.3394217610847574,
+   "bias": -1.2883888316981789
+  },
+  "hier_recency1": {
+   "n": 674,
+   "mae": 2.8507243969752,
+   "rmse": 3.672211498893604,
+   "r2": 0.4358949229228075,
+   "bias": -0.2938110541069995
+  },
+  "hier_additive": {
+   "n": 674,
+   "mae": 2.942312343723578,
+   "rmse": 3.774582641963317,
+   "r2": 0.40400514189836023,
+   "bias": -0.40635006345820723
+  },
+  "hier_plus_rtm": {
+   "n": 674,
+   "mae": 2.9613350459609413,
+   "rmse": 3.7863044824446876,
+   "r2": 0.40029770986875324,
+   "bias": -0.381147960065454
+  }
+ },
+ "per_season": [
+  {
+   "season": 2020,
+   "n": 134,
+   "hier_plus_rtm_n_train": 385,
+   "mae_per_league": 3.3762019154361917,
+   "mae_one_global": 3.5067947812509925,
+   "mae_b0": 4.2269249970289735,
+   "mae_rtm": 3.2755970407225607,
+   "mae_rtm_plus_league": 3.1056576945408363,
+   "mae_hier": 3.119885131868663,
+   "mae_hier_no_league": 3.4024365471944957,
+   "mae_hier_tier_beta": 3.1499162931881135,
+   "mae_hier_joint_beta": 3.1538359609773017,
+   "mae_hier_recency1": 2.9283773956866526,
+   "mae_hier_additive": 3.0240782884617574,
+   "mae_hier_plus_rtm": 3.098921967847807
+  },
+  {
+   "season": 2021,
+   "n": 101,
+   "hier_plus_rtm_n_train": 519,
+   "mae_per_league": 2.872844691564101,
+   "mae_one_global": 3.1353687217390234,
+   "mae_b0": 4.138791975911779,
+   "mae_rtm": 2.9504764471877722,
+   "mae_rtm_plus_league": 2.790920684622574,
+   "mae_hier": 2.9430898029519854,
+   "mae_hier_no_league": 3.1470379546178404,
+   "mae_hier_tier_beta": 2.987108671522216,
+   "mae_hier_joint_beta": 2.941083835100924,
+   "mae_hier_recency1": 2.7567359039429866,
+   "mae_hier_additive": 2.924278781429415,
+   "mae_hier_plus_rtm": 2.8531809942433908
+  },
+  {
+   "season": 2022,
+   "n": 106,
+   "hier_plus_rtm_n_train": 620,
+   "mae_per_league": 2.9577937650742805,
+   "mae_one_global": 3.342768272397704,
+   "mae_b0": 3.3335683064672907,
+   "mae_rtm": 3.1276924949716753,
+   "mae_rtm_plus_league": 2.7994069389523526,
+   "mae_hier": 3.0049740846137567,
+   "mae_hier_no_league": 3.105824511876879,
+   "mae_hier_tier_beta": 3.003486010483542,
+   "mae_hier_joint_beta": 3.0344343430484475,
+   "mae_hier_recency1": 2.7309330449731957,
+   "mae_hier_additive": 2.831156225553607,
+   "mae_hier_plus_rtm": 2.9244696451448298
+  },
+  {
+   "season": 2023,
+   "n": 102,
+   "hier_plus_rtm_n_train": 726,
+   "mae_per_league": 3.317890524078726,
+   "mae_one_global": 3.5403224613936417,
+   "mae_b0": 4.059616704217807,
+   "mae_rtm": 3.215036477017077,
+   "mae_rtm_plus_league": 3.0464256652128876,
+   "mae_hier": 3.056631586221075,
+   "mae_hier_no_league": 3.060293750487266,
+   "mae_hier_tier_beta": 3.1338016262183293,
+   "mae_hier_joint_beta": 3.0863888426005803,
+   "mae_hier_recency1": 2.934789121973522,
+   "mae_hier_additive": 2.8782994072825443,
+   "mae_hier_plus_rtm": 2.9529709320847943
+  },
+  {
+   "season": 2024,
+   "n": 104,
+   "hier_plus_rtm_n_train": 828,
+   "mae_per_league": 2.549893638500327,
+   "mae_one_global": 2.649095395887883,
+   "mae_b0": 3.7853478413401787,
+   "mae_rtm": 2.590968877158954,
+   "mae_rtm_plus_league": 2.427148471210259,
+   "mae_hier": 2.684191800320993,
+   "mae_hier_no_league": 2.435619103414643,
+   "mae_hier_tier_beta": 2.6996502655326498,
+   "mae_hier_joint_beta": 2.685650405954221,
+   "mae_hier_recency1": 2.3462888759765956,
+   "mae_hier_additive": 2.4046829346653493,
+   "mae_hier_plus_rtm": 2.3869252884619425
+  },
+  {
+   "season": 2025,
+   "n": 127,
+   "hier_plus_rtm_n_train": 932,
+   "mae_per_league": 3.312182677545616,
+   "mae_one_global": 3.468363308766336,
+   "mae_b0": 3.7319281776496096,
+   "mae_rtm": 3.421973510361279,
+   "mae_rtm_plus_league": 3.345598276420782,
+   "mae_hier": 3.7132000692685945,
+   "mae_hier_no_league": 3.3887334609789437,
+   "mae_hier_tier_beta": 3.6458940963439237,
+   "mae_hier_joint_beta": 3.7757722945132652,
+   "mae_hier_recency1": 3.2890859049685637,
+   "mae_hier_additive": 3.4548326569665107,
+   "mae_hier_plus_rtm": 3.4100468457436452
+  }
+ ],
+ "contrasts": {
+  "hier_vs_rtm_plus_league": {
+   "a": "hier",
+   "b": "rtm_plus_league",
+   "delta_mae_b_minus_a": -0.16843414370227272,
+   "ci95": [
+    -0.27792374734208025,
+    -0.06483427794479492
+   ]
+  },
+  "hier_vs_per_league": {
+   "a": "hier",
+   "b": "per_league",
+   "delta_mae_b_minus_a": -0.023734758219583707,
+   "ci95": [
+    -0.1882689690964437,
+    0.13866114237743302
+   ]
+  },
+  "hier_vs_rtm": {
+   "a": "hier",
+   "b": "rtm",
+   "delta_mae_b_minus_a": 0.006077062645826636,
+   "ci95": [
+    -0.12233339087251341,
+    0.12312259612893606
+   ]
+  },
+  "hier_vs_one_global": {
+   "a": "hier",
+   "b": "one_global",
+   "delta_mae_b_minus_a": 0.18051101237773448,
+   "ci95": [
+    0.01372163655833585,
+    0.34930697971265906
+   ]
+  },
+  "hier_vs_b0": {
+   "a": "hier",
+   "b": "b0",
+   "delta_mae_b_minus_a": 0.7761771943367157,
+   "ci95": [
+    0.4864842886397116,
+    1.088456073245735
+   ]
+  },
+  "hier_vs_hier_no_league": {
+   "a": "hier",
+   "b": "hier_no_league",
+   "delta_mae_b_minus_a": 0.003658040483545566,
+   "ci95": [
+    -0.14226300777217876,
+    0.14971189898188086
+   ]
+  },
+  "hier_vs_hier_tier_beta": {
+   "a": "hier",
+   "b": "hier_tier_beta",
+   "delta_mae_b_minus_a": 0.01371440858293127,
+   "ci95": [
+    -0.02493000054070724,
+    0.05411254701657912
+   ]
+  },
+  "hier_plus_rtm_vs_rtm_plus_league": {
+   "a": "hier_plus_rtm",
+   "b": "rtm_plus_league",
+   "delta_mae_b_minus_a": -0.019453598323964538,
+   "ci95": [
+    -0.08071154719543364,
+    0.0424709351444584
+   ]
+  },
+  "hier_joint_beta_vs_hier": {
+   "a": "hier_joint_beta",
+   "b": "hier",
+   "delta_mae_b_minus_a": -0.027601192113228645,
+   "ci95": [
+    -0.06311685536346447,
+    0.007806832290605615
+   ]
+  },
+  "hier_recency1_vs_hier": {
+   "a": "hier_recency1",
+   "b": "hier",
+   "delta_mae_b_minus_a": 0.25959119436404965,
+   "ci95": [
+    0.16270785961311754,
+    0.3540661426992629
+   ]
+  },
+  "hier_additive_vs_hier": {
+   "a": "hier_additive",
+   "b": "hier",
+   "delta_mae_b_minus_a": 0.16800324761567165,
+   "ci95": [
+    0.10230339217229653,
+    0.23681034023820702
+   ]
+  },
+  "hier_recency1_vs_rtm_plus_league": {
+   "a": "hier_recency1",
+   "b": "rtm_plus_league",
+   "delta_mae_b_minus_a": 0.09115705066177693,
+   "ci95": [
+    0.023569862621671867,
+    0.15911571031163985
+   ]
+  },
+  "hier_additive_vs_rtm_plus_league": {
+   "a": "hier_additive",
+   "b": "rtm_plus_league",
+   "delta_mae_b_minus_a": -0.0004308960866010736,
+   "ci95": [
+    -0.09935952697546115,
+    0.09600726078699946
+   ]
+  }
+ },
+ "fits": {
+  "fit_2020": {
+   "beta_pairs_to_euroleague": {
+    "aba-league": 0.7639,
+    "france-pro-a": 0.796,
+    "germany-bbl": 0.783,
+    "greece-a1": 0.7497,
+    "israel-bsl": 0.8153,
+    "italy-lba": 0.8529,
+    "lithuania-lkl": 0.8001,
+    "spain-acb": 0.9036,
+    "turkey-bsl": 0.8149,
+    "vtb": 0.8206
+   },
+   "mu": 2.369310809863984,
+   "tau2": 0.119516766522179,
+   "tau2_floored_by_arm": {
+    "hier": false,
+    "hier_joint_beta": false,
+    "hier_recency1": false,
+    "hier_additive": false,
+    "hier_no_league": false,
+    "hier_tier_beta": false
+   },
+   "sigma2_per_game": 1.322595947282,
+   "n_players": 4040,
+   "kappa_at_mean_games": 0.6307474706693915
+  },
+  "fit_2021": {
+   "beta_pairs_to_euroleague": {
+    "aba-league": 0.7231,
+    "france-pro-a": 0.82,
+    "germany-bbl": 0.7753,
+    "greece-a1": 0.7495,
+    "israel-bsl": 0.7981,
+    "italy-lba": 0.8544,
+    "lithuania-lkl": 0.7842,
+    "spain-acb": 0.8962,
+    "turkey-bsl": 0.816,
+    "vtb": 0.8186
+   },
+   "mu": 2.3652446159192864,
+   "tau2": 0.11700836839556092,
+   "tau2_floored_by_arm": {
+    "hier": false,
+    "hier_joint_beta": false,
+    "hier_recency1": false,
+    "hier_additive": false,
+    "hier_no_league": false,
+    "hier_tier_beta": false
+   },
+   "sigma2_per_game": 1.3394238025671366,
+   "n_players": 4488,
+   "kappa_at_mean_games": 0.6892154373490399
+  },
+  "fit_2022": {
+   "beta_pairs_to_euroleague": {
+    "aba-league": 0.7377,
+    "france-pro-a": 0.8114,
+    "germany-bbl": 0.7769,
+    "greece-a1": 0.7481,
+    "israel-bsl": 0.8068,
+    "italy-lba": 0.8373,
+    "lithuania-lkl": 0.7724,
+    "spain-acb": 0.9007,
+    "turkey-bsl": 0.8123,
+    "vtb": 0.8086
+   },
+   "mu": 2.35570188938215,
+   "tau2": 0.11453175046414904,
+   "tau2_floored_by_arm": {
+    "hier": false,
+    "hier_joint_beta": false,
+    "hier_recency1": false,
+    "hier_additive": false,
+    "hier_no_league": false,
+    "hier_tier_beta": false
+   },
+   "sigma2_per_game": 1.4274153000314163,
+   "n_players": 4874,
+   "kappa_at_mean_games": 0.676449527733149
+  },
+  "fit_2023": {
+   "beta_pairs_to_euroleague": {
+    "aba-league": 0.7417,
+    "france-pro-a": 0.8129,
+    "germany-bbl": 0.7859,
+    "greece-a1": 0.7607,
+    "israel-bsl": 0.8111,
+    "italy-lba": 0.8393,
+    "lithuania-lkl": 0.7662,
+    "spain-acb": 0.9043,
+    "turkey-bsl": 0.8121,
+    "vtb": 0.8075
+   },
+   "mu": 2.362291008436392,
+   "tau2": 0.1115598154915317,
+   "tau2_floored_by_arm": {
+    "hier": false,
+    "hier_joint_beta": false,
+    "hier_recency1": false,
+    "hier_additive": false,
+    "hier_no_league": false,
+    "hier_tier_beta": false
+   },
+   "sigma2_per_game": 1.4719478806782562,
+   "n_players": 5299,
+   "kappa_at_mean_games": 0.6439471488497088
+  },
+  "fit_2024": {
+   "beta_pairs_to_euroleague": {
+    "aba-league": 0.7468,
+    "france-pro-a": 0.8244,
+    "germany-bbl": 0.7837,
+    "greece-a1": 0.769,
+    "israel-bsl": 0.8115,
+    "italy-lba": 0.8394,
+    "lithuania-lkl": 0.7675,
+    "spain-acb": 0.9072,
+    "turkey-bsl": 0.8044,
+    "vtb": 0.8068
+   },
+   "mu": 2.367107944498803,
+   "tau2": 0.10980652941071015,
+   "tau2_floored_by_arm": {
+    "hier": false,
+    "hier_joint_beta": false,
+    "hier_recency1": false,
+    "hier_additive": false,
+    "hier_no_league": false,
+    "hier_tier_beta": false
+   },
+   "sigma2_per_game": 1.5150212847035809,
+   "n_players": 5773,
+   "kappa_at_mean_games": 0.6398240908259153
+  },
+  "fit_2025": {
+   "beta_pairs_to_euroleague": {
+    "aba-league": 0.7612,
+    "france-pro-a": 0.8303,
+    "germany-bbl": 0.7939,
+    "greece-a1": 0.778,
+    "israel-bsl": 0.8149,
+    "italy-lba": 0.8373,
+    "lithuania-lkl": 0.7692,
+    "spain-acb": 0.9059,
+    "turkey-bsl": 0.8088,
+    "vtb": 0.8091
+   },
+   "mu": 2.37462608005901,
+   "tau2": 0.10956238930128494,
+   "tau2_floored_by_arm": {
+    "hier": false,
+    "hier_joint_beta": false,
+    "hier_recency1": false,
+    "hier_additive": false,
+    "hier_no_league": false,
+    "hier_tier_beta": false
+   },
+   "sigma2_per_game": 1.5191582313642917,
+   "n_players": 6197,
+   "kappa_at_mean_games": 0.655591146288791
+  }
+ },
+ "shuffled_league_control": {
+  "observed_gain_vs_tier_beta": 0.01371440858293127,
+  "n_shuffles": 200,
+  "shuffles_reaching_observed": 55,
+  "shuffle_mean_gain": 0.013498207958246626,
+  "shuffle_p95_gain": 0.013850703759338057
+ },
+ "verdict": {
+  "question": "does the joint hierarchical model beat the two-stage combined arm on MAE?",
+  "hier_mae": 3.1103155913392495,
+  "rtm_plus_league_mae": 2.941881447636977,
+  "hier_at_or_below_combined": false,
+  "ci_excludes_zero": true
+ }
+}

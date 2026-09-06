@@ -1,0 +1,240 @@
+{
+  "restricted": {
+    "arm": "restricted",
+    "player_games": 389843,
+    "leagues": [
+      "bcl",
+      "eurocup",
+      "euroleague",
+      "france-pro-a",
+      "israel-bsl",
+      "lithuania-lkl",
+      "poland-plk",
+      "spain-acb",
+      "turkey-bsl",
+      "vtb"
+    ],
+    "pairs": 2212,
+    "factors": [
+      {
+        "stat": "points",
+        "estimator": "exposure_weighted",
+        "factor": 0.9238058105526937,
+        "n_pairs": 2212,
+        "spread": 0.026863798530269323
+      },
+      {
+        "stat": "points",
+        "estimator": "ratio_of_sums",
+        "factor": 0.9394947264233886,
+        "n_pairs": 2212,
+        "spread": 0.026863798530269323
+      },
+      {
+        "stat": "points",
+        "estimator": "mean_of_ratios",
+        "factor": 0.9126309278931193,
+        "n_pairs": 2212,
+        "spread": 0.026863798530269323
+      },
+      {
+        "stat": "rebounds",
+        "estimator": "exposure_weighted",
+        "factor": 0.9485048807628844,
+        "n_pairs": 2212,
+        "spread": 0.013305720675866772
+      },
+      {
+        "stat": "rebounds",
+        "estimator": "ratio_of_sums",
+        "factor": 0.9360824971418176,
+        "n_pairs": 2212,
+        "spread": 0.013305720675866772
+      },
+      {
+        "stat": "rebounds",
+        "estimator": "mean_of_ratios",
+        "factor": 0.9493882178176843,
+        "n_pairs": 2212,
+        "spread": 0.013305720675866772
+      },
+      {
+        "stat": "assists",
+        "estimator": "exposure_weighted",
+        "factor": 0.8735257938682897,
+        "n_pairs": 2212,
+        "spread": 0.02079565941697603
+      },
+      {
+        "stat": "assists",
+        "estimator": "ratio_of_sums",
+        "factor": 0.8806246315321147,
+        "n_pairs": 2212,
+        "spread": 0.02079565941697603
+      },
+      {
+        "stat": "assists",
+        "estimator": "mean_of_ratios",
+        "factor": 0.8943214532852657,
+        "n_pairs": 2212,
+        "spread": 0.02079565941697603
+      },
+      {
+        "stat": "pir",
+        "estimator": "exposure_weighted",
+        "factor": 0.8826597608612826,
+        "n_pairs": 2212,
+        "spread": 0.012826680191755924
+      },
+      {
+        "stat": "pir",
+        "estimator": "ratio_of_sums",
+        "factor": 0.8954864410530385,
+        "n_pairs": 2212,
+        "spread": 0.012826680191755924
+      },
+      {
+        "stat": "pir",
+        "estimator": "mean_of_ratios",
+        "factor": 0.8873078399287183,
+        "n_pairs": 2212,
+        "spread": 0.012826680191755924
+      }
+    ],
+    "threats": {
+      "assist_factor_all_pairs": 0.8735257938682897,
+      "name_collision": {
+        "colliding_pairs": 216,
+        "share": 0.09764918625678119,
+        "assist_factor_excluding": 0.8734613714839538,
+        "delta": -6.442238433590486e-05
+      },
+      "sample_filter_min15": {
+        "pairs": 1220,
+        "assist_factor": 0.8546967971816976,
+        "delta": -0.018828996686592103
+      }
+    }
+  },
+  "current": {
+    "arm": "current",
+    "player_games": 681888,
+    "leagues": [
+      "aba-league",
+      "bcl",
+      "eurocup",
+      "euroleague",
+      "france-pro-a",
+      "germany-bbl",
+      "greece-a1",
+      "israel-bsl",
+      "italy-lba",
+      "lithuania-lkl",
+      "poland-plk",
+      "spain-acb",
+      "turkey-bsl",
+      "vtb"
+    ],
+    "pairs": 5039,
+    "factors": [
+      {
+        "stat": "points",
+        "estimator": "exposure_weighted",
+        "factor": 0.9288459886352262,
+        "n_pairs": 5039,
+        "spread": 0.0161403165848083
+      },
+      {
+        "stat": "points",
+        "estimator": "ratio_of_sums",
+        "factor": 0.9394902954264485,
+        "n_pairs": 5039,
+        "spread": 0.0161403165848083
+      },
+      {
+        "stat": "points",
+        "estimator": "mean_of_ratios",
+        "factor": 0.9233499788416402,
+        "n_pairs": 5039,
+        "spread": 0.0161403165848083
+      },
+      {
+        "stat": "rebounds",
+        "estimator": "exposure_weighted",
+        "factor": 0.9469540798044898,
+        "n_pairs": 5039,
+        "spread": 0.014572521070117195
+      },
+      {
+        "stat": "rebounds",
+        "estimator": "ratio_of_sums",
+        "factor": 0.9326756610204232,
+        "n_pairs": 5039,
+        "spread": 0.014572521070117195
+      },
+      {
+        "stat": "rebounds",
+        "estimator": "mean_of_ratios",
+        "factor": 0.9472481820905404,
+        "n_pairs": 5039,
+        "spread": 0.014572521070117195
+      },
+      {
+        "stat": "assists",
+        "estimator": "exposure_weighted",
+        "factor": 0.9337641371603562,
+        "n_pairs": 5039,
+        "spread": 0.027625736440099802
+      },
+      {
+        "stat": "assists",
+        "estimator": "ratio_of_sums",
+        "factor": 0.922415338495399,
+        "n_pairs": 5039,
+        "spread": 0.027625736440099802
+      },
+      {
+        "stat": "assists",
+        "estimator": "mean_of_ratios",
+        "factor": 0.9500410749354988,
+        "n_pairs": 5039,
+        "spread": 0.027625736440099802
+      },
+      {
+        "stat": "pir",
+        "estimator": "exposure_weighted",
+        "factor": 0.8964882118327013,
+        "n_pairs": 5039,
+        "spread": 0.007337940029194856
+      },
+      {
+        "stat": "pir",
+        "estimator": "ratio_of_sums",
+        "factor": 0.9038261518618962,
+        "n_pairs": 5039,
+        "spread": 0.007337940029194856
+      },
+      {
+        "stat": "pir",
+        "estimator": "mean_of_ratios",
+        "factor": 0.8972512973196183,
+        "n_pairs": 5039,
+        "spread": 0.007337940029194856
+      }
+    ],
+    "threats": {
+      "assist_factor_all_pairs": 0.9337641371603562,
+      "name_collision": {
+        "colliding_pairs": 577,
+        "share": 0.11450684659654693,
+        "assist_factor_excluding": 0.9316783205337902,
+        "delta": -0.0020858166265660394
+      },
+      "sample_filter_min15": {
+        "pairs": 3057,
+        "assist_factor": 0.9220595638936877,
+        "delta": -0.011704573266668516
+      }
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+ "n_leagues": 12,
+ "n_domestic": 10,
+ "implied_contrasts": 90,
+ "well_bridged": 64,
+ "well_bridged_se_log": 0.02,
+ "max_reciprocity_error": 2.220446049250313e-16,
+ "edges": [
+  {
+   "league_src": "aba-league",
+   "league_dest": "eurocup",
+   "n_pairs": 289
+  },
+  {
+   "league_src": "aba-league",
+   "league_dest": "euroleague",
+   "n_pairs": 183
+  },
+  {
+   "league_src": "france-pro-a",
+   "league_dest": "eurocup",
+   "n_pairs": 205
+  },
+  {
+   "league_src": "france-pro-a",
+   "league_dest": "euroleague",
+   "n_pairs": 173
+  },
+  {
+   "league_src": "germany-bbl",
+   "league_dest": "eurocup",
+   "n_pairs": 230
+  },
+  {
+   "league_src": "germany-bbl",
+   "league_dest": "euroleague",
+   "n_pairs": 211
+  },
+  {
+   "league_src": "greece-a1",
+   "league_dest": "eurocup",
+   "n_pairs": 53
+  },
+  {
+   "league_src": "greece-a1",
+   "league_dest": "euroleague",
+   "n_pairs": 213
+  },
+  {
+   "league_src": "israel-bsl",
+   "league_dest": "eurocup",
+   "n_pairs": 77
+  },
+  {
+   "league_src": "israel-bsl",
+   "league_dest": "euroleague",
+   "n_pairs": 113
+  },
+  {
+   "league_src": "italy-lba",
+   "league_dest": "eurocup",
+   "n_pairs": 256
+  },
+  {
+   "league_src": "italy-lba",
+   "league_dest": "euroleague",
+   "n_pairs": 183
+  },
+  {
+   "league_src": "lithuania-lkl",
+   "league_dest": "eurocup",
+   "n_pairs": 148
+  },
+  {
+   "league_src": "lithuania-lkl",
+   "league_dest": "euroleague",
+   "n_pairs": 119
+  },
+  {
+   "league_src": "spain-acb",
+   "league_dest": "eurocup",
+   "n_pairs": 326
+  },
+  {
+   "league_src": "spain-acb",
+   "league_dest": "euroleague",
+   "n_pairs": 487
+  },
+  {
+   "league_src": "turkey-bsl",
+   "league_dest": "eurocup",
+   "n_pairs": 221
+  },
+  {
+   "league_src": "turkey-bsl",
+   "league_dest": "euroleague",
+   "n_pairs": 273
+  },
+  {
+   "league_src": "vtb",
+   "league_dest": "eurocup",
+   "n_pairs": 142
+  },
+  {
+   "league_src": "vtb",
+   "league_dest": "euroleague",
+   "n_pairs": 172
+  }
+ ]
+}

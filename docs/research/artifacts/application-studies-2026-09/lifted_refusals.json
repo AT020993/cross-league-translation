@@ -1,0 +1,86 @@
+{
+ "study": "C_lifted_refusals",
+ "preregistration": "translation-application-studies-preregistration-2026-09-06.md",
+ "season": 2025,
+ "committed_set": "translation_predictions_2025.json",
+ "identity_check": {
+  "n_accepted": 88,
+  "max_projection_gap": 0.0
+ },
+ "refusal_counts_before_lifting": {
+  "R1": 94,
+  "scorable": 88,
+  "R9": 48,
+  "R5": 100,
+  "R2": 176,
+  "R3": 10
+ },
+ "lifting_rule": {
+  "R9": "always",
+  "R5": "at >= 3 source games"
+ },
+ "n_lifted": {
+  "R5": 0,
+  "R9": 48
+ },
+ "population_rule": {
+  "rule": "full-season first_round <= 3",
+  "n_before": 88,
+  "n_after": 66,
+  "n_dropped_later_arrivals": 22
+ },
+ "groups": {
+  "accepted": {
+   "label": "accepted",
+   "n_scored": 58,
+   "n_censored_R8": 8,
+   "mae_model": 3.437728257071935,
+   "mae_b0": 3.829867964765885,
+   "mae_b1c": 3.4011292368522055,
+   "coverage": 0.9310344827586207
+  },
+  "lifted_R5": {
+   "label": "lifted_R5",
+   "n_scored": 0,
+   "n_censored_R8": 0
+  },
+  "lifted_R9": {
+   "label": "lifted_R9",
+   "n_scored": 34,
+   "n_censored_R8": 1,
+   "mae_model": 3.3972939762797405,
+   "mae_b0": 3.6548127544998747,
+   "mae_b1c": 3.3454253912358536,
+   "coverage": 0.9411764705882353
+  },
+  "lifted_all": {
+   "label": "lifted_all",
+   "n_scored": 34,
+   "n_censored_R8": 1,
+   "mae_model": 3.3972939762797405,
+   "mae_b0": 3.6548127544998747,
+   "mae_b1c": 3.3454253912358536,
+   "coverage": 0.9411764705882353
+  }
+ },
+ "contrasts": {
+  "lifted_R9": {
+   "mae_lifted_minus_accepted": -0.04043428079219469,
+   "ci95": [
+    -1.0525357717003816,
+    1.121895099200027
+   ],
+   "excludes_zero": false,
+   "read": "not separable: the code refuses coverage for nothing this test can measure"
+  },
+  "lifted_all": {
+   "mae_lifted_minus_accepted": -0.04043428079219469,
+   "ci95": [
+    -1.0525357717003816,
+    1.121895099200027
+   ],
+   "excludes_zero": false,
+   "read": "not separable: the code refuses coverage for nothing this test can measure"
+  }
+ }
+}

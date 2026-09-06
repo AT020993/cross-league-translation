@@ -1,0 +1,212 @@
+{
+ "walkforward": {
+  "n_pooled": 674,
+  "n_clusters": 201,
+  "seasons_per_league_wins": 6,
+  "seasons_separable": 3,
+  "ladder_mae": {
+   "untranslated (B0)": 3.8865,
+   "one global scalar": 3.2908,
+   "20 per-league factors": 3.0866,
+   "RTM, no league identity": 3.1164,
+   "RTM + per-league": 2.9419
+  },
+  "r2": {
+   "b0": -0.0366,
+   "one_global": 0.2627,
+   "per_league": 0.3491,
+   "rtm": 0.3409,
+   "rtm_plus_league": 0.4044
+  },
+  "ceiling": {
+   "split_half_r": 0.547494332170032,
+   "n_units": 4785,
+   "mean_games_per_arm": 10.313688610240334,
+   "mean_dest_games_scored": 17.816023738872403,
+   "ceiling_r2_at_mean_games": 0.676378471855869
+  },
+  "oracle": {
+   "r2": 0.3812272361927499,
+   "mae": 2.9963643491201215,
+   "n": 674
+  },
+  "contrasts": [
+   {
+    "contrast": "per-league vs B0",
+    "delta": 0.7999,
+    "lo": 0.6042,
+    "hi": 1.0083
+   },
+   {
+    "contrast": "per-league vs one global",
+    "delta": 0.2042,
+    "lo": 0.1274,
+    "hi": 0.2799
+   },
+   {
+    "contrast": "per-league vs RTM",
+    "delta": 0.0298,
+    "lo": -0.1017,
+    "hi": 0.1526
+   },
+   {
+    "contrast": "RTM + per-league vs RTM",
+    "delta": 0.1745,
+    "lo": 0.1087,
+    "hi": 0.2408
+   },
+   {
+    "contrast": "RTM + per-league vs per-league",
+    "delta": 0.1447,
+    "lo": 0.04,
+    "hi": 0.2533
+   }
+  ],
+  "shuffle_reps_beating_real": 0,
+  "combined_shuffle_reps_reaching_real": 0
+ },
+ "holdout": {
+  "verdict": "PASS",
+  "gates": {
+   "G1": true,
+   "G2": true,
+   "G3": true,
+   "G4": true,
+   "G5": true,
+   "G6": true,
+   "G6_share": 1.0,
+   "G7_coverage": 0.935064935064935,
+   "G7_coverage_factor_only": 0.15151515151515152
+  },
+  "armA_n": 231,
+  "armB_n": 1371,
+  "armA_metrics": {
+   "model": {
+    "n": 231,
+    "mae": 3.0360496946133257,
+    "rmse": 3.9826778251857484,
+    "r2": 0.3696147073320557,
+    "bias": 0.5963437658000349
+   },
+   "B0": {
+    "n": 231,
+    "mae": 3.755978589008134,
+    "rmse": 4.7929139745944775,
+    "r2": 0.08703319207972693,
+    "bias": 2.1364338913031142
+   },
+   "B1a_oracle": {
+    "n": 231,
+    "mae": 4.731834816425156,
+    "rmse": 9.725251980229677,
+    "r2": -2.7588712079954143,
+    "bias": 0.005952434250657014
+   },
+   "B1b_honest": {
+    "n": 231,
+    "mae": 3.0789276317513186,
+    "rmse": 4.1147371400048405,
+    "r2": 0.3271164466818762,
+    "bias": 0.22159645379040083
+   }
+  },
+  "armA_g2": {
+   "delta_mae": 0.7199288943948083,
+   "ci_lo": 0.4624703345605863,
+   "ci_hi": 0.9965100697083089,
+   "excludes_zero": true,
+   "se": 0.13724965446248286,
+   "n_clusters": 66
+  },
+  "armA_g4_b1b": {
+   "delta_mae": 0.042877937137992816,
+   "ci_lo": -0.1331283325002073,
+   "ci_hi": 0.22239451809909153,
+   "excludes_zero": false,
+   "se": 0.09224615720221604,
+   "n_clusters": 66
+  },
+  "armB_pooled": {
+   "model": {
+    "n": 1371,
+    "mae": 3.2225695083607326,
+    "rmse": 4.12569128779073,
+    "r2": 0.23144532657630135,
+    "bias": 0.9099672769682474
+   },
+   "B0": {
+    "n": 1371,
+    "mae": 3.895218881217142,
+    "rmse": 4.9425256018293195,
+    "r2": -0.1030092816410133,
+    "bias": 2.4392165583105836
+   },
+   "bootstrap": {
+    "delta_mae": 0.6726493728564096,
+    "ci_lo": 0.5652690625099603,
+    "ci_hi": 0.787228883451597,
+    "excludes_zero": true,
+    "se": 0.057478910599561284,
+    "n_clusters": 347
+   }
+  },
+  "reliability": {
+   "split_half_r": 0.547494332170032,
+   "reliability_sb": 0.7075881582096492,
+   "n_units": 4785,
+   "mean_games_per_arm": 10.313688610240334,
+   "min_games_per_arm": 4
+  },
+  "resid_sd": 3.932787882579259,
+  "k_b1b": 0.8928002781037515
+ },
+ "ordering": {
+  "n_cells": 16,
+  "rho": 0.5617647058823529,
+  "p_asymptotic": 0.02353701647428084,
+  "p_permutation": 0.0154,
+  "null_p95": 0.44117647058823534,
+  "null_mean": -0.002907058823529412,
+  "n_perm": 10000
+ },
+ "ordering_negative_control": {
+  "draws": 20,
+  "n_perm_per_draw": 500,
+  "mean_rho": -0.15735294117647058,
+  "mean_p_permutation": 0.6409,
+  "share_significant_at_0_05": 0.0
+ },
+ "ordering_definition_sensitivity": {
+  "mean_of_ratios": {
+   "rho": 0.5617647058823529,
+   "p_asymptotic": 0.02353701647428084,
+   "n_cells": 16
+  },
+  "median_ratio": {
+   "rho": 0.6088235294117647,
+   "p_asymptotic": 0.012315203198246461,
+   "n_cells": 16
+  },
+  "ratio_of_sums_pir": {
+   "rho": 0.6941176470588235,
+   "p_asymptotic": 0.0028537059034569076,
+   "n_cells": 16
+  },
+  "ratio_of_mean_per36": {
+   "rho": 0.7705882352941176,
+   "p_asymptotic": 0.00047682239536332553,
+   "n_cells": 16
+  },
+  "minutes_weighted": {
+   "rho": 0.5323529411764706,
+   "p_asymptotic": 0.03376862296023464,
+   "n_cells": 16
+  }
+ },
+ "design": {
+  "n_pairs": 4074,
+  "n_cells": 20,
+  "n_reliable": 19,
+  "eurocup_above_euroleague": 10
+ }
+}

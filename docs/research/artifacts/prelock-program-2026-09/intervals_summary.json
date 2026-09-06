@@ -1,0 +1,273 @@
+{
+ "built_at": "2026-09-04",
+ "alpha": 0.05,
+ "coverage_band": [
+  0.9,
+  0.98
+ ],
+ "point_arm": "per_league",
+ "selection_folds": [
+  2022,
+  2023,
+  2024
+ ],
+ "n_rows_by_fold": {
+  "2020": 134,
+  "2021": 101,
+  "2022": 106,
+  "2023": 102,
+  "2024": 104,
+  "2025": 127
+ },
+ "per_fold": [
+  {
+   "family": "multiplier",
+   "fold": 2022,
+   "n": 106,
+   "coverage": 0.9433962264150944,
+   "mean_width": 16.584120063320974,
+   "winkler": 20.228292702949208
+  },
+  {
+   "family": "conformal",
+   "fold": 2022,
+   "n": 106,
+   "coverage": 0.9716981132075472,
+   "mean_width": 16.477335505646288,
+   "winkler": 17.28961274528626
+  },
+  {
+   "family": "normalised",
+   "fold": 2022,
+   "n": 106,
+   "coverage": 0.9622641509433962,
+   "mean_width": 16.320884395074216,
+   "winkler": 17.98666624405346
+  },
+  {
+   "family": "cqr",
+   "fold": 2022,
+   "n": 106,
+   "coverage": 0.9245283018867925,
+   "mean_width": 16.13630829380281,
+   "winkler": 20.10525441737629
+  },
+  {
+   "family": "multiplier",
+   "fold": 2023,
+   "n": 102,
+   "coverage": 0.9509803921568627,
+   "mean_width": 16.60694125793002,
+   "winkler": 22.267515206364212
+  },
+  {
+   "family": "conformal",
+   "fold": 2023,
+   "n": 102,
+   "coverage": 0.9215686274509803,
+   "mean_width": 15.303790616619352,
+   "winkler": 20.677091750430247
+  },
+  {
+   "family": "normalised",
+   "fold": 2023,
+   "n": 102,
+   "coverage": 0.9019607843137255,
+   "mean_width": 15.785730898882933,
+   "winkler": 21.401326854015963
+  },
+  {
+   "family": "cqr",
+   "fold": 2023,
+   "n": 102,
+   "coverage": 0.9411764705882353,
+   "mean_width": 15.237140035999923,
+   "winkler": 21.178732949071076
+  },
+  {
+   "family": "multiplier",
+   "fold": 2024,
+   "n": 104,
+   "coverage": 0.9519230769230769,
+   "mean_width": 17.913324608410242,
+   "winkler": 23.24940408600606
+  },
+  {
+   "family": "conformal",
+   "fold": 2024,
+   "n": 104,
+   "coverage": 0.9711538461538461,
+   "mean_width": 16.259648369801283,
+   "winkler": 21.550294333435755
+  },
+  {
+   "family": "normalised",
+   "fold": 2024,
+   "n": 104,
+   "coverage": 0.9807692307692307,
+   "mean_width": 16.787135539237013,
+   "winkler": 21.458864143570274
+  },
+  {
+   "family": "cqr",
+   "fold": 2024,
+   "n": 104,
+   "coverage": 0.9615384615384616,
+   "mean_width": 15.29900460989201,
+   "winkler": 20.256256453163438
+  }
+ ],
+ "pooled_selection_folds": {
+  "conformal": {
+   "n": 312,
+   "coverage": 0.9551282051282052,
+   "mean_width": 16.02111422100325,
+   "winkler": 19.817285000710086,
+   "winkler_se": 1.2795027882817163,
+   "coverage_se_binomial": 0.01172034130519189
+  },
+  "cqr": {
+   "n": 312,
+   "coverage": 0.9423076923076923,
+   "mean_width": 15.563248212320064,
+   "winkler": 20.506533333897863,
+   "winkler_se": 1.421201708458287,
+   "coverage_se_binomial": 0.013200124480454696
+  },
+  "multiplier": {
+   "n": 312,
+   "coverage": 0.9487179487179487,
+   "mean_width": 17.03464902017805,
+   "winkler": 21.90199872598204,
+   "winkler_se": 1.51150230629224,
+   "coverage_se_binomial": 0.012487455564248906
+  },
+  "normalised": {
+   "n": 312,
+   "coverage": 0.9487179487179487,
+   "mean_width": 16.301347415527488,
+   "winkler": 20.26039689714937,
+   "winkler_se": 1.34805775350915,
+   "coverage_se_binomial": 0.012487455564248906
+  }
+ },
+ "selection": {
+  "selected": "conformal",
+  "eligible": [
+   "multiplier",
+   "conformal",
+   "normalised",
+   "cqr"
+  ],
+  "best_by_score": "conformal",
+  "tie_threshold": 21.096787788991804,
+  "reason": "lowest Winkler inside the band"
+ },
+ "recency_weighted_sensitivity": [
+  {
+   "family": "conformal",
+   "fold": 2022,
+   "n": 106,
+   "coverage": 0.9716981132075472,
+   "mean_width": 16.39451290867866,
+   "winkler": 17.253670863583324
+  },
+  {
+   "family": "normalised",
+   "fold": 2022,
+   "n": 106,
+   "coverage": 0.9622641509433962,
+   "mean_width": 16.597746282516994,
+   "winkler": 18.08955072889663
+  },
+  {
+   "family": "conformal",
+   "fold": 2023,
+   "n": 102,
+   "coverage": 0.9117647058823529,
+   "mean_width": 14.833330522194197,
+   "winkler": 20.98846932277115
+  },
+  {
+   "family": "normalised",
+   "fold": 2023,
+   "n": 102,
+   "coverage": 0.9019607843137255,
+   "mean_width": 15.785730898882933,
+   "winkler": 21.401326854015963
+  },
+  {
+   "family": "conformal",
+   "fold": 2024,
+   "n": 104,
+   "coverage": 0.9711538461538461,
+   "mean_width": 16.64470989149708,
+   "winkler": 21.713204977230134
+  },
+  {
+   "family": "normalised",
+   "fold": 2024,
+   "n": 104,
+   "coverage": 0.9807692307692307,
+   "mean_width": 17.524268345816203,
+   "winkler": 21.913211065526152
+  }
+ ],
+ "negative_controls": {
+  "alpha_0.5_coverage": 0.5542429114848648,
+  "alpha_0.5_fails_band": true,
+  "leaked_calibration_coverage": 0.9615289754024494,
+  "honest_calibration_coverage": 0.9548068622707913,
+  "leak_over_covers": true
+ },
+ "multiplier_defect": {
+  "note": "a multiplicative interval scales with the point; width at y_hat=1 vs 15",
+  "width_at_1": 1.1406,
+  "width_at_15": 17.109
+ },
+ "confirmation_2025": {
+  "per_family": [
+   {
+    "family": "multiplier",
+    "fold": 2025,
+    "n": 127,
+    "coverage": 0.9291338582677166,
+    "mean_width": 17.093223373233112,
+    "winkler": 21.106464420646418
+   },
+   {
+    "family": "conformal",
+    "fold": 2025,
+    "n": 127,
+    "coverage": 0.9291338582677166,
+    "mean_width": 15.568505335789347,
+    "winkler": 19.966745594137954
+   },
+   {
+    "family": "normalised",
+    "fold": 2025,
+    "n": 127,
+    "coverage": 0.937007874015748,
+    "mean_width": 15.740498662890177,
+    "winkler": 19.990123318087317
+   },
+   {
+    "family": "cqr",
+    "fold": 2025,
+    "n": 127,
+    "coverage": 0.9448818897637795,
+    "mean_width": 16.00362951361614,
+    "winkler": 19.582072892695113
+   }
+  ],
+  "selected_family": "conformal",
+  "selected_family_read": {
+   "family": "conformal",
+   "fold": 2025,
+   "n": 127,
+   "coverage": 0.9291338582677166,
+   "mean_width": 15.568505335789347,
+   "winkler": 19.966745594137954
+  }
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "method": "se_pooled = CI width / (2*1.96); se_n = se_pooled * sqrt(n_pooled/n); power = Phi(effect/se_n - 1.96); n_for_80 = n_pooled * ((1.96 + 0.8416) * se_pooled / effect)^2",
+ "walkforward_n_pooled": 674,
+ "walkforward_continental_source": "api",
+ "prospective_n": [
+  50,
+  110
+ ],
+ "rows": [
+  {
+   "criterion": "beat B0 (untranslated source rate)",
+   "status": "primary",
+   "field": "pooled.delta_vs_b0",
+   "effect": 0.7999119525562994,
+   "ci": [
+    0.6041788935158593,
+    1.008305289703992
+   ],
+   "se_pooled": 0.10309536200362165,
+   "power_at_n": {
+    "50": 0.561,
+    "110": 0.88
+   },
+   "n_for_80pct": 88
+  },
+  {
+   "criterion": "beat one global scalar (nearest committed single-constant comparator; NOT B1b)",
+   "status": "primary (B1b proxy)",
+   "field": "pooled.delta_vs_global",
+   "effect": 0.2042457705973182,
+   "ci": [
+    0.127440732561659,
+    0.27990023786576157
+   ],
+   "se_pooled": 0.038893445314327854,
+   "power_at_n": {
+    "50": 0.298,
+    "110": 0.564
+   },
+   "n_for_80pct": 192
+  },
+  {
+   "criterion": "combined beats B1c (RTM, league-free)",
+   "status": "secondary",
+   "field": "rtm_comparator.rtm_plus_league_vs_rtm",
+   "effect": 0.17451120634809936,
+   "ci": [
+    0.10867049321435744,
+    0.24081073437064446
+   ],
+   "se_pooled": 0.03370986435370421,
+   "power_at_n": {
+    "50": 0.291,
+    "110": 0.552
+   },
+   "n_for_80pct": 198
+  },
+  {
+   "criterion": "combined beats per-league alone",
+   "status": "secondary",
+   "field": "rtm_comparator.rtm_plus_league_vs_per_league",
+   "effect": 0.144699385482689,
+   "ci": [
+    0.04004179966947993,
+    0.2533294564362979
+   ],
+   "se_pooled": 0.05441111590999068,
+   "power_at_n": {
+    "50": 0.108,
+    "110": 0.188
+   },
+   "n_for_80pct": 749
+  }
+ ]
+}

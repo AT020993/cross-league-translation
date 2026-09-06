@@ -1,0 +1,116 @@
+{
+  "generated_at": "2026-09-04T11:54:14+00:00",
+  "external_validity": {
+    "consensus_leagues_ranked": [
+      "spain-acb",
+      "turkey-bsl",
+      "france-pro-a",
+      "israel-bsl",
+      "vtb",
+      "lithuania-lkl",
+      "aba-league"
+    ],
+    "n_leagues_compared": 7,
+    "n_leagues_available": 10,
+    "leagues_without_consensus_position": [
+      "germany-bbl",
+      "greece-a1",
+      "italy-lba"
+    ],
+    "consensus_coverage_note": "rho scores only the leagues with a committed consensus position; it is silent about the rest. Do NOT cite rho holding across a corpus change as evidence the method survived it (ATI-2903).",
+    "spearman_rho_vs_consensus": 0.9285714285714288,
+    "spearman_p": 0.002519472403794688,
+    "eurocup_above_euroleague": "9/9",
+    "shared_source_leagues": [
+      "aba-league",
+      "france-pro-a",
+      "germany-bbl",
+      "israel-bsl",
+      "italy-lba",
+      "lithuania-lkl",
+      "spain-acb",
+      "turkey-bsl",
+      "vtb"
+    ],
+    "interval_calibration": {
+      "nominal": 0.95,
+      "realised_pooled": 0.77,
+      "realised_at_n_500": 0.65,
+      "source": "ATI-2890 synthetic validation, re-run 2026-09-04: docs/research/artifacts/translation-estimator-synthetic-2026-09-04/summary_api.json"
+    },
+    "measured_null": 1.0287
+  },
+  "config": {
+    "min_games": 8,
+    "min_pairs": 75,
+    "n_boot": 2000,
+    "usage_cut": 5.0,
+    "seed": 0,
+    "primary_estimator": "exposure_weighted",
+    "not_a_source": [
+      "bcl",
+      "test",
+      "euroleague",
+      "eurocup"
+    ],
+    "pir_rule": "pir used directly; no coalesce (ATI-2826)",
+    "headline_sample": "all_pairs",
+    "excluded_leagues": [],
+    "continental_source": "api"
+  },
+  "continental_side": {
+    "source": "api",
+    "api": {
+      "rows_raw": 134241,
+      "rows_kept": 103767,
+      "rows_dropped_total_dnp_unparseable": 30474,
+      "points_reconciliation_mismatches": 0,
+      "seasons": {
+        "euroleague": [
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "eurocup": [
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ]
+      },
+      "metric": "eff_from_components"
+    },
+    "n_domestic_player_games_before_api_seasons": 52015,
+    "first_api_season": 2016,
+    "excluded_sources": [
+      "poland-plk"
+    ],
+    "n_player_games_excluded": 49515
+  },
+  "n_player_games": 626496,
+  "n_pairs": 4074,
+  "n_rows": 1440,
+  "pooling": {
+    "n_rows_collapsed": 140,
+    "collapsed_stats": [
+      "assists",
+      "blocks",
+      "points",
+      "steals"
+    ],
+    "n_reliable": 806
+  }
+}

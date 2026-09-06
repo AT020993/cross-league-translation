@@ -1,0 +1,102 @@
+{
+ "continental_source": "api",
+ "n_pairs": 4074,
+ "folds_with_collapsed_block": [],
+ "seasons": [
+  2020,
+  2021,
+  2022,
+  2023,
+  2024,
+  2025
+ ],
+ "n_pooled": 674,
+ "n_clusters": 201,
+ "seasons_per_league_wins": 6,
+ "seasons_separable": 3,
+ "pooled": {
+  "mae_per_league": 3.086580833119666,
+  "mae_one_global": 3.290826603716984,
+  "mae_b0": 3.8864927856759652,
+  "delta_vs_global": 0.2042457705973182,
+  "ci": [
+   0.127440732561659,
+   0.27990023786576157
+  ],
+  "delta_vs_b0": 0.7999119525562994,
+  "ci_b0": [
+   0.6041788935158593,
+   1.008305289703992
+  ],
+  "r2": {
+   "per_league": 0.3490965693565038,
+   "one_global": 0.2627167722539836,
+   "b0": -0.03664599079675468,
+   "rtm": 0.3409223082323237,
+   "rtm_plus_league": 0.40436904181421773
+  },
+  "rmse": {
+   "per_league": 3.944627174168078,
+   "one_global": 4.198216770138885,
+   "b0": 4.978091995539075,
+   "rtm": 3.96931886248837,
+   "rtm_plus_league": 3.773430131989201
+  },
+  "ceiling": {
+   "split_half_r": 0.547494332170032,
+   "n_units": 4785,
+   "mean_games_per_arm": 10.313688610240334,
+   "mean_dest_games_scored": 17.816023738872403,
+   "ceiling_r2_at_mean_games": 0.676378471855869
+  }
+ },
+ "control_shuffle": {
+  "n_reps": 200,
+  "mean_delta": -0.06783959032937954,
+  "p95": -0.015412349599968435,
+  "reps_beating_real": 0
+ },
+ "rtm_comparator": {
+  "mae_rtm": 3.116392653985076,
+  "mae_rtm_plus_league": 2.941881447636977,
+  "per_league_vs_rtm": {
+   "delta": 0.029811820865410343,
+   "ci": [
+    -0.10168936294488055,
+    0.15255996648895687
+   ],
+   "separable": false
+  },
+  "rtm_plus_league_vs_rtm": {
+   "delta": 0.17451120634809936,
+   "ci": [
+    0.10867049321435744,
+    0.24081073437064446
+   ],
+   "separable": true
+  },
+  "rtm_plus_league_vs_per_league": {
+   "delta": 0.144699385482689,
+   "ci": [
+    0.04004179966947993,
+    0.2533294564362979
+   ],
+   "separable": true
+  }
+ },
+ "control_combined_shuffle": {
+  "n_reps": 200,
+  "real_gain": 0.17451120634809936,
+  "mean_delta": 0.013451902350992218,
+  "p95": 0.03586488839668431,
+  "reps_reaching_real": 0
+ },
+ "control_no_level_correction": {
+  "delta_vs_global": 0.1285474744742494,
+  "ci": [
+   0.04025348416667979,
+   0.21755305677494183
+  ],
+  "separable": true
+ }
+}

@@ -1,0 +1,251 @@
+{
+ "study": "A_pairing_vs_form",
+ "preregistration": "translation-application-studies-preregistration-2026-09-06.md",
+ "continental_source": "api",
+ "bar": {
+  "d_abs_lt": 0.1,
+  "ci_within": 0.2
+ },
+ "n_pairs_estimator": 4074,
+ "primary": {
+  "arm": "floor=8|both",
+  "n": 5358,
+  "n_paired": 3799,
+  "n_clusters": 456,
+  "form": {
+   "mean_paired": 0.614522063122222,
+   "mean_unpaired": 0.20009421983399525,
+   "cohens_d": 0.09143466733380967,
+   "ci95_cluster": [
+    0.015530895709973737,
+    0.1672034959527303
+   ],
+   "permutation_null_mean": 0.0613561448667603,
+   "permutation_null_p95_abs": 0.0971503251553582,
+   "share_of_null_draws_at_or_beyond": 0.1,
+   "read": "independent of form at this resolution (|d| < 0.10, CI inside \u00b10.20)"
+  },
+  "level": {
+   "mean_paired": 16.962614187595648,
+   "mean_unpaired": 14.782979108144652,
+   "cohens_d": 0.4456747881118468,
+   "ci95_cluster": [
+    0.3764006175743709,
+    0.5151244907806705
+   ],
+   "permutation_null_mean": 0.21048467038994934,
+   "permutation_null_p95_abs": 0.24578104212173207,
+   "share_of_null_draws_at_or_beyond": 0.0
+  },
+  "floor": 8,
+  "destinations": "both",
+  "primary": true
+ },
+ "arms": [
+  {
+   "arm": "floor=5|both",
+   "n": 5867,
+   "n_paired": 4054,
+   "n_clusters": 504,
+   "form": {
+    "mean_paired": 0.6171448300055167,
+    "mean_unpaired": 0.152299936794847,
+    "cohens_d": 0.10178419360434104,
+    "ci95_cluster": [
+     0.03575826545690287,
+     0.17099520384871644
+    ],
+    "permutation_null_mean": 0.07789716643386678,
+    "permutation_null_p95_abs": 0.1101616116161292,
+    "share_of_null_draws_at_or_beyond": 0.105,
+    "read": "selection on form measured: d is the selection size"
+   },
+   "level": {
+    "mean_paired": 16.797575214332706,
+    "mean_unpaired": 14.75600076535849,
+    "cohens_d": 0.4120533094026925,
+    "ci95_cluster": [
+     0.34351583487637255,
+     0.48116297418018816
+    ],
+    "permutation_null_mean": 0.25462544193825676,
+    "permutation_null_p95_abs": 0.27936012554969075,
+    "share_of_null_draws_at_or_beyond": 0.0
+   },
+   "floor": 5,
+   "destinations": "both",
+   "primary": false
+  },
+  {
+   "arm": "floor=5|euroleague_only",
+   "n": 3114,
+   "n_paired": 2072,
+   "n_clusters": 254,
+   "form": {
+    "mean_paired": 0.625323653003956,
+    "mean_unpaired": 0.33006393838332965,
+    "cohens_d": 0.06587253340339216,
+    "ci95_cluster": [
+     -0.02625716500099622,
+     0.15876679958471707
+    ],
+    "permutation_null_mean": 0.04393140590591786,
+    "permutation_null_p95_abs": 0.07321683855692747,
+    "share_of_null_draws_at_or_beyond": 0.11,
+    "read": "independent of form at this resolution (|d| < 0.10, CI inside \u00b10.20)"
+   },
+   "level": {
+    "mean_paired": 17.68586860161119,
+    "mean_unpaired": 15.192401280142604,
+    "cohens_d": 0.5208519494254096,
+    "ci95_cluster": [
+     0.4355705993128114,
+     0.6063465162833763
+    ],
+    "permutation_null_mean": 0.33884370901033917,
+    "permutation_null_p95_abs": 0.37790927198906143,
+    "share_of_null_draws_at_or_beyond": 0.0
+   },
+   "floor": 5,
+   "destinations": "euroleague_only",
+   "primary": false
+  },
+  {
+   "arm": "floor=8|both",
+   "n": 5358,
+   "n_paired": 3799,
+   "n_clusters": 456,
+   "form": {
+    "mean_paired": 0.614522063122222,
+    "mean_unpaired": 0.20009421983399525,
+    "cohens_d": 0.09143466733380967,
+    "ci95_cluster": [
+     0.015530895709973737,
+     0.1672034959527303
+    ],
+    "permutation_null_mean": 0.0613561448667603,
+    "permutation_null_p95_abs": 0.0971503251553582,
+    "share_of_null_draws_at_or_beyond": 0.1,
+    "read": "independent of form at this resolution (|d| < 0.10, CI inside \u00b10.20)"
+   },
+   "level": {
+    "mean_paired": 16.962614187595648,
+    "mean_unpaired": 14.782979108144652,
+    "cohens_d": 0.4456747881118468,
+    "ci95_cluster": [
+     0.3764006175743709,
+     0.5151244907806705
+    ],
+    "permutation_null_mean": 0.21048467038994934,
+    "permutation_null_p95_abs": 0.24578104212173207,
+    "share_of_null_draws_at_or_beyond": 0.0
+   },
+   "floor": 8,
+   "destinations": "both",
+   "primary": true
+  },
+  {
+   "arm": "floor=8|euroleague_only",
+   "n": 2927,
+   "n_paired": 1996,
+   "n_clusters": 237,
+   "form": {
+    "mean_paired": 0.6631863658316213,
+    "mean_unpaired": 0.19005547534363684,
+    "cohens_d": 0.10666004425206282,
+    "ci95_cluster": [
+     0.01385562450719065,
+     0.204799850407472
+    ],
+    "permutation_null_mean": 0.062301821437292196,
+    "permutation_null_p95_abs": 0.10210256196114197,
+    "share_of_null_draws_at_or_beyond": 0.03,
+    "read": "selection on form measured: d is the selection size"
+   },
+   "level": {
+    "mean_paired": 17.7590568974698,
+    "mean_unpaired": 15.270309579268199,
+    "cohens_d": 0.5297972222078235,
+    "ci95_cluster": [
+     0.44858161898509774,
+     0.6160329018416352
+    ],
+    "permutation_null_mean": 0.2967257924938273,
+    "permutation_null_p95_abs": 0.34134789977008856,
+    "share_of_null_draws_at_or_beyond": 0.0
+   },
+   "floor": 8,
+   "destinations": "euroleague_only",
+   "primary": false
+  },
+  {
+   "arm": "floor=15|both",
+   "n": 4233,
+   "n_paired": 2830,
+   "n_clusters": 355,
+   "form": {
+    "mean_paired": 0.6802193151658588,
+    "mean_unpaired": 0.19825720405664363,
+    "cohens_d": 0.10627718704272504,
+    "ci95_cluster": [
+     0.02597997925215962,
+     0.18928740015034867
+    ],
+    "permutation_null_mean": 0.028975788382176227,
+    "permutation_null_p95_abs": 0.07365979208295179,
+    "share_of_null_draws_at_or_beyond": 0.005,
+    "read": "selection on form measured: d is the selection size"
+   },
+   "level": {
+    "mean_paired": 17.415820826443507,
+    "mean_unpaired": 15.185999738088624,
+    "cohens_d": 0.46299828205816906,
+    "ci95_cluster": [
+     0.39224679821768893,
+     0.5320875410730381
+    ],
+    "permutation_null_mean": 0.15308147259224383,
+    "permutation_null_p95_abs": 0.20101247163839148,
+    "share_of_null_draws_at_or_beyond": 0.0
+   },
+   "floor": 15,
+   "destinations": "both",
+   "primary": false
+  },
+  {
+   "arm": "floor=15|euroleague_only",
+   "n": 2540,
+   "n_paired": 1804,
+   "n_clusters": 204,
+   "form": {
+    "mean_paired": 0.6918995112728652,
+    "mean_unpaired": 0.4211364585489449,
+    "cohens_d": 0.06072893484293573,
+    "ci95_cluster": [
+     -0.05178501225159625,
+     0.18177449094208356
+    ],
+    "permutation_null_mean": 0.011801986600057976,
+    "permutation_null_p95_abs": 0.07238996981004446,
+    "share_of_null_draws_at_or_beyond": 0.105,
+    "read": "independent of form at this resolution (|d| < 0.10, CI inside \u00b10.20)"
+   },
+   "level": {
+    "mean_paired": 17.926028510820025,
+    "mean_unpaired": 15.344115841419036,
+    "cohens_d": 0.5489973114947861,
+    "ci95_cluster": [
+     0.45678522959137674,
+     0.6346701611573966
+    ],
+    "permutation_null_mean": 0.19269623326531524,
+    "permutation_null_p95_abs": 0.24317363632436223,
+    "share_of_null_draws_at_or_beyond": 0.0
+   },
+   "floor": 15,
+   "destinations": "euroleague_only",
+   "primary": false
+  }
+ ],
+ "verdict": "independent of form at this resolution (|d| < 0.10, CI inside \u00b10.20)"
+}

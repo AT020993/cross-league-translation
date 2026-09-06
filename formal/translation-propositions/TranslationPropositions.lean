@@ -1,0 +1,7 @@
+import TranslationPropositions.Moments
+import TranslationPropositions.P1_TotalVariance
+import TranslationPropositions.P2_Reliability
+import TranslationPropositions.P3_SpearmanBrown
+import TranslationPropositions.P4_Identification
+import TranslationPropositions.P5_WeightedMean
+import TranslationPropositions.FinalCheck
