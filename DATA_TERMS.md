@@ -23,4 +23,11 @@ game-level data, so that reviewers can reproduce the result. That table is
 
 **No game-level data.** The export refuses any parquet carrying a `game_id` or a game date.
 
-**Status of the two flagged items.** Pending Proballers' answer; the repository stays private until both are settled (re-cut with `--data-terms-note` once it arrives).
+**Status of the two flagged items.** No further answer has been recorded. The author made this
+repository public on 29 September 2026 for the SSAC 2027 submission, relying on the 3 September
+authorisation for credited publication of derived aggregates.
+
+**SSAC 2027 tables (`ssac27-v10/data/`).** These are of the same class as the tables above: per-season
+player aggregates for the domestic and continental sides, with no game-level rows or game dates. They
+cover the four factor pools and the forecasting cohort the submission scores. Proballers and the
+EuroLeague API are credited as sources. Any rights holder who objects to a file can ask for its removal.
