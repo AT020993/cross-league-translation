@@ -1,0 +1,181 @@
+{
+  "method": "Independent direct array losses from saved primary rows; no imported scientific routines, fits or resampling.",
+  "source_summary_sha256": "e2a03bcc76bfb29440ae8829b2d943e50c68a35ce37487086c3b5761f418128a",
+  "source_manifest_sha256": "3c75f2e0d1939c1030c338e90eaa7fbb8eb73d0cc59def02c255165bf690d8ee",
+  "generator_sha256": "1c8e53620f2d16a5a81926dfe5b30ec7ec0630dcf8e4b7ce8f0b3fed0c127ffb",
+  "protocol_sha256": "6dee84439a7ce33c0f066b521413d979b4c4c9f97098efac65f4ebd8b8d8e135",
+  "frozen_v10_summary_sha256": "58f2cdc5a032415de2b2331e7aaa8e9975914903daac156970edfe37a28dc638",
+  "n": 674,
+  "routes": {
+    "augmented": 566,
+    "parent": 108
+  },
+  "primary": {
+    "source_ridge_10": {
+      "metrics": {
+        "parent": {
+          "n": 674,
+          "mae": 2.924039934533798,
+          "rmse": 3.7462873542603194,
+          "bias": -0.4723351576178855,
+          "median_absolute_error": 2.348299049649196,
+          "p90_absolute_error": 6.063476032027331
+        },
+        "augmented": {
+          "n": 674,
+          "mae": 2.9257859365570886,
+          "rmse": 3.7521535768640915,
+          "bias": -0.5573316105151447,
+          "median_absolute_error": 2.4457660385323408,
+          "p90_absolute_error": 5.915633845795799
+        },
+        "policy": {
+          "n": 674,
+          "mae": 2.9219163375877955,
+          "rmse": 3.7493192408864418,
+          "bias": -0.5421187266281177,
+          "median_absolute_error": 2.4444097267292015,
+          "p90_absolute_error": 5.87954352102128
+        }
+      },
+      "contrasts": {
+        "parent": {
+          "mean": 0.0021235969460022945,
+          "improved": 283,
+          "worsened": 283,
+          "tied": 108,
+          "saved_intervals": {
+            "player_club_season": [
+              -0.02352461970397862,
+              0.02777181359598321
+            ],
+            "player_season": [
+              -0.01707247756837871,
+              0.021319671460383303
+            ]
+          }
+        },
+        "augmented": {
+          "mean": 0.003869598969292937,
+          "improved": 60,
+          "worsened": 48,
+          "tied": 566,
+          "saved_intervals": {
+            "player_club_season": [
+              -0.0018399563154612563,
+              0.00957915425404713
+            ],
+            "player_season": [
+              -0.003511672451835891,
+              0.011250870390421764
+            ]
+          }
+        }
+      },
+      "weighted_contributions": {
+        "parent": 0.0021235969460022945,
+        "augmented": 0.003869598969292937
+      }
+    },
+    "cell_slope_10": {
+      "metrics": {
+        "parent": {
+          "n": 674,
+          "mae": 2.992874618255941,
+          "rmse": 3.8184177668879014,
+          "bias": -0.4527665703951356,
+          "median_absolute_error": 2.4630189559598,
+          "p90_absolute_error": 6.139056569257036
+        },
+        "augmented": {
+          "n": 674,
+          "mae": 2.998023005041431,
+          "rmse": 3.8311955968116047,
+          "bias": -0.5424695743258153,
+          "median_absolute_error": 2.546120729847336,
+          "p90_absolute_error": 6.303737967412457
+        },
+        "policy": {
+          "n": 674,
+          "mae": 2.993876151209455,
+          "rmse": 3.8287145033823298,
+          "bias": -0.5249040498868536,
+          "median_absolute_error": 2.5050794391371944,
+          "p90_absolute_error": 6.260572122785145
+        },
+        "source_offset": {
+          "n": 674,
+          "mae": 2.924039934533798,
+          "rmse": 3.7462873542603194,
+          "bias": -0.4723351576178855,
+          "median_absolute_error": 2.348299049649196,
+          "p90_absolute_error": 6.063476032027331
+        }
+      },
+      "contrasts": {
+        "parent": {
+          "mean": -0.001001532953513504,
+          "improved": 289,
+          "worsened": 277,
+          "tied": 108,
+          "saved_intervals": {
+            "player_club_season": [
+              -0.02408108005100183,
+              0.02207801414397482
+            ],
+            "player_season": [
+              -0.020154905502765396,
+              0.01815183959573839
+            ]
+          }
+        },
+        "augmented": {
+          "mean": 0.004146853831976269,
+          "improved": 59,
+          "worsened": 49,
+          "tied": 566,
+          "saved_intervals": {
+            "player_club_season": [
+              -0.0020761782685939506,
+              0.010369885932546489
+            ],
+            "player_season": [
+              -0.005992794019851416,
+              0.014286501683803954
+            ]
+          }
+        },
+        "source_offset": {
+          "mean": -0.06983621667565719,
+          "improved": 318,
+          "worsened": 356,
+          "tied": 0,
+          "saved_intervals": {
+            "player_club_season": [
+              -0.15023165110770353,
+              0.010559217756389155
+            ],
+            "player_season": [
+              -0.14332318950172657,
+              0.0036507561504121877
+            ]
+          }
+        }
+      },
+      "weighted_contributions": {
+        "parent": -0.001001532953513504,
+        "augmented": 0.004146853831976269
+      }
+    }
+  },
+  "checks": {
+    "summary_status_complete": true,
+    "summary_manifest_hash_bindings_match": true,
+    "unchanged_primary_input_columns": true,
+    "routing_exact": true,
+    "primary_metrics_and_shares_match": true,
+    "contribution_reconciliation": true,
+    "all_56_parquet_row_counts_674": true,
+    "all_saved_output_hashes_match": true
+  }
+}

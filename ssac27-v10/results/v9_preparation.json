@@ -1,0 +1,24 @@
+{
+  "code_sha256": "3497cb8a46fc983268b67304c4349b147db0747ad39758cdae084c85a8c7eeca",
+  "counts": {
+    "official_corrected": 4074,
+    "overlap_keys_full": 1463,
+    "same_club": 1463,
+    "verified_same_club_full": 1537
+  },
+  "pair_flow_sha256": "02959b61db7d82f8473de576eba59d4c9341dfa71ceb0133aed92cd047e97459",
+  "protocol_sha256": "0205905a21c998cd406aac3df179a859cb11a1be52df076a6f6c65ec7fba564a",
+  "rejection_counts": {
+    "fewer_than_eight_after_trimming": 70,
+    "included": 1463,
+    "invalid_appearance_minutes": 4,
+    "multiple_clubs": 97,
+    "unverified_identity": 2440
+  },
+  "source_hashes": {
+    "<local path removed>": "07ae30802b69536f3ea5c88986b915a63e0aa84ed806cb7aa6a2bd273333738f",
+    "<local path removed>": "02959b61db7d82f8473de576eba59d4c9341dfa71ceb0133aed92cd047e97459",
+    "<local path removed>": "5b90d38375ed9fa70f7c42071eb1ac576b60a5dbd04441f03a75af3ad961e901"
+  },
+  "status": "prepared"
+}
