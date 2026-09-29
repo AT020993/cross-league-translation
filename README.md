@@ -1,8 +1,14 @@
 # Cross-league translation for European basketball — companion repository
 
-Companion to the SSAC 2027 abstract *"Double-counting the career year: cross-league translation from a scheduled natural experiment in European basketball"* (Amir Tahori).
-Cut from the private research repository at commit
-`e8f80c52512ff5ae825d2afad9823eafb23057b5`; see `MANIFEST.md`. This repository: https://github.com/AT020993/cross-league-translation.
+**SSAC 2027 submission:** *"What Does League Translation Add? A Benchmark for European Basketball Forecasts"*.
+Its data, saved results, paper, protocols and a one-command check of every abstract number are in
+[`ssac27-v10/`](ssac27-v10/README.md). Start there.
+
+The rest of this repository is the earlier companion, cut on 6 September 2026 from the private research
+repository at commit `e8f80c52512ff5ae825d2afad9823eafb23057b5` (see `MANIFEST.md`). It accompanied an
+earlier draft titled *"Double-counting the career year: cross-league translation from a scheduled natural
+experiment in European basketball"* and is kept unchanged as the historical record the submission builds on.
+This repository: https://github.com/AT020993/cross-league-translation.
 
 ## Provenance a reviewer should know before reading a number
 
