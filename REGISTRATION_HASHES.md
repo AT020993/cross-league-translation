@@ -34,9 +34,12 @@ The documents and the forecast file will be published unchanged in this reposito
 | Amendment 11 | `sloan-full-paper-preregistration-amendment-11-2026-11-16.md` | `63d20a7dbf51b5bd8974f088ec0800e1072ecc383d1a179255f33057882adbde` | `40f0d278b` | 2026-11-16 21:22:53 |
 | Amendment 12 | `sloan-full-paper-preregistration-amendment-12-2026-11-17.md` | `e803c71bf950d09cf6a84dd05b6578df9e1dc99bba99a89dbec6d6eed3ca2354` | `89be8fdad` | 2026-11-17 08:48:25 |
 | Amendment 13 (wording and order only; first pushed as `6ea740252` at 09:55:27 with sha256 `472eff24264dabdf01b21558ae377902d43ba246487b18cd4d83a77edb7be7c2`; the commit listed here added a specification table and changed no rule) | `sloan-full-paper-preregistration-amendment-13-2026-11-17.md` | `4027db3f47ab52f62de4087c824836f3b932410d3066c64a74979c8851e1a0e5` | `e03d14266` | 2026-11-17 10:13:16 |
+| Amendment 14 | `sloan-full-paper-preregistration-amendment-14-2026-11-17.md` | `87471565393c01beb3ad4a5ce119fde74ac9d5c75fd96051944f16df5f476750` | `ae9990917` | 2026-11-17 17:08:47 |
+| Amendment 15 | `sloan-full-paper-preregistration-amendment-15-2026-11-17.md` | `f078841abdd37dbcb463bf37d7525422f436b8ccc1967622e753b2a2c09a755f` | `48f752c68` | 2026-11-17 17:09:14 |
+| Amendment 16 (wording, title and order only) | `sloan-full-paper-preregistration-amendment-16-2026-11-17.md` | `3b712c32803e6af42d8f35217b787018ffa33a746c56578446df5aa6f496386e` | `d5f721c21` | 2026-11-17 17:09:42 |
 
 ## Notes
 
 - The forecast file holds 3,478 forecasts: 1,739 domestic player-seasons of 2025-26, each for the EuroLeague and the EuroCup. It contains no 2026-27 statistic.
 - The freeze record names the pre-registration by its sha256 (`6c6002f9…5194`), the first row of the table.
-- Later amendments are added to this file in new commits. Earlier rows are never edited. Amendments 8 and 9 were added on 16 November 2026. Amendments 10 and 11 were added on 17 November 2026. Amendments 12 and 13 were added later the same day.
+- Later amendments are added to this file in new commits. Earlier rows are never edited. Amendments 8 and 9 were added on 16 November 2026. Amendments 10 and 11 were added on 17 November 2026. Amendments 12 and 13 were added later the same day. Amendments 14, 15 and 16 were added in the evening of 17 November 2026.
