@@ -32,6 +32,7 @@ The documents and the forecast file will be published unchanged in this reposito
 | Amendment 9 | `sloan-full-paper-preregistration-amendment-9-2026-11-16.md` | `6dc8356d56538dcd01d8f619b82c4878143d53c0f674082cfba5a55af567e90d` | `3c915869c` | 2026-11-16 16:01:36 |
 | Amendment 10 (wording for one result, written after that result was seen) | `sloan-full-paper-preregistration-amendment-10-2026-11-16.md` | `c92daa919c5cc7e927ae08a896d8d06248a0644b4a0c057df7af0ae108c0c426` | `205207eed` | 2026-11-16 20:18:30 |
 | Amendment 11 | `sloan-full-paper-preregistration-amendment-11-2026-11-16.md` | `63d20a7dbf51b5bd8974f088ec0800e1072ecc383d1a179255f33057882adbde` | `40f0d278b` | 2026-11-16 21:22:53 |
+| Amendment 12 | `sloan-full-paper-preregistration-amendment-12-2026-11-17.md` | `e803c71bf950d09cf6a84dd05b6578df9e1dc99bba99a89dbec6d6eed3ca2354` | `89be8fdad` | 2026-11-17 08:48:25 |
 
 ## Notes
 
