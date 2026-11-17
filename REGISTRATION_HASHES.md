@@ -37,9 +37,12 @@ The documents and the forecast file will be published unchanged in this reposito
 | Amendment 14 | `sloan-full-paper-preregistration-amendment-14-2026-11-17.md` | `87471565393c01beb3ad4a5ce119fde74ac9d5c75fd96051944f16df5f476750` | `ae9990917` | 2026-11-17 17:08:47 |
 | Amendment 15 | `sloan-full-paper-preregistration-amendment-15-2026-11-17.md` | `f078841abdd37dbcb463bf37d7525422f436b8ccc1967622e753b2a2c09a755f` | `48f752c68` | 2026-11-17 17:09:14 |
 | Amendment 16 (wording, title and order only) | `sloan-full-paper-preregistration-amendment-16-2026-11-17.md` | `3b712c32803e6af42d8f35217b787018ffa33a746c56578446df5aa6f496386e` | `d5f721c21` | 2026-11-17 17:09:42 |
+| Amendment 17 (readings made explicit; two corrections; no analysis) | `sloan-full-paper-preregistration-amendment-17-2026-11-17.md` | `d2072f085a0cbb3381cfde3eb72eac47adbdd7185948037b0a3aad9df84350ae` | `d6ab5163a` | 2026-11-17 20:28:18 |
+| Second frozen 2026-27 forecast file: forecasts made with a league table published in 2015 (Amendment 15) | `p1_frozen_published_table_forecasts.parquet` | `4890fa1943a1e1ed40b0e3086a10274536aa315bf4eed8f4449d1815c98c8199` | `10ad08072` | 2026-11-17 19:34:38 |
 
 ## Notes
 
 - The forecast file holds 3,478 forecasts: 1,739 domestic player-seasons of 2025-26, each for the EuroLeague and the EuroCup. It contains no 2026-27 statistic.
+- The second forecast file holds 3,478 forecasts for the same player-seasons and destinations, made with a league table published in 2015. It contains no 2026-27 statistic and is scored in the same single run as the first.
 - The freeze record names the pre-registration by its sha256 (`6c6002f9…5194`), the first row of the table.
-- Later amendments are added to this file in new commits. Earlier rows are never edited. Amendments 8 and 9 were added on 16 November 2026. Amendments 10 and 11 were added on 17 November 2026. Amendments 12 and 13 were added later the same day. Amendments 14, 15 and 16 were added in the evening of 17 November 2026.
+- Later amendments are added to this file in new commits. Earlier rows are never edited. Amendments 8 and 9 were added on 16 November 2026. Amendments 10 and 11 were added on 17 November 2026. Amendments 12 and 13 were added later the same day. Amendments 14, 15 and 16 were added in the evening of 17 November 2026. Amendment 17 and the second frozen forecast file were added later that evening.
