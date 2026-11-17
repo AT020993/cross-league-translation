@@ -33,9 +33,10 @@ The documents and the forecast file will be published unchanged in this reposito
 | Amendment 10 (wording for one result, written after that result was seen) | `sloan-full-paper-preregistration-amendment-10-2026-11-16.md` | `c92daa919c5cc7e927ae08a896d8d06248a0644b4a0c057df7af0ae108c0c426` | `205207eed` | 2026-11-16 20:18:30 |
 | Amendment 11 | `sloan-full-paper-preregistration-amendment-11-2026-11-16.md` | `63d20a7dbf51b5bd8974f088ec0800e1072ecc383d1a179255f33057882adbde` | `40f0d278b` | 2026-11-16 21:22:53 |
 | Amendment 12 | `sloan-full-paper-preregistration-amendment-12-2026-11-17.md` | `e803c71bf950d09cf6a84dd05b6578df9e1dc99bba99a89dbec6d6eed3ca2354` | `89be8fdad` | 2026-11-17 08:48:25 |
+| Amendment 13 (wording and order only; first pushed as `6ea740252` at 09:55:27 with sha256 `472eff24264dabdf01b21558ae377902d43ba246487b18cd4d83a77edb7be7c2`; the commit listed here added a specification table and changed no rule) | `sloan-full-paper-preregistration-amendment-13-2026-11-17.md` | `4027db3f47ab52f62de4087c824836f3b932410d3066c64a74979c8851e1a0e5` | `e03d14266` | 2026-11-17 10:13:16 |
 
 ## Notes
 
 - The forecast file holds 3,478 forecasts: 1,739 domestic player-seasons of 2025-26, each for the EuroLeague and the EuroCup. It contains no 2026-27 statistic.
 - The freeze record names the pre-registration by its sha256 (`6c6002f9…5194`), the first row of the table.
-- Later amendments are added to this file in new commits. Earlier rows are never edited. Amendments 8 and 9 were added on 16 November 2026. Amendments 10 and 11 were added on 17 November 2026.
+- Later amendments are added to this file in new commits. Earlier rows are never edited. Amendments 8 and 9 were added on 16 November 2026. Amendments 10 and 11 were added on 17 November 2026. Amendments 12 and 13 were added later the same day.
