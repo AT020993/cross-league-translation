@@ -1,0 +1,40 @@
+higher,lower,families,higher_ci_low,lower_ci_high,sentence
+oreb,pts,primary/primary,1.0643973648601752,0.9327428036984226,the same player keeps more of his offensive rebounds than his points when he faces continental opponents
+oreb,dreb,primary/primary,1.0643973648601752,1.0084068632844148,the same player keeps more of his offensive rebounds than his defensive rebounds when he faces continental opponents
+oreb,ast,primary/primary,1.0643973648601752,0.9441994941396497,the same player keeps more of his offensive rebounds than his assists when he faces continental opponents
+oreb,stl,primary/primary,1.0643973648601752,1.0188239609820051,the same player keeps more of his offensive rebounds than his steals when he faces continental opponents
+oreb,blk,primary/primary,1.0643973648601752,1.0290156780252044,the same player keeps more of his offensive rebounds than his blocks when he faces continental opponents
+oreb,tov,primary/primary,1.0643973648601752,1.0548204295382484,the same player keeps more of his offensive rebounds than his turnovers when he faces continental opponents
+oreb,fg3a,primary/primary,1.0643973648601752,0.9662338397576588,the same player keeps more of his offensive rebounds than his 3-point attempts when he faces continental opponents
+oreb,fta,primary/primary,1.0643973648601752,0.9526613281045347,the same player keeps more of his offensive rebounds than his free-throw attempts when he faces continental opponents
+oreb,fg3_pct,primary/secondary,1.0643973648601752,1.0040654343914108,the same player keeps more of his offensive rebounds than his 3-point percentage when he faces continental opponents
+oreb,ft_pct,primary/secondary,1.0643973648601752,1.0111219380985972,the same player keeps more of his offensive rebounds than his free-throw percentage when he faces continental opponents
+dreb,pts,primary/primary,0.9667722102789366,0.9327428036984226,the same player keeps more of his defensive rebounds than his points when he faces continental opponents
+dreb,ast,primary/primary,0.9667722102789366,0.9441994941396497,the same player keeps more of his defensive rebounds than his assists when he faces continental opponents
+dreb,fg3a,primary/primary,0.9667722102789366,0.9662338397576588,the same player keeps more of his defensive rebounds than his 3-point attempts when he faces continental opponents
+dreb,fta,primary/primary,0.9667722102789366,0.9526613281045347,the same player keeps more of his defensive rebounds than his free-throw attempts when he faces continental opponents
+stl,pts,primary/primary,0.9867052943439929,0.9327428036984226,the same player keeps more of his steals than his points when he faces continental opponents
+stl,ast,primary/primary,0.9867052943439929,0.9441994941396497,the same player keeps more of his steals than his assists when he faces continental opponents
+stl,fg3a,primary/primary,0.9867052943439929,0.9662338397576588,the same player keeps more of his steals than his 3-point attempts when he faces continental opponents
+stl,fta,primary/primary,0.9867052943439929,0.9526613281045347,the same player keeps more of his steals than his free-throw attempts when he faces continental opponents
+blk,pts,primary/primary,0.9623081720909977,0.9327428036984226,the same player keeps more of his blocks than his points when he faces continental opponents
+blk,ast,primary/primary,0.9623081720909977,0.9441994941396497,the same player keeps more of his blocks than his assists when he faces continental opponents
+blk,fta,primary/primary,0.9623081720909977,0.9526613281045347,the same player keeps more of his blocks than his free-throw attempts when he faces continental opponents
+tov,pts,primary/primary,1.0310854572000598,0.9327428036984226,the same player keeps more of his turnovers than his points when he faces continental opponents
+tov,dreb,primary/primary,1.0310854572000598,1.0084068632844148,the same player keeps more of his turnovers than his defensive rebounds when he faces continental opponents
+tov,ast,primary/primary,1.0310854572000598,0.9441994941396497,the same player keeps more of his turnovers than his assists when he faces continental opponents
+tov,stl,primary/primary,1.0310854572000598,1.0188239609820051,the same player keeps more of his turnovers than his steals when he faces continental opponents
+tov,blk,primary/primary,1.0310854572000598,1.0290156780252044,the same player keeps more of his turnovers than his blocks when he faces continental opponents
+tov,fg3a,primary/primary,1.0310854572000598,0.9662338397576588,the same player keeps more of his turnovers than his 3-point attempts when he faces continental opponents
+tov,fta,primary/primary,1.0310854572000598,0.9526613281045347,the same player keeps more of his turnovers than his free-throw attempts when he faces continental opponents
+tov,fg3_pct,primary/secondary,1.0310854572000598,1.0040654343914108,the same player keeps more of his turnovers than his 3-point percentage when he faces continental opponents
+tov,ft_pct,primary/secondary,1.0310854572000598,1.0111219380985972,the same player keeps more of his turnovers than his free-throw percentage when he faces continental opponents
+fg3a,pts,primary/primary,0.9364348388815777,0.9327428036984226,the same player keeps more of his 3-point attempts than his points when he faces continental opponents
+fg3_pct,pts,secondary/primary,0.9865230699451576,0.9327428036984226,the same player keeps more of his 3-point percentage than his points when he faces continental opponents
+fg3_pct,ast,secondary/primary,0.9865230699451576,0.9441994941396497,the same player keeps more of his 3-point percentage than his assists when he faces continental opponents
+fg3_pct,fg3a,secondary/primary,0.9865230699451576,0.9662338397576588,the same player keeps more of his 3-point percentage than his 3-point attempts when he faces continental opponents
+fg3_pct,fta,secondary/primary,0.9865230699451576,0.9526613281045347,the same player keeps more of his 3-point percentage than his free-throw attempts when he faces continental opponents
+ft_pct,pts,secondary/primary,1.0020435163231283,0.9327428036984226,the same player keeps more of his free-throw percentage than his points when he faces continental opponents
+ft_pct,ast,secondary/primary,1.0020435163231283,0.9441994941396497,the same player keeps more of his free-throw percentage than his assists when he faces continental opponents
+ft_pct,fg3a,secondary/primary,1.0020435163231283,0.9662338397576588,the same player keeps more of his free-throw percentage than his 3-point attempts when he faces continental opponents
+ft_pct,fta,secondary/primary,1.0020435163231283,0.9526613281045347,the same player keeps more of his free-throw percentage than his free-throw attempts when he faces continental opponents

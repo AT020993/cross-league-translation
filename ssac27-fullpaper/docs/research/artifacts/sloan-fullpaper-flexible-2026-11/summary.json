@@ -1,0 +1,1353 @@
+{
+  "amendment": "docs/research/sloan-full-paper-preregistration-amendment-1-2026-11-04.md",
+  "amendment_commit": "f1a3453da",
+  "amendment_sha256": "5e6554dfe2861c0be55a65deef6f9ea3cca95b9bd35fb6c27c4a5dd8d4c42776",
+  "analysis": "E16",
+  "arms_run": [
+    "gbm",
+    "gbm_z",
+    "gbm_noclub",
+    "gbm_noclub_z",
+    "ridge",
+    "ridge_z",
+    "ridge_noclub",
+    "ridge_noclub_z"
+  ],
+  "contrasts": {
+    "gbm_club_increment": {
+      "difference": 0.015380916305399707,
+      "equal_season_difference": 0.01606340697667639,
+      "leave_one_season_out": {
+        "2020": 0.025608187596911983,
+        "2021": 0.023284895861631825,
+        "2022": 0.01183740374964828,
+        "2023": 0.0061837493707020555,
+        "2024": 0.01768715256492871,
+        "2025": 0.007898710029795883
+      },
+      "left": "gbm_noclub",
+      "loso_range": [
+        0.0061837493707020555,
+        0.025608187596911983
+      ],
+      "mae_left": 3.0478680417296946,
+      "mae_right": 3.0324871254242947,
+      "n": 674,
+      "n_seasons": 6,
+      "outcome_sd_units": 0.0031434902008882857,
+      "pct_of_parent_mae": 0.5046450861655707,
+      "player_club_season": {
+        "ci95": [
+          -0.021480320722031446,
+          0.05224215333283086
+        ],
+        "degrees_of_freedom": 200,
+        "lower_pct_of_parent_mae": -0.7047654435144494,
+        "mde80": 0.05262757540370474,
+        "se": 0.018693294599196206,
+        "status": "ok",
+        "upper_pct_of_parent_mae": 1.7140556158455904,
+        "verdict": "spans_zero"
+      },
+      "player_season": {
+        "ci95": [
+          -0.026753227579068645,
+          0.05751506018986806
+        ],
+        "degrees_of_freedom": 5,
+        "lower_pct_of_parent_mae": -0.8777685651996249,
+        "mde80": 0.05720629191244363,
+        "se": 0.016390897694972074,
+        "status": "ok",
+        "upper_pct_of_parent_mae": 1.8870587375307661,
+        "verdict": "spans_zero"
+      },
+      "positive_favours": "gbm",
+      "positive_seasons": 4,
+      "right": "gbm",
+      "role": "printed",
+      "sd_paired_difference": 0.48161080268375855,
+      "season_difference": {
+        "2020": -0.025833460540993038,
+        "2021": -0.029460472662134973,
+        "2022": 0.03436879490603001,
+        "2023": 0.06695718578233165,
+        "2024": 0.0027409675752888296,
+        "2025": 0.04760742679953587
+      }
+    },
+    "gbm_translation_increment": {
+      "difference": 0.02679108840152876,
+      "equal_season_difference": 0.027934414834401497,
+      "leave_one_season_out": {
+        "2020": 0.03927753321454588,
+        "2021": 0.02434593597758228,
+        "2022": 0.03083266667195035,
+        "2023": 0.035109090733659844,
+        "2024": 0.012676469083541999,
+        "2025": 0.018839006791960374
+      },
+      "left": "gbm",
+      "loso_range": [
+        0.012676469083541999,
+        0.03927753321454588
+      ],
+      "mae_left": 3.0324871254242947,
+      "mae_right": 3.005696037022766,
+      "n": 674,
+      "n_seasons": 6,
+      "outcome_sd_units": 0.005475455570340215,
+      "pct_of_parent_mae": 0.8834691556284925,
+      "player_club_season": {
+        "ci95": [
+          -0.027044873512247283,
+          0.0806270503153048
+        ],
+        "degrees_of_freedom": 200,
+        "lower_pct_of_parent_mae": -0.8918380324026359,
+        "mde80": 0.07686275267809899,
+        "se": 0.027301620272168498,
+        "status": "ok",
+        "upper_pct_of_parent_mae": 2.658776343659621,
+        "verdict": "spans_zero"
+      },
+      "player_season": {
+        "ci95": [
+          -0.025539792592759236,
+          0.07912196939581675
+        ],
+        "degrees_of_freedom": 5,
+        "lower_pct_of_parent_mae": -0.8422061343190632,
+        "mde80": 0.07105058696346551,
+        "se": 0.02035760164053838,
+        "status": "ok",
+        "upper_pct_of_parent_mae": 2.609144445576048,
+        "verdict": "spans_zero"
+      },
+      "positive_favours": "gbm_z",
+      "positive_seasons": 4,
+      "right": "gbm_z",
+      "role": "secondary",
+      "sd_paired_difference": 0.6951965096076481,
+      "season_difference": {
+        "2020": -0.023527420546450673,
+        "2021": 0.04066309175718552,
+        "2022": 0.005134329367571562,
+        "2023": -0.019854963892382848,
+        "2024": 0.10415005966357158,
+        "2025": 0.06104139265691385
+      }
+    },
+    "history_vs_gbm": {
+      "difference": 0.0635670063327223,
+      "equal_season_difference": 0.06807256334841448,
+      "leave_one_season_out": {
+        "2020": 0.08544753644678191,
+        "2021": 0.04080233407971967,
+        "2022": 0.04150415209713387,
+        "2023": 0.05290230607297268,
+        "2024": 0.09942153369434792,
+        "2025": 0.06251307598106363
+      },
+      "left": "history_only",
+      "loso_range": [
+        0.04080233407971967,
+        0.09942153369434792
+      ],
+      "mae_left": 3.0960541317570174,
+      "mae_right": 3.0324871254242947,
+      "n": 674,
+      "n_seasons": 6,
+      "outcome_sd_units": 0.012991570693129999,
+      "pct_of_parent_mae": 2.0531619806223445,
+      "player_club_season": {
+        "ci95": [
+          -0.051218891354730275,
+          0.1783529040201749
+        ],
+        "degrees_of_freedom": 200,
+        "lower_pct_of_parent_mae": -1.6543280309399322,
+        "mde80": 0.16388227777957828,
+        "se": 0.058210922213705225,
+        "status": "ok",
+        "upper_pct_of_parent_mae": 5.760651992184621,
+        "verdict": "spans_zero"
+      },
+      "player_season": {
+        "ci95": [
+          -0.06692891713694069,
+          0.1940629298023853
+        ],
+        "degrees_of_freedom": 5,
+        "lower_pct_of_parent_mae": -2.1617489323081824,
+        "mde80": 0.17717668387564628,
+        "se": 0.050765130936732225,
+        "status": "ok",
+        "upper_pct_of_parent_mae": 6.268072893552871,
+        "verdict": "spans_zero"
+      },
+      "positive_favours": "gbm",
+      "positive_seasons": 4,
+      "right": "gbm",
+      "role": "printed",
+      "sd_paired_difference": 1.4368855679320875,
+      "season_difference": {
+        "2020": -0.024608264276174675,
+        "2021": 0.19271707762946,
+        "2022": 0.1817906026139886,
+        "2023": 0.12337297249523975,
+        "2024": -0.132943384014649,
+        "2025": 0.06810637564262224
+      }
+    },
+    "history_vs_ridge": {
+      "difference": 0.15326630549659778,
+      "equal_season_difference": 0.16169918649998913,
+      "leave_one_season_out": {
+        "2020": 0.1751909829017549,
+        "2021": 0.15226531013612699,
+        "2022": 0.089869560242601,
+        "2023": 0.14473429729182274,
+        "2024": 0.17444986693484382,
+        "2025": 0.18534907427240438
+      },
+      "left": "history_only",
+      "loso_range": [
+        0.089869560242601,
+        0.18534907427240438
+      ],
+      "mae_left": 3.0960541317570174,
+      "mae_right": 2.9427878262604192,
+      "n": 674,
+      "n_seasons": 6,
+      "outcome_sd_units": 0.031323954950965134,
+      "pct_of_parent_mae": 4.95037550941071,
+      "player_club_season": {
+        "ci95": [
+          0.05322808815518068,
+          0.25330452283801486
+        ],
+        "degrees_of_freedom": 200,
+        "lower_pct_of_parent_mae": 1.7192234337638543,
+        "mde80": 0.14282669956164876,
+        "se": 0.05073198890612086,
+        "status": "ok",
+        "upper_pct_of_parent_mae": 8.181527585057564,
+        "verdict": "above_zero"
+      },
+      "player_season": {
+        "ci95": [
+          -0.02937377230200358,
+          0.3359063832951992
+        ],
+        "degrees_of_freedom": 5,
+        "lower_pct_of_parent_mae": -0.9487486669147448,
+        "mde80": 0.24797374865636335,
+        "se": 0.07105009273256269,
+        "status": "ok",
+        "upper_pct_of_parent_mae": 10.849499685736166,
+        "verdict": "spans_zero"
+      },
+      "positive_favours": "ridge",
+      "positive_seasons": 6,
+      "right": "ridge",
+      "role": "printed",
+      "sd_paired_difference": 1.3644371904376746,
+      "season_difference": {
+        "2020": 0.06491312789372583,
+        "2021": 0.1589452197693677,
+        "2022": 0.4929771668576372,
+        "2023": 0.20111246915474817,
+        "2024": 0.037164093767749234,
+        "2025": 0.015083041556706542
+      }
+    },
+    "offsets10_translation_increment_reference": {
+      "difference": -0.001746002023290922,
+      "equal_season_difference": -0.002109157376850037,
+      "leave_one_season_out": {
+        "2020": -0.0055026436911994265,
+        "2021": 0.0008907720203450284,
+        "2022": -0.004071842904327103,
+        "2023": 0.0003669936183700762,
+        "2024": -0.0037505965485347672,
+        "2025": 0.0014949083358583393
+      },
+      "left": "source_ridge_10",
+      "loso_range": [
+        -0.0055026436911994265,
+        0.0014949083358583393
+      ],
+      "mae_left": 2.924039934533798,
+      "mae_right": 2.9257859365570886,
+      "n": 674,
+      "n_seasons": 6,
+      "outcome_sd_units": -0.0003568409151943241,
+      "pct_of_parent_mae": -0.0597119759778281,
+      "player_club_season": {
+        "ci95": [
+          -0.027513303333554194,
+          0.02402129928697235
+        ],
+        "degrees_of_freedom": 200,
+        "lower_pct_of_parent_mae": -0.9409345956125204,
+        "mde80": 0.03678852643080613,
+        "se": 0.013067270478756736,
+        "status": "ok",
+        "upper_pct_of_parent_mae": 0.8215106436568641,
+        "verdict": "spans_zero"
+      },
+      "player_season": {
+        "ci95": [
+          -0.01735113964177379,
+          0.013859135595191946
+        ],
+        "degrees_of_freedom": 5,
+        "lower_pct_of_parent_mae": -0.5933961242064983,
+        "mde80": 0.021187378587413545,
+        "se": 0.006070663614807663,
+        "status": "ok",
+        "upper_pct_of_parent_mae": 0.47397217225084215,
+        "verdict": "spans_zero"
+      },
+      "positive_favours": "source_ridge_10_scheduled",
+      "positive_seasons": 3,
+      "right": "source_ridge_10_scheduled",
+      "role": "printed",
+      "sd_paired_difference": 0.32760207955416365,
+      "season_difference": {
+        "2020": 0.013392703205594103,
+        "2021": -0.016705126053027552,
+        "2022": 0.010716994395846351,
+        "2023": -0.013595350131429068,
+        "2024": 0.009240717970833999,
+        "2025": -0.015704883648918054
+      }
+    },
+    "offsets10_translation_vs_gbm_z": {
+      "difference": -0.07991010046567719,
+      "equal_season_difference": -0.07653824090735928,
+      "leave_one_season_out": {
+        "2020": -0.038684729009541084,
+        "2021": -0.11853600876828485,
+        "2022": -0.06353784940443435,
+        "2023": -0.08033413082838689,
+        "2024": -0.06001297158648232,
+        "2025": -0.11743717875704168
+      },
+      "left": "source_ridge_10_scheduled",
+      "loso_range": [
+        -0.11853600876828485,
+        -0.038684729009541084
+      ],
+      "mae_left": 2.9257859365570886,
+      "mae_right": 3.005696037022766,
+      "n": 674,
+      "n_seasons": 6,
+      "outcome_sd_units": -0.01633170695283403,
+      "pct_of_parent_mae": -2.73123537396284,
+      "player_club_season": {
+        "ci95": [
+          -0.19031447961202075,
+          0.030494278680666356
+        ],
+        "degrees_of_freedom": 200,
+        "lower_pct_of_parent_mae": -6.504730138800682,
+        "mde80": 0.1576266901759027,
+        "se": 0.05598893989607872,
+        "status": "ok",
+        "upper_pct_of_parent_mae": 1.042259390875001,
+        "verdict": "spans_zero"
+      },
+      "player_season": {
+        "ci95": [
+          -0.25062716597125984,
+          0.09080696503990544
+        ],
+        "degrees_of_freedom": 5,
+        "lower_pct_of_parent_mae": -8.566148426640698,
+        "mde80": 0.23178565845616086,
+        "se": 0.06641183841685547,
+        "status": "ok",
+        "upper_pct_of_parent_mae": 3.1036776787150164,
+        "verdict": "spans_zero"
+      },
+      "positive_favours": "gbm_z",
+      "positive_seasons": 2,
+      "right": "gbm_z",
+      "role": "printed",
+      "sd_paired_difference": 1.4194666351332896,
+      "season_difference": {
+        "2020": -0.2460421943933899,
+        "2021": 0.1392250030728791,
+        "2022": -0.16764065332214823,
+        "2023": -0.07753220470616784,
+        "2024": -0.18896167220741827,
+        "2025": 0.08172227611208946
+      }
+    },
+    "offsets10_vs_ridge": {
+      "difference": -0.018747891726621384,
+      "equal_season_difference": -0.012955189967036193,
+      "leave_one_season_out": {
+        "2020": 0.006278540539686597,
+        "2021": -0.03052819666911477,
+        "2022": -0.05007695083524468,
+        "2023": -0.023244236724826638,
+        "2024": -0.0014117039780632069,
+        "2025": -0.011945278921802981
+      },
+      "left": "source_ridge_10",
+      "loso_range": [
+        -0.05007695083524468,
+        0.006278540539686597
+      ],
+      "mae_left": 2.924039934533798,
+      "mae_right": 2.9427878262604192,
+      "n": 674,
+      "n_seasons": 6,
+      "outcome_sd_units": -0.003831619180533429,
+      "pct_of_parent_mae": -0.6411640109699973,
+      "player_club_season": {
+        "ci95": [
+          -0.08982495622417422,
+          0.05232917277093146
+        ],
+        "degrees_of_freedom": 200,
+        "lower_pct_of_parent_mae": -3.071946971835585,
+        "mde80": 0.10147824308053695,
+        "se": 0.03604503302236081,
+        "status": "ok",
+        "upper_pct_of_parent_mae": 1.7896189498955901,
+        "verdict": "spans_zero"
+      },
+      "player_season": {
+        "ci95": [
+          -0.1265266371695259,
+          0.08903085371628311
+        ],
+        "degrees_of_freedom": 5,
+        "lower_pct_of_parent_mae": -4.327117276176975,
+        "mde80": 0.1463331589380304,
+        "se": 0.04192776279235835,
+        "status": "ok",
+        "upper_pct_of_parent_mae": 3.04478925423698,
+        "verdict": "spans_zero"
+      },
+      "positive_favours": "ridge",
+      "positive_seasons": 3,
+      "right": "ridge",
+      "role": "printed",
+      "sd_paired_difference": 1.0000709933557856,
+      "season_difference": {
+        "2020": -0.11960067847144462,
+        "2021": 0.04808492740257378,
+        "2022": 0.14912857594977508,
+        "2023": 0.0064669057142943045,
+        "2024": -0.11376353611775758,
+        "2025": -0.048047334279658106
+      }
+    },
+    "primary_offsets10_vs_gbm": {
+      "difference": -0.10844719089049687,
+      "equal_season_difference": -0.10658181311861081,
+      "leave_one_season_out": {
+        "2020": -0.08346490591528637,
+        "2021": -0.14199117272552209,
+        "2022": -0.09844235898071178,
+        "2023": -0.11507622794367667,
+        "2024": -0.0764400372185591,
+        "2025": -0.1347812772131437
+      },
+      "left": "source_ridge_10",
+      "loso_range": [
+        -0.14199117272552209,
+        -0.0764400372185591
+      ],
+      "mae_left": 2.924039934533798,
+      "mae_right": 3.0324871254242947,
+      "n": 674,
+      "n_seasons": 6,
+      "outcome_sd_units": -0.02216400343836857,
+      "pct_of_parent_mae": -3.708813604414313,
+      "player_club_season": {
+        "ci95": [
+          -0.2218404911561666,
+          0.004946109375172883
+        ],
+        "degrees_of_freedom": 200,
+        "lower_pct_of_parent_mae": -7.586780486003736,
+        "mde80": 0.16189403669674807,
+        "se": 0.05750469974363199,
+        "status": "ok",
+        "upper_pct_of_parent_mae": 0.16915327717511078,
+        "verdict": "spans_zero"
+      },
+      "player_season": {
+        "ci95": [
+          -0.2509453394450637,
+          0.03405095766406993
+        ],
+        "degrees_of_freedom": 5,
+        "lower_pct_of_parent_mae": -8.582144740272634,
+        "mde80": 0.19347232272115178,
+        "se": 0.055434200374053916,
+        "status": "ok",
+        "upper_pct_of_parent_mae": 1.1645175314440066,
+        "verdict": "spans_zero"
+      },
+      "positive_favours": "gbm",
+      "positive_seasons": 2,
+      "right": "gbm",
+      "role": "primary",
+      "sd_paired_difference": 1.4600606970211085,
+      "season_difference": {
+        "2020": -0.20912207064134508,
+        "2021": 0.08185678526266604,
+        "2022": -0.1620579882938735,
+        "2023": -0.07127259094521406,
+        "2024": -0.2838710139001558,
+        "2025": 0.004975999806257543
+      }
+    },
+    "ridge_club_increment": {
+      "difference": 0.0018230417953609146,
+      "equal_season_difference": 0.0020359261554532327,
+      "leave_one_season_out": {
+        "2020": -0.0024353624525276668,
+        "2021": -0.0012090732815630482,
+        "2022": 0.0003803736477181369,
+        "2023": 0.0016099462166348302,
+        "2024": 0.004656071037320304,
+        "2025": 0.007971926153519654
+      },
+      "left": "ridge_noclub",
+      "loso_range": [
+        -0.0024353624525276668,
+        0.007971926153519654
+      ],
+      "mae_left": 2.94461086805578,
+      "mae_right": 2.9427878262604192,
+      "n": 674,
+      "n_seasons": 6,
+      "outcome_sd_units": 0.00037258599590162043,
+      "pct_of_parent_mae": 0.06191112771938531,
+      "player_club_season": {
+        "ci95": [
+          -0.02180207091931744,
+          0.02544815451003927
+        ],
+        "degrees_of_freedom": 200,
+        "lower_pct_of_parent_mae": -0.7404058429531152,
+        "mde80": 0.03373007801901775,
+        "se": 0.01198091077589307,
+        "status": "ok",
+        "upper_pct_of_parent_mae": 0.8642280983918857,
+        "verdict": "spans_zero"
+      },
+      "player_season": {
+        "ci95": [
+          -0.017556297123083604,
+          0.02120238071380543
+        ],
+        "degrees_of_freedom": 5,
+        "lower_pct_of_parent_mae": -0.5962179014395675,
+        "mde80": 0.026311680196435188,
+        "se": 0.00753889203206301,
+        "status": "ok",
+        "upper_pct_of_parent_mae": 0.7200401568783381,
+        "verdict": "spans_zero"
+      },
+      "positive_favours": "ridge",
+      "positive_seasons": 4,
+      "right": "ridge",
+      "role": "secondary",
+      "sd_paired_difference": 0.3014009484430748,
+      "season_difference": {
+        "2020": 0.01898377533162833,
+        "2021": 0.01902504119216716,
+        "2022": 0.009553565454427874,
+        "2023": 0.0030180483740993493,
+        "2024": -0.013704137703839585,
+        "2025": -0.024660735715763736
+      }
+    },
+    "ridge_translation_increment": {
+      "difference": -0.00022569897437875526,
+      "equal_season_difference": 1.0589580318369976e-05,
+      "leave_one_season_out": {
+        "2020": -0.00014061729523142088,
+        "2021": -0.001162918568663934,
+        "2022": -0.0011329898627153378,
+        "2023": 0.00024315666333074115,
+        "2024": -0.00024983952672008044,
+        "2025": 0.001149070011774351
+      },
+      "left": "ridge",
+      "loso_range": [
+        -0.001162918568663934,
+        0.001149070011774351
+      ],
+      "mae_left": 2.9427878262604192,
+      "mae_right": 2.9430135252347984,
+      "n": 674,
+      "n_seasons": 6,
+      "outcome_sd_units": -4.612745432215106e-05,
+      "pct_of_parent_mae": -0.00766956327482042,
+      "player_club_season": {
+        "ci95": [
+          -0.008210673664606488,
+          0.007759275715848978
+        ],
+        "degrees_of_freedom": 200,
+        "lower_pct_of_parent_mae": -0.2790100458938045,
+        "mde80": 0.011400318912083988,
+        "se": 0.004049388905219678,
+        "status": "ok",
+        "upper_pct_of_parent_mae": 0.2636709193441637,
+        "verdict": "spans_zero"
+      },
+      "player_season": {
+        "ci95": [
+          -0.0046523282363002605,
+          0.0042009302875427494
+        ],
+        "degrees_of_freedom": 5,
+        "lower_pct_of_parent_mae": -0.158092547304447,
+        "mde80": 0.006010114894941379,
+        "se": 0.0017220339771154376,
+        "status": "ok",
+        "upper_pct_of_parent_mae": 0.14275342075480613,
+        "verdict": "spans_zero"
+      },
+      "positive_favours": "ridge_z",
+      "positive_seasons": 2,
+      "right": "ridge_z",
+      "role": "printed",
+      "sd_paired_difference": 0.1079173020795217,
+      "season_difference": {
+        "2020": -0.0005685654425844311,
+        "2021": 0.005091398327853001,
+        "2022": 0.00463601069142482,
+        "2023": -0.0028549678446712252,
+        "2024": -9.339017789264595e-05,
+        "2025": -0.0061469480722193
+      }
+    }
+  },
+  "exploratory": true,
+  "features_by_arm_last_season": {
+    "gbm": [
+      "x",
+      "h",
+      "a",
+      "pts36_src",
+      "oreb36_src",
+      "dreb36_src",
+      "ast36_src",
+      "stl36_src",
+      "blk36_src",
+      "tov36_src",
+      "fg3a36_src",
+      "fta36_src",
+      "min_per_game_src",
+      "games_src",
+      "usage_src",
+      "age_c26",
+      "age_c26_sq",
+      "age_missing",
+      "destination_euroleague",
+      "source:aba-league",
+      "source:france-pro-a",
+      "source:germany-bbl",
+      "source:greece-a1",
+      "source:israel-bsl",
+      "source:italy-lba",
+      "source:lithuania-lkl",
+      "source:spain-acb",
+      "source:turkey-bsl",
+      "source:vtb",
+      "club_win_share"
+    ],
+    "gbm_noclub": [
+      "x",
+      "h",
+      "a",
+      "pts36_src",
+      "oreb36_src",
+      "dreb36_src",
+      "ast36_src",
+      "stl36_src",
+      "blk36_src",
+      "tov36_src",
+      "fg3a36_src",
+      "fta36_src",
+      "min_per_game_src",
+      "games_src",
+      "usage_src",
+      "age_c26",
+      "age_c26_sq",
+      "age_missing",
+      "destination_euroleague",
+      "source:aba-league",
+      "source:france-pro-a",
+      "source:germany-bbl",
+      "source:greece-a1",
+      "source:israel-bsl",
+      "source:italy-lba",
+      "source:lithuania-lkl",
+      "source:spain-acb",
+      "source:turkey-bsl",
+      "source:vtb"
+    ],
+    "gbm_noclub_z": [
+      "x",
+      "h",
+      "a",
+      "pts36_src",
+      "oreb36_src",
+      "dreb36_src",
+      "ast36_src",
+      "stl36_src",
+      "blk36_src",
+      "tov36_src",
+      "fg3a36_src",
+      "fta36_src",
+      "min_per_game_src",
+      "games_src",
+      "usage_src",
+      "age_c26",
+      "age_c26_sq",
+      "age_missing",
+      "destination_euroleague",
+      "source:aba-league",
+      "source:france-pro-a",
+      "source:germany-bbl",
+      "source:greece-a1",
+      "source:israel-bsl",
+      "source:italy-lba",
+      "source:lithuania-lkl",
+      "source:spain-acb",
+      "source:turkey-bsl",
+      "source:vtb",
+      "z"
+    ],
+    "gbm_z": [
+      "x",
+      "h",
+      "a",
+      "pts36_src",
+      "oreb36_src",
+      "dreb36_src",
+      "ast36_src",
+      "stl36_src",
+      "blk36_src",
+      "tov36_src",
+      "fg3a36_src",
+      "fta36_src",
+      "min_per_game_src",
+      "games_src",
+      "usage_src",
+      "age_c26",
+      "age_c26_sq",
+      "age_missing",
+      "destination_euroleague",
+      "source:aba-league",
+      "source:france-pro-a",
+      "source:germany-bbl",
+      "source:greece-a1",
+      "source:israel-bsl",
+      "source:italy-lba",
+      "source:lithuania-lkl",
+      "source:spain-acb",
+      "source:turkey-bsl",
+      "source:vtb",
+      "club_win_share",
+      "z"
+    ],
+    "ridge": [
+      "x",
+      "h",
+      "a",
+      "pts36_src",
+      "oreb36_src",
+      "dreb36_src",
+      "ast36_src",
+      "stl36_src",
+      "blk36_src",
+      "tov36_src",
+      "fg3a36_src",
+      "fta36_src",
+      "min_per_game_src",
+      "games_src",
+      "usage_src",
+      "age_c26",
+      "age_c26_sq",
+      "age_missing",
+      "destination_euroleague",
+      "source:aba-league",
+      "source:france-pro-a",
+      "source:germany-bbl",
+      "source:greece-a1",
+      "source:israel-bsl",
+      "source:italy-lba",
+      "source:lithuania-lkl",
+      "source:spain-acb",
+      "source:turkey-bsl",
+      "source:vtb",
+      "club_win_share"
+    ],
+    "ridge_noclub": [
+      "x",
+      "h",
+      "a",
+      "pts36_src",
+      "oreb36_src",
+      "dreb36_src",
+      "ast36_src",
+      "stl36_src",
+      "blk36_src",
+      "tov36_src",
+      "fg3a36_src",
+      "fta36_src",
+      "min_per_game_src",
+      "games_src",
+      "usage_src",
+      "age_c26",
+      "age_c26_sq",
+      "age_missing",
+      "destination_euroleague",
+      "source:aba-league",
+      "source:france-pro-a",
+      "source:germany-bbl",
+      "source:greece-a1",
+      "source:israel-bsl",
+      "source:italy-lba",
+      "source:lithuania-lkl",
+      "source:spain-acb",
+      "source:turkey-bsl",
+      "source:vtb"
+    ],
+    "ridge_noclub_z": [
+      "x",
+      "h",
+      "a",
+      "pts36_src",
+      "oreb36_src",
+      "dreb36_src",
+      "ast36_src",
+      "stl36_src",
+      "blk36_src",
+      "tov36_src",
+      "fg3a36_src",
+      "fta36_src",
+      "min_per_game_src",
+      "games_src",
+      "usage_src",
+      "age_c26",
+      "age_c26_sq",
+      "age_missing",
+      "destination_euroleague",
+      "source:aba-league",
+      "source:france-pro-a",
+      "source:germany-bbl",
+      "source:greece-a1",
+      "source:israel-bsl",
+      "source:italy-lba",
+      "source:lithuania-lkl",
+      "source:spain-acb",
+      "source:turkey-bsl",
+      "source:vtb",
+      "z"
+    ],
+    "ridge_z": [
+      "x",
+      "h",
+      "a",
+      "pts36_src",
+      "oreb36_src",
+      "dreb36_src",
+      "ast36_src",
+      "stl36_src",
+      "blk36_src",
+      "tov36_src",
+      "fg3a36_src",
+      "fta36_src",
+      "min_per_game_src",
+      "games_src",
+      "usage_src",
+      "age_c26",
+      "age_c26_sq",
+      "age_missing",
+      "destination_euroleague",
+      "source:aba-league",
+      "source:france-pro-a",
+      "source:germany-bbl",
+      "source:greece-a1",
+      "source:israel-bsl",
+      "source:italy-lba",
+      "source:lithuania-lkl",
+      "source:spain-acb",
+      "source:turkey-bsl",
+      "source:vtb",
+      "club_win_share",
+      "z"
+    ]
+  },
+  "gates": {
+    "G0": {
+      "max_difference": 1.3322676295501878e-15,
+      "negative_control": "rejected as required",
+      "status": "passed",
+      "tolerance": 1e-09
+    },
+    "G16": {
+      "ambiguous_links_dropped": 0,
+      "cohort_rows": 1371,
+      "cohort_rows_joined": 1371,
+      "coverage": 1.0,
+      "exact_name_join_coverage_printed": 0.6602373887240356,
+      "joined": 674,
+      "min_link_agreement_on_targets": 0.45454545454545453,
+      "negative_control": "rejected as required",
+      "negative_control_coverage": 0.0,
+      "status": "passed",
+      "targets": 674,
+      "threshold": 0.9,
+      "tied_games_excluded": 0,
+      "unjoined": []
+    },
+    "ridge_history_reproduction": {
+      "max_difference": 2.042810365310288e-14,
+      "status": "passed",
+      "tolerance": 1e-09
+    },
+    "training_rows_identity": {
+      "negative_control": "rejected as required",
+      "status": "passed"
+    }
+  },
+  "hgb_params": {
+    "early_stopping": false,
+    "l2_regularization": 1.0,
+    "learning_rate": 0.05,
+    "loss": "absolute_error",
+    "max_iter": 300,
+    "max_leaf_nodes": 15,
+    "min_samples_leaf": 20,
+    "random_state": 0
+  },
+  "input_sha256": {
+    "cohort": "c629f43e3194642d483701c3d07666252938d587e747c99dbb031a2346bf2abf",
+    "pairs": "d964727924630dbf32c1764daf1e536c81d58988218a230fea591c62c1a62f58",
+    "player_bio": "771bef2b74000ae8316e9500944b4a85df47b1b8b97be02a3af060bb8b5aef63",
+    "robustness_summary": "ec2e2c10f44b801a1af099600841a73058872f9430b3aecfaf507a7fc32c91db"
+  },
+  "labels": {
+    "gbm": "GBM, all features, no z",
+    "gbm_noclub": "GBM without club win share, no z",
+    "gbm_noclub_z": "GBM without club win share, + z",
+    "gbm_z": "GBM, all features + z",
+    "history_only": "history",
+    "ridge": "ridge-full, no z",
+    "ridge_noclub": "ridge without club win share, no z",
+    "ridge_noclub_z": "ridge without club win share, + z",
+    "ridge_z": "ridge-full + z",
+    "scheduled_history": "history + translation",
+    "source_ridge_10": "offsets \u03bb10 (league-aware)",
+    "source_ridge_10_scheduled": "offsets \u03bb10 + translation"
+  },
+  "licensed": {
+    "club_quality": "no licence registered: the club-quality increment is printed only",
+    "league_aware_share_pct_measured": 18.832413653146467,
+    "league_aware_share_pct_registered": 18.8,
+    "primary": "A flexible model with 30 features does no better than one number per league.",
+    "translation": "None of six standard recipes adds more than 2% accuracy once the forecast knows both leagues, and a flexible model."
+  },
+  "metrics": {
+    "gbm": {
+      "bias": -0.41616250615579314,
+      "mae": 3.0324871254242947,
+      "median_ae": 2.434475956674321,
+      "n": 674,
+      "p90_ae": 6.464911559327399,
+      "rmse": 3.8702608738816915
+    },
+    "gbm_noclub": {
+      "bias": -0.3438856214812064,
+      "mae": 3.0478680417296946,
+      "median_ae": 2.455796560528846,
+      "n": 674,
+      "p90_ae": 6.412576013705794,
+      "rmse": 3.877784837050249
+    },
+    "gbm_noclub_z": {
+      "bias": -0.44331897612479726,
+      "mae": 3.0176652348604733,
+      "median_ae": 2.3792015925277115,
+      "n": 674,
+      "p90_ae": 6.336921338923051,
+      "rmse": 3.8485552991900707
+    },
+    "gbm_z": {
+      "bias": -0.4665698263972213,
+      "mae": 3.005696037022766,
+      "median_ae": 2.4119654759114635,
+      "n": 674,
+      "p90_ae": 6.45962164524877,
+      "rmse": 3.8448139108354917
+    },
+    "history_only": {
+      "bias": -0.3693174865921096,
+      "mae": 3.0960541317570174,
+      "median_ae": 2.5403588227846763,
+      "n": 674,
+      "p90_ae": 6.426192708273929,
+      "rmse": 3.952652934711041
+    },
+    "ridge": {
+      "bias": -0.534949751997564,
+      "mae": 2.9427878262604192,
+      "median_ae": 2.4349459363403003,
+      "n": 674,
+      "p90_ae": 6.178365592078249,
+      "rmse": 3.7625785087450927
+    },
+    "ridge_noclub": {
+      "bias": -0.5056050017981215,
+      "mae": 2.94461086805578,
+      "median_ae": 2.495751271471049,
+      "n": 674,
+      "p90_ae": 6.136480650172712,
+      "rmse": 3.7585937300100754
+    },
+    "ridge_noclub_z": {
+      "bias": -0.5227057740588366,
+      "mae": 2.9454437255169457,
+      "median_ae": 2.458190640522742,
+      "n": 674,
+      "p90_ae": 6.037947777130341,
+      "rmse": 3.7578375356160447
+    },
+    "ridge_z": {
+      "bias": -0.5517461237604613,
+      "mae": 2.9430135252347984,
+      "median_ae": 2.458919242295262,
+      "n": 674,
+      "p90_ae": 6.120135978854324,
+      "rmse": 3.7617094895674383
+    },
+    "scheduled_history": {
+      "bias": -0.5612280128785812,
+      "mae": 2.934957217574789,
+      "median_ae": 2.4566610356194465,
+      "n": 674,
+      "p90_ae": 5.909346937407758,
+      "rmse": 3.7665764675432816
+    },
+    "source_ridge_10": {
+      "bias": -0.47233515761788286,
+      "mae": 2.924039934533798,
+      "median_ae": 2.348299049649195,
+      "n": 674,
+      "p90_ae": 6.063476032027346,
+      "rmse": 3.7462873542603194
+    },
+    "source_ridge_10_scheduled": {
+      "bias": -0.5573316105151476,
+      "mae": 2.9257859365570886,
+      "median_ae": 2.4457660385323416,
+      "n": 674,
+      "p90_ae": 5.9156338457957975,
+      "rmse": 3.7521535768640915
+    }
+  },
+  "n_boot": 2000,
+  "n_features_primary": 30,
+  "n_features_primary_by_season": {
+    "2020": 30,
+    "2021": 30,
+    "2022": 30,
+    "2023": 30,
+    "2024": 30,
+    "2025": 30
+  },
+  "n_targets": 674,
+  "outcome_sd": 4.89294234193998,
+  "primary_arm": "gbm",
+  "proballers_files": 200,
+  "proballers_seasons": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "protocol_commit": "f52e7c831fef6759eab202c8ff8c56fa76037533",
+  "reducible": {
+    "clusters": 201,
+    "floor": 2.1826598085897384,
+    "history_mae": 3.0960541317570174,
+    "models": {
+      "gbm": {
+        "ci95_percentile": [
+          -0.049712505331649705,
+          0.17755722643826907
+        ],
+        "mae": 3.0324871254242947,
+        "mae_minus_floor": 0.8498273168345563,
+        "share_of_reducible_removed": 0.06959426473365662
+      },
+      "gbm_noclub": {
+        "ci95_percentile": [
+          -0.07173920562634833,
+          0.16175379030671352
+        ],
+        "mae": 3.0478680417296946,
+        "mae_minus_floor": 0.8652082331399562,
+        "share_of_reducible_removed": 0.05275496990197297
+      },
+      "gbm_noclub_z": {
+        "ci95_percentile": [
+          -0.037663872790241894,
+          0.20304711079048024
+        ],
+        "mae": 3.0176652348604733,
+        "mae_minus_floor": 0.8350054262707349,
+        "share_of_reducible_removed": 0.08582152845522767
+      },
+      "gbm_z": {
+        "ci95_percentile": [
+          -0.01712065623468381,
+          0.21049200662071627
+        ],
+        "mae": 3.005696037022766,
+        "mae_minus_floor": 0.8230362284330277,
+        "share_of_reducible_removed": 0.09892561453735146
+      },
+      "history_only": {
+        "ci95_percentile": [
+          0.0,
+          0.0
+        ],
+        "mae": 3.0960541317570174,
+        "mae_minus_floor": 0.913394323167279,
+        "share_of_reducible_removed": 0.0
+      },
+      "ridge": {
+        "ci95_percentile": [
+          0.06475682462596155,
+          0.2660161484082672
+        ],
+        "mae": 2.9427878262604192,
+        "mae_minus_floor": 0.7601280176706808,
+        "share_of_reducible_removed": 0.16779861841612187
+      },
+      "ridge_noclub": {
+        "ci95_percentile": [
+          0.0647660104890026,
+          0.26462841971824497
+        ],
+        "mae": 2.94461086805578,
+        "mae_minus_floor": 0.7619510594660417,
+        "share_of_reducible_removed": 0.16580272053377101
+      },
+      "ridge_noclub_z": {
+        "ci95_percentile": [
+          0.0606602276909189,
+          0.2658871643885145
+        ],
+        "mae": 2.9454437255169457,
+        "mae_minus_floor": 0.7627839169272073,
+        "share_of_reducible_removed": 0.16489089369180251
+      },
+      "ridge_z": {
+        "ci95_percentile": [
+          0.06324923249018859,
+          0.26791179254014985
+        ],
+        "mae": 2.9430135252347984,
+        "mae_minus_floor": 0.76035371664506,
+        "share_of_reducible_removed": 0.1675515192513312
+      },
+      "scheduled_history": {
+        "ci95_percentile": [
+          0.09453035555760758,
+          0.2659145769549796
+        ],
+        "mae": 2.934957217574789,
+        "mae_minus_floor": 0.7522974089850507,
+        "share_of_reducible_removed": 0.17637170507433184
+      },
+      "source_ridge_10": {
+        "ci95_percentile": [
+          0.11577071367715007,
+          0.27165995565551426
+        ],
+        "mae": 2.924039934533798,
+        "mae_minus_floor": 0.7413801259440596,
+        "share_of_reducible_removed": 0.18832413653146468
+      },
+      "source_ridge_10_scheduled": {
+        "ci95_percentile": [
+          0.09923537045735249,
+          0.28389377920011627
+        ],
+        "mae": 2.9257859365570886,
+        "mae_minus_floor": 0.7431261279673502,
+        "share_of_reducible_removed": 0.18641258313223155
+      }
+    },
+    "n_boot": 2000,
+    "reducible": 0.913394323167279,
+    "seed": 0
+  },
+  "ridge_penalty": 10.0,
+  "ridge_unpenalised": [
+    "intercept",
+    "x",
+    "h",
+    "a"
+  ],
+  "seed": 0,
+  "sklearn_version": "1.9.0",
+  "training": {
+    "2020": {
+      "gbm_iterations": {
+        "gbm": 300,
+        "gbm_noclub": 300,
+        "gbm_noclub_z": 300,
+        "gbm_z": 300
+      },
+      "source_categories": [
+        "aba-league",
+        "france-pro-a",
+        "germany-bbl",
+        "greece-a1",
+        "israel-bsl",
+        "italy-lba",
+        "lithuania-lkl",
+        "spain-acb",
+        "turkey-bsl",
+        "vtb"
+      ],
+      "test_rows": 134,
+      "train_rows": 385
+    },
+    "2021": {
+      "gbm_iterations": {
+        "gbm": 300,
+        "gbm_noclub": 300,
+        "gbm_noclub_z": 300,
+        "gbm_z": 300
+      },
+      "source_categories": [
+        "aba-league",
+        "france-pro-a",
+        "germany-bbl",
+        "greece-a1",
+        "israel-bsl",
+        "italy-lba",
+        "lithuania-lkl",
+        "spain-acb",
+        "turkey-bsl",
+        "vtb"
+      ],
+      "test_rows": 101,
+      "train_rows": 519
+    },
+    "2022": {
+      "gbm_iterations": {
+        "gbm": 300,
+        "gbm_noclub": 300,
+        "gbm_noclub_z": 300,
+        "gbm_z": 300
+      },
+      "source_categories": [
+        "aba-league",
+        "france-pro-a",
+        "germany-bbl",
+        "greece-a1",
+        "israel-bsl",
+        "italy-lba",
+        "lithuania-lkl",
+        "spain-acb",
+        "turkey-bsl",
+        "vtb"
+      ],
+      "test_rows": 106,
+      "train_rows": 620
+    },
+    "2023": {
+      "gbm_iterations": {
+        "gbm": 300,
+        "gbm_noclub": 300,
+        "gbm_noclub_z": 300,
+        "gbm_z": 300
+      },
+      "source_categories": [
+        "aba-league",
+        "france-pro-a",
+        "germany-bbl",
+        "greece-a1",
+        "israel-bsl",
+        "italy-lba",
+        "lithuania-lkl",
+        "spain-acb",
+        "turkey-bsl",
+        "vtb"
+      ],
+      "test_rows": 102,
+      "train_rows": 726
+    },
+    "2024": {
+      "gbm_iterations": {
+        "gbm": 300,
+        "gbm_noclub": 300,
+        "gbm_noclub_z": 300,
+        "gbm_z": 300
+      },
+      "source_categories": [
+        "aba-league",
+        "france-pro-a",
+        "germany-bbl",
+        "greece-a1",
+        "israel-bsl",
+        "italy-lba",
+        "lithuania-lkl",
+        "spain-acb",
+        "turkey-bsl",
+        "vtb"
+      ],
+      "test_rows": 104,
+      "train_rows": 828
+    },
+    "2025": {
+      "gbm_iterations": {
+        "gbm": 300,
+        "gbm_noclub": 300,
+        "gbm_noclub_z": 300,
+        "gbm_z": 300
+      },
+      "source_categories": [
+        "aba-league",
+        "france-pro-a",
+        "germany-bbl",
+        "greece-a1",
+        "israel-bsl",
+        "italy-lba",
+        "lithuania-lkl",
+        "spain-acb",
+        "turkey-bsl",
+        "vtb"
+      ],
+      "test_rows": 127,
+      "train_rows": 932
+    }
+  }
+}

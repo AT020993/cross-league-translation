@@ -1,0 +1,780 @@
+{
+  "amendment_commit": "5ab52fac1a3116859e77391572afa34489cf2e1e",
+  "amendment_sha256": "16c68731112fa64a8890553c0821451ed74b6ae0bf7db7a0dbbd1aedacde2aa9",
+  "analysis": "Amendment 4: E24 (exploratory; destination seasons 2020-2025 already seen)",
+  "e24": {
+    "contrasts": {
+      "primary": {
+        "bootstrap_se": 0.0860593379870191,
+        "ci95": [
+          0.29353325402998576,
+          0.6343279294855014
+        ],
+        "definition": "S(history_destination_slope) - S(source_ridge_10)",
+        "licensed": true,
+        "mde_80": 0.24110255041436293,
+        "point": 0.6075866795871571,
+        "sentence": "Once the forecast knows the destination, the league table still flattens the league pattern."
+      },
+      "secondary": {
+        "bootstrap_se": 0.045611168455912704,
+        "ci95": [
+          -0.09647126461261335,
+          0.0795840625735657
+        ],
+        "definition": "S(history_only) - S(history_destination_slope)",
+        "licensed": false,
+        "mde_80": 0.1277835653785582,
+        "point": -0.014444629736201975,
+        "sentence": "Knowing the destination alone does not detectably flatten the league pattern at this n."
+      }
+    },
+    "destination_mix": [
+      {
+        "arrivals": 70,
+        "eurocup": 51,
+        "euroleague": 19,
+        "euroleague_share": 0.2714285714285714,
+        "source_league": "aba-league"
+      },
+      {
+        "arrivals": 70,
+        "eurocup": 53,
+        "euroleague": 17,
+        "euroleague_share": 0.24285714285714285,
+        "source_league": "france-pro-a"
+      },
+      {
+        "arrivals": 87,
+        "eurocup": 65,
+        "euroleague": 22,
+        "euroleague_share": 0.25287356321839083,
+        "source_league": "germany-bbl"
+      },
+      {
+        "arrivals": 30,
+        "eurocup": 26,
+        "euroleague": 4,
+        "euroleague_share": 0.13333333333333333,
+        "source_league": "greece-a1"
+      },
+      {
+        "arrivals": 49,
+        "eurocup": 35,
+        "euroleague": 14,
+        "euroleague_share": 0.2857142857142857,
+        "source_league": "israel-bsl"
+      },
+      {
+        "arrivals": 77,
+        "eurocup": 58,
+        "euroleague": 19,
+        "euroleague_share": 0.24675324675324675,
+        "source_league": "italy-lba"
+      },
+      {
+        "arrivals": 48,
+        "eurocup": 40,
+        "euroleague": 8,
+        "euroleague_share": 0.16666666666666666,
+        "source_league": "lithuania-lkl"
+      },
+      {
+        "arrivals": 108,
+        "eurocup": 64,
+        "euroleague": 44,
+        "euroleague_share": 0.4074074074074074,
+        "source_league": "spain-acb"
+      },
+      {
+        "arrivals": 108,
+        "eurocup": 77,
+        "euroleague": 31,
+        "euroleague_share": 0.28703703703703703,
+        "source_league": "turkey-bsl"
+      },
+      {
+        "arrivals": 27,
+        "eurocup": 11,
+        "euroleague": 16,
+        "euroleague_share": 0.5925925925925926,
+        "source_league": "vtb"
+      }
+    ],
+    "e18_contrast_history_minus_league_aware": {
+      "ci95": [
+        0.2780653646202013,
+        0.652883626943689
+      ],
+      "point": 0.5931420498509551,
+      "source": "Amendment 3 run amend3-02 (E18)"
+    },
+    "holm_family": "destination-aware re-based bootstrap two-sided p, 10 source leagues",
+    "leagues": [
+      {
+        "arrivals": 70,
+        "licence": "not_distinguishable",
+        "raw_ci95_high_history_destination_slope": 1.3249835775084045,
+        "raw_ci95_high_history_only": 1.380329780909952,
+        "raw_ci95_high_source_ridge_10": 0.8763540860958208,
+        "raw_ci95_low_history_destination_slope": -0.6115650720515069,
+        "raw_ci95_low_history_only": -0.7293530892322814,
+        "raw_ci95_low_source_ridge_10": -1.2006108516167648,
+        "rebased_ci95_high_history_destination_slope": 1.7307120900751998,
+        "rebased_ci95_high_history_only": 1.742134105403547,
+        "rebased_ci95_high_source_ridge_10": 1.2682033435440596,
+        "rebased_ci95_low_history_destination_slope": -0.10042854215278652,
+        "rebased_ci95_low_history_only": -0.2828312754708252,
+        "rebased_ci95_low_source_ridge_10": -0.6690765127738838,
+        "rebased_history_destination_slope": 0.9151964801208501,
+        "rebased_history_only": 0.8454749927703078,
+        "rebased_mde_80_history_destination_slope": 1.2777760524337558,
+        "rebased_mde_80_history_only": 1.4188926508708082,
+        "rebased_mde_80_source_ridge_10": 1.3558455280491513,
+        "rebased_p_bootstrap_history_destination_slope": 0.06996501749125437,
+        "rebased_p_bootstrap_history_only": 0.12393803098450774,
+        "rebased_p_bootstrap_source_ridge_10": 0.4217891054472764,
+        "rebased_p_holm_history_destination_slope": 0.2798600699650175,
+        "rebased_source_ridge_10": 0.41562907358276685,
+        "sentence": "aba-league: not distinguishable at this n.",
+        "signed_error_history_destination_slope": 0.4721749053615447,
+        "signed_error_history_only": 0.4761575061781982,
+        "signed_error_source_ridge_10": -0.056706084035116025,
+        "source_league": "aba-league"
+      },
+      {
+        "arrivals": 70,
+        "licence": "not_distinguishable",
+        "raw_ci95_high_history_destination_slope": -0.5389614456691257,
+        "raw_ci95_high_history_only": -0.44022629400876107,
+        "raw_ci95_high_source_ridge_10": 0.363378080244183,
+        "raw_ci95_low_history_destination_slope": -2.6252393270133423,
+        "raw_ci95_low_history_only": -2.727631632211487,
+        "raw_ci95_low_source_ridge_10": -1.7624434592431775,
+        "rebased_ci95_high_history_destination_slope": -0.16826412966002,
+        "rebased_ci95_high_history_only": -0.17448762506316212,
+        "rebased_ci95_high_source_ridge_10": 0.7457572896040965,
+        "rebased_ci95_low_history_destination_slope": -2.100094801381172,
+        "rebased_ci95_low_history_only": -2.1701424874950535,
+        "rebased_ci95_low_source_ridge_10": -1.1654750553272752,
+        "rebased_history_destination_slope": -1.107816676147246,
+        "rebased_history_only": -1.1667762911725035,
+        "rebased_mde_80_history_destination_slope": 1.3988155311448192,
+        "rebased_mde_80_history_only": 1.4695951614601357,
+        "rebased_mde_80_source_ridge_10": 1.3944716784075246,
+        "rebased_p_bootstrap_history_destination_slope": 0.02498750624687656,
+        "rebased_p_bootstrap_history_only": 0.026986506746626688,
+        "rebased_p_bootstrap_source_ridge_10": 0.7026486756621689,
+        "rebased_p_holm_history_destination_slope": 0.14992503748125935,
+        "rebased_source_ridge_10": -0.1936241216254863,
+        "sentence": "france-pro-a: not distinguishable at this n.",
+        "signed_error_history_destination_slope": -1.5508382509065515,
+        "signed_error_history_only": -1.536093777764613,
+        "signed_error_source_ridge_10": -0.6659592792433692,
+        "source_league": "france-pro-a"
+      },
+      {
+        "arrivals": 87,
+        "licence": "licensed",
+        "raw_ci95_high_history_destination_slope": 1.1988891692228005,
+        "raw_ci95_high_history_only": 1.243524919033973,
+        "raw_ci95_high_source_ridge_10": 0.30890792934382166,
+        "raw_ci95_low_history_destination_slope": -0.254066455189529,
+        "raw_ci95_low_history_only": -0.317534259991581,
+        "raw_ci95_low_source_ridge_10": -1.1406773122527194,
+        "rebased_ci95_high_history_destination_slope": 1.6033444447116236,
+        "rebased_ci95_high_history_only": 1.582013152702601,
+        "rebased_ci95_high_source_ridge_10": 0.7218651784240331,
+        "rebased_ci95_low_history_destination_slope": 0.25904264242223546,
+        "rebased_ci95_low_history_only": 0.1431714015179318,
+        "rebased_ci95_low_source_ridge_10": -0.5872363497117974,
+        "rebased_history_destination_slope": 0.9098119672304162,
+        "rebased_history_only": 0.8108438533941222,
+        "rebased_mde_80_history_destination_slope": 0.9465551593514874,
+        "rebased_mde_80_history_only": 1.0211831337418693,
+        "rebased_mde_80_source_ridge_10": 0.9322968903492227,
+        "rebased_p_bootstrap_history_destination_slope": 0.005997001499250375,
+        "rebased_p_bootstrap_history_only": 0.01899050474762619,
+        "rebased_p_bootstrap_source_ridge_10": 0.9015492253873063,
+        "rebased_p_holm_history_destination_slope": 0.047976011994003,
+        "rebased_source_ridge_10": 0.04393810401174081,
+        "sentence": "Measured against the average arrival, a forecast that knows the destination but not the source league overrates arrivals from germany-bbl by 0.91 EFF/36.",
+        "signed_error_history_destination_slope": 0.46679039247111087,
+        "signed_error_history_only": 0.4415263668020126,
+        "signed_error_source_ridge_10": -0.42839705360614205,
+        "source_league": "germany-bbl"
+      },
+      {
+        "arrivals": 30,
+        "licence": "not_distinguishable",
+        "raw_ci95_high_history_destination_slope": 0.391963781384222,
+        "raw_ci95_high_history_only": 0.2722082394371318,
+        "raw_ci95_high_source_ridge_10": 0.6099121692568644,
+        "raw_ci95_low_history_destination_slope": -1.8959828426653402,
+        "raw_ci95_low_history_only": -2.0245916299664204,
+        "raw_ci95_low_source_ridge_10": -1.6642442927069698,
+        "rebased_ci95_high_history_destination_slope": 0.861600977098074,
+        "rebased_ci95_high_history_only": 0.6958436648289414,
+        "rebased_ci95_high_source_ridge_10": 1.1370157190651948,
+        "rebased_ci95_low_history_destination_slope": -1.4559853212522917,
+        "rebased_ci95_low_history_only": -1.660419288237113,
+        "rebased_ci95_low_source_ridge_10": -1.142896656326805,
+        "rebased_history_destination_slope": -0.24369792410389057,
+        "rebased_history_only": -0.46272668875885364,
+        "rebased_mde_80_history_destination_slope": 1.6024462260012529,
+        "rebased_mde_80_history_only": 1.6392660880106396,
+        "rebased_mde_80_source_ridge_10": 1.590755790020836,
+        "rebased_p_bootstrap_history_destination_slope": 0.6316841579210395,
+        "rebased_p_bootstrap_history_only": 0.3798100949525237,
+        "rebased_p_bootstrap_source_ridge_10": 0.991504247876062,
+        "rebased_p_holm_history_destination_slope": 0.7226386806596701,
+        "rebased_source_ridge_10": 0.010999504657362658,
+        "sentence": "greece-a1: not distinguishable at this n.",
+        "signed_error_history_destination_slope": -0.6867194988631959,
+        "signed_error_history_only": -0.8320441753509632,
+        "signed_error_source_ridge_10": -0.4613356529605202,
+        "source_league": "greece-a1"
+      },
+      {
+        "arrivals": 49,
+        "licence": "not_distinguishable",
+        "raw_ci95_high_history_destination_slope": 0.7429428979097124,
+        "raw_ci95_high_history_only": 0.9209500567040195,
+        "raw_ci95_high_source_ridge_10": 0.23798968460884973,
+        "raw_ci95_low_history_destination_slope": -0.7373441876140192,
+        "raw_ci95_low_history_only": -0.8074726523397681,
+        "raw_ci95_low_source_ridge_10": -1.2388074550982089,
+        "rebased_ci95_high_history_destination_slope": 1.2051074048591421,
+        "rebased_ci95_high_history_only": 1.2712747882806898,
+        "rebased_ci95_high_source_ridge_10": 0.7180947054914342,
+        "rebased_ci95_low_history_destination_slope": -0.30884217181869866,
+        "rebased_ci95_low_history_only": -0.46271271228986727,
+        "rebased_ci95_low_source_ridge_10": -0.7845934158845727,
+        "rebased_history_destination_slope": 0.45271418729797475,
+        "rebased_history_only": 0.39918465795008884,
+        "rebased_mde_80_history_destination_slope": 1.0947304278127294,
+        "rebased_mde_80_history_only": 1.239138186471741,
+        "rebased_mde_80_source_ridge_10": 1.081637096747968,
+        "rebased_p_bootstrap_history_destination_slope": 0.24087956021989004,
+        "rebased_p_bootstrap_history_only": 0.3548225887056472,
+        "rebased_p_bootstrap_source_ridge_10": 0.9885057471264368,
+        "rebased_p_holm_history_destination_slope": 0.7226386806596701,
+        "rebased_source_ridge_10": -0.016192877578081244,
+        "sentence": "israel-bsl: not distinguishable at this n.",
+        "signed_error_history_destination_slope": 0.009692612538669404,
+        "signed_error_history_only": 0.029867171357979255,
+        "signed_error_source_ridge_10": -0.4885280351959641,
+        "source_league": "israel-bsl"
+      },
+      {
+        "arrivals": 77,
+        "licence": "licensed",
+        "raw_ci95_high_history_destination_slope": -0.8135181090028626,
+        "raw_ci95_high_history_only": -0.8133211807653598,
+        "raw_ci95_high_source_ridge_10": -0.44780301514661175,
+        "raw_ci95_low_history_destination_slope": -2.20286184323816,
+        "raw_ci95_low_history_only": -2.146885964664415,
+        "raw_ci95_low_source_ridge_10": -1.8558636175766912,
+        "rebased_ci95_high_history_destination_slope": -0.41448846736359446,
+        "rebased_ci95_high_history_only": -0.46990680166058313,
+        "rebased_ci95_high_source_ridge_10": -0.03834909419750954,
+        "rebased_ci95_low_history_destination_slope": -1.6985621228770518,
+        "rebased_ci95_low_history_only": -1.7323579012578918,
+        "rebased_ci95_low_source_ridge_10": -1.3108227581060952,
+        "rebased_history_destination_slope": -1.035592121407517,
+        "rebased_history_only": -1.1129356588213903,
+        "rebased_mde_80_history_destination_slope": 0.9205593931122642,
+        "rebased_mde_80_history_only": 0.9005471597603307,
+        "rebased_mde_80_source_ridge_10": 0.9283333751595406,
+        "rebased_p_bootstrap_history_destination_slope": 0.00399800099950025,
+        "rebased_p_bootstrap_history_only": 0.001999000499750125,
+        "rebased_p_bootstrap_source_ridge_10": 0.038980509745127435,
+        "rebased_p_holm_history_destination_slope": 0.035982008995502246,
+        "rebased_source_ridge_10": -0.6585456602853692,
+        "sentence": "Measured against the average arrival, a forecast that knows the destination but not the source league underrates arrivals from italy-lba by 1.04 EFF/36.",
+        "signed_error_history_destination_slope": -1.4786136961668224,
+        "signed_error_history_only": -1.4822531454135,
+        "signed_error_source_ridge_10": -1.1308808179032521,
+        "source_league": "italy-lba"
+      },
+      {
+        "arrivals": 48,
+        "licence": "not_distinguishable",
+        "raw_ci95_high_history_destination_slope": 1.4896475830905254,
+        "raw_ci95_high_history_only": 1.3597277781168025,
+        "raw_ci95_high_source_ridge_10": 0.6656144241985347,
+        "raw_ci95_low_history_destination_slope": -0.22335125479134874,
+        "raw_ci95_low_history_only": -0.28151949175172747,
+        "raw_ci95_low_source_ridge_10": -1.1744246886455494,
+        "rebased_ci95_high_history_destination_slope": 1.952570987311873,
+        "rebased_ci95_high_history_only": 1.7751209214187256,
+        "rebased_ci95_high_source_ridge_10": 1.146507796205939,
+        "rebased_ci95_low_history_destination_slope": 0.19379979514209753,
+        "rebased_ci95_low_history_only": 0.07086496237279682,
+        "rebased_ci95_low_source_ridge_10": -0.7048584835401042,
+        "rebased_history_destination_slope": 1.052513549102199,
+        "rebased_history_only": 0.8652947664504493,
+        "rebased_mde_80_history_destination_slope": 1.2469081775901607,
+        "rebased_mde_80_history_only": 1.2177390554405312,
+        "rebased_mde_80_source_ridge_10": 1.3166116968872572,
+        "rebased_p_bootstrap_history_destination_slope": 0.017991004497751123,
+        "rebased_p_bootstrap_history_only": 0.03398300849575212,
+        "rebased_p_bootstrap_source_ridge_10": 0.6356821589205397,
+        "rebased_p_holm_history_destination_slope": 0.12593703148425786,
+        "rebased_source_ridge_10": 0.2003219443130907,
+        "sentence": "lithuania-lkl: not distinguishable at this n.",
+        "signed_error_history_destination_slope": 0.6094919743428937,
+        "signed_error_history_only": 0.4959772798583398,
+        "signed_error_source_ridge_10": -0.27201321330479217,
+        "source_league": "lithuania-lkl"
+      },
+      {
+        "arrivals": 108,
+        "licence": "licensed",
+        "raw_ci95_high_history_destination_slope": -0.9015841230817047,
+        "raw_ci95_high_history_only": -0.5152666011079406,
+        "raw_ci95_high_source_ridge_10": 0.0631035353517362,
+        "raw_ci95_low_history_destination_slope": -2.3560930349593883,
+        "raw_ci95_low_history_only": -2.0951538855668432,
+        "raw_ci95_low_source_ridge_10": -1.384441768921089,
+        "rebased_ci95_high_history_destination_slope": -0.5301183673322876,
+        "rebased_ci95_high_history_only": -0.2216430835953798,
+        "rebased_ci95_high_source_ridge_10": 0.4626860917228373,
+        "rebased_ci95_low_history_destination_slope": -1.8353811919812495,
+        "rebased_ci95_low_history_only": -1.6364675202653627,
+        "rebased_ci95_low_source_ridge_10": -0.8262402444155694,
+        "rebased_history_destination_slope": -1.172032332299433,
+        "rebased_history_only": -0.9318204005376325,
+        "rebased_mde_80_history_destination_slope": 0.9093861229426091,
+        "rebased_mde_80_history_only": 0.9849283199339522,
+        "rebased_mde_80_source_ridge_10": 0.9035684479169999,
+        "rebased_p_bootstrap_history_destination_slope": 0.0009995002498750624,
+        "rebased_p_bootstrap_history_only": 0.0069965017491254375,
+        "rebased_p_bootstrap_source_ridge_10": 0.5687156421789106,
+        "rebased_p_holm_history_destination_slope": 0.009995002498750623,
+        "rebased_source_ridge_10": -0.16928824090174427,
+        "sentence": "Measured against the average arrival, a forecast that knows the destination but not the source league underrates arrivals from spain-acb by 1.17 EFF/36.",
+        "signed_error_history_destination_slope": -1.6150539070587384,
+        "signed_error_history_only": -1.301137887129742,
+        "signed_error_source_ridge_10": -0.6416233985196271,
+        "source_league": "spain-acb"
+      },
+      {
+        "arrivals": 108,
+        "licence": "not_distinguishable",
+        "raw_ci95_high_history_destination_slope": 0.6234488521695638,
+        "raw_ci95_high_history_only": 0.7628359732239071,
+        "raw_ci95_high_source_ridge_10": 0.4832943276595038,
+        "raw_ci95_low_history_destination_slope": -0.8525882594116581,
+        "raw_ci95_low_history_only": -0.7461296255029652,
+        "raw_ci95_low_source_ridge_10": -1.01199556131024,
+        "rebased_ci95_high_history_destination_slope": 1.0115120222460519,
+        "rebased_ci95_high_history_only": 1.0606813522013634,
+        "rebased_ci95_high_source_ridge_10": 0.8827577001279702,
+        "rebased_ci95_low_history_destination_slope": -0.37115276328486,
+        "rebased_ci95_low_history_only": -0.34775898232847136,
+        "rebased_ci95_low_source_ridge_10": -0.47820030994442825,
+        "rebased_history_destination_slope": 0.3277637772870491,
+        "rebased_history_only": 0.3366208188362152,
+        "rebased_mde_80_history_destination_slope": 0.9737531690786017,
+        "rebased_mde_80_history_only": 0.9890349099004748,
+        "rebased_mde_80_source_ridge_10": 0.9655925328122481,
+        "rebased_p_bootstrap_history_destination_slope": 0.3498250874562719,
+        "rebased_p_bootstrap_history_only": 0.34182908545727136,
+        "rebased_p_bootstrap_source_ridge_10": 0.5637181409295352,
+        "rebased_p_holm_history_destination_slope": 0.7226386806596701,
+        "rebased_source_ridge_10": 0.20746487566801164,
+        "sentence": "turkey-bsl: not distinguishable at this n.",
+        "signed_error_history_destination_slope": -0.1152577974722563,
+        "signed_error_history_only": -0.03269666775589434,
+        "signed_error_source_ridge_10": -0.2648702819498712,
+        "source_league": "turkey-bsl"
+      },
+      {
+        "arrivals": 27,
+        "licence": "not_distinguishable",
+        "raw_ci95_high_history_destination_slope": 2.3251333180890508,
+        "raw_ci95_high_history_only": 2.981811125424204,
+        "raw_ci95_high_source_ridge_10": 1.5431334221597155,
+        "raw_ci95_low_history_destination_slope": -0.29211957750369477,
+        "raw_ci95_low_history_only": 0.283278391130667,
+        "raw_ci95_low_source_ridge_10": -1.1537102695961117,
+        "rebased_ci95_high_history_destination_slope": 2.785385325421752,
+        "rebased_ci95_high_history_only": 3.378831014515455,
+        "rebased_ci95_high_source_ridge_10": 2.0331213151937284,
+        "rebased_ci95_low_history_destination_slope": 0.07368879196695301,
+        "rebased_ci95_low_history_only": 0.6212488122359743,
+        "rebased_ci95_low_source_ridge_10": -0.7471771063204796,
+        "rebased_history_destination_slope": 1.4762467426343775,
+        "rebased_history_only": 2.0264029566464776,
+        "rebased_mde_80_history_destination_slope": 1.9248809050846891,
+        "rebased_mde_80_history_only": 1.9549588641667146,
+        "rebased_mde_80_source_ridge_10": 1.989775125545336,
+        "rebased_p_bootstrap_history_destination_slope": 0.03498250874562719,
+        "rebased_p_bootstrap_history_only": 0.0079960019990005,
+        "rebased_p_bootstrap_source_ridge_10": 0.335832083958021,
+        "rebased_p_holm_history_destination_slope": 0.17491254372813594,
+        "rebased_source_ridge_10": 0.6692588939171191,
+        "sentence": "vtb: not distinguishable at this n.",
+        "signed_error_history_destination_slope": 1.0332251678750721,
+        "signed_error_history_only": 1.657085470054368,
+        "signed_error_source_ridge_10": 0.19692373629923626,
+        "source_league": "vtb"
+      }
+    ],
+    "level": [
+      {
+        "arm": "history_only",
+        "ci95_high": -0.049467211404836745,
+        "ci95_low": -0.6947343352887845,
+        "label": "history only (blind to both leagues)",
+        "mean_signed_error": -0.36931748659210956,
+        "n": 674,
+        "scope": "all"
+      },
+      {
+        "arm": "history_only",
+        "ci95_high": 1.713392814006452,
+        "ci95_low": 0.7612602990052095,
+        "label": "history only (blind to both leagues)",
+        "mean_signed_error": 1.2400335357492203,
+        "n": 194,
+        "scope": "destination:euroleague"
+      },
+      {
+        "arm": "history_only",
+        "ci95_high": -0.6464844302987924,
+        "ci95_low": -1.445383489142917,
+        "label": "history only (blind to both leagues)",
+        "mean_signed_error": -1.0197635247883972,
+        "n": 480,
+        "scope": "destination:eurocup"
+      },
+      {
+        "arm": "history_only",
+        "ci95_high": 0.7741507129159256,
+        "ci95_low": -0.5752647794690711,
+        "label": "history only (blind to both leagues)",
+        "mean_signed_error": 0.10465818301678698,
+        "n": 134,
+        "scope": "season:2020"
+      },
+      {
+        "arm": "history_only",
+        "ci95_high": 1.2046263465504081,
+        "ci95_low": -0.19839448821582012,
+        "label": "history only (blind to both leagues)",
+        "mean_signed_error": 0.4777937116978269,
+        "n": 101,
+        "scope": "season:2021"
+      },
+      {
+        "arm": "history_only",
+        "ci95_high": -0.0852118986831731,
+        "ci95_low": -1.5637666803959744,
+        "label": "history only (blind to both leagues)",
+        "mean_signed_error": -0.8710222581794317,
+        "n": 106,
+        "scope": "season:2022"
+      },
+      {
+        "arm": "history_only",
+        "ci95_high": 0.607028514736153,
+        "ci95_low": -1.70270820031411,
+        "label": "history only (blind to both leagues)",
+        "mean_signed_error": -0.45185150475160657,
+        "n": 102,
+        "scope": "season:2023"
+      },
+      {
+        "arm": "history_only",
+        "ci95_high": 0.5389163637730264,
+        "ci95_low": -0.9203511501451852,
+        "label": "history only (blind to both leagues)",
+        "mean_signed_error": -0.147163377110133,
+        "n": 104,
+        "scope": "season:2024"
+      },
+      {
+        "arm": "history_only",
+        "ci95_high": -0.6339668317696974,
+        "ci95_low": -1.921045935410509,
+        "label": "history only (blind to both leagues)",
+        "mean_signed_error": -1.2399932543123966,
+        "n": 127,
+        "scope": "season:2025"
+      },
+      {
+        "arm": "history_destination_slope",
+        "ci95_high": -0.13895533522602524,
+        "ci95_low": -0.7580631207625287,
+        "label": "history + destination (blind to the source league)",
+        "mean_signed_error": -0.44302157475930537,
+        "n": 674,
+        "scope": "all"
+      },
+      {
+        "arm": "history_destination_slope",
+        "ci95_high": 0.44535109462516864,
+        "ci95_low": -0.5290524970935659,
+        "label": "history + destination (blind to the source league)",
+        "mean_signed_error": -0.03725512538255507,
+        "n": 194,
+        "scope": "destination:euroleague"
+      },
+      {
+        "arm": "history_destination_slope",
+        "ci95_high": -0.241132682709482,
+        "ci95_low": -1.0240986988192537,
+        "label": "history + destination (blind to the source league)",
+        "mean_signed_error": -0.6070188480490752,
+        "n": 480,
+        "scope": "destination:eurocup"
+      },
+      {
+        "arm": "history_destination_slope",
+        "ci95_high": 0.6659209271082819,
+        "ci95_low": -0.6473375282063122,
+        "label": "history + destination (blind to the source league)",
+        "mean_signed_error": 0.007157103553432122,
+        "n": 134,
+        "scope": "season:2020"
+      },
+      {
+        "arm": "history_destination_slope",
+        "ci95_high": 0.9885589324601285,
+        "ci95_low": -0.3289002802947137,
+        "label": "history + destination (blind to the source league)",
+        "mean_signed_error": 0.3152843511792745,
+        "n": 101,
+        "scope": "season:2021"
+      },
+      {
+        "arm": "history_destination_slope",
+        "ci95_high": -0.18369423751572883,
+        "ci95_low": -1.5424218541001284,
+        "label": "history + destination (blind to the source league)",
+        "mean_signed_error": -0.9035426689542155,
+        "n": 106,
+        "scope": "season:2022"
+      },
+      {
+        "arm": "history_destination_slope",
+        "ci95_high": 0.5446200633768334,
+        "ci95_low": -1.7194642661153472,
+        "label": "history + destination (blind to the source league)",
+        "mean_signed_error": -0.49669895066428893,
+        "n": 102,
+        "scope": "season:2023"
+      },
+      {
+        "arm": "history_destination_slope",
+        "ci95_high": 0.5961446927944397,
+        "ci95_low": -0.9058037918820241,
+        "label": "history + destination (blind to the source league)",
+        "mean_signed_error": -0.10554241855554883,
+        "n": 104,
+        "scope": "season:2024"
+      },
+      {
+        "arm": "history_destination_slope",
+        "ci95_high": -0.7814116885466872,
+        "ci95_low": -2.031894664103535,
+        "label": "history + destination (blind to the source league)",
+        "mean_signed_error": -1.369953427766591,
+        "n": 127,
+        "scope": "season:2025"
+      },
+      {
+        "arm": "source_ridge_10",
+        "ci95_high": -0.17960059206643175,
+        "ci95_low": -0.7776215830592477,
+        "label": "league-aware (one number per league)",
+        "mean_signed_error": -0.47233515761788286,
+        "n": 674,
+        "scope": "all"
+      },
+      {
+        "arm": "source_ridge_10",
+        "ci95_high": 0.44387912148307146,
+        "ci95_low": -0.5068559112411487,
+        "label": "league-aware (one number per league)",
+        "mean_signed_error": -0.033249344102818934,
+        "n": 194,
+        "scope": "destination:euroleague"
+      },
+      {
+        "arm": "source_ridge_10",
+        "ci95_high": -0.3000676481243634,
+        "ci95_low": -1.0420936234373508,
+        "label": "league-aware (one number per league)",
+        "mean_signed_error": -0.6497990072468879,
+        "n": 480,
+        "scope": "destination:eurocup"
+      },
+      {
+        "arm": "source_ridge_10",
+        "ci95_high": 0.641197371612053,
+        "ci95_low": -0.6392556788275514,
+        "label": "league-aware (one number per league)",
+        "mean_signed_error": 0.009821586205943323,
+        "n": 134,
+        "scope": "season:2020"
+      },
+      {
+        "arm": "source_ridge_10",
+        "ci95_high": 0.9353994189862845,
+        "ci95_low": -0.4804532717182208,
+        "label": "league-aware (one number per league)",
+        "mean_signed_error": 0.21281527026895475,
+        "n": 101,
+        "scope": "season:2021"
+      },
+      {
+        "arm": "source_ridge_10",
+        "ci95_high": -0.1861389755687683,
+        "ci95_low": -1.4481918238713658,
+        "label": "league-aware (one number per league)",
+        "mean_signed_error": -0.8495728785620094,
+        "n": 106,
+        "scope": "season:2022"
+      },
+      {
+        "arm": "source_ridge_10",
+        "ci95_high": 0.43319211884137293,
+        "ci95_low": -1.7334158859196889,
+        "label": "league-aware (one number per league)",
+        "mean_signed_error": -0.5777592293836551,
+        "n": 102,
+        "scope": "season:2023"
+      },
+      {
+        "arm": "source_ridge_10",
+        "ci95_high": 0.5690091642157545,
+        "ci95_low": -0.8604204097880656,
+        "label": "league-aware (one number per league)",
+        "mean_signed_error": -0.09658331803277906,
+        "n": 104,
+        "scope": "season:2024"
+      },
+      {
+        "arm": "source_ridge_10",
+        "ci95_high": -0.8193895009660493,
+        "ci95_low": -2.0868680861723767,
+        "label": "league-aware (one number per league)",
+        "mean_signed_error": -1.4341220431740087,
+        "n": 127,
+        "scope": "season:2025"
+      }
+    ],
+    "spread": {
+      "history_destination_slope": {
+        "ci95": [
+          0.7514040659528171,
+          1.2701710508865411
+        ],
+        "point": 0.9299894166665114
+      },
+      "history_only": {
+        "ci95": [
+          0.7108569633789761,
+          1.2836466984973915
+        ],
+        "point": 0.9155447869303094
+      },
+      "source_ridge_10": {
+        "ci95": [
+          0.28969979485295694,
+          0.7467477280147731
+        ],
+        "point": 0.3224027370793543
+      }
+    }
+  },
+  "exploratory": true,
+  "exposure": {
+    "not_seen_before_this_run": [
+      "any signed error of the destination-aware forecast",
+      "its spread of league biases",
+      "the split of each league's arrivals between the two competitions"
+    ],
+    "seen_before_registration": [
+      "every Amendment 3 result, including history-only and league-aware signed errors overall, by destination, by season and by source league, and their spreads",
+      "the registered MAE of the destination-aware forecast on the 674"
+    ]
+  },
+  "gates": {
+    "G0": {
+      "max_difference": 1.3322676295501878e-15,
+      "negative_control": "rejected as required",
+      "status": "passed",
+      "tolerance": 1e-09
+    },
+    "G24a": {
+      "checked": [
+        "raw_ci95_high_history_only",
+        "raw_ci95_high_source_ridge_10",
+        "raw_ci95_low_history_only",
+        "raw_ci95_low_source_ridge_10",
+        "rebased_ci95_high_history_only",
+        "rebased_ci95_high_source_ridge_10",
+        "rebased_ci95_low_history_only",
+        "rebased_ci95_low_source_ridge_10",
+        "rebased_history_only",
+        "rebased_source_ridge_10",
+        "signed_error_history_only",
+        "signed_error_source_ridge_10",
+        "spread:history_only",
+        "spread:source_ridge_10",
+        "spread_ci:history_only",
+        "spread_ci:source_ridge_10"
+      ],
+      "max_difference": 2.220446049250313e-16,
+      "negative_control": "rejected as required",
+      "status": "passed"
+    },
+    "G24b": {
+      "max_difference": 0.0,
+      "negative_control": "rejected as required",
+      "status": "passed"
+    },
+    "reproduction": {
+      "max_difference": 3.552713678800501e-15,
+      "negative_control": "rejected as required",
+      "status": "passed",
+      "tolerance": 1e-09
+    },
+    "scope": {
+      "negative_control": "rejected as required",
+      "pools": 12,
+      "seasons": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "status": "passed",
+      "targets": 674
+    }
+  },
+  "input_sha256": {
+    "amend3-02/e18_league_rebased.csv": "d304d1232eef54f50b73a64cf0b795631acbf7cebbe61040a7023687f2f406ec",
+    "amend3-02/summary.json": "b777176293837d76d5a29f3aa102a1c3990a53462b98a7452dd6940adc8853c2",
+    "cohort": "c629f43e3194642d483701c3d07666252938d587e747c99dbb031a2346bf2abf",
+    "decide-02/e7_keyed_forecasts.csv": "83589795f00df04cdb272155697f6f9d55c8f7604e49ae3bc45e0e1aac04b8f6",
+    "pairs": "d964727924630dbf32c1764daf1e536c81d58988218a230fea591c62c1a62f58",
+    "recipes-01/rows_pool_A.parquet": "ce4f91e0ef854b684522efcf7d736b7c48a074277ac83a1fad016be7f7006eb3"
+  },
+  "models": {
+    "history_destination_slope": "history + destination (blind to the source league)",
+    "history_only": "history only (blind to both leagues)",
+    "source_ridge_10": "league-aware (one number per league)"
+  },
+  "n_boot": 2000,
+  "n_targets": 674,
+  "protocol_commit": "f52e7c831fef6759eab202c8ff8c56fa76037533",
+  "protocol_sha256": "6c6002f9a96f954eeaac4082a02471bcd7017879df07e2a0630de07e345a5194",
+  "seed": 0
+}

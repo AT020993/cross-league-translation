@@ -1,0 +1,40 @@
+{
+ "code_files": 2540,
+ "entrypoint": "scripts/sloan_fullpaper_amend4.py",
+ "generator_commit": "e65c919839c65f397c50342dd533505e9f8cae8a",
+ "generator_sha256": "423bfdbbb7a6931dc32dffe84ac58d613f8850e4ab19595a325c18b278aaa279",
+ "inputs": 10,
+ "outputs": {
+  "out/e24_destination_mix.csv": "1de21da38bc4b92c69b23a751609d613cb650e2a5070857935cdc9329b1d1079",
+  "out/e24_league_bias.csv": "f9bbcddc250fe488aaedfebf7a572b568cccb28bb14cf82f76123428a27c28ad",
+  "out/e24_level.csv": "4aa5483cfcde4c0fafb8f2feba19a7faf6fc6f9370e1351f9f1fa26fd6435e4c",
+  "out/summary.json": "21381bfc7ed9f4260d191ea365e074bda5e4e318d6faf460f92fbadd2bf8e338",
+  "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout.log": "cdba9eedd3a5e1da6c99805568c193fbc32a6d9c430a1355c31ae135c4f070c9"
+ },
+ "returncode": 0,
+ "run_dir": "research-runs/sloan-fullpaper/amend4-01",
+ "selections": [
+  "data/processed/sloan_v10_public/official_corrected",
+  "docs/research/artifacts/sloan-v9-2026-09-19/diagnostics.json",
+  "docs/research/artifacts/sloan-v10-2026-09-20/summary.json",
+  "docs/research/sloan-full-paper-preregistration-2026-11-03.md",
+  "docs/research/sloan-full-paper-preregistration-amendment-4-2026-11-11.md",
+  "data/processed/sloan_fullpaper_inputs_e24"
+ ],
+ "snapshot": "f17914066bf2f984273dc3d371db37168904f18a4345acf7d21579347a4f560d",
+ "source_seasons": [
+  2015,
+  2016,
+  2017,
+  2018,
+  2019,
+  2020,
+  2021,
+  2022,
+  2023,
+  2024,
+  2025
+ ],
+ "status": "complete"
+}

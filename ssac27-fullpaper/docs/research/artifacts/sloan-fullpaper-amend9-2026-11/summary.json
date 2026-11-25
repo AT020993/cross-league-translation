@@ -1,0 +1,1177 @@
+{
+  "amendment_commit": "3c915869cbf2af11c2b383e5a0d8aabec0e75b70",
+  "amendment_sha256": "6dc8356d56538dcd01d8f619b82c4878143d53c0f674082cfba5a55af567e90d",
+  "analysis": "Amendment 9: E28 (exploratory; destination seasons 2020-2025 and the older seasons already seen)",
+  "e28a": {
+    "by_destination": {
+      "eurocup": {
+        "G_D": {
+          "left": "history_destination_slope",
+          "minutes_weighted": {
+            "ci95": [
+              -0.03387165160221752,
+              0.10478889696717056
+            ],
+            "detectable_80": 0.09890285173216694,
+            "df": 118,
+            "difference": 0.03545862268247652,
+            "left": "history_destination_slope",
+            "mae_left": 2.8844507216826756,
+            "mae_right": 2.8489920990001987,
+            "n": 480,
+            "p_two_sided": 0.3132277649839548,
+            "positive_favours": "source_ridge_10",
+            "reading": "includes_zero",
+            "right": "source_ridge_10",
+            "se": 0.03501047611516425,
+            "status": "ok",
+            "weighting": "minutes_weighted"
+          },
+          "right": "source_ridge_10",
+          "unweighted": {
+            "ci95": [
+              -0.013259592465251824,
+              0.10117349132458915
+            ],
+            "detectable_80": 0.08162205065601395,
+            "df": 118,
+            "difference": 0.043956949429668664,
+            "left": "history_destination_slope",
+            "mae_left": 3.0639482909147135,
+            "mae_right": 3.0199913414850443,
+            "n": 480,
+            "p_two_sided": 0.1308457721085912,
+            "positive_favours": "source_ridge_10",
+            "reading": "includes_zero",
+            "right": "source_ridge_10",
+            "se": 0.028893270567179156,
+            "status": "ok",
+            "weighting": "unweighted"
+          }
+        },
+        "G_H": {
+          "left": "history_only",
+          "minutes_weighted": {
+            "ci95": [
+              0.10408808059538298,
+              0.26788961057151206
+            ],
+            "detectable_80": 0.11683523972663513,
+            "df": 118,
+            "difference": 0.18598884558344753,
+            "left": "history_only",
+            "mae_left": 3.0349809445836464,
+            "mae_right": 2.8489920990001987,
+            "n": 480,
+            "p_two_sided": 1.6224895714747933e-05,
+            "positive_favours": "source_ridge_10",
+            "reading": "above_zero",
+            "right": "source_ridge_10",
+            "se": 0.04135833596523565,
+            "status": "ok",
+            "weighting": "minutes_weighted"
+          },
+          "right": "source_ridge_10",
+          "unweighted": {
+            "ci95": [
+              0.06989979013482049,
+              0.21843560639735454
+            ],
+            "detectable_80": 0.1059466154165571,
+            "df": 118,
+            "difference": 0.14416769826608752,
+            "left": "history_only",
+            "mae_left": 3.1641590397511323,
+            "mae_right": 3.0199913414850443,
+            "n": 480,
+            "p_two_sided": 0.00019652506497272297,
+            "positive_favours": "source_ridge_10",
+            "reading": "above_zero",
+            "right": "source_ridge_10",
+            "se": 0.03750388773994754,
+            "status": "ok",
+            "weighting": "unweighted"
+          }
+        }
+      },
+      "euroleague": {
+        "G_D": {
+          "left": "history_destination_slope",
+          "minutes_weighted": {
+            "ci95": [
+              0.015986677821922868,
+              0.2827493124346873
+            ],
+            "detectable_80": 0.19009952385343326,
+            "df": 81,
+            "difference": 0.1493679951283051,
+            "left": "history_destination_slope",
+            "mae_left": 2.7156951289901494,
+            "mae_right": 2.566327133861844,
+            "n": 194,
+            "p_two_sided": 0.028641966352089994,
+            "positive_favours": "source_ridge_10",
+            "reading": "above_zero",
+            "right": "source_ridge_10",
+            "se": 0.06703635429058188,
+            "status": "ok",
+            "weighting": "minutes_weighted"
+          },
+          "right": "source_ridge_10",
+          "unweighted": {
+            "ci95": [
+              0.0072246608964745,
+              0.23006905434064367
+            ],
+            "detectable_80": 0.15880264921148995,
+            "df": 81,
+            "difference": 0.11864685761855909,
+            "left": "history_destination_slope",
+            "mae_left": 2.8052812491802,
+            "mae_right": 2.686634391561641,
+            "n": 194,
+            "p_two_sided": 0.037179975415300624,
+            "positive_favours": "source_ridge_10",
+            "reading": "above_zero",
+            "right": "source_ridge_10",
+            "se": 0.055999880688981395,
+            "status": "ok",
+            "weighting": "unweighted"
+          }
+        },
+        "G_H": {
+          "left": "history_only",
+          "minutes_weighted": {
+            "ci95": [
+              -0.18103904690765615,
+              0.25002601110779826
+            ],
+            "detectable_80": 0.30718418416260995,
+            "df": 81,
+            "difference": 0.03449348210007107,
+            "left": "history_only",
+            "mae_left": 2.6008206159619154,
+            "mae_right": 2.566327133861844,
+            "n": 194,
+            "p_two_sided": 0.7509812329441434,
+            "positive_favours": "source_ridge_10",
+            "reading": "includes_zero",
+            "right": "source_ridge_10",
+            "se": 0.10832487838246717,
+            "status": "ok",
+            "weighting": "minutes_weighted"
+          },
+          "right": "source_ridge_10",
+          "unweighted": {
+            "ci95": [
+              0.05095655648813918,
+              0.43086894619977534
+            ],
+            "detectable_80": 0.27073193550903046,
+            "df": 81,
+            "difference": 0.24091275134395726,
+            "left": "history_only",
+            "mae_left": 2.9275471429055986,
+            "mae_right": 2.686634391561641,
+            "n": 194,
+            "p_two_sided": 0.013577190682599534,
+            "positive_favours": "source_ridge_10",
+            "reading": "above_zero",
+            "right": "source_ridge_10",
+            "se": 0.09547042295882405,
+            "status": "ok",
+            "weighting": "unweighted"
+          }
+        }
+      }
+    },
+    "by_season": {
+      "2020": {
+        "G_D": {
+          "left": "history_destination_slope",
+          "minutes_weighted": {
+            "ci95": [
+              -0.017957477019906493,
+              0.18976406534828408
+            ],
+            "detectable_80": 0.1474782240028928,
+            "df": 36,
+            "difference": 0.08590329416418879,
+            "left": "history_destination_slope",
+            "mae_left": 2.7313497514296907,
+            "mae_right": 2.645446457265502,
+            "n": 134,
+            "p_two_sided": 0.1021200307442258,
+            "positive_favours": "source_ridge_10",
+            "reading": "includes_zero",
+            "right": "source_ridge_10",
+            "se": 0.05121102430848147,
+            "status": "ok",
+            "weighting": "minutes_weighted"
+          },
+          "right": "source_ridge_10",
+          "unweighted": {
+            "ci95": [
+              -0.04671219728406329,
+              0.14357186140013803
+            ],
+            "detectable_80": 0.13509795233980332,
+            "df": 36,
+            "difference": 0.048429832058037366,
+            "left": "history_destination_slope",
+            "mae_left": 3.123546157804351,
+            "mae_right": 3.0751163257463134,
+            "n": 134,
+            "p_two_sided": 0.3087921899911751,
+            "positive_favours": "source_ridge_10",
+            "reading": "includes_zero",
+            "right": "source_ridge_10",
+            "se": 0.046912041205242824,
+            "status": "ok",
+            "weighting": "unweighted"
+          }
+        },
+        "G_H": {
+          "left": "history_only",
+          "minutes_weighted": {
+            "ci95": [
+              0.031110945370744797,
+              0.3700041016014596
+            ],
+            "detectable_80": 0.24060749904817905,
+            "df": 36,
+            "difference": 0.20055752348610217,
+            "left": "history_only",
+            "mae_left": 2.8460039807516044,
+            "mae_right": 2.645446457265502,
+            "n": 134,
+            "p_two_sided": 0.021668333209879508,
+            "positive_favours": "source_ridge_10",
+            "reading": "above_zero",
+            "right": "source_ridge_10",
+            "se": 0.08354966684652737,
+            "status": "ok",
+            "weighting": "minutes_weighted"
+          },
+          "right": "source_ridge_10",
+          "unweighted": {
+            "ci95": [
+              0.0330348490879894,
+              0.3359927636423514
+            ],
+            "detectable_80": 0.21509418174308476,
+            "df": 36,
+            "difference": 0.18451380636517042,
+            "left": "history_only",
+            "mae_left": 3.2596301321114844,
+            "mae_right": 3.0751163257463134,
+            "n": 134,
+            "p_two_sided": 0.01836799237086277,
+            "positive_favours": "source_ridge_10",
+            "reading": "above_zero",
+            "right": "source_ridge_10",
+            "se": 0.07469030390304932,
+            "status": "ok",
+            "weighting": "unweighted"
+          }
+        }
+      },
+      "2021": {
+        "G_D": {
+          "left": "history_destination_slope",
+          "minutes_weighted": {
+            "ci95": [
+              -0.11026150591396772,
+              0.2174611293763335
+            ],
+            "detectable_80": 0.23258457864592635,
+            "df": 34,
+            "difference": 0.053599811731182896,
+            "left": "history_destination_slope",
+            "mae_left": 2.5847939376029854,
+            "mae_right": 2.5311941258718025,
+            "n": 101,
+            "p_two_sided": 0.5106900590977366,
+            "positive_favours": "source_ridge_10",
+            "reading": "includes_zero",
+            "right": "source_ridge_10",
+            "se": 0.08063070998290627,
+            "status": "ok",
+            "weighting": "minutes_weighted"
+          },
+          "right": "source_ridge_10",
+          "unweighted": {
+            "ci95": [
+              -0.11851932270779172,
+              0.15412667961750506
+            ],
+            "detectable_80": 0.19349672174506063,
+            "df": 34,
+            "difference": 0.017803678454856673,
+            "left": "history_destination_slope",
+            "mae_left": 2.855027612615518,
+            "mae_right": 2.837223934160662,
+            "n": 101,
+            "p_two_sided": 0.7922966369428261,
+            "positive_favours": "source_ridge_10",
+            "reading": "includes_zero",
+            "right": "source_ridge_10",
+            "se": 0.06708001942562307,
+            "status": "ok",
+            "weighting": "unweighted"
+          }
+        },
+        "G_H": {
+          "left": "history_only",
+          "minutes_weighted": {
+            "ci95": [
+              -0.12548748412311655,
+              0.36671913073767637
+            ],
+            "detectable_80": 0.34931877080363277,
+            "df": 34,
+            "difference": 0.12061582330727992,
+            "left": "history_only",
+            "mae_left": 2.651809949179082,
+            "mae_right": 2.5311941258718025,
+            "n": 101,
+            "p_two_sided": 0.3262823758001397,
+            "positive_favours": "source_ridge_10",
+            "reading": "includes_zero",
+            "right": "source_ridge_10",
+            "se": 0.12109926059685615,
+            "status": "ok",
+            "weighting": "minutes_weighted"
+          },
+          "right": "source_ridge_10",
+          "unweighted": {
+            "ci95": [
+              -0.09275034902083377,
+              0.3144709337544217
+            ],
+            "detectable_80": 0.28900472616436146,
+            "df": 34,
+            "difference": 0.11086029236679397,
+            "left": "history_only",
+            "mae_left": 2.948084226527455,
+            "mae_right": 2.837223934160662,
+            "n": 101,
+            "p_two_sided": 0.2762777621546945,
+            "positive_favours": "source_ridge_10",
+            "reading": "includes_zero",
+            "right": "source_ridge_10",
+            "se": 0.10019003149182355,
+            "status": "ok",
+            "weighting": "unweighted"
+          }
+        }
+      },
+      "2022": {
+        "G_D": {
+          "left": "history_destination_slope",
+          "minutes_weighted": {
+            "ci95": [
+              0.06740459164898904,
+              0.3439325156655984
+            ],
+            "detectable_80": 0.19611617100047082,
+            "df": 31,
+            "difference": 0.20566855365729372,
+            "left": "history_destination_slope",
+            "mae_left": 2.942471240303086,
+            "mae_right": 2.736802686645792,
+            "n": 106,
+            "p_two_sided": 0.004853712372397345,
+            "positive_favours": "source_ridge_10",
+            "reading": "above_zero",
+            "right": "source_ridge_10",
+            "se": 0.06779262095702365,
+            "status": "ok",
+            "weighting": "minutes_weighted"
+          },
+          "right": "source_ridge_10",
+          "unweighted": {
+            "ci95": [
+              0.053997260058711305,
+              0.29879645413387734
+            ],
+            "detectable_80": 0.17361386115616695,
+            "df": 31,
+            "difference": 0.17639685709629432,
+            "left": "history_destination_slope",
+            "mae_left": 2.9267350161834895,
+            "mae_right": 2.750338159087195,
+            "n": 106,
+            "p_two_sided": 0.006165115197286265,
+            "positive_favours": "source_ridge_10",
+            "reading": "above_zero",
+            "right": "source_ridge_10",
+            "se": 0.060014116236325576,
+            "status": "ok",
+            "weighting": "unweighted"
+          }
+        },
+        "G_H": {
+          "left": "history_only",
+          "minutes_weighted": {
+            "ci95": [
+              0.1388415171826821,
+              0.5066856260512763
+            ],
+            "detectable_80": 0.2608784570778321,
+            "df": 31,
+            "difference": 0.3227635716169792,
+            "left": "history_only",
+            "mae_left": 3.0595662582627714,
+            "mae_right": 2.736802686645792,
+            "n": 106,
+            "p_two_sided": 0.0011583118470151789,
+            "positive_favours": "source_ridge_10",
+            "reading": "above_zero",
+            "right": "source_ridge_10",
+            "se": 0.09017937820379013,
+            "status": "ok",
+            "weighting": "minutes_weighted"
+          },
+          "right": "source_ridge_10",
+          "unweighted": {
+            "ci95": [
+              0.1829376154404612,
+              0.5047595663752631
+            ],
+            "detectable_80": 0.22823911540103206,
+            "df": 31,
+            "difference": 0.34384859090786213,
+            "left": "history_only",
+            "mae_left": 3.0941867499950573,
+            "mae_right": 2.750338159087195,
+            "n": 106,
+            "p_two_sided": 0.00013377275899930337,
+            "positive_favours": "source_ridge_10",
+            "reading": "above_zero",
+            "right": "source_ridge_10",
+            "se": 0.07889674655085634,
+            "status": "ok",
+            "weighting": "unweighted"
+          }
+        }
+      },
+      "2023": {
+        "G_D": {
+          "left": "history_destination_slope",
+          "minutes_weighted": {
+            "ci95": [
+              -0.05757304186557595,
+              0.24166769828918078
+            ],
+            "detectable_80": 0.21216881860938142,
+            "df": 30,
+            "difference": 0.0920473282118024,
+            "left": "history_destination_slope",
+            "mae_left": 3.0972990536209095,
+            "mae_right": 3.005251725409107,
+            "n": 102,
+            "p_two_sided": 0.2186603619576698,
+            "positive_favours": "source_ridge_10",
+            "reading": "includes_zero",
+            "right": "source_ridge_10",
+            "se": 0.07326170884581971,
+            "status": "ok",
+            "weighting": "minutes_weighted"
+          },
+          "right": "source_ridge_10",
+          "unweighted": {
+            "ci95": [
+              -0.04577072477732236,
+              0.21012977264524885
+            ],
+            "detectable_80": 0.18143955328950528,
+            "df": 30,
+            "difference": 0.08217952393396324,
+            "left": "history_destination_slope",
+            "mae_left": 3.092186037315405,
+            "mae_right": 3.010006513381443,
+            "n": 102,
+            "p_two_sided": 0.19956962335715236,
+            "positive_favours": "source_ridge_10",
+            "reading": "includes_zero",
+            "right": "source_ridge_10",
+            "se": 0.0626509202121917,
+            "status": "ok",
+            "weighting": "unweighted"
+          }
+        },
+        "G_H": {
+          "left": "history_only",
+          "minutes_weighted": {
+            "ci95": [
+              -0.12279949126996315,
+              0.385752357406528
+            ],
+            "detectable_80": 0.3605753844864392,
+            "df": 30,
+            "difference": 0.13147643306828244,
+            "left": "history_only",
+            "mae_left": 3.13672815847739,
+            "mae_right": 3.005251725409107,
+            "n": 102,
+            "p_two_sided": 0.2994066949751525,
+            "positive_favours": "source_ridge_10",
+            "reading": "includes_zero",
+            "right": "source_ridge_10",
+            "se": 0.12450636718607323,
+            "status": "ok",
+            "weighting": "minutes_weighted"
+          },
+          "right": "source_ridge_10",
+          "unweighted": {
+            "ci95": [
+              -0.028344954955936696,
+              0.4176360818368444
+            ],
+            "detectable_80": 0.31621118718519287,
+            "df": 30,
+            "difference": 0.19464556344045386,
+            "left": "history_only",
+            "mae_left": 3.2046520768218945,
+            "mae_right": 3.010006513381443,
+            "n": 102,
+            "p_two_sided": 0.08476287437121183,
+            "positive_favours": "source_ridge_10",
+            "reading": "includes_zero",
+            "right": "source_ridge_10",
+            "se": 0.10918744837809201,
+            "status": "ok",
+            "weighting": "unweighted"
+          }
+        }
+      },
+      "2024": {
+        "G_D": {
+          "left": "history_destination_slope",
+          "minutes_weighted": {
+            "ci95": [
+              -0.08726207774475661,
+              0.2553333757873155
+            ],
+            "detectable_80": 0.24303139272748903,
+            "df": 32,
+            "difference": 0.08403564902127947,
+            "left": "history_destination_slope",
+            "mae_left": 2.2735841032643793,
+            "mae_right": 2.1895484542431,
+            "n": 104,
+            "p_two_sided": 0.32515416637418637,
+            "positive_favours": "source_ridge_10",
+            "reading": "includes_zero",
+            "right": "source_ridge_10",
+            "se": 0.0840958921488593,
+            "status": "ok",
+            "weighting": "minutes_weighted"
+          },
+          "right": "source_ridge_10",
+          "unweighted": {
+            "ci95": [
+              -0.03253184359689877,
+              0.2476348660679319
+            ],
+            "detectable_80": 0.19874550273139469,
+            "df": 32,
+            "difference": 0.10755151123551655,
+            "left": "history_destination_slope",
+            "mae_left": 2.5240718990097837,
+            "mae_right": 2.416520387774267,
+            "n": 104,
+            "p_two_sided": 0.12767963049121733,
+            "positive_favours": "source_ridge_10",
+            "reading": "includes_zero",
+            "right": "source_ridge_10",
+            "se": 0.06877169313476811,
+            "status": "ok",
+            "weighting": "unweighted"
+          }
+        },
+        "G_H": {
+          "left": "history_only",
+          "minutes_weighted": {
+            "ci95": [
+              -0.18244811289029567,
+              0.3338341670301405
+            ],
+            "detectable_80": 0.3662418757633652,
+            "df": 32,
+            "difference": 0.07569302706992244,
+            "left": "history_only",
+            "mae_left": 2.2652414813130224,
+            "mae_right": 2.1895484542431,
+            "n": 104,
+            "p_two_sided": 0.5545259007158112,
+            "positive_favours": "source_ridge_10",
+            "reading": "includes_zero",
+            "right": "source_ridge_10",
+            "se": 0.1267302834376104,
+            "status": "ok",
+            "weighting": "minutes_weighted"
+          },
+          "right": "source_ridge_10",
+          "unweighted": {
+            "ci95": [
+              -0.08239526935535119,
+              0.38425052912636476
+            ],
+            "detectable_80": 0.33103059934455825,
+            "df": 32,
+            "difference": 0.1509276298855068,
+            "left": "history_only",
+            "mae_left": 2.567448017659774,
+            "mae_right": 2.416520387774267,
+            "n": 104,
+            "p_two_sided": 0.1969890040232799,
+            "positive_favours": "source_ridge_10",
+            "reading": "includes_zero",
+            "right": "source_ridge_10",
+            "se": 0.11454616322619404,
+            "status": "ok",
+            "weighting": "unweighted"
+          }
+        }
+      },
+      "2025": {
+        "G_D": {
+          "left": "history_destination_slope",
+          "minutes_weighted": {
+            "ci95": [
+              -0.24664315675700615,
+              0.12614034624312687
+            ],
+            "detectable_80": 0.2644462820096153,
+            "df": 32,
+            "difference": -0.06025140525693965,
+            "left": "history_destination_slope",
+            "mae_left": 3.2420472333777934,
+            "mae_right": 3.302298638634733,
+            "n": 127,
+            "p_two_sided": 0.5149641769625609,
+            "positive_favours": "source_ridge_10",
+            "reading": "includes_zero",
+            "right": "source_ridge_10",
+            "se": 0.09150606331744084,
+            "status": "ok",
+            "weighting": "minutes_weighted"
+          },
+          "right": "source_ridge_10",
+          "unweighted": {
+            "ci95": [
+              -0.15892865278594878,
+              0.12055576495222789
+            ],
+            "detectable_80": 0.1982614964333779,
+            "df": 32,
+            "difference": -0.01918644391686045,
+            "left": "history_destination_slope",
+            "mae_left": 3.306034668830174,
+            "mae_right": 3.325221112747034,
+            "n": 127,
+            "p_two_sided": 0.7815315939473526,
+            "positive_favours": "source_ridge_10",
+            "reading": "includes_zero",
+            "right": "source_ridge_10",
+            "se": 0.06860421295461283,
+            "status": "ok",
+            "weighting": "unweighted"
+          }
+        },
+        "G_H": {
+          "left": "history_only",
+          "minutes_weighted": {
+            "ci95": [
+              -0.24814620213166355,
+              0.19985076511782124
+            ],
+            "detectable_80": 0.3178014353834412,
+            "df": 32,
+            "difference": -0.024147718506921167,
+            "left": "history_only",
+            "mae_left": 3.278150920127811,
+            "mae_right": 3.302298638634733,
+            "n": 127,
+            "p_two_sided": 0.8275870833962848,
+            "positive_favours": "source_ridge_10",
+            "reading": "includes_zero",
+            "right": "source_ridge_10",
+            "se": 0.10996848981039323,
+            "status": "ok",
+            "weighting": "minutes_weighted"
+          },
+          "right": "source_ridge_10",
+          "unweighted": {
+            "ci95": [
+              -0.1179613552498997,
+              0.24422210692262902
+            ],
+            "detectable_80": 0.2569267931817819,
+            "df": 32,
+            "difference": 0.06313037583636466,
+            "left": "history_only",
+            "mae_left": 3.3883514885833987,
+            "mae_right": 3.325221112747034,
+            "n": 127,
+            "p_two_sided": 0.4827881580999402,
+            "positive_favours": "source_ridge_10",
+            "reading": "includes_zero",
+            "right": "source_ridge_10",
+            "se": 0.08890410266378532,
+            "status": "ok",
+            "weighting": "unweighted"
+          }
+        }
+      }
+    },
+    "contrasts": {
+      "G_D": {
+        "left": "history_destination_slope",
+        "minutes_weighted": {
+          "ci95": [
+            0.009578859655789848,
+            0.13645866187327194
+          ],
+          "detectable_80": 0.09057450179220189,
+          "df": 200,
+          "difference": 0.07301876076453089,
+          "left": "history_destination_slope",
+          "mae_left": 2.828805753867015,
+          "mae_right": 2.7557869931024848,
+          "n": 674,
+          "p_two_sided": 0.02429638538849303,
+          "positive_favours": "source_ridge_10",
+          "reading": "above_zero",
+          "right": "source_ridge_10",
+          "se": 0.03217202829864485,
+          "status": "ok",
+          "weighting": "minutes_weighted"
+        },
+        "right": "source_ridge_10",
+        "unweighted": {
+          "ci95": [
+            0.01411314396293551,
+            0.1167973192543981
+          ],
+          "detectable_80": 0.07330219512027167,
+          "df": 200,
+          "difference": 0.0654552316086668,
+          "left": "history_destination_slope",
+          "mae_left": 2.9894951661424645,
+          "mae_right": 2.924039934533798,
+          "n": 674,
+          "p_two_sided": 0.012727479707197994,
+          "positive_favours": "source_ridge_10",
+          "reading": "above_zero",
+          "right": "source_ridge_10",
+          "se": 0.026036911593205203,
+          "status": "ok",
+          "weighting": "unweighted"
+        }
+      },
+      "G_H": {
+        "left": "history_only",
+        "minutes_weighted": {
+          "ci95": [
+            0.04626285977572335,
+            0.22580756916948408
+          ],
+          "detectable_80": 0.12816990820091986,
+          "df": 200,
+          "difference": 0.13603521447260372,
+          "left": "history_only",
+          "mae_left": 2.891822207575088,
+          "mae_right": 2.7557869931024848,
+          "n": 674,
+          "p_two_sided": 0.0031588775711041284,
+          "positive_favours": "source_ridge_10",
+          "reading": "above_zero",
+          "right": "source_ridge_10",
+          "se": 0.04552590223609403,
+          "status": "ok",
+          "weighting": "minutes_weighted"
+        },
+        "right": "source_ridge_10",
+        "unweighted": {
+          "ci95": [
+            0.09642324288062999,
+            0.24760515156580837
+          ],
+          "detectable_80": 0.10792282002207813,
+          "df": 200,
+          "difference": 0.17201419722321917,
+          "left": "history_only",
+          "mae_left": 3.0960541317570174,
+          "mae_right": 2.924039934533798,
+          "n": 674,
+          "p_two_sided": 1.2163563861483472e-05,
+          "positive_favours": "source_ridge_10",
+          "reading": "above_zero",
+          "right": "source_ridge_10",
+          "se": 0.03833414428031429,
+          "status": "ok",
+          "weighting": "unweighted"
+        }
+      }
+    },
+    "licences": {
+      "G_D": {
+        "minutes_weighted": {
+          "note": "printed beside the unweighted value; no further wording is registered",
+          "reading": "above_zero",
+          "registered_wording": null,
+          "sentence": null
+        },
+        "unweighted": {
+          "reading": "above_zero",
+          "registered_wording": "once the destination is known, knowing the source league improves the forecast by X EFF/36 (interval)",
+          "sentence": "once the destination is known, knowing the source league improves the forecast by 0.065 EFF/36 (interval 0.014 to 0.117)"
+        }
+      },
+      "G_H": {
+        "minutes_weighted": {
+          "note": "printed beside the unweighted value; no further wording is registered",
+          "reading": "above_zero",
+          "registered_wording": null,
+          "sentence": null
+        },
+        "unweighted": {
+          "reading": "above_zero",
+          "registered_wording": "the league-aware forecast is more accurate than history alone by X EFF/36 (interval)",
+          "sentence": "the league-aware forecast is more accurate than history alone by 0.172 EFF/36 (interval 0.096 to 0.248)"
+        }
+      }
+    },
+    "mae": {
+      "history_destination_slope": {
+        "minutes_weighted": 2.828805753867015,
+        "unweighted": 2.9894951661424645
+      },
+      "history_only": {
+        "minutes_weighted": 2.891822207575088,
+        "unweighted": 3.0960541317570174
+      },
+      "source_ridge_10": {
+        "minutes_weighted": 2.7557869931024848,
+        "unweighted": 2.924039934533798
+      }
+    },
+    "n": 674,
+    "total_minutes": 224410.95
+  },
+  "e28b": {
+    "acb_written_permission": false,
+    "contrasts": {
+      "G_D": {
+        "left": "history_destination_slope",
+        "minutes_weighted": {
+          "ci95": [
+            -0.20872668805114877,
+            -0.04843960817945567
+          ],
+          "detectable_80": 0.11426970554488572,
+          "df": 94,
+          "difference": -0.12858314811530222,
+          "left": "history_destination_slope",
+          "mae_left": 2.6199745637732557,
+          "mae_right": 2.7485577118885582,
+          "n": 180,
+          "p_two_sided": 0.001960625163265119,
+          "positive_favours": "source_ridge_10",
+          "reading": "below_zero",
+          "right": "source_ridge_10",
+          "se": 0.0403639353965537,
+          "status": "ok",
+          "weighting": "minutes_weighted"
+        },
+        "right": "source_ridge_10",
+        "unweighted": {
+          "ci95": [
+            -0.1435446691022972,
+            0.010132469505565955
+          ],
+          "detectable_80": 0.1095574352702544,
+          "df": 94,
+          "difference": -0.06670609979836563,
+          "left": "history_destination_slope",
+          "mae_left": 2.7628788702132363,
+          "mae_right": 2.8295849700116014,
+          "n": 180,
+          "p_two_sided": 0.08804988613303845,
+          "positive_favours": "source_ridge_10",
+          "reading": "includes_zero",
+          "right": "source_ridge_10",
+          "se": 0.0386994017213391,
+          "status": "ok",
+          "weighting": "unweighted"
+        }
+      },
+      "G_H": {
+        "left": "history_only",
+        "minutes_weighted": {
+          "ci95": [
+            -0.2759413499784331,
+            0.039353110790670345
+          ],
+          "detectable_80": 0.2247754792267675,
+          "df": 94,
+          "difference": -0.11829411959388138,
+          "left": "history_only",
+          "mae_left": 2.6302635922946767,
+          "mae_right": 2.7485577118885582,
+          "n": 180,
+          "p_two_sided": 0.13960311760850488,
+          "positive_favours": "source_ridge_10",
+          "reading": "includes_zero",
+          "right": "source_ridge_10",
+          "se": 0.07939832240728747,
+          "status": "ok",
+          "weighting": "minutes_weighted"
+        },
+        "right": "source_ridge_10",
+        "unweighted": {
+          "ci95": [
+            -0.09923265099604117,
+            0.16444728144007154
+          ],
+          "detectable_80": 0.187979145054542,
+          "df": 94,
+          "difference": 0.03260731522201518,
+          "left": "history_only",
+          "mae_left": 2.862192285233617,
+          "mae_right": 2.8295849700116014,
+          "n": 180,
+          "p_two_sided": 0.6245218393065541,
+          "positive_favours": "source_ridge_10",
+          "reading": "includes_zero",
+          "right": "source_ridge_10",
+          "se": 0.066400609248971,
+          "status": "ok",
+          "weighting": "unweighted"
+        }
+      }
+    },
+    "leagues": [
+      "aba",
+      "israel"
+    ],
+    "licences": {
+      "G_D": {
+        "minutes_weighted": {
+          "note": "Amendment 9 registers no wording for this reading; it goes to Amir before any writing.",
+          "reading": "below_zero",
+          "registered_wording": null,
+          "sentence": null
+        },
+        "unweighted": {
+          "reading": "includes_zero",
+          "registered_wording": "not detectable on the older seasons at this n",
+          "sentence": "not detectable on the older seasons at this n (n = 180)"
+        }
+      },
+      "G_H": {
+        "minutes_weighted": {
+          "reading": "includes_zero",
+          "registered_wording": "not clearly above zero when weighted by playing time",
+          "sentence": "not clearly above zero when weighted by playing time"
+        },
+        "unweighted": {
+          "reading": "includes_zero",
+          "registered_wording": "not detectable on the older seasons at this n",
+          "sentence": "not detectable on the older seasons at this n (n = 180)"
+        }
+      }
+    },
+    "mae": {
+      "history_destination_slope": {
+        "minutes_weighted": 2.6199745637732557,
+        "unweighted": 2.7628788702132363
+      },
+      "history_only": {
+        "minutes_weighted": 2.6302635922946767,
+        "unweighted": 2.862192285233617
+      },
+      "source_ridge_10": {
+        "minutes_weighted": 2.7485577118885582,
+        "unweighted": 2.8295849700116014
+      }
+    },
+    "n": 180,
+    "printed_version": "V-noACB",
+    "second_reading": "The older-seasons outcomes were read once, in the single Amendment 7 scoring run; E28b is a second reading of them. No rule of that run is changed and nothing is re-scored.",
+    "total_minutes": 44516.09999999999,
+    "version": "V-noACB",
+    "withheld": {
+      "computed_in_the_same_run": true,
+      "reason": "ACB's written permission had not arrived (Amendment 7's permission rule)",
+      "version": "V-all"
+    }
+  },
+  "e28c": {
+    "descriptive": true,
+    "g_d": 0.0654552316086668,
+    "g_d_ci95": [
+      0.01411314396293551,
+      0.1167973192543981
+    ],
+    "g_d_reading": "above_zero",
+    "head_to_head": {
+      "ci95": [
+        -0.02722108228587037,
+        0.049055648367853706
+      ],
+      "left": "scheduled_history",
+      "right": "source_ridge_10"
+    },
+    "head_to_head_ci95_share_of_g_d": [
+      -0.4158732864718193,
+      0.7494534380557955
+    ],
+    "margin_eff36": 0.05848079869067596,
+    "margin_share_of_g_d": 0.893447280735504,
+    "registered_wording": "the margin is X% of what the source league adds",
+    "sentence": "the margin is 89% of what the source league adds"
+  },
+  "estimator": {
+    "detectable_80": "(t(0.975, df) + t(0.80, df)) x SE, the registered formula of the recipes track",
+    "differences": {
+      "G_D": "MAE(history_destination_slope) - MAE(source_ridge_10)",
+      "G_H": "MAE(history_only) - MAE(source_ridge_10)"
+    },
+    "interval": "two-way clustered 95% interval (player, destination club-season), Student t with min(clusters) - 1 degrees of freedom",
+    "weights": "destination minutes (minutes_dest)"
+  },
+  "exploratory": true,
+  "exposure": {
+    "not_seen_before_this_run": [
+      "any interval of G_H or G_D",
+      "the minutes-weighted G_D, and the interval of the minutes-weighted G_H",
+      "G_D on the older seasons, in either version",
+      "either difference by destination competition or by destination season",
+      "the per-arrival differences"
+    ],
+    "seen_before_registration": [
+      "the registered errors of the three forecasts on the 674 (3.096, 2.989, 2.924), so both point estimates by subtraction (0.172 and 0.065 EFF/36)",
+      "the minutes-weighted errors of the history-only and league-aware forecasts on the 674 (Amendment 1, E17), so the weighted point estimate of G_H by subtraction",
+      "every Amendment 7 comparison on the older seasons, in both versions, and the errors of the history-only and league-aware forecasts there (so G_H's point estimate by subtraction)",
+      "that three readers of the paper asked for these intervals (review of 15 November)"
+    ]
+  },
+  "gates": {
+    "E28c_margin": {
+      "max_difference": 0.0,
+      "negative_control": "rejected as required",
+      "status": "passed",
+      "tolerance": 1e-09
+    },
+    "G0": {
+      "max_difference": 1.3322676295501878e-15,
+      "negative_control": "rejected as required",
+      "status": "passed",
+      "tolerance": 1e-09
+    },
+    "G28a": {
+      "checked": [
+        "equal_weights:G_D",
+        "equal_weights:G_H",
+        "head_to_head",
+        "head_to_head_ci",
+        "mae:history_destination_slope",
+        "mae:history_only",
+        "mae:source_ridge_10",
+        "printed_mae:history_destination_slope",
+        "printed_mae:history_only",
+        "printed_mae:source_ridge_10",
+        "weighted_head_to_head",
+        "weighted_head_to_head_ci"
+      ],
+      "control_input": "the league-aware forecast column shifted by 0.01",
+      "max_difference": 0.0,
+      "negative_control": "rejected as required",
+      "status": "passed",
+      "tolerance": 1e-09
+    },
+    "G28b": {
+      "checked": [
+        "extract:e1_head_to_head:ci95",
+        "extract:e1_head_to_head:difference",
+        "extract:e1_head_to_head:margin",
+        "extract:history_gain:ci95",
+        "extract:history_gain:difference",
+        "extract:history_gain:margin",
+        "extract:offsets10_increment:ci95",
+        "extract:offsets10_increment:difference",
+        "extract:offsets10_increment:margin",
+        "scoring_run:e1_head_to_head:ci95",
+        "scoring_run:e1_head_to_head:difference",
+        "scoring_run:e1_head_to_head:margin",
+        "scoring_run:history_gain:ci95",
+        "scoring_run:history_gain:difference",
+        "scoring_run:history_gain:margin",
+        "scoring_run:offsets10_increment:ci95",
+        "scoring_run:offsets10_increment:difference",
+        "scoring_run:offsets10_increment:margin"
+      ],
+      "control_input": "the outcome column shuffled across rows",
+      "max_difference": 2.231288070975168e-16,
+      "negative_control": "rejected as required",
+      "status": "passed",
+      "tolerance": 1e-09
+    },
+    "frozen_forecasts": {
+      "max_difference": 3.552713678800501e-15,
+      "negative_control": "rejected as required",
+      "status": "passed",
+      "tolerance": 1e-12
+    },
+    "no_withheld_value": {
+      "negative_control": "rejected as required",
+      "status": "passed",
+      "values_checked": 31
+    },
+    "scope": {
+      "negative_control": "rejected as required",
+      "pools": 12,
+      "seasons": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "status": "passed",
+      "targets": 674
+    }
+  },
+  "input_sha256": {
+    "cohort": "c629f43e3194642d483701c3d07666252938d587e747c99dbb031a2346bf2abf",
+    "docs/paper/ssac27/release.json": "7c5daff3f0d5701d9c2305d1c4912e4666f242f2f833e60c1d1f17e6300f1f09",
+    "docs/research/artifacts/sloan-fullpaper-amend1-decisions-2026-11/summary.json": "94a1bb6576234d6f94bff9da12293799cca4ff71fa4d6589d7a30169e8935fe9",
+    "docs/research/artifacts/sloan-fullpaper-older-seasons-2026-11/e27_arrivals.csv": "7356ba0bd35945ea8fb8a152d2d167c5dc1eb4d0f7849a08f627cf172ae3a800",
+    "docs/research/artifacts/sloan-fullpaper-older-seasons-2026-11/e27_summary.json": "cf81c15dbc900b099fd887683a091b5d8ffcd6767eaab15fe588d8374fe5b53b",
+    "docs/research/artifacts/sloan-fullpaper-older-seasons-paper-2026-11/e27_paper.json": "7fdaa0a66a1c8ec49376ddfe1a81de724b071dff8185f7c25a682783716bd69b",
+    "docs/research/artifacts/sloan-fullpaper-recipes-2026-11/summary.json": "e4d826741bd4f629c713216cd592e19ae7d2d2a89b77fad2cbe7ed350c51d030",
+    "frozen_older_season_forecasts": "1d3e3bfb9d08b9d034668dac238e316cb96c4a548af689a3acf7435224df3027",
+    "pairs": "d964727924630dbf32c1764daf1e536c81d58988218a230fea591c62c1a62f58"
+  },
+  "models": {
+    "history_destination_slope": "history + destination (blind to the source league)",
+    "history_only": "history only (blind to both leagues)",
+    "source_ridge_10": "league-aware (one number per league)"
+  },
+  "n_targets": 674,
+  "protocol_commit": "f52e7c831fef6759eab202c8ff8c56fa76037533",
+  "protocol_sha256": "6c6002f9a96f954eeaac4082a02471bcd7017879df07e2a0630de07e345a5194",
+  "sentences": [
+    "the league-aware forecast is more accurate than history alone by 0.172 EFF/36 (interval 0.096 to 0.248)",
+    "once the destination is known, knowing the source league improves the forecast by 0.065 EFF/36 (interval 0.014 to 0.117)",
+    "not detectable on the older seasons at this n (n = 180)",
+    "not clearly above zero when weighted by playing time",
+    "not detectable on the older seasons at this n (n = 180)",
+    "the margin is 89% of what the source league adds"
+  ]
+}

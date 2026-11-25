@@ -1,0 +1,13 @@
+subset,subset_label,comparison,label,n,difference,margin,registered_reading_holds,ci_low,ci_high
+all,all 674 arrivals,history_gain,translation against history,674,0.1610969141822275,0.05848079869067596,True,0.07651901058260349,0.2456748177818515
+all,all 674 arrivals,e1_head_to_head,league-aware against history plus translation,674,0.01091728304099167,0.05848079869067596,True,-0.02722108228587037,0.049055648367853706
+all,all 674 arrivals,offsets10_increment,translation added to the league-aware forecast,674,-0.001746002023290922,0.05848079869067596,True,-0.027513303333554194,0.02402129928697235
+S1,without WRONG (primary),history_gain,translation against history,670,0.16662487644104232,0.05842901868353709,True,0.08108456410544668,0.25216518877663796
+S1,without WRONG (primary),e1_head_to_head,league-aware against history plus translation,670,0.008866083076171224,0.05842901868353709,True,-0.02940636662233724,0.04713853277467969
+S1,without WRONG (primary),offsets10_increment,translation added to the league-aware forecast,670,-0.0006839101883551476,0.05842901868353709,True,-0.0266598430116082,0.025292022634897906
+S2,without WRONG and UNRESOLVED,history_gain,translation against history,665,0.1696425933505014,0.05862606477285333,True,0.08379526796927222,0.2554899187317306
+S2,without WRONG and UNRESOLVED,e1_head_to_head,league-aware against history plus translation,665,0.00915408309405951,0.05862606477285333,True,-0.029258092944241275,0.047566259132360296
+S2,without WRONG and UNRESOLVED,offsets10_increment,translation added to the league-aware forecast,665,0.000952273565748393,0.05862606477285333,True,-0.0251435680019075,0.027048115133404285
+S3,CONFIRMED only,history_gain,translation against history,578,0.169847926006744,0.058751272899798784,True,0.07855517496964103,0.26114067704384697
+S3,CONFIRMED only,e1_head_to_head,league-aware against history plus translation,578,0.00500048566043183,0.058751272899798784,True,-0.037549844465087454,0.047550815785951106
+S3,CONFIRMED only,offsets10_increment,translation added to the league-aware forecast,578,0.0017593164499895657,0.058751272899798784,True,-0.02476056594318795,0.028279198843167083

@@ -1,0 +1,405 @@
+{
+  "acb_written_permission": false,
+  "amendment_commit": "e884afe8b",
+  "amendment_sha256": "accbe966c12e50264e746ea6fdcb70d8f80ab130e5579d9668333875f840ecfa",
+  "analysis": "E27 paper extract",
+  "by_destination": {
+    "eurocup": 120,
+    "euroleague": 60
+  },
+  "by_league": {
+    "aba": 131,
+    "israel": 49
+  },
+  "by_season": {
+    "2008": 12,
+    "2009": 12,
+    "2010": 24,
+    "2011": 26,
+    "2012": 24,
+    "2013": 52,
+    "2014": 17,
+    "2015": 13
+  },
+  "comparisons": {
+    "all": {
+      "e1_head_to_head": {
+        "ci95": [
+          -0.0167163492330924,
+          0.0792570067023853
+        ],
+        "difference": 0.0312703287346464,
+        "margin": 0.056591699400232,
+        "n": 180,
+        "reading": "includes zero, wider than the margin"
+      },
+      "history_gain": {
+        "ci95": [
+          -0.1458543549663049,
+          0.1485283279410422
+        ],
+        "difference": 0.0013369864873686,
+        "margin": 0.056591699400232,
+        "n": 180,
+        "reading": "includes zero"
+      },
+      "offsets10_increment": {
+        "ci95": [
+          -0.0308962629623509,
+          0.0017159622704984
+        ],
+        "difference": -0.0145901503459262,
+        "margin": 0.056591699400232,
+        "n": 180,
+        "reading": "includes zero, inside the margin"
+      }
+    },
+    "club confirmed": {
+      "e1_head_to_head": {
+        "ci95": [
+          -0.0398173255329284,
+          0.0774584604662307
+        ],
+        "difference": 0.0188205674666511,
+        "margin": 0.0662167912413163,
+        "n": 53,
+        "reading": "includes zero, wider than the margin"
+      },
+      "history_gain": {
+        "ci95": [
+          -0.4231814777425126,
+          -0.0196106378609518
+        ],
+        "difference": -0.2213960578017322,
+        "margin": 0.0662167912413163,
+        "n": 53,
+        "reading": "below zero"
+      },
+      "offsets10_increment": {
+        "ci95": [
+          -0.039062020247861,
+          0.0061869415991903
+        ],
+        "difference": -0.0164375393243353,
+        "margin": 0.0662167912413163,
+        "n": 53,
+        "reading": "includes zero, inside the margin"
+      }
+    },
+    "destination: eurocup": {
+      "e1_head_to_head": {
+        "ci95": [
+          -0.0316689387345859,
+          0.0909364690058937
+        ],
+        "difference": 0.0296337651356538,
+        "margin": 0.0601429438723468,
+        "n": 120,
+        "reading": "includes zero, wider than the margin"
+      },
+      "history_gain": {
+        "ci95": [
+          -0.1871389844051375,
+          0.0004577799860895
+        ],
+        "difference": -0.093340602209524,
+        "margin": 0.0601429438723468,
+        "n": 120,
+        "reading": "includes zero"
+      },
+      "offsets10_increment": {
+        "ci95": [
+          -0.0293183117953498,
+          0.0074075041851352
+        ],
+        "difference": -0.0109554038051072,
+        "margin": 0.0601429438723468,
+        "n": 120,
+        "reading": "includes zero, inside the margin"
+      }
+    },
+    "destination: euroleague": {
+      "e1_head_to_head": {
+        "ci95": [
+          -0.0415550418146825,
+          0.1106419536799457
+        ],
+        "difference": 0.0345434559326315,
+        "margin": 0.0494892104560023,
+        "n": 60,
+        "reading": "includes zero, wider than the margin"
+      },
+      "history_gain": {
+        "ci95": [
+          -0.2185232032598702,
+          0.5999075310221782
+        ],
+        "difference": 0.190692163881154,
+        "margin": 0.0494892104560023,
+        "n": 60,
+        "reading": "includes zero"
+      },
+      "offsets10_increment": {
+        "ci95": [
+          -0.0526611722198235,
+          0.008941885364695
+        ],
+        "difference": -0.0218596434275642,
+        "margin": 0.0494892104560023,
+        "n": 60,
+        "reading": "includes zero, wider than the margin"
+      }
+    },
+    "league: aba": {
+      "e1_head_to_head": {
+        "ci95": [
+          -0.0114380971174414,
+          0.0776825529557352
+        ],
+        "difference": 0.0331222279191468,
+        "margin": 0.0608123737690783,
+        "n": 131,
+        "reading": "includes zero, wider than the margin"
+      },
+      "history_gain": {
+        "ci95": [
+          -0.1674612632285357,
+          0.1675601624982877
+        ],
+        "difference": 4.9449634876040595e-05,
+        "margin": 0.0608123737690783,
+        "n": 131,
+        "reading": "includes zero"
+      },
+      "offsets10_increment": {
+        "ci95": [
+          -0.0344757313342877,
+          0.0025741553197471
+        ],
+        "difference": -0.0159507880072702,
+        "margin": 0.0608123737690783,
+        "n": 131,
+        "reading": "includes zero, inside the margin"
+      }
+    },
+    "league: israel": {
+      "e1_head_to_head": {
+        "ci95": [
+          -0.109705668072912,
+          0.1623443339842638
+        ],
+        "difference": 0.0263193329556759,
+        "margin": 0.0453078556794388,
+        "n": 49,
+        "reading": "includes zero, wider than the margin"
+      },
+      "history_gain": {
+        "ci95": [
+          -0.3004702867461921,
+          0.3100286404424207
+        ],
+        "difference": 0.0047791768481142,
+        "margin": 0.0453078556794388,
+        "n": 49,
+        "reading": "includes zero"
+      },
+      "offsets10_increment": {
+        "ci95": [
+          -0.0471542568978206,
+          0.0252492024768279
+        ],
+        "difference": -0.0109525272104963,
+        "margin": 0.0453078556794388,
+        "n": 49,
+        "reading": "includes zero, wider than the margin"
+      }
+    },
+    "rare surname": {
+      "e1_head_to_head": {
+        "ci95": [
+          -0.0077090732704358,
+          0.10526524033855
+        ],
+        "difference": 0.048778083534057,
+        "margin": 0.0573187529660222,
+        "n": 121,
+        "reading": "includes zero, wider than the margin"
+      },
+      "history_gain": {
+        "ci95": [
+          -0.1423906594486728,
+          0.2160713555961755
+        ],
+        "difference": 0.0368403480737513,
+        "margin": 0.0573187529660222,
+        "n": 121,
+        "reading": "includes zero"
+      },
+      "offsets10_increment": {
+        "ci95": [
+          -0.0388282126884627,
+          -0.0002983788541148
+        ],
+        "difference": -0.0195632957712888,
+        "margin": 0.0573187529660222,
+        "n": 121,
+        "reading": "excludes zero, favours the first forecast"
+      }
+    },
+    "with career history": {
+      "e1_head_to_head": {
+        "ci95": [
+          -0.043217031705082,
+          0.0697337634330476
+        ],
+        "difference": 0.0132583658639827,
+        "margin": 0.0582569673080673,
+        "n": 120,
+        "reading": "includes zero, wider than the margin"
+      },
+      "history_gain": {
+        "ci95": [
+          -0.2048280861074296,
+          0.1281161437978785
+        ],
+        "difference": -0.0383559711547755,
+        "margin": 0.0582569673080673,
+        "n": 120,
+        "reading": "includes zero"
+      },
+      "offsets10_increment": {
+        "ci95": [
+          -0.0321295048317987,
+          0.0065672360091129
+        ],
+        "difference": -0.0127811344113429,
+        "margin": 0.0582569673080673,
+        "n": 120,
+        "reading": "includes zero, inside the margin"
+      }
+    }
+  },
+  "forecast_sha256": "1d3e3bfb9d08b9d034668dac238e316cb96c4a548af689a3acf7435224df3027",
+  "gates": {
+    "G27a_inputs": {
+      "api_files": 18,
+      "box_files": 6,
+      "negative_control": "rejected as required",
+      "status": "passed"
+    },
+    "G27b_same_models": {
+      "arms": 17,
+      "max_abs_gap": 0.0,
+      "negative_control": "rejected as required",
+      "rows": 3478,
+      "status": "passed",
+      "tolerance": 1e-09
+    },
+    "G27c_same_outcome": {
+      "correlation": 0.9995826008250264,
+      "join_share": 0.9807121661721068,
+      "joined": 661,
+      "median_abs_gap": 0.0,
+      "n": 674,
+      "negative_control": "rejected as required",
+      "readings_hold": {
+        "e1_head_to_head": true,
+        "history_gain": true,
+        "offsets10_increment": true
+      },
+      "status": "passed"
+    },
+    "G27d_linking": {
+      "links_after_shuffled_surnames": 24,
+      "measured": {
+        "all": [
+          9,
+          282
+        ],
+        "rare_surname": [
+          0,
+          181
+        ]
+      },
+      "negative_control": "rejected as required",
+      "status": "passed"
+    },
+    "G27e_frozen_before_scored": {
+      "negative_control": "rejected as required",
+      "status": "passed"
+    },
+    "G27p_printed_rows_reproduce": {
+      "max_abs_gap": 2.231288070975168e-16,
+      "negative_control": "shuffled outcomes: rejected as required",
+      "status": "passed",
+      "tolerance": 1e-12
+    }
+  },
+  "leagues": [
+    "aba",
+    "israel"
+  ],
+  "linking": {
+    "aba": {
+      "first_name_differs": 18,
+      "games_not_reconciled": 2,
+      "league_games": 1498,
+      "linked": 510,
+      "source_player_seasons": 1365
+    },
+    "israel": {
+      "first_name_differs": 9,
+      "games_not_reconciled": 45,
+      "league_games": 1382,
+      "linked": 199,
+      "source_player_seasons": 1034
+    }
+  },
+  "mae": {
+    "history_only": 2.862192285233617,
+    "scheduled_history": 2.860855298746248,
+    "source_ridge_10": 2.8295849700116014,
+    "source_ridge_10_scheduled": 2.8441751203575274
+  },
+  "mean_error": {
+    "history_only": -0.004516348127980763,
+    "scheduled_history": -0.7179823950395771,
+    "source_ridge_10": -0.7742405658914644,
+    "source_ridge_10_scheduled": -0.8109286114867919
+  },
+  "n": 180,
+  "printed_version": "V-noACB",
+  "runs": {
+    "freeze": "complete",
+    "outcomes_joined_at_freeze": false,
+    "score": "complete",
+    "score_stopped": {
+      "output_files": 0,
+      "status": "failed"
+    }
+  },
+  "shares": {
+    "club_confirmed": 0.29444444444444445,
+    "rare_surname": 0.6722222222222223,
+    "without_history": 0.3333333333333333
+  },
+  "sources": {
+    "e27_arrivals.csv": "7356ba0bd35945ea8fb8a152d2d167c5dc1eb4d0f7849a08f627cf172ae3a800",
+    "e27_comparisons.csv": "3d0d74dee1bec9c4502a000f9fcb8cbb5147980a39cdb209d20ef895bc98e4b1",
+    "e27_freeze.json": "b3d132d226859d3a110e47fed21131d06220e7faacfeda4dc37090482afbd211",
+    "e27_summary.json": "cf81c15dbc900b099fd887683a091b5d8ffcd6767eaab15fe588d8374fe5b53b",
+    "freeze-receipt.json": "924a23a5e3607e37c9d10d03ff67d14e63bd01ddd7f6efa90178533a8e1fc1ed",
+    "score-receipt.json": "45911f7e91b921c3762b134b21101f70c6f5d0b35c5cf97a4adc7806274d6a5f",
+    "score-stopped-receipt.json": "50b0ec29ce52396e4dabb2e87e0a7798eac4408681ebd644da2ba17c73a31579"
+  },
+  "withheld": {
+    "agree_on": [
+      "offsets10_increment"
+    ],
+    "comparisons": 3,
+    "computed_in_the_same_runs": true,
+    "readings_agree": 1,
+    "reason": "ACB's written permission had not arrived",
+    "version": "V-all"
+  }
+}

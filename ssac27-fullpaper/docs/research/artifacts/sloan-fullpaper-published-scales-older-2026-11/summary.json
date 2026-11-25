@@ -1,0 +1,832 @@
+{
+  "amendment": {
+    "commit": "bf60fe3025a465bffdaf4f804047ac1c72f58879",
+    "path": "docs/research/sloan-full-paper-preregistration-amendment-23-2026-11-22.md",
+    "sha256": "8a440ef497d44aeb094f5c439f104ff753084a47576b1428bc881960bd4c1ad7"
+  },
+  "analysis": "E34",
+  "by_league": {
+    "aba": {
+      "scale_2026": {
+        "G": {
+          "minutes_weighted": {
+            "ci95": [
+              -0.21901438965634012,
+              -0.044991114224081086
+            ],
+            "detectable_80": 0.12390751215785292,
+            "df": 63,
+            "difference": -0.1320027519402106,
+            "left": "published_scale_gaussianhoops_2026",
+            "mae_left": 2.8915265184696652,
+            "mae_right": 3.0235292704098757,
+            "n": 131,
+            "p_two_sided": 0.0035279131646523795,
+            "positive_favours": "source_ridge_10",
+            "reading": "below_zero",
+            "right": "source_ridge_10",
+            "se": 0.04354194686275621,
+            "status": "ok",
+            "weighting": "minutes_weighted"
+          },
+          "unweighted": {
+            "ci95": [
+              -0.16627742956764102,
+              -0.006058996656703786
+            ],
+            "detectable_80": 0.11407823105566053,
+            "df": 63,
+            "difference": -0.0861682131121724,
+            "left": "published_scale_gaussianhoops_2026",
+            "mae_left": 2.954450475341744,
+            "mae_right": 3.0406186884539173,
+            "n": 131,
+            "p_two_sided": 0.03544362136263645,
+            "positive_favours": "source_ridge_10",
+            "reading": "below_zero",
+            "right": "source_ridge_10",
+            "se": 0.040087870285820996,
+            "status": "ok",
+            "weighting": "unweighted"
+          }
+        },
+        "T": {
+          "minutes_weighted": {
+            "ci95": [
+              -0.036940730631908156,
+              0.015242864684421644
+            ],
+            "detectable_80": 0.03715560148513334,
+            "df": 63,
+            "difference": -0.010848932973743257,
+            "left": "history_destination_slope",
+            "mae_left": 2.880677585495922,
+            "mae_right": 2.8915265184696652,
+            "n": 131,
+            "p_two_sided": 0.4091640852406484,
+            "positive_favours": "published_scale_gaussianhoops_2026",
+            "reading": "includes_zero",
+            "right": "published_scale_gaussianhoops_2026",
+            "se": 0.013056732375179788,
+            "status": "ok",
+            "weighting": "minutes_weighted"
+          },
+          "unweighted": {
+            "ci95": [
+              -0.027621266230151084,
+              0.02213475042459013
+            ],
+            "detectable_80": 0.03542712446516125,
+            "df": 63,
+            "difference": -0.002743257902780478,
+            "left": "history_destination_slope",
+            "mae_left": 2.951707217438964,
+            "mae_right": 2.954450475341744,
+            "n": 131,
+            "p_two_sided": 0.8263081503442014,
+            "positive_favours": "published_scale_gaussianhoops_2026",
+            "reading": "includes_zero",
+            "right": "published_scale_gaussianhoops_2026",
+            "se": 0.01244933373367337,
+            "status": "ok",
+            "weighting": "unweighted"
+          }
+        }
+      },
+      "table_2015": {
+        "G": {
+          "minutes_weighted": {
+            "ci95": [
+              -0.2326200844924099,
+              -0.04670803588443932
+            ],
+            "detectable_80": 0.13237251951478468,
+            "df": 63,
+            "difference": -0.13966406018842462,
+            "left": "published_table_vashro_2015",
+            "mae_left": 2.883865210221451,
+            "mae_right": 3.0235292704098757,
+            "n": 131,
+            "p_two_sided": 0.0038367212725174513,
+            "positive_favours": "source_ridge_10",
+            "reading": "below_zero",
+            "right": "source_ridge_10",
+            "se": 0.04651660831878483,
+            "status": "ok",
+            "weighting": "minutes_weighted"
+          },
+          "unweighted": {
+            "ci95": [
+              -0.17847874378906237,
+              -0.006831486060791869
+            ],
+            "detectable_80": 0.12221574741079277,
+            "df": 63,
+            "difference": -0.09265511492492712,
+            "left": "published_table_vashro_2015",
+            "mae_left": 2.9479635735289897,
+            "mae_right": 3.0406186884539173,
+            "n": 131,
+            "p_two_sided": 0.03479490168256798,
+            "positive_favours": "source_ridge_10",
+            "reading": "below_zero",
+            "right": "source_ridge_10",
+            "se": 0.042947449164933545,
+            "status": "ok",
+            "weighting": "unweighted"
+          }
+        },
+        "T": {
+          "minutes_weighted": {
+            "ci95": [
+              -0.023842994508232563,
+              0.017467745057174047
+            ],
+            "detectable_80": 0.029413944498148718,
+            "df": 63,
+            "difference": -0.003187624725529258,
+            "left": "history_destination_slope",
+            "mae_left": 2.880677585495922,
+            "mae_right": 2.883865210221451,
+            "n": 131,
+            "p_two_sided": 0.7588011663822798,
+            "positive_favours": "published_table_vashro_2015",
+            "reading": "includes_zero",
+            "right": "published_table_vashro_2015",
+            "se": 0.010336261184316596,
+            "status": "ok",
+            "weighting": "minutes_weighted"
+          },
+          "unweighted": {
+            "ci95": [
+              -0.015924635395944055,
+              0.023411923215892534
+            ],
+            "detectable_80": 0.02800829430624954,
+            "df": 63,
+            "difference": 0.0037436439099742405,
+            "left": "history_destination_slope",
+            "mae_left": 2.951707217438964,
+            "mae_right": 2.9479635735289897,
+            "n": 131,
+            "p_two_sided": 0.7049558017550693,
+            "positive_favours": "published_table_vashro_2015",
+            "reading": "includes_zero",
+            "right": "published_table_vashro_2015",
+            "se": 0.009842306097192218,
+            "status": "ok",
+            "weighting": "unweighted"
+          }
+        }
+      }
+    },
+    "israel": {
+      "scale_2026": {
+        "G": {
+          "minutes_weighted": {
+            "ci95": [
+              -0.09402614745797461,
+              0.024902475927666007
+            ],
+            "detectable_80": 0.08438533890557841,
+            "df": 33,
+            "difference": -0.0345618357651543,
+            "left": "published_scale_gaussianhoops_2026",
+            "mae_left": 2.0420962547973267,
+            "mae_right": 2.076658090562481,
+            "n": 49,
+            "p_two_sided": 0.24545740193147372,
+            "positive_favours": "source_ridge_10",
+            "reading": "includes_zero",
+            "right": "source_ridge_10",
+            "se": 0.02922775354275803,
+            "status": "ok",
+            "weighting": "minutes_weighted"
+          },
+          "unweighted": {
+            "ci95": [
+              -0.051572200953914536,
+              0.057205119886342935
+            ],
+            "detectable_80": 0.07718252194495893,
+            "df": 33,
+            "difference": 0.0028164594662141978,
+            "left": "published_scale_gaussianhoops_2026",
+            "mae_left": 2.268209243438156,
+            "mae_right": 2.265392783971942,
+            "n": 49,
+            "p_two_sided": 0.9167317379064465,
+            "positive_favours": "source_ridge_10",
+            "reading": "includes_zero",
+            "right": "source_ridge_10",
+            "se": 0.026732981800783474,
+            "status": "ok",
+            "weighting": "unweighted"
+          }
+        },
+        "T": {
+          "minutes_weighted": {
+            "ci95": [
+              -0.11549015348559699,
+              -0.002821445042783137
+            ],
+            "detectable_80": 0.07994364077662898,
+            "df": 33,
+            "difference": -0.05915579926419006,
+            "left": "history_destination_slope",
+            "mae_left": 1.9829404555331362,
+            "mae_right": 2.0420962547973267,
+            "n": 49,
+            "p_two_sided": 0.04015267393044832,
+            "positive_favours": "published_scale_gaussianhoops_2026",
+            "reading": "below_zero",
+            "right": "published_scale_gaussianhoops_2026",
+            "se": 0.027689324475482207,
+            "status": "ok",
+            "weighting": "minutes_weighted"
+          },
+          "unweighted": {
+            "ci95": [
+              -0.0670463287395456,
+              0.04673197059295453
+            ],
+            "detectable_80": 0.08073094664637827,
+            "df": 33,
+            "difference": -0.010157179073295528,
+            "left": "history_destination_slope",
+            "mae_left": 2.2580520643648607,
+            "mae_right": 2.268209243438156,
+            "n": 49,
+            "p_two_sided": 0.7187353957892715,
+            "positive_favours": "published_scale_gaussianhoops_2026",
+            "reading": "includes_zero",
+            "right": "published_scale_gaussianhoops_2026",
+            "se": 0.027962016180252715,
+            "status": "ok",
+            "weighting": "unweighted"
+          }
+        }
+      },
+      "table_2015": {
+        "G": {
+          "minutes_weighted": {
+            "ci95": [
+              0.0017743336003895605,
+              0.11920384206844312
+            ],
+            "detectable_80": 0.0833216477875135,
+            "df": 33,
+            "difference": 0.06048908783441634,
+            "left": "published_table_vashro_2015",
+            "mae_left": 2.137147178396897,
+            "mae_right": 2.076658090562481,
+            "n": 49,
+            "p_two_sided": 0.043831838466895784,
+            "positive_favours": "source_ridge_10",
+            "reading": "above_zero",
+            "right": "source_ridge_10",
+            "se": 0.028859332887610712,
+            "status": "ok",
+            "weighting": "minutes_weighted"
+          },
+          "unweighted": {
+            "ci95": [
+              -0.0390204495187957,
+              0.07022180433425636
+            ],
+            "detectable_80": 0.07751241334314525,
+            "df": 33,
+            "difference": 0.01560067740773033,
+            "left": "published_table_vashro_2015",
+            "mae_left": 2.2809934613796723,
+            "mae_right": 2.265392783971942,
+            "n": 49,
+            "p_two_sided": 0.5651275094170075,
+            "positive_favours": "source_ridge_10",
+            "reading": "includes_zero",
+            "right": "source_ridge_10",
+            "se": 0.02684724317138547,
+            "status": "ok",
+            "weighting": "unweighted"
+          }
+        },
+        "T": {
+          "minutes_weighted": {
+            "ci95": [
+              -0.3197263250241184,
+              0.011312879296596967
+            ],
+            "detectable_80": 0.234887570816778,
+            "df": 33,
+            "difference": -0.15420672286376072,
+            "left": "history_destination_slope",
+            "mae_left": 1.9829404555331362,
+            "mae_right": 2.137147178396897,
+            "n": 49,
+            "p_two_sided": 0.06681854995490782,
+            "positive_favours": "published_table_vashro_2015",
+            "reading": "includes_zero",
+            "right": "published_table_vashro_2015",
+            "se": 0.08135579141030239,
+            "status": "ok",
+            "weighting": "minutes_weighted"
+          },
+          "unweighted": {
+            "ci95": [
+              -0.18094046076894849,
+              0.13505766673932518
+            ],
+            "detectable_80": 0.22421523367715565,
+            "df": 33,
+            "difference": -0.02294139701481166,
+            "left": "history_destination_slope",
+            "mae_left": 2.2580520643648607,
+            "mae_right": 2.2809934613796723,
+            "n": 49,
+            "p_two_sided": 0.7695309125606129,
+            "positive_favours": "published_table_vashro_2015",
+            "reading": "includes_zero",
+            "right": "published_table_vashro_2015",
+            "se": 0.07765931470371319,
+            "status": "ok",
+            "weighting": "unweighted"
+          }
+        }
+      }
+    }
+  },
+  "by_league_n": {
+    "aba": 131,
+    "israel": 49
+  },
+  "clusters": {
+    "destination_club_seasons": 95,
+    "players": 166
+  },
+  "contrasts": {
+    "scale_2026": {
+      "G": {
+        "minutes_weighted": {
+          "ci95": [
+            -0.16722266375835282,
+            -0.04018912145229407
+          ],
+          "detectable_80": 0.09056304154556298,
+          "df": 94,
+          "difference": -0.10370589260532344,
+          "left": "published_scale_gaussianhoops_2026",
+          "mae_left": 2.6448518192832338,
+          "mae_right": 2.7485577118885574,
+          "n": 180,
+          "p_two_sided": 0.0016438352118235096,
+          "positive_favours": "source_ridge_10",
+          "reading": "below_zero",
+          "right": "source_ridge_10",
+          "se": 0.03198993767271608,
+          "status": "ok",
+          "weighting": "minutes_weighted"
+        },
+        "unweighted": {
+          "ci95": [
+            -0.12218454629936479,
+            -0.0017046692989695356
+          ],
+          "detectable_80": 0.08589089076886053,
+          "df": 94,
+          "difference": -0.06194460779916716,
+          "left": "published_scale_gaussianhoops_2026",
+          "mae_left": 2.7676403622124344,
+          "mae_right": 2.829584970011602,
+          "n": 180,
+          "p_two_sided": 0.04398250489814423,
+          "positive_favours": "source_ridge_10",
+          "reading": "below_zero",
+          "right": "source_ridge_10",
+          "se": 0.03033957556480202,
+          "status": "ok",
+          "weighting": "unweighted"
+        }
+      },
+      "T": {
+        "minutes_weighted": {
+          "ci95": [
+            -0.04892800528443861,
+            -0.0008265057355188836
+          ],
+          "detectable_80": 0.03429187302009865,
+          "df": 94,
+          "difference": -0.024877255509978748,
+          "left": "history_destination_slope",
+          "mae_left": 2.6199745637732548,
+          "mae_right": 2.6448518192832338,
+          "n": 180,
+          "p_two_sided": 0.04277649324336837,
+          "positive_favours": "published_scale_gaussianhoops_2026",
+          "reading": "below_zero",
+          "right": "published_scale_gaussianhoops_2026",
+          "se": 0.012113052541877618,
+          "status": "ok",
+          "weighting": "minutes_weighted"
+        },
+        "unweighted": {
+          "ci95": [
+            -0.0273609130020553,
+            0.017837929003658375
+          ],
+          "detectable_80": 0.03222254950989867,
+          "df": 94,
+          "difference": -0.004761491999198464,
+          "left": "history_destination_slope",
+          "mae_left": 2.762878870213236,
+          "mae_right": 2.7676403622124344,
+          "n": 180,
+          "p_two_sided": 0.6766588149349237,
+          "positive_favours": "published_scale_gaussianhoops_2026",
+          "reading": "includes_zero",
+          "right": "published_scale_gaussianhoops_2026",
+          "se": 0.011382097298035913,
+          "status": "ok",
+          "weighting": "unweighted"
+        }
+      }
+    },
+    "table_2015": {
+      "G": {
+        "minutes_weighted": {
+          "ci95": [
+            -0.15245146828637754,
+            -0.010627632738844955
+          ],
+          "detectable_80": 0.1011071381438578,
+          "df": 94,
+          "difference": -0.08153955051261125,
+          "left": "published_table_vashro_2015",
+          "mae_left": 2.667018161375946,
+          "mae_right": 2.7485577118885574,
+          "n": 180,
+          "p_two_sided": 0.02467800115810566,
+          "positive_favours": "source_ridge_10",
+          "reading": "below_zero",
+          "right": "source_ridge_10",
+          "se": 0.03571447018882916,
+          "status": "ok",
+          "weighting": "minutes_weighted"
+        },
+        "unweighted": {
+          "ci95": [
+            -0.1282949998088698,
+            0.001924034673462388
+          ],
+          "detectable_80": 0.0928339997119335,
+          "df": 94,
+          "difference": -0.0631854825677037,
+          "left": "published_table_vashro_2015",
+          "mae_left": 2.766399487443898,
+          "mae_right": 2.829584970011602,
+          "n": 180,
+          "p_two_sided": 0.05701860862761825,
+          "positive_favours": "source_ridge_10",
+          "reading": "includes_zero",
+          "right": "source_ridge_10",
+          "se": 0.03279211711545254,
+          "status": "ok",
+          "weighting": "unweighted"
+        }
+      },
+      "T": {
+        "minutes_weighted": {
+          "ci95": [
+            -0.09695212977352832,
+            0.0028649345681464253
+          ],
+          "detectable_80": 0.07116023674402475,
+          "df": 94,
+          "difference": -0.047043597602690945,
+          "left": "history_destination_slope",
+          "mae_left": 2.6199745637732548,
+          "mae_right": 2.667018161375946,
+          "n": 180,
+          "p_two_sided": 0.06437911035484845,
+          "positive_favours": "published_table_vashro_2015",
+          "reading": "includes_zero",
+          "right": "published_table_vashro_2015",
+          "se": 0.025136208980699834,
+          "status": "ok",
+          "weighting": "minutes_weighted"
+        },
+        "unweighted": {
+          "ci95": [
+            -0.046271460016476806,
+            0.03923022555515296
+          ],
+          "detectable_80": 0.06095470977250598,
+          "df": 94,
+          "difference": -0.0035206172306619216,
+          "left": "history_destination_slope",
+          "mae_left": 2.762878870213236,
+          "mae_right": 2.766399487443898,
+          "n": 180,
+          "p_two_sided": 0.8704665099047666,
+          "positive_favours": "published_table_vashro_2015",
+          "reading": "includes_zero",
+          "right": "published_table_vashro_2015",
+          "se": 0.021531270739178245,
+          "status": "ok",
+          "weighting": "unweighted"
+        }
+      }
+    }
+  },
+  "destination_seasons": [
+    2008,
+    2015
+  ],
+  "e28b": {
+    "left": "history_destination_slope",
+    "minutes_weighted": {
+      "ci95": [
+        -0.20872668805114877,
+        -0.04843960817945567
+      ],
+      "detectable_80": 0.11426970554488572,
+      "df": 94,
+      "difference": -0.12858314811530222,
+      "left": "history_destination_slope",
+      "mae_left": 2.6199745637732557,
+      "mae_right": 2.7485577118885582,
+      "n": 180,
+      "p_two_sided": 0.001960625163265119,
+      "positive_favours": "source_ridge_10",
+      "reading": "below_zero",
+      "right": "source_ridge_10",
+      "se": 0.0403639353965537,
+      "status": "ok",
+      "weighting": "minutes_weighted"
+    },
+    "right": "source_ridge_10",
+    "unweighted": {
+      "ci95": [
+        -0.1435446691022972,
+        0.010132469505565955
+      ],
+      "detectable_80": 0.1095574352702544,
+      "df": 94,
+      "difference": -0.06670609979836563,
+      "left": "history_destination_slope",
+      "mae_left": 2.7628788702132363,
+      "mae_right": 2.8295849700116014,
+      "n": 180,
+      "p_two_sided": 0.08804988613303845,
+      "positive_favours": "source_ridge_10",
+      "reading": "includes_zero",
+      "right": "source_ridge_10",
+      "se": 0.0386994017213391,
+      "status": "ok",
+      "weighting": "unweighted"
+    }
+  },
+  "exploratory": true,
+  "forecasts": {
+    "destination_only": "history_destination_slope",
+    "league_aware": "source_ridge_10",
+    "scale_2026": "published_scale_gaussianhoops_2026",
+    "table_2015": "published_table_vashro_2015"
+  },
+  "gates": {
+    "G34a": {
+      "changed_byte": "rejected as required",
+      "control_input": "one of the ten values moved by 0.1; one byte of a pinned file changed",
+      "max_difference": 0.0,
+      "negative_control": "rejected as required",
+      "pinned_files": {
+        "e27_arrivals": "7356ba0bd35945ea8fb8a152d2d167c5dc1eb4d0f7849a08f627cf172ae3a800",
+        "e27_arrivals_printed": "2b4bba1be27d5c66f4e632c39cc01d05dfeb6af8aedcf38473751948648f0936",
+        "e31c_freeze": "a19589ecdf1ba1818d135b8eb87133992003ad7e31dd0cba1668937966750a82",
+        "table_2015": "2c004c88d10c60f68dabb038330a9f8d282ba87f56b521cb6a87c59a26252d04"
+      },
+      "status": "passed",
+      "tolerance": 1e-12
+    },
+    "G34b": {
+      "by_league": {
+        "aba": 131,
+        "israel": 49
+      },
+      "control_input": "one row removed",
+      "destination_seasons": [
+        2008,
+        2015
+      ],
+      "max_difference": 2.7755575615628914e-17,
+      "negative_control": "rejected as required",
+      "rows": 180,
+      "status": "passed",
+      "tolerance": 1e-09
+    },
+    "G34c": {
+      "control_input": "one published value of the 2015 table moved by 0.01",
+      "max_difference": 0.0,
+      "negative_control": "rejected as required",
+      "status": "passed",
+      "tolerance": 1e-09,
+      "training_rows": 1059
+    },
+    "G34e": {
+      "control_input": "the sign of one contrast reversed",
+      "max_difference": 2.7755575615628914e-17,
+      "negative_control": "rejected as required",
+      "status": "passed",
+      "tolerance": 1e-09
+    },
+    "G34f": {
+      "checked": 34,
+      "control_input": "the forecasts of one scale shifted by 0.1",
+      "max_difference": 0.0004890878344163407,
+      "negative_control": "rejected as required",
+      "status": "passed",
+      "tolerance": 0.0005
+    }
+  },
+  "inputs": {
+    "amend9": {
+      "path": "docs/research/artifacts/sloan-fullpaper-amend9-2026-11/summary.json",
+      "sha256": "da97930085208070b8ce8e24ba4a813d8c5225690992bd240f8189d5751a0b22"
+    },
+    "cohort_sha256": "c629f43e3194642d483701c3d07666252938d587e747c99dbb031a2346bf2abf",
+    "e27_arrivals": {
+      "path": "docs/research/artifacts/sloan-fullpaper-older-seasons-2026-11/e27_arrivals.csv",
+      "sha256": "7356ba0bd35945ea8fb8a152d2d167c5dc1eb4d0f7849a08f627cf172ae3a800"
+    },
+    "e27_arrivals_printed": {
+      "path": "docs/research/artifacts/sloan-fullpaper-older-seasons-paper-2026-11/e27_arrivals_printed.csv",
+      "sha256": "2b4bba1be27d5c66f4e632c39cc01d05dfeb6af8aedcf38473751948648f0936"
+    },
+    "e31c_freeze": {
+      "path": "docs/research/artifacts/sloan-fullpaper-p1-freeze-2026-11/e31c_freeze.json",
+      "sha256": "a19589ecdf1ba1818d135b8eb87133992003ad7e31dd0cba1668937966750a82"
+    },
+    "equivalents": {
+      "path": "docs/research/artifacts/sloan-fullpaper-amend1-decisions-2026-11/exchange_rate_acb16.csv",
+      "sha256": "c8341a37947adcad882f90c9747ea6fee274723b367a0948bbfc50462fead2ca"
+    },
+    "pairs_sha256": "d964727924630dbf32c1764daf1e536c81d58988218a230fea591c62c1a62f58",
+    "scale_2026": {
+      "path": "docs/research/artifacts/sloan-fullpaper-published-scales-older-2026-11/gaussianhoops_2026_league_strength.json",
+      "sha256": "a0ca926d7f96cf06e2febeef0329eff167d96fb5493a64c29bf2ea33d15c3fb3"
+    },
+    "table_2015": {
+      "path": "docs/research/artifacts/sloan-fullpaper-published-tables-2026-11/vashro_2015_competition_scores.csv",
+      "sha256": "2c004c88d10c60f68dabb038330a9f8d282ba87f56b521cb6a87c59a26252d04"
+    }
+  },
+  "label": "These readings were first made outside the registration, in a review of the paper, and the rules for printing them were written after their values had been seen; they are exploratory.",
+  "mae": {
+    "history_destination_slope": {
+      "minutes_weighted": 2.6199745637732548,
+      "unweighted": 2.762878870213236
+    },
+    "published_scale_gaussianhoops_2026": {
+      "minutes_weighted": 2.6448518192832338,
+      "unweighted": 2.7676403622124344
+    },
+    "published_table_vashro_2015": {
+      "minutes_weighted": 2.667018161375946,
+      "unweighted": 2.766399487443898
+    },
+    "source_ridge_10": {
+      "minutes_weighted": 2.7485577118885574,
+      "unweighted": 2.829584970011602
+    }
+  },
+  "n": 180,
+  "ranks": {
+    "adriatic": {
+      "of": 10,
+      "paper_league_numbers": [
+        7
+      ],
+      "scale_2026": 4,
+      "table_2015": 4
+    },
+    "paper_league_numbers": {
+      "eurocup": {
+        "aba-league": 7,
+        "france-pro-a": 2,
+        "germany-bbl": 8,
+        "greece-a1": 4,
+        "israel-bsl": 6,
+        "italy-lba": 3,
+        "lithuania-lkl": 10,
+        "spain-acb": 1,
+        "turkey-bsl": 5,
+        "vtb": 9
+      },
+      "euroleague": {
+        "aba-league": 7,
+        "france-pro-a": 2,
+        "germany-bbl": 8,
+        "greece-a1": 4,
+        "israel-bsl": 6,
+        "italy-lba": 3,
+        "lithuania-lkl": 10,
+        "spain-acb": 1,
+        "turkey-bsl": 5,
+        "vtb": 9
+      }
+    },
+    "scale_2026": {
+      "aba-league": 4,
+      "france-pro-a": 2,
+      "germany-bbl": 8,
+      "greece-a1": 6,
+      "israel-bsl": 5,
+      "italy-lba": 3,
+      "lithuania-lkl": 10,
+      "spain-acb": 1,
+      "turkey-bsl": 7,
+      "vtb": 9
+    },
+    "table_2015": {
+      "aba-league": 4,
+      "france-pro-a": 6,
+      "germany-bbl": 7,
+      "greece-a1": 9,
+      "israel-bsl": 8,
+      "italy-lba": 2,
+      "lithuania-lkl": 10,
+      "spain-acb": 1,
+      "turkey-bsl": 5,
+      "vtb": 3
+    }
+  },
+  "reads_2026_27_statistics": false,
+  "scales": {
+    "scale_2026": {
+      "coefficients": {
+        "above_prior": -1.3912706920018267,
+        "destination_euroleague": -0.5064285734762114,
+        "destination_x_source": -0.0879354389964309,
+        "intercept": -18.64066774814897,
+        "prior_rate": 0.08909728582874135,
+        "published_score_source_league": 0.21129503638017497,
+        "source_rate": 0.6617404936962787
+      },
+      "fitted_here": true,
+      "name": "a league scale published in 2026",
+      "page": {
+        "address": "https://www.gaussianhoops.com/projections/league-strength/",
+        "publisher": "Gaussian Hoops",
+        "read_again": {
+          "by": "Claude Science, from a PDF print of the page that Amir saved from his browser on 25 November 2026 (3 pages, sha256 174d3e2a99a454f79bcfdf14d9aca8409a05fbb8f0eff78dd016d3989224bfa3); the site refuses automated readers",
+          "note": "The print shows 28 leagues, 'Seasons 2021-22 to 2025-26' and '12,117 player moves'. Each of the ten values above stands on it under the same name and with the same value. E34 uses the values above (Amendment 23).",
+          "on": "2026-11-25",
+          "shows_the_same_ten_values": true
+        },
+        "read_on": "2026-11-21",
+        "title": "League strength"
+      },
+      "source": "fitted on the registered training arrivals through 2025, by the code of E31c",
+      "train_n": 1059,
+      "values": {
+        "aba-league": 103.3,
+        "france-pro-a": 105.9,
+        "germany-bbl": 100.1,
+        "greece-a1": 102.3,
+        "israel-bsl": 103.0,
+        "italy-lba": 104.9,
+        "lithuania-lkl": 97.9,
+        "spain-acb": 110.6,
+        "turkey-bsl": 102.2,
+        "vtb": 99.3
+      }
+    },
+    "table_2015": {
+      "coefficients": {
+        "above_prior": -1.4084134870810345,
+        "destination_euroleague": -0.6652457867701103,
+        "destination_x_source": -0.07902204031101166,
+        "intercept": 1.9789616899770412,
+        "prior_rate": 0.09126204427680522,
+        "published_score_source_league": 1.6096168646399482,
+        "source_rate": 0.65546619414931
+      },
+      "fitted_here": false,
+      "name": "a league table printed in 2015",
+      "source": "the frozen coefficients of E31c",
+      "values": {
+        "aba-league": 0.82,
+        "france-pro-a": 0.69,
+        "germany-bbl": 0.65,
+        "greece-a1": 0.43,
+        "israel-bsl": 0.52,
+        "italy-lba": 1.12,
+        "lithuania-lkl": 0.33,
+        "spain-acb": 1.52,
+        "turkey-bsl": 0.77,
+        "vtb": 0.87
+      }
+    }
+  },
+  "stop_rule": "run once, in one retained run; no further published scale, sample or variant",
+  "total_minutes": 44516.100000000006
+}

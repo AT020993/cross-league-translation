@@ -1,0 +1,45 @@
+{
+ "code_files": 2579,
+ "entrypoint": "scripts/sloan_fullpaper_published_tables.py",
+ "generator_commit": "303953fe9d0a031d8735141d24abf4ab47e1ee0b",
+ "generator_sha256": "70c6cbbbf82f147cb9e890c98e14e7bfa4c778848a0db81c47ff4ce671d4ac77",
+ "inputs": 6,
+ "input_sha256": {
+  "data/processed/sloan_v10_public/official_corrected/cohort.parquet": "c629f43e3194642d483701c3d07666252938d587e747c99dbb031a2346bf2abf",
+  "data/processed/sloan_v10_public/official_corrected/pairs.parquet": "d964727924630dbf32c1764daf1e536c81d58988218a230fea591c62c1a62f58",
+  "docs/research/artifacts/sloan-fullpaper-p1-freeze-2026-11/freeze.json": "07ca3c33278238d3d5d0a1626a8afaf8f2af186e7e74e5656b1476b47d35d67a",
+  "docs/research/artifacts/sloan-fullpaper-p1-freeze-2026-11/p1_frozen_forecasts.parquet": "f3530c1a5ac369c032a996756ced226a93aa2d9f71d2e63aab21694de3d55316",
+  "docs/research/artifacts/sloan-fullpaper-published-tables-2026-11/vashro_2015_competition_scores.csv": "2c004c88d10c60f68dabb038330a9f8d282ba87f56b521cb6a87c59a26252d04",
+  "docs/research/sloan-full-paper-preregistration-amendment-15-2026-11-17.md": "f078841abdd37dbcb463bf37d7525422f436b8ccc1967622e753b2a2c09a755f"
+ },
+ "outputs": {
+  "out/e31c_freeze.json": "a19589ecdf1ba1818d135b8eb87133992003ad7e31dd0cba1668937966750a82",
+  "out/p1_frozen_published_table_forecasts.parquet": "4890fa1943a1e1ed40b0e3086a10274536aa315bf4eed8f4449d1815c98c8199",
+  "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout.log": "db5bb180044496ad7ee9ceff77936c2bbd79ac407dd35014b159acb715c53a95"
+ },
+ "returncode": 0,
+ "run_dir": "research-runs/sloan-fullpaper/e31c-freeze-01",
+ "selections": [
+  "data/processed/sloan_v10_public/official_corrected",
+  "docs/research/sloan-full-paper-preregistration-amendment-15-2026-11-17.md",
+  "docs/research/artifacts/sloan-fullpaper-published-tables-2026-11/vashro_2015_competition_scores.csv",
+  "docs/research/artifacts/sloan-fullpaper-p1-freeze-2026-11/p1_frozen_forecasts.parquet",
+  "docs/research/artifacts/sloan-fullpaper-p1-freeze-2026-11/freeze.json"
+ ],
+ "snapshot": "c7edd8e7c2fcac5cc1b8cf46b33b2e539efdd24f2d79a8bd60a2af413ac1a699",
+ "source_seasons": [
+  2015,
+  2016,
+  2017,
+  2018,
+  2019,
+  2020,
+  2021,
+  2022,
+  2023,
+  2024,
+  2025
+ ],
+ "status": "complete"
+}

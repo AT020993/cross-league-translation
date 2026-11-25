@@ -1,0 +1,36 @@
+{
+  "arguments": [
+    "gates",
+    "--out",
+    "out"
+  ],
+  "code_files": 2591,
+  "entrypoint": "scripts/sloan_fullpaper_league_changes_chrono.py",
+  "generator_commit": "3c4ddc2791dca1f04867333f6b7252f0bdcdb5e3",
+  "generator_sha256": "831b4f883133ba2cd5215a3b6fbc1de2ee1705b8fe6c6e9de119da3db560db5b",
+  "input_sha256": {
+    "docs/research/artifacts/sloan-fullpaper-league-changes-2026-11/e30_frozen_league_changes.parquet": "2df696debc8567d9468844384c259e2289d6d1d985d7cbe4c7930bd7bf85b722",
+    "docs/research/artifacts/sloan-fullpaper-league-changes-2026-11/e30_scored_league_changes.parquet": "03d5355dd4c8127b9130dc2c7bfd7c9d782e14cca7c1e9bc83ac2fc0a9dbfaa4",
+    "docs/research/artifacts/sloan-fullpaper-league-changes-2026-11/e30_stayer_pairs.parquet": "afdda9226c671e9ef774297097ad5507ed83a72d4d06d4a98cdc26f8fb0997b6",
+    "docs/research/artifacts/sloan-fullpaper-league-changes-2026-11/e30_summary.json": "f1df4c23899c959fc7458caff0e5f2ec8ae071517b29be491a41383f946319dc",
+    "docs/research/sloan-full-paper-preregistration-amendment-22-2026-11-19.md": "4c234e20a8bf88dee7098ff3fe095de262d25a946413f4ff88fc0a908dad0ad0"
+  },
+  "inputs": 5,
+  "outputs": {
+    "out/e33_gates.json": "99d0582320af61971de030ecdc338896cf80c8e3e7b837a06e1bc2be8163936c",
+    "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.log": "cef3c0333819399d03e54e6bb7729cac19cbcbce170a9e0a90a5d02fd3a1691e"
+  },
+  "returncode": 0,
+  "run_dir": "league-changes-chrono-gates-01",
+  "selections": [
+    "docs/research/sloan-full-paper-preregistration-amendment-22-2026-11-19.md",
+    "docs/research/artifacts/sloan-fullpaper-league-changes-2026-11/e30_frozen_league_changes.parquet",
+    "docs/research/artifacts/sloan-fullpaper-league-changes-2026-11/e30_stayer_pairs.parquet",
+    "docs/research/artifacts/sloan-fullpaper-league-changes-2026-11/e30_scored_league_changes.parquet",
+    "docs/research/artifacts/sloan-fullpaper-league-changes-2026-11/e30_summary.json"
+  ],
+  "snapshot": "b0c03448c3afe3d574ed3778c6ec7fffa4cdd93b552e13c805abf7c982a07d7e",
+  "source_seasons": [],
+  "status": "complete"
+}

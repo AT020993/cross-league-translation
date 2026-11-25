@@ -1,0 +1,90 @@
+{
+  "amendment_commit": "f1a3453dae4ed77b069ad8c12f963eb3e32d27ee",
+  "amendment_sha256": "5e6554dfe2861c0be55a65deef6f9ea3cca95b9bd35fb6c27c4a5dd8d4c42776",
+  "analysis": "E14 survivorship and playing time (Amendment 1), EXPLORATORY",
+  "g0": {
+    "max_difference": 1.3322676295501878e-15,
+    "negative_control": "rejected as required",
+    "status": "passed"
+  },
+  "g14": {
+    "differences": {
+      "anchor_keys": 674,
+      "extra_keys": 0,
+      "matched": 673,
+      "max_abs_difference_pir_per36_dest": 0.0,
+      "missing_anchor_keys": 1,
+      "rows_at_least_8_games": 673
+    },
+    "error": "G14 failed: {'rows_at_least_8_games': 673, 'anchor_keys': 674, 'missing_anchor_keys': 1, 'extra_keys': 0, 'matched': 673, 'max_abs_difference_pir_per36_dest': 0.0} (tolerance 1e-09)",
+    "ledger_floor_8_equals_reconstruct_cohort": true,
+    "missing": [
+      {
+        "continental_stints": [
+          "eurocup: 4 games, 113.5 minutes",
+          "euroleague: 11 games, 82.6 minutes"
+        ],
+        "floor1_games_dest": 4,
+        "floor1_league_dest": "eurocup",
+        "floor1_minutes_dest": 113.53333333333333,
+        "player_name": "BRANDON TAYLOR",
+        "season_dest": 2025,
+        "v10_games_dest": 11,
+        "v10_league_dest": "euroleague",
+        "v10_minutes_dest": 82.6
+      }
+    ],
+    "negative_control": "rejected as required",
+    "negative_control_floor_9": {
+      "anchor_keys": 674,
+      "extra_keys": 0,
+      "matched": 646,
+      "max_abs_difference_pir_per36_dest": 0.0,
+      "missing_anchor_keys": 28,
+      "rows_at_least_8_games": 646
+    },
+    "status": "failed",
+    "tolerance": 1e-09
+  },
+  "protocol_commit": "f52e7c831fef6759eab202c8ff8c56fa76037533",
+  "rebuild": {
+    "aggregate_rows": 37725,
+    "canonical_games": 626416,
+    "frozen_api_files": 20,
+    "frozen_raw_files": 155,
+    "identity_excluded": 82,
+    "raw_rows": 691645,
+    "seasons": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  "rules": {
+    "all_arrivals_destination_floor": ">= 1 appearance with positive minutes",
+    "incumbency": "a previous-season continental stint with >= 8 games",
+    "other_rules": "v10 original_eligible: consecutive domestic source, Poland excluded, positive source and destination EFF/36",
+    "source_floor": 8,
+    "training_rows": "v10 cohort only (factors, lag and regressions); new rows are scored only",
+    "v10_destination_floor": 8,
+    "weights": "destination minutes",
+    "wide_population": ">= 3 games and >= 60 minutes"
+  },
+  "seasons": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "stopped": "G14 failed: E14a, E14b and E14c were not run (registered gate; no workaround). No statistic of the arrivals with fewer than 8 continental games was computed."
+}

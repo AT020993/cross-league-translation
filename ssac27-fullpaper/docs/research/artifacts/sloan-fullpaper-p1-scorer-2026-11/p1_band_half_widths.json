@@ -1,0 +1,13 @@
+{
+  "analysis": "P1 band half-widths (Amendment 8)",
+  "arm": "source_ridge_10",
+  "definition": "split-conformal quantile, ceil((n+1) x level) of n, of the absolute walk-forward errors of the league-aware forecast on the 674 arrivals of 2020-2025",
+  "half_width_eff36": {
+    "80": 4.661600507713308,
+    "95": 7.253358554605304
+  },
+  "n": 674,
+  "source": "docs/research/artifacts/sloan-fullpaper-public-tables-2026-11/e7_keyed_forecasts.csv",
+  "source_sha256": "83589795f00df04cdb272155697f6f9d55c8f7604e49ae3bc45e0e1aac04b8f6",
+  "use": "added to and subtracted from the league-aware frozen forecast of a 2026-27 newcomer; read at the February re-score, descriptive in November"
+}

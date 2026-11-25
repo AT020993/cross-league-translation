@@ -1,0 +1,21 @@
+{
+  "analysis": "Amendment 14, E30: the leaves the paper renderer reads, copied from e30_summary.json",
+  "case": "clear",
+  "case_name": "Clear",
+  "ci_high": 0.8438927123269487,
+  "ci_low": 0.691996509685343,
+  "frozen_sha256": "2df696debc8567d9468844384c259e2289d6d1d985d7cbe4c7930bd7bf85b722",
+  "limit_league": [],
+  "limit_league_below_zero": [],
+  "limit_league_includes_zero": [],
+  "limits": [],
+  "n_moves": 3423,
+  "n_players": 1649,
+  "perm_p": 0.0001,
+  "sentence": "The league table, fitted only on first continental seasons, predicted what happened to 1,649 players who changed domestic league: slope 0.77 (95% interval 0.69 to 0.84), where 1 would mean the table's size is exactly right.",
+  "size_reading": "about 0.77 of the size the table implies",
+  "slope": 0.769502200701338,
+  "source": "e30_summary.json",
+  "source_sha256": "f1df4c23899c959fc7458caff0e5f2ec8ae071517b29be491a41383f946319dc",
+  "to_amir_before_writing": false
+}

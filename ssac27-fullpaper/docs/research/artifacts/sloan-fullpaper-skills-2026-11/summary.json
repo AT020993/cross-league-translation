@@ -1,0 +1,550 @@
+{
+  "amendment": "docs/research/sloan-full-paper-preregistration-amendment-1-2026-11-04.md",
+  "amendment_commit": "f1a3453dae4ed77b069ad8c12f963eb3e32d27ee",
+  "amendment_sha256": "5e6554dfe2861c0be55a65deef6f9ea3cca95b9bd35fb6c27c4a5dd8d4c42776",
+  "analysis": "E15 which skills travel",
+  "attempt_floor": 20,
+  "box_scores": {
+    "max_total_difference": 5.684341886080802e-14,
+    "player_games": 12008,
+    "reconciled": 674,
+    "reconciliation_negative_control": "every target flagged as required",
+    "status": "passed",
+    "targets": 674,
+    "tolerance": 1e-09,
+    "totals_negative_control": "rejected as required"
+  },
+  "components": {
+    "ast": {
+      "family": "primary",
+      "label": "assists"
+    },
+    "blk": {
+      "family": "primary",
+      "label": "blocks"
+    },
+    "dreb": {
+      "family": "primary",
+      "label": "defensive rebounds"
+    },
+    "fg3_pct": {
+      "family": "secondary",
+      "label": "3-point percentage"
+    },
+    "fg3a": {
+      "family": "primary",
+      "label": "3-point attempts"
+    },
+    "ft_pct": {
+      "family": "secondary",
+      "label": "free-throw percentage"
+    },
+    "fta": {
+      "family": "primary",
+      "label": "free-throw attempts"
+    },
+    "oreb": {
+      "family": "primary",
+      "label": "offensive rebounds"
+    },
+    "pts": {
+      "family": "primary",
+      "label": "points"
+    },
+    "stl": {
+      "family": "primary",
+      "label": "steals"
+    },
+    "tov": {
+      "family": "primary",
+      "label": "turnovers"
+    }
+  },
+  "corpus_rebuild": {
+    "aggregate_rows": 37725,
+    "canonical_games": 626416,
+    "frozen_api_files": 20,
+    "frozen_raw_files": 155,
+    "identity_excluded": 82,
+    "raw_rows": 691645,
+    "seasons": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  "e15a": {
+    "licences": [
+      {
+        "families": "primary/primary",
+        "higher": "oreb",
+        "higher_ci_low": 1.0643973648601752,
+        "lower": "pts",
+        "lower_ci_high": 0.9327428036984226,
+        "sentence": "the same player keeps more of his offensive rebounds than his points when he faces continental opponents"
+      },
+      {
+        "families": "primary/primary",
+        "higher": "oreb",
+        "higher_ci_low": 1.0643973648601752,
+        "lower": "dreb",
+        "lower_ci_high": 1.0084068632844148,
+        "sentence": "the same player keeps more of his offensive rebounds than his defensive rebounds when he faces continental opponents"
+      },
+      {
+        "families": "primary/primary",
+        "higher": "oreb",
+        "higher_ci_low": 1.0643973648601752,
+        "lower": "ast",
+        "lower_ci_high": 0.9441994941396497,
+        "sentence": "the same player keeps more of his offensive rebounds than his assists when he faces continental opponents"
+      },
+      {
+        "families": "primary/primary",
+        "higher": "oreb",
+        "higher_ci_low": 1.0643973648601752,
+        "lower": "stl",
+        "lower_ci_high": 1.0188239609820051,
+        "sentence": "the same player keeps more of his offensive rebounds than his steals when he faces continental opponents"
+      },
+      {
+        "families": "primary/primary",
+        "higher": "oreb",
+        "higher_ci_low": 1.0643973648601752,
+        "lower": "blk",
+        "lower_ci_high": 1.0290156780252044,
+        "sentence": "the same player keeps more of his offensive rebounds than his blocks when he faces continental opponents"
+      },
+      {
+        "families": "primary/primary",
+        "higher": "oreb",
+        "higher_ci_low": 1.0643973648601752,
+        "lower": "tov",
+        "lower_ci_high": 1.0548204295382484,
+        "sentence": "the same player keeps more of his offensive rebounds than his turnovers when he faces continental opponents"
+      },
+      {
+        "families": "primary/primary",
+        "higher": "oreb",
+        "higher_ci_low": 1.0643973648601752,
+        "lower": "fg3a",
+        "lower_ci_high": 0.9662338397576588,
+        "sentence": "the same player keeps more of his offensive rebounds than his 3-point attempts when he faces continental opponents"
+      },
+      {
+        "families": "primary/primary",
+        "higher": "oreb",
+        "higher_ci_low": 1.0643973648601752,
+        "lower": "fta",
+        "lower_ci_high": 0.9526613281045347,
+        "sentence": "the same player keeps more of his offensive rebounds than his free-throw attempts when he faces continental opponents"
+      },
+      {
+        "families": "primary/secondary",
+        "higher": "oreb",
+        "higher_ci_low": 1.0643973648601752,
+        "lower": "fg3_pct",
+        "lower_ci_high": 1.0040654343914108,
+        "sentence": "the same player keeps more of his offensive rebounds than his 3-point percentage when he faces continental opponents"
+      },
+      {
+        "families": "primary/secondary",
+        "higher": "oreb",
+        "higher_ci_low": 1.0643973648601752,
+        "lower": "ft_pct",
+        "lower_ci_high": 1.0111219380985972,
+        "sentence": "the same player keeps more of his offensive rebounds than his free-throw percentage when he faces continental opponents"
+      },
+      {
+        "families": "primary/primary",
+        "higher": "dreb",
+        "higher_ci_low": 0.9667722102789366,
+        "lower": "pts",
+        "lower_ci_high": 0.9327428036984226,
+        "sentence": "the same player keeps more of his defensive rebounds than his points when he faces continental opponents"
+      },
+      {
+        "families": "primary/primary",
+        "higher": "dreb",
+        "higher_ci_low": 0.9667722102789366,
+        "lower": "ast",
+        "lower_ci_high": 0.9441994941396497,
+        "sentence": "the same player keeps more of his defensive rebounds than his assists when he faces continental opponents"
+      },
+      {
+        "families": "primary/primary",
+        "higher": "dreb",
+        "higher_ci_low": 0.9667722102789366,
+        "lower": "fg3a",
+        "lower_ci_high": 0.9662338397576588,
+        "sentence": "the same player keeps more of his defensive rebounds than his 3-point attempts when he faces continental opponents"
+      },
+      {
+        "families": "primary/primary",
+        "higher": "dreb",
+        "higher_ci_low": 0.9667722102789366,
+        "lower": "fta",
+        "lower_ci_high": 0.9526613281045347,
+        "sentence": "the same player keeps more of his defensive rebounds than his free-throw attempts when he faces continental opponents"
+      },
+      {
+        "families": "primary/primary",
+        "higher": "stl",
+        "higher_ci_low": 0.9867052943439929,
+        "lower": "pts",
+        "lower_ci_high": 0.9327428036984226,
+        "sentence": "the same player keeps more of his steals than his points when he faces continental opponents"
+      },
+      {
+        "families": "primary/primary",
+        "higher": "stl",
+        "higher_ci_low": 0.9867052943439929,
+        "lower": "ast",
+        "lower_ci_high": 0.9441994941396497,
+        "sentence": "the same player keeps more of his steals than his assists when he faces continental opponents"
+      },
+      {
+        "families": "primary/primary",
+        "higher": "stl",
+        "higher_ci_low": 0.9867052943439929,
+        "lower": "fg3a",
+        "lower_ci_high": 0.9662338397576588,
+        "sentence": "the same player keeps more of his steals than his 3-point attempts when he faces continental opponents"
+      },
+      {
+        "families": "primary/primary",
+        "higher": "stl",
+        "higher_ci_low": 0.9867052943439929,
+        "lower": "fta",
+        "lower_ci_high": 0.9526613281045347,
+        "sentence": "the same player keeps more of his steals than his free-throw attempts when he faces continental opponents"
+      },
+      {
+        "families": "primary/primary",
+        "higher": "blk",
+        "higher_ci_low": 0.9623081720909977,
+        "lower": "pts",
+        "lower_ci_high": 0.9327428036984226,
+        "sentence": "the same player keeps more of his blocks than his points when he faces continental opponents"
+      },
+      {
+        "families": "primary/primary",
+        "higher": "blk",
+        "higher_ci_low": 0.9623081720909977,
+        "lower": "ast",
+        "lower_ci_high": 0.9441994941396497,
+        "sentence": "the same player keeps more of his blocks than his assists when he faces continental opponents"
+      },
+      {
+        "families": "primary/primary",
+        "higher": "blk",
+        "higher_ci_low": 0.9623081720909977,
+        "lower": "fta",
+        "lower_ci_high": 0.9526613281045347,
+        "sentence": "the same player keeps more of his blocks than his free-throw attempts when he faces continental opponents"
+      },
+      {
+        "families": "primary/primary",
+        "higher": "tov",
+        "higher_ci_low": 1.0310854572000598,
+        "lower": "pts",
+        "lower_ci_high": 0.9327428036984226,
+        "sentence": "the same player keeps more of his turnovers than his points when he faces continental opponents"
+      },
+      {
+        "families": "primary/primary",
+        "higher": "tov",
+        "higher_ci_low": 1.0310854572000598,
+        "lower": "dreb",
+        "lower_ci_high": 1.0084068632844148,
+        "sentence": "the same player keeps more of his turnovers than his defensive rebounds when he faces continental opponents"
+      },
+      {
+        "families": "primary/primary",
+        "higher": "tov",
+        "higher_ci_low": 1.0310854572000598,
+        "lower": "ast",
+        "lower_ci_high": 0.9441994941396497,
+        "sentence": "the same player keeps more of his turnovers than his assists when he faces continental opponents"
+      },
+      {
+        "families": "primary/primary",
+        "higher": "tov",
+        "higher_ci_low": 1.0310854572000598,
+        "lower": "stl",
+        "lower_ci_high": 1.0188239609820051,
+        "sentence": "the same player keeps more of his turnovers than his steals when he faces continental opponents"
+      },
+      {
+        "families": "primary/primary",
+        "higher": "tov",
+        "higher_ci_low": 1.0310854572000598,
+        "lower": "blk",
+        "lower_ci_high": 1.0290156780252044,
+        "sentence": "the same player keeps more of his turnovers than his blocks when he faces continental opponents"
+      },
+      {
+        "families": "primary/primary",
+        "higher": "tov",
+        "higher_ci_low": 1.0310854572000598,
+        "lower": "fg3a",
+        "lower_ci_high": 0.9662338397576588,
+        "sentence": "the same player keeps more of his turnovers than his 3-point attempts when he faces continental opponents"
+      },
+      {
+        "families": "primary/primary",
+        "higher": "tov",
+        "higher_ci_low": 1.0310854572000598,
+        "lower": "fta",
+        "lower_ci_high": 0.9526613281045347,
+        "sentence": "the same player keeps more of his turnovers than his free-throw attempts when he faces continental opponents"
+      },
+      {
+        "families": "primary/secondary",
+        "higher": "tov",
+        "higher_ci_low": 1.0310854572000598,
+        "lower": "fg3_pct",
+        "lower_ci_high": 1.0040654343914108,
+        "sentence": "the same player keeps more of his turnovers than his 3-point percentage when he faces continental opponents"
+      },
+      {
+        "families": "primary/secondary",
+        "higher": "tov",
+        "higher_ci_low": 1.0310854572000598,
+        "lower": "ft_pct",
+        "lower_ci_high": 1.0111219380985972,
+        "sentence": "the same player keeps more of his turnovers than his free-throw percentage when he faces continental opponents"
+      },
+      {
+        "families": "primary/primary",
+        "higher": "fg3a",
+        "higher_ci_low": 0.9364348388815777,
+        "lower": "pts",
+        "lower_ci_high": 0.9327428036984226,
+        "sentence": "the same player keeps more of his 3-point attempts than his points when he faces continental opponents"
+      },
+      {
+        "families": "secondary/primary",
+        "higher": "fg3_pct",
+        "higher_ci_low": 0.9865230699451576,
+        "lower": "pts",
+        "lower_ci_high": 0.9327428036984226,
+        "sentence": "the same player keeps more of his 3-point percentage than his points when he faces continental opponents"
+      },
+      {
+        "families": "secondary/primary",
+        "higher": "fg3_pct",
+        "higher_ci_low": 0.9865230699451576,
+        "lower": "ast",
+        "lower_ci_high": 0.9441994941396497,
+        "sentence": "the same player keeps more of his 3-point percentage than his assists when he faces continental opponents"
+      },
+      {
+        "families": "secondary/primary",
+        "higher": "fg3_pct",
+        "higher_ci_low": 0.9865230699451576,
+        "lower": "fg3a",
+        "lower_ci_high": 0.9662338397576588,
+        "sentence": "the same player keeps more of his 3-point percentage than his 3-point attempts when he faces continental opponents"
+      },
+      {
+        "families": "secondary/primary",
+        "higher": "fg3_pct",
+        "higher_ci_low": 0.9865230699451576,
+        "lower": "fta",
+        "lower_ci_high": 0.9526613281045347,
+        "sentence": "the same player keeps more of his 3-point percentage than his free-throw attempts when he faces continental opponents"
+      },
+      {
+        "families": "secondary/primary",
+        "higher": "ft_pct",
+        "higher_ci_low": 1.0020435163231283,
+        "lower": "pts",
+        "lower_ci_high": 0.9327428036984226,
+        "sentence": "the same player keeps more of his free-throw percentage than his points when he faces continental opponents"
+      },
+      {
+        "families": "secondary/primary",
+        "higher": "ft_pct",
+        "higher_ci_low": 1.0020435163231283,
+        "lower": "ast",
+        "lower_ci_high": 0.9441994941396497,
+        "sentence": "the same player keeps more of his free-throw percentage than his assists when he faces continental opponents"
+      },
+      {
+        "families": "secondary/primary",
+        "higher": "ft_pct",
+        "higher_ci_low": 1.0020435163231283,
+        "lower": "fg3a",
+        "lower_ci_high": 0.9662338397576588,
+        "sentence": "the same player keeps more of his free-throw percentage than his 3-point attempts when he faces continental opponents"
+      },
+      {
+        "families": "secondary/primary",
+        "higher": "ft_pct",
+        "higher_ci_low": 1.0020435163231283,
+        "lower": "fta",
+        "lower_ci_high": 0.9526613281045347,
+        "sentence": "the same player keeps more of his free-throw percentage than his free-throw attempts when he faces continental opponents"
+      }
+    ],
+    "pairs": 4074,
+    "pairs_by_destination": {
+      "eurocup": 1947,
+      "euroleague": 2127
+    },
+    "pairs_by_source_league": {
+      "aba-league": 472,
+      "france-pro-a": 378,
+      "germany-bbl": 441,
+      "greece-a1": 266,
+      "israel-bsl": 190,
+      "italy-lba": 439,
+      "lithuania-lkl": 267,
+      "spain-acb": 813,
+      "turkey-bsl": 494,
+      "vtb": 314
+    },
+    "players": 1538,
+    "source_leagues_below_floor": []
+  },
+  "e15b": {
+    "bootstrap": {
+      "club_seasons": 201,
+      "n_boot": 2000,
+      "seed": 0
+    },
+    "history_missing": {
+      "ast": 92,
+      "blk": 92,
+      "dreb": 92,
+      "fg3_pct": 117,
+      "fg3a": 92,
+      "ft_pct": 102,
+      "fta": 92,
+      "oreb": 92,
+      "pts": 92,
+      "stl": 92,
+      "tov": 92
+    },
+    "licences": [
+      {
+        "ci_low": 0.5954458090036157,
+        "component": "pts",
+        "earned": false,
+        "highest_other_point": 0.8906592639670022,
+        "sentence": null
+      },
+      {
+        "ci_low": 0.8426092978701216,
+        "component": "oreb",
+        "earned": false,
+        "highest_other_point": 0.8906592639670022,
+        "sentence": null
+      },
+      {
+        "ci_low": 0.7740113699897841,
+        "component": "dreb",
+        "earned": false,
+        "highest_other_point": 0.8906592639670022,
+        "sentence": null
+      },
+      {
+        "ci_low": 0.8158916621822313,
+        "component": "ast",
+        "earned": false,
+        "highest_other_point": 0.8906592639670022,
+        "sentence": null
+      },
+      {
+        "ci_low": 0.4396884041057333,
+        "component": "stl",
+        "earned": false,
+        "highest_other_point": 0.8906592639670022,
+        "sentence": null
+      },
+      {
+        "ci_low": 0.7862699512439717,
+        "component": "blk",
+        "earned": false,
+        "highest_other_point": 0.8906592639670022,
+        "sentence": null
+      },
+      {
+        "ci_low": 0.618373025857126,
+        "component": "tov",
+        "earned": false,
+        "highest_other_point": 0.8906592639670022,
+        "sentence": null
+      },
+      {
+        "ci_low": 0.868784063962054,
+        "component": "fg3a",
+        "earned": false,
+        "highest_other_point": 0.886600913066965,
+        "sentence": null
+      },
+      {
+        "ci_low": 0.6184985711082147,
+        "component": "fta",
+        "earned": false,
+        "highest_other_point": 0.8906592639670022,
+        "sentence": null
+      },
+      {
+        "ci_low": 0.3610117881926964,
+        "component": "fg3_pct",
+        "earned": false,
+        "highest_other_point": 0.8906592639670022,
+        "sentence": null
+      },
+      {
+        "ci_low": 0.6711984789050329,
+        "component": "ft_pct",
+        "earned": false,
+        "highest_other_point": 0.8906592639670022,
+        "sentence": null
+      }
+    ],
+    "rule": "E15b is descriptive. No single component is called \"the\" skill that travels unless its disattenuated correlation interval is above every other component's point estimate.",
+    "targets": 674
+  },
+  "e6_reproduction": {
+    "max_difference": 0.0,
+    "negative_control": "rejected as required",
+    "status": "passed",
+    "tolerance": 1e-12
+  },
+  "exploratory": true,
+  "g15a": {
+    "cells": 20,
+    "max_difference": 7.771561172376096e-16,
+    "negative_control": "rejected as required",
+    "status": "passed",
+    "tolerance": 1e-12
+  },
+  "g3": {
+    "max_abs_difference": 0.0,
+    "nan_pattern_mismatches": 0,
+    "nan_rows": 476,
+    "negative_control": "rejected as required",
+    "rows": 1371,
+    "status": "passed",
+    "tolerance": 1e-09
+  },
+  "inputs": {
+    "cohort_sha256": "c629f43e3194642d483701c3d07666252938d587e747c99dbb031a2346bf2abf",
+    "pairs_sha256": "d964727924630dbf32c1764daf1e536c81d58988218a230fea591c62c1a62f58"
+  },
+  "n_boot": 2000,
+  "seed": 0,
+  "source_league_floor": 75
+}

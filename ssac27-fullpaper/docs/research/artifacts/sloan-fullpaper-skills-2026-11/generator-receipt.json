@@ -1,0 +1,30 @@
+{
+ "code_files": 2509,
+ "entrypoint": "scripts/sloan_fullpaper_skills.py",
+ "generator_sha256": "8ec2aca0f90db08d6751b960751beaf5780e072fa5bc0cdc0187754b76e42b1e",
+ "inputs": 520,
+ "outputs": {
+  "out/e15a_licences.csv": "248d77d70c088e2e9cc94902e20ad88fb8f2988098f7df32f1c2ffd02467c603",
+  "out/e15a_retention.csv": "4bc9cbe849e6f0e815eca8586ef72f0452c0f0395856e1c85e4c97c0c504a918",
+  "out/e15b_carryover.csv": "bbbd6913270b79ee540de8e01334bbca5d29592194764447ef89ed6c465aa849",
+  "out/e15b_source_offsets.csv": "dd601216517314c77aa0feae1caa96549310e4465ad85eec8968f7555219129f",
+  "out/skills_travel_figure.csv": "b78881a71fb79b13a733b05b67360b7eb55c4cc4ec981c5ac2d2749ca24114f9",
+  "out/summary.json": "7ccf69ba4ce5ece7550e7ef96438f606b20c97d559a43c767d9dd5e3a4ecf724"
+ },
+ "returncode": 0,
+ "run_dir": "research-runs/sloan-fullpaper/skills-01",
+ "source_seasons": [
+  2015,
+  2016,
+  2017,
+  2018,
+  2019,
+  2020,
+  2021,
+  2022,
+  2023,
+  2024,
+  2025
+ ],
+ "status": "complete"
+}

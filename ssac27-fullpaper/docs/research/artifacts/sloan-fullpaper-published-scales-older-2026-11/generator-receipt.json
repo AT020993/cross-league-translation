@@ -1,0 +1,60 @@
+{
+  "arguments": [
+    "--input-dir",
+    "<research-source>/data/processed/sloan_v10_public",
+    "--out",
+    "<research-run>/out"
+  ],
+  "code_files": 2608,
+  "entrypoint": "scripts/sloan_fullpaper_published_scales_older.py",
+  "generator_commit": "d6dd187a7cfe80b57a3d31ab580a70fb2b7fc6a2",
+  "generator_sha256": "5f49a17053d9c74c364aa724e889aa390d6a6566111f642fd274ab9fd140cff3",
+  "input_sha256": {
+    "data/processed/sloan_v10_public/official_corrected/cohort.parquet": "c629f43e3194642d483701c3d07666252938d587e747c99dbb031a2346bf2abf",
+    "data/processed/sloan_v10_public/official_corrected/pairs.parquet": "d964727924630dbf32c1764daf1e536c81d58988218a230fea591c62c1a62f58",
+    "docs/research/artifacts/sloan-fullpaper-amend1-decisions-2026-11/exchange_rate_acb16.csv": "c8341a37947adcad882f90c9747ea6fee274723b367a0948bbfc50462fead2ca",
+    "docs/research/artifacts/sloan-fullpaper-amend9-2026-11/summary.json": "da97930085208070b8ce8e24ba4a813d8c5225690992bd240f8189d5751a0b22",
+    "docs/research/artifacts/sloan-fullpaper-older-seasons-2026-11/e27_arrivals.csv": "7356ba0bd35945ea8fb8a152d2d167c5dc1eb4d0f7849a08f627cf172ae3a800",
+    "docs/research/artifacts/sloan-fullpaper-older-seasons-paper-2026-11/e27_arrivals_printed.csv": "2b4bba1be27d5c66f4e632c39cc01d05dfeb6af8aedcf38473751948648f0936",
+    "docs/research/artifacts/sloan-fullpaper-p1-freeze-2026-11/e31c_freeze.json": "a19589ecdf1ba1818d135b8eb87133992003ad7e31dd0cba1668937966750a82",
+    "docs/research/artifacts/sloan-fullpaper-published-scales-older-2026-11/gaussianhoops_2026_league_strength.json": "a0ca926d7f96cf06e2febeef0329eff167d96fb5493a64c29bf2ea33d15c3fb3",
+    "docs/research/artifacts/sloan-fullpaper-published-tables-2026-11/vashro_2015_competition_scores.csv": "2c004c88d10c60f68dabb038330a9f8d282ba87f56b521cb6a87c59a26252d04",
+    "docs/research/sloan-full-paper-preregistration-amendment-23-2026-11-22.md": "8a440ef497d44aeb094f5c439f104ff753084a47576b1428bc881960bd4c1ad7"
+  },
+  "inputs": 10,
+  "outputs": {
+    "out/e34_readings.csv": "eabcddc8fff064a621ca5e8112740e69a43c08eceb1b8eb8d3e208c259290448",
+    "out/summary.json": "99eb29cc3e2ee2871fa1b631bdd18a5d5c5138db8be2c92ada5374b2e8859097",
+    "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.log": "6d97f62ca69bd47b9b0849af5100e157dfba07cfb5aa996a9f5852e473f16277"
+  },
+  "returncode": 0,
+  "run_dir": "e34-published-scales-01",
+  "run_started_utc": "2026-11-25T11:37:42Z",
+  "selections": [
+    "data/processed/sloan_v10_public/official_corrected",
+    "docs/research/sloan-full-paper-preregistration-amendment-23-2026-11-22.md",
+    "docs/research/artifacts/sloan-fullpaper-older-seasons-2026-11/e27_arrivals.csv",
+    "docs/research/artifacts/sloan-fullpaper-older-seasons-paper-2026-11/e27_arrivals_printed.csv",
+    "docs/research/artifacts/sloan-fullpaper-p1-freeze-2026-11/e31c_freeze.json",
+    "docs/research/artifacts/sloan-fullpaper-published-tables-2026-11/vashro_2015_competition_scores.csv",
+    "docs/research/artifacts/sloan-fullpaper-amend9-2026-11/summary.json",
+    "docs/research/artifacts/sloan-fullpaper-amend1-decisions-2026-11/exchange_rate_acb16.csv",
+    "docs/research/artifacts/sloan-fullpaper-published-scales-older-2026-11/gaussianhoops_2026_league_strength.json"
+  ],
+  "snapshot": "cdc8c196489dc20f42a001c4d747044c574feed7a5787664b58ff28a7d208ef2",
+  "source_seasons": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "status": "complete"
+}

@@ -1,0 +1,28 @@
+{
+  "code_files": 2475,
+  "entrypoint": "scripts/sloan_fullpaper_robustness.py",
+  "generator_sha256": "1d14228bf010b736f5ff82e3310f703aed12c33301a67a30668456780fa25864",
+  "inputs": 521,
+  "outputs": {
+    "out/e6_reconciliation_exceptions.csv": "9dcb40de3328f843bda6e63a0a950fd3487235d708ed3ee45e2ac4446c84fc0f",
+    "out/e6_split_half_players.csv": "e2e48b84ce60c218d155c9dea55543e914d9fb84b8c499d2258d48e5e33e038a",
+    "out/headline_contrasts.csv": "b951a75cc902b15ea6218f1993caacea76ec9dd31451938473855e69b58a871e",
+    "out/summary.json": "ec2e2c10f44b801a1af099600841a73058872f9430b3aecfaf507a7fc32c91db"
+  },
+  "returncode": 0,
+  "run_dir": "research-runs/sloan-fullpaper/robustness-02",
+  "source_seasons": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "status": "complete"
+}

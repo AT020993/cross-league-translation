@@ -1,0 +1,141 @@
+fit,refit_season,training_forecasts,destination,source_league,training_arrivals_from_league,thin,acb16_equivalent_eff36
+refit for 2020,2020.0,385,euroleague,aba-league,31,False,17.113476299109013
+refit for 2020,2020.0,385,euroleague,france-pro-a,47,False,15.490072195981218
+refit for 2020,2020.0,385,euroleague,germany-bbl,48,False,18.233283372796457
+refit for 2020,2020.0,385,euroleague,greece-a1,15,False,16.560989744646236
+refit for 2020,2020.0,385,euroleague,israel-bsl,17,False,17.64468788363127
+refit for 2020,2020.0,385,euroleague,italy-lba,68,False,16.516601471813704
+refit for 2020,2020.0,385,euroleague,lithuania-lkl,14,False,18.622645284828202
+refit for 2020,2020.0,385,euroleague,spain-acb,57,False,16.0
+refit for 2020,2020.0,385,euroleague,turkey-bsl,65,False,17.109831278602407
+refit for 2020,2020.0,385,euroleague,vtb,23,False,17.63611780430153
+refit for 2020,2020.0,385,eurocup,aba-league,31,False,17.118988700339216
+refit for 2020,2020.0,385,eurocup,france-pro-a,47,False,15.487547735733221
+refit for 2020,2020.0,385,eurocup,germany-bbl,48,False,18.244339516534268
+refit for 2020,2020.0,385,eurocup,greece-a1,15,False,16.563766993305226
+refit for 2020,2020.0,385,eurocup,israel-bsl,17,False,17.652830113079965
+refit for 2020,2020.0,385,eurocup,italy-lba,68,False,16.519158970874106
+refit for 2020,2020.0,385,eurocup,lithuania-lkl,14,False,18.63562901255194
+refit for 2020,2020.0,385,eurocup,spain-acb,57,False,16.0
+refit for 2020,2020.0,385,eurocup,turkey-bsl,65,False,17.115325634710732
+refit for 2020,2020.0,385,eurocup,vtb,23,False,17.644217606519508
+refit for 2021,2021.0,519,euroleague,aba-league,52,False,18.20998518115631
+refit for 2021,2021.0,519,euroleague,france-pro-a,67,False,15.91356057032124
+refit for 2021,2021.0,519,euroleague,germany-bbl,56,False,18.429144123716497
+refit for 2021,2021.0,519,euroleague,greece-a1,20,False,16.818276909515944
+refit for 2021,2021.0,519,euroleague,israel-bsl,22,False,18.120863306616553
+refit for 2021,2021.0,519,euroleague,italy-lba,79,False,16.594412077180703
+refit for 2021,2021.0,519,euroleague,lithuania-lkl,23,False,18.064551616803463
+refit for 2021,2021.0,519,euroleague,spain-acb,77,False,16.0
+refit for 2021,2021.0,519,euroleague,turkey-bsl,87,False,17.100643703524415
+refit for 2021,2021.0,519,euroleague,vtb,36,False,18.63750459925112
+refit for 2021,2021.0,519,eurocup,aba-league,52,False,18.15341805887357
+refit for 2021,2021.0,519,eurocup,france-pro-a,67,False,15.915773087323789
+refit for 2021,2021.0,519,eurocup,germany-bbl,56,False,18.366967375265734
+refit for 2021,2021.0,519,eurocup,greece-a1,20,False,16.79733216726319
+refit for 2021,2021.0,519,eurocup,israel-bsl,22,False,18.06657736160964
+refit for 2021,2021.0,519,eurocup,italy-lba,79,False,16.57919741377802
+refit for 2021,2021.0,519,eurocup,lithuania-lkl,23,False,18.011707034512806
+refit for 2021,2021.0,519,eurocup,spain-acb,77,False,16.0
+refit for 2021,2021.0,519,eurocup,turkey-bsl,87,False,17.07247145716826
+refit for 2021,2021.0,519,eurocup,vtb,36,False,18.569994623863384
+refit for 2022,2022.0,620,euroleague,aba-league,58,False,18.673161977782605
+refit for 2022,2022.0,620,euroleague,france-pro-a,73,False,16.430282045557984
+refit for 2022,2022.0,620,euroleague,germany-bbl,75,False,18.714755600084352
+refit for 2022,2022.0,620,euroleague,greece-a1,24,False,17.025003162520825
+refit for 2022,2022.0,620,euroleague,israel-bsl,32,False,18.136580150395105
+refit for 2022,2022.0,620,euroleague,italy-lba,89,False,17.017811141254764
+refit for 2022,2022.0,620,euroleague,lithuania-lkl,30,False,18.27243916241147
+refit for 2022,2022.0,620,euroleague,spain-acb,94,False,16.0
+refit for 2022,2022.0,620,euroleague,turkey-bsl,108,False,17.6808100538454
+refit for 2022,2022.0,620,euroleague,vtb,37,False,19.105784208525115
+refit for 2022,2022.0,620,eurocup,aba-league,58,False,18.44261275935211
+refit for 2022,2022.0,620,eurocup,france-pro-a,73,False,16.393171990075917
+refit for 2022,2022.0,620,eurocup,germany-bbl,75,False,18.480619102920635
+refit for 2022,2022.0,620,eurocup,greece-a1,24,False,16.93660085844347
+refit for 2022,2022.0,620,eurocup,israel-bsl,32,False,17.952308906122692
+refit for 2022,2022.0,620,eurocup,italy-lba,89,False,16.93002911941081
+refit for 2022,2022.0,620,eurocup,lithuania-lkl,30,False,18.07645063751879
+refit for 2022,2022.0,620,eurocup,spain-acb,94,False,16.0
+refit for 2022,2022.0,620,eurocup,turkey-bsl,108,False,17.535847104549816
+refit for 2022,2022.0,620,eurocup,vtb,37,False,18.83792310327208
+refit for 2023,2023.0,726,euroleague,aba-league,68,False,18.775681294898167
+refit for 2023,2023.0,726,euroleague,france-pro-a,81,False,16.648403934068334
+refit for 2023,2023.0,726,euroleague,germany-bbl,91,False,19.35161916074696
+refit for 2023,2023.0,726,euroleague,greece-a1,27,False,17.43918658495753
+refit for 2023,2023.0,726,euroleague,israel-bsl,41,False,18.644168637165354
+refit for 2023,2023.0,726,euroleague,italy-lba,105,False,17.593268057478777
+refit for 2023,2023.0,726,euroleague,lithuania-lkl,34,False,19.007657778111405
+refit for 2023,2023.0,726,euroleague,spain-acb,118,False,16.0
+refit for 2023,2023.0,726,euroleague,turkey-bsl,123,False,18.162969679589196
+refit for 2023,2023.0,726,euroleague,vtb,38,False,19.72209227155087
+refit for 2023,2023.0,726,eurocup,aba-league,68,False,18.387884785534933
+refit for 2023,2023.0,726,eurocup,france-pro-a,81,False,16.557814001156633
+refit for 2023,2023.0,726,eurocup,germany-bbl,91,False,18.883357111483022
+refit for 2023,2023.0,726,eurocup,greece-a1,27,False,17.238114676956148
+refit for 2023,2023.0,726,eurocup,israel-bsl,41,False,18.27474604908033
+refit for 2023,2023.0,726,eurocup,italy-lba,105,False,17.3706690896845
+refit for 2023,2023.0,726,eurocup,lithuania-lkl,34,False,18.587451326508116
+refit for 2023,2023.0,726,eurocup,spain-acb,118,False,16.0
+refit for 2023,2023.0,726,eurocup,turkey-bsl,123,False,17.860776451157335
+refit for 2023,2023.0,726,eurocup,vtb,38,False,19.202070613052697
+refit for 2024,2024.0,828,euroleague,aba-league,77,False,18.9913135927876
+refit for 2024,2024.0,828,euroleague,france-pro-a,92,False,16.50328145538647
+refit for 2024,2024.0,828,euroleague,germany-bbl,105,False,19.63781142774676
+refit for 2024,2024.0,828,euroleague,greece-a1,29,False,17.68950193259352
+refit for 2024,2024.0,828,euroleague,israel-bsl,47,False,18.791545626331292
+refit for 2024,2024.0,828,euroleague,italy-lba,116,False,17.458126858853326
+refit for 2024,2024.0,828,euroleague,lithuania-lkl,45,False,19.729159647751032
+refit for 2024,2024.0,828,euroleague,spain-acb,132,False,16.0
+refit for 2024,2024.0,828,euroleague,turkey-bsl,143,False,18.410984504911188
+refit for 2024,2024.0,828,euroleague,vtb,42,False,19.811813013781226
+refit for 2024,2024.0,828,eurocup,aba-league,77,False,18.467420713391753
+refit for 2024,2024.0,828,eurocup,france-pro-a,92,False,16.41513771430741
+refit for 2024,2024.0,828,eurocup,germany-bbl,105,False,19.00069216744035
+refit for 2024,2024.0,828,eurocup,greece-a1,29,False,17.39360583051135
+refit for 2024,2024.0,828,eurocup,israel-bsl,47,False,18.302639722359952
+refit for 2024,2024.0,828,eurocup,italy-lba,116,False,17.20275333985788
+refit for 2024,2024.0,828,eurocup,lithuania-lkl,45,False,19.076041836800812
+refit for 2024,2024.0,828,eurocup,spain-acb,132,False,16.0
+refit for 2024,2024.0,828,eurocup,turkey-bsl,143,False,17.988729339988943
+refit for 2024,2024.0,828,eurocup,vtb,42,False,19.144219452102057
+refit for 2025,2025.0,932,euroleague,aba-league,85,False,19.03275403442968
+refit for 2025,2025.0,932,euroleague,france-pro-a,102,False,16.526608976306136
+refit for 2025,2025.0,932,euroleague,germany-bbl,122,False,19.374032326701624
+refit for 2025,2025.0,932,euroleague,greece-a1,34,False,17.599509147668616
+refit for 2025,2025.0,932,euroleague,israel-bsl,61,False,18.48284150430758
+refit for 2025,2025.0,932,euroleague,italy-lba,130,False,17.11040238967279
+refit for 2025,2025.0,932,euroleague,lithuania-lkl,47,False,19.47136126588817
+refit for 2025,2025.0,932,euroleague,spain-acb,148,False,16.0
+refit for 2025,2025.0,932,euroleague,turkey-bsl,159,False,18.318648841268953
+refit for 2025,2025.0,932,euroleague,vtb,44,False,19.683358425274555
+refit for 2025,2025.0,932,eurocup,aba-league,85,False,18.59301391398397
+refit for 2025,2025.0,932,eurocup,france-pro-a,102,False,16.450252274760373
+refit for 2025,2025.0,932,eurocup,germany-bbl,122,False,18.88480789079695
+refit for 2025,2025.0,932,eurocup,greece-a1,34,False,17.367585181113878
+refit for 2025,2025.0,932,eurocup,israel-bsl,61,False,18.122837029906762
+refit for 2025,2025.0,932,eurocup,italy-lba,130,False,16.949397416953417
+refit for 2025,2025.0,932,eurocup,lithuania-lkl,47,False,18.968024429520135
+refit for 2025,2025.0,932,eurocup,spain-acb,148,False,16.0
+refit for 2025,2025.0,932,eurocup,turkey-bsl,159,False,17.982451804135128
+refit for 2025,2025.0,932,eurocup,vtb,44,False,19.14928264491555
+full fit through 2025,,1059,euroleague,aba-league,101,False,18.58446894240451
+full fit through 2025,,1059,euroleague,france-pro-a,117,False,16.123087415062543
+full fit through 2025,,1059,euroleague,germany-bbl,135,False,19.067075588447903
+full fit through 2025,,1059,euroleague,greece-a1,45,False,17.26397454648882
+full fit through 2025,,1059,euroleague,israel-bsl,66,False,18.150302693550877
+full fit through 2025,,1059,euroleague,italy-lba,145,False,16.7452529664992
+full fit through 2025,,1059,euroleague,lithuania-lkl,62,False,19.175764433936738
+full fit through 2025,,1059,euroleague,spain-acb,165,False,16.0
+full fit through 2025,,1059,euroleague,turkey-bsl,173,False,17.913776541039187
+full fit through 2025,,1059,euroleague,vtb,50,False,19.126324274778092
+full fit through 2025,,1059,eurocup,aba-league,101,False,18.268313399238124
+full fit through 2025,,1059,eurocup,france-pro-a,117,False,16.108030252669312
+full fit through 2025,,1059,eurocup,germany-bbl,135,False,18.691883249051493
+full fit through 2025,,1059,eurocup,greece-a1,45,False,17.109353783694175
+full fit through 2025,,1059,eurocup,israel-bsl,66,False,17.887258280481152
+full fit through 2025,,1059,eurocup,italy-lba,145,False,16.654086904274944
+full fit through 2025,,1059,eurocup,lithuania-lkl,62,False,18.787276294997977
+full fit through 2025,,1059,eurocup,spain-acb,165,False,16.0
+full fit through 2025,,1059,eurocup,turkey-bsl,173,False,17.67966613951569
+full fit through 2025,,1059,eurocup,vtb,50,False,18.743884101870794

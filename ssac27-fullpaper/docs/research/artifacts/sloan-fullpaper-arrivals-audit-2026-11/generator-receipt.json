@@ -1,0 +1,17 @@
+{
+  "code_files": 2551,
+  "entrypoint": "scripts/sloan_fullpaper_arrivals_audit.py",
+  "generator_sha256": "b4e684d0af955683611248265a21a06bd9a551616e8b95d79fac2a2610c6b252",
+  "inputs": 535,
+  "outputs": {
+    "out/e26_arrivals.csv": "8e110def30c3a1bef0af27b23b2c3c964a24fff09d0b3c1fd17712d47a0ded62",
+    "out/e26_by_destination.csv": "8168454d1d9d47bf13b9f4df2aebf44bc59ee36fccb6f80f150bbe29f453f514",
+    "out/e26_by_league.csv": "448d03c2e1a3df366b69a0c95a03279ac937be4db0b000701fff4e381ad7c6f4",
+    "out/e26_by_season.csv": "821a085fff3c088f456a88b31a6aee0a4fbf4ebc4e441812332a3505dbadbefb",
+    "out/e26_comparisons.csv": "e7b615f7358e94695d329039cb91d2f76431e34b0bffecdd73eed87f9271b593",
+    "out/e26_summary.json": "3c1a1fb107a978c571defced3b687e3a0884257add5963282a9c80ca02016d02"
+  },
+  "returncode": 0,
+  "run_dir": "research-runs/sloan-fullpaper/arrivals-audit-01",
+  "status": "complete"
+}

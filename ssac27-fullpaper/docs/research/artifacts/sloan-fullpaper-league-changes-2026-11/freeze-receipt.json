@@ -1,0 +1,46 @@
+{
+  "arguments": [
+    "freeze",
+    "--gates",
+    "docs/research/artifacts/sloan-fullpaper-league-changes-2026-11/e30_made_up_gates.json",
+    "--out",
+    "out"
+  ],
+  "code_files": 2580,
+  "entrypoint": "scripts/sloan_fullpaper_league_changes.py",
+  "generator_commit": "bcbd24fe1cc81b1bea1a8a3a41d7e3ab6849d4b1",
+  "generator_sha256": "9939c2b943b60f7c5d24e31d5313e96176a9be028e66de2255ed26cc72fbdcc2",
+  "inputs": 160,
+  "outputs": {
+    "out/e30_freeze.json": "93233c2b8b0765fa5309477763ab790684677f9ab92146eef5a3c10dc7429c56",
+    "out/e30_frozen_league_changes.parquet": "2df696debc8567d9468844384c259e2289d6d1d985d7cbe4c7930bd7bf85b722",
+    "out/e30_stayer_pairs.parquet": "afdda9226c671e9ef774297097ad5507ed83a72d4d06d4a98cdc26f8fb0997b6",
+    "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.log": "e4dbb8ed33951f6bfa8527b6cb5d1f6eba0d8c08ae9b91f2a58af78bb89813e1"
+  },
+  "returncode": 0,
+  "run_dir": "league-changes-freeze-01",
+  "selections": [
+    "data/raw",
+    "docs/research/sloan-full-paper-preregistration-amendment-14-2026-11-17.md",
+    "docs/research/sloan-full-paper-preregistration-amendment-17-2026-11-17.md",
+    "docs/research/artifacts/sloan-fullpaper-amend1-decisions-2026-11/exchange_rate_acb16.csv",
+    "docs/research/artifacts/sloan-fullpaper-amend3-2026-11/e19_equivalents_by_refit.csv",
+    "docs/research/artifacts/sloan-fullpaper-league-changes-2026-11/e30_made_up_gates.json"
+  ],
+  "snapshot": "3499236c012c0afc2efd741b14b962420fe113927e7729828c7553ef5eb780ea",
+  "source_seasons": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "status": "complete"
+}

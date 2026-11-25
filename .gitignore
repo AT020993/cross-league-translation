@@ -2,3 +2,5 @@ __pycache__/
 .pytest_cache/
 .lake/
 .venv/
+recomputed*/
+ssac27-fullpaper/recomputed/

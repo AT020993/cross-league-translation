@@ -1,0 +1,20 @@
+{
+  "arguments_stage": "audit",
+  "code_files": 2548,
+  "entrypoint": "scripts/sloan_fullpaper_linkage_audit_e25.py",
+  "generator_sha256": "07a82b66d9165622384364e96c214e6475ab7e494772a570d03113a4e6e59bdc",
+  "hand_review_argument": false,
+  "inputs": 530,
+  "outputs": {
+    "out/e25_audit_pairs.csv": "ab7566b93aa169200145fd9b53b201f74cb384b2813bc23138460698d0989c2a",
+    "out/e25_by_league.csv": "9be47c7705f14555faba745c281a13540ad932fee271a85d42e8bf074187ad76",
+    "out/e25_by_season.csv": "06d9e4d813717d0a137ccbbe8a2a59e9b158fd2b16005a9acd2ffc04046f158a",
+    "out/e25_draw.json": "858964657b160e3edb90c1ea98b88d48752009742e88949dabd0488d97ae0f1e",
+    "out/e25_drawn_keys.csv": "0519689495ac0f4c71000e58ce39648294bdb3ae61f3333834ad10c39d5e2bab",
+    "out/e25_summary.json": "5af20c99346b3b9f5a4b6526f8edaaa5b9d93af068c7228d4c33b7a5e29a4f25",
+    "out/e25_unresolved_evidence.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  "returncode": 0,
+  "run_dir": "research-runs/sloan-fullpaper/linkage-e25-03",
+  "status": "complete"
+}

@@ -1,0 +1,1180 @@
+{
+  "all": {
+    "P-a": {
+      "ci95": [
+        -0.08603189667556933,
+        0.2813334360895335
+      ],
+      "detectable_80": 0.26077207299702054,
+      "df": 35,
+      "difference": 0.09765076970698207,
+      "left": "history_only",
+      "mae_left": 3.3468862452931925,
+      "mae_right": 3.2492354755862105,
+      "n": 94,
+      "p_two_sided": 0.2878529476988759,
+      "player_club_season": {
+        "ci95": [
+          -0.08603189667556933,
+          0.2813334360895335
+        ],
+        "difference": 0.09765076970698207
+      },
+      "positive_favours": "scheduled_history",
+      "reading": "includes_zero",
+      "right": "scheduled_history",
+      "se": 0.09047926163258675,
+      "status": "ok",
+      "weighting": "unweighted"
+    },
+    "P-b": {
+      "ci95": [
+        -0.12482555093237002,
+        0.044056233498690846
+      ],
+      "detectable_80": 0.11987971942274452,
+      "df": 35,
+      "difference": -0.040384658716839585,
+      "left": "scheduled_history",
+      "mae_left": 3.2492354755862105,
+      "mae_right": 3.2896201343030493,
+      "n": 94,
+      "p_two_sided": 0.33825128924798303,
+      "player_club_season": {
+        "ci95": [
+          -0.12482555093237002,
+          0.044056233498690846
+        ],
+        "difference": -0.040384658716839585
+      },
+      "positive_favours": "source_ridge_10",
+      "reading": "includes_zero",
+      "right": "source_ridge_10",
+      "se": 0.04159428720043776,
+      "status": "ok",
+      "weighting": "unweighted"
+    },
+    "P-c": {
+      "ci95": [
+        -0.014611186330240444,
+        0.03454182003789326
+      ],
+      "detectable_80": 0.034890966080486883,
+      "df": 35,
+      "difference": 0.009965316853826407,
+      "left": "source_ridge_10",
+      "mae_left": 3.2896201343030493,
+      "mae_right": 3.2796548174492224,
+      "n": 94,
+      "p_two_sided": 0.4159843916005279,
+      "player_club_season": {
+        "ci95": [
+          -0.014611186330240444,
+          0.03454182003789326
+        ],
+        "difference": 0.009965316853826407
+      },
+      "positive_favours": "source_ridge_10_scheduled",
+      "reading": "includes_zero",
+      "right": "source_ridge_10_scheduled",
+      "se": 0.012106008179204649,
+      "status": "ok",
+      "weighting": "unweighted"
+    },
+    "n": 94
+  },
+  "analysis": "P1 score",
+  "anchor": {
+    "P-a": 0.1610969141822275,
+    "P-b": 0.01091728304099167,
+    "P-c": -0.001746002023290922
+  },
+  "complete_source": {
+    "P-a": {
+      "ci95": [
+        -0.10922645073069072,
+        0.27442153961494176
+      ],
+      "detectable_80": 0.271675502284219,
+      "df": 26,
+      "difference": 0.08259754444212551,
+      "left": "history_only",
+      "mae_left": 3.2215724422629206,
+      "mae_right": 3.1389748978207934,
+      "n": 62,
+      "p_two_sided": 0.3842201696867168,
+      "player_club_season": {
+        "ci95": [
+          -0.10922645073069072,
+          0.27442153961494176
+        ],
+        "difference": 0.08259754444212551
+      },
+      "positive_favours": "scheduled_history",
+      "reading": "includes_zero",
+      "right": "scheduled_history",
+      "se": 0.09332096712731323,
+      "status": "ok",
+      "weighting": "unweighted"
+    },
+    "P-b": {
+      "ci95": [
+        -0.1551563195668813,
+        0.10173231253206977
+      ],
+      "detectable_80": 0.1819124559826669,
+      "df": 26,
+      "difference": -0.02671200351740577,
+      "left": "scheduled_history",
+      "mae_left": 3.1389748978207934,
+      "mae_right": 3.1656869013382005,
+      "n": 62,
+      "p_two_sided": 0.6725498398341335,
+      "player_club_season": {
+        "ci95": [
+          -0.1551563195668813,
+          0.10173231253206977
+        ],
+        "difference": -0.02671200351740577
+      },
+      "positive_favours": "source_ridge_10",
+      "reading": "includes_zero",
+      "right": "source_ridge_10",
+      "se": 0.06248721795698465,
+      "status": "ok",
+      "weighting": "unweighted"
+    },
+    "P-c": {
+      "ci95": [
+        -0.008299617481045019,
+        0.040472447491443325
+      ],
+      "detectable_80": 0.03453732479323589,
+      "df": 26,
+      "difference": 0.016086415005199153,
+      "left": "source_ridge_10",
+      "mae_left": 3.1656869013382005,
+      "mae_right": 3.149600486333001,
+      "n": 62,
+      "p_two_sided": 0.18677764820914303,
+      "player_club_season": {
+        "ci95": [
+          -0.008299617481045019,
+          0.040472447491443325
+        ],
+        "difference": 0.016086415005199153
+      },
+      "positive_favours": "source_ridge_10_scheduled",
+      "reading": "includes_zero",
+      "right": "source_ridge_10_scheduled",
+      "se": 0.011863625997175994,
+      "status": "ok",
+      "weighting": "unweighted"
+    },
+    "S1": {
+      "ci95": [
+        -0.1613097255184086,
+        0.2730808073678481
+      ],
+      "detectable_80": 0.30760819600035955,
+      "df": 26,
+      "difference": 0.05588554092471974,
+      "left": "history_only",
+      "mae_left": 3.2215724422629206,
+      "mae_right": 3.1656869013382005,
+      "n": 62,
+      "p_two_sided": 0.6013620400068658,
+      "player_club_season": {
+        "ci95": [
+          -0.1613097255184086,
+          0.2730808073678481
+        ],
+        "difference": 0.05588554092471974
+      },
+      "positive_favours": "source_ridge_10",
+      "reading": "includes_zero",
+      "right": "source_ridge_10",
+      "se": 0.10566390456880426,
+      "status": "ok",
+      "weighting": "unweighted"
+    },
+    "S2": {
+      "ci95": [
+        -0.09999576726320744,
+        0.3374703858578074
+      ],
+      "detectable_80": 0.3097861578120731,
+      "df": 26,
+      "difference": 0.1187373092973,
+      "left": "history_destination_slope",
+      "mae_left": 3.2844242106355006,
+      "mae_right": 3.1656869013382005,
+      "n": 62,
+      "p_two_sided": 0.2747037170443642,
+      "player_club_season": {
+        "ci95": [
+          -0.09999576726320744,
+          0.3374703858578074
+        ],
+        "difference": 0.1187373092973
+      },
+      "positive_favours": "source_ridge_10",
+      "reading": "includes_zero",
+      "right": "source_ridge_10",
+      "se": 0.10641203791511837,
+      "status": "ok",
+      "weighting": "unweighted"
+    },
+    "definition": "newcomers whose source league has a complete 2025-26 season",
+    "n": 62
+  },
+  "contrasts_printed": true,
+  "counts_by_reason": {
+    "forecast_missing": 0,
+    "incumbent": 227,
+    "outcome_rate_not_positive": 0,
+    "scored": 94,
+    "source_rate_not_positive": 0,
+    "unjoined": 106
+  },
+  "cutoff": "2026-11-24",
+  "escalate_to_amir_before_writing": [],
+  "february_only_descriptive": {
+    "band_coverage": {
+      "80": {
+        "ci95": [
+          0.6796024912987727,
+          0.8536653877774733
+        ],
+        "coverage": 0.7659574468085106,
+        "half_width": 4.661600507713308,
+        "n": 94,
+        "nominal": 0.8
+      },
+      "95": {
+        "ci95": [
+          0.8478260869565217,
+          0.9570006863417982
+        ],
+        "coverage": 0.9042553191489362,
+        "half_width": 7.253358554605304,
+        "n": 94,
+        "nominal": 0.95
+      }
+    },
+    "gap_guide": [
+      {
+        "ci95": [
+          0.41847841583029194,
+          0.5488655740810912
+        ],
+        "gap_eff36": "0 to 1",
+        "pairs": 534,
+        "share_correct": 0.49063670411985016
+      },
+      {
+        "ci95": [
+          0.48804111390226973,
+          0.6776312155699937
+        ],
+        "gap_eff36": "1 to 2",
+        "pairs": 446,
+        "share_correct": 0.5717488789237668
+      },
+      {
+        "ci95": [
+          0.5743581081081081,
+          0.7801627935495737
+        ],
+        "gap_eff36": "2 to 3",
+        "pairs": 462,
+        "share_correct": 0.6645021645021645
+      },
+      {
+        "ci95": [
+          0.636354340955568,
+          0.8151845659499987
+        ],
+        "gap_eff36": "3 to 4",
+        "pairs": 415,
+        "share_correct": 0.7325301204819277
+      },
+      {
+        "ci95": [
+          0.6516057338090202,
+          0.8528738842869068
+        ],
+        "gap_eff36": "4 to 6",
+        "pairs": 622,
+        "share_correct": 0.7459807073954984
+      },
+      {
+        "ci95": [
+          0.7981072716448546,
+          0.9659921400992829
+        ],
+        "gap_eff36": "6 or more",
+        "pairs": 524,
+        "share_correct": 0.8854961832061069
+      }
+    ],
+    "note": "registered for the February re-score; in November these are descriptive and license no statement (Amendment 8)"
+  },
+  "files": [
+    {
+      "path": "data/raw/euroleague/2026/boxscores/season_2026_boxscores.parquet",
+      "refreshed_first": "2026-11-25T00:03:31.568517+00:00",
+      "refreshed_last": "2026-11-25T00:03:31.568517+00:00",
+      "role": "euroleague box scores",
+      "rows": 3798,
+      "sha256": "15efea61ce73ce5e96d1ec27e5b8362e4393a31b8d2d3e60deebcc5c5653b8dd"
+    },
+    {
+      "path": "data/raw/eurocup/2026/boxscores/season_2026_boxscores.parquet",
+      "refreshed_first": "2026-11-25T00:05:58.054279+00:00",
+      "refreshed_last": "2026-11-25T00:05:58.054279+00:00",
+      "role": "eurocup box scores",
+      "rows": 3495,
+      "sha256": "9c4bec2451d541dd971c4eb16b2a487e11fbb03035c721b9104a48d282cc8590"
+    },
+    {
+      "path": "data/raw/euroleague/2026/games/season_2026_games.parquet",
+      "refreshed_first": "2026-11-25T00:01:09.573751+00:00",
+      "refreshed_last": "2026-11-25T00:01:09.573751+00:00",
+      "role": "euroleague schedule",
+      "rows": 136,
+      "sha256": "6eae17798e54ea5ac9f0a5b26a5bcdd8d0813929665bbe771621319d834505fa"
+    },
+    {
+      "path": "data/raw/eurocup/2026/games/season_2026_games.parquet",
+      "refreshed_first": "2026-11-25T00:03:32.505163+00:00",
+      "refreshed_last": "2026-11-25T00:03:32.505163+00:00",
+      "role": "eurocup schedule",
+      "rows": 128,
+      "sha256": "fe031171a73a9c661e2f2161deb1325c164a207924f0e6867f0f097d1f485fc4"
+    },
+    {
+      "fetched_at_utc": "2026-11-25T00:11:14.447899+00:00",
+      "path": "data/raw/euroleague/2026/people/registration_list_2026.csv",
+      "record_file": "registration_list_2026.csv.record.json",
+      "record_sha256": "db7d3439d9ff4a4bbc54f98f53fd120b3464b61b09130aaa0fffc21861d1ec47",
+      "role": "API registration list",
+      "rows": 858,
+      "sha256": "dcdd6c435cdf670d904e41544545282126db86560a38feadb476bddb6d2c1ba8",
+      "written_by": "scripts/sloan_fullpaper_registration_list.py"
+    }
+  ],
+  "files_refreshed_on_or_after": "2026-11-25",
+  "gates": {
+    "freshness": {
+      "eurocup box scores": {
+        "refreshed_first": "2026-11-25T00:05:58.054279+00:00",
+        "refreshed_last": "2026-11-25T00:05:58.054279+00:00"
+      },
+      "eurocup schedule": {
+        "refreshed_first": "2026-11-25T00:03:32.505163+00:00",
+        "refreshed_last": "2026-11-25T00:03:32.505163+00:00"
+      },
+      "euroleague box scores": {
+        "refreshed_first": "2026-11-25T00:03:31.568517+00:00",
+        "refreshed_last": "2026-11-25T00:03:31.568517+00:00"
+      },
+      "euroleague schedule": {
+        "refreshed_first": "2026-11-25T00:01:09.573751+00:00",
+        "refreshed_last": "2026-11-25T00:01:09.573751+00:00"
+      }
+    },
+    "negative_controls": {
+      "completeness": "rejected as required (one game's box score removed)",
+      "freshness": "rejected as required (impossible refresh date)",
+      "postponed": "passed and listed as required (the same game marked not played)",
+      "rounds": "rejected as required (one round removed from both files)"
+    },
+    "schedule": {
+      "eurocup": {
+        "games_after_cutoff_in_box_scores": 0,
+        "games_postponed": 0,
+        "games_scheduled_by_cutoff": 128,
+        "games_with_box_score_by_cutoff": 128,
+        "last_game_date_by_cutoff": "2026-11-18",
+        "postponed_games": [],
+        "round_count_anomalies": [],
+        "rounds_by_cutoff": 8
+      },
+      "euroleague": {
+        "games_after_cutoff_in_box_scores": 0,
+        "games_postponed": 0,
+        "games_scheduled_by_cutoff": 136,
+        "games_with_box_score_by_cutoff": 136,
+        "last_game_date_by_cutoff": "2026-11-24",
+        "postponed_games": [],
+        "round_count_anomalies": [
+          {
+            "games": 6,
+            "phase": "RS",
+            "round": 14,
+            "usual": 10
+          }
+        ],
+        "rounds_by_cutoff": 14
+      }
+    },
+    "season": {
+      "eurocup": {
+        "rows": 3495,
+        "seasons": [
+          2026
+        ]
+      },
+      "euroleague": {
+        "rows": 3798,
+        "seasons": [
+          2026
+        ]
+      }
+    }
+  },
+  "join": {
+    "above_threshold": true,
+    "joined": 94,
+    "newcomers_reaching_eight_games": 200,
+    "possible_lost_share_of_joined": 0.07446808510638298,
+    "possible_lost_targets": 7,
+    "rule": "Amendment 8, rule 3: (a) same surname and a 2025-26 club matching the API previous club by Amendment 6's text rule, or (b) a full name key within two character edits; a lower bound",
+    "share_found_in_api_people_list": 1.0,
+    "threshold": 0.05,
+    "unjoined": 106,
+    "unjoined_found_in_api_people_list": 106
+  },
+  "mae": {
+    "cell_slope_1": 3.3043120640392543,
+    "cell_slope_10": 3.303131681557622,
+    "cell_slope_100": 3.298111649465144,
+    "cell_slope_100_scheduled": 3.3019966015183146,
+    "cell_slope_10_scheduled": 3.3136175420978002,
+    "cell_slope_1_scheduled": 3.319982474891573,
+    "history_destination": 3.3624875262770857,
+    "history_destination_slope": 3.349363494307937,
+    "history_destination_slope_scheduled": 3.258943157323425,
+    "history_only": 3.3468862452931925,
+    "scheduled_history": 3.2492354755862105,
+    "source_ridge_1": 3.291846068640406,
+    "source_ridge_10": 3.2896201343030493,
+    "source_ridge_100": 3.3010286227847705,
+    "source_ridge_100_scheduled": 3.2695800972240843,
+    "source_ridge_10_scheduled": 3.2796548174492224,
+    "source_ridge_1_scheduled": 3.284326694496017
+  },
+  "min_n": 60,
+  "n_newcomers": 94,
+  "n_scored": 94,
+  "n_unscorable": 0,
+  "order": [
+    "readings",
+    "pinned_inputs",
+    "data_gates",
+    "ledger",
+    "pre_read",
+    "contrasts"
+  ],
+  "other_files": {
+    "p1_newcomer_ledger.csv": "3d9c492f738ad620ef9ca84fba23584ad6771a611de76a2c981bffac966de610",
+    "p1_unjoined_newcomers.csv": "f20a245dc0f9bedeb489d625e36a0fd2259197b2763b096571c86a6be8f30ca1",
+    "pre-read.json": "fee132e04f007e299f1895b3cbfe91282a08f672d0627dc2978f09d34efc2ce4"
+  },
+  "pinned": {
+    "band_half_widths": {
+      "file": "docs/research/artifacts/sloan-fullpaper-p1-scorer-2026-11/p1_band_half_widths.json",
+      "half_width_eff36": {
+        "80": 4.661600507713308,
+        "95": 7.253358554605304
+      },
+      "sha256": "0f384e20e17e2ecc2122f2ff4ddd9107c7cd72f57dd7f1d7e82ca5ed5c247963",
+      "status": "passed"
+    },
+    "committed_2020_2025": {
+      "docs/research/artifacts/sloan-fullpaper-amend9-2026-11/summary.json": "da97930085208070b8ce8e24ba4a813d8c5225690992bd240f8189d5751a0b22",
+      "docs/research/artifacts/sloan-fullpaper-public-tables-2026-11/e7_keyed_forecasts.csv": "83589795f00df04cdb272155697f6f9d55c8f7604e49ae3bc45e0e1aac04b8f6",
+      "docs/research/artifacts/sloan-fullpaper-recipes-2026-11/summary.json": "e4d826741bd4f629c713216cd592e19ae7d2d2a89b77fad2cbe7ed350c51d030",
+      "docs/research/artifacts/sloan-fullpaper-robustness-2026-11-03/summary.json": "ec2e2c10f44b801a1af099600841a73058872f9430b3aecfaf507a7fc32c91db",
+      "docs/research/sloan-full-paper-preregistration-2026-11-03.md": "6c6002f9a96f954eeaac4082a02471bcd7017879df07e2a0630de07e345a5194"
+    },
+    "freeze_record": {
+      "path": "docs/research/artifacts/sloan-fullpaper-p1-freeze-2026-11/freeze.json",
+      "sha256": "07ca3c33278238d3d5d0a1626a8afaf8f2af186e7e74e5656b1476b47d35d67a"
+    },
+    "frozen_forecasts": {
+      "negative_control": "rejected as required",
+      "path": "docs/research/artifacts/sloan-fullpaper-p1-freeze-2026-11/p1_frozen_forecasts.parquet",
+      "sha256": "f3530c1a5ac369c032a996756ced226a93aa2d9f71d2e63aab21694de3d55316",
+      "source_of_expected_hash": "docs/research/artifacts/sloan-fullpaper-p1-freeze-2026-11/freeze.json",
+      "status": "passed"
+    },
+    "incumbency": {
+      "negative_control": "rejected as required",
+      "path": "docs/research/artifacts/sloan-fullpaper-p1-freeze-2026-11/p1_incumbency_2025_continental.parquet",
+      "sha256": "ab13f2a06fb9fa2e42a48bec468f2da1948aa1db8aa4fa1053b6a92584864dbe",
+      "source_of_expected_hash": "docs/research/artifacts/sloan-fullpaper-p1-freeze-2026-11/freeze.json",
+      "status": "passed"
+    },
+    "published_table_arm": {
+      "file": "docs/research/artifacts/sloan-fullpaper-p1-freeze-2026-11/p1_frozen_published_table_forecasts.parquet",
+      "forecast_column": "published_table_vashro_2015",
+      "negative_control": "rejected as required",
+      "record_sha256": "a19589ecdf1ba1818d135b8eb87133992003ad7e31dd0cba1668937966750a82",
+      "rows": 3478,
+      "sha256": "4890fa1943a1e1ed40b0e3086a10274536aa315bf4eed8f4449d1815c98c8199",
+      "source_of_expected_hash": "docs/research/artifacts/sloan-fullpaper-p1-freeze-2026-11/e31c_freeze.json",
+      "status": "read",
+      "synthetic": false
+    }
+  },
+  "possible_lost_targets": [
+    {
+      "club": "ARI",
+      "competition": "eurocup",
+      "frozen_club": "Aris BC",
+      "frozen_name": "ELIJAH MITROU-LONG",
+      "games": 8,
+      "in_api_people_list": true,
+      "player_display_name": "MITROU - LONG, ELIJAH",
+      "player_name": "ELIJAH MITROU - LONG",
+      "possible_lost_target": true,
+      "previous_club": "ARIS",
+      "rule": "b: name within 2 character edits"
+    },
+    {
+      "club": "MAN",
+      "competition": "eurocup",
+      "frozen_club": "Trapani Shark",
+      "frozen_name": "J D NOTAE",
+      "games": 8,
+      "in_api_people_list": true,
+      "player_display_name": "NOTAE, JD",
+      "player_name": "JD NOTAE",
+      "possible_lost_target": true,
+      "previous_club": "TRAPANI SHARK",
+      "rule": "a: same surname, previous club matches"
+    },
+    {
+      "club": "LEM",
+      "competition": "eurocup",
+      "frozen_club": "Maroussi",
+      "frozen_name": "JORDAN JAMES KING",
+      "games": 8,
+      "in_api_people_list": true,
+      "player_display_name": "KING, JORDAN",
+      "player_name": "JORDAN KING",
+      "possible_lost_target": true,
+      "previous_club": "MAROUSSI",
+      "rule": "a: same surname, previous club matches"
+    },
+    {
+      "club": "BOS",
+      "competition": "eurocup",
+      "frozen_club": "Buyukcekmece",
+      "frozen_name": "P J PIPES",
+      "games": 8,
+      "in_api_people_list": true,
+      "player_display_name": "PIPES JR, SHAWN",
+      "player_name": "SHAWN PIPES",
+      "possible_lost_target": true,
+      "previous_club": "BUYUKCEKMECE",
+      "rule": "a: same surname, previous club matches"
+    },
+    {
+      "club": "NIN",
+      "competition": "eurocup",
+      "frozen_club": "MHP Riesen Ludwigsburg",
+      "frozen_name": "STEF SMITH",
+      "games": 8,
+      "in_api_people_list": true,
+      "player_display_name": "SMITH, STEFAN",
+      "player_name": "STEFAN SMITH",
+      "possible_lost_target": true,
+      "previous_club": "MHP RIESEN LUDWIGSBURG",
+      "rule": "a: same surname, previous club matches"
+    },
+    {
+      "club": "RTK",
+      "competition": "eurocup",
+      "frozen_club": "Rostock Seawolves",
+      "frozen_name": "T J CROCKETT",
+      "games": 8,
+      "in_api_people_list": true,
+      "player_display_name": "CROCKETT JR, TJ",
+      "player_name": "TJ CROCKETT",
+      "possible_lost_target": true,
+      "previous_club": "ROSTOCK SEAWOLVES",
+      "rule": "a: same surname, previous club matches"
+    },
+    {
+      "club": "BAR",
+      "competition": "euroleague",
+      "frozen_club": "Unicaja Malaga",
+      "frozen_name": "ALEKSANDER BALCEROWSKI",
+      "games": 14,
+      "in_api_people_list": true,
+      "player_display_name": "BALCEROWSKI, OLEK",
+      "player_name": "OLEK BALCEROWSKI",
+      "possible_lost_target": true,
+      "previous_club": "UNICAJA MALAGA",
+      "rule": "a: same surname, previous club matches"
+    }
+  ],
+  "postponed_games": {
+    "count": 0,
+    "games": [],
+    "rule": "Amendment 18, rule 1: a game dated on or before the cutoff that the schedule marks as not played is postponed; it is listed and counted and does not stop the run"
+  },
+  "pre_read": {
+    "caveat": "partial-season outcomes make these detectable effects optimistic (3 Nov registration)",
+    "counts_by_reason": {
+      "forecast_missing": 0,
+      "incumbent": 227,
+      "outcome_rate_not_positive": 0,
+      "scored": 94,
+      "source_rate_not_positive": 0,
+      "unjoined": 106
+    },
+    "destination_clubs": 36,
+    "detectable_effects": {
+      "P-a": {
+        "detectable_80": 0.3080328835485138,
+        "method": "registered power table (3 Nov): 2.80 x SD / sqrt(n)",
+        "sd_2020_2025": 1.066
+      },
+      "P-b": {
+        "detectable_80": 0.15083786605283697,
+        "method": "registered power table (3 Nov): 2.80 x SD / sqrt(n)",
+        "sd_2020_2025": 0.522
+      },
+      "P-c": {
+        "detectable_80": 0.0947793487841581,
+        "method": "registered power table (3 Nov): 2.80 x SD / sqrt(n)",
+        "sd_2020_2025": 0.328
+      },
+      "S1": {
+        "detectable_80": 0.288987665291935,
+        "detectable_80_at_674": 0.10792282002207813,
+        "estimate_2020_2025": 0.17201419722321917,
+        "method": "E28's clustered detectable effect on the 674, scaled by sqrt(674 / n) (Amendment 18, rule 4)"
+      },
+      "S2": {
+        "detectable_80": 0.19628314219594717,
+        "detectable_80_at_674": 0.07330219512027167,
+        "estimate_2020_2025": 0.0654552316086668,
+        "method": "E28's clustered detectable effect on the 674, scaled by sqrt(674 / n) (Amendment 18, rule 4)"
+      }
+    },
+    "expected_noise": {
+      "at_realised_games": {
+        "noise_floor_mae": 2.9457724653314616,
+        "noise_sd": 3.691978276114655
+      },
+      "full_season_674": {
+        "median_games": 17.0,
+        "noise_floor_mae": 2.1826598085897384,
+        "noise_sd": 2.735558395055863,
+        "spearman_brown_reliability": 0.6874267677534068
+      },
+      "gate": "the formula reproduces E6's noise SD at the 674's own game counts (1e-9); a tolerance of -1 is rejected",
+      "source": "E6 split-half, EFF/36, normal model (robustness summary), scaled by games played"
+    },
+    "games": {
+      "max": 14.0,
+      "median": 8.0,
+      "min": 8.0
+    },
+    "join": {
+      "above_threshold": true,
+      "joined": 94,
+      "newcomers_reaching_eight_games": 200,
+      "possible_lost_share_of_joined": 0.07446808510638298,
+      "possible_lost_targets": 7,
+      "rule": "Amendment 8, rule 3: (a) same surname and a 2025-26 club matching the API previous club by Amendment 6's text rule, or (b) a full name key within two character edits; a lower bound",
+      "share_found_in_api_people_list": 1.0,
+      "threshold": 0.05,
+      "unjoined": 106,
+      "unjoined_found_in_api_people_list": 106
+    },
+    "min_n": 60,
+    "minutes_median": 163.01666666666665,
+    "n_complete_source": 62,
+    "n_scored": 94,
+    "n_scored_by_competition": {
+      "eurocup": 76,
+      "euroleague": 18
+    },
+    "n_unscorable": 0,
+    "postponed_games": 0,
+    "power_table_gate": {
+      "max_difference": 0.000648961000000059,
+      "tolerance": 0.001
+    },
+    "printed_before_any_contrast": true,
+    "published_table_arm": "read"
+  },
+  "published_table_arm": {
+    "league_aware_vs_table": {
+      "ci95": [
+        -0.10734324922073347,
+        0.11415191332322265
+      ],
+      "detectable_80": 0.15722700958375854,
+      "df": 35,
+      "difference": 0.0034043320512445858,
+      "left": "published_table_vashro_2015",
+      "mae_left": 3.2930244663542942,
+      "mae_right": 3.2896201343030493,
+      "n": 94,
+      "p_two_sided": 0.9505956349163062,
+      "player_club_season": {
+        "ci95": [
+          -0.10734324922073347,
+          0.11415191332322265
+        ],
+        "difference": 0.0034043320512445858
+      },
+      "positive_favours": "source_ridge_10",
+      "reading": "includes_zero",
+      "right": "source_ridge_10",
+      "se": 0.054552558379212066,
+      "status": "ok",
+      "weighting": "unweighted"
+    },
+    "mae": 3.2930244663542942,
+    "note": "read out beside S1 and S2 (Amendment 15, E31c); no difference is expected to be detectable in November",
+    "status": "read",
+    "table_vs_destination_only": {
+      "ci95": [
+        -0.03679950988776748,
+        0.14947756579505037
+      ],
+      "detectable_80": 0.13222766234366268,
+      "df": 35,
+      "difference": 0.05633902795364144,
+      "left": "history_destination_slope",
+      "mae_left": 3.349363494307937,
+      "mae_right": 3.2930244663542942,
+      "n": 94,
+      "p_two_sided": 0.22764077021963045,
+      "player_club_season": {
+        "ci95": [
+          -0.03679950988776748,
+          0.14947756579505037
+        ],
+        "difference": 0.05633902795364144
+      },
+      "positive_favours": "published_table_vashro_2015",
+      "reading": "includes_zero",
+      "right": "published_table_vashro_2015",
+      "se": 0.04587861391274935,
+      "status": "ok",
+      "weighting": "unweighted"
+    }
+  },
+  "readings": {
+    "amendment_18": {
+      "negative_control": "rejected as required",
+      "path": "docs/research/sloan-full-paper-preregistration-amendment-18-2026-11-18.md",
+      "sha256": "d86fc9b79924c92629a95afc9852fc67339b23d3b2a85ece7d71abf943cd472e",
+      "status": "passed"
+    }
+  },
+  "registrations": [
+    "docs/research/sloan-full-paper-preregistration-2026-11-03.md",
+    "docs/research/sloan-full-paper-preregistration-amendment-8-2026-11-16.md",
+    "docs/research/sloan-full-paper-preregistration-amendment-15-2026-11-17.md",
+    "docs/research/sloan-full-paper-preregistration-amendment-18-2026-11-18.md"
+  ],
+  "rehearsal_scenario": null,
+  "schema": 2,
+  "scored_on": "2026-11-25",
+  "scored_rows": {
+    "columns": [
+      "player_name",
+      "league_dest",
+      "games_dest",
+      "minutes_dest",
+      "pir_dest",
+      "club_dest",
+      "player_display_name",
+      "pir_per36_dest",
+      "season_src",
+      "league_src",
+      "club_src",
+      "n_clubs_src",
+      "games_src",
+      "minutes_src",
+      "pir_src",
+      "pir_per36_src",
+      "prior_mean_pir36",
+      "above_own_prior",
+      "source_positive_finite",
+      "source_first_game_date",
+      "source_last_game_date",
+      "league_last_game_date",
+      "source_partial_season",
+      "source_complete_season",
+      "source_disputed_fields",
+      "season_dest",
+      "scheduled_multiplier_value",
+      "scheduled_fallback",
+      "scheduled_k",
+      "scheduled_translated",
+      "transfer_translated",
+      "feature_eligible",
+      "history_only",
+      "scheduled_history",
+      "history_destination",
+      "history_destination_slope",
+      "history_destination_slope_scheduled",
+      "source_ridge_1",
+      "source_ridge_1_scheduled",
+      "source_ridge_10",
+      "source_ridge_10_scheduled",
+      "source_ridge_100",
+      "source_ridge_100_scheduled",
+      "cell_slope_1",
+      "cell_slope_1_scheduled",
+      "cell_slope_10",
+      "cell_slope_10_scheduled",
+      "cell_slope_100",
+      "cell_slope_100_scheduled",
+      "history_only_status",
+      "scheduled_history_status",
+      "history_destination_status",
+      "history_destination_slope_status",
+      "history_destination_slope_scheduled_status",
+      "source_ridge_1_status",
+      "source_ridge_1_scheduled_status",
+      "source_ridge_10_status",
+      "source_ridge_10_scheduled_status",
+      "source_ridge_100_status",
+      "source_ridge_100_scheduled_status",
+      "cell_slope_1_status",
+      "cell_slope_1_scheduled_status",
+      "cell_slope_10_status",
+      "cell_slope_10_scheduled_status",
+      "cell_slope_100_status",
+      "cell_slope_100_scheduled_status",
+      "all_arms_forecast",
+      "published_table_vashro_2015",
+      "reason",
+      "cluster"
+    ],
+    "e32_columns": [
+      "player_display_name",
+      "league_dest",
+      "league_src",
+      "pir_per36_src",
+      "history_destination_slope",
+      "source_ridge_10",
+      "pir_per36_dest",
+      "games_dest",
+      "minutes_dest"
+    ],
+    "file": "p1_scored_rows.parquet",
+    "rows": 94,
+    "sha256": "9905fd30e3482f86cca8b7dac79089d047aa3772c87cd8cdaf0b686ed4f7f6c6"
+  },
+  "secondary": {
+    "S1": {
+      "ci95": [
+        -0.1343990139267102,
+        0.24893123590699515
+      ],
+      "detectable_80": 0.27210467340291405,
+      "df": 35,
+      "difference": 0.057266110990142484,
+      "left": "history_only",
+      "mae_left": 3.3468862452931925,
+      "mae_right": 3.2896201343030493,
+      "n": 94,
+      "p_two_sided": 0.5480575045337636,
+      "player_club_season": {
+        "ci95": [
+          -0.1343990139267102,
+          0.24893123590699515
+        ],
+        "difference": 0.057266110990142484
+      },
+      "positive_favours": "source_ridge_10",
+      "reading": "includes_zero",
+      "right": "source_ridge_10",
+      "se": 0.09441129816287162,
+      "status": "ok",
+      "weighting": "unweighted"
+    },
+    "S2": {
+      "ci95": [
+        -0.10880021208041496,
+        0.22828693209018702
+      ],
+      "detectable_80": 0.23927928284463207,
+      "df": 35,
+      "difference": 0.05974336000488603,
+      "left": "history_destination_slope",
+      "mae_left": 3.349363494307937,
+      "mae_right": 3.2896201343030493,
+      "n": 94,
+      "p_two_sided": 0.476543772625023,
+      "player_club_season": {
+        "ci95": [
+          -0.10880021208041496,
+          0.22828693209018702
+        ],
+        "difference": 0.05974336000488603
+      },
+      "positive_favours": "source_ridge_10",
+      "reading": "includes_zero",
+      "right": "source_ridge_10",
+      "se": 0.08302197619146338,
+      "status": "ok",
+      "weighting": "unweighted"
+    },
+    "S3": {
+      "history_only": {
+        "bootstrap_se": 0.3771586484055451,
+        "ci95": [
+          -1.956978337055129,
+          -0.5080994200953098
+        ],
+        "mde_80": 1.0566420119932491,
+        "mean_signed_error": -1.2239287994278005,
+        "n": 94,
+        "reading": "below_zero"
+      },
+      "scheduled_history": {
+        "bootstrap_se": 0.3749657092822808,
+        "ci95": [
+          -1.755968565980567,
+          -0.2825670100454314
+        ],
+        "mde_80": 1.0504983066395988,
+        "mean_signed_error": -1.029667008223405,
+        "n": 94,
+        "reading": "below_zero"
+      },
+      "source_ridge_10": {
+        "bootstrap_se": 0.38929231374731166,
+        "ci95": [
+          -1.9383070116974404,
+          -0.4276936257374664
+        ],
+        "mde_80": 1.0906355068097622,
+        "mean_signed_error": -1.2015623730142675,
+        "n": 94,
+        "reading": "below_zero"
+      }
+    },
+    "S4": {
+      "cross": {
+        "history": {
+          "ci95": [
+            0.6238365904360271,
+            0.7578170156982859
+          ],
+          "reading": "above_half",
+          "share_correct": 0.6888111888111889
+        },
+        "league_aware": {
+          "ci95": [
+            0.6192496271881917,
+            0.7525587157940098
+          ],
+          "reading": "above_half",
+          "share_correct": 0.6841491841491841
+        },
+        "league_aware_minus_history": {
+          "ci95": [
+            -0.02752302597163653,
+            0.020974709965535566
+          ],
+          "difference": -0.004662004662004726,
+          "reading": "includes_zero"
+        },
+        "pairs": 2574,
+        "unequal_pairs": 2574
+      },
+      "same": {
+        "history": {
+          "ci95": [
+            0.6022467733177395,
+            0.786409494523719
+          ],
+          "reading": "above_half",
+          "share_correct": 0.6899766899766899
+        },
+        "league_aware": {
+          "ci95": [
+            0.6008744394618833,
+            0.7838003003003002
+          ],
+          "reading": "above_half",
+          "share_correct": 0.6876456876456877
+        },
+        "league_aware_minus_history": {
+          "ci95": [
+            -0.013938229056203602,
+            0.0
+          ],
+          "difference": -0.002331002331002252,
+          "reading": "includes_zero"
+        },
+        "pairs": 429,
+        "unequal_pairs": 429
+      }
+    },
+    "S5": {
+      "P-a": {
+        "ci95": [
+          -0.08725065871684826,
+          0.29990564066564807
+        ],
+        "detectable_80": 0.27482057167430995,
+        "df": 35,
+        "difference": 0.10632749097439989,
+        "left": "history_only",
+        "mae_left": 3.296821260057968,
+        "mae_right": 3.190493769083568,
+        "n": 94,
+        "p_two_sided": 0.27241184019126785,
+        "player_club_season": {
+          "ci95": [
+            -0.08725065871684826,
+            0.29990564066564807
+          ],
+          "difference": 0.10632749097439989
+        },
+        "positive_favours": "scheduled_history",
+        "reading": "includes_zero",
+        "right": "scheduled_history",
+        "se": 0.09535362479869941,
+        "status": "ok",
+        "weighting": "minutes_weighted"
+      },
+      "P-b": {
+        "ci95": [
+          -0.1301825512485392,
+          0.0454504328113148
+        ],
+        "detectable_80": 0.12467201789349543,
+        "df": 35,
+        "difference": -0.0423660592186122,
+        "left": "scheduled_history",
+        "mae_left": 3.190493769083568,
+        "mae_right": 3.2328598283021797,
+        "n": 94,
+        "p_two_sided": 0.3341029536156049,
+        "player_club_season": {
+          "ci95": [
+            -0.1301825512485392,
+            0.0454504328113148
+          ],
+          "difference": -0.0423660592186122
+        },
+        "positive_favours": "source_ridge_10",
+        "reading": "includes_zero",
+        "right": "source_ridge_10",
+        "se": 0.04325705584806618,
+        "status": "ok",
+        "weighting": "minutes_weighted"
+      },
+      "P-c": {
+        "ci95": [
+          -0.014161237821521304,
+          0.038317704258073335
+        ],
+        "detectable_80": 0.03725186155095594,
+        "df": 35,
+        "difference": 0.012078233218276014,
+        "left": "source_ridge_10",
+        "mae_left": 3.2328598283021797,
+        "mae_right": 3.220781595083904,
+        "n": 94,
+        "p_two_sided": 0.3564619369531258,
+        "player_club_season": {
+          "ci95": [
+            -0.014161237821521304,
+            0.038317704258073335
+          ],
+          "difference": 0.012078233218276014
+        },
+        "positive_favours": "source_ridge_10_scheduled",
+        "reading": "includes_zero",
+        "right": "source_ridge_10_scheduled",
+        "se": 0.012925160615678164,
+        "status": "ok",
+        "weighting": "minutes_weighted"
+      },
+      "S1": {
+        "ci95": [
+          -0.13906153184198367,
+          0.26698439535355906
+        ],
+        "detectable_80": 0.28822926041985353,
+        "df": 35,
+        "difference": 0.06396143175578771,
+        "left": "history_only",
+        "mae_left": 3.296821260057968,
+        "mae_right": 3.2328598283021797,
+        "n": 94,
+        "p_two_sided": 0.5266127591183218,
+        "player_club_season": {
+          "ci95": [
+            -0.13906153184198367,
+            0.26698439535355906
+          ],
+          "difference": 0.06396143175578771
+        },
+        "positive_favours": "source_ridge_10",
+        "reading": "includes_zero",
+        "right": "source_ridge_10",
+        "se": 0.10000599513580916,
+        "status": "ok",
+        "weighting": "minutes_weighted"
+      },
+      "S2": {
+        "ci95": [
+          -0.10679581493989641,
+          0.24281802112017425
+        ],
+        "detectable_80": 0.2481712797764722,
+        "df": 35,
+        "difference": 0.06801110309013893,
+        "left": "history_destination_slope",
+        "mae_left": 3.3008709313923195,
+        "mae_right": 3.2328598283021797,
+        "n": 94,
+        "p_two_sided": 0.43493869846039046,
+        "player_club_season": {
+          "ci95": [
+            -0.10679581493989641,
+            0.24281802112017425
+          ],
+          "difference": 0.06801110309013893
+        },
+        "positive_favours": "source_ridge_10",
+        "reading": "includes_zero",
+        "right": "source_ridge_10",
+        "se": 0.08610720425129981,
+        "status": "ok",
+        "weighting": "minutes_weighted"
+      }
+    },
+    "count": 5,
+    "intervals": "unadjusted 95% intervals"
+  },
+  "status": "inconclusive",
+  "status_reasons": [
+    "7 possible lost targets are 7.4% of the 94 joined newcomers, above the registered 5% (Amendment 8, rule 3)"
+  ],
+  "synthetic": false,
+  "verdicts_not_licensed": {
+    "P-a": "consistent",
+    "P-b": "consistent",
+    "P-c": "consistent"
+  }
+}

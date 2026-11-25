@@ -1,0 +1,1239 @@
+{
+  "box_scores": {
+    "metric": "eff_from_components",
+    "points_reconciliation_mismatches": 0,
+    "rows_dropped_total_dnp_unparseable": 19743,
+    "rows_kept": 67303,
+    "rows_raw": 87046,
+    "seasons": {
+      "eurocup": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "euroleague": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "seasons_read": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  "e7": {
+    "licensed_d2": "Adding translation to the league-aware model changes 2.6% of head-to-head comparisons (95% CI 2.0-3.1%) and is right on 54.4% of those (95% CI 46.0-63.9%), which is not distinguishable from a coin flip; the smallest departure from 50% this test could detect with 80% power is about 13.0 percentage points.",
+    "pooled": {
+      "all": {
+        "forecasts": 674,
+        "label": "all 12 pools",
+        "pairs": 22365,
+        "pools": 12,
+        "unequal_pairs": 22365,
+        "values": {
+          "ceiling_split_half": {
+            "ci95": [
+              0.662044230583456,
+              0.711759586799134
+            ],
+            "point": 0.6877571096404936
+          },
+          "d1:history_only": {
+            "ci95": [
+              0.7010508577636777,
+              0.7418498387011082
+            ],
+            "point": 0.7213950368879947
+          },
+          "d1:scheduled_history": {
+            "ci95": [
+              0.7103029585293972,
+              0.7520098464873615
+            ],
+            "point": 0.7313659736194947
+          },
+          "d1:source_ridge_10": {
+            "ci95": [
+              0.713705109104954,
+              0.752951117629766
+            ],
+            "point": 0.7330203442879499
+          },
+          "d1:source_ridge_10_scheduled": {
+            "ci95": [
+              0.7150966756487601,
+              0.7557126790104257
+            ],
+            "point": 0.7352559803264028
+          },
+          "d1diff:scheduled_history__source_ridge_10": {
+            "bootstrap_se": 0.0030444896831927407,
+            "ci95": [
+              -0.004287691534856286,
+              0.007868268673429536
+            ],
+            "mde_80": 0.008529396629087535,
+            "point": 0.0016543706684551962
+          },
+          "d1diff:source_ridge_10__source_ridge_10_scheduled": {
+            "bootstrap_se": 0.0023441826330531062,
+            "ci95": [
+              -0.0021497748487776134,
+              0.007080497105545744
+            ],
+            "mde_80": 0.006567426902022088,
+            "point": 0.002235636038452893
+          },
+          "flip_share:history_only__scheduled_history": {
+            "ci95": [
+              0.057336099240062485,
+              0.07889252760529603
+            ],
+            "point": 0.06863402638050525
+          },
+          "flip_share:source_ridge_10__source_ridge_10_scheduled": {
+            "ci95": [
+              0.02004834213606008,
+              0.03079501519917182
+            ],
+            "point": 0.02557567627990163
+          },
+          "flips:history_only__scheduled_history": 1535,
+          "flips:source_ridge_10__source_ridge_10_scheduled": 572,
+          "flips_unequal:history_only__scheduled_history": 1535,
+          "flips_unequal:source_ridge_10__source_ridge_10_scheduled": 572,
+          "jaccard:10:history_only__scheduled_history": {
+            "ci95": [
+              0.641969141969142,
+              0.8106691919191916
+            ],
+            "point": 0.6977466977466977
+          },
+          "jaccard:10:scheduled_history__source_ridge_10": {
+            "ci95": [
+              0.7340347152847153,
+              0.8964646464646465
+            ],
+            "point": 0.7929292929292929
+          },
+          "jaccard:10:source_ridge_10__source_ridge_10_scheduled": {
+            "ci95": [
+              0.815073815073815,
+              0.9545454545454546
+            ],
+            "point": 0.8813131313131314
+          },
+          "jaccard:5:history_only__scheduled_history": {
+            "ci95": [
+              0.5830026455026455,
+              0.8214285714285715
+            ],
+            "point": 0.6954365079365079
+          },
+          "jaccard:5:scheduled_history__source_ridge_10": {
+            "ci95": [
+              0.675504298941799,
+              0.9047619047619048
+            ],
+            "point": 0.75
+          },
+          "jaccard:5:source_ridge_10__source_ridge_10_scheduled": {
+            "ci95": [
+              0.759250992063492,
+              0.9523809523809524
+            ],
+            "point": 0.8333333333333331
+          },
+          "realised:10:history_only": {
+            "ci95": [
+              18.270955518878043,
+              20.01562208130021
+            ],
+            "point": 19.30571799266265
+          },
+          "realised:10:scheduled_history": {
+            "ci95": [
+              18.416648768053296,
+              20.139574351026265
+            ],
+            "point": 19.466289381839356
+          },
+          "realised:10:source_ridge_10": {
+            "ci95": [
+              18.491359079183578,
+              20.18927707237152
+            ],
+            "point": 19.406156349911857
+          },
+          "realised:10:source_ridge_10_scheduled": {
+            "ci95": [
+              18.50547773451788,
+              20.248995528656526
+            ],
+            "point": 19.53457556267599
+          },
+          "realised:5:history_only": {
+            "ci95": [
+              19.310149113030278,
+              21.786351455108747
+            ],
+            "point": 20.731054216903367
+          },
+          "realised:5:scheduled_history": {
+            "ci95": [
+              19.272964464800385,
+              21.754805485483065
+            ],
+            "point": 20.66080785121463
+          },
+          "realised:5:source_ridge_10": {
+            "ci95": [
+              19.430681348945903,
+              21.934478257521377
+            ],
+            "point": 20.98804593797644
+          },
+          "realised:5:source_ridge_10_scheduled": {
+            "ci95": [
+              19.298412240909094,
+              21.772698137585966
+            ],
+            "point": 20.70198643932298
+          },
+          "realised_diff:10:history_only__scheduled_history": {
+            "bootstrap_se": 0.223211344988495,
+            "ci95": [
+              -0.2896474710889774,
+              0.6099339081654009
+            ],
+            "mde_80": 0.6253455559495927,
+            "point": 0.16057138917670186
+          },
+          "realised_diff:10:scheduled_history__source_ridge_10": {
+            "bootstrap_se": 0.161272809622465,
+            "ci95": [
+              -0.24926592805892198,
+              0.3812587143983456
+            ],
+            "mde_80": 0.45181948434615365,
+            "point": -0.06013303192749916
+          },
+          "realised_diff:10:source_ridge_10__source_ridge_10_scheduled": {
+            "bootstrap_se": 0.15892848018147962,
+            "ci95": [
+              -0.2478718475524763,
+              0.4032212791348008
+            ],
+            "mde_80": 0.44525164614923063,
+            "point": 0.12841921276413393
+          },
+          "realised_diff:5:history_only__scheduled_history": {
+            "bootstrap_se": 0.3190679327440046,
+            "ci95": [
+              -0.6701447161562435,
+              0.6015961394369151
+            ],
+            "mde_80": 0.8938959343566122,
+            "point": -0.07024636568873473
+          },
+          "realised_diff:5:scheduled_history__source_ridge_10": {
+            "bootstrap_se": 0.24405721636858477,
+            "ci95": [
+              -0.2887313308401547,
+              0.6599913679337226
+            ],
+            "mde_80": 0.6837470365199816,
+            "point": 0.3272380867618076
+          },
+          "realised_diff:5:source_ridge_10__source_ridge_10_scheduled": {
+            "bootstrap_se": 0.26053546116427767,
+            "ci95": [
+              -0.689314463091046,
+              0.34873593735705577
+            ],
+            "mde_80": 0.7299122399659229,
+            "point": -0.2860594986534597
+          },
+          "right:history_only__scheduled_history": 879,
+          "right:source_ridge_10__source_ridge_10_scheduled": 311,
+          "right_share:history_only__scheduled_history": {
+            "bootstrap_se": 0.031406711841292366,
+            "ci95": [
+              0.5083770768989795,
+              0.6321427746836222
+            ],
+            "mde_80": 0.08798857279388708,
+            "point": 0.5726384364820847
+          },
+          "right_share:source_ridge_10__source_ridge_10_scheduled": {
+            "bootstrap_se": 0.046481133558999195,
+            "ci95": [
+              0.45985994983277595,
+              0.6391310606692815
+            ],
+            "mde_80": 0.13022084656188876,
+            "point": 0.5437062937062938
+          }
+        }
+      },
+      "eurocup": {
+        "forecasts": 480,
+        "label": "EuroCup pools",
+        "pairs": 19256,
+        "pools": 6,
+        "unequal_pairs": 19256,
+        "values": {
+          "ceiling_split_half": {
+            "ci95": [
+              0.6628504085886783,
+              0.7168627141632813
+            ],
+            "point": 0.691249026226954
+          },
+          "d1:history_only": {
+            "ci95": [
+              0.702338699851817,
+              0.748128490026029
+            ],
+            "point": 0.724761113419194
+          },
+          "d1:scheduled_history": {
+            "ci95": [
+              0.7131078454530272,
+              0.7593442845219333
+            ],
+            "point": 0.7361861238055671
+          },
+          "d1:source_ridge_10": {
+            "ci95": [
+              0.7134389571232618,
+              0.7581334456722587
+            ],
+            "point": 0.735407145824678
+          },
+          "d1:source_ridge_10_scheduled": {
+            "ci95": [
+              0.7150712435242748,
+              0.7608337267065475
+            ],
+            "point": 0.7374324885749897
+          },
+          "d1diff:scheduled_history__source_ridge_10": {
+            "bootstrap_se": 0.0030791130167748576,
+            "ci95": [
+              -0.00660910267847731,
+              0.005400691330742118
+            ],
+            "mde_80": 0.00862639684110119,
+            "point": -0.0007789779808891062
+          },
+          "d1diff:source_ridge_10__source_ridge_10_scheduled": {
+            "bootstrap_se": 0.002440377905460046,
+            "ci95": [
+              -0.0026500490737777576,
+              0.006996144565720762
+            ],
+            "mde_80": 0.006836926134268283,
+            "point": 0.0020253427503116317
+          },
+          "flip_share:history_only__scheduled_history": {
+            "ci95": [
+              0.0512583568604611,
+              0.0726025139590411
+            ],
+            "point": 0.06294142085583714
+          },
+          "flip_share:source_ridge_10__source_ridge_10_scheduled": {
+            "ci95": [
+              0.018162160802715526,
+              0.028869728280287776
+            ],
+            "point": 0.02383672621520565
+          },
+          "flips:history_only__scheduled_history": 1212,
+          "flips:source_ridge_10__source_ridge_10_scheduled": 459,
+          "flips_unequal:history_only__scheduled_history": 1212,
+          "flips_unequal:source_ridge_10__source_ridge_10_scheduled": 459,
+          "jaccard:10:history_only__scheduled_history": {
+            "ci95": [
+              0.5911505161505161,
+              0.8372183372183372
+            ],
+            "point": 0.7171717171717171
+          },
+          "jaccard:10:scheduled_history__source_ridge_10": {
+            "ci95": [
+              0.6957431457431457,
+              0.914141414141414
+            ],
+            "point": 0.7929292929292929
+          },
+          "jaccard:10:source_ridge_10__source_ridge_10_scheduled": {
+            "ci95": [
+              0.7727272727272728,
+              0.9696969696969697
+            ],
+            "point": 0.9090909090909092
+          },
+          "jaccard:5:history_only__scheduled_history": {
+            "ci95": [
+              0.4807539682539682,
+              0.8492063492063492
+            ],
+            "point": 0.6527777777777777
+          },
+          "jaccard:5:scheduled_history__source_ridge_10": {
+            "ci95": [
+              0.5873015873015872,
+              0.9444444444444445
+            ],
+            "point": 0.7222222222222222
+          },
+          "jaccard:5:source_ridge_10__source_ridge_10_scheduled": {
+            "ci95": [
+              0.6525958994708994,
+              0.9444444444444443
+            ],
+            "point": 0.7777777777777777
+          },
+          "realised:10:history_only": {
+            "ci95": [
+              19.731147046684065,
+              22.371016949488165
+            ],
+            "point": 21.22205679965874
+          },
+          "realised:10:scheduled_history": {
+            "ci95": [
+              19.96132117895172,
+              22.657894290099264
+            ],
+            "point": 21.465903804369546
+          },
+          "realised:10:source_ridge_10": {
+            "ci95": [
+              19.963638988658264,
+              22.60887034082862
+            ],
+            "point": 21.467343153159458
+          },
+          "realised:10:source_ridge_10_scheduled": {
+            "ci95": [
+              19.974655736519242,
+              22.73638130363223
+            ],
+            "point": 21.512212305537208
+          },
+          "realised:5:history_only": {
+            "ci95": [
+              20.704521294234734,
+              24.554777623303135
+            ],
+            "point": 22.815326175232272
+          },
+          "realised:5:scheduled_history": {
+            "ci95": [
+              20.781379179755465,
+              24.55425838570551
+            ],
+            "point": 22.8744162875405
+          },
+          "realised:5:source_ridge_10": {
+            "ci95": [
+              20.834383432682287,
+              24.68429746524335
+            ],
+            "point": 23.109259883384684
+          },
+          "realised:5:source_ridge_10_scheduled": {
+            "ci95": [
+              20.581536107397397,
+              24.349563419521605
+            ],
+            "point": 22.473513418289354
+          },
+          "realised_diff:10:history_only__scheduled_history": {
+            "bootstrap_se": 0.3367773362308754,
+            "ci95": [
+              -0.32054888211018495,
+              0.9665189832881074
+            ],
+            "mde_80": 0.9435103335243772,
+            "point": 0.2438470047108036
+          },
+          "realised_diff:10:scheduled_history__source_ridge_10": {
+            "bootstrap_se": 0.25531610755506196,
+            "ci95": [
+              -0.5457268451950655,
+              0.48040671291197906
+            ],
+            "mde_80": 0.7152897771846483,
+            "point": 0.0014393487899120316
+          },
+          "realised_diff:10:source_ridge_10__source_ridge_10_scheduled": {
+            "bootstrap_se": 0.2628291954102363,
+            "ci95": [
+              -0.4414594848996089,
+              0.7081188531423551
+            ],
+            "mde_80": 0.7363383314233869,
+            "point": 0.044869152377752165
+          },
+          "realised_diff:5:history_only__scheduled_history": {
+            "bootstrap_se": 0.49054941356042053,
+            "ci95": [
+              -0.970606391081845,
+              0.9880235445512163
+            ],
+            "mde_80": 1.3743158787896708,
+            "point": 0.059090112308227326
+          },
+          "realised_diff:5:scheduled_history__source_ridge_10": {
+            "bootstrap_se": 0.31518641061196717,
+            "ci95": [
+              -0.5812930823654652,
+              0.7315789147864095
+            ],
+            "mde_80": 0.8830215201743281,
+            "point": 0.23484359584418435
+          },
+          "realised_diff:5:source_ridge_10__source_ridge_10_scheduled": {
+            "bootstrap_se": 0.4664443740037875,
+            "ci95": [
+              -1.2638378615074393,
+              0.5909925514338665
+            ],
+            "mde_80": 1.3067835615434011,
+            "point": -0.6357464650953357
+          },
+          "right:history_only__scheduled_history": 716,
+          "right:source_ridge_10__source_ridge_10_scheduled": 249,
+          "right_share:history_only__scheduled_history": {
+            "bootstrap_se": 0.03615597684266239,
+            "ci95": [
+              0.5175514013324145,
+              0.6594797403619197
+            ],
+            "mde_80": 0.10129404238275032,
+            "point": 0.5907590759075908
+          },
+          "right_share:source_ridge_10__source_ridge_10_scheduled": {
+            "bootstrap_se": 0.052752361566022865,
+            "ci95": [
+              0.44517778417440573,
+              0.644411673009259
+            ],
+            "mde_80": 0.14779022487794619,
+            "point": 0.5424836601307189
+          }
+        }
+      },
+      "euroleague": {
+        "forecasts": 194,
+        "label": "EuroLeague pools",
+        "pairs": 3109,
+        "pools": 6,
+        "unequal_pairs": 3109,
+        "values": {
+          "ceiling_split_half": {
+            "ci95": [
+              0.6118682610584418,
+              0.7206081839170837
+            ],
+            "point": 0.6661305886137021
+          },
+          "d1:history_only": {
+            "ci95": [
+              0.6590260240851398,
+              0.7374696961944984
+            ],
+            "point": 0.7005467996140238
+          },
+          "d1:scheduled_history": {
+            "ci95": [
+              0.6540559860854361,
+              0.7417917303275025
+            ],
+            "point": 0.7015117401093599
+          },
+          "d1:source_ridge_10": {
+            "ci95": [
+              0.6786651995905834,
+              0.7541652853337867
+            ],
+            "point": 0.7182373753618527
+          },
+          "d1:source_ridge_10_scheduled": {
+            "ci95": [
+              0.6808990549119623,
+              0.7605352865004855
+            ],
+            "point": 0.7217754905114184
+          },
+          "d1diff:scheduled_history__source_ridge_10": {
+            "bootstrap_se": 0.011391478740676432,
+            "ci95": [
+              -0.005842169352793477,
+              0.039068357024690005
+            ],
+            "mde_80": 0.031914195967697984,
+            "point": 0.01672563525249282
+          },
+          "d1diff:source_ridge_10__source_ridge_10_scheduled": {
+            "bootstrap_se": 0.007217003718806732,
+            "ci95": [
+              -0.009581799528662848,
+              0.019181793692237444
+            ],
+            "mde_80": 0.02021904936355316,
+            "point": 0.0035381151495657015
+          },
+          "flip_share:history_only__scheduled_history": {
+            "ci95": [
+              0.08069435972258956,
+              0.13242986855603614
+            ],
+            "point": 0.10389192666452235
+          },
+          "flip_share:source_ridge_10__source_ridge_10_scheduled": {
+            "ci95": [
+              0.023129903452930645,
+              0.05598747315154782
+            ],
+            "point": 0.03634609199099389
+          },
+          "flips:history_only__scheduled_history": 323,
+          "flips:source_ridge_10__source_ridge_10_scheduled": 113,
+          "flips_unequal:history_only__scheduled_history": 323,
+          "flips_unequal:source_ridge_10__source_ridge_10_scheduled": 113,
+          "jaccard:10:history_only__scheduled_history": {
+            "ci95": [
+              0.6132894882894883,
+              0.8624708624708625
+            ],
+            "point": 0.6783216783216783
+          },
+          "jaccard:10:scheduled_history__source_ridge_10": {
+            "ci95": [
+              0.7046897546897547,
+              0.9393939393939394
+            ],
+            "point": 0.7929292929292929
+          },
+          "jaccard:10:source_ridge_10__source_ridge_10_scheduled": {
+            "ci95": [
+              0.797979797979798,
+              1.0
+            ],
+            "point": 0.8535353535353535
+          },
+          "jaccard:5:history_only__scheduled_history": {
+            "ci95": [
+              0.5734126984126983,
+              0.8888888888888888
+            ],
+            "point": 0.738095238095238
+          },
+          "jaccard:5:scheduled_history__source_ridge_10": {
+            "ci95": [
+              0.6587301587301586,
+              0.9444444444444445
+            ],
+            "point": 0.7777777777777777
+          },
+          "jaccard:5:source_ridge_10__source_ridge_10_scheduled": {
+            "ci95": [
+              0.7936507936507936,
+              1.0
+            ],
+            "point": 0.888888888888889
+          },
+          "realised:10:history_only": {
+            "ci95": [
+              16.083824422328792,
+              18.386903976518155
+            ],
+            "point": 17.389379185666563
+          },
+          "realised:10:scheduled_history": {
+            "ci95": [
+              16.1699609041169,
+              18.452015999682203
+            ],
+            "point": 17.466674959309163
+          },
+          "realised:10:source_ridge_10": {
+            "ci95": [
+              16.34076932212328,
+              18.556407682750198
+            ],
+            "point": 17.34496954666425
+          },
+          "realised:10:source_ridge_10_scheduled": {
+            "ci95": [
+              16.335473488414365,
+              18.59281351787656
+            ],
+            "point": 17.556938819814768
+          },
+          "realised:5:history_only": {
+            "ci95": [
+              16.826902439966535,
+              19.99707235454578
+            ],
+            "point": 18.64678225857446
+          },
+          "realised:5:scheduled_history": {
+            "ci95": [
+              16.554560606439974,
+              19.997039671499405
+            ],
+            "point": 18.44719941488876
+          },
+          "realised:5:source_ridge_10": {
+            "ci95": [
+              16.90517806282199,
+              20.230807596873596
+            ],
+            "point": 18.866831992568194
+          },
+          "realised:5:source_ridge_10_scheduled": {
+            "ci95": [
+              16.874601138812338,
+              20.161002200219027
+            ],
+            "point": 18.930459460356612
+          },
+          "realised_diff:10:history_only__scheduled_history": {
+            "bootstrap_se": 0.28327895232625516,
+            "ci95": [
+              -0.5065323169394463,
+              0.5908359323107175
+            ],
+            "mde_80": 0.7936300636529516,
+            "point": 0.0772957736426001
+          },
+          "realised_diff:10:scheduled_history__source_ridge_10": {
+            "bootstrap_se": 0.20291920199884456,
+            "ci95": [
+              -0.23624731809129268,
+              0.5816768584283426
+            ],
+            "mde_80": 0.5684953925319329,
+            "point": -0.12170541264491035
+          },
+          "realised_diff:10:source_ridge_10__source_ridge_10_scheduled": {
+            "bootstrap_se": 0.17058157118620115,
+            "ci95": [
+              -0.3122551799026706,
+              0.3985254727222365
+            ],
+            "mde_80": 0.4778987711116934,
+            "point": 0.2119692731505157
+          },
+          "realised_diff:5:history_only__scheduled_history": {
+            "bootstrap_se": 0.43056105775845677,
+            "ci95": [
+              -0.9771099053911761,
+              0.7428590254335447
+            ],
+            "mde_80": 1.2062534010002262,
+            "point": -0.1995828436856968
+          },
+          "realised_diff:5:scheduled_history__source_ridge_10": {
+            "bootstrap_se": 0.3797638634414273,
+            "ci95": [
+              -0.45198056713626417,
+              1.0654463309081876
+            ],
+            "mde_80": 1.0639407433595511,
+            "point": 0.4196325776794308
+          },
+          "realised_diff:5:source_ridge_10__source_ridge_10_scheduled": {
+            "bootstrap_se": 0.24095011615106576,
+            "ci95": [
+              -0.49969180601986773,
+              0.4850398228983546
+            ],
+            "mde_80": 0.6750422311570836,
+            "point": 0.06362746778841633
+          },
+          "right:history_only__scheduled_history": 163,
+          "right:source_ridge_10__source_ridge_10_scheduled": 62,
+          "right_share:history_only__scheduled_history": {
+            "bootstrap_se": 0.059615225039631146,
+            "ci95": [
+              0.3811275831087152,
+              0.6163132694938438
+            ],
+            "mde_80": 0.16701712024265503,
+            "point": 0.5046439628482973
+          },
+          "right_share:source_ridge_10__source_ridge_10_scheduled": {
+            "bootstrap_se": 0.092967062298405,
+            "ci95": [
+              0.36742248062015503,
+              0.7388604264746607
+            ],
+            "mde_80": 0.260455127229277,
+            "point": 0.5486725663716814
+          }
+        }
+      }
+    },
+    "reliability": {
+      "mean_games_per_half": 8.908011869436201,
+      "normal_model_half_vs_half_concordance": 0.6729996909523737,
+      "normal_model_true_rate_vs_full_season_concordance": 0.8091994426372386,
+      "note": "half_vs_half is the pre-registered split-half reading: both halves carry half-season noise, so it is a floor-like reference, not an upper bound. The full-season reading (normal model, Spearman-Brown) is supplementary and not pre-registered.",
+      "spearman_brown_full_season": 0.6817215464639825,
+      "split_half_r_within_pool": 0.517130159137018,
+      "targets": 674
+    },
+    "share_of_reachable_ordering": {
+      "history_only": 0.7160266363990231,
+      "scheduled_history": 0.748274226001564,
+      "source_ridge_10": 0.7536247229311337,
+      "source_ridge_10_scheduled": 0.7608551241873086
+    }
+  },
+  "e8": {
+    "scheduled_history@0.80": {
+      "calibration": {
+        "2021": {
+          "calibration_n": 134,
+          "half_width": 5.07131049046796
+        },
+        "2022": {
+          "calibration_n": 235,
+          "half_width": 4.8203202837094326
+        },
+        "2023": {
+          "calibration_n": 341,
+          "half_width": 4.819278512941782
+        },
+        "2024": {
+          "calibration_n": 443,
+          "half_width": 4.820213300139758
+        },
+        "2025": {
+          "calibration_n": 547,
+          "half_width": 4.594399854270284
+        }
+      },
+      "scopes": {
+        "eurocup": {
+          "coverage": 0.8255208333333334,
+          "coverage_ci95": [
+            0.7886139774859287,
+            0.8610357326845133
+          ],
+          "mean_width": 9.621755923799464,
+          "mean_width_ci95": [
+            9.584668969845845,
+            9.655751686264686
+          ],
+          "n": 384,
+          "winkler": 13.58369681470195,
+          "winkler_ci95": [
+            12.402285553930213,
+            14.82364340407328
+          ]
+        },
+        "euroleague": {
+          "coverage": 0.8397435897435898,
+          "coverage_ci95": [
+            0.7762237762237763,
+            0.8978139430954863
+          ],
+          "mean_width": 9.642776221383196,
+          "mean_width_ci95": [
+            9.593170977027379,
+            9.690094782971393
+          ],
+          "n": 156,
+          "winkler": 12.066560399033564,
+          "winkler_ci95": [
+            10.832034711037847,
+            13.596125274655702
+          ]
+        },
+        "pooled": {
+          "coverage": 0.8296296296296296,
+          "coverage_ci95": [
+            0.7977691933031184,
+            0.8612227238652249
+          ],
+          "mean_width": 9.627828454212542,
+          "mean_width_ci95": [
+            9.598407050009975,
+            9.655524416466495
+          ],
+          "n": 540,
+          "winkler": 13.145412961286638,
+          "winkler_ci95": [
+            12.186067222923123,
+            14.132275083026146
+          ]
+        }
+      }
+    },
+    "scheduled_history@0.95": {
+      "calibration": {
+        "2021": {
+          "calibration_n": 134,
+          "half_width": 7.959136329266661
+        },
+        "2022": {
+          "calibration_n": 235,
+          "half_width": 7.561557202458687
+        },
+        "2023": {
+          "calibration_n": 341,
+          "half_width": 7.140160478909316
+        },
+        "2024": {
+          "calibration_n": 443,
+          "half_width": 7.126586820676748
+        },
+        "2025": {
+          "calibration_n": 547,
+          "half_width": 7.140160478909316
+        }
+      },
+      "scopes": {
+        "eurocup": {
+          "coverage": 0.9505208333333334,
+          "coverage_ci95": [
+            0.9274193548387096,
+            0.9728998958708799
+          ],
+          "mean_width": 14.729787497402368,
+          "mean_width_ci95": [
+            14.653740659366566,
+            14.805906048933828
+          ],
+          "n": 384,
+          "winkler": 19.629258216392035,
+          "winkler_ci95": [
+            17.135269962664843,
+            22.390198065172445
+          ]
+        },
+        "euroleague": {
+          "coverage": 0.9487179487179487,
+          "coverage_ci95": [
+            0.910342617152962,
+            0.9801324503311258
+          ],
+          "mean_width": 14.788979644050183,
+          "mean_width_ci95": [
+            14.69750671348445,
+            14.882115327786222
+          ],
+          "n": 156,
+          "winkler": 16.28746146756539,
+          "winkler_ci95": [
+            15.122065292279007,
+            17.903111430726092
+          ]
+        },
+        "pooled": {
+          "coverage": 0.95,
+          "coverage_ci95": [
+            0.9302315434879662,
+            0.9683674601276332
+          ],
+          "mean_width": 14.746887450878402,
+          "mean_width_ci95": [
+            14.685972710018929,
+            14.807315758300811
+          ],
+          "n": 540,
+          "winkler": 18.663850266731007,
+          "winkler_ci95": [
+            16.825869292773405,
+            20.63012122672179
+          ]
+        }
+      }
+    },
+    "source_ridge_10@0.80": {
+      "calibration": {
+        "2021": {
+          "calibration_n": 134,
+          "half_width": 5.226359349701708
+        },
+        "2022": {
+          "calibration_n": 235,
+          "half_width": 4.824808558147003
+        },
+        "2023": {
+          "calibration_n": 341,
+          "half_width": 4.7486883381933165
+        },
+        "2024": {
+          "calibration_n": 443,
+          "half_width": 4.789881636069867
+        },
+        "2025": {
+          "calibration_n": 547,
+          "half_width": 4.550980876170277
+        }
+      },
+      "scopes": {
+        "eurocup": {
+          "coverage": 0.8098958333333334,
+          "coverage_ci95": [
+            0.7704887674559805,
+            0.8493222973217189
+          ],
+          "mean_width": 9.617770967805066,
+          "mean_width_ci95": [
+            9.564746549149683,
+            9.667259321143291
+          ],
+          "n": 384,
+          "winkler": 13.54832828273723,
+          "winkler_ci95": [
+            12.379425179201666,
+            14.808696526884699
+          ]
+        },
+        "euroleague": {
+          "coverage": 0.8653846153846154,
+          "coverage_ci95": [
+            0.8148037258815701,
+            0.9177236864921102
+          ],
+          "mean_width": 9.65600573827554,
+          "mean_width_ci95": [
+            9.587751379169218,
+            9.725340378191325
+          ],
+          "n": 156,
+          "winkler": 11.918604295839438,
+          "winkler_ci95": [
+            10.717299962230774,
+            13.431612214984117
+          ]
+        },
+        "pooled": {
+          "coverage": 0.825925925925926,
+          "coverage_ci95": [
+            0.7949171669226116,
+            0.8560895440215502
+          ],
+          "mean_width": 9.628816568163202,
+          "mean_width_ci95": [
+            9.585201492746249,
+            9.669964247944373
+          ],
+          "n": 540,
+          "winkler": 13.077519130966758,
+          "winkler_ci95": [
+            12.138812545758594,
+            14.035842976994749
+          ]
+        }
+      }
+    },
+    "source_ridge_10@0.95": {
+      "calibration": {
+        "2021": {
+          "calibration_n": 134,
+          "half_width": 7.777437490241194
+        },
+        "2022": {
+          "calibration_n": 235,
+          "half_width": 7.685753609172462
+        },
+        "2023": {
+          "calibration_n": 341,
+          "half_width": 7.150440459728899
+        },
+        "2024": {
+          "calibration_n": 443,
+          "half_width": 7.135679770857607
+        },
+        "2025": {
+          "calibration_n": 547,
+          "half_width": 7.135679770857607
+        }
+      },
+      "scopes": {
+        "eurocup": {
+          "coverage": 0.9505208333333334,
+          "coverage_ci95": [
+            0.9270171122209165,
+            0.972754230161133
+          ],
+          "mean_width": 14.723908359391226,
+          "mean_width_ci95": [
+            14.65498590923599,
+            14.790381691753472
+          ],
+          "n": 384,
+          "winkler": 19.56433547208671,
+          "winkler_ci95": [
+            17.133305556454726,
+            22.16310529001049
+          ]
+        },
+        "euroleague": {
+          "coverage": 0.9551282051282052,
+          "coverage_ci95": [
+            0.9183673469387755,
+            0.9860164141414142
+          ],
+          "mean_width": 14.755225872358725,
+          "mean_width_ci95": [
+            14.675022162962213,
+            14.832676228935565
+          ],
+          "n": 156,
+          "winkler": 16.66970228323787,
+          "winkler_ci95": [
+            15.072206418522196,
+            18.74011358263181
+          ]
+        },
+        "pooled": {
+          "coverage": 0.9518518518518518,
+          "coverage_ci95": [
+            0.9317259550536111,
+            0.9702048417132216
+          ],
+          "mean_width": 14.732955640915172,
+          "mean_width_ci95": [
+            14.677978575140509,
+            14.785742801778193
+          ],
+          "n": 540,
+          "winkler": 18.728108106419267,
+          "winkler_ci95": [
+            16.889275764651416,
+            20.652990468177318
+          ]
+        }
+      }
+    }
+  },
+  "e9": {
+    "coefficients": {
+      "above_prior": -1.3888191623923043,
+      "destination_euroleague": -0.35803551202680656,
+      "destination_x_source": -0.09198810768935177,
+      "intercept": 3.1026782797125696,
+      "prior_rate": 0.09215836651768781,
+      "source_offset:aba-league": -0.5078360080612033,
+      "source_offset:france-pro-a": 1.1166384205927462,
+      "source_offset:germany-bbl": -0.826349065418287,
+      "source_offset:greece-a1": 0.36367023975823765,
+      "source_offset:israel-bsl": -0.22129287721672258,
+      "source_offset:italy-lba": 0.7060186050659439,
+      "source_offset:lithuania-lkl": -0.8980820528544949,
+      "source_offset:spain-acb": 1.1978742452859397,
+      "source_offset:turkey-bsl": -0.06518920852702136,
+      "source_offset:vtb": -0.8654522986251567,
+      "source_rate": 0.659814554825568
+    },
+    "draws_with_league_absent": {
+      "aba-league": 0,
+      "france-pro-a": 0,
+      "germany-bbl": 0,
+      "greece-a1": 0,
+      "israel-bsl": 0,
+      "italy-lba": 0,
+      "lithuania-lkl": 0,
+      "spain-acb": 0,
+      "turkey-bsl": 0,
+      "vtb": 0
+    },
+    "training_club_seasons": 311,
+    "training_forecasts": 1059,
+    "training_seasons": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  "e9_reference_player": {
+    "above_own_prior": false,
+    "arm": "source_ridge_10",
+    "history_eff36": 16.0,
+    "source_eff36": 16.0,
+    "tier_share": 0.9
+  },
+  "exploratory": true,
+  "gates": {
+    "G0": {
+      "max_difference": 1.3322676295501878e-15,
+      "negative_control": "rejected as required",
+      "status": "passed",
+      "tolerance": 1e-09
+    },
+    "box_score_reconciliation": {
+      "exceptions": [],
+      "negative_control": "rejected as required",
+      "status": "passed",
+      "targets": 674
+    },
+    "d1_d2_identity": {
+      "max_difference": 0.0,
+      "negative_control": "rejected as required",
+      "status": "passed"
+    },
+    "scope": {
+      "negative_control": "rejected as required",
+      "pools": 12,
+      "seasons": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "status": "passed",
+      "targets": 674
+    }
+  },
+  "input_sha256": {
+    "cohort": "c629f43e3194642d483701c3d07666252938d587e747c99dbb031a2346bf2abf",
+    "pairs": "d964727924630dbf32c1764daf1e536c81d58988218a230fea591c62c1a62f58"
+  },
+  "mae": {
+    "history_only": 3.0960541317570174,
+    "scheduled_history": 2.934957217574789,
+    "source_ridge_10": 2.924039934533798,
+    "source_ridge_10_scheduled": 2.9257859365570886
+  },
+  "models": {
+    "history_only": "history",
+    "scheduled_history": "history + translation",
+    "source_ridge_10": "offsets \u03bb10",
+    "source_ridge_10_scheduled": "offsets \u03bb10 + translation"
+  },
+  "n_boot": 2000,
+  "protocol_commit": "f52e7c831fef6759eab202c8ff8c56fa76037533",
+  "protocol_sha256": "6c6002f9a96f954eeaac4082a02471bcd7017879df07e2a0630de07e345a5194",
+  "seed": 0
+}

@@ -1,0 +1,806 @@
+{
+  "acb_written_permission": false,
+  "amendment_commit": "40f0d278befde5488ed69311bdb8a4241bc0bb64",
+  "amendment_sha256": "63d20a7dbf51b5bd8974f088ec0800e1072ecc383d1a179255f33057882adbde",
+  "analysis": "Amendment 11: E29 (descriptive; every outcome already seen)",
+  "descriptive": true,
+  "e29a": {
+    "n": 180,
+    "rows": {
+      "aba": {
+        "league": "aba",
+        "means": {
+          "error_with_table": {
+            "minutes_weighted": {
+              "ci95": [
+                -2.0358169841533384,
+                -0.7778175974179709
+              ],
+              "df": 63,
+              "mean": -1.4068172907856547,
+              "n": 131,
+              "reading": "below_zero",
+              "se": 0.3147610129423951,
+              "status": "ok"
+            },
+            "unweighted": {
+              "ci95": [
+                -1.6884036849124684,
+                -0.38499791018051144
+              ],
+              "df": 63,
+              "mean": -1.03670079754649,
+              "n": 131,
+              "reading": "below_zero",
+              "se": 0.3261220365093075,
+              "status": "ok"
+            }
+          },
+          "error_without_table": {
+            "minutes_weighted": {
+              "ci95": [
+                -1.3535786914739907,
+                -0.1003205071679295
+              ],
+              "df": 63,
+              "mean": -0.7269495993209601,
+              "n": 131,
+              "reading": "below_zero",
+              "se": 0.31357472804039194,
+              "status": "ok"
+            },
+            "unweighted": {
+              "ci95": [
+                -1.0036913691490825,
+                0.29631816143528417
+              ],
+              "df": 63,
+              "mean": -0.35368660385689915,
+              "n": 131,
+              "reading": "includes_zero",
+              "se": 0.32527227039704465,
+              "status": "ok"
+            }
+          },
+          "move": {
+            "minutes_weighted": {
+              "ci95": [
+                -0.6920520707082494,
+                -0.6676833122211401
+              ],
+              "df": 63,
+              "mean": -0.6798676914646947,
+              "n": 131,
+              "reading": "below_zero",
+              "se": 0.0060972486842433326,
+              "status": "ok"
+            },
+            "unweighted": {
+              "ci95": [
+                -0.6942605102012659,
+                -0.6717678771779155
+              ],
+              "df": 63,
+              "mean": -0.6830141936895907,
+              "n": 131,
+              "reading": "below_zero",
+              "se": 0.005627827826326764,
+              "status": "ok"
+            }
+          }
+        },
+        "n": 131
+      },
+      "all": {
+        "league": null,
+        "means": {
+          "error_with_table": {
+            "minutes_weighted": {
+              "ci95": [
+                -1.6333395679780573,
+                -0.6762105769033586
+              ],
+              "df": 94,
+              "mean": -1.154775072440708,
+              "n": 180,
+              "reading": "below_zero",
+              "se": 0.2410268674981987,
+              "status": "ok"
+            },
+            "unweighted": {
+              "ci95": [
+                -1.284993380099211,
+                -0.26348775168371774
+              ],
+              "df": 94,
+              "mean": -0.7742405658914644,
+              "n": 180,
+              "reading": "below_zero",
+              "se": 0.2572383702141459,
+              "status": "ok"
+            }
+          },
+          "error_without_table": {
+            "minutes_weighted": {
+              "ci95": [
+                -1.0367677765373386,
+                -0.09435253815629852
+              ],
+              "df": 94,
+              "mean": -0.5655601573468186,
+              "n": 180,
+              "reading": "below_zero",
+              "se": 0.23732160963435148,
+              "status": "ok"
+            },
+            "unweighted": {
+              "ci95": [
+                -0.6780727830406191,
+                0.3269284099070934
+              ],
+              "df": 94,
+              "mean": -0.17557218656676288,
+              "n": 180,
+              "reading": "includes_zero",
+              "se": 0.25308217766568,
+              "status": "ok"
+            }
+          },
+          "move": {
+            "minutes_weighted": {
+              "ci95": [
+                -0.6239641331732613,
+                -0.5544656970145176
+              ],
+              "df": 94,
+              "mean": -0.5892149150938895,
+              "n": 180,
+              "reading": "below_zero",
+              "se": 0.017501288248052044,
+              "status": "ok"
+            },
+            "unweighted": {
+              "ci95": [
+                -0.6312824579214946,
+                -0.5660543007279082
+              ],
+              "df": 94,
+              "mean": -0.5986683793247014,
+              "n": 180,
+              "reading": "below_zero",
+              "se": 0.01642593479839883,
+              "status": "ok"
+            }
+          }
+        },
+        "n": 180
+      },
+      "israel": {
+        "league": "israel",
+        "means": {
+          "error_with_table": {
+            "minutes_weighted": {
+              "ci95": [
+                -1.270005764350918,
+                0.192198072942373
+              ],
+              "df": 33,
+              "mean": -0.5389038457042724,
+              "n": 49,
+              "reading": "includes_zero",
+              "se": 0.35934943303853467,
+              "status": "ok"
+            },
+            "unweighted": {
+              "ci95": [
+                -0.7356186146012303,
+                0.5904962724839488
+              ],
+              "df": 33,
+              "mean": -0.07256117105864084,
+              "n": 49,
+              "reading": "includes_zero",
+              "se": 0.3259043784894915,
+              "status": "ok"
+            }
+          },
+          "error_without_table": {
+            "minutes_weighted": {
+              "ci95": [
+                -0.8978618293291925,
+                0.5554594862802142
+              ],
+              "df": 33,
+              "mean": -0.1712011715244891,
+              "n": 49,
+              "reading": "includes_zero",
+              "se": 0.35716647533479556,
+              "status": "ok"
+            },
+            "unweighted": {
+              "ci95": [
+                -0.3615035836486936,
+                0.9627260948012025
+              ],
+              "df": 33,
+              "mean": 0.30061125557625445,
+              "n": 49,
+              "reading": "includes_zero",
+              "se": 0.32544107191282273,
+              "status": "ok"
+            }
+          },
+          "move": {
+            "minutes_weighted": {
+              "ci95": [
+                -0.38450117753459134,
+                -0.3509041708249748
+              ],
+              "df": 33,
+              "mean": -0.3677026741797831,
+              "n": 49,
+              "reading": "below_zero",
+              "se": 0.008256759423666386,
+              "status": "ok"
+            },
+            "unweighted": {
+              "ci95": [
+                -0.3895195486065543,
+                -0.3568253046632364
+              ],
+              "df": 33,
+              "mean": -0.37317242663489536,
+              "n": 49,
+              "reading": "below_zero",
+              "se": 0.008034897546434395,
+              "status": "ok"
+            }
+          }
+        },
+        "n": 49
+      }
+    }
+  },
+  "e29b": {
+    "n": 674,
+    "rows": {
+      "aba": {
+        "league": "aba-league",
+        "means": {
+          "error_with_table": {
+            "minutes_weighted": {
+              "ci95": [
+                -1.687173797139743,
+                0.7691856606694494
+              ],
+              "df": 35,
+              "mean": -0.4589940682351468,
+              "n": 70,
+              "reading": "includes_zero",
+              "se": 0.6049824799034741,
+              "status": "ok"
+            },
+            "unweighted": {
+              "ci95": [
+                -1.1529015127344642,
+                1.0394893446642324
+              ],
+              "df": 35,
+              "mean": -0.056706084035115976,
+              "n": 70,
+              "reading": "includes_zero",
+              "se": 0.5399690397958837,
+              "status": "ok"
+            }
+          },
+          "error_without_table": {
+            "minutes_weighted": {
+              "ci95": [
+                -1.1148572362753741,
+                1.2416602196502304
+              ],
+              "df": 35,
+              "mean": 0.06340149168742816,
+              "n": 70,
+              "reading": "includes_zero",
+              "se": 0.5803921612080446,
+              "status": "ok"
+            },
+            "unweighted": {
+              "ci95": [
+                -0.5516431770168377,
+                1.4959929877399276
+              ],
+              "df": 35,
+              "mean": 0.472174905361545,
+              "n": 70,
+              "reading": "includes_zero",
+              "se": 0.5043170701080729,
+              "status": "ok"
+            }
+          },
+          "move": {
+            "minutes_weighted": {
+              "ci95": [
+                -0.6486738037765755,
+                -0.39611731606857437
+              ],
+              "df": 35,
+              "mean": -0.5223955599225749,
+              "n": 70,
+              "reading": "below_zero",
+              "se": 0.0622027243462046,
+              "status": "ok"
+            },
+            "unweighted": {
+              "ci95": [
+                -0.6522162572254185,
+                -0.40554572156790336
+              ],
+              "df": 35,
+              "mean": -0.528880989396661,
+              "n": 70,
+              "reading": "below_zero",
+              "se": 0.06075305953563494,
+              "status": "ok"
+            }
+          }
+        },
+        "n": 70
+      },
+      "all": {
+        "league": null,
+        "means": {
+          "error_with_table": {
+            "minutes_weighted": {
+              "ci95": [
+                -1.2762532352843559,
+                -0.6481986483148738
+              ],
+              "df": 200,
+              "mean": -0.9622259417996148,
+              "n": 674,
+              "reading": "below_zero",
+              "se": 0.1592514300301442,
+              "status": "ok"
+            },
+            "unweighted": {
+              "ci95": [
+                -0.7996965371452412,
+                -0.14497377809052447
+              ],
+              "df": 200,
+              "mean": -0.47233515761788286,
+              "n": 674,
+              "reading": "below_zero",
+              "se": 0.1660134928014013,
+              "status": "ok"
+            }
+          },
+          "error_without_table": {
+            "minutes_weighted": {
+              "ci95": [
+                -1.293001227569025,
+                -0.6445904403434337
+              ],
+              "df": 200,
+              "mean": -0.9687958339562294,
+              "n": 674,
+              "reading": "below_zero",
+              "se": 0.1644130100393081,
+              "status": "ok"
+            },
+            "unweighted": {
+              "ci95": [
+                -0.781421938259796,
+                -0.1046212112588148
+              ],
+              "df": 200,
+              "mean": -0.44302157475930537,
+              "n": 674,
+              "reading": "below_zero",
+              "se": 0.17161164945935614,
+              "status": "ok"
+            }
+          },
+          "move": {
+            "minutes_weighted": {
+              "ci95": [
+                -0.07905018434406548,
+                0.09218996865729433
+              ],
+              "df": 200,
+              "mean": 0.006569892156614418,
+              "n": 674,
+              "reading": "includes_zero",
+              "se": 0.04342017367571957,
+              "status": "ok"
+            },
+            "unweighted": {
+              "ci95": [
+                -0.11107068317823028,
+                0.05244351746107519
+              ],
+              "df": 200,
+              "mean": -0.029313582858577547,
+              "n": 674,
+              "reading": "includes_zero",
+              "se": 0.04146115771193407,
+              "status": "ok"
+            }
+          }
+        },
+        "n": 674
+      },
+      "israel": {
+        "league": "israel-bsl",
+        "means": {
+          "error_with_table": {
+            "minutes_weighted": {
+              "ci95": [
+                -1.5347675793135027,
+                0.3187003851297834
+              ],
+              "df": 30,
+              "mean": -0.6080335970918597,
+              "n": 49,
+              "reading": "includes_zero",
+              "se": 0.4537758805698492,
+              "status": "ok"
+            },
+            "unweighted": {
+              "ci95": [
+                -1.284599014149082,
+                0.3075429437571539
+              ],
+              "df": 30,
+              "mean": -0.48852803519596405,
+              "n": 49,
+              "reading": "includes_zero",
+              "se": 0.3897966583728418,
+              "status": "ok"
+            }
+          },
+          "error_without_table": {
+            "minutes_weighted": {
+              "ci95": [
+                -1.0309716529903592,
+                0.8424148832095694
+              ],
+              "df": 30,
+              "mean": -0.09427838489039488,
+              "n": 49,
+              "reading": "includes_zero",
+              "se": 0.45865245119958703,
+              "status": "ok"
+            },
+            "unweighted": {
+              "ci95": [
+                -0.7926123750831571,
+                0.8119976001604958
+              ],
+              "df": 30,
+              "mean": 0.009692612538669348,
+              "n": 49,
+              "reading": "includes_zero",
+              "se": 0.39284914466059145,
+              "status": "ok"
+            }
+          },
+          "move": {
+            "minutes_weighted": {
+              "ci95": [
+                -0.5638333275030258,
+                -0.4636770968999038
+              ],
+              "df": 30,
+              "mean": -0.5137552122014648,
+              "n": 49,
+              "reading": "below_zero",
+              "se": 0.024520780832669873,
+              "status": "ok"
+            },
+            "unweighted": {
+              "ci95": [
+                -0.5432776590707833,
+                -0.45316363639848345
+              ],
+              "df": 30,
+              "mean": -0.49822064773463337,
+              "n": 49,
+              "reading": "below_zero",
+              "se": 0.022062194100072582,
+              "status": "ok"
+            }
+          }
+        },
+        "n": 49
+      }
+    }
+  },
+  "e29c": {
+    "rows": {
+      "aba": {
+        "minutes_weighted": {
+          "benchmark": 0.06340149168742816,
+          "change": -0.7903510910083883,
+          "ci95": [
+            -2.12958264213755,
+            0.5488804601207732
+          ],
+          "detectable_80": 1.9012909311955724,
+          "df": 35,
+          "n_benchmark": 70,
+          "n_older": 131,
+          "older": -0.7269495993209601,
+          "reading": "includes_zero",
+          "se": 0.6596849027053375
+        },
+        "unweighted": {
+          "benchmark": 0.472174905361545,
+          "change": -0.8258615092184441,
+          "ci95": [
+            -2.044159295348052,
+            0.3924362769111637
+          ],
+          "detectable_80": 1.7296027190450116,
+          "df": 35,
+          "n_benchmark": 70,
+          "n_older": 131,
+          "older": -0.35368660385689915,
+          "reading": "includes_zero",
+          "se": 0.6001147865963969
+        }
+      },
+      "israel": {
+        "minutes_weighted": {
+          "benchmark": -0.09427838489039488,
+          "change": -0.07692278663409423,
+          "ci95": [
+            -1.264131375768643,
+            1.1102858025004545
+          ],
+          "detectable_80": 1.6835183850255135,
+          "df": 30,
+          "n_benchmark": 49,
+          "n_older": 49,
+          "older": -0.1712011715244891,
+          "reading": "includes_zero",
+          "se": 0.581317436599377
+        },
+        "unweighted": {
+          "benchmark": 0.009692612538669348,
+          "change": 0.2909186430375851,
+          "ci95": [
+            -0.7509252713141051,
+            1.3327625573892754
+          ],
+          "detectable_80": 1.4773843452536182,
+          "df": 30,
+          "n_benchmark": 49,
+          "n_older": 49,
+          "older": 0.30061125557625445,
+          "reading": "includes_zero",
+          "se": 0.5101395316463186
+        }
+      }
+    }
+  },
+  "estimator": {
+    "arms": {
+      "destination_only": "history_destination_slope",
+      "league_aware": "source_ridge_10"
+    },
+    "change": "error without the table, older arrivals minus arrivals of 2020-2025; the two samples treated as independent, standard errors combined in quadrature, the smaller of the two degrees of freedom",
+    "detectable_80": "(t(0.975, df) + t(0.80, df)) x SE",
+    "interval": "two-way clustered 95% interval (player, destination club-season), Student t with min(clusters) - 1 degrees of freedom",
+    "quantities": {
+      "error_with_table": "league-aware forecast minus outcome",
+      "error_without_table": "destination-only forecast minus outcome",
+      "move": "league-aware forecast minus destination-only forecast"
+    },
+    "weights": "destination minutes (minutes_dest)"
+  },
+  "exploratory": true,
+  "exposure": {
+    "not_seen_before_this_run": [
+      "any two-way clustered interval for the quantities of E29",
+      "their versions weighted by destination minutes",
+      "the change between the two periods",
+      "any per-league number of the withheld version of the older-seasons test"
+    ],
+    "on_file_before_registration": [
+      "the committed Amendment 4 output (E24) holds, for every source league of the 674, the mean error of the destination-only and of the league-aware forecast not centred on the average arrival, with bootstrap intervals. E29b's unweighted point estimates of the two errors on the 674 are therefore not new numbers, although Amendment 11 lists them as not seen in E29's form. This run reproduces them as a check"
+    ],
+    "seen_before_registration": [
+      "every outcome E29 uses",
+      "on the older arrivals, in one unregistered look after the E28 result (disclosed in Amendment 10), for the version without Spain's ACB: by source league, the number of arrivals, the mean move made by the league table, the mean error of the destination-only and of the league-aware forecast, and G_D unweighted and weighted by minutes; the same by destination competition, and G_D by destination season",
+      "on the arrivals of 2020-2025: the paper's league-bias figure and table (each league's error measured against the average arrival), and the yearly refits of each league's equivalent"
+    ]
+  },
+  "further_reading": "The older-seasons outcomes were read in the single Amendment 7 scoring run and again in E28; E29 is a further reading of them. No rule of that run is changed and nothing is re-scored.",
+  "gates": {
+    "E24_cross_check": {
+      "max_difference": 2.7755575615628914e-16,
+      "negative_control": "rejected as required",
+      "status": "passed",
+      "tolerance": 1e-09
+    },
+    "G0": {
+      "max_difference": 1.3322676295501878e-15,
+      "negative_control": "rejected as required",
+      "status": "passed",
+      "tolerance": 1e-09
+    },
+    "G29a": {
+      "control_input": "the outcome column shuffled across rows",
+      "max_difference": 0.0,
+      "negative_control": "rejected as required",
+      "status": "passed",
+      "tolerance": 1e-09
+    },
+    "G29b": {
+      "control_input": "the league-aware forecast column shifted by 0.01",
+      "max_difference": 0.0,
+      "negative_control": "rejected as required",
+      "status": "passed",
+      "tolerance": 1e-09
+    },
+    "G29c": {
+      "control_input": "one league's rows dropped from the sum",
+      "max_difference": 6.661338147750939e-16,
+      "negative_control": "rejected as required",
+      "status": "passed",
+      "tolerance": 1e-09
+    },
+    "G29d": {
+      "files_checked": [
+        "summary.json",
+        "e29_change.csv",
+        "e29_means.csv"
+      ],
+      "negative_control": "rejected as required",
+      "status": "passed",
+      "values_checked": 82
+    },
+    "frozen_forecasts": {
+      "max_difference": 3.552713678800501e-15,
+      "negative_control": "rejected as required",
+      "status": "passed",
+      "tolerance": 1e-12
+    },
+    "league_map": {
+      "leagues": {
+        "aba": {
+          "benchmark": 70,
+          "benchmark_league": "aba-league",
+          "older": 131
+        },
+        "israel": {
+          "benchmark": 49,
+          "benchmark_league": "israel-bsl",
+          "older": 49
+        }
+      },
+      "negative_control": "rejected as required",
+      "older_seasons": [
+        2008,
+        2015
+      ],
+      "status": "passed"
+    },
+    "scope": {
+      "negative_control": "rejected as required",
+      "pools": 12,
+      "seasons": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "status": "passed",
+      "targets": 674
+    },
+    "scoring_run": {
+      "max_difference": 1.7867651802561113e-16,
+      "negative_control": "rejected as required",
+      "status": "passed",
+      "tolerance": 1e-09
+    }
+  },
+  "input_sha256": {
+    "cohort": "c629f43e3194642d483701c3d07666252938d587e747c99dbb031a2346bf2abf",
+    "docs/paper/ssac27/release.json": "7c5daff3f0d5701d9c2305d1c4912e4666f242f2f833e60c1d1f17e6300f1f09",
+    "docs/research/artifacts/sloan-fullpaper-amend4-2026-11/e24_league_bias.csv": "f9bbcddc250fe488aaedfebf7a572b568cccb28bb14cf82f76123428a27c28ad",
+    "docs/research/artifacts/sloan-fullpaper-amend4-2026-11/e24_level.csv": "4aa5483cfcde4c0fafb8f2feba19a7faf6fc6f9370e1351f9f1fa26fd6435e4c",
+    "docs/research/artifacts/sloan-fullpaper-amend9-2026-11/summary.json": "da97930085208070b8ce8e24ba4a813d8c5225690992bd240f8189d5751a0b22",
+    "docs/research/artifacts/sloan-fullpaper-older-seasons-2026-11/e27_arrivals.csv": "7356ba0bd35945ea8fb8a152d2d167c5dc1eb4d0f7849a08f627cf172ae3a800",
+    "docs/research/artifacts/sloan-fullpaper-older-seasons-2026-11/e27_summary.json": "cf81c15dbc900b099fd887683a091b5d8ffcd6767eaab15fe588d8374fe5b53b",
+    "docs/research/artifacts/sloan-fullpaper-older-seasons-paper-2026-11/e27_paper.json": "7fdaa0a66a1c8ec49376ddfe1a81de724b071dff8185f7c25a682783716bd69b",
+    "frozen_older_season_forecasts": "1d3e3bfb9d08b9d034668dac238e316cb96c4a548af689a3acf7435224df3027",
+    "pairs": "d964727924630dbf32c1764daf1e536c81d58988218a230fea591c62c1a62f58"
+  },
+  "leagues": {
+    "aba": "the Adriatic league",
+    "israel": "Israel"
+  },
+  "licences": {
+    "caveat": "this shows where the forecast missed; it cannot separate a change in league strength from a change in which players clubs signed, in the data source or in the level of the forecasts",
+    "change": {
+      "aba": {
+        "minutes_weighted": {
+          "reading": "includes_zero",
+          "registered_wording": "for arrivals from L the change between the two periods is not distinguishable from zero at this n (X EFF/36, interval)",
+          "sentence": "for arrivals from the Adriatic league the change between the two periods is not distinguishable from zero at this n (-0.79 EFF/36, interval -2.13 to 0.55)"
+        },
+        "unweighted": {
+          "reading": "includes_zero",
+          "registered_wording": "for arrivals from L the change between the two periods is not distinguishable from zero at this n (X EFF/36, interval)",
+          "sentence": "for arrivals from the Adriatic league the change between the two periods is not distinguishable from zero at this n (-0.83 EFF/36, interval -2.04 to 0.39)"
+        }
+      },
+      "israel": {
+        "minutes_weighted": {
+          "reading": "includes_zero",
+          "registered_wording": "for arrivals from L the change between the two periods is not distinguishable from zero at this n (X EFF/36, interval)",
+          "sentence": "for arrivals from Israel the change between the two periods is not distinguishable from zero at this n (-0.08 EFF/36, interval -1.26 to 1.11)"
+        },
+        "unweighted": {
+          "reading": "includes_zero",
+          "registered_wording": "for arrivals from L the change between the two periods is not distinguishable from zero at this n (X EFF/36, interval)",
+          "sentence": "for arrivals from Israel the change between the two periods is not distinguishable from zero at this n (+0.29 EFF/36, interval -0.75 to 1.33)"
+        }
+      }
+    },
+    "consistent_with": {
+      "condition_met": false,
+      "condition_met_minutes_weighted": false,
+      "registered_wording": "the table shows where the forecast missed and not why",
+      "rule": "may be written only if the change between periods excludes zero for at least one league; read on the unweighted change (the stricter reading: the weighted change cannot license it alone)"
+    },
+    "leagues": {
+      "aba": {
+        "minutes_weighted": {
+          "registered_wording": "on the older arrivals the league table lowered [raised] the forecast for arrivals from L by X EFF/36; without the table the forecast was Y EFF/36 (interval) below [above] what they delivered, and with it Z (interval)",
+          "sentence": "on the older arrivals the league table lowered the forecast for arrivals from the Adriatic league by 0.68 EFF/36; without the table the forecast was 0.73 EFF/36 (interval -1.35 to -0.10) below what they delivered, and with it 1.41 (interval -2.04 to -0.78)"
+        },
+        "unweighted": {
+          "registered_wording": "on the older arrivals the league table lowered [raised] the forecast for arrivals from L by X EFF/36; without the table the forecast was Y EFF/36 (interval) below [above] what they delivered, and with it Z (interval)",
+          "sentence": "on the older arrivals the league table lowered the forecast for arrivals from the Adriatic league by 0.68 EFF/36; without the table the forecast was 0.35 EFF/36 (interval -1.00 to 0.30) below what they delivered, and with it 1.04 (interval -1.69 to -0.38)"
+        }
+      },
+      "israel": {
+        "minutes_weighted": {
+          "registered_wording": "on the older arrivals the league table lowered [raised] the forecast for arrivals from L by X EFF/36; without the table the forecast was Y EFF/36 (interval) below [above] what they delivered, and with it Z (interval)",
+          "sentence": "on the older arrivals the league table lowered the forecast for arrivals from Israel by 0.37 EFF/36; without the table the forecast was 0.17 EFF/36 (interval -0.90 to 0.56) below what they delivered, and with it 0.54 (interval -1.27 to 0.19)"
+        },
+        "unweighted": {
+          "registered_wording": "on the older arrivals the league table lowered [raised] the forecast for arrivals from L by X EFF/36; without the table the forecast was Y EFF/36 (interval) below [above] what they delivered, and with it Z (interval)",
+          "sentence": "on the older arrivals the league table lowered the forecast for arrivals from Israel by 0.37 EFF/36; without the table the forecast was 0.30 EFF/36 (interval -0.36 to 0.96) above what they delivered, and with it 0.07 (interval -0.74 to 0.59) below"
+        }
+      }
+    },
+    "limits": [
+      "On the older arrivals the forecasts come from the model fitted on every season through 2025. On the arrivals of 2020\u20132025 each forecast comes from a model fitted on earlier seasons only.",
+      "The older source statistics come from the leagues' own box scores. The source statistics of 2020\u20132025 come from a different provider.",
+      "A mean error also carries the general level of the forecasts in that period. The rows for all arrivals are printed so that a reader can see that level."
+    ],
+    "no_cause": "The paper does not write that a league was stronger or weaker in either period, and does not write 'because'."
+  },
+  "printed_version": "V-noACB",
+  "protocol_commit": "f52e7c831fef6759eab202c8ff8c56fa76037533",
+  "protocol_sha256": "6c6002f9a96f954eeaac4082a02471bcd7017879df07e2a0630de07e345a5194",
+  "sentences": [
+    "on the older arrivals the league table lowered the forecast for arrivals from the Adriatic league by 0.68 EFF/36; without the table the forecast was 0.35 EFF/36 (interval -1.00 to 0.30) below what they delivered, and with it 1.04 (interval -1.69 to -0.38)",
+    "on the older arrivals the league table lowered the forecast for arrivals from Israel by 0.37 EFF/36; without the table the forecast was 0.30 EFF/36 (interval -0.36 to 0.96) above what they delivered, and with it 0.07 (interval -0.74 to 0.59) below",
+    "for arrivals from the Adriatic league the change between the two periods is not distinguishable from zero at this n (-0.83 EFF/36, interval -2.04 to 0.39)",
+    "for arrivals from Israel the change between the two periods is not distinguishable from zero at this n (+0.29 EFF/36, interval -0.75 to 1.33)"
+  ],
+  "withheld": {
+    "computed_in_the_same_run": true,
+    "reason": "ACB's written permission had not arrived (Amendment 7's permission rule)",
+    "version": "V-all"
+  }
+}

@@ -1,0 +1,5 @@
+draw_order,player_name,season,league_src,league_dest,person,api_season,api_league,api_club,api_games,api_spell,api_roster_size,domestic_records_same_key,api_roster_found_by_domestic_league
+37,GEDIMINAS ORELIK,2024,lithuania-lkl,eurocup,P002012,2021,eurocup,LKB,15,2021-10-20..2022-04-20,11,lithuania-lkl|Lietkabelis:same(11/11):24g:2021-09-18..2022-04-24,lithuania-lkl:11
+37,GEDIMINAS ORELIK,2024,lithuania-lkl,eurocup,P002012,2022,eurocup,LKB,8,2023-01-18..2023-03-29,12,lithuania-lkl|Lietkabelis:same(12/12):11g:2023-01-28..2023-05-09; turkey-bsl|Besiktas S.J.:different(0/0):15g:2022-10-03..2023-01-13,lithuania-lkl:12; poland-plk:1
+37,GEDIMINAS ORELIK,2024,lithuania-lkl,eurocup,P002012,2023,eurocup,LKB,16,2023-10-04..2024-01-30,13,lithuania-lkl|Lietkabelis:same(13/13):27g:2023-09-16..2024-05-09,germany-bbl:1; lithuania-lkl:13; poland-plk:1
+37,GEDIMINAS ORELIK,2024,lithuania-lkl,eurocup,P002012,2024,eurocup,CLU,12,2024-11-28..2025-03-12,15,lithuania-lkl|Juventus:different(0/0):9g:2024-09-25..2024-11-16,none

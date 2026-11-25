@@ -1,0 +1,7 @@
+{
+  "public_repo": "https://github.com/AT020993/cross-league-translation",
+  "public_cut_updated": false,
+  "note": "The public companion repository holds only the v10 cut. Amir publishes the full paper as an additive commit tagged ssac27-fullpaper-2026-11. Set public_cut_updated to true only after the tag is public; render --final refuses until then.",
+  "acb_written_permission": false,
+  "acb_note": "Amendment 7 (E27): the paper prints the all-three-leagues version of the older-seasons test only if ACB's written permission has arrived by the analysis lock; otherwise it prints the version without ACB. Amir sets acb_written_permission to true when he holds that permission in writing; then the E27 paper extract (scripts/sloan_fullpaper_older_seasons_paper.py) and the paper are re-run. While it is false, nothing derived from ACB is printed in the paper or carried in the public cut."
+}

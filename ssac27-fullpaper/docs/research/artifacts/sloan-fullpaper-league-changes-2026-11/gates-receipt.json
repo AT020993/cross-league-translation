@@ -1,0 +1,37 @@
+{
+  "arguments": [
+    "gates",
+    "--out",
+    "out"
+  ],
+  "code_files": 2580,
+  "entrypoint": "scripts/sloan_fullpaper_league_changes.py",
+  "generator_commit": "9eac352fdef540ca14f4215e629865299c33e3d7",
+  "generator_sha256": "a22cdb9d5da211e53f0a173333345ad277a7318e5c4d9b5124d2f9a4e6f79069",
+  "inputs": 1,
+  "outputs": {
+    "out/e30_made_up_gates.json": "3c3754257d6abaa5199da0cd932dab2cd21198a164a18962c842cbfc9e889e28",
+    "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.log": "3cc2eb11c3b63ceb1ab76f5ef6719a7011064a99b0413456ee3c78cd67bf09fa"
+  },
+  "returncode": 0,
+  "run_dir": "league-changes-gates-01",
+  "selections": [
+    "docs/research/artifacts/sloan-fullpaper-amend1-decisions-2026-11/exchange_rate_acb16.csv"
+  ],
+  "snapshot": "e2e1b37aba77fcd87b4d342397aaa77968ef1f7a2e1ea43adf3dc4a57b754ecf",
+  "source_seasons": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "status": "complete"
+}

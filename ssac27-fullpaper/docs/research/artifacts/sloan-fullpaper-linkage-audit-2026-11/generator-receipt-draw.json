@@ -1,0 +1,15 @@
+{
+  "arguments_stage": "draw",
+  "code_files": 2508,
+  "entrypoint": "scripts/sloan_fullpaper_linkage_audit.py",
+  "generator_sha256": "83707663c1daddc268a4b31bd4712200d3448910288015683e4a28a8e82080ed",
+  "hand_review_argument": false,
+  "inputs": 3,
+  "outputs": {
+    "out/e13_draw.json": "879f2a8f482efe2983ed7915e51768c0126d86c72862ce4e24c58d5ab7b2eaf0",
+    "out/e13_drawn_keys.csv": "b19d70139ba62e2da8a8ae1ad43a3bf475a06d9cbb2df711e23661ea41ba604d"
+  },
+  "returncode": 0,
+  "run_dir": "research-runs/sloan-fullpaper/linkage-audit-01",
+  "status": "complete"
+}

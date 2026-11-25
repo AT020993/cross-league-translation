@@ -1,0 +1,27 @@
+{
+  "code_files": 2589,
+  "entrypoint": "scripts/sloan_fullpaper_prospective_score.py",
+  "generator_commit": "28d709db15d9ea7494474ed56f9e7eb773ea36c9",
+  "generator_sha256": "08e90c8c674798d4e6f0d84d71617cdc8920d4af183233fd5149f1f5557f02be",
+  "inputs": 14,
+  "key_outputs": {
+    "out/rehearsal.json": "2da5e9fa742f18c73194936b3e14feb96a579e87bf06a2c85caf5c0157cd1708"
+  },
+  "outputs": 148,
+  "returncode": 0,
+  "run_dir": "research-runs/sloan-fullpaper/p1-rehearsal-03",
+  "selections": [
+    "docs/research/sloan-full-paper-preregistration-2026-11-03.md",
+    "docs/research/sloan-full-paper-preregistration-amendment-18-2026-11-18.md",
+    "docs/research/artifacts/sloan-fullpaper-recipes-2026-11/summary.json",
+    "docs/research/artifacts/sloan-fullpaper-amend9-2026-11/summary.json",
+    "docs/research/artifacts/sloan-fullpaper-robustness-2026-11-03/summary.json",
+    "docs/research/artifacts/sloan-fullpaper-public-tables-2026-11/e7_keyed_forecasts.csv",
+    "docs/research/artifacts/sloan-fullpaper-p1-freeze-2026-11",
+    "docs/research/artifacts/sloan-fullpaper-p1-scorer-2026-11/p1_band_half_widths.json"
+  ],
+  "source_seasons": [
+    2026
+  ],
+  "status": "complete"
+}

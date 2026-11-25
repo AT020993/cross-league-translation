@@ -1,0 +1,1512 @@
+{
+  "status": "complete",
+  "repetition_count": 400,
+  "source_summary_sha256": "16bdf0beb6f7376be56bf5bb27c75ac121a1d061566d5732028e4d89d00b623c",
+  "source_manifest_sha256": "a2439320c935603a25d59bfcba4b0a0dfccbbe1722f042e1334b6b7e90367522",
+  "protocol_sha256": "95d389d316d72f58b897618d5e3b8738ae1fbb8a442e9c1401f4bbe944237978",
+  "generator_sha256": "d84241480633964c6e28df1bf453c41f3a2880e24d2368907294dd864693dd36",
+  "verifier_sha256": "336c26b72d0618af3bf2ceb83138c6f00dce017b8b44d955a15731d70957c97c",
+  "references": {
+    "full": {
+      "status": "complete_target",
+      "support": {
+        "n": 674,
+        "nonfallback": 566,
+        "fallback": 108,
+        "unavailable": 0
+      },
+      "metrics": {
+        "source_ridge_1": {
+          "n_scored": 674,
+          "mae": 2.9279994548059887,
+          "refusals": {}
+        },
+        "source_ridge_1_scheduled": {
+          "n_scored": 674,
+          "mae": 2.932311691806444,
+          "refusals": {}
+        },
+        "source_ridge_10": {
+          "n_scored": 674,
+          "mae": 2.924039934533798,
+          "refusals": {}
+        },
+        "source_ridge_10_scheduled": {
+          "n_scored": 674,
+          "mae": 2.925785936557088,
+          "refusals": {}
+        },
+        "source_ridge_100": {
+          "n_scored": 674,
+          "mae": 2.9421941673867,
+          "refusals": {}
+        },
+        "source_ridge_100_scheduled": {
+          "n_scored": 674,
+          "mae": 2.9285497874452777,
+          "refusals": {}
+        },
+        "cell_slope_1": {
+          "n_scored": 674,
+          "mae": 3.016922288725745,
+          "refusals": {}
+        },
+        "cell_slope_1_scheduled": {
+          "n_scored": 674,
+          "mae": 3.023961334562093,
+          "refusals": {}
+        },
+        "cell_slope_10": {
+          "n_scored": 674,
+          "mae": 2.9928746182559416,
+          "refusals": {}
+        },
+        "cell_slope_10_scheduled": {
+          "n_scored": 674,
+          "mae": 2.998023005041431,
+          "refusals": {}
+        },
+        "cell_slope_100": {
+          "n_scored": 674,
+          "mae": 2.9571885749128275,
+          "refusals": {}
+        },
+        "cell_slope_100_scheduled": {
+          "n_scored": 674,
+          "mae": 2.9580347950975234,
+          "refusals": {}
+        }
+      },
+      "increments": {
+        "source_ridge_1": -0.0043122370004553545,
+        "source_ridge_10": -0.0017460020232902274,
+        "source_ridge_100": 0.013644379941422091,
+        "cell_slope_1": -0.007039045836347846,
+        "cell_slope_10": -0.005148386785489567,
+        "cell_slope_100": -0.0008462201846959339
+      },
+      "by_season": {
+        "2020": {
+          "n": 134,
+          "nonfallback": 103,
+          "fallback": 31,
+          "unavailable": 0
+        },
+        "2021": {
+          "n": 101,
+          "nonfallback": 74,
+          "fallback": 27,
+          "unavailable": 0
+        },
+        "2022": {
+          "n": 106,
+          "nonfallback": 92,
+          "fallback": 14,
+          "unavailable": 0
+        },
+        "2023": {
+          "n": 102,
+          "nonfallback": 97,
+          "fallback": 5,
+          "unavailable": 0
+        },
+        "2024": {
+          "n": 104,
+          "nonfallback": 87,
+          "fallback": 17,
+          "unavailable": 0
+        },
+        "2025": {
+          "n": 127,
+          "nonfallback": 113,
+          "fallback": 14,
+          "unavailable": 0
+        }
+      },
+      "by_destination": {
+        "eurocup": {
+          "n": 480,
+          "nonfallback": 407,
+          "fallback": 73,
+          "unavailable": 0
+        },
+        "euroleague": {
+          "n": 194,
+          "nonfallback": 159,
+          "fallback": 35,
+          "unavailable": 0
+        }
+      }
+    },
+    "verified": {
+      "status": "complete_target",
+      "support": {
+        "n": 674,
+        "nonfallback": 118,
+        "fallback": 556,
+        "unavailable": 0
+      },
+      "metrics": {
+        "source_ridge_1": {
+          "n_scored": 674,
+          "mae": 2.9279994548059887,
+          "refusals": {}
+        },
+        "source_ridge_1_scheduled": {
+          "n_scored": 674,
+          "mae": 2.9343108781445437,
+          "refusals": {}
+        },
+        "source_ridge_10": {
+          "n_scored": 674,
+          "mae": 2.924039934533798,
+          "refusals": {}
+        },
+        "source_ridge_10_scheduled": {
+          "n_scored": 674,
+          "mae": 2.930727402217212,
+          "refusals": {}
+        },
+        "source_ridge_100": {
+          "n_scored": 674,
+          "mae": 2.9421941673867,
+          "refusals": {}
+        },
+        "source_ridge_100_scheduled": {
+          "n_scored": 674,
+          "mae": 2.950955539019117,
+          "refusals": {}
+        },
+        "cell_slope_1": {
+          "n_scored": 674,
+          "mae": 3.016922288725745,
+          "refusals": {}
+        },
+        "cell_slope_1_scheduled": {
+          "n_scored": 674,
+          "mae": 3.029343573191448,
+          "refusals": {}
+        },
+        "cell_slope_10": {
+          "n_scored": 674,
+          "mae": 2.9928746182559416,
+          "refusals": {}
+        },
+        "cell_slope_10_scheduled": {
+          "n_scored": 674,
+          "mae": 3.0029927939146046,
+          "refusals": {}
+        },
+        "cell_slope_100": {
+          "n_scored": 674,
+          "mae": 2.9571885749128275,
+          "refusals": {}
+        },
+        "cell_slope_100_scheduled": {
+          "n_scored": 674,
+          "mae": 2.9650113996987195,
+          "refusals": {}
+        }
+      },
+      "increments": {
+        "source_ridge_1": -0.0063114233385550556,
+        "source_ridge_10": -0.006687467683414106,
+        "source_ridge_100": -0.008761371632417081,
+        "cell_slope_1": -0.012421284465702787,
+        "cell_slope_10": -0.01011817565866302,
+        "cell_slope_100": -0.007822824785892024
+      },
+      "by_season": {
+        "2020": {
+          "n": 134,
+          "nonfallback": 6,
+          "fallback": 128,
+          "unavailable": 0
+        },
+        "2021": {
+          "n": 101,
+          "nonfallback": 7,
+          "fallback": 94,
+          "unavailable": 0
+        },
+        "2022": {
+          "n": 106,
+          "nonfallback": 24,
+          "fallback": 82,
+          "unavailable": 0
+        },
+        "2023": {
+          "n": 102,
+          "nonfallback": 19,
+          "fallback": 83,
+          "unavailable": 0
+        },
+        "2024": {
+          "n": 104,
+          "nonfallback": 24,
+          "fallback": 80,
+          "unavailable": 0
+        },
+        "2025": {
+          "n": 127,
+          "nonfallback": 38,
+          "fallback": 89,
+          "unavailable": 0
+        }
+      },
+      "by_destination": {
+        "eurocup": {
+          "n": 480,
+          "nonfallback": 50,
+          "fallback": 430,
+          "unavailable": 0
+        },
+        "euroleague": {
+          "n": 194,
+          "nonfallback": 68,
+          "fallback": 126,
+          "unavailable": 0
+        }
+      }
+    }
+  },
+  "controls": {
+    "season_count": {
+      "repetitions": 200,
+      "incomplete_targets": [],
+      "support": {
+        "nonfallback": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 48.0,
+          "q025": 70.95,
+          "median": 91.0,
+          "q975": 114.025,
+          "maximum": 129.0
+        },
+        "fallback": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 545.0,
+          "q025": 559.975,
+          "median": 583.0,
+          "q975": 603.05,
+          "maximum": 626.0
+        },
+        "unavailable": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 0.0,
+          "q025": 0.0,
+          "median": 0.0,
+          "q975": 0.0,
+          "maximum": 0.0
+        }
+      },
+      "mae": {
+        "source_ridge_1": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 2.9279994548059887,
+          "q025": 2.9279994548059887,
+          "median": 2.9279994548059887,
+          "q975": 2.9279994548059887,
+          "maximum": 2.9279994548059887
+        },
+        "source_ridge_1_scheduled": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 2.899300372202829,
+          "q025": 2.9101157596513065,
+          "median": 2.9330671559831947,
+          "q975": 2.95245127648428,
+          "maximum": 3.001121047158892
+        },
+        "source_ridge_10": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 2.924039934533798,
+          "q025": 2.924039934533798,
+          "median": 2.924039934533798,
+          "q975": 2.924039934533798,
+          "maximum": 2.924039934533798
+        },
+        "source_ridge_10_scheduled": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 2.896589494442635,
+          "q025": 2.9084214520457032,
+          "median": 2.9289396788428026,
+          "q975": 2.948112850031806,
+          "maximum": 2.999806683121087
+        },
+        "source_ridge_100": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 2.9421941673867,
+          "q025": 2.9421941673867,
+          "median": 2.9421941673867,
+          "q975": 2.9421941673867,
+          "maximum": 2.9421941673867
+        },
+        "source_ridge_100_scheduled": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 2.9223900050267866,
+          "q025": 2.9359498487380753,
+          "median": 2.948377793002413,
+          "q975": 2.9649937353098,
+          "maximum": 3.022733818760378
+        },
+        "cell_slope_1": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 3.016922288725745,
+          "q025": 3.016922288725745,
+          "median": 3.016922288725745,
+          "q975": 3.016922288725745,
+          "maximum": 3.016922288725745
+        },
+        "cell_slope_1_scheduled": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 2.990022424813105,
+          "q025": 3.001526471426133,
+          "median": 3.025679939886757,
+          "q975": 3.0489298611013815,
+          "maximum": 3.1157670289030364
+        },
+        "cell_slope_10": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 2.9928746182559416,
+          "q025": 2.9928746182559416,
+          "median": 2.9928746182559416,
+          "q975": 2.9928746182559416,
+          "maximum": 2.9928746182559416
+        },
+        "cell_slope_10_scheduled": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 2.965715221178743,
+          "q025": 2.9766406006533406,
+          "median": 3.0000607967119226,
+          "q975": 3.0245776649932044,
+          "maximum": 3.0559927476472515
+        },
+        "cell_slope_100": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 2.9571885749128275,
+          "q025": 2.9571885749128275,
+          "median": 2.9571885749128275,
+          "q975": 2.9571885749128275,
+          "maximum": 2.9571885749128275
+        },
+        "cell_slope_100_scheduled": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 2.9323800252988246,
+          "q025": 2.943227110470664,
+          "median": 2.962176226647065,
+          "q975": 2.9811109997230103,
+          "maximum": 3.012552259000644
+        }
+      },
+      "change_from_full": {
+        "source_ridge_1": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 0.0,
+          "q025": 0.0,
+          "median": 0.0,
+          "q975": 0.0,
+          "maximum": 0.0
+        },
+        "source_ridge_1_scheduled": {
+          "planned": 200,
+          "available": 200,
+          "minimum": -0.03301131960361481,
+          "q025": -0.022195932155137685,
+          "median": 0.0007554641767506531,
+          "q975": 0.020139584677835953,
+          "maximum": 0.06880935535244781
+        },
+        "source_ridge_10": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 0.0,
+          "q025": 0.0,
+          "median": 0.0,
+          "q975": 0.0,
+          "maximum": 0.0
+        },
+        "source_ridge_10_scheduled": {
+          "planned": 200,
+          "available": 200,
+          "minimum": -0.02919644211445327,
+          "q025": -0.017364484511384965,
+          "median": 0.0031537422857144115,
+          "q975": 0.022326913474717883,
+          "maximum": 0.0740207465639986
+        },
+        "source_ridge_100": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 0.0,
+          "q025": 0.0,
+          "median": 0.0,
+          "q975": 0.0,
+          "maximum": 0.0
+        },
+        "source_ridge_100_scheduled": {
+          "planned": 200,
+          "available": 200,
+          "minimum": -0.006159782418491133,
+          "q025": 0.007400061292797656,
+          "median": 0.019828005557135375,
+          "q975": 0.03644394786452212,
+          "maximum": 0.09418403131510011
+        },
+        "cell_slope_1": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 0.0,
+          "q025": 0.0,
+          "median": 0.0,
+          "q975": 0.0,
+          "maximum": 0.0
+        },
+        "cell_slope_1_scheduled": {
+          "planned": 200,
+          "available": 200,
+          "minimum": -0.033938909748988166,
+          "q025": -0.022434863135960124,
+          "median": 0.0017186053246642796,
+          "q975": 0.02496852653928862,
+          "maximum": 0.09180569434094332
+        },
+        "cell_slope_10": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 0.0,
+          "q025": 0.0,
+          "median": 0.0,
+          "q975": 0.0,
+          "maximum": 0.0
+        },
+        "cell_slope_10_scheduled": {
+          "planned": 200,
+          "available": 200,
+          "minimum": -0.032307783862687955,
+          "q025": -0.021382404388090425,
+          "median": 0.002037791670491673,
+          "q975": 0.026554659951773155,
+          "maximum": 0.05796974260582033
+        },
+        "cell_slope_100": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 0.0,
+          "q025": 0.0,
+          "median": 0.0,
+          "q975": 0.0,
+          "maximum": 0.0
+        },
+        "cell_slope_100_scheduled": {
+          "planned": 200,
+          "available": 200,
+          "minimum": -0.02565476979869885,
+          "q025": -0.014807684626859496,
+          "median": 0.00414143154954183,
+          "q975": 0.023076204625486988,
+          "maximum": 0.05451746390312051
+        }
+      },
+      "increments": {
+        "source_ridge_1": {
+          "planned": 200,
+          "available": 200,
+          "minimum": -0.07312159235290316,
+          "q025": -0.024451821678291307,
+          "median": -0.005067701177206008,
+          "q975": 0.017883695154682366,
+          "maximum": 0.028699082603159454
+        },
+        "source_ridge_10": {
+          "planned": 200,
+          "available": 200,
+          "minimum": -0.07576674858728882,
+          "q025": -0.024072915498008093,
+          "median": -0.004899744309004639,
+          "q975": 0.015618482488094778,
+          "maximum": 0.027450440091163042
+        },
+        "source_ridge_100": {
+          "planned": 200,
+          "available": 200,
+          "minimum": -0.08053965137367802,
+          "q025": -0.022799567923100016,
+          "median": -0.006183625615713284,
+          "q975": 0.006244318648624453,
+          "maximum": 0.019804162359913224
+        },
+        "cell_slope_1": {
+          "planned": 200,
+          "available": 200,
+          "minimum": -0.09884474017729117,
+          "q025": -0.03200757237563644,
+          "median": -0.008757651161012125,
+          "q975": 0.015395817299612284,
+          "maximum": 0.02689986391264032
+        },
+        "cell_slope_10": {
+          "planned": 200,
+          "available": 200,
+          "minimum": -0.0631181293913099,
+          "q025": -0.031703046737262694,
+          "median": -0.00718617845598124,
+          "q975": 0.016234017602600858,
+          "maximum": 0.02715939707719839
+        },
+        "cell_slope_100": {
+          "planned": 200,
+          "available": 200,
+          "minimum": -0.055363684087816445,
+          "q025": -0.02392242481018288,
+          "median": -0.0049876517342377635,
+          "q975": 0.01396146444216357,
+          "maximum": 0.024808549614002917
+        }
+      },
+      "by_season": {
+        "2020": {
+          "n": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 134.0,
+            "q025": 134.0,
+            "median": 134.0,
+            "q975": 134.0,
+            "maximum": 134.0
+          },
+          "nonfallback": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 0.0,
+            "q025": 0.0,
+            "median": 0.0,
+            "q975": 0.0,
+            "maximum": 0.0
+          },
+          "fallback": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 134.0,
+            "q025": 134.0,
+            "median": 134.0,
+            "q975": 134.0,
+            "maximum": 134.0
+          },
+          "unavailable": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 0.0,
+            "q025": 0.0,
+            "median": 0.0,
+            "q975": 0.0,
+            "maximum": 0.0
+          }
+        },
+        "2021": {
+          "n": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 101.0,
+            "q025": 101.0,
+            "median": 101.0,
+            "q975": 101.0,
+            "maximum": 101.0
+          },
+          "nonfallback": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 0.0,
+            "q025": 0.0,
+            "median": 0.0,
+            "q975": 7.0,
+            "maximum": 7.0
+          },
+          "fallback": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 94.0,
+            "q025": 94.0,
+            "median": 101.0,
+            "q975": 101.0,
+            "maximum": 101.0
+          },
+          "unavailable": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 0.0,
+            "q025": 0.0,
+            "median": 0.0,
+            "q975": 0.0,
+            "maximum": 0.0
+          }
+        },
+        "2022": {
+          "n": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 106.0,
+            "q025": 106.0,
+            "median": 106.0,
+            "q975": 106.0,
+            "maximum": 106.0
+          },
+          "nonfallback": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 0.0,
+            "q025": 0.0,
+            "median": 10.0,
+            "q975": 24.0,
+            "maximum": 24.0
+          },
+          "fallback": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 82.0,
+            "q025": 82.0,
+            "median": 96.0,
+            "q975": 106.0,
+            "maximum": 106.0
+          },
+          "unavailable": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 0.0,
+            "q025": 0.0,
+            "median": 0.0,
+            "q975": 0.0,
+            "maximum": 0.0
+          }
+        },
+        "2023": {
+          "n": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 102.0,
+            "q025": 102.0,
+            "median": 102.0,
+            "q975": 102.0,
+            "maximum": 102.0
+          },
+          "nonfallback": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 8.0,
+            "q025": 8.0,
+            "median": 14.0,
+            "q975": 21.025000000000006,
+            "maximum": 29.0
+          },
+          "fallback": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 73.0,
+            "q025": 80.975,
+            "median": 88.0,
+            "q975": 94.0,
+            "maximum": 94.0
+          },
+          "unavailable": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 0.0,
+            "q025": 0.0,
+            "median": 0.0,
+            "q975": 0.0,
+            "maximum": 0.0
+          }
+        },
+        "2024": {
+          "n": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 104.0,
+            "q025": 104.0,
+            "median": 104.0,
+            "q975": 104.0,
+            "maximum": 104.0
+          },
+          "nonfallback": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 9.0,
+            "q025": 16.0,
+            "median": 24.0,
+            "q975": 34.0,
+            "maximum": 36.0
+          },
+          "fallback": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 68.0,
+            "q025": 70.0,
+            "median": 80.0,
+            "q975": 88.0,
+            "maximum": 95.0
+          },
+          "unavailable": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 0.0,
+            "q025": 0.0,
+            "median": 0.0,
+            "q975": 0.0,
+            "maximum": 0.0
+          }
+        },
+        "2025": {
+          "n": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 127.0,
+            "q025": 127.0,
+            "median": 127.0,
+            "q975": 127.0,
+            "maximum": 127.0
+          },
+          "nonfallback": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 13.0,
+            "q025": 31.0,
+            "median": 42.0,
+            "q975": 61.0,
+            "maximum": 65.0
+          },
+          "fallback": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 62.0,
+            "q025": 66.0,
+            "median": 85.0,
+            "q975": 96.0,
+            "maximum": 114.0
+          },
+          "unavailable": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 0.0,
+            "q025": 0.0,
+            "median": 0.0,
+            "q975": 0.0,
+            "maximum": 0.0
+          }
+        }
+      },
+      "by_destination": {
+        "eurocup": {
+          "n": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 480.0,
+            "q025": 480.0,
+            "median": 480.0,
+            "q975": 480.0,
+            "maximum": 480.0
+          },
+          "nonfallback": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 23.0,
+            "q025": 34.975,
+            "median": 56.0,
+            "q975": 81.0,
+            "maximum": 94.0
+          },
+          "fallback": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 386.0,
+            "q025": 399.0,
+            "median": 424.0,
+            "q975": 445.025,
+            "maximum": 457.0
+          },
+          "unavailable": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 0.0,
+            "q025": 0.0,
+            "median": 0.0,
+            "q975": 0.0,
+            "maximum": 0.0
+          }
+        },
+        "euroleague": {
+          "n": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 194.0,
+            "q025": 194.0,
+            "median": 194.0,
+            "q975": 194.0,
+            "maximum": 194.0
+          },
+          "nonfallback": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 21.0,
+            "q025": 25.0,
+            "median": 35.0,
+            "q975": 42.0,
+            "maximum": 49.0
+          },
+          "fallback": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 145.0,
+            "q025": 152.0,
+            "median": 159.0,
+            "q975": 169.0,
+            "maximum": 173.0
+          },
+          "unavailable": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 0.0,
+            "q025": 0.0,
+            "median": 0.0,
+            "q975": 0.0,
+            "maximum": 0.0
+          }
+        }
+      }
+    },
+    "cell_season_count": {
+      "repetitions": 200,
+      "incomplete_targets": [],
+      "support": {
+        "nonfallback": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 62.0,
+          "q025": 68.0,
+          "median": 112.0,
+          "q975": 118.0,
+          "maximum": 118.0
+        },
+        "fallback": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 556.0,
+          "q025": 556.0,
+          "median": 562.0,
+          "q975": 606.0,
+          "maximum": 612.0
+        },
+        "unavailable": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 0.0,
+          "q025": 0.0,
+          "median": 0.0,
+          "q975": 0.0,
+          "maximum": 0.0
+        }
+      },
+      "mae": {
+        "source_ridge_1": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 2.9279994548059887,
+          "q025": 2.9279994548059887,
+          "median": 2.9279994548059887,
+          "q975": 2.9279994548059887,
+          "maximum": 2.9279994548059887
+        },
+        "source_ridge_1_scheduled": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 2.906462097029227,
+          "q025": 2.9147534905657633,
+          "median": 2.935236938872916,
+          "q975": 2.9628755982381496,
+          "maximum": 3.0382874025531716
+        },
+        "source_ridge_10": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 2.924039934533798,
+          "q025": 2.924039934533798,
+          "median": 2.924039934533798,
+          "q975": 2.924039934533798,
+          "maximum": 2.924039934533798
+        },
+        "source_ridge_10_scheduled": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 2.9044218288899315,
+          "q025": 2.9134785421266627,
+          "median": 2.9304731860997797,
+          "q975": 2.960621532505874,
+          "maximum": 3.0394027597030955
+        },
+        "source_ridge_100": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 2.9421941673867,
+          "q025": 2.9421941673867,
+          "median": 2.9421941673867,
+          "q975": 2.9421941673867,
+          "maximum": 2.9421941673867
+        },
+        "source_ridge_100_scheduled": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 2.9298008668242796,
+          "q025": 2.9394465556273155,
+          "median": 2.9495686930680094,
+          "q975": 2.995133465259027,
+          "maximum": 3.08375775714161
+        },
+        "cell_slope_1": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 3.016922288725745,
+          "q025": 3.016922288725745,
+          "median": 3.016922288725745,
+          "q975": 3.016922288725745,
+          "maximum": 3.016922288725745
+        },
+        "cell_slope_1_scheduled": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 2.9960389052983305,
+          "q025": 3.002208102254015,
+          "median": 3.0275778333507457,
+          "q975": 3.0947287556086405,
+          "maximum": 3.174856554691954
+        },
+        "cell_slope_10": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 2.9928746182559416,
+          "q025": 2.9928746182559416,
+          "median": 2.9928746182559416,
+          "q975": 2.9928746182559416,
+          "maximum": 2.9928746182559416
+        },
+        "cell_slope_10_scheduled": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 2.967136955374751,
+          "q025": 2.9764306905359375,
+          "median": 3.0021609294463607,
+          "q975": 3.066471553225502,
+          "maximum": 3.13810414022617
+        },
+        "cell_slope_100": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 2.9571885749128275,
+          "q025": 2.9571885749128275,
+          "median": 2.9571885749128275,
+          "q975": 2.9571885749128275,
+          "maximum": 2.9571885749128275
+        },
+        "cell_slope_100_scheduled": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 2.9383865328886536,
+          "q025": 2.9462953382830728,
+          "median": 2.964640380698243,
+          "q975": 3.0204324674320704,
+          "maximum": 3.0845805124118293
+        }
+      },
+      "change_from_full": {
+        "source_ridge_1": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 0.0,
+          "q025": 0.0,
+          "median": 0.0,
+          "q975": 0.0,
+          "maximum": 0.0
+        },
+        "source_ridge_1_scheduled": {
+          "planned": 200,
+          "available": 200,
+          "minimum": -0.025849594777216822,
+          "q025": -0.017558201240680582,
+          "median": 0.0029252470664717922,
+          "q975": 0.030563906431705437,
+          "maximum": 0.10597571074672762
+        },
+        "source_ridge_10": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 0.0,
+          "q025": 0.0,
+          "median": 0.0,
+          "q975": 0.0,
+          "maximum": 0.0
+        },
+        "source_ridge_10_scheduled": {
+          "planned": 200,
+          "available": 200,
+          "minimum": -0.021364107667156684,
+          "q025": -0.012307394430425611,
+          "median": 0.004687249542691507,
+          "q975": 0.03483559594878573,
+          "maximum": 0.1136168231460073
+        },
+        "source_ridge_100": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 0.0,
+          "q025": 0.0,
+          "median": 0.0,
+          "q975": 0.0,
+          "maximum": 0.0
+        },
+        "source_ridge_100_scheduled": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 0.0012510793790019292,
+          "q025": 0.010896768182037653,
+          "median": 0.021018905622731676,
+          "q975": 0.06658367781374934,
+          "maximum": 0.15520796969633244
+        },
+        "cell_slope_1": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 0.0,
+          "q025": 0.0,
+          "median": 0.0,
+          "q975": 0.0,
+          "maximum": 0.0
+        },
+        "cell_slope_1_scheduled": {
+          "planned": 200,
+          "available": 200,
+          "minimum": -0.027922429263762538,
+          "q025": -0.02175323230807804,
+          "median": 0.0036164987886526667,
+          "q975": 0.07076742104654751,
+          "maximum": 0.15089522012986079
+        },
+        "cell_slope_10": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 0.0,
+          "q025": 0.0,
+          "median": 0.0,
+          "q975": 0.0,
+          "maximum": 0.0
+        },
+        "cell_slope_10_scheduled": {
+          "planned": 200,
+          "available": 200,
+          "minimum": -0.030886049666680293,
+          "q025": -0.021592314505493548,
+          "median": 0.004137924404929771,
+          "q975": 0.06844854818407083,
+          "maximum": 0.14008113518473886
+        },
+        "cell_slope_100": {
+          "planned": 200,
+          "available": 200,
+          "minimum": 0.0,
+          "q025": 0.0,
+          "median": 0.0,
+          "q975": 0.0,
+          "maximum": 0.0
+        },
+        "cell_slope_100_scheduled": {
+          "planned": 200,
+          "available": 200,
+          "minimum": -0.019648262208869838,
+          "q025": -0.011739456814450832,
+          "median": 0.006605585600719666,
+          "q975": 0.06239767233454686,
+          "maximum": 0.12654571731430586
+        }
+      },
+      "increments": {
+        "source_ridge_1": {
+          "planned": 200,
+          "available": 200,
+          "minimum": -0.11028794774718298,
+          "q025": -0.03487614343216067,
+          "median": -0.007237484066927147,
+          "q975": 0.01324596424022523,
+          "maximum": 0.021537357776761468
+        },
+        "source_ridge_10": {
+          "planned": 200,
+          "available": 200,
+          "minimum": -0.11536282516929752,
+          "q025": -0.036581597972075844,
+          "median": -0.006433251565981735,
+          "q975": 0.010561392407135384,
+          "maximum": 0.019618105643866457
+        },
+        "source_ridge_100": {
+          "planned": 200,
+          "available": 200,
+          "minimum": -0.14156358975491035,
+          "q025": -0.052939297872327165,
+          "median": -0.007374525681309585,
+          "q975": 0.002747611759384446,
+          "maximum": 0.012393300562420162
+        },
+        "cell_slope_1": {
+          "planned": 200,
+          "available": 200,
+          "minimum": -0.15793426596620863,
+          "q025": -0.07780646688289534,
+          "median": -0.010655544625000513,
+          "q975": 0.014714186471730197,
+          "maximum": 0.020883383427414692
+        },
+        "cell_slope_10": {
+          "planned": 200,
+          "available": 200,
+          "minimum": -0.14522952197022843,
+          "q025": -0.07359693496956039,
+          "median": -0.009286311190419339,
+          "q975": 0.016443927720003984,
+          "maximum": 0.025737662881190726
+        },
+        "cell_slope_100": {
+          "planned": 200,
+          "available": 200,
+          "minimum": -0.1273919374990018,
+          "q025": -0.06324389251924278,
+          "median": -0.0074518057854155995,
+          "q975": 0.010893236629754902,
+          "maximum": 0.018802042024173904
+        }
+      },
+      "by_season": {
+        "2020": {
+          "n": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 134.0,
+            "q025": 134.0,
+            "median": 134.0,
+            "q975": 134.0,
+            "maximum": 134.0
+          },
+          "nonfallback": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 0.0,
+            "q025": 0.0,
+            "median": 6.0,
+            "q975": 6.0,
+            "maximum": 6.0
+          },
+          "fallback": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 128.0,
+            "q025": 128.0,
+            "median": 128.0,
+            "q975": 134.0,
+            "maximum": 134.0
+          },
+          "unavailable": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 0.0,
+            "q025": 0.0,
+            "median": 0.0,
+            "q975": 0.0,
+            "maximum": 0.0
+          }
+        },
+        "2021": {
+          "n": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 101.0,
+            "q025": 101.0,
+            "median": 101.0,
+            "q975": 101.0,
+            "maximum": 101.0
+          },
+          "nonfallback": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 0.0,
+            "q025": 6.825000000000004,
+            "median": 7.0,
+            "q975": 7.0,
+            "maximum": 7.0
+          },
+          "fallback": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 94.0,
+            "q025": 94.0,
+            "median": 94.0,
+            "q975": 94.17500000000004,
+            "maximum": 101.0
+          },
+          "unavailable": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 0.0,
+            "q025": 0.0,
+            "median": 0.0,
+            "q975": 0.0,
+            "maximum": 0.0
+          }
+        },
+        "2022": {
+          "n": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 106.0,
+            "q025": 106.0,
+            "median": 106.0,
+            "q975": 106.0,
+            "maximum": 106.0
+          },
+          "nonfallback": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 10.0,
+            "q025": 10.0,
+            "median": 24.0,
+            "q975": 24.0,
+            "maximum": 24.0
+          },
+          "fallback": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 82.0,
+            "q025": 82.0,
+            "median": 82.0,
+            "q975": 96.0,
+            "maximum": 96.0
+          },
+          "unavailable": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 0.0,
+            "q025": 0.0,
+            "median": 0.0,
+            "q975": 0.0,
+            "maximum": 0.0
+          }
+        },
+        "2023": {
+          "n": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 102.0,
+            "q025": 102.0,
+            "median": 102.0,
+            "q975": 102.0,
+            "maximum": 102.0
+          },
+          "nonfallback": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 13.0,
+            "q025": 13.0,
+            "median": 19.0,
+            "q975": 19.0,
+            "maximum": 19.0
+          },
+          "fallback": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 83.0,
+            "q025": 83.0,
+            "median": 83.0,
+            "q975": 89.0,
+            "maximum": 89.0
+          },
+          "unavailable": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 0.0,
+            "q025": 0.0,
+            "median": 0.0,
+            "q975": 0.0,
+            "maximum": 0.0
+          }
+        },
+        "2024": {
+          "n": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 104.0,
+            "q025": 104.0,
+            "median": 104.0,
+            "q975": 104.0,
+            "maximum": 104.0
+          },
+          "nonfallback": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 12.0,
+            "q025": 12.0,
+            "median": 24.0,
+            "q975": 24.0,
+            "maximum": 24.0
+          },
+          "fallback": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 80.0,
+            "q025": 80.0,
+            "median": 80.0,
+            "q975": 92.0,
+            "maximum": 92.0
+          },
+          "unavailable": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 0.0,
+            "q025": 0.0,
+            "median": 0.0,
+            "q975": 0.0,
+            "maximum": 0.0
+          }
+        },
+        "2025": {
+          "n": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 127.0,
+            "q025": 127.0,
+            "median": 127.0,
+            "q975": 127.0,
+            "maximum": 127.0
+          },
+          "nonfallback": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 20.0,
+            "q025": 20.0,
+            "median": 38.0,
+            "q975": 38.0,
+            "maximum": 38.0
+          },
+          "fallback": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 89.0,
+            "q025": 89.0,
+            "median": 89.0,
+            "q975": 107.0,
+            "maximum": 107.0
+          },
+          "unavailable": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 0.0,
+            "q025": 0.0,
+            "median": 0.0,
+            "q975": 0.0,
+            "maximum": 0.0
+          }
+        }
+      },
+      "by_destination": {
+        "eurocup": {
+          "n": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 480.0,
+            "q025": 480.0,
+            "median": 480.0,
+            "q975": 480.0,
+            "maximum": 480.0
+          },
+          "nonfallback": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 0.0,
+            "q025": 0.0,
+            "median": 44.0,
+            "q975": 50.0,
+            "maximum": 50.0
+          },
+          "fallback": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 430.0,
+            "q025": 430.0,
+            "median": 436.0,
+            "q975": 480.0,
+            "maximum": 480.0
+          },
+          "unavailable": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 0.0,
+            "q025": 0.0,
+            "median": 0.0,
+            "q975": 0.0,
+            "maximum": 0.0
+          }
+        },
+        "euroleague": {
+          "n": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 194.0,
+            "q025": 194.0,
+            "median": 194.0,
+            "q975": 194.0,
+            "maximum": 194.0
+          },
+          "nonfallback": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 55.0,
+            "q025": 61.975,
+            "median": 68.0,
+            "q975": 68.0,
+            "maximum": 68.0
+          },
+          "fallback": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 126.0,
+            "q025": 126.0,
+            "median": 126.0,
+            "q975": 132.025,
+            "maximum": 139.0
+          },
+          "unavailable": {
+            "planned": 200,
+            "available": 200,
+            "minimum": 0.0,
+            "q025": 0.0,
+            "median": 0.0,
+            "q975": 0.0,
+            "maximum": 0.0
+          }
+        }
+      }
+    }
+  },
+  "interpretation": "Conditional restriction ranges, not confidence intervals or verification effects.",
+  "results_sha256": "6c5de039af51c92f984ee389d991d91e192788df1783545d7753f7ef164c46b9",
+  "stratified_report_sha256": "38b4fd6f3dd5899bac807125d2dc91a4e4b44f9edf74e5bc9e9b4d1043bbc98c"
+}

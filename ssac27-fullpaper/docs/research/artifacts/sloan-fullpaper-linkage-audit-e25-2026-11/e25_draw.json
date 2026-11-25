@@ -1,0 +1,45 @@
+{
+  "amendment_commit": "be615140b",
+  "amendment_sha256": "6c478891f8b5e4b3cc40b17485a2640fd8210563db1049be6d0136f4d6c7463f",
+  "analysis": "E25",
+  "drawn_keys_file": "e25_drawn_keys.csv",
+  "drawn_keys_sha256": "0519689495ac0f4c71000e58ce39648294bdb3ae61f3333834ad10c39d5e2bab",
+  "e13_frame_pairs": 2537,
+  "e13_generator_sha256": "8fb91e66c881a5addff6dc5f50a6ebcda5777e5caf19543603c55dedb0e1e91a",
+  "e13_sample_n": 100,
+  "exploratory": true,
+  "frame_order": "the E13 frame order (sorted by the E13 key, stable) with the E13 sample removed",
+  "frame_pairs": 2437,
+  "gates": {
+    "G25a_draw": {
+      "negative_control": "rejected as required",
+      "negative_control_overlap_keys": 30,
+      "negative_control_seed": 20261113,
+      "redraw_reproduces": true,
+      "redraw_seed": 20261112,
+      "status": "passed"
+    },
+    "G25b_disjoint": {
+      "negative_control": "rejected as required",
+      "negative_control_overlap_keys": 100,
+      "overlap_with_e13_sample": 0,
+      "status": "passed"
+    }
+  },
+  "input_sha256": {
+    "e13_drawn_keys.csv": "b19d70139ba62e2da8a8ae1ad43a3bf475a06d9cbb2df711e23661ea41ba604d",
+    "official_corrected": "d964727924630dbf32c1764daf1e536c81d58988218a230fea591c62c1a62f58",
+    "verified_same_club_full": "85ba5c9125e164c8eb7918c62680b969ff2f168bb2059cd3343bfecd10e5204d"
+  },
+  "key": [
+    "player_name",
+    "season",
+    "league_src",
+    "league_dest"
+  ],
+  "pool_a_pairs": 4074,
+  "pool_b_pairs": 1537,
+  "sample_n": 300,
+  "second_look": true,
+  "seed": 20261112
+}

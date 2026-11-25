@@ -1,0 +1,31 @@
+{
+  "code_files": 2509,
+  "entrypoint": "scripts/sloan_fullpaper_survivorship.py",
+  "generator_sha256": "196e2e458ad3624bd4dac54a3b57bc557d8de4f313353cab11e5eb86a3c4d5c4",
+  "inputs": 510,
+  "outputs": {
+    "out/e14_contrasts.csv": "411caa77109ed7fc115c3500fa7bad5f575330aaa36ef22e8527cc9f0a65cded",
+    "out/e14_eff_rows.parquet": "76d60a68514bf0c06bb4551d060fd2d844d6afa7d255191305507443228b9cbb",
+    "out/e14_exclusions_by_band.csv": "94c50af3c8e0e64441a0063d15bbfa34550eb6df7eef7f593849834d1b2db773",
+    "out/e14a_counts.csv": "3d51a0e49a690cf78c4cf7a2948687e4061f25cc679a62918db62663dda8c402",
+    "out/e14c_rotation_by_source.csv": "bdfa242105da46af26760370a3f4fb66a53e6ddb117d574de3fba1c46dbdf81b",
+    "out/e14c_share_rows.parquet": "274c7a444110876f9ceed838d1c031571a6c9acbb82646b884b7e487be24e35d",
+    "out/summary.json": "9d4232a06468f374a7044f2f3958a50ca94f273a8ee03f03d11b1aed7c5a2f1b"
+  },
+  "returncode": 0,
+  "run_dir": "research-runs/sloan-fullpaper/survivorship-02",
+  "source_seasons": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "status": "complete"
+}

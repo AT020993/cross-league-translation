@@ -1,0 +1,50 @@
+{
+ "code_files": 2575,
+ "entrypoint": "scripts/sloan_fullpaper_amend9.py",
+ "generator_commit": "043285f7c099f32c715511ac5d70cbaf142709f8",
+ "generator_sha256": "35a5376769b06c12ab49df05190ea13c579196a8241afc54878064ca8b1fa3da",
+ "inputs": 13,
+ "outputs": {
+  "out/e28a_differences.csv": "0dc65cead06ca575aae935a7b0454671e64b77beb339464af09f92ad9bda5547",
+  "out/e28b_differences.csv": "47a02b5f7690f42a107ed3fa1a1641f6721f3a6ed997687250565c1e2c45ee8a",
+  "out/e28c_margin.csv": "6f7fc66044f3cb476dfe6eb8ded5d5a419c63189e00a5df49f92c021d3724eaa",
+  "out/summary.json": "da97930085208070b8ce8e24ba4a813d8c5225690992bd240f8189d5751a0b22",
+  "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout.log": "21794fcd1096cec90e31a8a55ca1bff65ef7550896cdff4abc626f017313136f"
+ },
+ "withheld_outputs": {
+  "files": 1,
+  "note": "the older-seasons version the paper does not print stays in the retained run (Amendment 7's permission rule); its file and hash are not committed"
+ },
+ "returncode": 0,
+ "run_dir": "research-runs/sloan-fullpaper/amend9-01",
+ "selections": [
+  "data/processed/sloan_v10_public/official_corrected",
+  "docs/research/artifacts/sloan-v9-2026-09-19/diagnostics.json",
+  "docs/research/artifacts/sloan-v10-2026-09-20/summary.json",
+  "docs/research/sloan-full-paper-preregistration-2026-11-03.md",
+  "docs/research/sloan-full-paper-preregistration-amendment-9-2026-11-16.md",
+  "docs/research/artifacts/sloan-fullpaper-recipes-2026-11/summary.json",
+  "docs/research/artifacts/sloan-fullpaper-amend1-decisions-2026-11/summary.json",
+  "docs/research/artifacts/sloan-fullpaper-older-seasons-2026-11/e27_arrivals.csv",
+  "docs/research/artifacts/sloan-fullpaper-older-seasons-2026-11/e27_summary.json",
+  "docs/research/artifacts/sloan-fullpaper-older-seasons-paper-2026-11/e27_paper.json",
+  "docs/paper/ssac27/release.json",
+  "_local/e27_pinned_inputs/e27_frozen_forecasts.parquet"
+ ],
+ "snapshot": "263311cc3c0f0e27cf56e877a76f594477985097365dc6b10c0d62bc94000f6d",
+ "source_seasons": [
+  2015,
+  2016,
+  2017,
+  2018,
+  2019,
+  2020,
+  2021,
+  2022,
+  2023,
+  2024,
+  2025
+ ],
+ "status": "complete"
+}

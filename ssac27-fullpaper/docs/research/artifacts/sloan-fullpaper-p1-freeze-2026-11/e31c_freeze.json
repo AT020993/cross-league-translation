@@ -1,0 +1,91 @@
+{
+  "amendment_commit": "48f752c68487e7c426fbe9817052bcf51276de85",
+  "amendment_sha256": "f078841abdd37dbcb463bf37d7525422f436b8ccc1967622e753b2a2c09a755f",
+  "analysis": "Amendment 15: E31c, the published-table forecast frozen for the 2026-27 test",
+  "arm": "published_table_vashro_2015",
+  "cohort_sha256": "c629f43e3194642d483701c3d07666252938d587e747c99dbb031a2346bf2abf",
+  "fit": {
+    "coefficients": [
+      1.9789616899770412,
+      0.65546619414931,
+      0.09126204427680522,
+      -1.4084134870810345,
+      -0.6652457867701103,
+      -0.07902204031101166,
+      1.6096168646399482
+    ],
+    "features": [
+      "intercept",
+      "source_rate",
+      "prior_rate",
+      "above_prior",
+      "destination_euroleague",
+      "destination_x_source",
+      "published_score_source_league"
+    ],
+    "score_coefficient": 1.6096168646399482,
+    "status": "ok",
+    "train_n": 1059
+  },
+  "forecast_file": "p1_frozen_published_table_forecasts.parquet",
+  "forecast_sha256": "4890fa1943a1e1ed40b0e3086a10274536aa315bf4eed8f4449d1815c98c8199",
+  "gates": {
+    "G31b": {
+      "checked": [
+        "duplicate_keys",
+        "keys_differ_from_pinned_file",
+        "missing_forecasts",
+        "rows_expected",
+        "rows_pinned_file"
+      ],
+      "control_input": "one byte of the written file flipped; the hash check must refuse it",
+      "control_of_the_counts": "rejected as required",
+      "max_difference": 0.0,
+      "negative_control": "rejected as required",
+      "status": "passed",
+      "tolerance": 0.0
+    },
+    "frozen_arms": {
+      "checked": [
+        "frozen:history_destination_slope",
+        "frozen:history_only",
+        "frozen:source_ridge_10",
+        "own_fit_without_the_term"
+      ],
+      "control_input": "the pinned destination-only forecast column shifted by 0.01",
+      "max_difference": 0.0,
+      "negative_control": "rejected as required",
+      "rows": 3478,
+      "status": "passed",
+      "tolerance": 1e-09
+    },
+    "table_pin": {
+      "control_input": "one committed score moved by 0.01",
+      "max_difference": 0.0,
+      "negative_control": "rejected as required",
+      "status": "passed",
+      "tolerance": 1e-12,
+      "venues": 12
+    }
+  },
+  "generating_commit": null,
+  "key": [
+    "player_name",
+    "league_dest"
+  ],
+  "last_training_destination_season": 2025,
+  "pairs_sha256": "d964727924630dbf32c1764daf1e536c81d58988218a230fea591c62c1a62f58",
+  "pinned_frozen_file": "docs/research/artifacts/sloan-fullpaper-p1-freeze-2026-11/p1_frozen_forecasts.parquet",
+  "pinned_frozen_file_rewritten": false,
+  "pinned_frozen_sha256": "f3530c1a5ac369c032a996756ced226a93aa2d9f71d2e63aab21694de3d55316",
+  "protocol_commit": "f52e7c831fef6759eab202c8ff8c56fa76037533",
+  "reads_2026_27_statistics": false,
+  "rows": 3478,
+  "status": "frozen",
+  "table": {
+    "file": "docs/research/artifacts/sloan-fullpaper-published-tables-2026-11/vashro_2015_competition_scores.csv",
+    "id": "vashro_2015",
+    "sha256": "2c004c88d10c60f68dabb038330a9f8d282ba87f56b521cb6a87c59a26252d04"
+  },
+  "training_rows": 1059
+}

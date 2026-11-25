@@ -1,0 +1,28 @@
+{
+  "code_files": 2509,
+  "entrypoint": "scripts/sloan_fullpaper_flexible.py",
+  "generator_sha256": "345886a90954fb3040291cfd3ec616b9e44a58e21c613f829072db22047d930b",
+  "inputs": 499,
+  "outputs": {
+    "out/e16_club_win_share.csv": "d6bad648232f3d7ada198b2d93f40948b2613b2b9523e9b4cccb403789a9a96d",
+    "out/e16_forecasts.csv": "cae92525a4d843da433a48515548c49f3ae9e0075afdbcb525438b71955868e5",
+    "out/e16_models.csv": "8b33fc27bd6d7664c2f61d564e8ac1a2e1d91c486dec3782af9a2f9e82b8ed12",
+    "out/summary.json": "e10468c42d0dcb0a0a9a77b0f93667ec907f6a0183e5d631eca2892baf842970"
+  },
+  "returncode": 0,
+  "run_dir": "research-runs/sloan-fullpaper/flexible-01",
+  "source_seasons": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "status": "complete"
+}

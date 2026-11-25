@@ -1,0 +1,58 @@
+{
+  "arguments": [
+    "score",
+    "--frozen",
+    "docs/research/artifacts/sloan-fullpaper-league-changes-2026-11/e30_frozen_league_changes.parquet",
+    "--expected-sha256",
+    "2df696debc8567d9468844384c259e2289d6d1d985d7cbe4c7930bd7bf85b722",
+    "--stayers",
+    "docs/research/artifacts/sloan-fullpaper-league-changes-2026-11/e30_stayer_pairs.parquet",
+    "--freeze-record",
+    "docs/research/artifacts/sloan-fullpaper-league-changes-2026-11/e30_freeze.json",
+    "--out",
+    "out"
+  ],
+  "code_files": 2580,
+  "entrypoint": "scripts/sloan_fullpaper_league_changes.py",
+  "generator_commit": "7b61a780787bb7051153d6b1082f8c7292f9938a",
+  "generator_sha256": "9939c2b943b60f7c5d24e31d5313e96176a9be028e66de2255ed26cc72fbdcc2",
+  "inputs": 167,
+  "outputs": {
+    "out/e30_league_pairs.csv": "61273e448d8e22bd45a8435cfca07af2d7475b33ebcfe2da9aa5706011c35740",
+    "out/e30_scored_league_changes.parquet": "03d5355dd4c8127b9130dc2c7bfd7c9d782e14cca7c1e9bc83ac2fc0a9dbfaa4",
+    "out/e30_slopes.csv": "f02c77c0285a77aa7e2a69cbf8bb4a86b771a7a3f0d999d08510ffb736d7861d",
+    "out/e30_summary.json": "f1df4c23899c959fc7458caff0e5f2ec8ae071517b29be491a41383f946319dc",
+    "out/e31b_scales.csv": "79d86dc802ed8b1b500a4d1a78ff309f58e4512ec5274dc5bd774866f33e09ab",
+    "out/s_f_league_pairs.csv": "61273e448d8e22bd45a8435cfca07af2d7475b33ebcfe2da9aa5706011c35740",
+    "out/summary.json": "738c800d81a697a1d44ef0398ea37f33c10c790205e2f6dca7e3e2ff9edcef47",
+    "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.log": "5a4c7a289fce858f061ba116d6324853024b29fcefe9293356cf40ec5c0d392e"
+  },
+  "returncode": 0,
+  "run_dir": "league-changes-score-01",
+  "selections": [
+    "data/raw",
+    "docs/research/sloan-full-paper-preregistration-amendment-14-2026-11-17.md",
+    "docs/research/sloan-full-paper-preregistration-amendment-15-2026-11-17.md",
+    "docs/research/sloan-full-paper-preregistration-amendment-17-2026-11-17.md",
+    "docs/research/artifacts/sloan-fullpaper-amend1-decisions-2026-11/exchange_rate_acb16.csv",
+    "docs/research/artifacts/sloan-fullpaper-amend3-2026-11/e19_equivalents_by_refit.csv",
+    "docs/research/artifacts/sloan-fullpaper-published-tables-2026-11/vashro_2015_competition_scores.csv",
+    "docs/research/artifacts/sloan-fullpaper-league-changes-2026-11"
+  ],
+  "snapshot": "8692d481023b02eb0d4faa41bf15c770dbf12afce6446020a31dc227eeafa3ca",
+  "source_seasons": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "status": "complete"
+}

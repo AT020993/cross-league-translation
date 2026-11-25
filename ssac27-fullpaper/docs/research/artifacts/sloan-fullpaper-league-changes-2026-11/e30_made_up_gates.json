@@ -1,0 +1,40 @@
+{
+  "analysis": "Amendment 14, gate G30c: the code recovers a planted slope (made-up data only)",
+  "bootstrap_draws": 2000,
+  "failures": [],
+  "league_table_sha256": "c8341a37947adcad882f90c9747ea6fee274723b367a0948bbfc50462fead2ca",
+  "made_up": {
+    "league_changes": 15987,
+    "noise_sd": "player effect 1.0 and row noise 2.3 EFF/36",
+    "player_seasons": 79373,
+    "players": 20000,
+    "predicted_change_sd": 1.5140832256092043,
+    "stayer_pairs": 43386
+  },
+  "negative_control_shuffled_leagues": {
+    "ci95": [
+      -0.029187020970987982,
+      0.030846627543120758
+    ],
+    "rule": "league labels shuffled across the made-up moves: the interval must include zero",
+    "slope": 0.0009284421485915332
+  },
+  "planted_slope_one": {
+    "ci95": [
+      0.9615483232453973,
+      1.0119796424929957
+    ],
+    "rule": "within 0.05 of 1.0",
+    "slope": 0.9868290568283538
+  },
+  "planted_slope_zero": {
+    "ci95": [
+      -0.038451676754602614,
+      0.011979642492995534
+    ],
+    "rule": "the interval includes zero",
+    "slope": -0.013170943171646065
+  },
+  "seed": 20261117,
+  "status": "passed"
+}

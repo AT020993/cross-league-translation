@@ -1,0 +1,3168 @@
+{
+  "version": 1,
+  "generators": {
+    "scripts/detector_audit/audit_artifact_scores_ati3306.py": {
+      "mode": "capsule",
+      "reason": "Bounded canonical final-score and I2 impact audit against pinned retained evidence.",
+      "source_seasons": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/detector_audit/compare_artifact_design_ati3306.py": {
+      "mode": "capsule",
+      "reason": "Independent paired physical possession and retained chain design reconciliation.",
+      "source_seasons": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/detector_audit/replay_artifact_placebos_ati3306.py": {
+      "mode": "capsule",
+      "reason": "Independent seeded sampler replay and point-only paired negative-control attribution.",
+      "source_seasons": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/detector_audit/compare_artifact_values_ati3306.py": {
+      "mode": "capsule",
+      "reason": "Independent paired ATI-3306 causal ledgers from retained value evidence.",
+      "source_seasons": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/detector_audit/validate_artifact_values_ati3306.py": {
+      "mode": "capsule",
+      "reason": "Independent ATI-3306 validation of pinned retained artifacts and source evidence.",
+      "source_seasons": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/hidden_value/validate_v12_possession_models_ati3306.py": {
+      "mode": "capsule",
+      "reason": "Independent retained possession model equations and chosen EPV cross-validation.",
+      "source_seasons": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/hidden_value/validate_v12_selection_ati3306.py": {
+      "mode": "capsule",
+      "reason": "Independent ATI-3306 model selection, bootstrap and report validation from retained evidence.",
+      "source_seasons": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/hidden_value/validate_v12_independent.py": {
+      "mode": "capsule",
+      "reason": "Independent ATI-3306 validation of pinned retained artifacts and source evidence.",
+      "source_seasons": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/detector_audit/validate_artifact_design_ati3306.py": {
+      "mode": "excluded",
+      "reason": "Pure independent validation library imported by the guarded ATI-3306 value validator; no standalone execution entry."
+    },
+    "scripts/hidden_value/compare_hidden_streams.py": {
+      "mode": "capsule",
+      "reason": "Reconcile ATI-3306 paired full event streams against accepted pinned upstream changes.",
+      "source_seasons": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/ab_llm_name_pick.py": {
+      "mode": "excluded",
+      "reason": "Agent/model engineering evaluation (ATI-3181 LLM name-pick A/B), not a frozen basketball research generator; its pre-registration and results live in evals/agent_correctness/llm_name_pick_ati3181."
+    },
+    "scripts/adjudicate_sloan_acb_sources.py": {
+      "mode": "excluded",
+      "reason": "Source collection/adjudication with its own immutable response cache; not a corpus-fit generator."
+    },
+    "scripts/download_official_boxscores.py": {
+      "mode": "excluded",
+      "reason": "Source collection (ATI-4006 option A): saves and parses first-party league pages; not a corpus-fit generator."
+    },
+    "scripts/parse_official_boxscores.py": {
+      "mode": "excluded",
+      "reason": "Source collection (ATI-4006 option A): saves and parses first-party league pages; not a corpus-fit generator."
+    },
+    "scripts/agent_cli.py": {
+      "mode": "excluded",
+      "reason": "Agent tooling or model-engineering evaluation; not a frozen basketball research generator."
+    },
+    "scripts/sweep_merged_worktrees.py": {
+      "mode": "excluded",
+      "reason": "Ops tooling (ATI-3304): removes merged agent worktrees, and names docs/research/data/ only to refuse deleting it; not a research generator."
+    },
+    "scripts/assess_sloan_appearance_feasibility.py": {
+      "mode": "capsule",
+      "reason": "Assess the registered Sloan candidate using immutable saved predictions.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/audit_cross_league_identity.py": {
+      "mode": "excluded",
+      "reason": "Operational corpus/forecast build or current-data diagnostic; frozen research callers execute libraries against archived copies."
+    },
+    "scripts/audit_detector_coverage.py": {
+      "mode": "excluded",
+      "reason": "Operational current-feed detector availability audit; intentionally measures live coverage."
+    },
+    "scripts/audit_hidden_foul_artifacts.py": {
+      "mode": "frozen",
+      "reason": "Byte-pinned research source; direct CLI retired. Use scripts/run_frozen_research.py with this path.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "source_sha256": "f471894a6c887a84be71228ee664c25fe850d4e83fd24b81b7a515d60924df07",
+      "source_receipt": "docs/research/artifacts/ati-2995-rerun-2026-09-21.json"
+    },
+    "scripts/audit_on_off_units.py": {
+      "mode": "capsule",
+      "reason": "Reproduce ATI-3141 unit reconciliation without modifying source data.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/audit_scouting_sources.py": {
+      "mode": "excluded",
+      "reason": "Source availability audit, not a scientific estimator."
+    },
+    "scripts/audit_sloan_prospective_readiness.py": {
+      "mode": "capsule",
+      "reason": "Registered outcome-blind prospective study preparation and frozen-source feasibility audit.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/audit_sloan_roster_followup.py": {
+      "mode": "excluded",
+      "reason": "Live source acquisition with archived response hashes; offline analysis consumes its artifacts."
+    },
+    "scripts/audit_translation_estimators.py": {
+      "mode": "frozen",
+      "reason": "Byte-pinned research source; direct CLI retired. Use scripts/run_frozen_research.py with this path.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "source_sha256": "de8f60dde4c946ecd48a886fabd88d1feaf79879fa3f1fbc53b719932d340a86",
+      "source_receipt": "docs/research/artifacts/sloan-validation-2026-09-07/review_package_summary.json"
+    },
+    "scripts/build_action_quality_meeting.py": {
+      "mode": "capsule",
+      "reason": "Reproduce the registered ISR action-outcome meeting experiment offline.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/build_aging_curve.py": {
+      "mode": "capsule",
+      "reason": "Build the pre-registered aging curve and run every control it named.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/build_correctness_baseline.py": {
+      "mode": "excluded",
+      "reason": "Agent tooling or model-engineering evaluation; not a frozen basketball research generator."
+    },
+    "scripts/build_defence_facet_ground_truth.py": {
+      "mode": "excluded",
+      "reason": "Agent/model engineering evaluation, not a frozen basketball research generator; retains its independent eval provenance."
+    },
+    "scripts/build_league_factors.py": {
+      "mode": "excluded",
+      "reason": "Operational corpus factor rebuild; research callers execute its library in a capsule. Sha256-pinned by the Sloan v10 artifacts, so it keeps the shipped pooler; the ATI-2960 floor-clearing tau2 fit is scripts/refit_league_factors_tau2.py."
+    },
+    "scripts/build_lineup_features.py": {
+      "mode": "excluded",
+      "reason": "Operational corpus/forecast build or current-data diagnostic; frozen research callers execute libraries against archived copies."
+    },
+    "scripts/build_nba_arm.py": {
+      "mode": "capsule",
+      "reason": "The NBA arm (ATI-2958): EuroLeague <-> NBA moves, scored as pre-registered.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/build_oreb_continuation.py": {
+      "mode": "capsule",
+      "reason": "Build an immutable, offline Thursday experiment from a hashed source cache.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/build_oreb_opportunity.py": {
+      "mode": "capsule",
+      "reason": "Reproduce the registered correction and exploratory opportunity comparison.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/build_ori_club_case.py": {
+      "mode": "capsule",
+      "reason": "Build the registered historical club case with sealed inputs and output hashes.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/build_ori_possession_pilot.py": {
+      "mode": "capsule",
+      "reason": "Build a separate possession/coverage/review supplement to the frozen Ori case.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/build_ori_video_review.py": {
+      "mode": "excluded",
+      "reason": "Source-bound media extraction/review, with video hashes; no tabular model fitting."
+    },
+    "scripts/build_pbp_role_features.py": {
+      "mode": "capsule",
+      "reason": "Role features from the EuroLeague/EuroCup play-by-play feed (ATI-2844 follow-up).",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/build_perstat_translation.py": {
+      "mode": "excluded",
+      "reason": "Operational factor rebuild; research callers execute its library in a capsule."
+    },
+    "scripts/build_realised_outcomes.py": {
+      "mode": "excluded",
+      "reason": "Operational current-season outcome collection, not a frozen study."
+    },
+    "scripts/build_rebound_context_pilot.py": {
+      "mode": "capsule",
+      "reason": "Seal all-miss queues; outcomes require independent visual review.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/build_role_taxonomy.py": {
+      "mode": "native",
+      "reason": "Native complete-file receipt/snapshot contract (PR #2533)."
+    },
+    "scripts/build_signings_report.py": {
+      "mode": "excluded",
+      "reason": "Operational locked signing release with tag-byte verification; separate release contract."
+    },
+    "scripts/build_sloan_abstract_package.py": {
+      "mode": "capsule",
+      "reason": "Build an internal, deterministic abstract review bundle; never submit it.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/build_sloan_club_case.py": {
+      "mode": "capsule",
+      "reason": "Build an outcome-blind Hapoel illustration from the immutable operating lock.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/build_sloan_prospective_forecasts.py": {
+      "mode": "capsule",
+      "reason": "Registered prospective opportunity forecasts and immutable future-outcome evaluation.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/build_sloan_review_package.py": {
+      "mode": "capsule",
+      "reason": "Render a local Sloan review package from complete, saved study artifacts.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/build_sloan_source_review.py": {
+      "mode": "capsule",
+      "reason": "Render the completed, frozen source sensitivity without fitting or selecting.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/build_translation_predictions.py": {
+      "mode": "excluded",
+      "reason": "Operational corpus/forecast build or current-data diagnostic; frozen research callers execute libraries against archived copies."
+    },
+    "scripts/calibrate_combined_arm_interval.py": {
+      "mode": "excluded",
+      "reason": "ATI-3516 combined-arm interval calibration (pre-registered 2026-10-16, merged as c697000ef before this file existed). Reads the live corpus only to count qualifying seasons through build_translation_predictions.source_season_rows; it proves input identity itself by sha256-checking every pinned input before and after the run and records them, with its own code sha256, in its artifact."
+    },
+    "scripts/calibrate_pbp_scouting.py": {
+      "mode": "excluded",
+      "reason": "Operational scouting-feature calibration, outside frozen study reproduction."
+    },
+    "scripts/calibrate_player_volatility.py": {
+      "mode": "capsule",
+      "reason": "ATI-3138 registered descriptive calibration; never edits corpus or product.",
+      "source_seasons": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/calibrate_player_volatility_exposure.py": {
+      "mode": "capsule",
+      "reason": "ATI-3138 round-2 registered calibration; never edits corpus or product.",
+      "source_seasons": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/calibrate_prediction_intervals.py": {
+      "mode": "capsule",
+      "reason": "Study C — prediction-interval families on rolling out-of-sample residuals.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/calibrate_quality_pipeline.py": {
+      "mode": "excluded",
+      "reason": "Operational agent feedback calibration using the live conversation store; not a frozen basketball study."
+    },
+    "scripts/capture_sloan_prospective_games.py": {
+      "mode": "excluded",
+      "reason": "Immutable registered source acquisition or forecast sealing; offline estimators use the retained-input execution gate."
+    },
+    "scripts/capture_sloan_prospective_rosters.py": {
+      "mode": "excluded",
+      "reason": "Bounded registered raw-source acquisition, with immutable response hashes and offline replay; no model fitting or outcome analysis."
+    },
+    "scripts/check_signings_readiness.py": {
+      "mode": "excluded",
+      "reason": "Operational corpus/forecast build or current-data diagnostic; frozen research callers execute libraries against archived copies."
+    },
+    "scripts/claude_value_cost_model.py": {
+      "mode": "excluded",
+      "reason": "Agent/model engineering cost projection, not a frozen basketball research generator; ATI-3411 per-stage inventory and cold-cache cost model (zero API calls)."
+    },
+    "scripts/collect_import_signings.py": {
+      "mode": "excluded",
+      "reason": "Live source acquisition for operational artifacts; downstream research uses pinned copies."
+    },
+    "scripts/collect_oreb_sources.py": {
+      "mode": "excluded",
+      "reason": "Live source acquisition; the guarded OREB generators consume archived records."
+    },
+    "scripts/compare_continental_sources.py": {
+      "mode": "capsule",
+      "reason": "Cross-source check: do the translation factors survive swapping the",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/compare_factor_tables.py": {
+      "mode": "capsule",
+      "reason": "Cell-by-cell deltas between two league_factors tables (ATI-2957 acceptance).",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/compare_role_bases.py": {
+      "mode": "capsule",
+      "reason": "ATI-2844 — the committed generator for the role-basis comparison table.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/compare_translation_designs.py": {
+      "mode": "frozen",
+      "reason": "Byte-pinned research source; direct CLI retired. Use scripts/run_frozen_research.py with this path.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "source_sha256": "b8b56b50fee15ae6e71a8c6968b445d03c05401fdbb179e0f4ba2c04df935376",
+      "source_receipt": "docs/research/artifacts/sloan-v10-2026-09-20/summary.json"
+    },
+    "scripts/compute_hidden_action_values.py": {
+      "mode": "excluded",
+      "reason": "Operational weekly player-value product build; has its own stale-input fingerprint contract."
+    },
+    "scripts/compute_lineup_gravity.py": {
+      "mode": "excluded",
+      "reason": "Operational corpus/forecast build or current-data diagnostic; frozen research callers execute libraries against archived copies."
+    },
+    "scripts/compute_player_roles.py": {
+      "mode": "excluded",
+      "reason": "Operational corpus/forecast build or current-data diagnostic; frozen research callers execute libraries against archived copies."
+    },
+    "scripts/compute_rapm.py": {
+      "mode": "excluded",
+      "reason": "Operational corpus/forecast build or current-data diagnostic; frozen research callers execute libraries against archived copies."
+    },
+    "scripts/compute_shot_quality_ratings.py": {
+      "mode": "excluded",
+      "reason": "Operational corpus/forecast build or current-data diagnostic; frozen research callers execute libraries against archived copies."
+    },
+    "scripts/data_audit/d1_possessions.py": {
+      "mode": "capsule",
+      "reason": "D1 Audit — Possession & FT counting correctness.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/data_audit/d2_reconcile.py": {
+      "mode": "capsule",
+      "reason": "D2 Cross-Source Consistency Audit — Basketball Analysis",
+      "source_seasons": "snapshot"
+    },
+    "scripts/data_audit/d3_coverage.py": {
+      "mode": "capsule",
+      "reason": "D3 Coverage & Completeness Audit.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/data_audit/d4_reliability.py": {
+      "mode": "capsule",
+      "reason": "D4 — RAPM / impact-metric reliability audit.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/data_audit/d5_schema.py": {
+      "mode": "capsule",
+      "reason": "D5 Audit: Schema, Duplicates, Null Keys, and ID-Space Integrity.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/data_audit/parquet_codes.py": {
+      "mode": "excluded",
+      "reason": "Import-only library; guarded executable callers own input identity."
+    },
+    "scripts/data_audit/synthesis_figures.py": {
+      "mode": "capsule",
+      "reason": "Synthesis figures for the 2026-06-27 data-validity audit (READ-ONLY).",
+      "source_seasons": "snapshot"
+    },
+    "scripts/detector_audit/ati3263_results_tables.py": {
+      "mode": "capsule",
+      "reason": "Render the ATI-3263 results tables from the saved measurement artifacts.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/detector_audit/charge_possession_invariant.py": {
+      "mode": "capsule",
+      "reason": "Print ``charge_drawn_on_drawer_possession`` for each v1.2 scope (ATI-3223).",
+      "source_seasons": "snapshot"
+    },
+    "scripts/detector_audit/block_ft_attribution_diff.py": {
+      "mode": "capsule",
+      "reason": "ATI-3224 same-input detector comparison and provenance gates.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/detector_audit/count_labels.py": {
+      "mode": "capsule",
+      "reason": "Label counts per event type x competition for three hidden-event files (ATI-3201).",
+      "source_seasons": "snapshot"
+    },
+    "scripts/detector_audit/charge_boundary_diff.py": {
+      "mode": "capsule",
+      "reason": "ATI-3305 same-input physical possession and complete hidden-event join audit.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/detector_audit/foul_rv_incident_diff.py": {
+      "mode": "capsule",
+      "reason": "ATI-3303 same-input pairing and event comparison with independent raw episode witnesses.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/detector_audit/fouler_carry_diff.py": {
+      "mode": "capsule",
+      "reason": "ATI-3302 same-input fouler technical carry comparison with independent debt accounting.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/detector_audit/hidden_events_diff.py": {
+      "mode": "capsule",
+      "reason": "Old -> new hidden-event diff and gates A0-A6 of the ATI-3278 pre-registration.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/detector_audit/references/reference_fouls.py": {
+      "mode": "excluded",
+      "reason": "Pure library of ATI-3201 reference implementations; executed only through the guarded report_detector_audit.py caller."
+    },
+    "scripts/detector_audit/regenerate_hidden_events.py": {
+      "mode": "excluded",
+      "reason": "Source acquisition/corpus rebuild; downstream study entrypoints are guarded."
+    },
+    "scripts/detector_audit/rename_equivalence_ati3246.py": {
+      "mode": "capsule",
+      "reason": "ATI-3246 acceptance: renaming 17 hidden-event ids changed no label and no value.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/detector_audit/report_detector_audit.py": {
+      "mode": "capsule",
+      "reason": "Render docs/research/hidden-event-detector-audit-2026-09-23.md from the committed ATI-3201 tables.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/detector_audit/rv_pairing_diff.py": {
+      "mode": "capsule",
+      "reason": "Old -> new ``paired_foul_play`` table over the EuroLeague and EuroCup PBP (ATI-3223).",
+      "source_seasons": "snapshot"
+    },
+    "scripts/diagnose_refusals.py": {
+      "mode": "excluded",
+      "reason": "Agent/model engineering evaluation, not a frozen basketball research generator; retains its independent eval provenance."
+    },
+    "scripts/diff_pci_versions.py": {
+      "mode": "excluded",
+      "reason": "Operational before/after product-rating diagnostic; not a registered research result."
+    },
+    "scripts/evaluate_sloan_prospective_forecasts.py": {
+      "mode": "capsule",
+      "reason": "Registered prospective opportunity forecasts and immutable future-outcome evaluation.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/evaluate_translation_predictions.py": {
+      "mode": "excluded",
+      "reason": "Operational corpus/forecast build or current-data diagnostic; frozen research callers execute libraries against archived copies."
+    },
+    "scripts/export_public_translation_repo.py": {
+      "mode": "excluded",
+      "reason": "Public submission packaging; separate explicit publication authority and allowlisted export contract."
+    },
+    "scripts/export_signings_release_repo.py": {
+      "mode": "excluded",
+      "reason": "Release packaging with existing evidence/manifest checks, not a research estimator."
+    },
+    "scripts/export_sloan_completion_review.py": {
+      "mode": "native",
+      "reason": "Existing exact manifest inventory, source/renderer hash checks, immutable local review bundle and verified numerical replay. Preserve its standalone bundle boundary."
+    },
+    "scripts/fetch_euroleague_bios.py": {
+      "mode": "excluded",
+      "reason": "Live source acquisition for operational artifacts; downstream research uses pinned copies."
+    },
+    "scripts/fetch_nba_player_seasons.py": {
+      "mode": "excluded",
+      "reason": "Live source acquisition; the offline NBA study is capsule-guarded."
+    },
+    "scripts/hidden_patterns/build_pattern_inputs.py": {
+      "mode": "native",
+      "reason": "Native scoped input snapshot and output-hash contract (PR #2533)."
+    },
+    "scripts/hidden_patterns/report_hidden_pattern_search.py": {
+      "mode": "capsule",
+      "reason": "Render docs/research/hidden-pattern-search-2026-09-24.md from docs/research/artifacts/ati-3236/ (ATI-3236).",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/hidden_patterns/report_state_baseline_search.py": {
+      "mode": "capsule",
+      "reason": "Render docs/research/hidden-pattern-search-state-baseline-2026-09-24.md (ATI-3245).",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/hidden_patterns/run_hidden_patterns.py": {
+      "mode": "native",
+      "reason": "Native complete-file receipt/snapshot contract for both baselines (PR #2533)."
+    },
+    "scripts/hidden_value/build_panels.py": {
+      "mode": "excluded",
+      "reason": "Frozen ATI-2995 source: preserve historical byte identity. Direct CLI is retired; run via scripts/hidden_value/run_pinned_study.py."
+    },
+    "scripts/hidden_value/prepare_artifact_pair.py": {
+      "mode": "capsule",
+      "reason": "Prepare immutable paired ATI-3306 inputs and export-only source composites.",
+      "source_seasons": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/hidden_value/rebuild_hidden_stream.py": {
+      "mode": "capsule",
+      "reason": "Regenerate complete registered PBP-only hidden streams with pinned inputs.",
+      "source_seasons": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/hidden_value/estimate_hidden_action_values.py": {
+      "mode": "capsule",
+      "reason": "ATI-3184 generator: value of each hidden action (TV and EV), gates, player totals and the ATI-3185 spec.",
+      "source_seasons": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/hidden_value/estimate_hidden_values_ev_pci.py": {
+      "mode": "capsule",
+      "reason": "ATI-3747 generator: EV of every bonus-bearing hidden action (stage-2 context values, DerSimonian-Laird shrinkage, GBM agreement gate) for the hidden-value view outside PCI.",
+      "source_seasons": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/hidden_value/reference_player_totals_ev_pci.py": {
+      "mode": "capsule",
+      "reason": "ATI-3990: reference player totals for the ATI-3747 hidden-value view (counts x spec EV, reliable cells only), derived without the agent's code for the hidden_action_value eval class.",
+      "source_seasons": [
+        2025
+      ]
+    },
+    "scripts/hidden_value/legacy_vocabulary.py": {
+      "mode": "capsule",
+      "reason": "Active CLI boundary for the frozen ATI-2995 panel builder.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/hidden_value/lens_l1_predictive_rolling.py": {
+      "mode": "excluded",
+      "reason": "Frozen ATI-2995 source: preserve historical byte identity. Direct CLI is retired; run via scripts/hidden_value/run_pinned_study.py."
+    },
+    "scripts/hidden_value/lens_l2_rapm_marginal.py": {
+      "mode": "frozen",
+      "reason": "Byte-pinned research source; direct CLI retired. Use scripts/run_frozen_research.py with this path.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "source_sha256": "c390498199a2ea3d858c29eca0551957980fc5b80171efebb68529377e836508",
+      "source_receipt": "docs/research/artifacts/ati-2995-rerun-2026-09-21.json"
+    },
+    "scripts/hidden_value/lens_l3_ebm.py": {
+      "mode": "excluded",
+      "reason": "Frozen ATI-2995 source: preserve historical byte identity. Direct CLI is retired; run via scripts/hidden_value/run_pinned_study.py."
+    },
+    "scripts/hidden_value/lens_l4_clutch.py": {
+      "mode": "frozen",
+      "reason": "Byte-pinned research source; direct CLI retired. Use scripts/run_frozen_research.py with this path.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "source_sha256": "605177a3360fa1f573a6ac513ccc6a9d571b060975e0a1fe72e2b84dff50359c",
+      "source_receipt": "docs/research/artifacts/ati-2995-rerun-2026-09-21.json"
+    },
+    "scripts/hidden_value/lens_l5_samegame_gate.py": {
+      "mode": "frozen",
+      "reason": "Byte-pinned research source; direct CLI retired. Use scripts/run_frozen_research.py with this path.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "source_sha256": "97f5072cae82b9dcf3aa4c39189bf8900845a7ca2d983e5ce631a54f82f6a50e",
+      "source_receipt": "docs/research/artifacts/ati-2995-rerun-2026-09-21.json"
+    },
+    "scripts/hidden_value/report_foul_rerun.py": {
+      "mode": "frozen",
+      "reason": "Byte-pinned research source; direct CLI retired. Use scripts/run_frozen_research.py with this path.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "source_sha256": "a6307d3120360d51fcda6a488b2861256d4ebe3f589a89f8110e79bb09036ec7",
+      "source_receipt": "docs/research/artifacts/ati-2995-rerun-2026-09-21.json"
+    },
+    "scripts/hidden_value/report_hidden_action_values.py": {
+      "mode": "capsule",
+      "reason": "Render docs/research/hidden-action-values-2026-09-23.md from docs/research/artifacts/ati-3184/ (ATI-3184).",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/hidden_value/report_hidden_values_ev_pci.py": {
+      "mode": "capsule",
+      "reason": "Render the ATI-3747 results note from docs/research/artifacts/ati-3747/ (values, M2, M3, M4).",
+      "source_seasons": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/hidden_value/run_pinned_study.py": {
+      "mode": "capsule",
+      "reason": "Guarded entrypoint for byte-pinned ATI-2995 panels and lenses.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/hidden_value/synthesis_fdr_and_charts.py": {
+      "mode": "excluded",
+      "reason": "Retired byte-pinned ATI-2995 synthesis with a hard-coded primary checkout path. Preserve its historical source and outputs; direct execution is unsupported."
+    },
+    "scripts/hidden_value/validate_hidden_values_holdout.py": {
+      "mode": "capsule",
+      "reason": "ATI-3747 M4: temporal holdout (values refit on 2016-2023 E/U) of the hidden-value layer against next-season RAPM and on-court net rating.",
+      "source_seasons": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/hidden_value/verify_bucket.py": {
+      "mode": "frozen",
+      "reason": "Byte-pinned research source; direct CLI retired. Use scripts/run_frozen_research.py with this path.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "source_sha256": "5fca7e5229f5f919afd5e3371557c9361e1c849e5071f0313b068de6ac86e65f",
+      "source_receipt": "docs/research/artifacts/ati-2995-rerun-2026-09-21.json"
+    },
+    "scripts/hidden_value/verify_catch_and_shoot.py": {
+      "mode": "frozen",
+      "reason": "Byte-pinned research source; direct CLI retired. Use scripts/run_frozen_research.py with this path.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "source_sha256": "31cb80720198ab7b54156083feed8b33e226c71d085afb29d39b9c773fa3550b",
+      "source_receipt": "docs/research/artifacts/ati-2995-rerun-2026-09-21.json"
+    },
+    "scripts/hidden_value/verify_chase_down_block.py": {
+      "mode": "frozen",
+      "reason": "Byte-pinned research source; direct CLI retired. Use scripts/run_frozen_research.py with this path.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "source_sha256": "42ead31d9643c9ae3322ca9b26ba2ba42642b3095a5f7e0785fb0e6d2b17b8f9",
+      "source_receipt": "docs/research/artifacts/ati-2995-rerun-2026-09-21.json"
+    },
+    "scripts/hidden_value/verify_comeback_play.py": {
+      "mode": "frozen",
+      "reason": "Byte-pinned research source; direct CLI retired. Use scripts/run_frozen_research.py with this path.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "source_sha256": "d6e2d1932f01c4d1b5b0c493cd6b67a1f8f4ae57224059ac5a75bdc216916e47",
+      "source_receipt": "docs/research/artifacts/ati-2995-rerun-2026-09-21.json"
+    },
+    "scripts/hidden_value/verify_pressure_ft.py": {
+      "mode": "frozen",
+      "reason": "Byte-pinned research source; direct CLI retired. Use scripts/run_frozen_research.py with this path.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "source_sha256": "e4797f2ff7006de015e6553c767086f336762110d4d1e8e9b1ece3fa346fad1c",
+      "source_receipt": "docs/research/artifacts/ati-2995-rerun-2026-09-21.json"
+    },
+    "scripts/hidden_value/verify_run_starter.py": {
+      "mode": "frozen",
+      "reason": "Byte-pinned research source; direct CLI retired. Use scripts/run_frozen_research.py with this path.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "source_sha256": "b152fd1ecc608980197eb72cd11a0ed3fffddd55462e9b67168a08e983c81a6a",
+      "source_receipt": "docs/research/artifacts/ati-2995-rerun-2026-09-21.json"
+    },
+    "scripts/hidden_value/verify_run_stopper.py": {
+      "mode": "frozen",
+      "reason": "Byte-pinned research source; direct CLI retired. Use scripts/run_frozen_research.py with this path.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "source_sha256": "6e2216b8b839554dbccc145be0a45ebb798dcec59439e7873f8a5b16c776e5b8",
+      "source_receipt": "docs/research/artifacts/ati-2995-rerun-2026-09-21.json"
+    },
+    "scripts/impact_holdout_gate.py": {
+      "mode": "capsule",
+      "reason": "Impact+ holdout gate — the predictive bar every winning-impact candidate",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/instantiate_translation_propositions.py": {
+      "mode": "capsule",
+      "reason": "Five propositions behind the translation model, instantiated on the corpus.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/league_factor_pooling.py": {
+      "mode": "excluded",
+      "reason": "Pure library (ATI-2960 tau2 estimators for the factor pooling); guarded by its executable caller scripts/refit_league_factors_tau2.py and its unit tests."
+    },
+    "scripts/league_factor_tier_cap.py": {
+      "mode": "excluded",
+      "reason": "Pure library (ATI-3338 cap on a thin cell's share of the tier-mean weight, composed on the ATI-3326 floor_clearing + informative_clusters fit); guarded by its executable caller scripts/refit_league_factors_tier_cap.py and its unit tests."
+    },
+    "scripts/league_factor_se_rule.py": {
+      "mode": "excluded",
+      "reason": "Pure library (ATI-3326 undefined-SE rule for cells whose cluster bootstrap has one informative cluster, plus the per-block weight-share flag); guarded by its executable caller scripts/refit_league_factors_se_rule.py and its unit tests."
+    },
+    "scripts/llm_routing_spike/analyse_decisive.py": {
+      "mode": "excluded",
+      "reason": "Agent tooling or model-engineering evaluation; not a frozen basketball research generator."
+    },
+    "scripts/llm_routing_spike/analyse_regressions.py": {
+      "mode": "excluded",
+      "reason": "Agent tooling or model-engineering evaluation; not a frozen basketball research generator."
+    },
+    "scripts/llm_routing_spike/arena.py": {
+      "mode": "excluded",
+      "reason": "Agent tooling or model-engineering evaluation; not a frozen basketball research generator."
+    },
+    "scripts/llm_routing_spike/arena_v2.py": {
+      "mode": "excluded",
+      "reason": "Agent tooling or model-engineering evaluation; not a frozen basketball research generator."
+    },
+    "scripts/llm_routing_spike/inspect_dev_failures.py": {
+      "mode": "excluded",
+      "reason": "Agent tooling or model-engineering evaluation; not a frozen basketball research generator."
+    },
+    "scripts/llm_routing_spike/measure_rewriter_latency.py": {
+      "mode": "excluded",
+      "reason": "Agent tooling or model-engineering evaluation; not a frozen basketball research generator."
+    },
+    "scripts/measure_decomposer_efficiency.py": {
+      "mode": "excluded",
+      "reason": "Agent tooling or model-engineering evaluation; not a frozen basketball research generator."
+    },
+    "scripts/measure_pairing_vs_form.py": {
+      "mode": "capsule",
+      "reason": "Study A — is the pairing independent of form?",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/package_translation_diagnostics.py": {
+      "mode": "capsule",
+      "reason": "Package completed Study B cache reports without losing exclusions or provenance.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/papm/__init__.py": {
+      "mode": "excluded",
+      "reason": "Import-only library; guarded executable callers own input identity."
+    },
+    "scripts/papm/bootstrap_panels.py": {
+      "mode": "capsule",
+      "reason": "Paired bootstrap of PAPM − RAPM panel differences (the significance gate).",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/papm/build_hist_stints.py": {
+      "mode": "capsule",
+      "reason": "Build stints for HISTORICAL seasons into an isolated parquet (non-destructive).",
+      "source_seasons": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/papm/build_involvement_counts.py": {
+      "mode": "capsule",
+      "reason": "Build per-(stint, player) OFFENSIVE involvement counts from raw PBP.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/papm/movers_power_test.py": {
+      "mode": "capsule",
+      "reason": "Movers-power test: does PAPM's individual-attribution edge strengthen with",
+      "source_seasons": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/papm/p0_contest_signal.py": {
+      "mode": "capsule",
+      "reason": "P0 proof-of-signal for CADI: does cv_basketball's contest signal predict makes?",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/papm/papm_model.py": {
+      "mode": "excluded",
+      "reason": "Import-only library; guarded executable callers own input identity."
+    },
+    "scripts/papm/run_gate.py": {
+      "mode": "capsule",
+      "reason": "Run PAPM through the production holdout gate (impact_holdout_gate machinery).",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/papm/scrape_hist_pbp.py": {
+      "mode": "excluded",
+      "reason": "Source acquisition/corpus rebuild; downstream study entrypoints are guarded."
+    },
+    "scripts/papm/xrapm_gate.py": {
+      "mode": "capsule",
+      "reason": "xRAPM — luck-adjusted (expected-points) RAPM, gate-tested.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/plot_league_graph.py": {
+      "mode": "capsule",
+      "reason": "Study D — the league graph as a figure and a product.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/plot_sloan_abstract_figures.py": {
+      "mode": "capsule",
+      "reason": "Figures and read-back numbers for the SSAC27 abstract (ATI-2807).",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/prepare_sloan_prospective_inputs.py": {
+      "mode": "excluded",
+      "reason": "Immutable registered source acquisition or forecast sealing; offline estimators use the retained-input execution gate."
+    },
+    "scripts/print_game_widgets_spec.py": {
+      "mode": "excluded",
+      "reason": "Live-data METHOD printout and reconciliation for the web game-page widget endpoints (scoring flow, box score, game shots) and the standings table (ATI-3301); not a frozen research artifact and quotes no docs/research numbers."
+    },
+    "scripts/print_player_comparison_group_check.py": {
+      "mode": "excluded",
+      "reason": "Live-data METHOD printout for the player page's one comparison group (ATI-3301): the hidden-stats rail and the percentile profile must report the same group for every player; not a frozen research artifact and quotes no docs/research numbers."
+    },
+    "scripts/print_team_charts_spec.py": {
+      "mode": "excluded",
+      "reason": "Live-data METHOD printout for the web team chart widget endpoints (four factors, style map, net rating trend; ATI-3297); not a frozen research artifact and quotes no docs/research numbers."
+    },
+    "scripts/print_team_ratings_spec.py": {
+      "mode": "excluded",
+      "reason": "Live-data METHOD printout for the web /api/analytics/team-ratings endpoint (ATI-3293); not a frozen research artifact and quotes no docs/research numbers."
+    },
+    "scripts/probe_hallucination_by_model.py": {
+      "mode": "excluded",
+      "reason": "Agent/model engineering evaluation, not a frozen basketball research generator; retains its independent eval provenance."
+    },
+    "scripts/probe_sloan_roster_feasibility.py": {
+      "mode": "excluded",
+      "reason": "Live source acquisition with archived response hashes; offline analysis consumes its artifacts."
+    },
+    "scripts/qa/snapshot_rewriter_override_locks.py": {
+      "mode": "excluded",
+      "reason": "Agent/model engineering evaluation, not a frozen basketball research generator; retains its independent eval provenance."
+    },
+    "scripts/risk_tier.py": {
+      "mode": "excluded",
+      "reason": "CI merge-gate tooling: reads the Sloan frozen records only to list hash-pinned paths; not a research generator."
+    },
+    "scripts/rank_shortlist_double_count.py": {
+      "mode": "capsule",
+      "reason": "Study B — the scout's shortlist: what the double-count costs in ranks.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/record_sloan_prospective_primary.py": {
+      "mode": "excluded",
+      "reason": "Exclusive immutable primary-outcome lock from a completed registered evaluation receipt."
+    },
+    "scripts/record_eurocup_gap.py": {
+      "mode": "excluded",
+      "reason": "Dated operational registration record against the locked forecast."
+    },
+    "scripts/refit_league_factors_se_rule.py": {
+      "mode": "excluded",
+      "reason": "Operational refit of build_league_factors' SE/pooling step (ATI-3326, pre-registered 2026-10-09) plus rule-on vs rule-off re-runs of the frozen walk-forward/holdout libraries. It refuses any factor table that is not the record and records every input sha256 in its artifact."
+    },
+    "scripts/refit_league_factors_tier_cap.py": {
+      "mode": "excluded",
+      "reason": "Operational refit of build_league_factors' SE/pooling step (ATI-3326 option 3 + ATI-3338, pre-registered 2026-10-10) plus per-configuration re-runs of the frozen walk-forward/holdout libraries. It refuses any factor table that is not the record and records every input sha256 in its artifact."
+    },
+    "scripts/refit_league_factors_tau2.py": {
+      "mode": "excluded",
+      "reason": "Operational refit of build_league_factors' pooling step (ATI-2960, pre-registered 2026-09-29) plus old-vs-new re-runs of the frozen walk-forward/holdout libraries. Like build_league_factors.py it reads the live corpus; it proves input identity itself by reproducing the table of record bitwise under the old flag and records every input sha256 in its artifact."
+    },
+    "scripts/register_fact_block.py": {
+      "mode": "excluded",
+      "reason": "Agent tooling or model-engineering evaluation; not a frozen basketball research generator."
+    },
+    "scripts/render_application_studies_note.py": {
+      "mode": "capsule",
+      "reason": "Render ``docs/research/translation-application-studies-2026-09.md`` from the",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/render_rehearsal_note.py": {
+      "mode": "capsule",
+      "reason": "Render the 2025-26 dress-rehearsal note from the evaluator's own payloads.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/render_sloan_benchmark.py": {
+      "mode": "frozen",
+      "reason": "Byte-pinned research source; direct CLI retired. Use scripts/run_frozen_research.py with this path.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "source_sha256": "3a6bd0f6be90caffde7b8ce7b77f3a0b2f13f2d479d2a832265b9e64de7cc332",
+      "source_receipt": "docs/research/artifacts/sloan-completion-2026-09-17/rendered/render_manifest.json"
+    },
+    "scripts/render_sloan_fullpaper.py": {
+      "mode": "capsule",
+      "reason": "Render the SSAC27 full paper (Submission 47) -- manuscript, figures and, with --docx, the Word file via scripts/build_sloan_fullpaper_docx.py -- from the committed full-paper summaries without typing numbers.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/render_sloan_fullpaper_decisions_note.py": {
+      "mode": "capsule",
+      "reason": "Render the SSAC27 decision-value note from the committed outputs of scripts/sloan_fullpaper_decisions.py.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/render_sloan_completion.py": {
+      "mode": "capsule",
+      "reason": "Render registered Sloan completion evidence without selecting results.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/render_sloan_pdf.py": {
+      "mode": "capsule",
+      "reason": "Render a Sloan Markdown review manuscript to PDF without changing its content.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/render_sloan_revision.py": {
+      "mode": "frozen",
+      "reason": "Byte-pinned research source; direct CLI retired. Use scripts/run_frozen_research.py with this path.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "source_sha256": "6c3990b908ee915dac26fd1d316dc9153f94241eff6d628f3f802330f4406841",
+      "source_receipt": "docs/research/artifacts/sloan-completion-2026-09-17/rendered/render_manifest.json"
+    },
+    "scripts/render_sloan_v10.py": {
+      "mode": "capsule",
+      "reason": "Render the registered v10 comparison without changing the preserved v9 candidate.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/render_sloan_v9.py": {
+      "mode": "capsule",
+      "reason": "Render the registered v9 diagnostics, including unfavorable findings.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/report_aging_pairs.py": {
+      "mode": "capsule",
+      "reason": "Instrument sizing for the aging-curve study — pair counts by age.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/report_appearance_directions.py": {
+      "mode": "frozen",
+      "reason": "Byte-pinned research source; direct CLI retired. Use scripts/run_frozen_research.py with this path.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "source_sha256": "e48a1ae823e68290bf550384f234a8d00a17d96a992bf7650374f45e9995eb18",
+      "source_receipt": "docs/research/artifacts/appearance-directions-2026-09-20/report_manifest.json"
+    },
+    "scripts/report_league_factor_default_switch.py": {
+      "mode": "excluded",
+      "reason": "Operational report for ATI-3351 (stage-1 fit adopted as the default): reads the two sha-verified factor tables and the locked forecast files, and writes the before/after artifacts the 2026-10-10 note cites."
+    },
+    "scripts/report_league_factors.py": {
+      "mode": "capsule",
+      "reason": "Run the controls on the translation factors, and write the research note.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/report_source_season_staleness.py": {
+      "mode": "capsule",
+      "reason": "ATI-2959 — what each candidate source-season staleness rule would do.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/reproduce_sloan_sources.py": {
+      "mode": "capsule",
+      "reason": "Recompute the local source-sensitivity forecasts using explicit aggregate inputs.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/reproduce_sloan_validation.py": {
+      "mode": "capsule",
+      "reason": "Reproduce the new Sloan headlines without a corpus or private environment.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/research_inputs.py": {
+      "mode": "excluded",
+      "reason": "Shared archive/restore utility, not a study."
+    },
+    "scripts/check_job_heartbeats.py": {
+      "mode": "excluded",
+      "reason": "Scheduler heartbeat health check, not a study."
+    },
+    "scripts/qa/golden/run_golden_set.py": {
+      "mode": "excluded",
+      "reason": "QA golden-set runner, not a scientific estimator."
+    },
+    "scripts/restate_prediction_power.py": {
+      "mode": "capsule",
+      "reason": "Restate the pre-registration §7 power table at the scored population.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/revalidate_scouting_translation.py": {
+      "mode": "capsule",
+      "reason": "Replay registered forecast checks without confusing reproducibility with validity.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/revalidate_sloan_sources.py": {
+      "mode": "frozen",
+      "reason": "Byte-pinned research source; direct CLI retired. Use scripts/run_frozen_research.py with this path.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "source_sha256": "079f9982dea7a661c1a0e25c3b8b25b48386da3a28e199dd409c0b63988bea41",
+      "source_receipt": "docs/research/artifacts/sloan-v10-2026-09-20/summary.json"
+    },
+    "scripts/rim_deterrence/build_rim_metric.py": {
+      "mode": "capsule",
+      "reason": "Build the RIM-DETERRENCE player metric (raw + ridge) + decomposition checks.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/rim_deterrence/build_rim_team_panel.py": {
+      "mode": "capsule",
+      "reason": "Build the TEAM-GAME rim-deterrence panel for the winning test (R3).",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/rim_deterrence/make_synthesis_charts.py": {
+      "mode": "capsule",
+      "reason": "Synthesis charts for the rim-deterrence findings report (read-only on data).",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/rim_deterrence/r1_reliability.py": {
+      "mode": "capsule",
+      "reason": "R1 Reliability Gate — split-half reliability of the drapm_rim metric.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/rim_deterrence/r2_beyond_blocks.py": {
+      "mode": "capsule",
+      "reason": "R2 BEYOND-BLOCKS — Does rim deterrence carry value beyond the box?",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/rim_deterrence/r3_team_winning.py": {
+      "mode": "capsule",
+      "reason": "R3 — Team Winning Value of Rim Deterrence (rolling team-game panel).",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/rim_deterrence/r4_gauntlet.py": {
+      "mode": "capsule",
+      "reason": "R4 ADVERSARIAL GAUNTLET — stress every positive claim from R1/R2/R3.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/role_taxonomy_amendment2_gates.py": {
+      "mode": "excluded",
+      "reason": "Import-only gates; native role runner owns the contract."
+    },
+    "scripts/role_taxonomy_amendment3_min_group.py": {
+      "mode": "excluded",
+      "reason": "Import-only gates; native role runner owns the contract."
+    },
+    "scripts/role_taxonomy_features.py": {
+      "mode": "excluded",
+      "reason": "Import-only feature library; native role runner owns the contract."
+    },
+    "scripts/role_taxonomy_hidden.py": {
+      "mode": "excluded",
+      "reason": "Import-only feature library; native role runner owns the contract."
+    },
+    "scripts/run_agent_correctness_eval.py": {
+      "mode": "excluded",
+      "reason": "Agent tooling or model-engineering evaluation; not a frozen basketball research generator."
+    },
+    "scripts/run_appearance_directions.py": {
+      "mode": "native",
+      "reason": "Verifies frozen forecast artifacts, source hashes, protocol hash and operating-lock bytes before analysis; absolute protected-primary checks intentionally retained."
+    },
+    "scripts/run_contribution_profiles.py": {
+      "mode": "capsule",
+      "reason": "Run registered contribution research without writing source data.",
+      "source_seasons": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/run_defence_facet_ab.py": {
+      "mode": "excluded",
+      "reason": "Agent/model engineering evaluation, not a frozen basketball research generator; retains its independent eval provenance."
+    },
+    "scripts/run_dynamic_opportunity.py": {
+      "mode": "capsule",
+      "reason": "Run the registered EuroLeague opportunity study.",
+      "source_seasons": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/run_euroleague_newcomers.py": {
+      "mode": "capsule",
+      "reason": "Execute the registered EuroLeague newcomer study.",
+      "source_seasons": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/run_evaluation.py": {
+      "mode": "excluded",
+      "reason": "Agent tooling or model-engineering evaluation; not a frozen basketball research generator."
+    },
+    "scripts/run_model_comparison.py": {
+      "mode": "excluded",
+      "reason": "Agent tooling or model-engineering evaluation; not a frozen basketball research generator."
+    },
+    "scripts/run_next_five_games.py": {
+      "mode": "capsule",
+      "reason": "Run the registered next-five-game research study.",
+      "source_seasons": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/run_frozen_research.py": {
+      "mode": "excluded",
+      "reason": "Dispatcher: each target uses its own frozen catalog policy and the shared input execution gate."
+    },
+    "scripts/run_shooting_skill_study.py": {
+      "mode": "capsule",
+      "reason": "Reproduce the preregistered shooting replay with immutable inputs and outputs.",
+      "source_seasons": [
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/describe_rewriter_sweep_run.py": {
+      "mode": "excluded",
+      "reason": "Agent/model engineering evaluation, not a frozen basketball research generator; descriptive zero-LLM summary of a saved rewriter sweep run."
+    },
+    "scripts/run_stage_thinking_sweep.py": {
+      "mode": "excluded",
+      "reason": "Agent/model engineering evaluation, not a frozen basketball research generator; retains its independent eval provenance."
+    },
+    "scripts/build_rewriter_subject_frame.py": {
+      "mode": "excluded",
+      "reason": "Agent/model engineering evaluation, not a frozen basketball research generator; zero-LLM frame builder for ATI-3411 Amendment 8, its bytes pinned by sha256 in A8.2."
+    },
+    "scripts/rewriter_subject_a8.py": {
+      "mode": "excluded",
+      "reason": "Agent/model engineering evaluation, not a frozen basketball research generator; ATI-3411 Amendment 8 row 1r harness mode (run_stage_thinking_sweep.py --mode rewriter-subject) and its zero-LLM requalification child."
+    },
+    "scripts/score_defence_facet_ab.py": {
+      "mode": "excluded",
+      "reason": "Agent/model engineering evaluation, not a frozen basketball research generator; retains its independent eval provenance."
+    },
+    "scripts/score_lifted_refusals.py": {
+      "mode": "excluded",
+      "reason": "Agent/model engineering evaluation, not a frozen basketball research generator; retains its independent eval provenance."
+    },
+    "scripts/run_p7j_dev.py": {
+      "mode": "excluded",
+      "reason": "Agent/model engineering evaluation, not a frozen basketball research generator; P7j's dev ladder (ATI-3447), reading P7g's hash-checked collection and dev labels and retaining every judge response for a zero-call rescore."
+    },
+    "scripts/score_p7g_test_once.py": {
+      "mode": "excluded",
+      "reason": "Agent/model engineering evaluation, not a frozen basketball research generator; P7g's scored-once test scoring, pinned by its own scorer and label sha256 checks."
+    },
+    "scripts/seal_sloan_prospective_forecasts.py": {
+      "mode": "excluded",
+      "reason": "Immutable registered source acquisition or forecast sealing; offline estimators use the retained-input execution gate."
+    },
+    "scripts/simulate_translation_estimator.py": {
+      "mode": "frozen",
+      "reason": "Byte-pinned research source; direct CLI retired. Use scripts/run_frozen_research.py with this path.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "source_sha256": "85207e51ea148516abe98d496528e22e931ee44a03f1f8898d70938c637025af",
+      "source_receipt": "docs/research/artifacts/sloan-validation-2026-09-07/review_package_summary.json"
+    },
+    "scripts/sloan_alias_evidence.py": {
+      "mode": "excluded",
+      "reason": "Source evidence collection with native archived-response validation."
+    },
+    "scripts/sloan_context_benchmarks.py": {
+      "mode": "frozen",
+      "reason": "Byte-pinned research source; direct CLI retired. Use scripts/run_frozen_research.py with this path.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "source_sha256": "cebfd7b76857346e3825c51ca2bd7d8407bb6867500e2c6fef2ad2cd37104c58",
+      "source_receipt": "docs/research/artifacts/sloan-v10-2026-09-20/summary.json"
+    },
+    "scripts/sloan_corrected_sources.py": {
+      "mode": "capsule",
+      "reason": "Registered immutable official correction and complete input reconstruction.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/sloan_fullpaper_common.py": {
+      "mode": "capsule",
+      "reason": "SSAC27 full-paper shared inputs and the G0 reproduction gate against the pinned v9/v10 records.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/sloan_fullpaper_prospective.py": {
+      "mode": "capsule",
+      "reason": "SSAC27 full-paper P1: frozen 2026-27 forecasts from 2025-26 domestic sources (v10 path, anchor-2025 gate). Scoring is scripts/sloan_fullpaper_prospective_score.py.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/sloan_fullpaper_recipes.py": {
+      "mode": "capsule",
+      "reason": "SSAC27 full-paper E1 (league-aware model vs translation) and E2 (six translation recipes through the v10 ladder, pools A-D).",
+      "source_seasons": "snapshot"
+    },
+    "scripts/report_sloan_fullpaper_recipes.py": {
+      "mode": "capsule",
+      "reason": "Render docs/research/sloan-fullpaper-recipes-2026-11-03.md from the committed E1/E2 and P1-freeze retained-run outputs.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/sloan_full_refit.py": {
+      "mode": "frozen",
+      "reason": "Byte-pinned research source; direct CLI retired. Use scripts/run_frozen_research.py with this path.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "source_sha256": "367a25c7b952717718306658437095977d120060b5eddb5d0c0e4c0bdfd1bf1b",
+      "source_receipt": "docs/research/artifacts/sloan-v10-2026-09-20/summary.json"
+    },
+    "scripts/sloan_fullpaper_robustness.py": {
+      "mode": "capsule",
+      "reason": "SSAC27 full-paper robustness track (E3 outcomes with the G3 history gate, E4 destinations, E5 seven seasons, E5b age, E6 split-half noise floor); reads only the frozen 2015-2025 raw inventory.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/sloan_fullpaper_robustness_report.py": {
+      "mode": "capsule",
+      "reason": "Render the SSAC27 robustness note from the retained run's summary without typing numbers.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/sloan_fullpaper_survivorship.py": {
+      "mode": "capsule",
+      "reason": "SSAC27 full-paper Amendment 1 E14 (survivorship and playing time): all-arrivals rebuild with the G14 gate, E14a profile, E14b wider-population contrasts, E14c playing-time ladder; reads only the frozen 2015-2025 raw inventory.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/sloan_fullpaper_survivorship_report.py": {
+      "mode": "capsule",
+      "reason": "Render the SSAC27 Amendment 1 E14 survivorship note from the retained run's summary without typing numbers.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/sloan_revision_analysis.py": {
+      "mode": "frozen",
+      "reason": "Byte-pinned research source; direct CLI retired. Use scripts/run_frozen_research.py with this path.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "source_sha256": "b4bdeafd7edea12559771572a95058d8fc4bee681c0581609d5e539752a3de34",
+      "source_receipt": "docs/research/artifacts/sloan-v10-2026-09-20/summary.json"
+    },
+    "scripts/report_sloan_fullpaper_amend3.py": {
+      "mode": "capsule",
+      "reason": "Render docs/research/sloan-fullpaper-amend3-amend4-2026-11-11.md from the committed outputs of scripts/sloan_fullpaper_amend3.py and scripts/sloan_fullpaper_amend4.py without typing numbers.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/sloan_fullpaper_amend4.py": {
+      "mode": "capsule",
+      "reason": "SSAC27 full-paper Amendment 4 E24 (league biases of the destination-aware, source-blind forecast and the spread contrasts) from the pinned v10 inputs and the decide-02, recipes-01 and amend3-02 outputs.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/sloan_fullpaper_amend3.py": {
+      "mode": "capsule",
+      "reason": "SSAC27 full-paper Amendment 3 E18 (forecast level and re-based league biases), E19 (stability of the league equivalents across refits), E20 (ordering accuracy by forecast gap), E21 (league-table flips), E22 (band coverage by source league) and E23 (above-average-season discount) from the pinned v10 inputs, the decide-02, recipes-01 and amend1-decisions-01 outputs, and the frozen 2015-2025 raw inventory.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/sloan_fullpaper_amend1_decisions.py": {
+      "mode": "capsule",
+      "reason": "SSAC27 full-paper Amendment 1 E10 (cross-league ordering), E11 (signed error by source league), E12 (career-year coefficient) and E17 (table completions) from the pinned v10 inputs and the decide-02, recipes-01 and robustness-02 outputs.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/report_sloan_fullpaper_amend1_decisions.py": {
+      "mode": "capsule",
+      "reason": "Render docs/research/sloan-fullpaper-amend1-decisions-2026-11-04.md from the committed outputs of scripts/sloan_fullpaper_amend1_decisions.py without typing numbers.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/sloan_fullpaper_decisions.py": {
+      "mode": "capsule",
+      "reason": "SSAC27 full-paper decision value (E7 D1/D2/D3, E8 conformal intervals, E9 league tiers) on the pinned v10 inputs plus 2020-2025 EuroLeague-API box scores.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/sloan_same_club.py": {
+      "mode": "capsule",
+      "reason": "Registered same-club evidence and overlapping-appearance sensitivity.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/sloan_source_adjudication.py": {
+      "mode": "excluded",
+      "reason": "Import-only source adjudication helpers; guarded executable callers own the run contract."
+    },
+    "scripts/sloan_source_support.py": {
+      "mode": "capsule",
+      "reason": "Read-only input comparison; emit aggregate correction provenance separately.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/sloan_support_loss.py": {
+      "mode": "native",
+      "reason": "Registered restriction diagnostic with exact frozen-input manifests, immutable verified snapshots, fixed training and target keys, complete repetition inventory and checksum-verified caches."
+    },
+    "scripts/sloan_support_loss_review.py": {
+      "mode": "native",
+      "reason": "Exact registered repetition inventory, code and input-receipt hashes, full keyed output readback and immutable reproduction comparison before generating aggregate research evidence."
+    },
+    "scripts/sloan_v10_review_bundle.py": {
+      "mode": "native",
+      "reason": "Existing exact manifest inventory, source/renderer hash checks, immutable local review bundle and verified numerical replay. Preserve its standalone bundle boundary."
+    },
+    "scripts/sloan_v10_slopes.py": {
+      "mode": "frozen",
+      "reason": "Byte-pinned research source; direct CLI retired. Use scripts/run_frozen_research.py with this path.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "source_sha256": "3733c272cb6a63ca3d9038f67f818504779cdcc0244ef48a6d7c066880ebb96e",
+      "source_receipt": "docs/research/artifacts/sloan-v10-2026-09-20/summary.json"
+    },
+    "scripts/sloan_v10_support_policy.py": {
+      "mode": "frozen",
+      "reason": "Byte-pinned research source; direct CLI retired. Use scripts/run_frozen_research.py with this path.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "source_sha256": "1c8e53620f2d16a5a81926dfe5b30ec7ec0630dcf8e4b7ce8f0b3fed0c127ffb",
+      "source_receipt": "docs/research/artifacts/sloan-v10-support-policy-2026-09-20/delivery.json"
+    },
+    "scripts/sloan_v9_diagnostics.py": {
+      "mode": "frozen",
+      "reason": "Byte-pinned research source; direct CLI retired. Use scripts/run_frozen_research.py with this path.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "source_sha256": "3497cb8a46fc983268b67304c4349b147db0747ad39758cdae084c85a8c7eeca",
+      "source_receipt": "docs/research/artifacts/sloan-v10-2026-09-20/summary.json"
+    },
+    "scripts/sloan_v9_review_bundle.py": {
+      "mode": "native",
+      "reason": "Existing exact manifest inventory, source/renderer hash checks, immutable local review bundle and verified numerical replay. Preserve its standalone bundle boundary."
+    },
+    "scripts/study_shooting_playmaking.py": {
+      "mode": "capsule",
+      "reason": "Reproduce the registered descriptive shooting/passing study; never update roles.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/summarize_stage_thinking_sweep.py": {
+      "mode": "excluded",
+      "reason": "Agent/model engineering evaluation, not a frozen basketball research generator; retains its independent eval provenance."
+    },
+    "scripts/synthesize_translation_evidence.py": {
+      "mode": "capsule",
+      "reason": "Study D — evidence synthesis across walk-forward seasons, and the forecast.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/tier2_unseen/build_gravity_panel.py": {
+      "mode": "capsule",
+      "reason": "Build the GRAVITY / SPACING player panel (Tier-2, box-invisible).",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/tier2_unseen/make_figures.py": {
+      "mode": "capsule",
+      "reason": "Synthesis figures for the gravity/spacing Tier-2 study (2026-06-27).",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/tier2_unseen/r1_reliability.py": {
+      "mode": "capsule",
+      "reason": "R1 Reliability Gate — split-half reliability of gravity metrics.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/tier2_unseen/r2_box_independence.py": {
+      "mode": "capsule",
+      "reason": "R2 BOX-INDEPENDENCE — Is gravity DISTINCT from being a good passer/scorer?",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/tier2_unseen/r3_predictive.py": {
+      "mode": "capsule",
+      "reason": "R3 PREDICTIVE: Does gravity add to orapm / team winning beyond box?",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/tier2_unseen/verify_gauntlet.py": {
+      "mode": "capsule",
+      "reason": "ADVERSARIAL GAUNTLET — independent verification of the GRAVITY/SPACING signal.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/train_action_values.py": {
+      "mode": "excluded",
+      "reason": "Operational product model training; fixed research studies use their own guarded estimator entrypoints."
+    },
+    "scripts/translation_research_common.py": {
+      "mode": "excluded",
+      "reason": "Import-only estimators; guarded executable callers own the run contract."
+    },
+    "scripts/validate_lineup_gravity.py": {
+      "mode": "excluded",
+      "reason": "Live morning-pipeline artifact validation; must inspect current product data. Frozen research callers use the isolated study pipeline."
+    },
+    "scripts/validate_newcomer_base_rate.py": {
+      "mode": "capsule",
+      "reason": "ATI-3108 — is a newcomer base rate a better reference than the league table?",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/validate_rapm.py": {
+      "mode": "capsule",
+      "reason": "Held-out signal check for RAPM — does it carry real out-of-sample value?",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/validate_scouting_packet.py": {
+      "mode": "excluded",
+      "reason": "Validation of supplied scouting claims, not a scientific estimator."
+    },
+    "scripts/validate_stat_translation.py": {
+      "mode": "capsule",
+      "reason": "Study B — stat-specific translation: is league difficulty one number or a profile?",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/validate_translation_dynamic.py": {
+      "mode": "capsule",
+      "reason": "Dynamic (random-walk) player ability in the translation model, scored walk-forward.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/validate_translation_hierarchical.py": {
+      "mode": "capsule",
+      "reason": "Hierarchical translation arm: P4's model fitted as ONE model, scored walk-forward.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/validate_translation_holdout.py": {
+      "mode": "frozen",
+      "reason": "Byte-pinned research source; direct CLI retired. Use scripts/run_frozen_research.py with this path.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "source_sha256": "939d3ee9f4e101836097126c067fdd13ddecd41927f3de249e426a6690dc9160",
+      "source_receipt": "docs/research/artifacts/sloan-source-revalidation-2026-09-07/preparation_manifest.json"
+    },
+    "scripts/validate_translation_v2.py": {
+      "mode": "capsule",
+      "reason": "v2 of the transfer forecast: player-level inputs and per-player intervals.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/validate_translation_v3a.py": {
+      "mode": "capsule",
+      "reason": "v3a of the transfer forecast: the destination club's previous season as context.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/validate_translation_v3b.py": {
+      "mode": "capsule",
+      "reason": "v3b of the transfer forecast: the minutes a player walks into.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/validate_translation_v3c.py": {
+      "mode": "capsule",
+      "reason": "v3c of the transfer forecast: the source-season shot profile, from play-by-play.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/validate_translation_walkforward.py": {
+      "mode": "frozen",
+      "reason": "Byte-pinned research source; direct CLI retired. Use scripts/run_frozen_research.py with this path.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "source_sha256": "cb0d3d348c4874f95308731f3af25eb36b806a9aa3a85e8488f3ca87c0b5457e",
+      "source_receipt": "docs/research/artifacts/sloan-v10-2026-09-20/summary.json"
+    },
+    "scripts/derive_acb_pbp_seasons.py": {
+      "mode": "excluded",
+      "reason": "Operational corpus/forecast build or current-data diagnostic; frozen research callers execute libraries against archived copies."
+    },
+    "scripts/verify_corpus_claims.py": {
+      "mode": "excluded",
+      "reason": "Operational corpus/forecast build or current-data diagnostic; frozen research callers execute libraries against archived copies."
+    },
+    "scripts/verify_sloan_baseline.py": {
+      "mode": "capsule",
+      "reason": "Freeze and reproduce the Sloan baseline from saved aggregate inputs.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/verify_sloan_source_coverage.py": {
+      "mode": "capsule",
+      "reason": "Reconcile saved translation pairs to their domestic raw player-game files.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "src/research/next_five_study.py": {
+      "mode": "frozen",
+      "reason": "Byte-pinned research source; direct CLI retired. Use scripts/run_frozen_research.py with this path.",
+      "source_seasons": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "source_sha256": "53b31cf94aa91e8371078b96d3d8ea05b959077a2b214f55752833e1b76d1659",
+      "source_receipt": "docs/research/artifacts/appearance-directions-2026-09-20/report_manifest.json"
+    },
+    "scripts/sloan_fullpaper_skills.py": {
+      "mode": "capsule",
+      "reason": "SSAC27 full-paper Amendment 1 E15 (which skills travel): per-component same-season retention ratios on the pool-A pairs and arrival carry-over on the 674 with E6 split-half reliability; reads only the frozen 2015-2025 raw inventory.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/sloan_fullpaper_public_tables.py": {
+      "mode": "capsule",
+      "reason": "SSAC27 full-paper public cut: republish the E7, E15b and E6 split-half tables from their retained runs (sha256-pinned) and rebuild each target's per-component career history (G3-gated) from the frozen 2015-2025 raw inventory, so the public companion can recompute E7, E10 and E15b without per-game rows.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/sloan_fullpaper_number_manifest.py": {
+      "mode": "capsule",
+      "reason": "Build and verify docs/paper/ssac27/paper-numbers.json: every number in the rendered SSAC27 full paper mapped to the committed file and key it comes from (re-composes the text with the renderer; reads only committed files).",
+      "source_seasons": "snapshot"
+    },
+    "scripts/reproduce_sloan_fullpaper_public.py": {
+      "mode": "excluded",
+      "reason": "Public companion check for the SSAC27 full paper, shipped in the public cut where the research harness is absent: recomputes E1/E2, E7-E12, E14, E15, E17 and the vignettes from published player-season tables into a scratch folder, hash-checks what needs unpublished inputs and verifies every paper number; writes no research artifact."
+    },
+    "scripts/report_sloan_fullpaper_skills.py": {
+      "mode": "capsule",
+      "reason": "Render docs/research/sloan-fullpaper-skills-2026-11-05.md from the committed E15 retained-run outputs without typing numbers.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/sloan_fullpaper_flexible.py": {
+      "mode": "capsule",
+      "reason": "SSAC27 full-paper Amendment 1 E16: fixed-hyperparameter gradient boosting and ridge on the full source profile, age and source-club win share (Proballers game files), walk-forward on v10's training rows.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/sloan_fullpaper_flexible_report.py": {
+      "mode": "capsule",
+      "reason": "Render the SSAC27 E16 flexible-model note from the retained run's summary without typing numbers.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/sloan_fullpaper_linkage_audit.py": {
+      "mode": "capsule",
+      "reason": "SSAC27 full-paper Amendment 1 E13: seeded 100-pair identity-linkage audit of the pool-A pairs absent from verified pool B, against raw EuroLeague-API and Proballers files.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/report_sloan_fullpaper_linkage_audit.py": {
+      "mode": "capsule",
+      "reason": "Render docs/research/sloan-fullpaper-linkage-audit-2026-11-04.md from the committed E13 retained-run outputs without typing numbers.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/sloan_fullpaper_linkage_audit_e25.py": {
+      "mode": "capsule",
+      "reason": "SSAC27 full-paper Amendment 5 E25: a second seeded identity-linkage audit, 300 fresh pool-A pairs absent from verified pool B and from the E13 sample, with the imported E13 checks and rules.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/report_sloan_fullpaper_linkage_audit_e25.py": {
+      "mode": "capsule",
+      "reason": "Render docs/research/sloan-fullpaper-linkage-audit-e25-2026-11-12.md from the committed E25 retained-run outputs without typing numbers.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/sloan_fullpaper_arrivals_audit.py": {
+      "mode": "capsule",
+      "reason": "SSAC27 full-paper Amendment 6 E26: rule-based identity census of the 674 forecast arrivals (imported E13 checks, the API previous-team field) and the three registered comparisons re-scored on class-defined subsets.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/report_sloan_fullpaper_arrivals_audit.py": {
+      "mode": "capsule",
+      "reason": "Render docs/research/sloan-fullpaper-arrivals-audit-2026-11-12.md from the committed E26 retained-run outputs without typing numbers.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/sloan_fullpaper_older_seasons.py": {
+      "mode": "capsule",
+      "reason": "SSAC27 full-paper Amendment 7 E27: the frozen 2026-27 forecast path applied to 2007-08..2014-15 source seasons of ACB, ABA and Israel from the leagues' own box scores (freeze), then scored on EuroLeague API season totals (score).",
+      "source_seasons": "snapshot"
+    },
+    "scripts/report_sloan_fullpaper_older_seasons.py": {
+      "mode": "capsule",
+      "reason": "Render docs/research/sloan-fullpaper-older-seasons-2026-11-13.md from the committed E27 freeze and scoring outputs without typing numbers.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/sloan_fullpaper_older_seasons_paper.py": {
+      "mode": "capsule",
+      "reason": "SSAC27 E27 paper extract: apply Amendment 7's printing rule (all three leagues only with ACB's written permission in docs/paper/ssac27/release.json, else without ACB) to the committed E27 outputs and write the numbers and arrival rows the paper may print.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/sloan_fullpaper_vignettes.py": {
+      "mode": "capsule",
+      "reason": "Pick the SSAC27 full-paper player vignettes by a fixed rule (most continental minutes per league-table tier, 2025-26 EuroLeague arrivals) from the public v10 cohort and the committed E16 forecasts; no selection by error.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/sloan_fullpaper_amend9.py": {
+      "mode": "capsule",
+      "reason": "SSAC27 full-paper Amendment 9 E28: the league-aware forecast against history alone and against the destination-aware forecast (paired MAE differences with two-way clustered intervals, unweighted and weighted by destination minutes) on the 674 from the pinned v10 inputs and on the older-seasons arrivals from the committed E27 scored rows and the frozen older-season forecasts; nothing is refitted or re-scored.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/report_sloan_fullpaper_amend9.py": {
+      "mode": "capsule",
+      "reason": "Render docs/research/sloan-fullpaper-amend9-2026-11-16.md from the committed outputs of scripts/sloan_fullpaper_amend9.py without typing numbers.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/sloan_fullpaper_amend11.py": {
+      "mode": "capsule",
+      "reason": "SSAC27 full-paper Amendment 11 E29 (descriptive): per source league of the printed older-seasons version and for all arrivals, the mean move made by the league table and the mean error without and with it, on the older-seasons arrivals (committed E27 scored rows and the frozen older-season forecasts) and on the 674 (pinned v10 inputs), with two-way clustered intervals, unweighted and weighted by destination minutes, and the change between periods; nothing is refitted or re-scored.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/report_sloan_fullpaper_amend11.py": {
+      "mode": "capsule",
+      "reason": "Render docs/research/sloan-fullpaper-amend11-2026-11-16.md from the committed outputs of scripts/sloan_fullpaper_amend11.py without typing numbers.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/sloan_fullpaper_league_changes.py": {
+      "mode": "capsule",
+      "reason": "SSAC27 full-paper Amendment 14 E30 (registered): the league table tested on players who changed domestic league. gates: G30c on made-up data only. freeze: one row per league change (key, the two leagues, x, h, a, g, the stayer forecast) from the Proballers box scores of 2015-2025, with no outcome joined. score: reads the frozen file by its sha256, joins the destination-season rates and computes the registered slope, bootstrap, permutation test, S-a to S-f and E31b of Amendment 15.",
+      "source_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "scripts/sloan_fullpaper_league_changes_chrono.py": {
+      "mode": "capsule",
+      "reason": "SSAC27 full-paper Amendment 22 E33 (exploratory): sensitivity (7) of the league-changes test with the stayer forecast also fitted only on seasons before each move. gates: pinned inputs, the same 2,083 rows, the cutoff and a planted slope on made-up outcomes; no rate of a league changer is read. score: the single run; it first reproduces sensitivity (7) to 1e-9 with the bootstrap of E30, then computes the slope, its difference from sensitivity (7) in the same draws and the two slopes with one intercept per arrival season. Reads the committed E30 files only.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/report_sloan_fullpaper_league_changes.py": {
+      "mode": "capsule",
+      "reason": "Render docs/research/sloan-fullpaper-league-changes-2026-11-17.md from the committed outputs of scripts/sloan_fullpaper_league_changes.py without typing numbers.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/report_sloan_fullpaper_league_changes_chrono.py": {
+      "mode": "capsule",
+      "reason": "Render docs/research/sloan-fullpaper-league-changes-chrono-2026-11-19.md (E33, Amendment 22, exploratory) from the committed outputs of scripts/sloan_fullpaper_league_changes_chrono.py without typing results.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/sloan_fullpaper_published_tables.py": {
+      "mode": "capsule",
+      "reason": "SSAC27 full-paper Amendment 15 E31a and E31c: a published league table as a rival (the registered destination-aware forecast plus one unpenalised coefficient times the published score of the source league), scored walk-forward on the 674 from the pinned v10 inputs (exploratory), and fitted on arrivals through 2025 for the 3,478 pinned frozen rows as a second frozen file; the pinned frozen file is read, never rewritten, and no 2026-27 statistic is read.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/report_sloan_fullpaper_published_tables.py": {
+      "mode": "capsule",
+      "reason": "Render docs/research/sloan-fullpaper-published-tables-2026-11-17.md from the committed outputs of scripts/sloan_fullpaper_published_tables.py (E31a summary and tables, the published table, the E31c freeze record) without typing numbers.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/sloan_fullpaper_named_newcomers.py": {
+      "mode": "capsule",
+      "reason": "SSAC27 full-paper Amendment 15 E32: named 2026-27 newcomers with their frozen forecasts (the ten highest and ten lowest per competition by the frozen league-aware forecast, and the cross-league pairs whose order the league table changes), selected from the pinned frozen file only; the scorer's outcome column is attached after the selection (gate G32). No result is computed.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/sloan_fullpaper_score_league_table.py": {
+      "mode": "excluded",
+      "reason": "Reader tool of the SSAC27 public companion, shipped in the public cut where the research harness is absent: scores a user's one-number-per-league table on the 674 arrivals by the registered rule of Amendment 15 (E31a) from the published player-season tables; prints the result and writes only to a folder the user names; writes no research artifact."
+    },
+    "scripts/sloan_fullpaper_converter_page.py": {
+      "mode": "excluded",
+      "reason": "Builds the static converter page of the SSAC27 public companion (fitted equation, league numbers, forecast-gap guide) from three committed result files; called by the public exporter at cut time and re-checked by the public reproduction; computes no result and writes no research artifact."
+    },
+    "scripts/sloan_fullpaper_prospective_score.py": {
+      "mode": "capsule",
+      "reason": "SSAC27 full-paper P1 scoring (3 Nov registration, Amendments 8, 15 and 18): the one scoring run of the frozen 2026-27 forecasts on EuroLeague/EuroCup API files of stored season 2026, with the registered controls and read-outs; also the pinned band half-widths and the synthetic rehearsal. Its envelope is 2026 only, so the freeze entry keeps an envelope that ends at 2025.",
+      "source_seasons": [
+        2026
+      ]
+    },
+    "scripts/report_sloan_fullpaper_p1_rehearsal.py": {
+      "mode": "capsule",
+      "reason": "Render docs/research/sloan-fullpaper-p1-scorer-rehearsal-2026-11-17.md (the frozen-test scorer's controls and its rehearsal on made-up outcome files) from the committed rehearsal records and the paper's renderer, without typing numbers.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/sloan_fullpaper_registration_list.py": {
+      "mode": "excluded",
+      "reason": "Live source acquisition (Amendment 18, rule 7): writes the EuroLeague API registration list of 2026-27 (competition, season, name, previous team, club; no statistic) with its fetch time and sha256; refuses before 25 November 2026. The scoring run reads the pinned copy and checks its record."
+    },
+    "scripts/sloan_fullpaper_published_scales_older.py": {
+      "mode": "capsule",
+      "reason": "SSAC27 full-paper Amendment 23, rule 5 (E34, exploratory): two published league scales in the place of the paper's league numbers on the 180 older arrivals, from the committed E27 scored rows, the frozen E31c coefficients for the 2015 table and one fit of the 2026 scale on the registered training arrivals through 2025 (pinned v10 inputs); paired MAE differences against the league-aware and the destination-only forecast with the intervals of E28; no 2026-27 statistic is read; run once.",
+      "source_seasons": "snapshot"
+    },
+    "scripts/sloan_fullpaper_paper_figures.py": {
+      "mode": "excluded",
+      "reason": "Import-only figure library of the SSAC27 full paper (Submission 47); it has no standalone entry and is executed only through the guarded renderer scripts/render_sloan_fullpaper.py, which owns the input identity."
+    }
+  },
+  "season_policy": "Historical research source envelopes end at 2025, with narrower registered windows listed where applicable and eligibility filters retained in each study. Corpus-inventory audits freeze all seasons in the first explicitly new input snapshot before computation; subsequent runs retain that finite list."
+}

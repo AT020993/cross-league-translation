@@ -1,0 +1,13 @@
+{
+  "code_files": 2557,
+  "entrypoint": "scripts/sloan_fullpaper_older_seasons_paper.py",
+  "generator_sha256": "6d47267918880a06a351d5f83bef3120636f73c3be223916a07eebee883d2af4",
+  "inputs": 8,
+  "outputs": {
+    "out/e27_arrivals_printed.csv": "2b4bba1be27d5c66f4e632c39cc01d05dfeb6af8aedcf38473751948648f0936",
+    "out/e27_paper.json": "7fdaa0a66a1c8ec49376ddfe1a81de724b071dff8185f7c25a682783716bd69b"
+  },
+  "returncode": 0,
+  "run_dir": "research-runs/sloan-fullpaper/older-seasons-paper-01",
+  "status": "complete"
+}

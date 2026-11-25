@@ -1,0 +1,28 @@
+{
+  "code_files": 2508,
+  "entrypoint": "scripts/sloan_fullpaper_amend1_decisions.py",
+  "generator_sha256": "8d3662fb4e73a0e17693737467e2b6f0ece3e388259c10af4bfab79dea8e8066",
+  "inputs": 19,
+  "outputs": {
+    "out/e10_pair_types.csv": "fdd8a28ef083ec4f044fe8e6192ab55cf14edc20935cab23f3427a05983e88cf",
+    "out/e10_pools.csv": "4f209a37cf740f2aad1ebdacd02d45ebb105e091b8968867e91f70c592b86612",
+    "out/e11_signed_error_by_league.csv": "ab3fcb15675fbeb6199b80f23ff14bf51bf6fed037b717dbc555933c6f2e5d57",
+    "out/e12_career_year.csv": "80ebb339c543371edbf22b397354e677a2b13ad7d1fda86843d3164cda3cbdb4",
+    "out/e17_league_counts.csv": "6c67c9e6292965d8c23ab8f83ab853d9fd740775828f1a87c730874437cf2215",
+    "out/e17_recipe_margins.csv": "906f4cb676f315246202f47977870f92f0c96bbef3474f4f948a2ddd94520c16",
+    "out/e17_reducible.csv": "83bebf504c9b553aec55144c2af88d7e186a6323848002989bf8f8f9202fadc3",
+    "out/exchange_rate_acb16.csv": "c8341a37947adcad882f90c9747ea6fee274723b367a0948bbfc50462fead2ca",
+    "out/summary.json": "94a1bb6576234d6f94bff9da12293799cca4ff71fa4d6589d7a30169e8935fe9"
+  },
+  "returncode": 0,
+  "run_dir": "research-runs/sloan-fullpaper/amend1-decisions-01",
+  "selections": [
+    "data/processed/sloan_v10_public",
+    "docs/research/artifacts/sloan-v9-2026-09-19/diagnostics.json",
+    "docs/research/artifacts/sloan-v10-2026-09-20/summary.json",
+    "docs/research/sloan-full-paper-preregistration-2026-11-03.md",
+    "docs/research/sloan-full-paper-preregistration-amendment-1-2026-11-04.md",
+    "data/processed/sloan_fullpaper_inputs"
+  ],
+  "status": "complete"
+}

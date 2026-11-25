@@ -1,0 +1,28 @@
+arm,label,scope,n,mean_signed_error,ci95_low,ci95_high
+history_only,history only (blind to both leagues),all,674,-0.36931748659210956,-0.6947343352887845,-0.049467211404836745
+history_only,history only (blind to both leagues),destination:euroleague,194,1.2400335357492203,0.7612602990052095,1.713392814006452
+history_only,history only (blind to both leagues),destination:eurocup,480,-1.0197635247883972,-1.445383489142917,-0.6464844302987924
+history_only,history only (blind to both leagues),season:2020,134,0.10465818301678698,-0.5752647794690711,0.7741507129159256
+history_only,history only (blind to both leagues),season:2021,101,0.4777937116978269,-0.19839448821582012,1.2046263465504081
+history_only,history only (blind to both leagues),season:2022,106,-0.8710222581794317,-1.5637666803959744,-0.0852118986831731
+history_only,history only (blind to both leagues),season:2023,102,-0.45185150475160657,-1.70270820031411,0.607028514736153
+history_only,history only (blind to both leagues),season:2024,104,-0.147163377110133,-0.9203511501451852,0.5389163637730264
+history_only,history only (blind to both leagues),season:2025,127,-1.2399932543123966,-1.921045935410509,-0.6339668317696974
+history_destination_slope,history + destination (blind to the source league),all,674,-0.44302157475930537,-0.7580631207625287,-0.13895533522602524
+history_destination_slope,history + destination (blind to the source league),destination:euroleague,194,-0.03725512538255507,-0.5290524970935659,0.44535109462516864
+history_destination_slope,history + destination (blind to the source league),destination:eurocup,480,-0.6070188480490752,-1.0240986988192537,-0.241132682709482
+history_destination_slope,history + destination (blind to the source league),season:2020,134,0.007157103553432122,-0.6473375282063122,0.6659209271082819
+history_destination_slope,history + destination (blind to the source league),season:2021,101,0.3152843511792745,-0.3289002802947137,0.9885589324601285
+history_destination_slope,history + destination (blind to the source league),season:2022,106,-0.9035426689542155,-1.5424218541001284,-0.18369423751572883
+history_destination_slope,history + destination (blind to the source league),season:2023,102,-0.49669895066428893,-1.7194642661153472,0.5446200633768334
+history_destination_slope,history + destination (blind to the source league),season:2024,104,-0.10554241855554883,-0.9058037918820241,0.5961446927944397
+history_destination_slope,history + destination (blind to the source league),season:2025,127,-1.369953427766591,-2.031894664103535,-0.7814116885466872
+source_ridge_10,league-aware (one number per league),all,674,-0.47233515761788286,-0.7776215830592477,-0.17960059206643175
+source_ridge_10,league-aware (one number per league),destination:euroleague,194,-0.033249344102818934,-0.5068559112411487,0.44387912148307146
+source_ridge_10,league-aware (one number per league),destination:eurocup,480,-0.6497990072468879,-1.0420936234373508,-0.3000676481243634
+source_ridge_10,league-aware (one number per league),season:2020,134,0.009821586205943323,-0.6392556788275514,0.641197371612053
+source_ridge_10,league-aware (one number per league),season:2021,101,0.21281527026895475,-0.4804532717182208,0.9353994189862845
+source_ridge_10,league-aware (one number per league),season:2022,106,-0.8495728785620094,-1.4481918238713658,-0.1861389755687683
+source_ridge_10,league-aware (one number per league),season:2023,102,-0.5777592293836551,-1.7334158859196889,0.43319211884137293
+source_ridge_10,league-aware (one number per league),season:2024,104,-0.09658331803277906,-0.8604204097880656,0.5690091642157545
+source_ridge_10,league-aware (one number per league),season:2025,127,-1.4341220431740087,-2.0868680861723767,-0.8193895009660493

@@ -1,0 +1,19 @@
+{
+  "arms": [
+    "history_only",
+    "scheduled_history",
+    "source_ridge_10"
+  ],
+  "destination": "euroleague",
+  "inputs": {
+    "cohort": "c629f43e3194642d483701c3d07666252938d587e747c99dbb031a2346bf2abf",
+    "forecasts": "cae92525a4d843da433a48515548c49f3ae9e0075afdbcb525438b71955868e5",
+    "tiers": "c8341a37947adcad882f90c9747ea6fee274723b367a0948bbfc50462fead2ca"
+  },
+  "outputs": {
+    "vignettes.csv": "cbf309735adeb3cdbe053cdb63c87daf07873af733b31252bf418550136b70ea"
+  },
+  "rows": 3,
+  "rule": "for each tier of the league table (e9 EuroLeague tiers), the 2025-26 EuroLeague arrival with the most continental minutes; ties broken by player name",
+  "season_dest": 2025
+}

@@ -1,0 +1,94 @@
+{
+  "note": "Files changed on the way out of the private repository. source_sha256 is the committed file; published_sha256 is the file here. Nothing else in this section differs from the private repository at the source commit.",
+  "source_commit": "d4ce6f536aa9e6b6fa3986f123f596b6fa1d6985",
+  "files": {
+    "scripts/adjudicate_sloan_acb_sources.py": {
+      "dropped_columns": [],
+      "birthdates_masked": 0,
+      "literals_replaced": 1,
+      "run_folders_cut": 0,
+      "source_sha256": "d7dae0a585fa708e204ffe197367ba4f4a782946840f21228b9215d4a58e42e9",
+      "published_sha256": "948e05a8d43a97408a74e620856955856574557211c6250c06ffb4606d9bf389"
+    },
+    "scripts/sloan_alias_evidence.py": {
+      "dropped_columns": [],
+      "birthdates_masked": 0,
+      "literals_replaced": 1,
+      "run_folders_cut": 0,
+      "source_sha256": "ec45f4c4b3f3a0c486690aaf3afd7ed4aa908b2d85387a8824c131dc23930071",
+      "published_sha256": "402905ffc571494edfadbb17d51ae69c0c697feedd7511751bc61ab1b0a252e3"
+    },
+    "docs/research/sloan-fullpaper-linkage-audit-2026-11-04.md": {
+      "dropped_columns": [],
+      "birthdates_masked": 5,
+      "literals_replaced": 0,
+      "run_folders_cut": 0,
+      "source_sha256": "6aff7c3515f9f772745dcb73036b50a878f6a7d82f3cc5311e2409d3049e4647",
+      "published_sha256": "1915880be93b372a51c2a5fd4d7935370fb3434db4e3b16c034c8f675438e96d"
+    },
+    "docs/research/sloan-fullpaper-linkage-audit-e25-2026-11-12.md": {
+      "dropped_columns": [],
+      "birthdates_masked": 7,
+      "literals_replaced": 0,
+      "run_folders_cut": 0,
+      "source_sha256": "dd31b83e8ecbf7c208ad1536d008c634a111b5cd97679a85e08ca8d916f75eed",
+      "published_sha256": "a812b4e60f727ef809bfe250f86e727cf8f346a53b9e31112336a43df7096526"
+    },
+    "docs/research/artifacts/sloan-fullpaper-flexible-2026-11/e16_forecasts.csv": {
+      "dropped_columns": [
+        "age_c26"
+      ],
+      "birthdates_masked": 0,
+      "literals_replaced": 0,
+      "run_folders_cut": 0,
+      "source_sha256": "cae92525a4d843da433a48515548c49f3ae9e0075afdbcb525438b71955868e5",
+      "published_sha256": "1b77fdafc38b4df9ca8fa804d11cf1b552c83a4bdfcf8bda4c14b81d05d0b417"
+    },
+    "docs/research/artifacts/sloan-fullpaper-linkage-audit-2026-11/e13_audit_pairs.csv": {
+      "dropped_columns": [
+        "dob_cont",
+        "dob_dom"
+      ],
+      "birthdates_masked": 1,
+      "literals_replaced": 0,
+      "run_folders_cut": 0,
+      "source_sha256": "c9b08c04d4db0359e2af433d596acab882625b3fb4d89c56b75f1ff96cfcfacc",
+      "published_sha256": "72576ae550bd95f6aec8f2c6690145251dde8c47c36e0ee0437ca69e19cfe81d"
+    },
+    "docs/research/artifacts/sloan-fullpaper-linkage-audit-2026-11/e13_hand_review.csv": {
+      "dropped_columns": [],
+      "birthdates_masked": 1,
+      "literals_replaced": 0,
+      "run_folders_cut": 0,
+      "source_sha256": "e266a23ef415b14d2d1b0adbeafc1eb8eb90d476421446fa19730c14427ad007",
+      "published_sha256": "9e0568855022f1a1b74f45af0e6a78303c0f101deb153f383bb8c19e2adce644"
+    },
+    "docs/research/artifacts/sloan-fullpaper-linkage-audit-e25-2026-11/e25_audit_pairs.csv": {
+      "dropped_columns": [
+        "dob_cont",
+        "dob_dom"
+      ],
+      "birthdates_masked": 0,
+      "literals_replaced": 0,
+      "run_folders_cut": 0,
+      "source_sha256": "ab7566b93aa169200145fd9b53b201f74cb384b2813bc23138460698d0989c2a",
+      "published_sha256": "6ca90e6b775f0f42164c5ca65a3345cf5d4d4fcfe3be70ddbb2149ebe2337062"
+    },
+    "docs/research/artifacts/sloan-fullpaper-p1-score-2026-11/pre-read.json": {
+      "dropped_columns": [],
+      "birthdates_masked": 0,
+      "literals_replaced": 0,
+      "run_folders_cut": 5,
+      "source_sha256": "fee132e04f007e299f1895b3cbfe91282a08f672d0627dc2978f09d34efc2ce4",
+      "published_sha256": "1968b77f3ca2f7ffb2ba1558336a3ae9d98929fada9474ff7b2c78f616025ba4"
+    },
+    "docs/research/artifacts/sloan-fullpaper-p1-score-2026-11/score.json": {
+      "dropped_columns": [],
+      "birthdates_masked": 0,
+      "literals_replaced": 0,
+      "run_folders_cut": 5,
+      "source_sha256": "f2c895bcf1cbdbba614b15986ccd3c3115164677ee47c73947786e44be2b4e22",
+      "published_sha256": "98d209636db02d84aad38924d96c70207d4ad4aad533d187f447fb5ebaa6517b"
+    }
+  }
+}

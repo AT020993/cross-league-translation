@@ -1,0 +1,28 @@
+{
+  "publisher": "Gaussian Hoops",
+  "title": "League strength",
+  "address": "https://www.gaussianhoops.com/projections/league-strength/",
+  "read_on": "2026-11-21",
+  "first_published": null,
+  "source_of_values": "Amendment 23 to the SSAC27 full-paper pre-registration, \"Pinned inputs (E34)\": the values Codex's protocol records from the page on 21 November 2026; captured text of the page on 22 November 2026 shows the same ten.",
+  "values_are_listed_under": "the page's own names of the leagues",
+  "values": {
+    "Spain ACB": 110.6,
+    "France Pro A": 105.9,
+    "Italy Serie A": 104.9,
+    "ABA Liga": 103.3,
+    "Israel Winner": 103.0,
+    "Greece GBL": 102.3,
+    "Turkey BSL": 102.2,
+    "Germany BBL": 100.1,
+    "VTB United League": 99.3,
+    "Lithuania LKL": 97.9
+  },
+  "page_text_copied_into_the_repository": false,
+  "read_again": {
+    "on": "2026-11-25",
+    "by": "Claude Science, from a PDF print of the page that Amir saved from his browser on 25 November 2026 (3 pages, sha256 174d3e2a99a454f79bcfdf14d9aca8409a05fbb8f0eff78dd016d3989224bfa3); the site refuses automated readers",
+    "shows_the_same_ten_values": true,
+    "note": "The print shows 28 leagues, 'Seasons 2021-22 to 2025-26' and '12,117 player moves'. Each of the ten values above stands on it under the same name and with the same value. E34 uses the values above (Amendment 23)."
+  }
+}

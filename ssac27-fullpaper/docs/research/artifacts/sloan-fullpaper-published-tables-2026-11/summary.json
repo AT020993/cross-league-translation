@@ -1,0 +1,329 @@
+{
+  "amendment_commit": "48f752c68487e7c426fbe9817052bcf51276de85",
+  "amendment_sha256": "f078841abdd37dbcb463bf37d7525422f436b8ccc1967622e753b2a2c09a755f",
+  "analysis": "Amendment 15: E31a (exploratory; destination seasons 2020-2025 already seen)",
+  "e31a": {
+    "contrasts": {
+      "T_D": {
+        "left": "history_destination_slope",
+        "minutes_weighted": {
+          "ci95": [
+            -0.010457748010363699,
+            0.08197483158694481
+          ],
+          "detectable_80": 0.06598398405479801,
+          "df": 200,
+          "difference": 0.035758541788290556,
+          "left": "history_destination_slope",
+          "mae_left": 2.828805753867015,
+          "mae_right": 2.7930472120787244,
+          "n": 674,
+          "p_two_sided": 0.12866471503379065,
+          "positive_favours": "published_table_vashro_2015",
+          "reading": "includes_zero",
+          "right": "published_table_vashro_2015",
+          "se": 0.0234374858294949,
+          "status": "ok",
+          "weighting": "minutes_weighted"
+        },
+        "right": "published_table_vashro_2015",
+        "unweighted": {
+          "ci95": [
+            0.0018110793528411107,
+            0.07689845920598815
+          ],
+          "detectable_80": 0.05360192798396037,
+          "df": 200,
+          "difference": 0.03935476927941463,
+          "left": "history_destination_slope",
+          "mae_left": 2.9894951661424645,
+          "mae_right": 2.95014039686305,
+          "n": 674,
+          "p_two_sided": 0.04002007780891158,
+          "positive_favours": "published_table_vashro_2015",
+          "reading": "above_zero",
+          "right": "published_table_vashro_2015",
+          "se": 0.019039384262010565,
+          "status": "ok",
+          "weighting": "unweighted"
+        }
+      },
+      "T_O": {
+        "left": "published_table_vashro_2015",
+        "minutes_weighted": {
+          "ci95": [
+            -0.0029028167366837027,
+            0.07742325468916435
+          ],
+          "detectable_80": 0.057341623908352526,
+          "df": 200,
+          "difference": 0.03726021897624032,
+          "left": "published_table_vashro_2015",
+          "mae_left": 2.7930472120787244,
+          "mae_right": 2.7557869931024848,
+          "n": 674,
+          "p_two_sided": 0.06883229406989189,
+          "positive_favours": "source_ridge_10",
+          "reading": "includes_zero",
+          "right": "source_ridge_10",
+          "se": 0.020367722820072938,
+          "status": "ok",
+          "weighting": "minutes_weighted"
+        },
+        "right": "source_ridge_10",
+        "unweighted": {
+          "ci95": [
+            -0.007694181918217639,
+            0.05989510657672198
+          ],
+          "detectable_80": 0.04824933539402271,
+          "df": 200,
+          "difference": 0.02610046232925217,
+          "left": "published_table_vashro_2015",
+          "mae_left": 2.95014039686305,
+          "mae_right": 2.924039934533798,
+          "n": 674,
+          "p_two_sided": 0.1293519004409126,
+          "positive_favours": "source_ridge_10",
+          "reading": "includes_zero",
+          "right": "source_ridge_10",
+          "se": 0.017138145426939023,
+          "status": "ok",
+          "weighting": "unweighted"
+        }
+      }
+    },
+    "escalation": {
+      "reasons": [
+        "the two weightings read differently for T_D; Amendment 15 does not say which weighting the registered sentence follows"
+      ],
+      "rule": "A result in which the 2015 table is at least as accurate as the paper's league numbers goes to Amir before any writing (Amendment 15); read here on the point estimates, for either weighting.",
+      "to_amir_before_any_writing": true
+    },
+    "folds": [
+      {
+        "score_coefficient": 1.2515534234573795,
+        "season": 2020,
+        "status": "ok",
+        "test_n": 134,
+        "train_n": 385
+      },
+      {
+        "score_coefficient": 1.2548757347196877,
+        "season": 2021,
+        "status": "ok",
+        "test_n": 101,
+        "train_n": 519
+      },
+      {
+        "score_coefficient": 1.354124083144958,
+        "season": 2022,
+        "status": "ok",
+        "test_n": 106,
+        "train_n": 620
+      },
+      {
+        "score_coefficient": 1.6152360078222334,
+        "season": 2023,
+        "status": "ok",
+        "test_n": 102,
+        "train_n": 726
+      },
+      {
+        "score_coefficient": 1.8165069827347757,
+        "season": 2024,
+        "status": "ok",
+        "test_n": 104,
+        "train_n": 828
+      },
+      {
+        "score_coefficient": 1.7727245694408036,
+        "season": 2025,
+        "status": "ok",
+        "test_n": 127,
+        "train_n": 932
+      }
+    ],
+    "licences": {
+      "T_D": {
+        "minutes_weighted": {
+          "reading": "includes_zero",
+          "registered_wording": "a league table printed in 2015 adds nothing detectable to a destination-aware forecast (X, interval)",
+          "sentence": "a league table printed in 2015 adds nothing detectable to a destination-aware forecast (0.036, interval -0.010 to 0.082)"
+        },
+        "unweighted": {
+          "reading": "above_zero",
+          "registered_wording": "a league table printed in 2015 improves a destination-aware forecast by X EFF/36 (interval)",
+          "sentence": "a league table printed in 2015 improves a destination-aware forecast by 0.039 EFF/36 (interval 0.002 to 0.077)"
+        }
+      },
+      "T_O": {
+        "minutes_weighted": {
+          "note": "\"Not distinguishable\" is not \"the same\": the detectable difference is stated beside it and no equivalence is claimed.",
+          "reading": "includes_zero",
+          "registered_wording": "the paper's league numbers and a league table printed in 2015 are not distinguishable (X, interval; a difference of D would have been detected with 80% power)",
+          "sentence": "the paper's league numbers and a league table printed in 2015 are not distinguishable (0.037, interval -0.003 to 0.077; a difference of 0.057 would have been detected with 80% power)"
+        },
+        "unweighted": {
+          "note": "\"Not distinguishable\" is not \"the same\": the detectable difference is stated beside it and no equivalence is claimed.",
+          "reading": "includes_zero",
+          "registered_wording": "the paper's league numbers and a league table printed in 2015 are not distinguishable (X, interval; a difference of D would have been detected with 80% power)",
+          "sentence": "the paper's league numbers and a league table printed in 2015 are not distinguishable (0.026, interval -0.008 to 0.060; a difference of 0.048 would have been detected with 80% power)"
+        }
+      }
+    },
+    "mae": {
+      "history_destination_slope": {
+        "minutes_weighted": 2.828805753867015,
+        "unweighted": 2.9894951661424645
+      },
+      "published_table_vashro_2015": {
+        "minutes_weighted": 2.7930472120787244,
+        "unweighted": 2.95014039686305
+      },
+      "source_ridge_10": {
+        "minutes_weighted": 2.7557869931024848,
+        "unweighted": 2.924039934533798
+      }
+    },
+    "n": 674,
+    "total_minutes": 224410.95
+  },
+  "estimator": {
+    "detectable_80": "(t(0.975, df) + t(0.80, df)) x SE, the registered formula of the recipes track",
+    "differences": {
+      "T_D": "MAE(history_destination_slope) - MAE(published_table_vashro_2015)",
+      "T_O": "MAE(published_table_vashro_2015) - MAE(source_ridge_10)"
+    },
+    "forecast": "history_destination_slope plus one unpenalised coefficient times the published score of the source league, fitted walk-forward on the training arrivals of every other arm",
+    "interval": "two-way clustered 95% interval (player, destination club-season), Student t with min(clusters) - 1 degrees of freedom",
+    "weights": "destination minutes (minutes_dest)"
+  },
+  "exploratory": true,
+  "exposure": {
+    "not_seen_before_this_run": [
+      "any correlation, error or forecast computed with the 2015 table",
+      "any outcome of the frozen 2026-27 test or of the league changes of E30"
+    ],
+    "seen_before_registration": [
+      "the twelve values of the 2015 table, read on 17 November 2026 from the published article; its order agrees with Table 2 of the paper at the two ends and differs in the middle",
+      "everything E31a uses on the 674 arrivals (outcomes, forecasts and errors of the registered arms), so E31a is exploratory"
+    ]
+  },
+  "gates": {
+    "G0": {
+      "max_difference": 1.3322676295501878e-15,
+      "negative_control": "rejected as required",
+      "status": "passed",
+      "tolerance": 1e-09
+    },
+    "G31a": {
+      "checked": [
+        "mae:history_destination_slope",
+        "mae:source_ridge_10",
+        "own_fit_without_the_term",
+        "printed_mae:history_destination_slope",
+        "printed_mae:source_ridge_10"
+      ],
+      "control_input": "the destination-only forecast column shifted by 0.01",
+      "max_difference": 0.0,
+      "negative_control": "rejected as required",
+      "registered_negative_control": {
+        "control_of_the_control": "rejected as required",
+        "input": "the ten source-league scores permuted so that no league keeps its own",
+        "minutes_weighted": {
+          "ci95": [
+            -0.02380379233065528,
+            0.003459417328438741
+          ],
+          "difference": -0.01017218750110827,
+          "reading": "includes_zero"
+        },
+        "seed": 20261117,
+        "shuffled_scores": {
+          "aba-league": 0.43,
+          "france-pro-a": 0.52,
+          "germany-bbl": 1.12,
+          "greece-a1": 0.69,
+          "israel-bsl": 0.33,
+          "italy-lba": 0.65,
+          "lithuania-lkl": 0.82,
+          "spain-acb": 0.87,
+          "turkey-bsl": 1.52,
+          "vtb": 0.77
+        },
+        "status": "passed",
+        "unweighted": {
+          "ci95": [
+            -0.020157903970672603,
+            0.0029182747521933113
+          ],
+          "difference": -0.008619814609239645,
+          "reading": "includes_zero"
+        }
+      },
+      "status": "passed",
+      "tolerance": 1e-09
+    },
+    "scope": {
+      "negative_control": "rejected as required",
+      "pools": 12,
+      "seasons": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "status": "passed",
+      "targets": 674
+    },
+    "table_pin": {
+      "control_input": "one committed score moved by 0.01",
+      "max_difference": 0.0,
+      "negative_control": "rejected as required",
+      "status": "passed",
+      "tolerance": 1e-12,
+      "venues": 12
+    }
+  },
+  "input_sha256": {
+    "cohort": "c629f43e3194642d483701c3d07666252938d587e747c99dbb031a2346bf2abf",
+    "docs/research/artifacts/sloan-fullpaper-published-tables-2026-11/vashro_2015_competition_scores.csv": "2c004c88d10c60f68dabb038330a9f8d282ba87f56b521cb6a87c59a26252d04",
+    "docs/research/artifacts/sloan-fullpaper-recipes-2026-11/summary.json": "e4d826741bd4f629c713216cd592e19ae7d2d2a89b77fad2cbe7ed350c51d030",
+    "pairs": "d964727924630dbf32c1764daf1e536c81d58988218a230fea591c62c1a62f58"
+  },
+  "models": {
+    "history_destination_slope": "history + destination (blind to the source league)",
+    "published_table_vashro_2015": "history + destination + one coefficient times the 2015 table's score of the source league",
+    "source_ridge_10": "league-aware (the paper's one number per league)"
+  },
+  "n_targets": 674,
+  "protocol_commit": "f52e7c831fef6759eab202c8ff8c56fa76037533",
+  "protocol_sha256": "6c6002f9a96f954eeaac4082a02471bcd7017879df07e2a0630de07e345a5194",
+  "sentences": [
+    "a league table printed in 2015 improves a destination-aware forecast by 0.039 EFF/36 (interval 0.002 to 0.077)",
+    "a league table printed in 2015 adds nothing detectable to a destination-aware forecast (0.036, interval -0.010 to 0.082)",
+    "the paper's league numbers and a league table printed in 2015 are not distinguishable (0.026, interval -0.008 to 0.060; a difference of 0.048 would have been detected with 80% power)",
+    "the paper's league numbers and a league table printed in 2015 are not distinguishable (0.037, interval -0.003 to 0.077; a difference of 0.057 would have been detected with 80% power)"
+  ],
+  "table": {
+    "file": "docs/research/artifacts/sloan-fullpaper-published-tables-2026-11/vashro_2015_competition_scores.csv",
+    "id": "vashro_2015",
+    "purpose": "The 2015 table was built for a different purpose: the level of competition a prospect faced, for the NBA draft.",
+    "scores_used": {
+      "aba-league": 0.82,
+      "france-pro-a": 0.69,
+      "germany-bbl": 0.65,
+      "greece-a1": 0.43,
+      "israel-bsl": 0.52,
+      "italy-lba": 1.12,
+      "lithuania-lkl": 0.33,
+      "spain-acb": 1.52,
+      "turkey-bsl": 0.77,
+      "vtb": 0.87
+    },
+    "sha256": "2c004c88d10c60f68dabb038330a9f8d282ba87f56b521cb6a87c59a26252d04"
+  }
+}

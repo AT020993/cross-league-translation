@@ -1,0 +1,42 @@
+{
+  "arguments": [
+    "score",
+    "--gates",
+    "docs/research/artifacts/sloan-fullpaper-league-changes-chrono-2026-11/e33_gates.json",
+    "--out",
+    "out"
+  ],
+  "code_files": 2591,
+  "entrypoint": "scripts/sloan_fullpaper_league_changes_chrono.py",
+  "generator_commit": "f5b68ffc8a9088c8ceeb19350026b43e2b4319fc",
+  "generator_sha256": "831b4f883133ba2cd5215a3b6fbc1de2ee1705b8fe6c6e9de119da3db560db5b",
+  "input_sha256": {
+    "docs/research/artifacts/sloan-fullpaper-league-changes-2026-11/e30_frozen_league_changes.parquet": "2df696debc8567d9468844384c259e2289d6d1d985d7cbe4c7930bd7bf85b722",
+    "docs/research/artifacts/sloan-fullpaper-league-changes-2026-11/e30_scored_league_changes.parquet": "03d5355dd4c8127b9130dc2c7bfd7c9d782e14cca7c1e9bc83ac2fc0a9dbfaa4",
+    "docs/research/artifacts/sloan-fullpaper-league-changes-2026-11/e30_stayer_pairs.parquet": "afdda9226c671e9ef774297097ad5507ed83a72d4d06d4a98cdc26f8fb0997b6",
+    "docs/research/artifacts/sloan-fullpaper-league-changes-2026-11/e30_summary.json": "f1df4c23899c959fc7458caff0e5f2ec8ae071517b29be491a41383f946319dc",
+    "docs/research/artifacts/sloan-fullpaper-league-changes-chrono-2026-11/e33_gates.json": "99d0582320af61971de030ecdc338896cf80c8e3e7b837a06e1bc2be8163936c",
+    "docs/research/sloan-full-paper-preregistration-amendment-22-2026-11-19.md": "4c234e20a8bf88dee7098ff3fe095de262d25a946413f4ff88fc0a908dad0ad0"
+  },
+  "inputs": 6,
+  "outputs": {
+    "out/e33_by_season.csv": "4cf95751db4c3f499c2d39f8fde9be847ba5778467fa0da53b25d6541867e1ff",
+    "out/e33_slopes.csv": "406d1d712a3350bfd521a052fc46d765dc73647f2072af1fc9829445644b3e47",
+    "out/e33_summary.json": "e0fbfdba1f4452afa284db93768413f7ff3d3f258264f99394b195340fa5c3c1",
+    "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.log": "ca6e3111558456dee352922e2729524f5e8d7bde96b39f1082041bf3ac1808ad"
+  },
+  "returncode": 0,
+  "run_dir": "league-changes-chrono-01",
+  "selections": [
+    "docs/research/sloan-full-paper-preregistration-amendment-22-2026-11-19.md",
+    "docs/research/artifacts/sloan-fullpaper-league-changes-2026-11/e30_frozen_league_changes.parquet",
+    "docs/research/artifacts/sloan-fullpaper-league-changes-2026-11/e30_stayer_pairs.parquet",
+    "docs/research/artifacts/sloan-fullpaper-league-changes-2026-11/e30_scored_league_changes.parquet",
+    "docs/research/artifacts/sloan-fullpaper-league-changes-2026-11/e30_summary.json",
+    "docs/research/artifacts/sloan-fullpaper-league-changes-chrono-2026-11/e33_gates.json"
+  ],
+  "snapshot": "448fea1d64d6342c9241de498b661ef33f8e3d1affca4a61bd581ceb047d5627",
+  "source_seasons": [],
+  "status": "complete"
+}

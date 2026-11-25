@@ -6,3 +6,7 @@
   the underlying rights are Proballers' and the EuroLeague's.
 * **Documents** (`docs/`): © Amir Tahori; reuse with attribution is intended. No separate licence is
   asserted for them.
+
+**`ssac27-fullpaper/`** follows the same terms: code (`ssac27-fullpaper/scripts/`, `ssac27-fullpaper/src/`,
+`reproduce.py`) is MIT (see `LICENSE`); derived data are governed by `DATA_TERMS.md`; documents
+(paper, notes, protocols) are (c) Amir Tahori, reuse with attribution intended.

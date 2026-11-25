@@ -1,0 +1,2454 @@
+{
+  "amendment_commit": "caf090288864a71e8dc06ac364ad1640f625fd96",
+  "amendment_sha256": "3c56752d05a537fc4843aa89123dfad42351b66bbb0df99f709f2c01f25a0262",
+  "analysis": "Amendment 3: E18-E23 (exploratory; destination seasons 2020-2025 already seen)",
+  "e18": {
+    "drift": [
+      {
+        "all_players_mean_earlier_seasons": null,
+        "all_players_mean_eff36": 14.803905562823173,
+        "all_players_minus_earlier": null,
+        "arrivals": 108,
+        "arrivals_mean_earlier_seasons": null,
+        "arrivals_mean_eff36": 14.635878460501452,
+        "arrivals_minus_earlier": null,
+        "competition": "eurocup",
+        "player_seasons": 253,
+        "season": 2017
+      },
+      {
+        "all_players_mean_earlier_seasons": 14.803905562823175,
+        "all_players_mean_eff36": 14.88845880723081,
+        "all_players_minus_earlier": 0.08455324440763512,
+        "arrivals": 81,
+        "arrivals_mean_earlier_seasons": 14.635878460501452,
+        "arrivals_mean_eff36": 14.656387971805868,
+        "arrivals_minus_earlier": 0.02050951130441625,
+        "competition": "eurocup",
+        "player_seasons": 255,
+        "season": 2018
+      },
+      {
+        "all_players_mean_earlier_seasons": 14.846348628421495,
+        "all_players_mean_eff36": 14.751397939384631,
+        "all_players_minus_earlier": -0.09495068903686388,
+        "arrivals": 114,
+        "arrivals_mean_earlier_seasons": 14.644668251060487,
+        "arrivals_mean_eff36": 14.511000856806357,
+        "arrivals_minus_earlier": -0.13366739425413066,
+        "competition": "eurocup",
+        "player_seasons": 247,
+        "season": 2019
+      },
+      {
+        "all_players_mean_earlier_seasons": 14.815285290418707,
+        "all_players_mean_eff36": 14.85252222478049,
+        "all_players_minus_earlier": 0.03723693436178266,
+        "arrivals": 96,
+        "arrivals_mean_earlier_seasons": 14.594377548271806,
+        "arrivals_mean_eff36": 15.033026251721038,
+        "arrivals_minus_earlier": 0.4386487034492319,
+        "competition": "eurocup",
+        "player_seasons": 247,
+        "season": 2020
+      },
+      {
+        "all_players_mean_earlier_seasons": 14.824464454877152,
+        "all_players_mean_eff36": 15.168582862394876,
+        "all_players_minus_earlier": 0.3441184075177244,
+        "arrivals": 66,
+        "arrivals_mean_earlier_seasons": 14.699917085943799,
+        "arrivals_mean_eff36": 14.706842276769178,
+        "arrivals_minus_earlier": 0.006925190825379346,
+        "competition": "eurocup",
+        "player_seasons": 231,
+        "season": 2021
+      },
+      {
+        "all_players_mean_earlier_seasons": 14.888934326845192,
+        "all_players_mean_eff36": 15.508950703467947,
+        "all_players_minus_earlier": 0.6200163766227558,
+        "arrivals": 79,
+        "arrivals_mean_earlier_seasons": 14.700900016254499,
+        "arrivals_mean_eff36": 15.620251445193666,
+        "arrivals_minus_earlier": 0.9193514289391675,
+        "competition": "eurocup",
+        "player_seasons": 230,
+        "season": 2022
+      },
+      {
+        "all_players_mean_earlier_seasons": 14.986407851536399,
+        "all_players_mean_eff36": 15.563945313188329,
+        "all_players_minus_earlier": 0.5775374616519304,
+        "arrivals": 73,
+        "arrivals_mean_earlier_seasons": 14.834408771560003,
+        "arrivals_mean_eff36": 15.39297462500136,
+        "arrivals_minus_earlier": 0.5585658534413565,
+        "competition": "eurocup",
+        "player_seasons": 233,
+        "season": 2023
+      },
+      {
+        "all_players_mean_earlier_seasons": 15.065751146680796,
+        "all_players_mean_eff36": 15.407944061619489,
+        "all_players_minus_earlier": 0.34219291493869264,
+        "arrivals": 77,
+        "arrivals_mean_earlier_seasons": 14.900495169130862,
+        "arrivals_mean_eff36": 15.44614441224289,
+        "arrivals_minus_earlier": 0.5456492431120292,
+        "competition": "eurocup",
+        "player_seasons": 230,
+        "season": 2024
+      },
+      {
+        "all_players_mean_earlier_seasons": 15.106615305785626,
+        "all_players_mean_eff36": 15.37867653106839,
+        "all_players_minus_earlier": 0.2720612252827639,
+        "arrivals": 89,
+        "arrivals_mean_earlier_seasons": 14.961035503020812,
+        "arrivals_mean_eff36": 16.13975400118854,
+        "arrivals_minus_earlier": 1.1787184981677274,
+        "competition": "eurocup",
+        "player_seasons": 240,
+        "season": 2025
+      },
+      {
+        "all_players_mean_earlier_seasons": null,
+        "all_players_mean_eff36": 14.896786960567894,
+        "all_players_minus_earlier": null,
+        "arrivals": 31,
+        "arrivals_mean_earlier_seasons": null,
+        "arrivals_mean_eff36": 14.58140720139896,
+        "arrivals_minus_earlier": null,
+        "competition": "euroleague",
+        "player_seasons": 219,
+        "season": 2017
+      },
+      {
+        "all_players_mean_earlier_seasons": 14.896786960567894,
+        "all_players_mean_eff36": 15.25695706634241,
+        "all_players_minus_earlier": 0.36017010577451636,
+        "arrivals": 27,
+        "arrivals_mean_earlier_seasons": 14.58140720139896,
+        "arrivals_mean_eff36": 14.525340473035468,
+        "arrivals_minus_earlier": -0.05606672836349169,
+        "competition": "euroleague",
+        "player_seasons": 214,
+        "season": 2018
+      },
+      {
+        "all_players_mean_earlier_seasons": 15.074792509380243,
+        "all_players_mean_eff36": 14.820395056365076,
+        "all_players_minus_earlier": -0.2543974530151676,
+        "arrivals": 24,
+        "arrivals_mean_earlier_seasons": 14.555307172678024,
+        "arrivals_mean_eff36": 15.064617841901844,
+        "arrivals_minus_earlier": 0.5093106692238205,
+        "competition": "euroleague",
+        "player_seasons": 242,
+        "season": 2019
+      },
+      {
+        "all_players_mean_earlier_seasons": 14.98358631141036,
+        "all_players_mean_eff36": 14.536528981553385,
+        "all_players_minus_earlier": -0.44705732985697466,
+        "arrivals": 38,
+        "arrivals_mean_earlier_seasons": 14.70437371001183,
+        "arrivals_mean_eff36": 12.766260372213896,
+        "arrivals_minus_earlier": -1.9381133377979332,
+        "competition": "euroleague",
+        "player_seasons": 257,
+        "season": 2020
+      },
+      {
+        "all_players_mean_earlier_seasons": 14.860309773027051,
+        "all_players_mean_eff36": 14.074816818692405,
+        "all_players_minus_earlier": -0.7854929543346465,
+        "arrivals": 35,
+        "arrivals_mean_earlier_seasons": 14.090637819709146,
+        "arrivals_mean_eff36": 14.094090646973154,
+        "arrivals_minus_earlier": 0.0034528272640077518,
+        "competition": "euroleague",
+        "player_seasons": 247,
+        "season": 2021
+      },
+      {
+        "all_players_mean_earlier_seasons": 14.695749332212245,
+        "all_players_mean_eff36": 15.050288100894898,
+        "all_players_minus_earlier": 0.3545387686826533,
+        "arrivals": 27,
+        "arrivals_mean_earlier_seasons": 14.091417490381666,
+        "arrivals_mean_eff36": 14.464378788131038,
+        "arrivals_minus_earlier": 0.3729612977493719,
+        "competition": "euroleague",
+        "player_seasons": 246,
+        "season": 2022
+      },
+      {
+        "all_players_mean_earlier_seasons": 14.756953919647987,
+        "all_players_mean_eff36": 15.153558827636314,
+        "all_players_minus_earlier": 0.39660490798832626,
+        "arrivals": 29,
+        "arrivals_mean_earlier_seasons": 14.146746913674159,
+        "arrivals_mean_eff36": 14.336780505164647,
+        "arrivals_minus_earlier": 0.19003359149048826,
+        "competition": "euroleague",
+        "player_seasons": 252,
+        "season": 2023
+      },
+      {
+        "all_players_mean_earlier_seasons": 14.816551079345697,
+        "all_players_mean_eff36": 15.691077714316824,
+        "all_players_minus_earlier": 0.8745266349711276,
+        "arrivals": 27,
+        "arrivals_mean_earlier_seasons": 14.17286527458991,
+        "arrivals_mean_eff36": 14.95682404375121,
+        "arrivals_minus_earlier": 0.7839587691613001,
+        "competition": "euroleague",
+        "player_seasons": 252,
+        "season": 2024
+      },
+      {
+        "all_players_mean_earlier_seasons": 14.930797171628083,
+        "all_players_mean_eff36": 16.065448655528865,
+        "all_players_minus_earlier": 1.1346514839007824,
+        "arrivals": 38,
+        "arrivals_mean_earlier_seasons": 14.261801773612408,
+        "arrivals_mean_eff36": 15.869944254888296,
+        "arrivals_minus_earlier": 1.6081424812758875,
+        "competition": "euroleague",
+        "player_seasons": 291,
+        "season": 2025
+      }
+    ],
+    "drift_note": "descriptive only; licenses no statement about cause",
+    "holm_family": "history-only re-based bootstrap two-sided p, 10 source leagues",
+    "leagues": [
+      {
+        "arrivals": 70,
+        "licence": "not_distinguishable",
+        "raw_ci95_high_history_only": 1.380329780909952,
+        "raw_ci95_high_scheduled_history": 0.46702659424469106,
+        "raw_ci95_high_source_ridge_10": 0.8763540860958208,
+        "raw_ci95_low_history_only": -0.7293530892322814,
+        "raw_ci95_low_scheduled_history": -1.6463562355420975,
+        "raw_ci95_low_source_ridge_10": -1.2006108516167648,
+        "rebased_ci95_high_history_only": 1.742134105403547,
+        "rebased_ci95_high_scheduled_history": 0.9735873579714059,
+        "rebased_ci95_high_source_ridge_10": 1.2682033435440596,
+        "rebased_ci95_low_history_only": -0.2828312754708252,
+        "rebased_ci95_low_scheduled_history": -0.9796275941411768,
+        "rebased_ci95_low_source_ridge_10": -0.6690765127738838,
+        "rebased_history_only": 0.8454749927703078,
+        "rebased_mde_80_history_only": 1.4188926508708082,
+        "rebased_mde_80_scheduled_history": 1.375642348376134,
+        "rebased_mde_80_source_ridge_10": 1.3558455280491513,
+        "rebased_p_bootstrap_history_only": 0.12393803098450774,
+        "rebased_p_bootstrap_scheduled_history": 0.8575712143928036,
+        "rebased_p_bootstrap_source_ridge_10": 0.4217891054472764,
+        "rebased_p_holm_history_only": 0.495752123938031,
+        "rebased_scheduled_history": 0.10253372542770345,
+        "rebased_source_ridge_10": 0.41562907358276685,
+        "sentence": "aba-league: not distinguishable at this n.",
+        "signed_error_history_only": 0.4761575061781982,
+        "signed_error_scheduled_history": -0.4586942874508777,
+        "signed_error_source_ridge_10": -0.056706084035116025,
+        "source_league": "aba-league"
+      },
+      {
+        "arrivals": 70,
+        "licence": "not_distinguishable",
+        "raw_ci95_high_history_only": -0.44022629400876107,
+        "raw_ci95_high_scheduled_history": -0.5768232853127547,
+        "raw_ci95_high_source_ridge_10": 0.363378080244183,
+        "raw_ci95_low_history_only": -2.727631632211487,
+        "raw_ci95_low_scheduled_history": -2.5916012309703116,
+        "raw_ci95_low_source_ridge_10": -1.7624434592431775,
+        "rebased_ci95_high_history_only": -0.17448762506316212,
+        "rebased_ci95_high_scheduled_history": -0.09315469151539563,
+        "rebased_ci95_high_source_ridge_10": 0.7457572896040965,
+        "rebased_ci95_low_history_only": -2.1701424874950535,
+        "rebased_ci95_low_scheduled_history": -1.929741606410608,
+        "rebased_ci95_low_source_ridge_10": -1.1654750553272752,
+        "rebased_history_only": -1.1667762911725035,
+        "rebased_mde_80_history_only": 1.4695951614601357,
+        "rebased_mde_80_scheduled_history": 1.3230455974995856,
+        "rebased_mde_80_source_ridge_10": 1.3944716784075246,
+        "rebased_p_bootstrap_history_only": 0.026986506746626688,
+        "rebased_p_bootstrap_scheduled_history": 0.03298350824587706,
+        "rebased_p_bootstrap_source_ridge_10": 0.7026486756621689,
+        "rebased_p_holm_history_only": 0.16191904047976013,
+        "rebased_scheduled_history": -1.0005200883542813,
+        "rebased_source_ridge_10": -0.1936241216254863,
+        "sentence": "france-pro-a: not distinguishable at this n.",
+        "signed_error_history_only": -1.536093777764613,
+        "signed_error_scheduled_history": -1.5617481012328625,
+        "signed_error_source_ridge_10": -0.6659592792433692,
+        "source_league": "france-pro-a"
+      },
+      {
+        "arrivals": 87,
+        "licence": "not_distinguishable",
+        "raw_ci95_high_history_only": 1.243524919033973,
+        "raw_ci95_high_scheduled_history": 0.5566638712190518,
+        "raw_ci95_high_source_ridge_10": 0.30890792934382166,
+        "raw_ci95_low_history_only": -0.317534259991581,
+        "raw_ci95_low_scheduled_history": -0.8988163756172172,
+        "raw_ci95_low_source_ridge_10": -1.1406773122527194,
+        "rebased_ci95_high_history_only": 1.582013152702601,
+        "rebased_ci95_high_scheduled_history": 1.0726705206972569,
+        "rebased_ci95_high_source_ridge_10": 0.7218651784240331,
+        "rebased_ci95_low_history_only": 0.1431714015179318,
+        "rebased_ci95_low_scheduled_history": -0.2775184600245569,
+        "rebased_ci95_low_source_ridge_10": -0.5872363497117974,
+        "rebased_history_only": 0.8108438533941222,
+        "rebased_mde_80_history_only": 1.0211831337418693,
+        "rebased_mde_80_scheduled_history": 0.9454059139402742,
+        "rebased_mde_80_source_ridge_10": 0.9322968903492227,
+        "rebased_p_bootstrap_history_only": 0.01899050474762619,
+        "rebased_p_bootstrap_scheduled_history": 0.2518740629685157,
+        "rebased_p_bootstrap_source_ridge_10": 0.9015492253873063,
+        "rebased_p_holm_history_only": 0.1329335332333833,
+        "rebased_scheduled_history": 0.3743031562538842,
+        "rebased_source_ridge_10": 0.04393810401174081,
+        "sentence": "germany-bbl: not distinguishable at this n.",
+        "signed_error_history_only": 0.4415263668020126,
+        "signed_error_scheduled_history": -0.18692485662469696,
+        "signed_error_source_ridge_10": -0.42839705360614205,
+        "source_league": "germany-bbl"
+      },
+      {
+        "arrivals": 30,
+        "licence": "not_distinguishable",
+        "raw_ci95_high_history_only": 0.2722082394371318,
+        "raw_ci95_high_scheduled_history": 0.12237294095518544,
+        "raw_ci95_high_source_ridge_10": 0.6099121692568644,
+        "raw_ci95_low_history_only": -2.0245916299664204,
+        "raw_ci95_low_scheduled_history": -2.2138671052519228,
+        "raw_ci95_low_source_ridge_10": -1.6642442927069698,
+        "rebased_ci95_high_history_only": 0.6958436648289414,
+        "rebased_ci95_high_scheduled_history": 0.7137417707545771,
+        "rebased_ci95_high_source_ridge_10": 1.1370157190651948,
+        "rebased_ci95_low_history_only": -1.660419288237113,
+        "rebased_ci95_low_scheduled_history": -1.653319435565239,
+        "rebased_ci95_low_source_ridge_10": -1.142896656326805,
+        "rebased_history_only": -0.46272668875885364,
+        "rebased_mde_80_history_only": 1.6392660880106396,
+        "rebased_mde_80_scheduled_history": 1.6555237060366035,
+        "rebased_mde_80_source_ridge_10": 1.590755790020836,
+        "rebased_p_bootstrap_history_only": 0.3798100949525237,
+        "rebased_p_bootstrap_scheduled_history": 0.42478760619690153,
+        "rebased_p_bootstrap_source_ridge_10": 0.991504247876062,
+        "rebased_p_holm_history_only": 1.0,
+        "rebased_scheduled_history": -0.4145049815766523,
+        "rebased_source_ridge_10": 0.010999504657362658,
+        "sentence": "greece-a1: not distinguishable at this n.",
+        "signed_error_history_only": -0.8320441753509632,
+        "signed_error_scheduled_history": -0.9757329944552334,
+        "signed_error_source_ridge_10": -0.4613356529605202,
+        "source_league": "greece-a1"
+      },
+      {
+        "arrivals": 49,
+        "licence": "not_distinguishable",
+        "raw_ci95_high_history_only": 0.9209500567040195,
+        "raw_ci95_high_scheduled_history": 0.49216026802961865,
+        "raw_ci95_high_source_ridge_10": 0.23798968460884973,
+        "raw_ci95_low_history_only": -0.8074726523397681,
+        "raw_ci95_low_scheduled_history": -0.9786063511608213,
+        "raw_ci95_low_source_ridge_10": -1.2388074550982089,
+        "rebased_ci95_high_history_only": 1.2712747882806898,
+        "rebased_ci95_high_scheduled_history": 1.0856804166095317,
+        "rebased_ci95_high_source_ridge_10": 0.7180947054914342,
+        "rebased_ci95_low_history_only": -0.46271271228986727,
+        "rebased_ci95_low_scheduled_history": -0.42646299640867763,
+        "rebased_ci95_low_source_ridge_10": -0.7845934158845727,
+        "rebased_history_only": 0.39918465795008884,
+        "rebased_mde_80_history_only": 1.239138186471741,
+        "rebased_mde_80_scheduled_history": 1.0939350090955584,
+        "rebased_mde_80_source_ridge_10": 1.081637096747968,
+        "rebased_p_bootstrap_history_only": 0.3548225887056472,
+        "rebased_p_bootstrap_scheduled_history": 0.39080459770114945,
+        "rebased_p_bootstrap_source_ridge_10": 0.9885057471264368,
+        "rebased_p_holm_history_only": 1.0,
+        "rebased_scheduled_history": 0.33625062741532347,
+        "rebased_source_ridge_10": -0.016192877578081244,
+        "sentence": "israel-bsl: not distinguishable at this n.",
+        "signed_error_history_only": 0.029867171357979255,
+        "signed_error_scheduled_history": -0.22497738546325768,
+        "signed_error_source_ridge_10": -0.4885280351959641,
+        "source_league": "israel-bsl"
+      },
+      {
+        "arrivals": 77,
+        "licence": "licensed",
+        "raw_ci95_high_history_only": -0.8133211807653598,
+        "raw_ci95_high_scheduled_history": -0.617721049058007,
+        "raw_ci95_high_source_ridge_10": -0.44780301514661175,
+        "raw_ci95_low_history_only": -2.146885964664415,
+        "raw_ci95_low_scheduled_history": -2.017103461643148,
+        "raw_ci95_low_source_ridge_10": -1.8558636175766912,
+        "rebased_ci95_high_history_only": -0.46990680166058313,
+        "rebased_ci95_high_scheduled_history": -0.1164762460544913,
+        "rebased_ci95_high_source_ridge_10": -0.03834909419750954,
+        "rebased_ci95_low_history_only": -1.7323579012578918,
+        "rebased_ci95_low_scheduled_history": -1.3856082784797863,
+        "rebased_ci95_low_source_ridge_10": -1.3108227581060952,
+        "rebased_history_only": -1.1129356588213903,
+        "rebased_mde_80_history_only": 0.9005471597603307,
+        "rebased_mde_80_scheduled_history": 0.922899947864712,
+        "rebased_mde_80_source_ridge_10": 0.9283333751595406,
+        "rebased_p_bootstrap_history_only": 0.001999000499750125,
+        "rebased_p_bootstrap_scheduled_history": 0.022988505747126436,
+        "rebased_p_bootstrap_source_ridge_10": 0.038980509745127435,
+        "rebased_p_holm_history_only": 0.019990004997501247,
+        "rebased_scheduled_history": -0.7304585943134272,
+        "rebased_source_ridge_10": -0.6585456602853692,
+        "sentence": "Measured against the average arrival, a league-blind forecast underrates arrivals from italy-lba by 1.11 EFF/36.",
+        "signed_error_history_only": -1.4822531454135,
+        "signed_error_scheduled_history": -1.2916866071920083,
+        "signed_error_source_ridge_10": -1.1308808179032521,
+        "source_league": "italy-lba"
+      },
+      {
+        "arrivals": 48,
+        "licence": "not_distinguishable",
+        "raw_ci95_high_history_only": 1.3597277781168025,
+        "raw_ci95_high_scheduled_history": 0.5853712149065052,
+        "raw_ci95_high_source_ridge_10": 0.6656144241985347,
+        "raw_ci95_low_history_only": -0.28151949175172747,
+        "raw_ci95_low_scheduled_history": -0.9339698431441751,
+        "raw_ci95_low_source_ridge_10": -1.1744246886455494,
+        "rebased_ci95_high_history_only": 1.7751209214187256,
+        "rebased_ci95_high_scheduled_history": 1.1797495077031217,
+        "rebased_ci95_high_source_ridge_10": 1.146507796205939,
+        "rebased_ci95_low_history_only": 0.07086496237279682,
+        "rebased_ci95_low_scheduled_history": -0.40571122668052906,
+        "rebased_ci95_low_source_ridge_10": -0.7048584835401042,
+        "rebased_history_only": 0.8652947664504493,
+        "rebased_mde_80_history_only": 1.2177390554405312,
+        "rebased_mde_80_scheduled_history": 1.1208283986949812,
+        "rebased_mde_80_source_ridge_10": 1.3166116968872572,
+        "rebased_p_bootstrap_history_only": 0.03398300849575212,
+        "rebased_p_bootstrap_scheduled_history": 0.3408295852073963,
+        "rebased_p_bootstrap_source_ridge_10": 0.6356821589205397,
+        "rebased_p_holm_history_only": 0.1699150424787606,
+        "rebased_scheduled_history": 0.3720195589899501,
+        "rebased_source_ridge_10": 0.2003219443130907,
+        "sentence": "lithuania-lkl: not distinguishable at this n.",
+        "signed_error_history_only": 0.4959772798583398,
+        "signed_error_scheduled_history": -0.18920845388863108,
+        "signed_error_source_ridge_10": -0.27201321330479217,
+        "source_league": "lithuania-lkl"
+      },
+      {
+        "arrivals": 108,
+        "licence": "not_distinguishable",
+        "raw_ci95_high_history_only": -0.5152666011079406,
+        "raw_ci95_high_scheduled_history": 0.3238224337635368,
+        "raw_ci95_high_source_ridge_10": 0.0631035353517362,
+        "raw_ci95_low_history_only": -2.0951538855668432,
+        "raw_ci95_low_scheduled_history": -1.141609603540422,
+        "raw_ci95_low_source_ridge_10": -1.384441768921089,
+        "rebased_ci95_high_history_only": -0.2216430835953798,
+        "rebased_ci95_high_scheduled_history": 0.8176568525498281,
+        "rebased_ci95_high_source_ridge_10": 0.4626860917228373,
+        "rebased_ci95_low_history_only": -1.6364675202653627,
+        "rebased_ci95_low_scheduled_history": -0.4916879184186183,
+        "rebased_ci95_low_source_ridge_10": -0.8262402444155694,
+        "rebased_history_only": -0.9318204005376325,
+        "rebased_mde_80_history_only": 0.9849283199339522,
+        "rebased_mde_80_scheduled_history": 0.9173825631424066,
+        "rebased_mde_80_source_ridge_10": 0.9035684479169999,
+        "rebased_p_bootstrap_history_only": 0.0069965017491254375,
+        "rebased_p_bootstrap_scheduled_history": 0.6146926536731634,
+        "rebased_p_bootstrap_source_ridge_10": 0.5687156421789106,
+        "rebased_p_holm_history_only": 0.06296851574212894,
+        "rebased_scheduled_history": 0.1746534304424684,
+        "rebased_source_ridge_10": -0.16928824090174427,
+        "sentence": "spain-acb: not distinguishable at this n.",
+        "signed_error_history_only": -1.301137887129742,
+        "signed_error_scheduled_history": -0.38657458243611276,
+        "signed_error_source_ridge_10": -0.6416233985196271,
+        "source_league": "spain-acb"
+      },
+      {
+        "arrivals": 108,
+        "licence": "not_distinguishable",
+        "raw_ci95_high_history_only": 0.7628359732239071,
+        "raw_ci95_high_scheduled_history": 0.2973738216416495,
+        "raw_ci95_high_source_ridge_10": 0.4832943276595038,
+        "raw_ci95_low_history_only": -0.7461296255029652,
+        "raw_ci95_low_scheduled_history": -1.188229887965598,
+        "raw_ci95_low_source_ridge_10": -1.01199556131024,
+        "rebased_ci95_high_history_only": 1.0606813522013634,
+        "rebased_ci95_high_scheduled_history": 0.7749413242329644,
+        "rebased_ci95_high_source_ridge_10": 0.8827577001279702,
+        "rebased_ci95_low_history_only": -0.34775898232847136,
+        "rebased_ci95_low_scheduled_history": -0.578445984434802,
+        "rebased_ci95_low_source_ridge_10": -0.47820030994442825,
+        "rebased_history_only": 0.3366208188362152,
+        "rebased_mde_80_history_only": 0.9890349099004748,
+        "rebased_mde_80_scheduled_history": 0.9590133264720827,
+        "rebased_mde_80_source_ridge_10": 0.9655925328122481,
+        "rebased_p_bootstrap_history_only": 0.34182908545727136,
+        "rebased_p_bootstrap_scheduled_history": 0.7326336831584208,
+        "rebased_p_bootstrap_source_ridge_10": 0.5637181409295352,
+        "rebased_p_holm_history_only": 1.0,
+        "rebased_scheduled_history": 0.11606537271327211,
+        "rebased_source_ridge_10": 0.20746487566801164,
+        "sentence": "turkey-bsl: not distinguishable at this n.",
+        "signed_error_history_only": -0.03269666775589434,
+        "signed_error_scheduled_history": -0.44516264016530904,
+        "signed_error_source_ridge_10": -0.2648702819498712,
+        "source_league": "turkey-bsl"
+      },
+      {
+        "arrivals": 27,
+        "licence": "not_distinguishable",
+        "raw_ci95_high_history_only": 2.981811125424204,
+        "raw_ci95_high_scheduled_history": 1.9769436327670171,
+        "raw_ci95_high_source_ridge_10": 1.5431334221597155,
+        "raw_ci95_low_history_only": 0.283278391130667,
+        "raw_ci95_low_scheduled_history": -0.6527575800349434,
+        "raw_ci95_low_source_ridge_10": -1.1537102695961117,
+        "rebased_ci95_high_history_only": 3.378831014515455,
+        "rebased_ci95_high_scheduled_history": 2.5491609712972867,
+        "rebased_ci95_high_source_ridge_10": 2.0331213151937284,
+        "rebased_ci95_low_history_only": 0.6212488122359743,
+        "rebased_ci95_low_scheduled_history": -0.1321342300801166,
+        "rebased_ci95_low_source_ridge_10": -0.7471771063204796,
+        "rebased_history_only": 2.0264029566464776,
+        "rebased_mde_80_history_only": 1.9549588641667146,
+        "rebased_mde_80_scheduled_history": 1.9441853502585076,
+        "rebased_mde_80_source_ridge_10": 1.989775125545336,
+        "rebased_p_bootstrap_history_only": 0.0079960019990005,
+        "rebased_p_bootstrap_scheduled_history": 0.07496251874062969,
+        "rebased_p_bootstrap_source_ridge_10": 0.335832083958021,
+        "rebased_p_holm_history_only": 0.063968015992004,
+        "rebased_scheduled_history": 1.231269692759907,
+        "rebased_source_ridge_10": 0.6692588939171191,
+        "sentence": "vtb: not distinguishable at this n.",
+        "signed_error_history_only": 1.657085470054368,
+        "signed_error_scheduled_history": 0.6700416798813258,
+        "signed_error_source_ridge_10": 0.19692373629923626,
+        "source_league": "vtb"
+      }
+    ],
+    "level": [
+      {
+        "arm": "history_only",
+        "bootstrap_se": 0.16493384825429103,
+        "ci95_high": -0.049467211404836745,
+        "ci95_low": -0.6947343352887845,
+        "label": "history",
+        "mde_80": 0.46207619526149796,
+        "mean_signed_error": -0.36931748659210956,
+        "n": 674,
+        "scope": "all"
+      },
+      {
+        "arm": "history_only",
+        "bootstrap_se": 0.2462897830731783,
+        "ci95_high": 1.713392814006452,
+        "ci95_low": 0.7612602990052095,
+        "label": "history",
+        "mde_80": 0.6900017619110703,
+        "mean_signed_error": 1.2400335357492203,
+        "n": 194,
+        "scope": "destination:euroleague"
+      },
+      {
+        "arm": "history_only",
+        "bootstrap_se": 0.20304924965242113,
+        "ci95_high": -0.6464844302987924,
+        "ci95_low": -1.445383489142917,
+        "label": "history",
+        "mde_80": 0.5688597320874783,
+        "mean_signed_error": -1.0197635247883972,
+        "n": 480,
+        "scope": "destination:eurocup"
+      },
+      {
+        "arm": "history_only",
+        "bootstrap_se": 0.3380893095959803,
+        "ci95_high": 0.7741507129159256,
+        "ci95_low": -0.5752647794690711,
+        "label": "history",
+        "mde_80": 0.9471859384244546,
+        "mean_signed_error": 0.10465818301678698,
+        "n": 134,
+        "scope": "season:2020"
+      },
+      {
+        "arm": "history_only",
+        "bootstrap_se": 0.3629766046315304,
+        "ci95_high": 1.2046263465504081,
+        "ci95_low": -0.19839448821582012,
+        "label": "history",
+        "mde_80": 1.0169098108866261,
+        "mean_signed_error": 0.4777937116978269,
+        "n": 101,
+        "scope": "season:2021"
+      },
+      {
+        "arm": "history_only",
+        "bootstrap_se": 0.38028369171662624,
+        "ci95_high": -0.0852118986831731,
+        "ci95_low": -1.5637666803959744,
+        "label": "history",
+        "mde_80": 1.0653970864579243,
+        "mean_signed_error": -0.8710222581794317,
+        "n": 106,
+        "scope": "season:2022"
+      },
+      {
+        "arm": "history_only",
+        "bootstrap_se": 0.6066589166363253,
+        "ci95_high": 0.607028514736153,
+        "ci95_low": -1.70270820031411,
+        "label": "history",
+        "mde_80": 1.6996065209645796,
+        "mean_signed_error": -0.45185150475160657,
+        "n": 102,
+        "scope": "season:2023"
+      },
+      {
+        "arm": "history_only",
+        "bootstrap_se": 0.3655972645876106,
+        "ci95_high": 0.5389163637730264,
+        "ci95_low": -0.9203511501451852,
+        "label": "history",
+        "mde_80": 1.0242518125096811,
+        "mean_signed_error": -0.147163377110133,
+        "n": 104,
+        "scope": "season:2024"
+      },
+      {
+        "arm": "history_only",
+        "bootstrap_se": 0.333764951560113,
+        "ci95_high": -0.6339668317696974,
+        "ci95_low": -1.921045935410509,
+        "label": "history",
+        "mde_80": 0.9350708818165392,
+        "mean_signed_error": -1.2399932543123966,
+        "n": 127,
+        "scope": "season:2025"
+      },
+      {
+        "arm": "scheduled_history",
+        "bootstrap_se": 0.15100882709632474,
+        "ci95_high": -0.2700961016186195,
+        "ci95_low": -0.8601430964632075,
+        "label": "history + translation",
+        "mde_80": 0.42306406486065695,
+        "mean_signed_error": -0.5612280128785812,
+        "n": 674,
+        "scope": "all"
+      },
+      {
+        "arm": "scheduled_history",
+        "bootstrap_se": 0.24644185748313038,
+        "ci95_high": 0.26135300813670165,
+        "ci95_low": -0.7011130983554463,
+        "label": "history + translation",
+        "mde_80": 0.6904278112968759,
+        "mean_signed_error": -0.21048960562184432,
+        "n": 194,
+        "scope": "destination:euroleague"
+      },
+      {
+        "arm": "scheduled_history",
+        "bootstrap_se": 0.18583085006052952,
+        "ci95_high": -0.35573729067470927,
+        "ci95_low": -1.075131199033684,
+        "label": "history + translation",
+        "mde_80": 0.5206209220668286,
+        "mean_signed_error": -0.7029847858115124,
+        "n": 480,
+        "scope": "destination:eurocup"
+      },
+      {
+        "arm": "scheduled_history",
+        "bootstrap_se": 0.3155380657089826,
+        "ci95_high": 0.5137443815566249,
+        "ci95_low": -0.7376531280598466,
+        "label": "history + translation",
+        "mde_80": 0.8840067118193,
+        "mean_signed_error": -0.11874887891991112,
+        "n": 134,
+        "scope": "season:2020"
+      },
+      {
+        "arm": "scheduled_history",
+        "bootstrap_se": 0.3445727228502331,
+        "ci95_high": 0.690780041285893,
+        "ci95_low": -0.6297095914090547,
+        "label": "history + translation",
+        "mde_80": 0.9653497717463704,
+        "mean_signed_error": 0.0075977338141911864,
+        "n": 101,
+        "scope": "season:2021"
+      },
+      {
+        "arm": "scheduled_history",
+        "bootstrap_se": 0.33019110960470893,
+        "ci95_high": -0.26342130224272853,
+        "ci95_low": -1.5671138107052895,
+        "label": "history + translation",
+        "mde_80": 0.9250584598019086,
+        "mean_signed_error": -0.9355148515953186,
+        "n": 106,
+        "scope": "season:2022"
+      },
+      {
+        "arm": "scheduled_history",
+        "bootstrap_se": 0.5421928735292952,
+        "ci95_high": 0.303213870745599,
+        "ci95_low": -1.8149706498579428,
+        "label": "history + translation",
+        "mde_80": 1.5189994215865708,
+        "mean_signed_error": -0.6816192425510234,
+        "n": 102,
+        "scope": "season:2023"
+      },
+      {
+        "arm": "scheduled_history",
+        "bootstrap_se": 0.34308700835771244,
+        "ci95_high": 0.59606736368576,
+        "ci95_low": -0.7795645502493651,
+        "label": "history + translation",
+        "mde_80": 0.9611874163098418,
+        "mean_signed_error": -0.044853518735707344,
+        "n": 104,
+        "scope": "season:2024"
+      },
+      {
+        "arm": "scheduled_history",
+        "bootstrap_se": 0.31727766775580396,
+        "ci95_high": -0.8978749359930497,
+        "ci95_low": -2.135248941805247,
+        "label": "history + translation",
+        "mde_80": 0.8888803548196441,
+        "mean_signed_error": -1.4942377878921826,
+        "n": 127,
+        "scope": "season:2025"
+      },
+      {
+        "arm": "source_ridge_10",
+        "bootstrap_se": 0.15579461470367717,
+        "ci95_high": -0.17960059206643175,
+        "ci95_low": -0.7776215830592477,
+        "label": "offsets \u03bb10",
+        "mde_80": 0.43647185563460145,
+        "mean_signed_error": -0.47233515761788286,
+        "n": 674,
+        "scope": "all"
+      },
+      {
+        "arm": "source_ridge_10",
+        "bootstrap_se": 0.24456058254831028,
+        "ci95_high": 0.44387912148307146,
+        "ci95_low": -0.5068559112411487,
+        "label": "offsets \u03bb10",
+        "mde_80": 0.685157259658608,
+        "mean_signed_error": -0.033249344102818934,
+        "n": 194,
+        "scope": "destination:euroleague"
+      },
+      {
+        "arm": "source_ridge_10",
+        "bootstrap_se": 0.19359894629669439,
+        "ci95_high": -0.3000676481243634,
+        "ci95_low": -1.0420936234373508,
+        "label": "offsets \u03bb10",
+        "mde_80": 0.5423839039606246,
+        "mean_signed_error": -0.6497990072468879,
+        "n": 480,
+        "scope": "destination:eurocup"
+      },
+      {
+        "arm": "source_ridge_10",
+        "bootstrap_se": 0.32508231413654914,
+        "ci95_high": 0.641197371612053,
+        "ci95_low": -0.6392556788275514,
+        "label": "offsets \u03bb10",
+        "mde_80": 0.9107457350502441,
+        "mean_signed_error": 0.009821586205943323,
+        "n": 134,
+        "scope": "season:2020"
+      },
+      {
+        "arm": "source_ridge_10",
+        "bootstrap_se": 0.36519193204106143,
+        "ci95_high": 0.9353994189862845,
+        "ci95_low": -0.4804532717182208,
+        "label": "offsets \u03bb10",
+        "mde_80": 1.0231162389272572,
+        "mean_signed_error": 0.21281527026895475,
+        "n": 101,
+        "scope": "season:2021"
+      },
+      {
+        "arm": "source_ridge_10",
+        "bootstrap_se": 0.31752184390394406,
+        "ci95_high": -0.1861389755687683,
+        "ci95_low": -1.4481918238713658,
+        "label": "offsets \u03bb10",
+        "mde_80": 0.8895644350536311,
+        "mean_signed_error": -0.8495728785620094,
+        "n": 106,
+        "scope": "season:2022"
+      },
+      {
+        "arm": "source_ridge_10",
+        "bootstrap_se": 0.5603469537736543,
+        "ci95_high": 0.43319211884137293,
+        "ci95_low": -1.7334158859196889,
+        "label": "offsets \u03bb10",
+        "mde_80": 1.5698596204879633,
+        "mean_signed_error": -0.5777592293836551,
+        "n": 102,
+        "scope": "season:2023"
+      },
+      {
+        "arm": "source_ridge_10",
+        "bootstrap_se": 0.35618533178734485,
+        "ci95_high": 0.5690091642157545,
+        "ci95_low": -0.8604204097880656,
+        "label": "offsets \u03bb10",
+        "mde_80": 0.9978834827554486,
+        "mean_signed_error": -0.09658331803277906,
+        "n": 104,
+        "scope": "season:2024"
+      },
+      {
+        "arm": "source_ridge_10",
+        "bootstrap_se": 0.32282760854990394,
+        "ci95_high": -0.8193895009660493,
+        "ci95_low": -2.0868680861723767,
+        "label": "offsets \u03bb10",
+        "mde_80": 0.9044289856992828,
+        "mean_signed_error": -1.4341220431740087,
+        "n": 127,
+        "scope": "season:2025"
+      }
+    ],
+    "level_licence": [
+      {
+        "arm": "history_only",
+        "licensed": true,
+        "sentence": "On average the history forecast is 0.37 EFF/36 below what arrivals delivered."
+      },
+      {
+        "arm": "scheduled_history",
+        "licensed": true,
+        "sentence": "On average the history + translation forecast is 0.56 EFF/36 below what arrivals delivered."
+      },
+      {
+        "arm": "source_ridge_10",
+        "licensed": true,
+        "sentence": "On average the offsets \u03bb10 forecast is 0.47 EFF/36 below what arrivals delivered."
+      }
+    ],
+    "spread": {
+      "history_only": {
+        "ci95": [
+          0.7108569633789761,
+          1.2836466984973915
+        ],
+        "point": 0.9155447869303094
+      },
+      "scheduled_history": {
+        "ci95": [
+          0.40052354558962244,
+          0.9040173909241732
+        ],
+        "point": 0.5268774113528416
+      },
+      "source_ridge_10": {
+        "ci95": [
+          0.28969979485295694,
+          0.7467477280147731
+        ],
+        "point": 0.3224027370793543
+      }
+    },
+    "spread_contrast": {
+      "bootstrap_se": 0.09408921214862064,
+      "ci95": [
+        0.2780653646202013,
+        0.652883626943689
+      ],
+      "definition": "S(history-only) - S(offsets l10); S = arrival-weighted RMS of the 10 re-based league biases",
+      "licensed": true,
+      "mde_80": 0.2635989254173934,
+      "note": "S is inflated by sampling noise in both arms; the contrast is read, not the level",
+      "point": 0.5931420498509551,
+      "sentence": "The league table flattens the league pattern."
+    }
+  },
+  "e19": {
+    "stability": [
+      {
+        "destination": "eurocup",
+        "full_fit": 18.268313399238124,
+        "highest_refit": 18.59301391398397,
+        "largest_consecutive_change": 1.0344293585343536,
+        "lowest_refit": 17.118988700339216,
+        "range": 1.4740252136447545,
+        "refits_with_thin_training": 0,
+        "source_league": "aba-league"
+      },
+      {
+        "destination": "eurocup",
+        "full_fit": 16.108030252669312,
+        "highest_refit": 16.557814001156633,
+        "largest_consecutive_change": 0.47739890275212815,
+        "lowest_refit": 15.487547735733221,
+        "range": 1.0702662654234114,
+        "refits_with_thin_training": 0,
+        "source_league": "france-pro-a"
+      },
+      {
+        "destination": "eurocup",
+        "full_fit": 18.691883249051493,
+        "highest_refit": 19.00069216744035,
+        "largest_consecutive_change": 0.4027380085623875,
+        "lowest_refit": 18.244339516534268,
+        "range": 0.7563526509060807,
+        "refits_with_thin_training": 0,
+        "source_league": "germany-bbl"
+      },
+      {
+        "destination": "eurocup",
+        "full_fit": 17.109353783694175,
+        "highest_refit": 17.39360583051135,
+        "largest_consecutive_change": 0.301513818512678,
+        "lowest_refit": 16.563766993305226,
+        "range": 0.8298388372061254,
+        "refits_with_thin_training": 0,
+        "source_league": "greece-a1"
+      },
+      {
+        "destination": "eurocup",
+        "full_fit": 17.887258280481152,
+        "highest_refit": 18.302639722359952,
+        "largest_consecutive_change": 0.41374724852967404,
+        "lowest_refit": 17.652830113079965,
+        "range": 0.6498096092799877,
+        "refits_with_thin_training": 0,
+        "source_league": "israel-bsl"
+      },
+      {
+        "destination": "eurocup",
+        "full_fit": 16.654086904274944,
+        "highest_refit": 17.3706690896845,
+        "largest_consecutive_change": 0.44063997027368984,
+        "lowest_refit": 16.519158970874106,
+        "range": 0.8515101188103955,
+        "refits_with_thin_training": 0,
+        "source_league": "italy-lba"
+      },
+      {
+        "destination": "eurocup",
+        "full_fit": 18.787276294997977,
+        "highest_refit": 19.076041836800812,
+        "largest_consecutive_change": 0.6239219780391352,
+        "lowest_refit": 18.011707034512806,
+        "range": 1.0643348022880055,
+        "refits_with_thin_training": 0,
+        "source_league": "lithuania-lkl"
+      },
+      {
+        "destination": "eurocup",
+        "full_fit": 16.0,
+        "highest_refit": 16.0,
+        "largest_consecutive_change": 0.0,
+        "lowest_refit": 16.0,
+        "range": 0.0,
+        "refits_with_thin_training": 0,
+        "source_league": "spain-acb"
+      },
+      {
+        "destination": "eurocup",
+        "full_fit": 17.67966613951569,
+        "highest_refit": 17.988729339988943,
+        "largest_consecutive_change": 0.46337564738155734,
+        "lowest_refit": 17.07247145716826,
+        "range": 0.916257882820684,
+        "refits_with_thin_training": 0,
+        "source_league": "turkey-bsl"
+      },
+      {
+        "destination": "eurocup",
+        "full_fit": 18.743884101870794,
+        "highest_refit": 19.202070613052697,
+        "largest_consecutive_change": 0.9257770173438757,
+        "lowest_refit": 17.644217606519508,
+        "range": 1.5578530065331897,
+        "refits_with_thin_training": 0,
+        "source_league": "vtb"
+      },
+      {
+        "destination": "euroleague",
+        "full_fit": 18.58446894240451,
+        "highest_refit": 19.03275403442968,
+        "largest_consecutive_change": 1.0965088820472957,
+        "lowest_refit": 17.113476299109013,
+        "range": 1.9192777353206658,
+        "refits_with_thin_training": 0,
+        "source_league": "aba-league"
+      },
+      {
+        "destination": "euroleague",
+        "full_fit": 16.123087415062543,
+        "highest_refit": 16.648403934068334,
+        "largest_consecutive_change": 0.5167214752367446,
+        "lowest_refit": 15.490072195981218,
+        "range": 1.1583317380871154,
+        "refits_with_thin_training": 0,
+        "source_league": "france-pro-a"
+      },
+      {
+        "destination": "euroleague",
+        "full_fit": 19.067075588447903,
+        "highest_refit": 19.63781142774676,
+        "largest_consecutive_change": 0.6368635606626079,
+        "lowest_refit": 18.233283372796457,
+        "range": 1.4045280549503047,
+        "refits_with_thin_training": 0,
+        "source_league": "germany-bbl"
+      },
+      {
+        "destination": "euroleague",
+        "full_fit": 17.26397454648882,
+        "highest_refit": 17.68950193259352,
+        "largest_consecutive_change": 0.4141834224367038,
+        "lowest_refit": 16.560989744646236,
+        "range": 1.1285121879472833,
+        "refits_with_thin_training": 0,
+        "source_league": "greece-a1"
+      },
+      {
+        "destination": "euroleague",
+        "full_fit": 18.150302693550877,
+        "highest_refit": 18.791545626331292,
+        "largest_consecutive_change": 0.5075884867702491,
+        "lowest_refit": 17.64468788363127,
+        "range": 1.1468577427000213,
+        "refits_with_thin_training": 0,
+        "source_league": "israel-bsl"
+      },
+      {
+        "destination": "euroleague",
+        "full_fit": 16.7452529664992,
+        "highest_refit": 17.593268057478777,
+        "largest_consecutive_change": 0.5754569162240131,
+        "lowest_refit": 16.516601471813704,
+        "range": 1.0766665856650732,
+        "refits_with_thin_training": 0,
+        "source_league": "italy-lba"
+      },
+      {
+        "destination": "euroleague",
+        "full_fit": 19.175764433936738,
+        "highest_refit": 19.729159647751032,
+        "largest_consecutive_change": 0.7352186156999352,
+        "lowest_refit": 18.064551616803463,
+        "range": 1.6646080309475693,
+        "refits_with_thin_training": 0,
+        "source_league": "lithuania-lkl"
+      },
+      {
+        "destination": "euroleague",
+        "full_fit": 16.0,
+        "highest_refit": 16.0,
+        "largest_consecutive_change": 0.0,
+        "lowest_refit": 16.0,
+        "range": 0.0,
+        "refits_with_thin_training": 0,
+        "source_league": "spain-acb"
+      },
+      {
+        "destination": "euroleague",
+        "full_fit": 17.913776541039187,
+        "highest_refit": 18.410984504911188,
+        "largest_consecutive_change": 0.5801663503209831,
+        "lowest_refit": 17.100643703524415,
+        "range": 1.3103408013867721,
+        "refits_with_thin_training": 0,
+        "source_league": "turkey-bsl"
+      },
+      {
+        "destination": "euroleague",
+        "full_fit": 19.126324274778092,
+        "highest_refit": 19.811813013781226,
+        "largest_consecutive_change": 1.001386794949589,
+        "lowest_refit": 17.63611780430153,
+        "range": 2.175695209479695,
+        "refits_with_thin_training": 0,
+        "source_league": "vtb"
+      }
+    ],
+    "summary": {
+      "comparisons": 144,
+      "comparisons_without_thin_cells": 144,
+      "failures": [],
+      "max_consecutive_change": 1.0965088820472957,
+      "median_consecutive_change": 0.24916508647899072,
+      "movement_sentence": "From one summer to the next a league's equivalent moved by a median of 0.25 EFF/36 (at most 1.10).",
+      "note": "refits share most of their training data: this describes stability and is not a test",
+      "sentence": "In every yearly refit, every tier-3 league needed a higher domestic rate than every tier-1 league.",
+      "tier3_higher": 144,
+      "tier3_higher_without_thin_cells": 144
+    }
+  },
+  "e20": {
+    "bin_edges": [
+      0.0,
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      6.0,
+      null
+    ],
+    "bins": [
+      {
+        "arm": "history_only",
+        "bin": 0,
+        "ci95_high": 0.5792986308104044,
+        "ci95_low": 0.528874268218661,
+        "gap_eff36": "0 to 1",
+        "gap_high": 1.0,
+        "gap_low": 0.0,
+        "label": "history",
+        "pair_type": "all",
+        "pairs": 4642,
+        "share_correct": 0.5523481258078414,
+        "share_correct_monotone": 0.5523481258078414
+      },
+      {
+        "arm": "history_only",
+        "bin": 1,
+        "ci95_high": 0.6529171667383347,
+        "ci95_low": 0.6023021618967238,
+        "gap_eff36": "1 to 2",
+        "gap_high": 2.0,
+        "gap_low": 1.0,
+        "label": "history",
+        "pair_type": "all",
+        "pairs": 4378,
+        "share_correct": 0.6258565555047967,
+        "share_correct_monotone": 0.6258565555047967
+      },
+      {
+        "arm": "history_only",
+        "bin": 2,
+        "ci95_high": 0.7389271440190373,
+        "ci95_low": 0.6781399228202227,
+        "gap_eff36": "2 to 3",
+        "gap_high": 3.0,
+        "gap_low": 2.0,
+        "label": "history",
+        "pair_type": "all",
+        "pairs": 3802,
+        "share_correct": 0.7077853761178328,
+        "share_correct_monotone": 0.7077853761178328
+      },
+      {
+        "arm": "history_only",
+        "bin": 3,
+        "ci95_high": 0.8097772380761087,
+        "ci95_low": 0.7452448167013026,
+        "gap_eff36": "3 to 4",
+        "gap_high": 4.0,
+        "gap_low": 3.0,
+        "label": "history",
+        "pair_type": "all",
+        "pairs": 3024,
+        "share_correct": 0.7767857142857143,
+        "share_correct_monotone": 0.7767857142857143
+      },
+      {
+        "arm": "history_only",
+        "bin": 4,
+        "ci95_high": 0.8822850115842591,
+        "ci95_low": 0.8204078936126494,
+        "gap_eff36": "4 to 6",
+        "gap_high": 6.0,
+        "gap_low": 4.0,
+        "label": "history",
+        "pair_type": "all",
+        "pairs": 3789,
+        "share_correct": 0.8519398258115598,
+        "share_correct_monotone": 0.8519398258115598
+      },
+      {
+        "arm": "history_only",
+        "bin": 5,
+        "ci95_high": 0.9635904436413156,
+        "ci95_low": 0.9087427266559693,
+        "gap_eff36": "6 or more",
+        "gap_high": null,
+        "gap_low": 6.0,
+        "label": "history",
+        "pair_type": "all",
+        "pairs": 2730,
+        "share_correct": 0.9384615384615385,
+        "share_correct_monotone": 0.9384615384615385
+      },
+      {
+        "arm": "scheduled_history",
+        "bin": 0,
+        "ci95_high": 0.5661352217702281,
+        "ci95_low": 0.5155951489376878,
+        "gap_eff36": "0 to 1",
+        "gap_high": 1.0,
+        "gap_low": 0.0,
+        "label": "history + translation",
+        "pair_type": "all",
+        "pairs": 4193,
+        "share_correct": 0.5420939661340329,
+        "share_correct_monotone": 0.5420939661340329
+      },
+      {
+        "arm": "scheduled_history",
+        "bin": 1,
+        "ci95_high": 0.6488576090879923,
+        "ci95_low": 0.5976971837068521,
+        "gap_eff36": "1 to 2",
+        "gap_high": 2.0,
+        "gap_low": 1.0,
+        "label": "history + translation",
+        "pair_type": "all",
+        "pairs": 4130,
+        "share_correct": 0.6200968523002421,
+        "share_correct_monotone": 0.6200968523002421
+      },
+      {
+        "arm": "scheduled_history",
+        "bin": 2,
+        "ci95_high": 0.743599355375475,
+        "ci95_low": 0.684720925740587,
+        "gap_eff36": "2 to 3",
+        "gap_high": 3.0,
+        "gap_low": 2.0,
+        "label": "history + translation",
+        "pair_type": "all",
+        "pairs": 3625,
+        "share_correct": 0.7097931034482758,
+        "share_correct_monotone": 0.7097931034482758
+      },
+      {
+        "arm": "scheduled_history",
+        "bin": 3,
+        "ci95_high": 0.8092322173640865,
+        "ci95_low": 0.7432515785148986,
+        "gap_eff36": "3 to 4",
+        "gap_high": 4.0,
+        "gap_low": 3.0,
+        "label": "history + translation",
+        "pair_type": "all",
+        "pairs": 2996,
+        "share_correct": 0.7780373831775701,
+        "share_correct_monotone": 0.7780373831775701
+      },
+      {
+        "arm": "scheduled_history",
+        "bin": 4,
+        "ci95_high": 0.8839270510851177,
+        "ci95_low": 0.8229838519260265,
+        "gap_eff36": "4 to 6",
+        "gap_high": 6.0,
+        "gap_low": 4.0,
+        "label": "history + translation",
+        "pair_type": "all",
+        "pairs": 4029,
+        "share_correct": 0.85331347728965,
+        "share_correct_monotone": 0.85331347728965
+      },
+      {
+        "arm": "scheduled_history",
+        "bin": 5,
+        "ci95_high": 0.9621997797474101,
+        "ci95_low": 0.908997830259093,
+        "gap_eff36": "6 or more",
+        "gap_high": null,
+        "gap_low": 6.0,
+        "label": "history + translation",
+        "pair_type": "all",
+        "pairs": 3392,
+        "share_correct": 0.9377948113207547,
+        "share_correct_monotone": 0.9377948113207547
+      },
+      {
+        "arm": "source_ridge_10",
+        "bin": 0,
+        "ci95_high": 0.5673541750932687,
+        "ci95_low": 0.5199539028773474,
+        "gap_eff36": "0 to 1",
+        "gap_high": 1.0,
+        "gap_low": 0.0,
+        "label": "offsets \u03bb10",
+        "pair_type": "all",
+        "pairs": 4296,
+        "share_correct": 0.5453910614525139,
+        "share_correct_monotone": 0.5453910614525139
+      },
+      {
+        "arm": "source_ridge_10",
+        "bin": 1,
+        "ci95_high": 0.6600819467450051,
+        "ci95_low": 0.6045211382236485,
+        "gap_eff36": "1 to 2",
+        "gap_high": 2.0,
+        "gap_low": 1.0,
+        "label": "offsets \u03bb10",
+        "pair_type": "all",
+        "pairs": 4033,
+        "share_correct": 0.6295561616662534,
+        "share_correct_monotone": 0.6295561616662534
+      },
+      {
+        "arm": "source_ridge_10",
+        "bin": 2,
+        "ci95_high": 0.7476494011199863,
+        "ci95_low": 0.6816038217538753,
+        "gap_eff36": "2 to 3",
+        "gap_high": 3.0,
+        "gap_low": 2.0,
+        "label": "offsets \u03bb10",
+        "pair_type": "all",
+        "pairs": 3588,
+        "share_correct": 0.7093088071348941,
+        "share_correct_monotone": 0.7093088071348941
+      },
+      {
+        "arm": "source_ridge_10",
+        "bin": 3,
+        "ci95_high": 0.8136712932656109,
+        "ci95_low": 0.746212087832858,
+        "gap_eff36": "3 to 4",
+        "gap_high": 4.0,
+        "gap_low": 3.0,
+        "label": "offsets \u03bb10",
+        "pair_type": "all",
+        "pairs": 2955,
+        "share_correct": 0.7803722504230118,
+        "share_correct_monotone": 0.7803722504230118
+      },
+      {
+        "arm": "source_ridge_10",
+        "bin": 4,
+        "ci95_high": 0.8825920416483873,
+        "ci95_low": 0.8206127927652737,
+        "gap_eff36": "4 to 6",
+        "gap_high": 6.0,
+        "gap_low": 4.0,
+        "label": "offsets \u03bb10",
+        "pair_type": "all",
+        "pairs": 4030,
+        "share_correct": 0.8513647642679901,
+        "share_correct_monotone": 0.8513647642679901
+      },
+      {
+        "arm": "source_ridge_10",
+        "bin": 5,
+        "ci95_high": 0.959236982579832,
+        "ci95_low": 0.9036493279282277,
+        "gap_eff36": "6 or more",
+        "gap_high": null,
+        "gap_low": 6.0,
+        "label": "offsets \u03bb10",
+        "pair_type": "all",
+        "pairs": 3463,
+        "share_correct": 0.932717297141207,
+        "share_correct_monotone": 0.932717297141207
+      },
+      {
+        "arm": "history_only",
+        "bin": 0,
+        "ci95_high": 0.581722972031868,
+        "ci95_low": 0.5270996595345016,
+        "gap_eff36": "0 to 1",
+        "gap_high": 1.0,
+        "gap_low": 0.0,
+        "label": "history",
+        "pair_type": "cross",
+        "pairs": 4063,
+        "share_correct": 0.5523012552301255,
+        "share_correct_monotone": 0.5523012552301255
+      },
+      {
+        "arm": "history_only",
+        "bin": 1,
+        "ci95_high": 0.6571354816747985,
+        "ci95_low": 0.5998907224919319,
+        "gap_eff36": "1 to 2",
+        "gap_high": 2.0,
+        "gap_low": 1.0,
+        "label": "history",
+        "pair_type": "cross",
+        "pairs": 3809,
+        "share_correct": 0.6279863481228669,
+        "share_correct_monotone": 0.6279863481228669
+      },
+      {
+        "arm": "history_only",
+        "bin": 2,
+        "ci95_high": 0.742354705681234,
+        "ci95_low": 0.682043876934355,
+        "gap_eff36": "2 to 3",
+        "gap_high": 3.0,
+        "gap_low": 2.0,
+        "label": "history",
+        "pair_type": "cross",
+        "pairs": 3341,
+        "share_correct": 0.7120622568093385,
+        "share_correct_monotone": 0.7120622568093385
+      },
+      {
+        "arm": "history_only",
+        "bin": 3,
+        "ci95_high": 0.8125494191111325,
+        "ci95_low": 0.7471631875100438,
+        "gap_eff36": "3 to 4",
+        "gap_high": 4.0,
+        "gap_low": 3.0,
+        "label": "history",
+        "pair_type": "cross",
+        "pairs": 2672,
+        "share_correct": 0.7791916167664671,
+        "share_correct_monotone": 0.7791916167664671
+      },
+      {
+        "arm": "history_only",
+        "bin": 4,
+        "ci95_high": 0.8807536732521656,
+        "ci95_low": 0.8152959748659176,
+        "gap_eff36": "4 to 6",
+        "gap_high": 6.0,
+        "gap_low": 4.0,
+        "label": "history",
+        "pair_type": "cross",
+        "pairs": 3351,
+        "share_correct": 0.8495971351835273,
+        "share_correct_monotone": 0.8495971351835273
+      },
+      {
+        "arm": "history_only",
+        "bin": 5,
+        "ci95_high": 0.9644669316747299,
+        "ci95_low": 0.9121070588099578,
+        "gap_eff36": "6 or more",
+        "gap_high": null,
+        "gap_low": 6.0,
+        "label": "history",
+        "pair_type": "cross",
+        "pairs": 2432,
+        "share_correct": 0.9403782894736842,
+        "share_correct_monotone": 0.9403782894736842
+      },
+      {
+        "arm": "scheduled_history",
+        "bin": 0,
+        "ci95_high": 0.5706201404419469,
+        "ci95_low": 0.5152969195664094,
+        "gap_eff36": "0 to 1",
+        "gap_high": 1.0,
+        "gap_low": 0.0,
+        "label": "history + translation",
+        "pair_type": "cross",
+        "pairs": 3648,
+        "share_correct": 0.5427631578947368,
+        "share_correct_monotone": 0.5427631578947368
+      },
+      {
+        "arm": "scheduled_history",
+        "bin": 1,
+        "ci95_high": 0.6516770990104075,
+        "ci95_low": 0.5973142188966817,
+        "gap_eff36": "1 to 2",
+        "gap_high": 2.0,
+        "gap_low": 1.0,
+        "label": "history + translation",
+        "pair_type": "cross",
+        "pairs": 3597,
+        "share_correct": 0.6213511259382819,
+        "share_correct_monotone": 0.6213511259382819
+      },
+      {
+        "arm": "scheduled_history",
+        "bin": 2,
+        "ci95_high": 0.7494955949947651,
+        "ci95_low": 0.6917353727771218,
+        "gap_eff36": "2 to 3",
+        "gap_high": 3.0,
+        "gap_low": 2.0,
+        "label": "history + translation",
+        "pair_type": "cross",
+        "pairs": 3181,
+        "share_correct": 0.7173844702923609,
+        "share_correct_monotone": 0.7173844702923609
+      },
+      {
+        "arm": "scheduled_history",
+        "bin": 3,
+        "ci95_high": 0.8147084063014165,
+        "ci95_low": 0.7475120126151518,
+        "gap_eff36": "3 to 4",
+        "gap_high": 4.0,
+        "gap_low": 3.0,
+        "label": "history + translation",
+        "pair_type": "cross",
+        "pairs": 2641,
+        "share_correct": 0.7811435062476335,
+        "share_correct_monotone": 0.7811435062476335
+      },
+      {
+        "arm": "scheduled_history",
+        "bin": 4,
+        "ci95_high": 0.8846729802159655,
+        "ci95_low": 0.8201219993163832,
+        "gap_eff36": "4 to 6",
+        "gap_high": 6.0,
+        "gap_low": 4.0,
+        "label": "history + translation",
+        "pair_type": "cross",
+        "pairs": 3565,
+        "share_correct": 0.8541374474053296,
+        "share_correct_monotone": 0.8541374474053296
+      },
+      {
+        "arm": "scheduled_history",
+        "bin": 5,
+        "ci95_high": 0.9631948100582657,
+        "ci95_low": 0.9105505961591029,
+        "gap_eff36": "6 or more",
+        "gap_high": null,
+        "gap_low": 6.0,
+        "label": "history + translation",
+        "pair_type": "cross",
+        "pairs": 3036,
+        "share_correct": 0.9393939393939394,
+        "share_correct_monotone": 0.9393939393939394
+      },
+      {
+        "arm": "source_ridge_10",
+        "bin": 0,
+        "ci95_high": 0.5711273927652679,
+        "ci95_low": 0.5193287244437974,
+        "gap_eff36": "0 to 1",
+        "gap_high": 1.0,
+        "gap_low": 0.0,
+        "label": "offsets \u03bb10",
+        "pair_type": "cross",
+        "pairs": 3751,
+        "share_correct": 0.5459877366035724,
+        "share_correct_monotone": 0.5459877366035724
+      },
+      {
+        "arm": "source_ridge_10",
+        "bin": 1,
+        "ci95_high": 0.6643977712567153,
+        "ci95_low": 0.6066391531605417,
+        "gap_eff36": "1 to 2",
+        "gap_high": 2.0,
+        "gap_low": 1.0,
+        "label": "offsets \u03bb10",
+        "pair_type": "cross",
+        "pairs": 3500,
+        "share_correct": 0.6325714285714286,
+        "share_correct_monotone": 0.6325714285714286
+      },
+      {
+        "arm": "source_ridge_10",
+        "bin": 2,
+        "ci95_high": 0.7502819661925599,
+        "ci95_low": 0.6836256674078747,
+        "gap_eff36": "2 to 3",
+        "gap_high": 3.0,
+        "gap_low": 2.0,
+        "label": "offsets \u03bb10",
+        "pair_type": "cross",
+        "pairs": 3144,
+        "share_correct": 0.714058524173028,
+        "share_correct_monotone": 0.714058524173028
+      },
+      {
+        "arm": "source_ridge_10",
+        "bin": 3,
+        "ci95_high": 0.8228780889498818,
+        "ci95_low": 0.754945183386803,
+        "gap_eff36": "3 to 4",
+        "gap_high": 4.0,
+        "gap_low": 3.0,
+        "label": "offsets \u03bb10",
+        "pair_type": "cross",
+        "pairs": 2598,
+        "share_correct": 0.7875288683602771,
+        "share_correct_monotone": 0.7875288683602771
+      },
+      {
+        "arm": "source_ridge_10",
+        "bin": 4,
+        "ci95_high": 0.8829858152111016,
+        "ci95_low": 0.8200740228225774,
+        "gap_eff36": "4 to 6",
+        "gap_high": 6.0,
+        "gap_low": 4.0,
+        "label": "offsets \u03bb10",
+        "pair_type": "cross",
+        "pairs": 3563,
+        "share_correct": 0.8515296098793151,
+        "share_correct_monotone": 0.8515296098793151
+      },
+      {
+        "arm": "source_ridge_10",
+        "bin": 5,
+        "ci95_high": 0.9596122413399547,
+        "ci95_low": 0.9024539007092199,
+        "gap_eff36": "6 or more",
+        "gap_high": null,
+        "gap_low": 6.0,
+        "label": "offsets \u03bb10",
+        "pair_type": "cross",
+        "pairs": 3112,
+        "share_correct": 0.9328406169665809,
+        "share_correct_monotone": 0.9328406169665809
+      }
+    ],
+    "licence": {
+      "bin_sentences": [
+        "When two candidates' forecasts differed by 0 to 1 EFF/36, the higher-forecast player turned out better in 54.5% of pairs.",
+        "When two candidates' forecasts differed by 1 to 2 EFF/36, the higher-forecast player turned out better in 63.0% of pairs.",
+        "When two candidates' forecasts differed by 2 to 3 EFF/36, the higher-forecast player turned out better in 70.9% of pairs.",
+        "When two candidates' forecasts differed by 3 to 4 EFF/36, the higher-forecast player turned out better in 78.0% of pairs.",
+        "When two candidates' forecasts differed by 4 to 6 EFF/36, the higher-forecast player turned out better in 85.1% of pairs.",
+        "When two candidates' forecasts differed by 6 EFF/36 or more, the higher-forecast player turned out better in 93.3% of pairs."
+      ],
+      "coin_flip_below_1": {
+        "licensed": false,
+        "sentence": "Even forecast gaps below 1 EFF/36 were right more often than a coin flip (54.5%)."
+      },
+      "trust": {
+        "0.60": {
+          "from_gap": 1.0,
+          "licensed": true,
+          "sentence": "Forecast gaps of at least 1 EFF/36 were right at least 60% of the time."
+        },
+        "0.70": {
+          "from_gap": 3.0,
+          "licensed": true,
+          "sentence": "Forecast gaps of at least 3 EFF/36 were right at least 70% of the time."
+        }
+      }
+    }
+  },
+  "e21": {
+    "flips": [
+      {
+        "flip_share": 0.07601162530739995,
+        "flip_share_ci95_high": 0.08279244987544937,
+        "flip_share_ci95_low": 0.06667211882262977,
+        "flips": 1700,
+        "flips_unequal": 1700,
+        "gain_from_counts": 0.011625307399955287,
+        "pair_type": "all",
+        "pairs": 22365,
+        "right": 980,
+        "right_share": 0.5764705882352941,
+        "right_share_ci95_high": 0.6297178813783378,
+        "right_share_ci95_low": 0.5229016189923782,
+        "right_share_mde_80": 0.07707921620594056,
+        "ties_history": 0,
+        "ties_offsets": 0,
+        "unequal_pairs": 22365
+      },
+      {
+        "flip_share": 0.08506202969290218,
+        "flip_share_ci95_high": 0.0942102059241336,
+        "flip_share_ci95_low": 0.07580349553839373,
+        "flips": 1673,
+        "flips_unequal": 1673,
+        "gain_from_counts": 0.013168598739068537,
+        "pair_type": "cross",
+        "pairs": 19668,
+        "right": 966,
+        "right_share": 0.5774058577405857,
+        "right_share_ci95_high": 0.6313861582252479,
+        "right_share_ci95_low": 0.5237615440420772,
+        "right_share_mde_80": 0.07797138730531299,
+        "ties_history": 0,
+        "ties_offsets": 0,
+        "unequal_pairs": 19668
+      },
+      {
+        "flip_share": 0.010011123470522803,
+        "flip_share_ci95_high": 0.0210051374420716,
+        "flip_share_ci95_low": 0.004865616118431326,
+        "flips": 27,
+        "flips_unequal": 27,
+        "gain_from_counts": 0.0003707823507601038,
+        "pair_type": "same",
+        "pairs": 2697,
+        "right": 14,
+        "right_share": 0.5185185185185185,
+        "right_share_ci95_high": 0.8387419354838708,
+        "right_share_ci95_low": 0.2,
+        "right_share_mde_80": 0.47066504504925594,
+        "ties_history": 0,
+        "ties_offsets": 0,
+        "unequal_pairs": 2697
+      }
+    ],
+    "licence": {
+      "licensed": true,
+      "note": "E21 re-expresses E10's gain (gain = flip share x (2 x right share - 1)); it adds no new evidence",
+      "sentence": "The league table changes 8.5% of cross-league comparisons and is right on 57.7% of them."
+    }
+  },
+  "e22": {
+    "by_season": {
+      "0.80": {
+        "2021": {
+          "coverage": 0.8910891089108911,
+          "n": 101
+        },
+        "2022": {
+          "coverage": 0.8207547169811321,
+          "n": 106
+        },
+        "2023": {
+          "coverage": 0.7941176470588235,
+          "n": 102
+        },
+        "2024": {
+          "coverage": 0.9038461538461539,
+          "n": 104
+        },
+        "2025": {
+          "coverage": 0.7401574803149606,
+          "n": 127
+        }
+      },
+      "0.95": {
+        "2021": {
+          "coverage": 0.9603960396039604,
+          "n": 101
+        },
+        "2022": {
+          "coverage": 0.9811320754716981,
+          "n": 106
+        },
+        "2023": {
+          "coverage": 0.9607843137254902,
+          "n": 102
+        },
+        "2024": {
+          "coverage": 0.9519230769230769,
+          "n": 104
+        },
+        "2025": {
+          "coverage": 0.9133858267716536,
+          "n": 127
+        }
+      }
+    },
+    "leagues": [
+      {
+        "coverage": 0.8163265306122449,
+        "hits": 40,
+        "interval_excludes_nominal": false,
+        "level": 0.8,
+        "n": 49,
+        "source_league": "aba-league",
+        "wilson95_high": 0.9002365893792968,
+        "wilson95_low": 0.6864239739710013
+      },
+      {
+        "coverage": 0.76,
+        "hits": 38,
+        "interval_excludes_nominal": false,
+        "level": 0.8,
+        "n": 50,
+        "source_league": "france-pro-a",
+        "wilson95_high": 0.8570260860300828,
+        "wilson95_low": 0.6258731624205708
+      },
+      {
+        "coverage": 0.8607594936708861,
+        "hits": 68,
+        "interval_excludes_nominal": false,
+        "level": 0.8,
+        "n": 79,
+        "source_league": "germany-bbl",
+        "wilson95_high": 0.9204345935539421,
+        "wilson95_low": 0.7676266841134808
+      },
+      {
+        "coverage": 0.92,
+        "hits": 23,
+        "interval_excludes_nominal": false,
+        "level": 0.8,
+        "n": 25,
+        "source_league": "greece-a1",
+        "wilson95_high": 0.9777795987151524,
+        "wilson95_low": 0.7503389104960468
+      },
+      {
+        "coverage": 0.9090909090909091,
+        "hits": 40,
+        "interval_excludes_nominal": false,
+        "level": 0.8,
+        "n": 44,
+        "source_league": "israel-bsl",
+        "wilson95_high": 0.9640778067726837,
+        "wilson95_low": 0.7884076083340138
+      },
+      {
+        "coverage": 0.8484848484848485,
+        "hits": 56,
+        "interval_excludes_nominal": false,
+        "level": 0.8,
+        "n": 66,
+        "source_league": "italy-lba",
+        "wilson95_high": 0.9155636301732872,
+        "wilson95_low": 0.7430709513021234
+      },
+      {
+        "coverage": 0.7948717948717948,
+        "hits": 31,
+        "interval_excludes_nominal": false,
+        "level": 0.8,
+        "n": 39,
+        "source_league": "lithuania-lkl",
+        "wilson95_high": 0.8922028176928961,
+        "wilson95_low": 0.644660319864177
+      },
+      {
+        "coverage": 0.7840909090909091,
+        "hits": 69,
+        "interval_excludes_nominal": false,
+        "level": 0.8,
+        "n": 88,
+        "source_league": "spain-acb",
+        "wilson95_high": 0.8571917530508122,
+        "wilson95_low": 0.6872246863441354
+      },
+      {
+        "coverage": 0.8023255813953488,
+        "hits": 69,
+        "interval_excludes_nominal": false,
+        "level": 0.8,
+        "n": 86,
+        "source_league": "turkey-bsl",
+        "wilson95_high": 0.872756481877663,
+        "wilson95_low": 0.7060408872053765
+      },
+      {
+        "coverage": 0.8571428571428571,
+        "hits": 12,
+        "interval_excludes_nominal": false,
+        "level": 0.8,
+        "n": 14,
+        "source_league": "vtb",
+        "wilson95_high": 0.9599060787285351,
+        "wilson95_low": 0.6005862050302965
+      },
+      {
+        "coverage": 0.9591836734693877,
+        "hits": 47,
+        "interval_excludes_nominal": false,
+        "level": 0.95,
+        "n": 49,
+        "source_league": "aba-league",
+        "wilson95_high": 0.9887343666338142,
+        "wilson95_low": 0.8628696769391992
+      },
+      {
+        "coverage": 0.9,
+        "hits": 45,
+        "interval_excludes_nominal": false,
+        "level": 0.95,
+        "n": 50,
+        "source_league": "france-pro-a",
+        "wilson95_high": 0.9565242350681096,
+        "wilson95_low": 0.7863976856252035
+      },
+      {
+        "coverage": 0.9746835443037974,
+        "hits": 77,
+        "interval_excludes_nominal": false,
+        "level": 0.95,
+        "n": 79,
+        "source_league": "germany-bbl",
+        "wilson95_high": 0.9930296326934152,
+        "wilson95_low": 0.9123141537110886
+      },
+      {
+        "coverage": 0.96,
+        "hits": 24,
+        "interval_excludes_nominal": false,
+        "level": 0.95,
+        "n": 25,
+        "source_league": "greece-a1",
+        "wilson95_high": 0.9929037664980127,
+        "wilson95_low": 0.8045593626380625
+      },
+      {
+        "coverage": 0.9772727272727273,
+        "hits": 43,
+        "interval_excludes_nominal": false,
+        "level": 0.95,
+        "n": 44,
+        "source_league": "israel-bsl",
+        "wilson95_high": 0.9959767479399467,
+        "wilson95_low": 0.8819229030178671
+      },
+      {
+        "coverage": 0.9393939393939394,
+        "hits": 62,
+        "interval_excludes_nominal": false,
+        "level": 0.95,
+        "n": 66,
+        "source_league": "italy-lba",
+        "wilson95_high": 0.9761813851676816,
+        "wilson95_low": 0.8542709132143579
+      },
+      {
+        "coverage": 1.0,
+        "hits": 39,
+        "interval_excludes_nominal": false,
+        "level": 0.95,
+        "n": 39,
+        "source_league": "lithuania-lkl",
+        "wilson95_high": 1.0,
+        "wilson95_low": 0.9103331462924287
+      },
+      {
+        "coverage": 0.9318181818181818,
+        "hits": 82,
+        "interval_excludes_nominal": false,
+        "level": 0.95,
+        "n": 88,
+        "source_league": "spain-acb",
+        "wilson95_high": 0.9683790718285327,
+        "wilson95_low": 0.8591339160517876
+      },
+      {
+        "coverage": 0.9418604651162791,
+        "hits": 81,
+        "interval_excludes_nominal": false,
+        "level": 0.95,
+        "n": 86,
+        "source_league": "turkey-bsl",
+        "wilson95_high": 0.9749130643789203,
+        "wilson95_low": 0.8710215519732145
+      },
+      {
+        "coverage": 1.0,
+        "hits": 14,
+        "interval_excludes_nominal": false,
+        "level": 0.95,
+        "n": 14,
+        "source_league": "vtb",
+        "wilson95_high": 1.0,
+        "wilson95_low": 0.7846891972623643
+      }
+    ],
+    "licence": {
+      "leagues_off_nominal": [],
+      "range_sentence": "By source league, the 80% bands contained between 76.0% and 92.0% of arrivals.",
+      "sentence": "No league's coverage was distinguishable from 80% at these sample sizes (n from 14 to 88)."
+    },
+    "pooled": {
+      "0.80": {
+        "coverage": 0.825925925925926,
+        "hits": 446,
+        "n": 540
+      },
+      "0.95": {
+        "coverage": 0.9518518518518518,
+        "hits": 514,
+        "n": 540
+      }
+    }
+  },
+  "e23": {
+    "a": {
+      "M0": {
+        "flag": -1.3888191623923043
+      },
+      "M1": {
+        "flag": -1.2679670313793463,
+        "flag_ci95": [
+          -1.829471333236667,
+          -0.6341852694913851
+        ],
+        "jump": 0.23222849564664855,
+        "jump_bootstrap_se": 0.08609929525967693,
+        "jump_ci95": [
+          0.06626506932893708,
+          0.40540046989001965
+        ],
+        "jump_mde_80": 0.241214494110082,
+        "walk_forward_flag": [
+          -1.3725868920919095,
+          -1.2317420331141602,
+          -1.0114199343372337,
+          -1.250155265227124,
+          -1.3403445951856219,
+          -1.3911288581381251
+        ],
+        "walk_forward_jump": [
+          0.1685569822587417,
+          0.17109377303448234,
+          0.15175651106820748,
+          0.19989306581161662,
+          0.3583264882435542,
+          0.25890366613198995
+        ],
+        "walk_forward_negative": 0
+      },
+      "M2": {
+        "jump": 0.2820348400375475,
+        "jump_ci95": [
+          0.09722428994008969,
+          0.4605906399254636
+        ],
+        "walk_forward_jump": [
+          0.2094978650131814,
+          0.19827499999113868,
+          0.1998240404317438,
+          0.24059517863550897,
+          0.39586065761073835,
+          0.3106860380111044
+        ]
+      },
+      "coefficients_full_fit": {
+        "M0": {
+          "above_prior": -1.3888191623923043,
+          "destination_euroleague": -0.35803551202680656,
+          "destination_x_source": -0.09198810768935177,
+          "intercept": 3.1026782797125696,
+          "prior_rate": 0.09215836651768781,
+          "source_offset:aba-league": -0.5078360080612033,
+          "source_offset:france-pro-a": 1.1166384205927462,
+          "source_offset:germany-bbl": -0.826349065418287,
+          "source_offset:greece-a1": 0.36367023975823765,
+          "source_offset:israel-bsl": -0.22129287721672258,
+          "source_offset:italy-lba": 0.7060186050659439,
+          "source_offset:lithuania-lkl": -0.8980820528544949,
+          "source_offset:spain-acb": 1.1978742452859397,
+          "source_offset:turkey-bsl": -0.06518920852702136,
+          "source_offset:vtb": -0.8654522986251567,
+          "source_rate": 0.659814554825568
+        },
+        "M1": {
+          "above_prior": -1.2679670313793463,
+          "destination_euroleague": -0.4138449117321847,
+          "destination_x_source": -0.08980561336247951,
+          "intercept": 2.649058875812731,
+          "jump_above_prior": 0.23222849564664855,
+          "prior_rate": 0.27732567047402557,
+          "source_offset:aba-league": -0.5459278732075086,
+          "source_offset:france-pro-a": 1.102187072912676,
+          "source_offset:germany-bbl": -0.8252229193314287,
+          "source_offset:greece-a1": 0.41164243562586633,
+          "source_offset:israel-bsl": -0.1696111345161241,
+          "source_offset:italy-lba": 0.6772241490324032,
+          "source_offset:lithuania-lkl": -0.8495204536992308,
+          "source_offset:spain-acb": 1.1235265684727433,
+          "source_offset:turkey-bsl": -0.05611989977994756,
+          "source_offset:vtb": -0.8681779455094318,
+          "source_rate": 0.48431451171070333
+        },
+        "M2": {
+          "destination_euroleague": -0.5378534474299604,
+          "destination_x_source": -0.08127165416070006,
+          "intercept": 2.214955575554665,
+          "jump_above_prior": 0.2820348400375475,
+          "prior_rate": 0.39833829680785104,
+          "source_offset:aba-league": -0.6451889592823352,
+          "source_offset:france-pro-a": 1.1200204199115251,
+          "source_offset:germany-bbl": -0.7677973529594324,
+          "source_offset:greece-a1": 0.44138342596907615,
+          "source_offset:israel-bsl": -0.06293173135435427,
+          "source_offset:italy-lba": 0.5951275325855665,
+          "source_offset:lithuania-lkl": -0.8408817716408041,
+          "source_offset:spain-acb": 1.0989729140709534,
+          "source_offset:turkey-bsl": -0.08591074762836501,
+          "source_offset:vtb": -0.8527937296718411,
+          "source_rate": 0.35194773406297714
+        }
+      },
+      "jump_among_flagged": {
+        "median": 2.7550362234166847,
+        "n": 561,
+        "p90": 6.765732173272568
+      },
+      "licence": {
+        "licensed": false,
+        "sentence": "The data do not show the discount growing with the size of the jump."
+      },
+      "note": "M0 stays the league-aware model; M1 and M2 are sensitivity checks and are not adopted",
+      "refits": [
+        {
+          "M0_flag": -1.4225529843992875,
+          "M0_jump": null,
+          "M1_flag": -1.3725868920919095,
+          "M1_jump": 0.1685569822587417,
+          "M2_flag": null,
+          "M2_jump": 0.2094978650131814,
+          "season": 2020,
+          "training_forecasts": 385
+        },
+        {
+          "M0_flag": -1.2714579964947061,
+          "M0_jump": null,
+          "M1_flag": -1.2317420331141602,
+          "M1_jump": 0.17109377303448234,
+          "M2_flag": null,
+          "M2_jump": 0.19827499999113868,
+          "season": 2021,
+          "training_forecasts": 519
+        },
+        {
+          "M0_flag": -1.081726350163221,
+          "M0_jump": null,
+          "M1_flag": -1.0114199343372337,
+          "M1_jump": 0.15175651106820748,
+          "M2_flag": null,
+          "M2_jump": 0.1998240404317438,
+          "season": 2022,
+          "training_forecasts": 620
+        },
+        {
+          "M0_flag": -1.3239289624444044,
+          "M0_jump": null,
+          "M1_flag": -1.250155265227124,
+          "M1_jump": 0.19989306581161662,
+          "M2_flag": null,
+          "M2_jump": 0.24059517863550897,
+          "season": 2023,
+          "training_forecasts": 726
+        },
+        {
+          "M0_flag": -1.463427254727051,
+          "M0_jump": null,
+          "M1_flag": -1.3403445951856219,
+          "M1_jump": 0.3583264882435542,
+          "M2_flag": null,
+          "M2_jump": 0.39586065761073835,
+          "season": 2024,
+          "training_forecasts": 828
+        },
+        {
+          "M0_flag": -1.5232906706289033,
+          "M0_jump": null,
+          "M1_flag": -1.3911288581381251,
+          "M1_jump": 0.25890366613198995,
+          "M2_flag": null,
+          "M2_jump": 0.3106860380111044,
+          "season": 2025,
+          "training_forecasts": 932
+        }
+      ],
+      "training_forecasts": 1059,
+      "walk_forward_contrasts": {
+        "M1": {
+          "ci95": [
+            -0.013393933555420987,
+            0.044224295961612925
+          ],
+          "difference_positive_favours_variant": 0.01541518120309597,
+          "mae_m0": 2.924039934533798,
+          "mae_variant": 2.908624753330702,
+          "seasons_favouring_variant": 3
+        },
+        "M2": {
+          "ci95": [
+            -0.03257555403830566,
+            0.07082469576546953
+          ],
+          "difference_positive_favours_variant": 0.019124570863581936,
+          "mae_m0": 2.924039934533798,
+          "mae_variant": 2.904915363670216,
+          "seasons_favouring_variant": 4
+        }
+      }
+    },
+    "b": {
+      "arrivals": {
+        "ci95": [
+          0.5941545557616986,
+          0.6585929187228231
+        ],
+        "flagged": 561,
+        "share": 0.6268156424581005,
+        "with_history": 895
+      },
+      "by_season": [
+        {
+          "player_seasons": 1293,
+          "season": 2016,
+          "share_flagged": 0.4911059551430781
+        },
+        {
+          "player_seasons": 1435,
+          "season": 2017,
+          "share_flagged": 0.556794425087108
+        },
+        {
+          "player_seasons": 1587,
+          "season": 2018,
+          "share_flagged": 0.5463137996219282
+        },
+        {
+          "player_seasons": 1456,
+          "season": 2019,
+          "share_flagged": 0.5157967032967034
+        },
+        {
+          "player_seasons": 1603,
+          "season": 2020,
+          "share_flagged": 0.5739238927011853
+        },
+        {
+          "player_seasons": 1622,
+          "season": 2021,
+          "share_flagged": 0.4876695437731196
+        },
+        {
+          "player_seasons": 1610,
+          "season": 2022,
+          "share_flagged": 0.5180124223602485
+        },
+        {
+          "player_seasons": 1621,
+          "season": 2023,
+          "share_flagged": 0.5305367057371992
+        },
+        {
+          "player_seasons": 1598,
+          "season": 2024,
+          "share_flagged": 0.5494367959949937
+        }
+      ],
+      "difference_arrivals_minus_population": {
+        "ci95": [
+          0.06202477766379022,
+          0.12975611632824174
+        ],
+        "point": 0.09625506379625604
+      },
+      "licence": {
+        "licensed": true,
+        "sentence": "63% of signings followed an above-average season, against 53% of all comparable domestic player-seasons."
+      },
+      "population": {
+        "ci95": [
+          0.5215632958610049,
+          0.5398944987536695
+        ],
+        "player_seasons_with_history": 13825,
+        "players": 4068,
+        "resampling": "players with replacement (a player contributes several seasons), generator seed + 1",
+        "share": 0.5305605786618445,
+        "source_seasons": [
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ]
+      }
+    }
+  },
+  "exploratory": true,
+  "exposure": {
+    "seen_after_registration_before_this_run": [
+      "the count of above-own-history flags on the 674 targets (359 of 582 with a history), printed while loading the inputs during implementation"
+    ],
+    "seen_before_registration_2026-11-11": [
+      "mean signed error on the 674 for history-only and offsets l10, with intervals",
+      "offsets l10 signed error by destination and by season; history-only by season",
+      "the registered E11 signed errors by league and arithmetic on them",
+      "all-pairs flip share and right share of offsets l10 against history-only",
+      "the registered E8 coverage by season",
+      "the distribution of forecast gaps under offsets l10 (no outcome used)"
+    ]
+  },
+  "gates": {
+    "E19_tiers": {
+      "status": "passed",
+      "tier1": [
+        "france-pro-a",
+        "italy-lba",
+        "spain-acb"
+      ],
+      "tier3": [
+        "aba-league",
+        "germany-bbl",
+        "lithuania-lkl",
+        "vtb"
+      ]
+    },
+    "E23_jump_matches_flag": {
+      "disagreements": 0,
+      "negative_control": "rejected as required",
+      "status": "passed"
+    },
+    "E23b_arrivals_in_population": {
+      "flag_disagreements": 0,
+      "found_in_population": 1059,
+      "matched_share": 1.0,
+      "max_rate_difference": 0.0,
+      "negative_control": "rejected as required",
+      "same_source_league": 1059,
+      "status": "passed",
+      "training_arrivals": 1059
+    },
+    "G0": {
+      "max_difference": 1.3322676295501878e-15,
+      "negative_control": "rejected as required",
+      "status": "passed",
+      "tolerance": 1e-09
+    },
+    "G18": {
+      "checked": [
+        "ci_high:history_only",
+        "ci_high:scheduled_history",
+        "ci_high:source_ridge_10",
+        "ci_low:history_only",
+        "ci_low:scheduled_history",
+        "ci_low:source_ridge_10",
+        "point:history_only",
+        "point:scheduled_history",
+        "point:source_ridge_10",
+        "weighted_mean:history_only",
+        "weighted_mean:scheduled_history",
+        "weighted_mean:source_ridge_10"
+      ],
+      "e11_intervals_checked": true,
+      "max_difference": 2.220446049250313e-16,
+      "negative_control": "rejected as required",
+      "status": "passed"
+    },
+    "G19": {
+      "checked": [
+        "equivalents",
+        "refit_flag_coefficients"
+      ],
+      "max_difference": 3.552713678800501e-15,
+      "negative_control": "rejected as required",
+      "status": "passed"
+    },
+    "G20": {
+      "max_difference": 0.0,
+      "negative_control": "rejected as required",
+      "status": "passed"
+    },
+    "G21": {
+      "max_difference": 5.773376568485311e-17,
+      "negative_control": "rejected as required",
+      "status": "passed"
+    },
+    "G22": {
+      "max_difference": 0.0,
+      "negative_control": "rejected as required",
+      "status": "passed"
+    },
+    "G23": {
+      "checked": [
+        "anchor_forecasts",
+        "coefficients",
+        "mae"
+      ],
+      "max_difference": 0.0,
+      "negative_control": "rejected as required",
+      "status": "passed"
+    },
+    "prior_rule": {
+      "differences": {
+        "max_abs_difference": 0.0,
+        "nan_pattern_mismatches": 0,
+        "nan_rows": 476,
+        "rows": 1371
+      },
+      "negative_control": "rejected as required",
+      "status": "passed"
+    },
+    "reproduction": {
+      "max_difference": 3.552713678800501e-15,
+      "negative_control": "rejected as required",
+      "status": "passed",
+      "tolerance": 1e-09
+    },
+    "scope": {
+      "negative_control": "rejected as required",
+      "pools": 12,
+      "seasons": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "status": "passed",
+      "targets": 674
+    }
+  },
+  "input_sha256": {
+    "amend1-decisions-01/e11_signed_error_by_league.csv": "ab3fcb15675fbeb6199b80f23ff14bf51bf6fed037b717dbc555933c6f2e5d57",
+    "amend1-decisions-01/e12_career_year.csv": "80ebb339c543371edbf22b397354e677a2b13ad7d1fda86843d3164cda3cbdb4",
+    "amend1-decisions-01/exchange_rate_acb16.csv": "c8341a37947adcad882f90c9747ea6fee274723b367a0948bbfc50462fead2ca",
+    "amend1-decisions-01/summary.json": "94a1bb6576234d6f94bff9da12293799cca4ff71fa4d6589d7a30169e8935fe9",
+    "cohort": "c629f43e3194642d483701c3d07666252938d587e747c99dbb031a2346bf2abf",
+    "decide-02/e7_keyed_forecasts.csv": "83589795f00df04cdb272155697f6f9d55c8f7604e49ae3bc45e0e1aac04b8f6",
+    "decide-02/e8_conformal.csv": "30733719510cd90aa4402c0bc3ea93450e6bafd2e8c0fd331f6199cce80d7842",
+    "decide-02/e9_league_tiers_full.csv": "9c233bad8bde45e67e53fd06f94feb4d899b3ee59e720bfd181b94091e8f3ef1",
+    "decide-02/summary.json": "ce1d9bafd1364c548c29a9a8e774bf3d32dc3ac39a431dc0742377f9eff56666",
+    "pairs": "d964727924630dbf32c1764daf1e536c81d58988218a230fea591c62c1a62f58",
+    "recipes-01/rows_pool_A.parquet": "ce4f91e0ef854b684522efcf7d736b7c48a074277ac83a1fad016be7f7006eb3"
+  },
+  "models": {
+    "history_only": "history",
+    "scheduled_history": "history + translation",
+    "source_ridge_10": "offsets \u03bb10"
+  },
+  "n_boot": 2000,
+  "n_targets": 674,
+  "protocol_commit": "f52e7c831fef6759eab202c8ff8c56fa76037533",
+  "protocol_sha256": "6c6002f9a96f954eeaac4082a02471bcd7017879df07e2a0630de07e345a5194",
+  "rebuild": {
+    "aggregate_rows": 37725,
+    "canonical_games": 626416,
+    "frozen_api_files": 20,
+    "frozen_raw_files": 155,
+    "identity_excluded": 82,
+    "raw_rows": 691645,
+    "seasons": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  "seed": 0
+}

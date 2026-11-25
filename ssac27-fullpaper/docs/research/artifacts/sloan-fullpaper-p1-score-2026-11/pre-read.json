@@ -1,0 +1,277 @@
+{
+  "analysis": "P1 score",
+  "cutoff": "2026-11-24",
+  "files": [
+    {
+      "path": "data/raw/euroleague/2026/boxscores/season_2026_boxscores.parquet",
+      "refreshed_first": "2026-11-25T00:03:31.568517+00:00",
+      "refreshed_last": "2026-11-25T00:03:31.568517+00:00",
+      "role": "euroleague box scores",
+      "rows": 3798,
+      "sha256": "15efea61ce73ce5e96d1ec27e5b8362e4393a31b8d2d3e60deebcc5c5653b8dd"
+    },
+    {
+      "path": "data/raw/eurocup/2026/boxscores/season_2026_boxscores.parquet",
+      "refreshed_first": "2026-11-25T00:05:58.054279+00:00",
+      "refreshed_last": "2026-11-25T00:05:58.054279+00:00",
+      "role": "eurocup box scores",
+      "rows": 3495,
+      "sha256": "9c4bec2451d541dd971c4eb16b2a487e11fbb03035c721b9104a48d282cc8590"
+    },
+    {
+      "path": "data/raw/euroleague/2026/games/season_2026_games.parquet",
+      "refreshed_first": "2026-11-25T00:01:09.573751+00:00",
+      "refreshed_last": "2026-11-25T00:01:09.573751+00:00",
+      "role": "euroleague schedule",
+      "rows": 136,
+      "sha256": "6eae17798e54ea5ac9f0a5b26a5bcdd8d0813929665bbe771621319d834505fa"
+    },
+    {
+      "path": "data/raw/eurocup/2026/games/season_2026_games.parquet",
+      "refreshed_first": "2026-11-25T00:03:32.505163+00:00",
+      "refreshed_last": "2026-11-25T00:03:32.505163+00:00",
+      "role": "eurocup schedule",
+      "rows": 128,
+      "sha256": "fe031171a73a9c661e2f2161deb1325c164a207924f0e6867f0f097d1f485fc4"
+    },
+    {
+      "fetched_at_utc": "2026-11-25T00:11:14.447899+00:00",
+      "path": "data/raw/euroleague/2026/people/registration_list_2026.csv",
+      "record_file": "registration_list_2026.csv.record.json",
+      "record_sha256": "db7d3439d9ff4a4bbc54f98f53fd120b3464b61b09130aaa0fffc21861d1ec47",
+      "role": "API registration list",
+      "rows": 858,
+      "sha256": "dcdd6c435cdf670d904e41544545282126db86560a38feadb476bddb6d2c1ba8",
+      "written_by": "scripts/sloan_fullpaper_registration_list.py"
+    }
+  ],
+  "files_refreshed_on_or_after": "2026-11-25",
+  "gates": {
+    "freshness": {
+      "eurocup box scores": {
+        "refreshed_first": "2026-11-25T00:05:58.054279+00:00",
+        "refreshed_last": "2026-11-25T00:05:58.054279+00:00"
+      },
+      "eurocup schedule": {
+        "refreshed_first": "2026-11-25T00:03:32.505163+00:00",
+        "refreshed_last": "2026-11-25T00:03:32.505163+00:00"
+      },
+      "euroleague box scores": {
+        "refreshed_first": "2026-11-25T00:03:31.568517+00:00",
+        "refreshed_last": "2026-11-25T00:03:31.568517+00:00"
+      },
+      "euroleague schedule": {
+        "refreshed_first": "2026-11-25T00:01:09.573751+00:00",
+        "refreshed_last": "2026-11-25T00:01:09.573751+00:00"
+      }
+    },
+    "negative_controls": {
+      "completeness": "rejected as required (one game's box score removed)",
+      "freshness": "rejected as required (impossible refresh date)",
+      "postponed": "passed and listed as required (the same game marked not played)",
+      "rounds": "rejected as required (one round removed from both files)"
+    },
+    "schedule": {
+      "eurocup": {
+        "games_after_cutoff_in_box_scores": 0,
+        "games_postponed": 0,
+        "games_scheduled_by_cutoff": 128,
+        "games_with_box_score_by_cutoff": 128,
+        "last_game_date_by_cutoff": "2026-11-18",
+        "postponed_games": [],
+        "round_count_anomalies": [],
+        "rounds_by_cutoff": 8
+      },
+      "euroleague": {
+        "games_after_cutoff_in_box_scores": 0,
+        "games_postponed": 0,
+        "games_scheduled_by_cutoff": 136,
+        "games_with_box_score_by_cutoff": 136,
+        "last_game_date_by_cutoff": "2026-11-24",
+        "postponed_games": [],
+        "round_count_anomalies": [
+          {
+            "games": 6,
+            "phase": "RS",
+            "round": 14,
+            "usual": 10
+          }
+        ],
+        "rounds_by_cutoff": 14
+      }
+    },
+    "season": {
+      "eurocup": {
+        "rows": 3495,
+        "seasons": [
+          2026
+        ]
+      },
+      "euroleague": {
+        "rows": 3798,
+        "seasons": [
+          2026
+        ]
+      }
+    }
+  },
+  "min_n": 60,
+  "pinned": {
+    "band_half_widths": {
+      "file": "docs/research/artifacts/sloan-fullpaper-p1-scorer-2026-11/p1_band_half_widths.json",
+      "half_width_eff36": {
+        "80": 4.661600507713308,
+        "95": 7.253358554605304
+      },
+      "sha256": "0f384e20e17e2ecc2122f2ff4ddd9107c7cd72f57dd7f1d7e82ca5ed5c247963",
+      "status": "passed"
+    },
+    "committed_2020_2025": {
+      "docs/research/artifacts/sloan-fullpaper-amend9-2026-11/summary.json": "da97930085208070b8ce8e24ba4a813d8c5225690992bd240f8189d5751a0b22",
+      "docs/research/artifacts/sloan-fullpaper-public-tables-2026-11/e7_keyed_forecasts.csv": "83589795f00df04cdb272155697f6f9d55c8f7604e49ae3bc45e0e1aac04b8f6",
+      "docs/research/artifacts/sloan-fullpaper-recipes-2026-11/summary.json": "e4d826741bd4f629c713216cd592e19ae7d2d2a89b77fad2cbe7ed350c51d030",
+      "docs/research/artifacts/sloan-fullpaper-robustness-2026-11-03/summary.json": "ec2e2c10f44b801a1af099600841a73058872f9430b3aecfaf507a7fc32c91db",
+      "docs/research/sloan-full-paper-preregistration-2026-11-03.md": "6c6002f9a96f954eeaac4082a02471bcd7017879df07e2a0630de07e345a5194"
+    },
+    "freeze_record": {
+      "path": "docs/research/artifacts/sloan-fullpaper-p1-freeze-2026-11/freeze.json",
+      "sha256": "07ca3c33278238d3d5d0a1626a8afaf8f2af186e7e74e5656b1476b47d35d67a"
+    },
+    "frozen_forecasts": {
+      "negative_control": "rejected as required",
+      "path": "docs/research/artifacts/sloan-fullpaper-p1-freeze-2026-11/p1_frozen_forecasts.parquet",
+      "sha256": "f3530c1a5ac369c032a996756ced226a93aa2d9f71d2e63aab21694de3d55316",
+      "source_of_expected_hash": "docs/research/artifacts/sloan-fullpaper-p1-freeze-2026-11/freeze.json",
+      "status": "passed"
+    },
+    "incumbency": {
+      "negative_control": "rejected as required",
+      "path": "docs/research/artifacts/sloan-fullpaper-p1-freeze-2026-11/p1_incumbency_2025_continental.parquet",
+      "sha256": "ab13f2a06fb9fa2e42a48bec468f2da1948aa1db8aa4fa1053b6a92584864dbe",
+      "source_of_expected_hash": "docs/research/artifacts/sloan-fullpaper-p1-freeze-2026-11/freeze.json",
+      "status": "passed"
+    },
+    "published_table_arm": {
+      "file": "docs/research/artifacts/sloan-fullpaper-p1-freeze-2026-11/p1_frozen_published_table_forecasts.parquet",
+      "forecast_column": "published_table_vashro_2015",
+      "negative_control": "rejected as required",
+      "record_sha256": "a19589ecdf1ba1818d135b8eb87133992003ad7e31dd0cba1668937966750a82",
+      "rows": 3478,
+      "sha256": "4890fa1943a1e1ed40b0e3086a10274536aa315bf4eed8f4449d1815c98c8199",
+      "source_of_expected_hash": "docs/research/artifacts/sloan-fullpaper-p1-freeze-2026-11/e31c_freeze.json",
+      "status": "read",
+      "synthetic": false
+    }
+  },
+  "postponed_games": {
+    "count": 0,
+    "games": [],
+    "rule": "Amendment 18, rule 1: a game dated on or before the cutoff that the schedule marks as not played is postponed; it is listed and counted and does not stop the run"
+  },
+  "pre_read": {
+    "caveat": "partial-season outcomes make these detectable effects optimistic (3 Nov registration)",
+    "counts_by_reason": {
+      "forecast_missing": 0,
+      "incumbent": 227,
+      "outcome_rate_not_positive": 0,
+      "scored": 94,
+      "source_rate_not_positive": 0,
+      "unjoined": 106
+    },
+    "destination_clubs": 36,
+    "detectable_effects": {
+      "P-a": {
+        "detectable_80": 0.3080328835485138,
+        "method": "registered power table (3 Nov): 2.80 x SD / sqrt(n)",
+        "sd_2020_2025": 1.066
+      },
+      "P-b": {
+        "detectable_80": 0.15083786605283697,
+        "method": "registered power table (3 Nov): 2.80 x SD / sqrt(n)",
+        "sd_2020_2025": 0.522
+      },
+      "P-c": {
+        "detectable_80": 0.0947793487841581,
+        "method": "registered power table (3 Nov): 2.80 x SD / sqrt(n)",
+        "sd_2020_2025": 0.328
+      },
+      "S1": {
+        "detectable_80": 0.288987665291935,
+        "detectable_80_at_674": 0.10792282002207813,
+        "estimate_2020_2025": 0.17201419722321917,
+        "method": "E28's clustered detectable effect on the 674, scaled by sqrt(674 / n) (Amendment 18, rule 4)"
+      },
+      "S2": {
+        "detectable_80": 0.19628314219594717,
+        "detectable_80_at_674": 0.07330219512027167,
+        "estimate_2020_2025": 0.0654552316086668,
+        "method": "E28's clustered detectable effect on the 674, scaled by sqrt(674 / n) (Amendment 18, rule 4)"
+      }
+    },
+    "expected_noise": {
+      "at_realised_games": {
+        "noise_floor_mae": 2.9457724653314616,
+        "noise_sd": 3.691978276114655
+      },
+      "full_season_674": {
+        "median_games": 17.0,
+        "noise_floor_mae": 2.1826598085897384,
+        "noise_sd": 2.735558395055863,
+        "spearman_brown_reliability": 0.6874267677534068
+      },
+      "gate": "the formula reproduces E6's noise SD at the 674's own game counts (1e-9); a tolerance of -1 is rejected",
+      "source": "E6 split-half, EFF/36, normal model (robustness summary), scaled by games played"
+    },
+    "games": {
+      "max": 14.0,
+      "median": 8.0,
+      "min": 8.0
+    },
+    "join": {
+      "above_threshold": true,
+      "joined": 94,
+      "newcomers_reaching_eight_games": 200,
+      "possible_lost_share_of_joined": 0.07446808510638298,
+      "possible_lost_targets": 7,
+      "rule": "Amendment 8, rule 3: (a) same surname and a 2025-26 club matching the API previous club by Amendment 6's text rule, or (b) a full name key within two character edits; a lower bound",
+      "share_found_in_api_people_list": 1.0,
+      "threshold": 0.05,
+      "unjoined": 106,
+      "unjoined_found_in_api_people_list": 106
+    },
+    "min_n": 60,
+    "minutes_median": 163.01666666666665,
+    "n_complete_source": 62,
+    "n_scored": 94,
+    "n_scored_by_competition": {
+      "eurocup": 76,
+      "euroleague": 18
+    },
+    "n_unscorable": 0,
+    "postponed_games": 0,
+    "power_table_gate": {
+      "max_difference": 0.000648961000000059,
+      "tolerance": 0.001
+    },
+    "printed_before_any_contrast": true,
+    "published_table_arm": "read"
+  },
+  "readings": {
+    "amendment_18": {
+      "negative_control": "rejected as required",
+      "path": "docs/research/sloan-full-paper-preregistration-amendment-18-2026-11-18.md",
+      "sha256": "d86fc9b79924c92629a95afc9852fc67339b23d3b2a85ece7d71abf943cd472e",
+      "status": "passed"
+    }
+  },
+  "registrations": [
+    "docs/research/sloan-full-paper-preregistration-2026-11-03.md",
+    "docs/research/sloan-full-paper-preregistration-amendment-8-2026-11-16.md",
+    "docs/research/sloan-full-paper-preregistration-amendment-15-2026-11-17.md",
+    "docs/research/sloan-full-paper-preregistration-amendment-18-2026-11-18.md"
+  ],
+  "rehearsal_scenario": null,
+  "schema": 2,
+  "scored_on": "2026-11-25",
+  "synthetic": false
+}

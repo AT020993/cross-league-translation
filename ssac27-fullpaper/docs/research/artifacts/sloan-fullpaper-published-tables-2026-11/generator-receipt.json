@@ -1,0 +1,51 @@
+{
+ "code_files": 2579,
+ "entrypoint": "scripts/sloan_fullpaper_published_tables.py",
+ "generator_commit": "303953fe9d0a031d8735141d24abf4ab47e1ee0b",
+ "generator_sha256": "70c6cbbbf82f147cb9e890c98e14e7bfa4c778848a0db81c47ff4ce671d4ac77",
+ "inputs": 8,
+ "input_sha256": {
+  "data/processed/sloan_v10_public/official_corrected/cohort.parquet": "c629f43e3194642d483701c3d07666252938d587e747c99dbb031a2346bf2abf",
+  "data/processed/sloan_v10_public/official_corrected/pairs.parquet": "d964727924630dbf32c1764daf1e536c81d58988218a230fea591c62c1a62f58",
+  "docs/research/artifacts/sloan-fullpaper-published-tables-2026-11/vashro_2015_competition_scores.csv": "2c004c88d10c60f68dabb038330a9f8d282ba87f56b521cb6a87c59a26252d04",
+  "docs/research/artifacts/sloan-fullpaper-recipes-2026-11/summary.json": "e4d826741bd4f629c713216cd592e19ae7d2d2a89b77fad2cbe7ed350c51d030",
+  "docs/research/artifacts/sloan-v10-2026-09-20/summary.json": "58f2cdc5a032415de2b2331e7aaa8e9975914903daac156970edfe37a28dc638",
+  "docs/research/artifacts/sloan-v9-2026-09-19/diagnostics.json": "b8ba21daae872e97cb08357d9c5be09e016f23a8cb92ad8d588a2d93ba2a9a40",
+  "docs/research/sloan-full-paper-preregistration-2026-11-03.md": "6c6002f9a96f954eeaac4082a02471bcd7017879df07e2a0630de07e345a5194",
+  "docs/research/sloan-full-paper-preregistration-amendment-15-2026-11-17.md": "f078841abdd37dbcb463bf37d7525422f436b8ccc1967622e753b2a2c09a755f"
+ },
+ "outputs": {
+  "out/e31a_coefficients.csv": "abb946ab6d0b598ee822a76d81876a7ed4a7dc8674b4b2aa3cd2e6ea7dee72f2",
+  "out/e31a_differences.csv": "05153ed4451ae405df0cf53848b94df52c214b16921d7e2d00c85d8b10eeb6b1",
+  "out/e31a_keyed_forecasts.csv": "6ef73c134516fa6b4b002d77f449e6f76022b343db8c405303112e8f7053e1d6",
+  "out/summary.json": "983d36831a9222c2e9476b373c1b13f1babd5b417bced68bdf213444a3a0701c",
+  "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout.log": "22cfcf3a3545883eb99b9e5922e5d3a1e4868a2e73528e72a57301fe22667caf"
+ },
+ "returncode": 0,
+ "run_dir": "research-runs/sloan-fullpaper/e31a-01",
+ "selections": [
+  "data/processed/sloan_v10_public/official_corrected",
+  "docs/research/artifacts/sloan-v9-2026-09-19/diagnostics.json",
+  "docs/research/artifacts/sloan-v10-2026-09-20/summary.json",
+  "docs/research/sloan-full-paper-preregistration-2026-11-03.md",
+  "docs/research/sloan-full-paper-preregistration-amendment-15-2026-11-17.md",
+  "docs/research/artifacts/sloan-fullpaper-recipes-2026-11/summary.json",
+  "docs/research/artifacts/sloan-fullpaper-published-tables-2026-11/vashro_2015_competition_scores.csv"
+ ],
+ "snapshot": "c50811ad50e069c6734742004277f562a30818fd8c5c32dd802bad5ee1812857",
+ "source_seasons": [
+  2015,
+  2016,
+  2017,
+  2018,
+  2019,
+  2020,
+  2021,
+  2022,
+  2023,
+  2024,
+  2025
+ ],
+ "status": "complete"
+}

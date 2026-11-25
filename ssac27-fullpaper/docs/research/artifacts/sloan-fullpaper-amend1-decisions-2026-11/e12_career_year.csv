@@ -1,0 +1,15 @@
+arm,scope,season,training_forecasts,beta_a,ci95_low,ci95_high
+source_ridge_10,full fit through 2025,,1059,-1.3888191623923043,-1.9257628389097,-0.7547689505642197
+source_ridge_10,walk-forward refit,2020.0,385,-1.4225529843992875,,
+source_ridge_10,walk-forward refit,2021.0,519,-1.2714579964947061,,
+source_ridge_10,walk-forward refit,2022.0,620,-1.081726350163221,,
+source_ridge_10,walk-forward refit,2023.0,726,-1.3239289624444044,,
+source_ridge_10,walk-forward refit,2024.0,828,-1.463427254727051,,
+source_ridge_10,walk-forward refit,2025.0,932,-1.5232906706289033,,
+history_only,full fit through 2025,,1059,-1.2609515603871275,-1.8403813341863007,-0.5445209762632436
+history_only,walk-forward refit,2020.0,385,-1.229770947336348,,
+history_only,walk-forward refit,2021.0,519,-0.9742918154620167,,
+history_only,walk-forward refit,2022.0,620,-0.7347182545388075,,
+history_only,walk-forward refit,2023.0,726,-1.0473435718569597,,
+history_only,walk-forward refit,2024.0,828,-1.2272105095210033,,
+history_only,walk-forward refit,2025.0,932,-1.3650102251027083,,

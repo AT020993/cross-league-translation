@@ -1,0 +1,113 @@
+{
+  "G33a_inputs": {
+    "files": {
+      "amendment_22": {
+        "negative_control_changed_byte": "rejected as required",
+        "path": "docs/research/sloan-full-paper-preregistration-amendment-22-2026-11-19.md",
+        "sha256": "4c234e20a8bf88dee7098ff3fe095de262d25a946413f4ff88fc0a908dad0ad0"
+      },
+      "e30_summary": {
+        "negative_control_changed_byte": "rejected as required",
+        "path": "docs/research/artifacts/sloan-fullpaper-league-changes-2026-11/e30_summary.json",
+        "sha256": "f1df4c23899c959fc7458caff0e5f2ec8ae071517b29be491a41383f946319dc"
+      },
+      "frozen": {
+        "negative_control_changed_byte": "rejected as required",
+        "path": "docs/research/artifacts/sloan-fullpaper-league-changes-2026-11/e30_frozen_league_changes.parquet",
+        "sha256": "2df696debc8567d9468844384c259e2289d6d1d985d7cbe4c7930bd7bf85b722"
+      },
+      "scored": {
+        "negative_control_changed_byte": "rejected as required",
+        "path": "docs/research/artifacts/sloan-fullpaper-league-changes-2026-11/e30_scored_league_changes.parquet",
+        "sha256": "03d5355dd4c8127b9130dc2c7bfd7c9d782e14cca7c1e9bc83ac2fc0a9dbfaa4"
+      },
+      "stayers": {
+        "negative_control_changed_byte": "rejected as required",
+        "path": "docs/research/artifacts/sloan-fullpaper-league-changes-2026-11/e30_stayer_pairs.parquet",
+        "sha256": "afdda9226c671e9ef774297097ad5507ed83a72d4d06d4a98cdc26f8fb0997b6"
+      }
+    },
+    "status": "passed"
+  },
+  "G33b_same_rows": {
+    "by_arrival_season": {
+      "2020": 312,
+      "2021": 360,
+      "2022": 374,
+      "2023": 363,
+      "2024": 344,
+      "2025": 330
+    },
+    "league_changes": 2083,
+    "negative_control_row_removed_from_frozen": "rejected as required",
+    "negative_control_row_removed_from_scored": "rejected as required",
+    "players": 1165,
+    "status": "passed"
+  },
+  "G33d_cutoff": {
+    "by_arrival_season": {
+      "2020": {
+        "latest_outcome_season": 2019,
+        "training_rows": 3578
+      },
+      "2021": {
+        "latest_outcome_season": 2020,
+        "training_rows": 4491
+      },
+      "2022": {
+        "latest_outcome_season": 2021,
+        "training_rows": 5429
+      },
+      "2023": {
+        "latest_outcome_season": 2022,
+        "training_rows": 6331
+      },
+      "2024": {
+        "latest_outcome_season": 2023,
+        "training_rows": 7263
+      },
+      "2025": {
+        "latest_outcome_season": 2024,
+        "training_rows": 8219
+      }
+    },
+    "negative_control_season_included": "rejected as required",
+    "players_resampled": 3577,
+    "status": "passed"
+  },
+  "G33e_planted_slope": {
+    "negative_control_shuffled_gap": {
+      "ci95": [
+        -0.07875203516787095,
+        0.12189164693448125
+      ],
+      "slope": 0.02211161735340925
+    },
+    "noise_sd": 3.44414882145378,
+    "planted_slope_one": {
+      "ci95": [
+        0.9312055118121579,
+        1.1217518240786832
+      ],
+      "slope": 1.029369694701662
+    },
+    "planted_slope_zero": {
+      "ci95": [
+        -0.12677343554440984,
+        0.06964622553877296
+      ],
+      "slope": -0.02734716923624657
+    },
+    "status": "passed",
+    "tolerance": 0.05
+  },
+  "amendment_22": {
+    "path": "docs/research/sloan-full-paper-preregistration-amendment-22-2026-11-19.md",
+    "sha256": "4c234e20a8bf88dee7098ff3fe095de262d25a946413f4ff88fc0a908dad0ad0"
+  },
+  "analysis": "E33",
+  "bootstrap_draws": 2000,
+  "outcomes_read": "none: of the scored file only the key, the season and the two leagues",
+  "seed": 20261117,
+  "status": "passed"
+}

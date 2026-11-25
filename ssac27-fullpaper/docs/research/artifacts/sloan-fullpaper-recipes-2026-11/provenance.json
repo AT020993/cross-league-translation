@@ -1,0 +1,22 @@
+{
+  "analysis": "E1 and E2 (pre-registration 2026-11-03, commit f52e7c831); exploratory",
+  "files": {
+    "ladder.csv": "8dc17934895f1da1402f0cd312c4269f4f1e39a9d0b7fa3d5515829951bb75ea",
+    "metrics.csv": "6f2fa2e2f4d3d7d36e6e6fd6c7076ffb9ea03354d396587e98b362e10da2bd7c",
+    "rows_pool_A.parquet": "ce4f91e0ef854b684522efcf7d736b7c48a074277ac83a1fad016be7f7006eb3",
+    "summary.json": "e4d826741bd4f629c713216cd592e19ae7d2d2a89b77fad2cbe7ed350c51d030"
+  },
+  "generating_commit": "800202cc192c988dda695f40e885f1948d76bb8d",
+  "generator": "scripts/sloan_fullpaper_recipes.py",
+  "generator_sha256": "d6c4839a213716141037224b422794b30b20dd57d4660db8b56d9f9d5da3950e",
+  "input_receipt_sha256": "65e1b05811eefe76548f5e308a994c092a15ee660a1cb7e10a69b501c617ea38",
+  "input_selections": [
+    "data/processed/sloan_v10_public",
+    "docs/research/artifacts/sloan-v9-2026-09-19/diagnostics.json",
+    "docs/research/artifacts/sloan-v10-2026-09-20/summary.json",
+    "docs/research/sloan-full-paper-preregistration-2026-11-03.md"
+  ],
+  "retained_run": "/Users/amir/Projects/cv_basketball_archive/research-runs/sloan-fullpaper/recipes-01",
+  "run_returncode": 0,
+  "run_status": "complete"
+}

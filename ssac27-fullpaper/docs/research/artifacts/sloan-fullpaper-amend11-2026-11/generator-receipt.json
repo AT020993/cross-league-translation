@@ -1,0 +1,51 @@
+{
+ "code_files": 2577,
+ "entrypoint": "scripts/sloan_fullpaper_amend11.py",
+ "generator_commit": "bdb945d1b59727106d4f833f259dc1d96b8041de",
+ "generator_sha256": "189234664cdc7bf97551dd7c437d43003c2fb7bfcfe34c36c0b8c3ed110b61d9",
+ "inputs": 15,
+ "outputs": {
+  "out/e29_change.csv": "cce48872027a206b89cd32ed00244e2458b96a17e6c20c6f79f7fd570e980624",
+  "out/e29_means.csv": "ccf6a21172097ed1b0ee2346abbca34f0cd451605c5ba4f08616f49fa170a54f",
+  "out/summary.json": "0543e49bf8698944a2e6b245f4360e302ec30886d11295ef95bb9514cc285c40",
+  "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout.log": "340b155b414b12a0cbc8160e825381e98a19ad896f03c3be019db24e122faa7f"
+ },
+ "withheld_outputs": {
+  "files": 1,
+  "note": "everything that depends on the older-seasons version the paper does not print, including the rows of its extra league in both populations, stays in the retained run (Amendment 7's permission rule); its file and hash are not committed"
+ },
+ "returncode": 0,
+ "run_dir": "research-runs/sloan-fullpaper/amend11-01",
+ "selections": [
+  "data/processed/sloan_v10_public/official_corrected",
+  "docs/research/artifacts/sloan-v9-2026-09-19/diagnostics.json",
+  "docs/research/artifacts/sloan-v10-2026-09-20/summary.json",
+  "docs/research/sloan-full-paper-preregistration-2026-11-03.md",
+  "docs/research/sloan-full-paper-preregistration-amendment-11-2026-11-16.md",
+  "docs/research/artifacts/sloan-fullpaper-amend9-2026-11/summary.json",
+  "docs/research/artifacts/sloan-fullpaper-amend4-2026-11/e24_level.csv",
+  "docs/research/artifacts/sloan-fullpaper-amend4-2026-11/e24_league_bias.csv",
+  "docs/research/artifacts/sloan-fullpaper-older-seasons-2026-11/e27_arrivals.csv",
+  "docs/research/artifacts/sloan-fullpaper-older-seasons-2026-11/e27_summary.json",
+  "docs/research/artifacts/sloan-fullpaper-older-seasons-paper-2026-11/e27_paper.json",
+  "docs/paper/ssac27/release.json",
+  "_local/e27_pinned_inputs/e27_frozen_forecasts.parquet",
+  "_local/e28_withheld/e28b_withheld_version.json"
+ ],
+ "snapshot": "060302db6b895ec7c0fb1df47a1da50457519c29c7d1bedb206f0b35a817bdf7",
+ "source_seasons": [
+  2015,
+  2016,
+  2017,
+  2018,
+  2019,
+  2020,
+  2021,
+  2022,
+  2023,
+  2024,
+  2025
+ ],
+ "status": "complete"
+}

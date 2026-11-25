@@ -1,0 +1,76 @@
+{
+  "about": "The record of Amendment 23, rule 4 (gate G23d): the analysts' pages that report how a player forecast conditioned on a league level fared. The paper's renderer reads this file. It prints the two statements of rule 4 (what was found, what was not found) only when every page below has the date of its full read and what it reports; until then the paper keeps the sentence it has. A page is entered here from the paper's literature ledger, after it has been read in full, and never from a search snippet or from captured text without its tables.",
+  "amendment": "sloan-full-paper-preregistration-amendment-23-2026-11-22.md",
+  "ledger": "the paper's literature ledger (sloan-ssac27-literature-evidence.md), kept with the working files of the paper",
+  "fields": {
+    "read_in_full": "the date on which the page was read in full (ISO date), or null while it has not been",
+    "read_in_full_only_after_scoring": "true for a page that shows statistics of the 2026-27 season or leads to one: rule 4 lets it be read in full only after the frozen 2026-27 test has been scored. Amendment 24 makes the phrase explicit: the test has been scored once the score record of its registered scoring run of November 2026 is committed, whatever status that record carries. The renderer refuses a date for it while that test has no committed score record and when the date lies before the day of scoring",
+    "ledger_heading": "the heading of the ledger section that holds the entry of the full read",
+    "reference": "the reference as the paper prints it, without the date of access (the renderer adds the date of the full read)",
+    "short": "the players the forecast was scored on, as the short form in Related work names them",
+    "reports": "what the page reports, in the four points of rule 4: what it forecasts (a clause that follows the analyst's name), on which players and seasons the forecast was scored, whether those players are arrivals, and whether the page reports the forecast's accuracy with and without the league level. Two answers go with the fourth point. reports_accuracy_without_league_level is true for a page that reports, for any players, the accuracy of its forecast without the league level, or beside a forecast that does not know which league a player came from; the short form in Related work says that neither analyst does, so with one such page the renderer prints nothing and the wording goes to Amir first. compares_with_and_without_league_level is true only for a page that reports this for basketball players arriving in or playing in European competitions. With one such page the renderer prints nothing and Amir is told before any writing. The texts describe a page in words other than those the paper keeps for its own test on league changes (\"changed league\", \"league change\", \"domestic move\"); the renderer refuses them",
+    "numbers": "every number of the texts above that is not a year, a season label or the day of a date, by name; the texts hold the names in braces, and the renderer refuses a number typed in a text"
+  },
+  "pages": [
+    {
+      "citation": "gba2025b",
+      "analyst": "German Basketball Analytics",
+      "title": "Predicting Player Performance in European Basketball using Machine Learning",
+      "published": "2025-07-08",
+      "urls": [
+        "https://germanbasketballanalytics.substack.com/p/predicting-player-performance-in"
+      ],
+      "read_in_full_only_after_scoring": false,
+      "read_in_full": "2026-11-22",
+      "read_by": "Claude Science, from the page itself: all text and the five charts",
+      "ledger_heading": "## 22 November 2026: three German Basketball Analytics posts read for Amendment 23, rule 4",
+      "reference": "German Basketball Analytics (2025, July 8). Predicting Player Performance in European Basketball using Machine Learning. https://germanbasketballanalytics.substack.com/p/predicting-player-performance-in",
+      "short": "players of {leagues} European leagues",
+      "reports": {
+        "forecasts": "forecasts next-season estimated plus-minus for players of {leagues} European leagues, with the levels of the current and the next league among its inputs",
+        "scored_on": "The forecast was fitted on seasons through 2022 and scored on 2023 and 2024, on all players with two consecutive seasons together (an error of about ±{error} and R² {r2})",
+        "arrivals": "The scored players are not arrivals as such: the page names four players who moved to another league or level as examples and reports no result for players who moved between leagues as a group",
+        "with_and_without": "It reports no accuracy without the league levels and no baseline",
+        "reports_accuracy_without_league_level": false,
+        "compares_with_and_without_league_level": false
+      },
+      "numbers": {
+        "leagues": 30,
+        "error": "1",
+        "r2": "0.70"
+      }
+    },
+    {
+      "citation": "gaussianhoops2026b",
+      "analyst": "Gaussian Hoops",
+      "title": "Basketball Projections: Expected vs. Actual (overview), and EuroLeague 2026-27 Player Projections: Expected vs. Actual (board)",
+      "published": null,
+      "urls": [
+        "https://www.gaussianhoops.com/projections/",
+        "https://www.gaussianhoops.com/projections/euroleague/"
+      ],
+      "read_in_full_only_after_scoring": true,
+      "read_in_full": "2026-11-25",
+      "read_by": "Claude Science, from PDF prints that Amir saved from his browser on 25 November 2026, after the score record of the frozen 2026-27 test was committed: the overview (5 pages) and the board in its view for true shooting percentage on its three lists, newcomers, returners and holdovers (20 pages), all text and tables. Not in the prints and not read: the board's views for its six other measures, its closed panel 'How to read this board', the players below the board's sample threshold and the card behind each row",
+      "ledger_heading": "## 25 November 2026: the Gaussian Hoops pages read in full (Amendment 23, rule 4; Amendment 24)",
+      "reference": "Köchling, P. (2026). Basketball projections: expected vs. actual, and EuroLeague 2026–27 player projections: expected vs. actual. *Gaussian Hoops*. https://www.gaussianhoops.com/projections/ and https://www.gaussianhoops.com/projections/euroleague/",
+      "short": "EuroLeague players",
+      "reports": {
+        "forecasts": "projects, for each EuroLeague player of 2026–27, a direction and a range for measures of shooting, rebounding and assists, from earlier players who made the same kind of move at the same level of league",
+        "scored_on": "Its calls of direction were scored on EuroLeague players of earlier seasons: it reports {share}% of the calls of its 2025–26 board as right ({right} of {calls}) and, for true shooting percentage, {arrival_share}% across {arrivals} players who had arrived in the EuroLeague; the board states that it was tuned on 2023–24 to 2025–26",
+        "arrivals": "Part of the scored players are arrivals: the board keeps its record for newcomers apart from those for returning and staying players, and each record counts calls of direction, not an error in the units of a measure",
+        "with_and_without": "It reports no forecast without the league level and no baseline",
+        "reports_accuracy_without_league_level": false,
+        "compares_with_and_without_league_level": false
+      },
+      "numbers": {
+        "share": "75",
+        "right": "755",
+        "calls": "1,013",
+        "arrival_share": "76",
+        "arrivals": "84"
+      },
+      "status": "Read in full on 25 November 2026, as far as the prints go (see read_by), after the frozen 2026-27 test was scored. Entered in the ledger under the heading above."
+    }
+  ]
+}

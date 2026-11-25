@@ -1,0 +1,16 @@
+{
+  "generator": "scripts/sloan_fullpaper_public_tables.py",
+  "generator_commit": "809c760801b4e7cac881a28d112d351efe3d6bb8",
+  "input_receipt_sha256": "5255f5ecd1d15ceb518b3d473ed4517df8d80f4948a2babbba90be7fd09f5773",
+  "outputs": {
+    "e15b_component_priors.parquet": "775d5c6d68cdc3b7b91e20db53e004df6239498c6c410d1d293ea3e80ada60c4",
+    "e15b_split_halves.csv": "1b6d67041593a8ae12444a93f0f746e7144b3127372b4c692fdc48af4fcb7d63",
+    "e6_split_half_players.csv": "e2e48b84ce60c218d155c9dea55543e914d9fb84b8c499d2258d48e5e33e038a",
+    "e7_keyed_forecasts.csv": "83589795f00df04cdb272155697f6f9d55c8f7604e49ae3bc45e0e1aac04b8f6",
+    "summary.json": "8b016bbcd9cded1a5854fb3af5285af1c1252e6c9299f817575f4e32b517ad04"
+  },
+  "returncode": 0,
+  "run": "research-runs/sloan-fullpaper/public-tables-01",
+  "snapshot": "246e9d1352c81509ecc94b806b6c06e681782b4c422e46ad8659f93ad210b190",
+  "status": "complete"
+}

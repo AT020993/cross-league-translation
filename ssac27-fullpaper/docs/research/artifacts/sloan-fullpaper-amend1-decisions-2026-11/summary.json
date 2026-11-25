@@ -1,0 +1,2782 @@
+{
+  "amendment_commit": "f1a3453dae4ed77b069ad8c12f963eb3e32d27ee",
+  "amendment_sha256": "5e6554dfe2861c0be55a65deef6f9ea3cca95b9bd35fb6c27c4a5dd8d4c42776",
+  "analysis": "Amendment 1: E10, E11, E12, E17 (exploratory; destination seasons 2020-2025 already seen)",
+  "e10": {
+    "licence": {
+      "sentence": "Between candidates from different leagues, the league-aware forecast orders 73.7% of pairs correctly against 72.4% for history alone.",
+      "verdict": "above_zero"
+    },
+    "pooled": {
+      "all_pools": {
+        "all": {
+          "pairs": 22365,
+          "unequal_pairs": 22365,
+          "values": {
+            "ceiling_split_half": {
+              "ci95": [
+                0.662044230583456,
+                0.711759586799134
+              ],
+              "point": 0.6877571096404936
+            },
+            "ceiling_true_rate_normal_model": {
+              "ci95": [
+                0.8002803821781671,
+                0.8382834602553265
+              ],
+              "point": 0.8206912398608932
+            },
+            "d1:history_only": {
+              "ci95": [
+                0.7010508577636777,
+                0.7418498387011082
+              ],
+              "point": 0.7213950368879947
+            },
+            "d1:scheduled_history": {
+              "ci95": [
+                0.7103029585293972,
+                0.7520098464873615
+              ],
+              "point": 0.7313659736194947
+            },
+            "d1:source_ridge_10": {
+              "ci95": [
+                0.713705109104954,
+                0.752951117629766
+              ],
+              "point": 0.7330203442879499
+            },
+            "d1:source_ridge_10_scheduled": {
+              "ci95": [
+                0.7150966756487601,
+                0.7557126790104257
+              ],
+              "point": 0.7352559803264028
+            },
+            "d1diff:history_only__scheduled_history": {
+              "bootstrap_se": 0.004443160117251799,
+              "ci95": [
+                0.0010650637110726114,
+                0.018451166323031766
+              ],
+              "mde_80": 0.012447890737090883,
+              "point": 0.009970936731500069
+            },
+            "d1diff:history_only__source_ridge_10": {
+              "bootstrap_se": 0.00426127260105322,
+              "ci95": [
+                0.0032149595981822514,
+                0.019727248050999856
+              ],
+              "mde_80": 0.011938317400021686,
+              "point": 0.011625307399955265
+            },
+            "d1diff:scheduled_history__source_ridge_10": {
+              "bootstrap_se": 0.0030444896831927407,
+              "ci95": [
+                -0.004287691534856286,
+                0.007868268673429536
+              ],
+              "mde_80": 0.008529396629087535,
+              "point": 0.0016543706684551962
+            },
+            "d1diff:source_ridge_10__source_ridge_10_scheduled": {
+              "bootstrap_se": 0.0023441826330531062,
+              "ci95": [
+                -0.0021497748487776134,
+                0.007080497105545744
+              ],
+              "mde_80": 0.006567426902022088,
+              "point": 0.002235636038452893
+            },
+            "flip_share:history_only__scheduled_history": {
+              "ci95": [
+                0.057336099240062485,
+                0.07889252760529603
+              ],
+              "point": 0.06863402638050525
+            },
+            "flip_share:source_ridge_10__source_ridge_10_scheduled": {
+              "ci95": [
+                0.02004834213606008,
+                0.03079501519917182
+              ],
+              "point": 0.02557567627990163
+            },
+            "flips:history_only__scheduled_history": 1535,
+            "flips:source_ridge_10__source_ridge_10_scheduled": 572,
+            "flips_unequal:history_only__scheduled_history": 1535,
+            "flips_unequal:source_ridge_10__source_ridge_10_scheduled": 572,
+            "right:history_only__scheduled_history": 879,
+            "right:source_ridge_10__source_ridge_10_scheduled": 311,
+            "right_share:history_only__scheduled_history": {
+              "bootstrap_se": 0.031406711841292366,
+              "ci95": [
+                0.5083770768989795,
+                0.6321427746836222
+              ],
+              "mde_80": 0.08798857279388708,
+              "point": 0.5726384364820847
+            },
+            "right_share:source_ridge_10__source_ridge_10_scheduled": {
+              "bootstrap_se": 0.046481133558999195,
+              "ci95": [
+                0.45985994983277595,
+                0.6391310606692815
+              ],
+              "mde_80": 0.13022084656188876,
+              "point": 0.5437062937062938
+            }
+          }
+        },
+        "cross": {
+          "pairs": 19668,
+          "unequal_pairs": 19668,
+          "values": {
+            "ceiling_split_half": {
+              "ci95": [
+                0.6616559150524852,
+                0.7131527007761703
+              ],
+              "point": 0.6881069812376062
+            },
+            "ceiling_true_rate_normal_model": {
+              "ci95": [
+                0.7999576480363446,
+                0.839267495493208
+              ],
+              "point": 0.820956994950077
+            },
+            "d1:history_only": {
+              "ci95": [
+                0.7037399107482303,
+                0.744133871500284
+              ],
+              "point": 0.7235611145007118
+            },
+            "d1:scheduled_history": {
+              "ci95": [
+                0.7152903329735161,
+                0.7562262185157783
+              ],
+              "point": 0.7350518608907871
+            },
+            "d1:source_ridge_10": {
+              "ci95": [
+                0.7176012400446529,
+                0.7569672351965828
+              ],
+              "point": 0.7367297132397803
+            },
+            "d1:source_ridge_10_scheduled": {
+              "ci95": [
+                0.7194103174911329,
+                0.7602803514288058
+              ],
+              "point": 0.7393736017897091
+            },
+            "d1diff:history_only__scheduled_history": {
+              "bootstrap_se": 0.0051344187204129315,
+              "ci95": [
+                0.0015745416605465717,
+                0.02170858149855744
+              ],
+              "mde_80": 0.014384510470828064,
+              "point": 0.011490746390075302
+            },
+            "d1diff:history_only__source_ridge_10": {
+              "bootstrap_se": 0.004907212942795465,
+              "ci95": [
+                0.003917083527867476,
+                0.022767013255326814
+              ],
+              "mde_80": 0.013747974172341634,
+              "point": 0.013168598739068504
+            },
+            "d1diff:scheduled_history__source_ridge_10": {
+              "bootstrap_se": 0.003501529871724246,
+              "ci95": [
+                -0.00516687370365145,
+                0.008663900412561435
+              ],
+              "mde_80": 0.009809833565674572,
+              "point": 0.001677852348993203
+            },
+            "d1diff:source_ridge_10__source_ridge_10_scheduled": {
+              "bootstrap_se": 0.002712248897427829,
+              "ci95": [
+                -0.0023334242663131805,
+                0.008245300612256463
+              ],
+              "mde_80": 0.007598595827300345,
+              "point": 0.002643888549928808
+            },
+            "flip_share:history_only__scheduled_history": {
+              "ci95": [
+                0.06526864409819448,
+                0.08921753626936131
+              ],
+              "point": 0.07677445596908684
+            },
+            "flip_share:source_ridge_10__source_ridge_10_scheduled": {
+              "ci95": [
+                0.023041805301485984,
+                0.03528247643654272
+              ],
+              "point": 0.028777709985763678
+            },
+            "flips:history_only__scheduled_history": 1510,
+            "flips:source_ridge_10__source_ridge_10_scheduled": 566,
+            "flips_unequal:history_only__scheduled_history": 1510,
+            "flips_unequal:source_ridge_10__source_ridge_10_scheduled": 566,
+            "right:history_only__scheduled_history": 868,
+            "right:source_ridge_10__source_ridge_10_scheduled": 309,
+            "right_share:history_only__scheduled_history": {
+              "bootstrap_se": 0.03184625883020002,
+              "ci95": [
+                0.5103789249643735,
+                0.6364314630458068
+              ],
+              "mde_80": 0.08922000104480593,
+              "point": 0.5748344370860927
+            },
+            "right_share:source_ridge_10__source_ridge_10_scheduled": {
+              "bootstrap_se": 0.046837187614363444,
+              "ci95": [
+                0.4606449531604238,
+                0.6411674616248287
+              ],
+              "mde_80": 0.13121836226258643,
+              "point": 0.5459363957597173
+            }
+          }
+        },
+        "same": {
+          "pairs": 2697,
+          "unequal_pairs": 2697,
+          "values": {
+            "ceiling_split_half": {
+              "ci95": [
+                0.6499399422712074,
+                0.7237477267993917
+              ],
+              "point": 0.6852057842046718
+            },
+            "ceiling_true_rate_normal_model": {
+              "ci95": [
+                0.7899905256707143,
+                0.8466316191418588
+              ],
+              "point": 0.818744285847329
+            },
+            "d1:history_only": {
+              "ci95": [
+                0.6729883695137057,
+                0.7458649097992506
+              ],
+              "point": 0.7055988134964776
+            },
+            "d1:scheduled_history": {
+              "ci95": [
+                0.671353469475906,
+                0.7449461525099879
+              ],
+              "point": 0.7044864664441972
+            },
+            "d1:source_ridge_10": {
+              "ci95": [
+                0.6736395477471891,
+                0.7467114569687129
+              ],
+              "point": 0.7059695958472376
+            },
+            "d1:source_ridge_10_scheduled": {
+              "ci95": [
+                0.6732535311581548,
+                0.7460488839571849
+              ],
+              "point": 0.7052280311457174
+            },
+            "d1diff:history_only__scheduled_history": {
+              "bootstrap_se": 0.004146182179677442,
+              "ci95": [
+                -0.009437786400641695,
+                0.007105552018341661
+              ],
+              "mde_80": 0.011615881801851628,
+              "point": -0.0011123470522803602
+            },
+            "d1diff:history_only__source_ridge_10": {
+              "bootstrap_se": 0.004160539355590881,
+              "ci95": [
+                -0.007745373487573473,
+                0.008908950060407957
+              ],
+              "mde_80": 0.01165610465053308,
+              "point": 0.00037078235076004606
+            },
+            "d1diff:scheduled_history__source_ridge_10": {
+              "bootstrap_se": 0.0018478056957900257,
+              "ci95": [
+                -0.0015736347080867684,
+                0.005889684770400307
+              ],
+              "mde_80": 0.0051767847202399,
+              "point": 0.0014831294030404063
+            },
+            "d1diff:source_ridge_10__source_ridge_10_scheduled": {
+              "bootstrap_se": 0.0012582959815846302,
+              "ci95": [
+                -0.0033569598242115363,
+                0.0018249009194145373
+              ],
+              "mde_80": 0.0035252231475677766,
+              "point": -0.0007415647015202032
+            },
+            "flip_share:history_only__scheduled_history": {
+              "ci95": [
+                0.004253454658965241,
+                0.019968760376184926
+              ],
+              "point": 0.009269558769002595
+            },
+            "flip_share:source_ridge_10__source_ridge_10_scheduled": {
+              "ci95": [
+                0.0,
+                0.00491262639357013
+              ],
+              "point": 0.002224694104560623
+            },
+            "flips:history_only__scheduled_history": 25,
+            "flips:source_ridge_10__source_ridge_10_scheduled": 6,
+            "flips_unequal:history_only__scheduled_history": 25,
+            "flips_unequal:source_ridge_10__source_ridge_10_scheduled": 6,
+            "right:history_only__scheduled_history": 11,
+            "right:source_ridge_10__source_ridge_10_scheduled": 2,
+            "right_share:history_only__scheduled_history": {
+              "bootstrap_se": 0.17946321530070206,
+              "ci95": [
+                0.11538461538461539,
+                0.7894736842105263
+              ],
+              "mde_80": 0.5027814520382174,
+              "point": 0.44
+            },
+            "right_share:source_ridge_10__source_ridge_10_scheduled": {
+              "bootstrap_se": 0.3189319603644794,
+              "ci95": [
+                0.0,
+                1.0
+              ],
+              "mde_80": 0.8935149961777201,
+              "point": 0.3333333333333333
+            }
+          }
+        }
+      },
+      "eurocup": {
+        "all": {
+          "pairs": 19256,
+          "unequal_pairs": 19256,
+          "values": {
+            "ceiling_split_half": {
+              "ci95": [
+                0.6628504085886783,
+                0.7168627141632813
+              ],
+              "point": 0.691249026226954
+            },
+            "ceiling_true_rate_normal_model": {
+              "ci95": [
+                0.8009489160569591,
+                0.8418698925017645
+              ],
+              "point": 0.8233304991846248
+            },
+            "d1:history_only": {
+              "ci95": [
+                0.702338699851817,
+                0.748128490026029
+              ],
+              "point": 0.724761113419194
+            },
+            "d1:scheduled_history": {
+              "ci95": [
+                0.7131078454530272,
+                0.7593442845219333
+              ],
+              "point": 0.7361861238055671
+            },
+            "d1:source_ridge_10": {
+              "ci95": [
+                0.7134389571232618,
+                0.7581334456722587
+              ],
+              "point": 0.735407145824678
+            },
+            "d1:source_ridge_10_scheduled": {
+              "ci95": [
+                0.7150712435242748,
+                0.7608337267065475
+              ],
+              "point": 0.7374324885749897
+            },
+            "d1diff:history_only__scheduled_history": {
+              "bootstrap_se": 0.004748762663717306,
+              "ci95": [
+                0.0020985171405857317,
+                0.020778032245736013
+              ],
+              "mde_80": 0.01330406224723045,
+              "point": 0.011425010386373113
+            },
+            "d1diff:history_only__source_ridge_10": {
+              "bootstrap_se": 0.004623372925140387,
+              "ci95": [
+                0.0014413485525200831,
+                0.019408312243099534
+              ],
+              "mde_80": 0.012952772236479431,
+              "point": 0.010646032405484007
+            },
+            "d1diff:scheduled_history__source_ridge_10": {
+              "bootstrap_se": 0.0030791130167748576,
+              "ci95": [
+                -0.00660910267847731,
+                0.005400691330742118
+              ],
+              "mde_80": 0.00862639684110119,
+              "point": -0.0007789779808891062
+            },
+            "d1diff:source_ridge_10__source_ridge_10_scheduled": {
+              "bootstrap_se": 0.002440377905460046,
+              "ci95": [
+                -0.0026500490737777576,
+                0.006996144565720762
+              ],
+              "mde_80": 0.006836926134268283,
+              "point": 0.0020253427503116317
+            },
+            "flip_share:history_only__scheduled_history": {
+              "ci95": [
+                0.0512583568604611,
+                0.0726025139590411
+              ],
+              "point": 0.06294142085583714
+            },
+            "flip_share:source_ridge_10__source_ridge_10_scheduled": {
+              "ci95": [
+                0.018162160802715526,
+                0.028869728280287776
+              ],
+              "point": 0.02383672621520565
+            },
+            "flips:history_only__scheduled_history": 1212,
+            "flips:source_ridge_10__source_ridge_10_scheduled": 459,
+            "flips_unequal:history_only__scheduled_history": 1212,
+            "flips_unequal:source_ridge_10__source_ridge_10_scheduled": 459,
+            "right:history_only__scheduled_history": 716,
+            "right:source_ridge_10__source_ridge_10_scheduled": 249,
+            "right_share:history_only__scheduled_history": {
+              "bootstrap_se": 0.03615597684266239,
+              "ci95": [
+                0.5175514013324145,
+                0.6594797403619197
+              ],
+              "mde_80": 0.10129404238275032,
+              "point": 0.5907590759075908
+            },
+            "right_share:source_ridge_10__source_ridge_10_scheduled": {
+              "bootstrap_se": 0.052752361566022865,
+              "ci95": [
+                0.44517778417440573,
+                0.644411673009259
+              ],
+              "mde_80": 0.14779022487794619,
+              "point": 0.5424836601307189
+            }
+          }
+        },
+        "cross": {
+          "pairs": 16959,
+          "unequal_pairs": 16959,
+          "values": {
+            "ceiling_split_half": {
+              "ci95": [
+                0.661962619040106,
+                0.7184147962458988
+              ],
+              "point": 0.6915909895034792
+            },
+            "ceiling_true_rate_normal_model": {
+              "ci95": [
+                0.8002125928866479,
+                0.8429508989035679
+              ],
+              "point": 0.8235874097248305
+            },
+            "d1:history_only": {
+              "ci95": [
+                0.7038083089889179,
+                0.7494937993933158
+              ],
+              "point": 0.7264579279438647
+            },
+            "d1:scheduled_history": {
+              "ci95": [
+                0.7169627927964813,
+                0.7629726459435087
+              ],
+              "point": 0.7393714252019576
+            },
+            "d1:source_ridge_10": {
+              "ci95": [
+                0.7170052611663478,
+                0.7609808473897725
+              ],
+              "point": 0.7383100418656761
+            },
+            "d1:source_ridge_10_scheduled": {
+              "ci95": [
+                0.7184486750432879,
+                0.7640937430937543
+              ],
+              "point": 0.7406686715018574
+            },
+            "d1diff:history_only__scheduled_history": {
+              "bootstrap_se": 0.005485526879775178,
+              "ci95": [
+                0.002524301094946935,
+                0.024046789987266334
+              ],
+              "mde_80": 0.015368169823474944,
+              "point": 0.012913497258092987
+            },
+            "d1diff:history_only__source_ridge_10": {
+              "bootstrap_se": 0.0053311767573347565,
+              "ci95": [
+                0.0018137702108352999,
+                0.022347651885812107
+              ],
+              "mde_80": 0.014935744835697694,
+              "point": 0.011852113921811402
+            },
+            "d1diff:scheduled_history__source_ridge_10": {
+              "bootstrap_se": 0.0035545947219130336,
+              "ci95": [
+                -0.007808483634363514,
+                0.006057475716111584
+              ],
+              "mde_80": 0.009958499253990727,
+              "point": -0.001061383336281585
+            },
+            "d1diff:source_ridge_10__source_ridge_10_scheduled": {
+              "bootstrap_se": 0.0028358490776587033,
+              "ci95": [
+                -0.0030397642247792845,
+                0.0080609457376616
+              ],
+              "mde_80": 0.007944872238232458,
+              "point": 0.0023586296361813863
+            },
+            "flip_share:history_only__scheduled_history": {
+              "ci95": [
+                0.05809028085599562,
+                0.08244325143831904
+              ],
+              "point": 0.07022819741730055
+            },
+            "flip_share:source_ridge_10__source_ridge_10_scheduled": {
+              "ci95": [
+                0.020814877132932317,
+                0.032978195216701735
+              ],
+              "point": 0.026770446370658646
+            },
+            "flips:history_only__scheduled_history": 1191,
+            "flips:source_ridge_10__source_ridge_10_scheduled": 454,
+            "flips_unequal:history_only__scheduled_history": 1191,
+            "flips_unequal:source_ridge_10__source_ridge_10_scheduled": 454,
+            "right:history_only__scheduled_history": 705,
+            "right:source_ridge_10__source_ridge_10_scheduled": 247,
+            "right_share:history_only__scheduled_history": {
+              "bootstrap_se": 0.0368026634488951,
+              "ci95": [
+                0.5183200786444871,
+                0.6616572168125231
+              ],
+              "mde_80": 0.10310578987847278,
+              "point": 0.5919395465994962
+            },
+            "right_share:source_ridge_10__source_ridge_10_scheduled": {
+              "bootstrap_se": 0.053420282847650595,
+              "ci95": [
+                0.4450324610433021,
+                0.6470694033008887
+              ],
+              "mde_80": 0.1496614631217352,
+              "point": 0.5440528634361234
+            }
+          }
+        },
+        "same": {
+          "pairs": 2297,
+          "unequal_pairs": 2297,
+          "values": {
+            "ceiling_split_half": {
+              "ci95": [
+                0.6504515971659411,
+                0.7295698424778717
+              ],
+              "point": 0.6887244231606443
+            },
+            "ceiling_true_rate_normal_model": {
+              "ci95": [
+                0.79043548230276,
+                0.8505925652916518
+              ],
+              "point": 0.8214252707343623
+            },
+            "d1:history_only": {
+              "ci95": [
+                0.6742673692329317,
+                0.7537924464491647
+              ],
+              "point": 0.7122333478450152
+            },
+            "d1:scheduled_history": {
+              "ci95": [
+                0.6757476619421745,
+                0.7547332341923024
+              ],
+              "point": 0.7126686983021332
+            },
+            "d1:source_ridge_10": {
+              "ci95": [
+                0.6776596195069667,
+                0.7559700293401892
+              ],
+              "point": 0.7139747496734872
+            },
+            "d1:source_ridge_10_scheduled": {
+              "ci95": [
+                0.6775897579159219,
+                0.7558487354168568
+              ],
+              "point": 0.7135393992163692
+            },
+            "d1diff:history_only__scheduled_history": {
+              "bootstrap_se": 0.004536112127825065,
+              "ci95": [
+                -0.008601063138071477,
+                0.00958756278502819
+              ],
+              "mde_80": 0.012708303695632785,
+              "point": 0.0004353504571179556
+            },
+            "d1diff:history_only__source_ridge_10": {
+              "bootstrap_se": 0.0045276487899964446,
+              "ci95": [
+                -0.006977852161134601,
+                0.011448380814159753
+              ],
+              "mde_80": 0.012684592935322191,
+              "point": 0.0017414018284719335
+            },
+            "d1diff:scheduled_history__source_ridge_10": {
+              "bootstrap_se": 0.002051200894328617,
+              "ci95": [
+                -0.0020536636275618357,
+                0.006123523486860132
+              ],
+              "mde_80": 0.005746613657537638,
+              "point": 0.0013060513713539779
+            },
+            "d1diff:source_ridge_10__source_ridge_10_scheduled": {
+              "bootstrap_se": 0.0013537036506996963,
+              "ci95": [
+                -0.0033210638584790703,
+                0.0022436917266468043
+              ],
+              "mde_80": 0.003792515842245509,
+              "point": -0.0004353504571179556
+            },
+            "flip_share:history_only__scheduled_history": {
+              "ci95": [
+                0.0036701456516882573,
+                0.020568072999796915
+              ],
+              "point": 0.00914235959947758
+            },
+            "flip_share:source_ridge_10__source_ridge_10_scheduled": {
+              "ci95": [
+                0.0,
+                0.004827308326703973
+              ],
+              "point": 0.0021767522855899
+            },
+            "flips:history_only__scheduled_history": 21,
+            "flips:source_ridge_10__source_ridge_10_scheduled": 5,
+            "flips_unequal:history_only__scheduled_history": 21,
+            "flips_unequal:source_ridge_10__source_ridge_10_scheduled": 5,
+            "right:history_only__scheduled_history": 11,
+            "right:source_ridge_10__source_ridge_10_scheduled": 2,
+            "right_share:history_only__scheduled_history": {
+              "bootstrap_se": 0.19560705390964456,
+              "ci95": [
+                0.14285714285714285,
+                0.8667391304347822
+              ],
+              "mde_80": 0.5480097881274516,
+              "point": 0.5238095238095238
+            },
+            "right_share:source_ridge_10__source_ridge_10_scheduled": {
+              "bootstrap_se": 0.35700449720777916,
+              "ci95": [
+                0.0,
+                1.0
+              ],
+              "mde_80": 1.000178444309856,
+              "point": 0.4
+            }
+          }
+        }
+      },
+      "euroleague": {
+        "all": {
+          "pairs": 3109,
+          "unequal_pairs": 3109,
+          "values": {
+            "ceiling_split_half": {
+              "ci95": [
+                0.6118682610584418,
+                0.7206081839170837
+              ],
+              "point": 0.6661305886137021
+            },
+            "ceiling_true_rate_normal_model": {
+              "ci95": [
+                0.753879422851972,
+                0.8444709871608695
+              ],
+              "point": 0.8036485917291083
+            },
+            "d1:history_only": {
+              "ci95": [
+                0.6590260240851398,
+                0.7374696961944984
+              ],
+              "point": 0.7005467996140238
+            },
+            "d1:scheduled_history": {
+              "ci95": [
+                0.6540559860854361,
+                0.7417917303275025
+              ],
+              "point": 0.7015117401093599
+            },
+            "d1:source_ridge_10": {
+              "ci95": [
+                0.6786651995905834,
+                0.7541652853337867
+              ],
+              "point": 0.7182373753618527
+            },
+            "d1:source_ridge_10_scheduled": {
+              "ci95": [
+                0.6808990549119623,
+                0.7605352865004855
+              ],
+              "point": 0.7217754905114184
+            },
+            "d1diff:history_only__scheduled_history": {
+              "bootstrap_se": 0.012568622381809332,
+              "ci95": [
+                -0.02514485197442989,
+                0.02463313103350797
+              ],
+              "mde_80": 0.0352120639355413,
+              "point": 0.0009649404953361307
+            },
+            "d1diff:history_only__source_ridge_10": {
+              "bootstrap_se": 0.01052612060086953,
+              "ci95": [
+                -0.0031777110487685137,
+                0.038707935952458576
+              ],
+              "mde_80": 0.029489821583587063,
+              "point": 0.01769057574782895
+            },
+            "d1diff:scheduled_history__source_ridge_10": {
+              "bootstrap_se": 0.011391478740676432,
+              "ci95": [
+                -0.005842169352793477,
+                0.039068357024690005
+              ],
+              "mde_80": 0.031914195967697984,
+              "point": 0.01672563525249282
+            },
+            "d1diff:source_ridge_10__source_ridge_10_scheduled": {
+              "bootstrap_se": 0.007217003718806732,
+              "ci95": [
+                -0.009581799528662848,
+                0.019181793692237444
+              ],
+              "mde_80": 0.02021904936355316,
+              "point": 0.0035381151495657015
+            },
+            "flip_share:history_only__scheduled_history": {
+              "ci95": [
+                0.08069435972258956,
+                0.13242986855603614
+              ],
+              "point": 0.10389192666452235
+            },
+            "flip_share:source_ridge_10__source_ridge_10_scheduled": {
+              "ci95": [
+                0.023129903452930645,
+                0.05598747315154782
+              ],
+              "point": 0.03634609199099389
+            },
+            "flips:history_only__scheduled_history": 323,
+            "flips:source_ridge_10__source_ridge_10_scheduled": 113,
+            "flips_unequal:history_only__scheduled_history": 323,
+            "flips_unequal:source_ridge_10__source_ridge_10_scheduled": 113,
+            "right:history_only__scheduled_history": 163,
+            "right:source_ridge_10__source_ridge_10_scheduled": 62,
+            "right_share:history_only__scheduled_history": {
+              "bootstrap_se": 0.059615225039631146,
+              "ci95": [
+                0.3811275831087152,
+                0.6163132694938438
+              ],
+              "mde_80": 0.16701712024265503,
+              "point": 0.5046439628482973
+            },
+            "right_share:source_ridge_10__source_ridge_10_scheduled": {
+              "bootstrap_se": 0.092967062298405,
+              "ci95": [
+                0.36742248062015503,
+                0.7388604264746607
+              ],
+              "mde_80": 0.260455127229277,
+              "point": 0.5486725663716814
+            }
+          }
+        },
+        "cross": {
+          "pairs": 2709,
+          "unequal_pairs": 2709,
+          "values": {
+            "ceiling_split_half": {
+              "ci95": [
+                0.6126864369950753,
+                0.7245499168893359
+              ],
+              "point": 0.6662975267626431
+            },
+            "ceiling_true_rate_normal_model": {
+              "ci95": [
+                0.7547280104064034,
+                0.8471808716190434
+              ],
+              "point": 0.8037851204650717
+            },
+            "d1:history_only": {
+              "ci95": [
+                0.6608330490443489,
+                0.7437420925799044
+              ],
+              "point": 0.7054263565891473
+            },
+            "d1:scheduled_history": {
+              "ci95": [
+                0.659182702144354,
+                0.7507254909986971
+              ],
+              "point": 0.7080103359173127
+            },
+            "d1:source_ridge_10": {
+              "ci95": [
+                0.6864680627802558,
+                0.7641541546286181
+              ],
+              "point": 0.7268364710225176
+            },
+            "d1:source_ridge_10_scheduled": {
+              "ci95": [
+                0.688057395832045,
+                0.7729620952221572
+              ],
+              "point": 0.7312661498708011
+            },
+            "d1diff:history_only__scheduled_history": {
+              "bootstrap_se": 0.014445050971866347,
+              "ci95": [
+                -0.027308916543125037,
+                0.030010885172157924
+              ],
+              "mde_80": 0.04046903812701618,
+              "point": 0.0025839793281653423
+            },
+            "d1diff:history_only__source_ridge_10": {
+              "bootstrap_se": 0.011925075726896594,
+              "ci95": [
+                -0.0005320499413852674,
+                0.04624392059220584
+              ],
+              "mde_80": 0.0334091132803376,
+              "point": 0.021410114433370264
+            },
+            "d1diff:scheduled_history__source_ridge_10": {
+              "bootstrap_se": 0.013067167015508406,
+              "ci95": [
+                -0.006830289580682128,
+                0.04466482063458384
+              ],
+              "mde_80": 0.03660877910314312,
+              "point": 0.018826135105204922
+            },
+            "d1diff:source_ridge_10__source_ridge_10_scheduled": {
+              "bootstrap_se": 0.008256755773858059,
+              "ci95": [
+                -0.010444132853252042,
+                0.022441886151231927
+              ],
+              "mde_80": 0.02313200312470413,
+              "point": 0.0044296788482834915
+            },
+            "flip_share:history_only__scheduled_history": {
+              "ci95": [
+                0.09212310248229859,
+                0.15113243160814122
+              ],
+              "point": 0.11775562938353636
+            },
+            "flip_share:source_ridge_10__source_ridge_10_scheduled": {
+              "ci95": [
+                0.026742891145955083,
+                0.06478620835183609
+              ],
+              "point": 0.041343669250646
+            },
+            "flips:history_only__scheduled_history": 319,
+            "flips:source_ridge_10__source_ridge_10_scheduled": 112,
+            "flips_unequal:history_only__scheduled_history": 319,
+            "flips_unequal:source_ridge_10__source_ridge_10_scheduled": 112,
+            "right:history_only__scheduled_history": 163,
+            "right:source_ridge_10__source_ridge_10_scheduled": 62,
+            "right_share:history_only__scheduled_history": {
+              "bootstrap_se": 0.0597655679164158,
+              "ci95": [
+                0.3874166598494765,
+                0.624561986361252
+              ],
+              "mde_80": 0.16743831859111177,
+              "point": 0.5109717868338558
+            },
+            "right_share:source_ridge_10__source_ridge_10_scheduled": {
+              "bootstrap_se": 0.09206272195005462,
+              "ci95": [
+                0.37643382352941174,
+                0.7422756966418291
+              ],
+              "mde_80": 0.2579215408744438,
+              "point": 0.5535714285714286
+            }
+          }
+        },
+        "same": {
+          "pairs": 400,
+          "unequal_pairs": 400,
+          "values": {
+            "ceiling_split_half": {
+              "ci95": [
+                0.570765387646106,
+                0.7471288314176245
+              ],
+              "point": 0.665
+            },
+            "ceiling_true_rate_normal_model": {
+              "ci95": [
+                0.7056482324875347,
+                0.8622044087743088
+              ],
+              "point": 0.8027217596328471
+            },
+            "d1:history_only": {
+              "ci95": [
+                0.5976458222928811,
+                0.7530712922654899
+              ],
+              "point": 0.6675
+            },
+            "d1:scheduled_history": {
+              "ci95": [
+                0.5861204146730462,
+                0.7417762351980399
+              ],
+              "point": 0.6575
+            },
+            "d1:source_ridge_10": {
+              "ci95": [
+                0.5878211201887839,
+                0.7419889925087905
+              ],
+              "point": 0.66
+            },
+            "d1:source_ridge_10_scheduled": {
+              "ci95": [
+                0.5861204146730462,
+                0.7417762351980399
+              ],
+              "point": 0.6575
+            },
+            "d1diff:history_only__scheduled_history": {
+              "bootstrap_se": 0.009227929300682633,
+              "ci95": [
+                -0.03208556149732622,
+                0.0
+              ],
+              "mde_80": 0.025852828309852954,
+              "point": -0.010000000000000009
+            },
+            "d1diff:history_only__source_ridge_10": {
+              "bootstrap_se": 0.010110293461167607,
+              "ci95": [
+                -0.031114583333333314,
+                0.006803495885825859
+              ],
+              "mde_80": 0.028324846506405252,
+              "point": -0.007499999999999951
+            },
+            "d1diff:scheduled_history__source_ridge_10": {
+              "bootstrap_se": 0.0034364005738409626,
+              "ci95": [
+                0.0,
+                0.01171875
+              ],
+              "mde_80": 0.009627368301664234,
+              "point": 0.0025000000000000577
+            },
+            "d1diff:source_ridge_10__source_ridge_10_scheduled": {
+              "bootstrap_se": 0.0034364005738409626,
+              "ci95": [
+                -0.01171875,
+                0.0
+              ],
+              "mde_80": 0.009627368301664234,
+              "point": -0.0025000000000000577
+            },
+            "flip_share:history_only__scheduled_history": {
+              "ci95": [
+                0.0,
+                0.03208556149732621
+              ],
+              "point": 0.01
+            },
+            "flip_share:source_ridge_10__source_ridge_10_scheduled": {
+              "ci95": [
+                0.0,
+                0.01171875
+              ],
+              "point": 0.0025
+            },
+            "flips:history_only__scheduled_history": 4,
+            "flips:source_ridge_10__source_ridge_10_scheduled": 1,
+            "flips_unequal:history_only__scheduled_history": 4,
+            "flips_unequal:source_ridge_10__source_ridge_10_scheduled": 1,
+            "right:history_only__scheduled_history": 0,
+            "right:source_ridge_10__source_ridge_10_scheduled": 0,
+            "right_share:history_only__scheduled_history": {
+              "bootstrap_se": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "mde_80": 0.0,
+              "point": 0.0
+            },
+            "right_share:source_ridge_10__source_ridge_10_scheduled": {
+              "bootstrap_se": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "mde_80": 0.0,
+              "point": 0.0
+            }
+          }
+        }
+      }
+    }
+  },
+  "e11": {
+    "holm_family": "history-only bootstrap two-sided p, 10 source leagues",
+    "leagues": [
+      {
+        "arrivals": 70,
+        "bootstrap_se_history_only": 0.531771909562669,
+        "bootstrap_se_scheduled_history": 0.5245968941791361,
+        "bootstrap_se_source_ridge_10": 0.5167547770996533,
+        "ci95_high_history_only": 1.380329780909952,
+        "ci95_high_scheduled_history": 0.46702659424469106,
+        "ci95_high_source_ridge_10": 0.8763540860958208,
+        "ci95_low_history_only": -0.7293530892322814,
+        "ci95_low_scheduled_history": -1.6463562355420975,
+        "ci95_low_source_ridge_10": -1.2006108516167648,
+        "club_seasons": 36,
+        "draws_league_absent": 0,
+        "league_aware_covers_zero": true,
+        "licence": "not_distinguishable",
+        "mde_80_history_only": 1.48980420525213,
+        "mde_80_scheduled_history": 1.4697027897788553,
+        "mde_80_source_ridge_10": 1.4477324322007323,
+        "mean_actual_eff36": 14.411834052552777,
+        "mean_forecast_history_only": 14.887991558730976,
+        "mean_forecast_scheduled_history": 13.9531397651019,
+        "mean_forecast_source_ridge_10": 14.355127968517662,
+        "p_bootstrap_history_only": 0.39980009995002497,
+        "p_bootstrap_scheduled_history": 0.3428285857071464,
+        "p_bootstrap_source_ridge_10": 0.8885557221389305,
+        "p_holm_history_only": 1.0,
+        "sentence": "aba-league: not distinguishable at this n.",
+        "signed_error_history_only": 0.4761575061781982,
+        "signed_error_scheduled_history": -0.4586942874508777,
+        "signed_error_source_ridge_10": -0.056706084035116025,
+        "source_league": "aba-league"
+      },
+      {
+        "arrivals": 70,
+        "bootstrap_se_history_only": 0.5822916064979087,
+        "bootstrap_se_scheduled_history": 0.5225737593990846,
+        "bootstrap_se_source_ridge_10": 0.5540841196486851,
+        "ci95_high_history_only": -0.44022629400876107,
+        "ci95_high_scheduled_history": -0.5768232853127547,
+        "ci95_high_source_ridge_10": 0.363378080244183,
+        "ci95_low_history_only": -2.727631632211487,
+        "ci95_low_scheduled_history": -2.5916012309703116,
+        "ci95_low_source_ridge_10": -1.7624434592431775,
+        "club_seasons": 37,
+        "draws_league_absent": 0,
+        "league_aware_covers_zero": true,
+        "licence": "not_distinguishable",
+        "mde_80_history_only": 1.6313394303904436,
+        "mde_80_scheduled_history": 1.4640348057260844,
+        "mde_80_source_ridge_10": 1.5523137583459616,
+        "mean_actual_eff36": 16.299926566004103,
+        "mean_forecast_history_only": 14.763832788239487,
+        "mean_forecast_scheduled_history": 14.738178464771236,
+        "mean_forecast_source_ridge_10": 15.633967286760727,
+        "p_bootstrap_history_only": 0.010994502748625687,
+        "p_bootstrap_scheduled_history": 0.004997501249375313,
+        "p_bootstrap_source_ridge_10": 0.22588705647176413,
+        "p_holm_history_only": 0.0879560219890055,
+        "sentence": "france-pro-a: not distinguishable at this n.",
+        "signed_error_history_only": -1.536093777764613,
+        "signed_error_scheduled_history": -1.5617481012328625,
+        "signed_error_source_ridge_10": -0.6659592792433692,
+        "source_league": "france-pro-a"
+      },
+      {
+        "arrivals": 87,
+        "bootstrap_se_history_only": 0.3997422503258782,
+        "bootstrap_se_scheduled_history": 0.37073938073492607,
+        "bootstrap_se_source_ridge_10": 0.36434494395528627,
+        "ci95_high_history_only": 1.243524919033973,
+        "ci95_high_scheduled_history": 0.5566638712190518,
+        "ci95_high_source_ridge_10": 0.30890792934382166,
+        "ci95_low_history_only": -0.317534259991581,
+        "ci95_low_scheduled_history": -0.8988163756172172,
+        "ci95_low_source_ridge_10": -1.1406773122527194,
+        "club_seasons": 50,
+        "draws_league_absent": 0,
+        "league_aware_covers_zero": true,
+        "licence": "not_distinguishable",
+        "mde_80_history_only": 1.1199118923792255,
+        "mde_80_scheduled_history": 1.038657887976258,
+        "mde_80_source_ridge_10": 1.0207433298109707,
+        "mean_actual_eff36": 14.500262497576912,
+        "mean_forecast_history_only": 14.941788864378927,
+        "mean_forecast_scheduled_history": 14.313337640952218,
+        "mean_forecast_source_ridge_10": 14.07186544397077,
+        "p_bootstrap_history_only": 0.2518740629685157,
+        "p_bootstrap_scheduled_history": 0.6086956521739131,
+        "p_bootstrap_source_ridge_10": 0.22488755622188905,
+        "p_holm_history_only": 1.0,
+        "sentence": "germany-bbl: not distinguishable at this n.",
+        "signed_error_history_only": 0.4415263668020126,
+        "signed_error_scheduled_history": -0.18692485662469696,
+        "signed_error_source_ridge_10": -0.42839705360614205,
+        "source_league": "germany-bbl"
+      },
+      {
+        "arrivals": 30,
+        "bootstrap_se_history_only": 0.5934603652859177,
+        "bootstrap_se_scheduled_history": 0.6028266385074446,
+        "bootstrap_se_source_ridge_10": 0.5772143683922722,
+        "ci95_high_history_only": 0.2722082394371318,
+        "ci95_high_scheduled_history": 0.12237294095518544,
+        "ci95_high_source_ridge_10": 0.6099121692568644,
+        "ci95_low_history_only": -2.0245916299664204,
+        "ci95_low_scheduled_history": -2.2138671052519228,
+        "ci95_low_source_ridge_10": -1.6642442927069698,
+        "club_seasons": 21,
+        "draws_league_absent": 0,
+        "league_aware_covers_zero": true,
+        "licence": "not_distinguishable",
+        "mde_80_history_only": 1.6626296574795478,
+        "mde_80_scheduled_history": 1.6888700680428792,
+        "mde_80_source_ridge_10": 1.6171151162722641,
+        "mean_actual_eff36": 14.954515026814015,
+        "mean_forecast_history_only": 14.122470851463053,
+        "mean_forecast_scheduled_history": 13.978782032358787,
+        "mean_forecast_source_ridge_10": 14.493179373853499,
+        "p_bootstrap_history_only": 0.13693153423288357,
+        "p_bootstrap_scheduled_history": 0.07496251874062969,
+        "p_bootstrap_source_ridge_10": 0.3748125937031484,
+        "p_holm_history_only": 0.8215892053973014,
+        "sentence": "greece-a1: not distinguishable at this n.",
+        "signed_error_history_only": -0.8320441753509632,
+        "signed_error_scheduled_history": -0.9757329944552334,
+        "signed_error_source_ridge_10": -0.4613356529605202,
+        "source_league": "greece-a1"
+      },
+      {
+        "arrivals": 49,
+        "bootstrap_se_history_only": 0.4404375206192104,
+        "bootstrap_se_scheduled_history": 0.3835015581336722,
+        "bootstrap_se_source_ridge_10": 0.38097561729897794,
+        "ci95_high_history_only": 0.9209500567040195,
+        "ci95_high_scheduled_history": 0.49216026802961865,
+        "ci95_high_source_ridge_10": 0.23798968460884973,
+        "ci95_low_history_only": -0.8074726523397681,
+        "ci95_low_scheduled_history": -0.9786063511608213,
+        "ci95_low_source_ridge_10": -1.2388074550982089,
+        "club_seasons": 31,
+        "draws_league_absent": 0,
+        "league_aware_covers_zero": true,
+        "licence": "not_distinguishable",
+        "mde_80_history_only": 1.2339231512039706,
+        "mde_80_scheduled_history": 1.0744122127439242,
+        "mde_80_source_ridge_10": 1.0673355747905573,
+        "mean_actual_eff36": 15.34904896449036,
+        "mean_forecast_history_only": 15.378916135848337,
+        "mean_forecast_scheduled_history": 15.124071579027097,
+        "mean_forecast_source_ridge_10": 14.860520929294395,
+        "p_bootstrap_history_only": 0.9255372313843079,
+        "p_bootstrap_scheduled_history": 0.5707146426786607,
+        "p_bootstrap_source_ridge_10": 0.18690654672663667,
+        "p_holm_history_only": 1.0,
+        "sentence": "israel-bsl: not distinguishable at this n.",
+        "signed_error_history_only": 0.029867171357979255,
+        "signed_error_scheduled_history": -0.22497738546325768,
+        "signed_error_source_ridge_10": -0.4885280351959641,
+        "source_league": "israel-bsl"
+      },
+      {
+        "arrivals": 77,
+        "bootstrap_se_history_only": 0.34634903859221566,
+        "bootstrap_se_scheduled_history": 0.35470297966915293,
+        "bootstrap_se_source_ridge_10": 0.36037244408436653,
+        "ci95_high_history_only": -0.8133211807653598,
+        "ci95_high_scheduled_history": -0.617721049058007,
+        "ci95_high_source_ridge_10": -0.44780301514661175,
+        "ci95_low_history_only": -2.146885964664415,
+        "ci95_low_scheduled_history": -2.017103461643148,
+        "ci95_low_source_ridge_10": -1.8558636175766912,
+        "club_seasons": 48,
+        "draws_league_absent": 0,
+        "league_aware_covers_zero": false,
+        "licence": "bias",
+        "mde_80_history_only": 0.9703262712843725,
+        "mde_80_scheduled_history": 0.9937305472964039,
+        "mde_80_source_ridge_10": 1.0096140337601,
+        "mean_actual_eff36": 16.129919089426615,
+        "mean_forecast_history_only": 14.647665944013117,
+        "mean_forecast_scheduled_history": 14.838232482234607,
+        "mean_forecast_source_ridge_10": 14.999038271523366,
+        "p_bootstrap_history_only": 0.0009995002498750624,
+        "p_bootstrap_scheduled_history": 0.0009995002498750624,
+        "p_bootstrap_source_ridge_10": 0.001999000499750125,
+        "p_holm_history_only": 0.009995002498750623,
+        "sentence": "A league-blind forecast underrates arrivals from italy-lba by 1.48 EFF/36.",
+        "signed_error_history_only": -1.4822531454135,
+        "signed_error_scheduled_history": -1.2916866071920083,
+        "signed_error_source_ridge_10": -1.1308808179032521,
+        "source_league": "italy-lba"
+      },
+      {
+        "arrivals": 48,
+        "bootstrap_se_history_only": 0.42003769062389484,
+        "bootstrap_se_scheduled_history": 0.39032692552383774,
+        "bootstrap_se_source_ridge_10": 0.4684343654014235,
+        "ci95_high_history_only": 1.3597277781168025,
+        "ci95_high_scheduled_history": 0.5853712149065052,
+        "ci95_high_source_ridge_10": 0.6656144241985347,
+        "ci95_low_history_only": -0.28151949175172747,
+        "ci95_low_scheduled_history": -0.9339698431441751,
+        "ci95_low_source_ridge_10": -1.1744246886455494,
+        "club_seasons": 25,
+        "draws_league_absent": 0,
+        "league_aware_covers_zero": true,
+        "licence": "not_distinguishable",
+        "mde_80_history_only": 1.1767712934865446,
+        "mde_80_scheduled_history": 1.093534059643701,
+        "mde_80_source_ridge_10": 1.3123586915931473,
+        "mean_actual_eff36": 13.610401144680472,
+        "mean_forecast_history_only": 14.106378424538812,
+        "mean_forecast_scheduled_history": 13.421192690791841,
+        "mean_forecast_source_ridge_10": 13.33838793137568,
+        "p_bootstrap_history_only": 0.20789605197401298,
+        "p_bootstrap_scheduled_history": 0.6256871564217891,
+        "p_bootstrap_source_ridge_10": 0.5617191404297851,
+        "p_holm_history_only": 1.0,
+        "sentence": "lithuania-lkl: not distinguishable at this n.",
+        "signed_error_history_only": 0.4959772798583398,
+        "signed_error_scheduled_history": -0.18920845388863108,
+        "signed_error_source_ridge_10": -0.27201321330479217,
+        "source_league": "lithuania-lkl"
+      },
+      {
+        "arrivals": 108,
+        "bootstrap_se_history_only": 0.40160609087867916,
+        "bootstrap_se_scheduled_history": 0.37805438085210924,
+        "bootstrap_se_source_ridge_10": 0.3716157750474698,
+        "ci95_high_history_only": -0.5152666011079406,
+        "ci95_high_scheduled_history": 0.3238224337635368,
+        "ci95_high_source_ridge_10": 0.0631035353517362,
+        "ci95_low_history_only": -2.0951538855668432,
+        "ci95_low_scheduled_history": -1.141609603540422,
+        "ci95_low_source_ridge_10": -1.384441768921089,
+        "club_seasons": 79,
+        "draws_league_absent": 0,
+        "league_aware_covers_zero": true,
+        "licence": "bias",
+        "mde_80_history_only": 1.1251336001143444,
+        "mde_80_scheduled_history": 1.0591514825795565,
+        "mde_80_source_ridge_10": 1.0411131811363656,
+        "mean_actual_eff36": 15.845787525547301,
+        "mean_forecast_history_only": 14.544649638417562,
+        "mean_forecast_scheduled_history": 15.459212943111194,
+        "mean_forecast_source_ridge_10": 15.204164127027674,
+        "p_bootstrap_history_only": 0.0009995002498750624,
+        "p_bootstrap_scheduled_history": 0.2988505747126437,
+        "p_bootstrap_source_ridge_10": 0.0769615192403798,
+        "p_holm_history_only": 0.009995002498750623,
+        "sentence": "A league-blind forecast underrates arrivals from spain-acb by 1.30 EFF/36. The league-aware forecast removes that bias.",
+        "signed_error_history_only": -1.301137887129742,
+        "signed_error_scheduled_history": -0.38657458243611276,
+        "signed_error_source_ridge_10": -0.6416233985196271,
+        "source_league": "spain-acb"
+      },
+      {
+        "arrivals": 108,
+        "bootstrap_se_history_only": 0.3760686268141845,
+        "bootstrap_se_scheduled_history": 0.37231661624319373,
+        "bootstrap_se_source_ridge_10": 0.37427452358653546,
+        "ci95_high_history_only": 0.7628359732239071,
+        "ci95_high_scheduled_history": 0.2973738216416495,
+        "ci95_high_source_ridge_10": 0.4832943276595038,
+        "ci95_low_history_only": -0.7461296255029652,
+        "ci95_low_scheduled_history": -1.188229887965598,
+        "ci95_low_source_ridge_10": -1.01199556131024,
+        "club_seasons": 64,
+        "draws_league_absent": 0,
+        "league_aware_covers_zero": true,
+        "licence": "not_distinguishable",
+        "mde_80_history_only": 1.0535882238532173,
+        "mde_80_scheduled_history": 1.043076647317688,
+        "mde_80_source_ridge_10": 1.0485618911621841,
+        "mean_actual_eff36": 14.750397462637237,
+        "mean_forecast_history_only": 14.71770079488134,
+        "mean_forecast_scheduled_history": 14.305234822471926,
+        "mean_forecast_source_ridge_10": 14.485527180687367,
+        "p_bootstrap_history_only": 0.9085457271364318,
+        "p_bootstrap_scheduled_history": 0.21989005497251374,
+        "p_bootstrap_source_ridge_10": 0.4427786106946527,
+        "p_holm_history_only": 1.0,
+        "sentence": "turkey-bsl: not distinguishable at this n.",
+        "signed_error_history_only": -0.03269666775589434,
+        "signed_error_scheduled_history": -0.44516264016530904,
+        "signed_error_source_ridge_10": -0.2648702819498712,
+        "source_league": "turkey-bsl"
+      },
+      {
+        "arrivals": 27,
+        "bootstrap_se_history_only": 0.6818421155691663,
+        "bootstrap_se_scheduled_history": 0.6841295542003031,
+        "bootstrap_se_source_ridge_10": 0.699974132468183,
+        "ci95_high_history_only": 2.981811125424204,
+        "ci95_high_scheduled_history": 1.9769436327670171,
+        "ci95_high_source_ridge_10": 1.5431334221597155,
+        "ci95_low_history_only": 0.283278391130667,
+        "ci95_low_scheduled_history": -0.6527575800349434,
+        "ci95_low_source_ridge_10": -1.1537102695961117,
+        "club_seasons": 22,
+        "draws_league_absent": 0,
+        "league_aware_covers_zero": true,
+        "licence": "not_distinguishable",
+        "mde_80_history_only": 1.910238643346843,
+        "mde_80_scheduled_history": 1.9166470971042562,
+        "mde_80_source_ridge_10": 1.9610370299108746,
+        "mean_actual_eff36": 13.967869387160805,
+        "mean_forecast_history_only": 15.624954857215172,
+        "mean_forecast_scheduled_history": 14.637911067042127,
+        "mean_forecast_source_ridge_10": 14.16479312346004,
+        "p_bootstrap_history_only": 0.01999000499750125,
+        "p_bootstrap_scheduled_history": 0.335832083958021,
+        "p_bootstrap_source_ridge_10": 0.7586206896551724,
+        "p_holm_history_only": 0.13993003498250875,
+        "sentence": "vtb: not distinguishable at this n.",
+        "signed_error_history_only": 1.657085470054368,
+        "signed_error_scheduled_history": 0.6700416798813258,
+        "signed_error_source_ridge_10": 0.19692373629923626,
+        "source_league": "vtb"
+      }
+    ],
+    "overall_signed_error": {
+      "history_only": -0.36931748659210956,
+      "scheduled_history": -0.5612280128785812,
+      "source_ridge_10": -0.47233515761788286
+    },
+    "p_value_rule": "two-sided bootstrap p = min(1, 2 (k + 1) / (B + 1)), k = draws on the smaller side of 0"
+  },
+  "e12": {
+    "arms": {
+      "history_only": {
+        "beta_a": -1.2609515603871275,
+        "bootstrap_se": 0.332032358124587,
+        "ci95": [
+          -1.8403813341863007,
+          -0.5445209762632436
+        ],
+        "coefficients_full_fit": {
+          "above_prior": -1.2609515603871275,
+          "intercept": 3.9062141468533356,
+          "prior_rate": 0.10287319577936085,
+          "source_rate": 0.5769864278207335
+        },
+        "label": "history",
+        "mde_80": 0.9302168740364711,
+        "share_of_draws_below_zero": 1.0,
+        "walk_forward": [
+          {
+            "beta_a": -1.229770947336348,
+            "season": 2020,
+            "training_forecasts": 385
+          },
+          {
+            "beta_a": -0.9742918154620167,
+            "season": 2021,
+            "training_forecasts": 519
+          },
+          {
+            "beta_a": -0.7347182545388075,
+            "season": 2022,
+            "training_forecasts": 620
+          },
+          {
+            "beta_a": -1.0473435718569597,
+            "season": 2023,
+            "training_forecasts": 726
+          },
+          {
+            "beta_a": -1.2272105095210033,
+            "season": 2024,
+            "training_forecasts": 828
+          },
+          {
+            "beta_a": -1.3650102251027083,
+            "season": 2025,
+            "training_forecasts": 932
+          }
+        ],
+        "walk_forward_negative": 6
+      },
+      "source_ridge_10": {
+        "beta_a": -1.3888191623923043,
+        "bootstrap_se": 0.30446708774110287,
+        "ci95": [
+          -1.9257628389097,
+          -0.7547689505642197
+        ],
+        "coefficients_full_fit": {
+          "above_prior": -1.3888191623923043,
+          "destination_euroleague": -0.35803551202680656,
+          "destination_x_source": -0.09198810768935177,
+          "intercept": 3.1026782797125696,
+          "prior_rate": 0.09215836651768781,
+          "source_offset:aba-league": -0.5078360080612033,
+          "source_offset:france-pro-a": 1.1166384205927462,
+          "source_offset:germany-bbl": -0.826349065418287,
+          "source_offset:greece-a1": 0.36367023975823765,
+          "source_offset:israel-bsl": -0.22129287721672258,
+          "source_offset:italy-lba": 0.7060186050659439,
+          "source_offset:lithuania-lkl": -0.8980820528544949,
+          "source_offset:spain-acb": 1.1978742452859397,
+          "source_offset:turkey-bsl": -0.06518920852702136,
+          "source_offset:vtb": -0.8654522986251567,
+          "source_rate": 0.659814554825568
+        },
+        "label": "offsets \u03bb10",
+        "mde_80": 0.8529904260091578,
+        "share_of_draws_below_zero": 1.0,
+        "walk_forward": [
+          {
+            "beta_a": -1.4225529843992875,
+            "season": 2020,
+            "training_forecasts": 385
+          },
+          {
+            "beta_a": -1.2714579964947061,
+            "season": 2021,
+            "training_forecasts": 519
+          },
+          {
+            "beta_a": -1.081726350163221,
+            "season": 2022,
+            "training_forecasts": 620
+          },
+          {
+            "beta_a": -1.3239289624444044,
+            "season": 2023,
+            "training_forecasts": 726
+          },
+          {
+            "beta_a": -1.463427254727051,
+            "season": 2024,
+            "training_forecasts": 828
+          },
+          {
+            "beta_a": -1.5232906706289033,
+            "season": 2025,
+            "training_forecasts": 932
+          }
+        ],
+        "walk_forward_negative": 6
+      }
+    },
+    "licence": {
+      "licensed": true,
+      "sentence": "Holding his domestic rate and history fixed, a player signed after a season above his own history is forecast 1.39 EFF/36 lower."
+    },
+    "training_forecasts": 1059
+  },
+  "e17": {
+    "head_to_head": {
+      "lambda_1": {
+        "c_h": {
+          "ci95": [
+            -0.03512083201753431,
+            0.04903635755513444
+          ],
+          "detectable_80": 0.06007650851087233,
+          "df": 200,
+          "difference": 0.006957762768800068,
+          "lower_pct_of_parent": -1.1966386360669108,
+          "n": 674,
+          "p_two_sided": 0.7447227543780376,
+          "pct_of_parent": 0.23706521945656842,
+          "se": 0.0213391527819805,
+          "upper_pct_of_parent": 1.6707690749800475
+        },
+        "c_h_player_season": {
+          "ci95": [
+            -0.0346004328188365,
+            0.04851595835643664
+          ],
+          "detectable_80": 0.056424316456021,
+          "df": 5,
+          "difference": 0.006957762768800068,
+          "lower_pct_of_parent": -1.1789075701562524,
+          "n": 674,
+          "p_two_sided": 0.6848441828983729,
+          "pct_of_parent": 0.23706521945656842,
+          "se": 0.016166844023990923,
+          "upper_pct_of_parent": 1.6530380090693895
+        },
+        "parent_mae": 2.934957217574789,
+        "primary": false,
+        "reading": "spans_zero_point_nonnegative",
+        "recovered_share": {
+          "ci95_percentile": [
+            0.7994493798319126,
+            1.4567652329715486
+          ],
+          "clusters": 201,
+          "draws": 2000,
+          "finite_draws": 2000,
+          "nonpositive_denominator_draws": 0,
+          "offsets_arm": "source_ridge_1",
+          "point": 1.0431899195842396,
+          "seed": 0,
+          "share_of_draws_at_least_1": 0.6065
+        }
+      },
+      "lambda_10": {
+        "c_h": {
+          "ci95": [
+            -0.02722108228587037,
+            0.049055648367853706
+          ],
+          "detectable_80": 0.05445095875430925,
+          "df": 200,
+          "difference": 0.01091728304099167,
+          "lower_pct_of_parent": -0.9274779926217687,
+          "n": 674,
+          "p_two_sided": 0.573070626288912,
+          "pct_of_parent": 0.3719741799171038,
+          "se": 0.019340959666010592,
+          "upper_pct_of_parent": 1.6714263524559763
+        },
+        "c_h_player_season": {
+          "ci95": [
+            -0.026141377820414875,
+            0.04797594390239821
+          ],
+          "detectable_80": 0.050315216488909145,
+          "df": 5,
+          "difference": 0.01091728304099167,
+          "lower_pct_of_parent": -0.89069025142438,
+          "n": 674,
+          "p_two_sided": 0.483022106736155,
+          "pct_of_parent": 0.3719741799171038,
+          "se": 0.014416448582829556,
+          "upper_pct_of_parent": 1.6346386112585873
+        },
+        "parent_mae": 2.934957217574789,
+        "primary": true,
+        "reading": "spans_zero_point_nonnegative",
+        "recovered_share": {
+          "ci95_percentile": [
+            0.848765060379131,
+            1.4755035988856546
+          ],
+          "clusters": 201,
+          "draws": 2000,
+          "finite_draws": 2000,
+          "nonpositive_denominator_draws": 0,
+          "offsets_arm": "source_ridge_10",
+          "point": 1.0677684181376854,
+          "seed": 0,
+          "share_of_draws_at_least_1": 0.687
+        }
+      },
+      "lambda_100": {
+        "c_h": {
+          "ci95": [
+            -0.04898468091313402,
+            0.03451078128931432
+          ],
+          "detectable_80": 0.05960412736089824,
+          "df": 200,
+          "difference": -0.007236949811909853,
+          "lower_pct_of_parent": -1.6690083460095884,
+          "n": 674,
+          "p_two_sided": 0.7328397706476312,
+          "pct_of_parent": -0.24657769348644482,
+          "se": 0.02117136317868156,
+          "upper_pct_of_parent": 1.1758529590366988
+        },
+        "c_h_player_season": {
+          "ci95": [
+            -0.04900143931438755,
+            0.03452753969056785
+          ],
+          "detectable_80": 0.056704405448561625,
+          "df": 5,
+          "difference": -0.007236949811909853,
+          "lower_pct_of_parent": -1.6695793390432578,
+          "n": 674,
+          "p_two_sided": 0.6746325598291307,
+          "pct_of_parent": -0.24657769348644482,
+          "se": 0.016247095861135825,
+          "upper_pct_of_parent": 1.1764239520703683
+        },
+        "parent_mae": 2.934957217574789,
+        "primary": false,
+        "reading": "spans_zero_point_negative",
+        "recovered_share": {
+          "ci95_percentile": [
+            0.7514729934427415,
+            1.3572431568994792
+          ],
+          "clusters": 201,
+          "draws": 2000,
+          "finite_draws": 2000,
+          "nonpositive_denominator_draws": 0,
+          "offsets_arm": "source_ridge_100",
+          "point": 0.9550770426072701,
+          "seed": 0,
+          "share_of_draws_at_least_1": 0.3575
+        }
+      }
+    },
+    "league_counts": [
+      {
+        "anchor_674": 70,
+        "anchor_674_eurocup": 51,
+        "anchor_674_euroleague": 19,
+        "e9_training": 101,
+        "e9_training_eurocup": 79,
+        "e9_training_euroleague": 22,
+        "factor_pairs": 472,
+        "factor_pairs_eurocup": 289,
+        "factor_pairs_euroleague": 183,
+        "source_league": "aba-league"
+      },
+      {
+        "anchor_674": 70,
+        "anchor_674_eurocup": 53,
+        "anchor_674_euroleague": 17,
+        "e9_training": 117,
+        "e9_training_eurocup": 93,
+        "e9_training_euroleague": 24,
+        "factor_pairs": 378,
+        "factor_pairs_eurocup": 205,
+        "factor_pairs_euroleague": 173,
+        "source_league": "france-pro-a"
+      },
+      {
+        "anchor_674": 87,
+        "anchor_674_eurocup": 65,
+        "anchor_674_euroleague": 22,
+        "e9_training": 135,
+        "e9_training_eurocup": 106,
+        "e9_training_euroleague": 29,
+        "factor_pairs": 441,
+        "factor_pairs_eurocup": 230,
+        "factor_pairs_euroleague": 211,
+        "source_league": "germany-bbl"
+      },
+      {
+        "anchor_674": 30,
+        "anchor_674_eurocup": 26,
+        "anchor_674_euroleague": 4,
+        "e9_training": 45,
+        "e9_training_eurocup": 38,
+        "e9_training_euroleague": 7,
+        "factor_pairs": 266,
+        "factor_pairs_eurocup": 53,
+        "factor_pairs_euroleague": 213,
+        "source_league": "greece-a1"
+      },
+      {
+        "anchor_674": 49,
+        "anchor_674_eurocup": 35,
+        "anchor_674_euroleague": 14,
+        "e9_training": 66,
+        "e9_training_eurocup": 47,
+        "e9_training_euroleague": 19,
+        "factor_pairs": 190,
+        "factor_pairs_eurocup": 77,
+        "factor_pairs_euroleague": 113,
+        "source_league": "israel-bsl"
+      },
+      {
+        "anchor_674": 77,
+        "anchor_674_eurocup": 58,
+        "anchor_674_euroleague": 19,
+        "e9_training": 145,
+        "e9_training_eurocup": 118,
+        "e9_training_euroleague": 27,
+        "factor_pairs": 439,
+        "factor_pairs_eurocup": 256,
+        "factor_pairs_euroleague": 183,
+        "source_league": "italy-lba"
+      },
+      {
+        "anchor_674": 48,
+        "anchor_674_eurocup": 40,
+        "anchor_674_euroleague": 8,
+        "e9_training": 62,
+        "e9_training_eurocup": 51,
+        "e9_training_euroleague": 11,
+        "factor_pairs": 267,
+        "factor_pairs_eurocup": 148,
+        "factor_pairs_euroleague": 119,
+        "source_league": "lithuania-lkl"
+      },
+      {
+        "anchor_674": 108,
+        "anchor_674_eurocup": 64,
+        "anchor_674_euroleague": 44,
+        "e9_training": 165,
+        "e9_training_eurocup": 101,
+        "e9_training_euroleague": 64,
+        "factor_pairs": 813,
+        "factor_pairs_eurocup": 326,
+        "factor_pairs_euroleague": 487,
+        "source_league": "spain-acb"
+      },
+      {
+        "anchor_674": 108,
+        "anchor_674_eurocup": 77,
+        "anchor_674_euroleague": 31,
+        "e9_training": 173,
+        "e9_training_eurocup": 121,
+        "e9_training_euroleague": 52,
+        "factor_pairs": 494,
+        "factor_pairs_eurocup": 221,
+        "factor_pairs_euroleague": 273,
+        "source_league": "turkey-bsl"
+      },
+      {
+        "anchor_674": 27,
+        "anchor_674_eurocup": 11,
+        "anchor_674_euroleague": 16,
+        "e9_training": 50,
+        "e9_training_eurocup": 29,
+        "e9_training_euroleague": 21,
+        "factor_pairs": 314,
+        "factor_pairs_eurocup": 142,
+        "factor_pairs_euroleague": 172,
+        "source_league": "vtb"
+      }
+    ],
+    "minutes_weighted": {
+      "contrasts": {
+        "history_only__scheduled_history": {
+          "left": "history_only",
+          "minutes_weighted": {
+            "ci95": [
+              -0.0025958122488775742,
+              0.19776548371047648
+            ],
+            "clusters": {
+              "first": 601,
+              "intersection": 674,
+              "second": 201
+            },
+            "df": 200,
+            "difference": 0.09758483573079944,
+            "n": 674,
+            "p_two_sided": 0.056178821708752436,
+            "parent_mae": 2.891822207575088,
+            "pct_of_parent": 3.374510212805522,
+            "reading": "spans_zero_point_nonnegative",
+            "se": 0.05080421919722484,
+            "upper_pct_of_parent": 6.838784320572424
+          },
+          "right": "scheduled_history",
+          "unweighted": {
+            "ci95": [
+              0.07651901058260349,
+              0.2456748177818515
+            ],
+            "clusters": {
+              "first": 601,
+              "intersection": 674,
+              "second": 201
+            },
+            "df": 200,
+            "difference": 0.1610969141822275,
+            "n": 674,
+            "p_two_sided": 0.0002264650166545122,
+            "reading": "above_zero",
+            "se": 0.04289166061881269
+          }
+        },
+        "scheduled_history__source_ridge_10": {
+          "left": "scheduled_history",
+          "minutes_weighted": {
+            "ci95": [
+              -0.00380781468164635,
+              0.08070857216525498
+            ],
+            "clusters": {
+              "first": 601,
+              "intersection": 674,
+              "second": 201
+            },
+            "df": 200,
+            "difference": 0.03845037874180431,
+            "n": 674,
+            "p_two_sided": 0.0742897215919958,
+            "parent_mae": 2.794237371844288,
+            "pct_of_parent": 1.3760598555170638,
+            "reading": "spans_zero_point_nonnegative",
+            "se": 0.02143023193460716,
+            "upper_pct_of_parent": 2.8883935551969473
+          },
+          "right": "source_ridge_10",
+          "unweighted": {
+            "ci95": [
+              -0.02722108228587037,
+              0.049055648367853706
+            ],
+            "clusters": {
+              "first": 601,
+              "intersection": 674,
+              "second": 201
+            },
+            "df": 200,
+            "difference": 0.01091728304099167,
+            "n": 674,
+            "p_two_sided": 0.573070626288912,
+            "reading": "spans_zero_point_nonnegative",
+            "se": 0.019340959666010592
+          }
+        },
+        "source_ridge_10__source_ridge_10_scheduled": {
+          "left": "source_ridge_10",
+          "minutes_weighted": {
+            "ci95": [
+              -0.0454698011172321,
+              0.010663864207803363
+            ],
+            "clusters": {
+              "first": 601,
+              "intersection": 674,
+              "second": 201
+            },
+            "df": 200,
+            "difference": -0.017402968454714368,
+            "n": 674,
+            "p_two_sided": 0.2228881893518076,
+            "parent_mae": 2.7557869931024848,
+            "pct_of_parent": -0.6315062992267766,
+            "reading": "spans_zero_point_negative",
+            "se": 0.014233422796862384,
+            "upper_pct_of_parent": 0.38696257129067546
+          },
+          "right": "source_ridge_10_scheduled",
+          "unweighted": {
+            "ci95": [
+              -0.027513303333554194,
+              0.02402129928697235
+            ],
+            "clusters": {
+              "first": 601,
+              "intersection": 674,
+              "second": 201
+            },
+            "df": 200,
+            "difference": -0.001746002023290922,
+            "n": 674,
+            "p_two_sided": 0.8938402431830011,
+            "reading": "spans_zero_point_negative",
+            "se": 0.013067270478756736
+          }
+        }
+      },
+      "mae": {
+        "history_only": {
+          "minutes_weighted": 2.891822207575088,
+          "unweighted": 3.0960541317570174
+        },
+        "scheduled_history": {
+          "minutes_weighted": 2.794237371844288,
+          "unweighted": 2.934957217574789
+        },
+        "source_ridge_10": {
+          "minutes_weighted": 2.7557869931024848,
+          "unweighted": 2.924039934533798
+        },
+        "source_ridge_10_scheduled": {
+          "minutes_weighted": 2.7731899615571987,
+          "unweighted": 2.9257859365570886
+        }
+      },
+      "total_minutes": 224410.95,
+      "weights": "destination minutes (minutes_dest)"
+    },
+    "recipe_margins": {
+      "history_gain_r1": 0.1610969141822275,
+      "margin_share_of_parent": 0.02,
+      "rows": [
+        {
+          "ci95_low": -0.027513303333554194,
+          "history_gain_own_recipe": 0.1610969141822275,
+          "history_gain_r1": 0.1610969141822275,
+          "increment": -0.001746002023290922,
+          "margin_2pct_eff36": 0.05848079869067596,
+          "margin_share_of_history_gain_r1": 0.363016256317141,
+          "parent_mae": 2.924039934533798,
+          "recipe": "R1",
+          "spec": "player_club_season",
+          "upper_bound_eff36": 0.02402129928697235,
+          "upper_pct_of_parent": 0.8215106436568641,
+          "upper_share_of_history_gain_r1": 0.14911085919249983,
+          "upper_share_of_own_history_gain": 0.14911085919249983
+        },
+        {
+          "ci95_low": -0.01735113964177379,
+          "history_gain_own_recipe": 0.1610969141822275,
+          "history_gain_r1": 0.1610969141822275,
+          "increment": -0.001746002023290922,
+          "margin_2pct_eff36": 0.05848079869067596,
+          "margin_share_of_history_gain_r1": 0.363016256317141,
+          "parent_mae": 2.924039934533798,
+          "recipe": "R1",
+          "spec": "player_season",
+          "upper_bound_eff36": 0.013859135595191946,
+          "upper_pct_of_parent": 0.47397217225084215,
+          "upper_share_of_history_gain_r1": 0.08602980178450191,
+          "upper_share_of_own_history_gain": 0.08602980178450191
+        },
+        {
+          "ci95_low": -0.036143072437311095,
+          "history_gain_own_recipe": 0.151056305992849,
+          "history_gain_r1": 0.1610969141822275,
+          "increment": -0.005603035011955979,
+          "margin_2pct_eff36": 0.05848079869067596,
+          "margin_share_of_history_gain_r1": 0.363016256317141,
+          "parent_mae": 2.924039934533798,
+          "recipe": "R2",
+          "spec": "player_club_season",
+          "upper_bound_eff36": 0.024937002413399134,
+          "upper_pct_of_parent": 0.852827012342943,
+          "upper_share_of_history_gain_r1": 0.15479503465343367,
+          "upper_share_of_own_history_gain": 0.16508415355119072
+        },
+        {
+          "ci95_low": -0.017127003208728914,
+          "history_gain_own_recipe": 0.151056305992849,
+          "history_gain_r1": 0.1610969141822275,
+          "increment": -0.005603035011955979,
+          "margin_2pct_eff36": 0.05848079869067596,
+          "margin_share_of_history_gain_r1": 0.363016256317141,
+          "parent_mae": 2.924039934533798,
+          "recipe": "R2",
+          "spec": "player_season",
+          "upper_bound_eff36": 0.005920933184816957,
+          "upper_pct_of_parent": 0.20249152943805387,
+          "upper_share_of_history_gain_r1": 0.036753858476267234,
+          "upper_share_of_own_history_gain": 0.039196862030356105
+        },
+        {
+          "ci95_low": -0.023984775663121943,
+          "history_gain_own_recipe": 0.14455185074057195,
+          "history_gain_r1": 0.1610969141822275,
+          "increment": -0.003201015642037834,
+          "margin_2pct_eff36": 0.05848079869067596,
+          "margin_share_of_history_gain_r1": 0.363016256317141,
+          "parent_mae": 2.924039934533798,
+          "recipe": "R3",
+          "spec": "player_club_season",
+          "upper_bound_eff36": 0.017582744379046274,
+          "upper_pct_of_parent": 0.6013168346775546,
+          "upper_share_of_history_gain_r1": 0.10914389309255954,
+          "upper_share_of_own_history_gain": 0.12163624532626793
+        },
+        {
+          "ci95_low": -0.016979014927445475,
+          "history_gain_own_recipe": 0.14455185074057195,
+          "history_gain_r1": 0.1610969141822275,
+          "increment": -0.003201015642037834,
+          "margin_2pct_eff36": 0.05848079869067596,
+          "margin_share_of_history_gain_r1": 0.363016256317141,
+          "parent_mae": 2.924039934533798,
+          "recipe": "R3",
+          "spec": "player_season",
+          "upper_bound_eff36": 0.010576983643369807,
+          "upper_pct_of_parent": 0.3617250065039271,
+          "upper_share_of_history_gain_r1": 0.06565602883867455,
+          "upper_share_of_own_history_gain": 0.0731708628369787
+        },
+        {
+          "ci95_low": -0.021527509323631972,
+          "history_gain_own_recipe": 0.1591570253243556,
+          "history_gain_r1": 0.1610969141822275,
+          "increment": 0.0004911388629401287,
+          "margin_2pct_eff36": 0.05848079869067596,
+          "margin_share_of_history_gain_r1": 0.363016256317141,
+          "parent_mae": 2.924039934533798,
+          "recipe": "R4",
+          "spec": "player_club_season",
+          "upper_bound_eff36": 0.022509787049512228,
+          "upper_pct_of_parent": 0.7698180446739054,
+          "upper_share_of_history_gain_r1": 0.13972823231145137,
+          "upper_share_of_own_history_gain": 0.14143131290395877
+        },
+        {
+          "ci95_low": -0.010909624001299844,
+          "history_gain_own_recipe": 0.1591570253243556,
+          "history_gain_r1": 0.1610969141822275,
+          "increment": 0.0004911388629401287,
+          "margin_2pct_eff36": 0.05848079869067596,
+          "margin_share_of_history_gain_r1": 0.363016256317141,
+          "parent_mae": 2.924039934533798,
+          "recipe": "R4",
+          "spec": "player_season",
+          "upper_bound_eff36": 0.011891901727180102,
+          "upper_pct_of_parent": 0.40669423104428704,
+          "upper_share_of_history_gain_r1": 0.07381830860973772,
+          "upper_share_of_own_history_gain": 0.07471804466654793
+        },
+        {
+          "ci95_low": -0.02504596670779746,
+          "history_gain_own_recipe": 0.16042848911763968,
+          "history_gain_r1": 0.1610969141822275,
+          "increment": -0.001677448551274829,
+          "margin_2pct_eff36": 0.05848079869067596,
+          "margin_share_of_history_gain_r1": 0.363016256317141,
+          "parent_mae": 2.924039934533798,
+          "recipe": "R5",
+          "spec": "player_club_season",
+          "upper_bound_eff36": 0.0216910696052478,
+          "upper_pct_of_parent": 0.7418185144829826,
+          "upper_share_of_history_gain_r1": 0.13464608999717761,
+          "upper_share_of_own_history_gain": 0.13520709273364834
+        },
+        {
+          "ci95_low": -0.012413717537841202,
+          "history_gain_own_recipe": 0.16042848911763968,
+          "history_gain_r1": 0.1610969141822275,
+          "increment": -0.001677448551274829,
+          "margin_2pct_eff36": 0.05848079869067596,
+          "margin_share_of_history_gain_r1": 0.363016256317141,
+          "parent_mae": 2.924039934533798,
+          "recipe": "R5",
+          "spec": "player_season",
+          "upper_bound_eff36": 0.009058820435291543,
+          "upper_pct_of_parent": 0.3098049492520306,
+          "upper_share_of_history_gain_r1": 0.056232116432997005,
+          "upper_share_of_own_history_gain": 0.0564664074636323
+        },
+        {
+          "ci95_low": -0.022591829411314844,
+          "history_gain_own_recipe": 0.10321705648512328,
+          "history_gain_r1": 0.1610969141822275,
+          "increment": -0.006698741737361374,
+          "margin_2pct_eff36": 0.05848079869067596,
+          "margin_share_of_history_gain_r1": 0.363016256317141,
+          "parent_mae": 2.924039934533798,
+          "recipe": "R6",
+          "spec": "player_club_season",
+          "upper_bound_eff36": 0.009194345936592095,
+          "upper_pct_of_parent": 0.3144398210162619,
+          "upper_share_of_history_gain_r1": 0.057073383331177625,
+          "upper_share_of_own_history_gain": 0.08907777696525652
+        },
+        {
+          "ci95_low": -0.01616137032858437,
+          "history_gain_own_recipe": 0.10321705648512328,
+          "history_gain_r1": 0.1610969141822275,
+          "increment": -0.006698741737361374,
+          "margin_2pct_eff36": 0.05848079869067596,
+          "margin_share_of_history_gain_r1": 0.363016256317141,
+          "parent_mae": 2.924039934533798,
+          "recipe": "R6",
+          "spec": "player_season",
+          "upper_bound_eff36": 0.002763886853861623,
+          "upper_pct_of_parent": 0.0945228832622729,
+          "upper_share_of_history_gain_r1": 0.017156671609086228,
+          "upper_share_of_own_history_gain": 0.02677742369314691
+        }
+      ]
+    },
+    "reducible": {
+      "floor": 2.1826598085897384,
+      "floor_source": "robustness-02 summary e6 O1 floor_normal",
+      "rows": [
+        {
+          "arm": "history_only",
+          "excess_over_floor": 0.913394323167279,
+          "floor": 2.1826598085897384,
+          "history_reducible": 0.913394323167279,
+          "in_table_1": true,
+          "mae": 3.0960541317570174,
+          "share_of_reducible_remaining": 1.0,
+          "share_of_reducible_removed": 0.0
+        },
+        {
+          "arm": "scheduled_history",
+          "excess_over_floor": 0.7522974089850507,
+          "floor": 2.1826598085897384,
+          "history_reducible": 0.913394323167279,
+          "in_table_1": true,
+          "mae": 2.934957217574789,
+          "share_of_reducible_remaining": 0.8236282949256681,
+          "share_of_reducible_removed": 0.17637170507433186
+        },
+        {
+          "arm": "history_destination",
+          "excess_over_floor": 0.8083772201039512,
+          "floor": 2.1826598085897384,
+          "history_reducible": 0.913394323167279,
+          "in_table_1": false,
+          "mae": 2.9910370286936896,
+          "share_of_reducible_remaining": 0.8850254480461721,
+          "share_of_reducible_removed": 0.11497455195382789
+        },
+        {
+          "arm": "history_destination_slope",
+          "excess_over_floor": 0.8068353575527261,
+          "floor": 2.1826598085897384,
+          "history_reducible": 0.913394323167279,
+          "in_table_1": true,
+          "mae": 2.9894951661424645,
+          "share_of_reducible_remaining": 0.8833373900934156,
+          "share_of_reducible_removed": 0.11666260990658439
+        },
+        {
+          "arm": "history_destination_slope_scheduled",
+          "excess_over_floor": 0.7577714840017529,
+          "floor": 2.1826598085897384,
+          "history_reducible": 0.913394323167279,
+          "in_table_1": true,
+          "mae": 2.9404312925914913,
+          "share_of_reducible_remaining": 0.8296214075144571,
+          "share_of_reducible_removed": 0.17037859248554288
+        },
+        {
+          "arm": "source_ridge_1",
+          "excess_over_floor": 0.7453396462162512,
+          "floor": 2.1826598085897384,
+          "history_reducible": 0.913394323167279,
+          "in_table_1": true,
+          "mae": 2.9279994548059896,
+          "share_of_reducible_remaining": 0.8160108151665726,
+          "share_of_reducible_removed": 0.1839891848334274
+        },
+        {
+          "arm": "source_ridge_1_scheduled",
+          "excess_over_floor": 0.7496518832167061,
+          "floor": 2.1826598085897384,
+          "history_reducible": 0.913394323167279,
+          "in_table_1": true,
+          "mae": 2.9323116918064445,
+          "share_of_reducible_remaining": 0.8207319272767309,
+          "share_of_reducible_removed": 0.17926807272326906
+        },
+        {
+          "arm": "source_ridge_10",
+          "excess_over_floor": 0.7413801259440596,
+          "floor": 2.1826598085897384,
+          "history_reducible": 0.913394323167279,
+          "in_table_1": true,
+          "mae": 2.924039934533798,
+          "share_of_reducible_remaining": 0.8116758634685353,
+          "share_of_reducible_removed": 0.18832413653146474
+        },
+        {
+          "arm": "source_ridge_10_scheduled",
+          "excess_over_floor": 0.7431261279673502,
+          "floor": 2.1826598085897384,
+          "history_reducible": 0.913394323167279,
+          "in_table_1": true,
+          "mae": 2.9257859365570886,
+          "share_of_reducible_remaining": 0.8135874168677685,
+          "share_of_reducible_removed": 0.18641258313223152
+        },
+        {
+          "arm": "source_ridge_100",
+          "excess_over_floor": 0.759534358796961,
+          "floor": 2.1826598085897384,
+          "history_reducible": 0.913394323167279,
+          "in_table_1": true,
+          "mae": 2.9421941673866994,
+          "share_of_reducible_remaining": 0.8315514335180074,
+          "share_of_reducible_removed": 0.16844856648199258
+        },
+        {
+          "arm": "source_ridge_100_scheduled",
+          "excess_over_floor": 0.7458899788555393,
+          "floor": 2.1826598085897384,
+          "history_reducible": 0.913394323167279,
+          "in_table_1": true,
+          "mae": 2.9285497874452777,
+          "share_of_reducible_remaining": 0.8166133289170192,
+          "share_of_reducible_removed": 0.1833866710829808
+        },
+        {
+          "arm": "cell_slope_1",
+          "excess_over_floor": 0.8342624801360068,
+          "floor": 2.1826598085897384,
+          "history_reducible": 0.913394323167279,
+          "in_table_1": false,
+          "mae": 3.016922288725745,
+          "share_of_reducible_remaining": 0.9133650811876352,
+          "share_of_reducible_removed": 0.08663491881236485
+        },
+        {
+          "arm": "cell_slope_1_scheduled",
+          "excess_over_floor": 0.8413015259723542,
+          "floor": 2.1826598085897384,
+          "history_reducible": 0.913394323167279,
+          "in_table_1": false,
+          "mae": 3.0239613345620926,
+          "share_of_reducible_remaining": 0.9210715510635796,
+          "share_of_reducible_removed": 0.07892844893642037
+        },
+        {
+          "arm": "cell_slope_10",
+          "excess_over_floor": 0.8102148096662019,
+          "floor": 2.1826598085897384,
+          "history_reducible": 0.913394323167279,
+          "in_table_1": true,
+          "mae": 2.9928746182559403,
+          "share_of_reducible_remaining": 0.8870372730768759,
+          "share_of_reducible_removed": 0.11296272692312415
+        },
+        {
+          "arm": "cell_slope_10_scheduled",
+          "excess_over_floor": 0.8153631964516932,
+          "floor": 2.1826598085897384,
+          "history_reducible": 0.913394323167279,
+          "in_table_1": true,
+          "mae": 2.9980230050414316,
+          "share_of_reducible_remaining": 0.8926738165224699,
+          "share_of_reducible_removed": 0.10732618347753009
+        },
+        {
+          "arm": "cell_slope_100",
+          "excess_over_floor": 0.7745287663230882,
+          "floor": 2.1826598085897384,
+          "history_reducible": 0.913394323167279,
+          "in_table_1": false,
+          "mae": 2.9571885749128266,
+          "share_of_reducible_remaining": 0.8479675718120716,
+          "share_of_reducible_removed": 0.1520324281879284
+        },
+        {
+          "arm": "cell_slope_100_scheduled",
+          "excess_over_floor": 0.7753749865077855,
+          "floor": 2.1826598085897384,
+          "history_reducible": 0.913394323167279,
+          "in_table_1": false,
+          "mae": 2.958034795097524,
+          "share_of_reducible_remaining": 0.8488940283963023,
+          "share_of_reducible_removed": 0.15110597160369765
+        }
+      ]
+    }
+  },
+  "exchange_rate": {
+    "descriptive": true,
+    "reference": {
+      "eff36": 16.0,
+      "league": "spain-acb"
+    },
+    "rows": [
+      {
+        "acb16_equivalent_eff36": 18.58446894240451,
+        "ci95_high": 20.15487523586902,
+        "ci95_low": 17.135420021614955,
+        "destination": "euroleague",
+        "e9_forecast_eff36": 12.796563778087023,
+        "e9_tier": 3,
+        "finite_draws": 2000,
+        "how_to_read": "Domestic EFF/36 in this league that the e9 league-aware model forecasts the same as a 16 in spain-acb (career history equal to that rate; source season not above it). Descriptive: offsets describe the players clubs sign from a league, not pure league strength.",
+        "source_league": "aba-league",
+        "training_forecasts": 101
+      },
+      {
+        "acb16_equivalent_eff36": 16.123087415062543,
+        "ci95_high": 17.44384195879221,
+        "ci95_low": 14.791744715366296,
+        "destination": "euroleague",
+        "e9_forecast_eff36": 14.421038206740972,
+        "e9_tier": 1,
+        "finite_draws": 2000,
+        "how_to_read": "Domestic EFF/36 in this league that the e9 league-aware model forecasts the same as a 16 in spain-acb (career history equal to that rate; source season not above it). Descriptive: offsets describe the players clubs sign from a league, not pure league strength.",
+        "source_league": "france-pro-a",
+        "training_forecasts": 117
+      },
+      {
+        "acb16_equivalent_eff36": 19.067075588447903,
+        "ci95_high": 20.404361475430235,
+        "ci95_low": 17.862486812683223,
+        "destination": "euroleague",
+        "e9_forecast_eff36": 12.47805072072994,
+        "e9_tier": 3,
+        "finite_draws": 2000,
+        "how_to_read": "Domestic EFF/36 in this league that the e9 league-aware model forecasts the same as a 16 in spain-acb (career history equal to that rate; source season not above it). Descriptive: offsets describe the players clubs sign from a league, not pure league strength.",
+        "source_league": "germany-bbl",
+        "training_forecasts": 135
+      },
+      {
+        "acb16_equivalent_eff36": 17.26397454648882,
+        "ci95_high": 18.72718063391152,
+        "ci95_low": 15.926882364444031,
+        "destination": "euroleague",
+        "e9_forecast_eff36": 13.668070025906465,
+        "e9_tier": 2,
+        "finite_draws": 2000,
+        "how_to_read": "Domestic EFF/36 in this league that the e9 league-aware model forecasts the same as a 16 in spain-acb (career history equal to that rate; source season not above it). Descriptive: offsets describe the players clubs sign from a league, not pure league strength.",
+        "source_league": "greece-a1",
+        "training_forecasts": 45
+      },
+      {
+        "acb16_equivalent_eff36": 18.150302693550877,
+        "ci95_high": 19.659393934852226,
+        "ci95_low": 16.77683182394688,
+        "destination": "euroleague",
+        "e9_forecast_eff36": 13.083106908931503,
+        "e9_tier": 2,
+        "finite_draws": 2000,
+        "how_to_read": "Domestic EFF/36 in this league that the e9 league-aware model forecasts the same as a 16 in spain-acb (career history equal to that rate; source season not above it). Descriptive: offsets describe the players clubs sign from a league, not pure league strength.",
+        "source_league": "israel-bsl",
+        "training_forecasts": 66
+      },
+      {
+        "acb16_equivalent_eff36": 16.7452529664992,
+        "ci95_high": 17.888862264066617,
+        "ci95_low": 15.513877740713104,
+        "destination": "euroleague",
+        "e9_forecast_eff36": 14.01041839121417,
+        "e9_tier": 1,
+        "finite_draws": 2000,
+        "how_to_read": "Domestic EFF/36 in this league that the e9 league-aware model forecasts the same as a 16 in spain-acb (career history equal to that rate; source season not above it). Descriptive: offsets describe the players clubs sign from a league, not pure league strength.",
+        "source_league": "italy-lba",
+        "training_forecasts": 145
+      },
+      {
+        "acb16_equivalent_eff36": 19.175764433936738,
+        "ci95_high": 20.66390960449063,
+        "ci95_low": 17.82106592953542,
+        "destination": "euroleague",
+        "e9_forecast_eff36": 12.406317733293733,
+        "e9_tier": 3,
+        "finite_draws": 2000,
+        "how_to_read": "Domestic EFF/36 in this league that the e9 league-aware model forecasts the same as a 16 in spain-acb (career history equal to that rate; source season not above it). Descriptive: offsets describe the players clubs sign from a league, not pure league strength.",
+        "source_league": "lithuania-lkl",
+        "training_forecasts": 62
+      },
+      {
+        "acb16_equivalent_eff36": 16.0,
+        "ci95_high": 16.0,
+        "ci95_low": 16.0,
+        "destination": "euroleague",
+        "e9_forecast_eff36": 14.502274031434164,
+        "e9_tier": 1,
+        "finite_draws": 2000,
+        "how_to_read": "Domestic EFF/36 in this league that the e9 league-aware model forecasts the same as a 16 in spain-acb (career history equal to that rate; source season not above it). Descriptive: offsets describe the players clubs sign from a league, not pure league strength.",
+        "source_league": "spain-acb",
+        "training_forecasts": 165
+      },
+      {
+        "acb16_equivalent_eff36": 17.913776541039187,
+        "ci95_high": 19.17177716124942,
+        "ci95_low": 16.667014614494658,
+        "destination": "euroleague",
+        "e9_forecast_eff36": 13.239210577621204,
+        "e9_tier": 2,
+        "finite_draws": 2000,
+        "how_to_read": "Domestic EFF/36 in this league that the e9 league-aware model forecasts the same as a 16 in spain-acb (career history equal to that rate; source season not above it). Descriptive: offsets describe the players clubs sign from a league, not pure league strength.",
+        "source_league": "turkey-bsl",
+        "training_forecasts": 173
+      },
+      {
+        "acb16_equivalent_eff36": 19.126324274778092,
+        "ci95_high": 20.538587472475207,
+        "ci95_low": 17.75043445205566,
+        "destination": "euroleague",
+        "e9_forecast_eff36": 12.43894748752307,
+        "e9_tier": 3,
+        "finite_draws": 2000,
+        "how_to_read": "Domestic EFF/36 in this league that the e9 league-aware model forecasts the same as a 16 in spain-acb (career history equal to that rate; source season not above it). Descriptive: offsets describe the players clubs sign from a league, not pure league strength.",
+        "source_league": "vtb",
+        "training_forecasts": 50
+      },
+      {
+        "acb16_equivalent_eff36": 18.268313399238124,
+        "ci95_high": 19.597014291125987,
+        "ci95_low": 16.95827280362011,
+        "destination": "eurocup",
+        "e9_forecast_eff36": 14.62640901314346,
+        "e9_tier": 3,
+        "finite_draws": 2000,
+        "how_to_read": "Domestic EFF/36 in this league that the e9 league-aware model forecasts the same as a 16 in spain-acb (career history equal to that rate; source season not above it). Descriptive: offsets describe the players clubs sign from a league, not pure league strength.",
+        "source_league": "aba-league",
+        "training_forecasts": 101
+      },
+      {
+        "acb16_equivalent_eff36": 16.108030252669312,
+        "ci95_high": 17.289901154916063,
+        "ci95_low": 14.948704363379731,
+        "destination": "eurocup",
+        "e9_forecast_eff36": 16.250883441797406,
+        "e9_tier": 1,
+        "finite_draws": 2000,
+        "how_to_read": "Domestic EFF/36 in this league that the e9 league-aware model forecasts the same as a 16 in spain-acb (career history equal to that rate; source season not above it). Descriptive: offsets describe the players clubs sign from a league, not pure league strength.",
+        "source_league": "france-pro-a",
+        "training_forecasts": 117
+      },
+      {
+        "acb16_equivalent_eff36": 18.691883249051493,
+        "ci95_high": 19.7030445207994,
+        "ci95_low": 17.691956879062737,
+        "destination": "eurocup",
+        "e9_forecast_eff36": 14.307895955786377,
+        "e9_tier": 3,
+        "finite_draws": 2000,
+        "how_to_read": "Domestic EFF/36 in this league that the e9 league-aware model forecasts the same as a 16 in spain-acb (career history equal to that rate; source season not above it). Descriptive: offsets describe the players clubs sign from a league, not pure league strength.",
+        "source_league": "germany-bbl",
+        "training_forecasts": 135
+      },
+      {
+        "acb16_equivalent_eff36": 17.109353783694175,
+        "ci95_high": 18.369985034720198,
+        "ci95_low": 15.935028595995114,
+        "destination": "eurocup",
+        "e9_forecast_eff36": 15.4979152609629,
+        "e9_tier": 2,
+        "finite_draws": 2000,
+        "how_to_read": "Domestic EFF/36 in this league that the e9 league-aware model forecasts the same as a 16 in spain-acb (career history equal to that rate; source season not above it). Descriptive: offsets describe the players clubs sign from a league, not pure league strength.",
+        "source_league": "greece-a1",
+        "training_forecasts": 45
+      },
+      {
+        "acb16_equivalent_eff36": 17.887258280481152,
+        "ci95_high": 19.07582105197877,
+        "ci95_low": 16.70981409132958,
+        "destination": "eurocup",
+        "e9_forecast_eff36": 14.91295214398794,
+        "e9_tier": 2,
+        "finite_draws": 2000,
+        "how_to_read": "Domestic EFF/36 in this league that the e9 league-aware model forecasts the same as a 16 in spain-acb (career history equal to that rate; source season not above it). Descriptive: offsets describe the players clubs sign from a league, not pure league strength.",
+        "source_league": "israel-bsl",
+        "training_forecasts": 66
+      },
+      {
+        "acb16_equivalent_eff36": 16.654086904274944,
+        "ci95_high": 17.661198753424046,
+        "ci95_low": 15.581103063365134,
+        "destination": "eurocup",
+        "e9_forecast_eff36": 15.840263626270604,
+        "e9_tier": 1,
+        "finite_draws": 2000,
+        "how_to_read": "Domestic EFF/36 in this league that the e9 league-aware model forecasts the same as a 16 in spain-acb (career history equal to that rate; source season not above it). Descriptive: offsets describe the players clubs sign from a league, not pure league strength.",
+        "source_league": "italy-lba",
+        "training_forecasts": 145
+      },
+      {
+        "acb16_equivalent_eff36": 18.787276294997977,
+        "ci95_high": 19.973201765590964,
+        "ci95_low": 17.655591815730332,
+        "destination": "eurocup",
+        "e9_forecast_eff36": 14.236162968350166,
+        "e9_tier": 3,
+        "finite_draws": 2000,
+        "how_to_read": "Domestic EFF/36 in this league that the e9 league-aware model forecasts the same as a 16 in spain-acb (career history equal to that rate; source season not above it). Descriptive: offsets describe the players clubs sign from a league, not pure league strength.",
+        "source_league": "lithuania-lkl",
+        "training_forecasts": 62
+      },
+      {
+        "acb16_equivalent_eff36": 16.0,
+        "ci95_high": 16.0,
+        "ci95_low": 16.0,
+        "destination": "eurocup",
+        "e9_forecast_eff36": 16.3321192664906,
+        "e9_tier": 1,
+        "finite_draws": 2000,
+        "how_to_read": "Domestic EFF/36 in this league that the e9 league-aware model forecasts the same as a 16 in spain-acb (career history equal to that rate; source season not above it). Descriptive: offsets describe the players clubs sign from a league, not pure league strength.",
+        "source_league": "spain-acb",
+        "training_forecasts": 165
+      },
+      {
+        "acb16_equivalent_eff36": 17.67966613951569,
+        "ci95_high": 18.721053716936847,
+        "ci95_low": 16.60997780897552,
+        "destination": "eurocup",
+        "e9_forecast_eff36": 15.06905581267764,
+        "e9_tier": 2,
+        "finite_draws": 2000,
+        "how_to_read": "Domestic EFF/36 in this league that the e9 league-aware model forecasts the same as a 16 in spain-acb (career history equal to that rate; source season not above it). Descriptive: offsets describe the players clubs sign from a league, not pure league strength.",
+        "source_league": "turkey-bsl",
+        "training_forecasts": 173
+      },
+      {
+        "acb16_equivalent_eff36": 18.743884101870794,
+        "ci95_high": 19.837328604020694,
+        "ci95_low": 17.6061574860182,
+        "destination": "eurocup",
+        "e9_forecast_eff36": 14.268792722579503,
+        "e9_tier": 3,
+        "finite_draws": 2000,
+        "how_to_read": "Domestic EFF/36 in this league that the e9 league-aware model forecasts the same as a 16 in spain-acb (career history equal to that rate; source season not above it). Descriptive: offsets describe the players clubs sign from a league, not pure league strength.",
+        "source_league": "vtb",
+        "training_forecasts": 50
+      }
+    ],
+    "rule": "x_L = 16 + (offset_ACB - offset_L) / (b_source + b_prior + b_ELxsource [EuroLeague only]); history = x_L, a = 0"
+  },
+  "exploratory": true,
+  "gates": {
+    "E10_identity": {
+      "max_difference": 0.0,
+      "negative_control": "rejected as required",
+      "status": "passed"
+    },
+    "E10_partition": {
+      "max_difference": 0.0,
+      "negative_control": "rejected as required",
+      "status": "passed"
+    },
+    "E10_reproduces_E7": {
+      "checked": [
+        "ceiling_split_half:ci95",
+        "ceiling_split_half:point",
+        "d1:history_only:ci95",
+        "d1:history_only:point",
+        "d1:scheduled_history:ci95",
+        "d1:scheduled_history:point",
+        "d1:source_ridge_10:ci95",
+        "d1:source_ridge_10:point",
+        "d1:source_ridge_10_scheduled:ci95",
+        "d1:source_ridge_10_scheduled:point",
+        "flip_share:history_only__scheduled_history:ci95",
+        "flip_share:history_only__scheduled_history:point",
+        "flip_share:source_ridge_10__source_ridge_10_scheduled:ci95",
+        "flip_share:source_ridge_10__source_ridge_10_scheduled:point",
+        "right_share:history_only__scheduled_history:ci95",
+        "right_share:history_only__scheduled_history:point",
+        "right_share:source_ridge_10__source_ridge_10_scheduled:ci95",
+        "right_share:source_ridge_10__source_ridge_10_scheduled:point"
+      ],
+      "max_difference": 0.0,
+      "negative_control": "rejected as required",
+      "status": "passed"
+    },
+    "E11_identity": {
+      "max_difference": 1.1102230246251565e-16,
+      "negative_control": "rejected as required",
+      "status": "passed"
+    },
+    "E12_fold_coefficients": {
+      "max_difference": 0.0,
+      "negative_control": "rejected as required",
+      "status": "passed"
+    },
+    "E12_reproduces_e9": {
+      "checked": [
+        "ci95_high",
+        "ci95_low",
+        "coefficients",
+        "forecast"
+      ],
+      "max_difference": 1.7763568394002505e-15,
+      "negative_control": "rejected as required",
+      "status": "passed"
+    },
+    "E17_counts": {
+      "anchor_674": 674,
+      "e9_training": 1059,
+      "factor_pairs": 4074,
+      "negative_control": "rejected as required",
+      "status": "passed"
+    },
+    "E17_equal_weight_reduction": {
+      "max_difference": 0.0,
+      "negative_control": "rejected as required",
+      "status": "passed"
+    },
+    "E17_floor": {
+      "floor": 2.1826598085897384,
+      "max_difference": 0.002659808589738244,
+      "negative_control": "rejected as required",
+      "status": "passed"
+    },
+    "E17_reproduces_E1": {
+      "max_difference": 0.0,
+      "negative_control": "rejected as required",
+      "status": "passed"
+    },
+    "E17_reproduces_E2": {
+      "max_difference": 0.0,
+      "negative_control": "rejected as required",
+      "status": "passed"
+    },
+    "G0": {
+      "max_difference": 1.3322676295501878e-15,
+      "negative_control": "rejected as required",
+      "status": "passed",
+      "tolerance": 1e-09
+    },
+    "exchange_rate_equivalence": {
+      "finite_draws_min": 2000,
+      "max_difference": 3.552713678800501e-15,
+      "negative_control": "rejected as required",
+      "status": "passed"
+    },
+    "reproduction": {
+      "checked": [
+        "e7:history_only",
+        "e7:pir_per36_dest",
+        "e7:scheduled_history",
+        "e7:source_ridge_10",
+        "e7:source_ridge_10_scheduled",
+        "r1:cell_slope_1",
+        "r1:cell_slope_10",
+        "r1:cell_slope_100",
+        "r1:cell_slope_100_scheduled",
+        "r1:cell_slope_10_scheduled",
+        "r1:cell_slope_1_scheduled",
+        "r1:history_destination",
+        "r1:history_destination_slope",
+        "r1:history_destination_slope_scheduled",
+        "r1:history_only",
+        "r1:pir_per36_dest",
+        "r1:scheduled_history",
+        "r1:source_ridge_1",
+        "r1:source_ridge_10",
+        "r1:source_ridge_100",
+        "r1:source_ridge_100_scheduled",
+        "r1:source_ridge_10_scheduled",
+        "r1:source_ridge_1_scheduled"
+      ],
+      "max_difference": 3.552713678800501e-15,
+      "negative_control": "rejected as required",
+      "status": "passed",
+      "tolerance": 1e-09
+    },
+    "scope": {
+      "negative_control": "rejected as required",
+      "pools": 12,
+      "seasons": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "status": "passed",
+      "targets": 674
+    },
+    "source_leagues": {
+      "leagues": [
+        "aba-league",
+        "france-pro-a",
+        "germany-bbl",
+        "greece-a1",
+        "israel-bsl",
+        "italy-lba",
+        "lithuania-lkl",
+        "spain-acb",
+        "turkey-bsl",
+        "vtb"
+      ],
+      "negative_control": "rejected as required",
+      "status": "passed"
+    }
+  },
+  "input_sha256": {
+    "cohort": "c629f43e3194642d483701c3d07666252938d587e747c99dbb031a2346bf2abf",
+    "decide-02/e7_keyed_forecasts.csv": "83589795f00df04cdb272155697f6f9d55c8f7604e49ae3bc45e0e1aac04b8f6",
+    "decide-02/e9_league_tiers_full.csv": "9c233bad8bde45e67e53fd06f94feb4d899b3ee59e720bfd181b94091e8f3ef1",
+    "decide-02/summary.json": "ce1d9bafd1364c548c29a9a8e774bf3d32dc3ac39a431dc0742377f9eff56666",
+    "pairs": "d964727924630dbf32c1764daf1e536c81d58988218a230fea591c62c1a62f58",
+    "recipes-01/rows_pool_A.parquet": "ce4f91e0ef854b684522efcf7d736b7c48a074277ac83a1fad016be7f7006eb3",
+    "recipes-01/summary.json": "e4d826741bd4f629c713216cd592e19ae7d2d2a89b77fad2cbe7ed350c51d030",
+    "robustness-02/summary.json": "ec2e2c10f44b801a1af099600841a73058872f9430b3aecfaf507a7fc32c91db"
+  },
+  "models": {
+    "history_only": "history",
+    "scheduled_history": "history + translation",
+    "source_ridge_10": "offsets \u03bb10",
+    "source_ridge_10_scheduled": "offsets \u03bb10 + translation"
+  },
+  "n_boot": 2000,
+  "n_targets": 674,
+  "protocol_commit": "f52e7c831fef6759eab202c8ff8c56fa76037533",
+  "protocol_sha256": "6c6002f9a96f954eeaac4082a02471bcd7017879df07e2a0630de07e345a5194",
+  "seed": 0
+}

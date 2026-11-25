@@ -1,0 +1,622 @@
+{
+  "E31b": {
+    "difference_published_minus_paper": {
+      "ci95": [
+        -0.021091708678983613,
+        0.05390142047382397
+      ],
+      "estimate": 0.01614181687879057
+    },
+    "first_scored_arrival_season": 2018,
+    "mae_stayer_forecast": {
+      "ci95": [
+        2.6812552260976834,
+        2.856996558337559
+      ],
+      "estimate": 2.7696199000823385
+    },
+    "reading": "not distinguishable",
+    "scales": {
+      "paper": {
+        "coefficient_by_scored_season": {
+          "2018": {
+            "ci95": [
+              0.6320436486895831,
+              1.0108593303457718
+            ],
+            "estimate": 0.827279201358513
+          },
+          "2019": {
+            "ci95": [
+              0.6306389351726058,
+              0.9127133023775191
+            ],
+            "estimate": 0.7711649858187464
+          },
+          "2020": {
+            "ci95": [
+              0.6321244522396989,
+              0.8814269699508537
+            ],
+            "estimate": 0.7603234030272725
+          },
+          "2021": {
+            "ci95": [
+              0.6690774335079274,
+              0.8971959511644086
+            ],
+            "estimate": 0.7844089090847457
+          },
+          "2022": {
+            "ci95": [
+              0.6901088430733753,
+              0.8945153083878037
+            ],
+            "estimate": 0.7941644754973117
+          },
+          "2023": {
+            "ci95": [
+              0.6941866666771916,
+              0.8823694037390674
+            ],
+            "estimate": 0.7906316901815892
+          },
+          "2024": {
+            "ci95": [
+              0.7013030569726388,
+              0.8726584480653846
+            ],
+            "estimate": 0.7890357303071203
+          },
+          "2025": {
+            "ci95": [
+              0.6919801073855761,
+              0.8525050190699476
+            ],
+            "estimate": 0.7743472581186012
+          }
+        },
+        "mae": {
+          "ci95": [
+            2.5415550891190786,
+            2.707115195513784
+          ],
+          "estimate": 2.6254253303610717
+        }
+      },
+      "published": {
+        "coefficient_by_scored_season": {
+          "2018": {
+            "ci95": [
+              -2.782949104013813,
+              -1.614067331331111
+            ],
+            "estimate": -2.214571070514642
+          },
+          "2019": {
+            "ci95": [
+              -2.442390962118712,
+              -1.5465686088629733
+            ],
+            "estimate": -1.987779368925955
+          },
+          "2020": {
+            "ci95": [
+              -2.5507664483396404,
+              -1.7344577799008236
+            ],
+            "estimate": -2.143306457948786
+          },
+          "2021": {
+            "ci95": [
+              -2.5715696083200115,
+              -1.8399240305253584
+            ],
+            "estimate": -2.2053890398998894
+          },
+          "2022": {
+            "ci95": [
+              -2.445662196312999,
+              -1.795092538730412
+            ],
+            "estimate": -2.130465319050726
+          },
+          "2023": {
+            "ci95": [
+              -2.4920207883160836,
+              -1.8946914170052465
+            ],
+            "estimate": -2.200508976253424
+          },
+          "2024": {
+            "ci95": [
+              -2.4873384971563675,
+              -1.928894737355003
+            ],
+            "estimate": -2.214946086687331
+          },
+          "2025": {
+            "ci95": [
+              -2.468598467614361,
+              -1.941741717284119
+            ],
+            "estimate": -2.210361092249996
+          }
+        },
+        "mae": {
+          "ci95": [
+            2.562439751717689,
+            2.7250521098735456
+          ],
+          "estimate": 2.6415671472398623
+        }
+      }
+    },
+    "scored_league_changes": 2763,
+    "to_amir_before_writing": false
+  },
+  "S_a": {
+    "difference": {
+      "ci95": [
+        0.0777712208705024,
+        0.17964948029199312
+      ],
+      "estimate": 0.12873655315366506
+    },
+    "mae_stayer_forecast": 2.822469084575162,
+    "mae_stayer_forecast_plus_g": 2.693732531421497,
+    "reading": "positive: adding the table's predicted change lowers the error"
+  },
+  "S_b": {
+    "aba-league": {
+      "ci95": [
+        0.7056433085560673,
+        0.8695577628175303
+      ],
+      "estimate": 0.791161950388694,
+      "league_changes": 2869
+    },
+    "france-pro-a": {
+      "ci95": [
+        0.7866933676108253,
+        0.9732956289066351
+      ],
+      "estimate": 0.8809884230761216,
+      "league_changes": 2606
+    },
+    "germany-bbl": {
+      "ci95": [
+        0.6670144952438259,
+        0.8506311696385285
+      ],
+      "estimate": 0.7588573319862569,
+      "league_changes": 2646
+    },
+    "greece-a1": {
+      "ci95": [
+        0.7059114858174701,
+        0.8616158174746423
+      ],
+      "estimate": 0.7854261969646312,
+      "league_changes": 2873
+    },
+    "israel-bsl": {
+      "ci95": [
+        0.6651311835205626,
+        0.8211820064428803
+      ],
+      "estimate": 0.7443505518230474,
+      "league_changes": 2906
+    },
+    "italy-lba": {
+      "ci95": [
+        0.702033392139885,
+        0.8763904998284513
+      ],
+      "estimate": 0.7930056106742124,
+      "league_changes": 2614
+    },
+    "lithuania-lkl": {
+      "ci95": [
+        0.6426446047095886,
+        0.8069603636238175
+      ],
+      "estimate": 0.7236675980244685,
+      "league_changes": 3021
+    },
+    "spain-acb": {
+      "ci95": [
+        0.47673286044109364,
+        0.6647541643509159
+      ],
+      "estimate": 0.5710288265771171,
+      "league_changes": 2484
+    },
+    "turkey-bsl": {
+      "ci95": [
+        0.7179517146683315,
+        0.8798205751146546
+      ],
+      "estimate": 0.8009356237220056,
+      "league_changes": 2519
+    },
+    "vtb": {
+      "ci95": [
+        0.7139777766758135,
+        0.8892510680104092
+      ],
+      "estimate": 0.8041370878738332,
+      "league_changes": 2846
+    }
+  },
+  "S_c": {
+    "opposite_signs": false,
+    "to_higher_equivalent": {
+      "league_changes": 1609,
+      "mean_e": {
+        "ci95": [
+          1.1578090816224793,
+          1.5331288951488624
+        ],
+        "estimate": 1.3457878257136453
+      },
+      "slope": {
+        "ci95": [
+          0.6193284342475315,
+          1.0392081025101132
+        ],
+        "estimate": 0.8261291602833053
+      }
+    },
+    "to_lower_equivalent": {
+      "league_changes": 1814,
+      "mean_e": {
+        "ci95": [
+          -0.9402413806791915,
+          -0.5658179880586469
+        ],
+        "estimate": -0.7551433367779588
+      },
+      "slope": {
+        "ci95": [
+          0.44024520234401354,
+          0.8130088178451995
+        ],
+        "estimate": 0.6264648657643633
+      }
+    }
+  },
+  "S_d": {
+    "approximation": "each table value redrawn from a normal distribution with standard deviation (upper - lower) / 3.92 of its committed interval, independently; the committed files hold intervals and not the bootstrap draws",
+    "ci95": [
+      0.4340722242029685,
+      0.9300696451294906
+    ],
+    "use": "reported for its width only: redrawing the table values adds noise to the predicted change, so its centre sits low by construction; it does not decide the case (Amendment 17, rule 6)"
+  },
+  "S_e": {
+    "1": {
+      "ci95": [
+        0.6957223550588649,
+        0.8503382033014033
+      ],
+      "estimate": 0.7760451911946531,
+      "label": "without league changes where either season has a second domestic league with 8 or more games",
+      "league_changes": 2976
+    },
+    "2": {
+      "ci95": [
+        0.6752137400639596,
+        0.8627555737914908
+      ],
+      "estimate": 0.7705855371218668,
+      "label": "arrival seasons 2020 to 2025 only",
+      "league_changes": 2083
+    },
+    "3": {
+      "ci95": [
+        0.7036515795755016,
+        0.863625534595115
+      ],
+      "estimate": 0.7855520560663812,
+      "label": "arrival seasons 2016 to 2024 only (four leagues' 2025-26 files stop in January 2026)",
+      "league_changes": 3093
+    },
+    "4": {
+      "ci95": [
+        0.6865800307552756,
+        0.8542085004122849
+      ],
+      "estimate": 0.770727537368009,
+      "label": "the stayer forecast with one intercept per league of origin",
+      "league_changes": 3423
+    },
+    "5": {
+      "ci95": [
+        0.6073452574302979,
+        0.740660147035737
+      ],
+      "estimate": 0.6753697535131278,
+      "label": "the EuroLeague equivalents in place of the EuroCup ones",
+      "league_changes": 3423
+    },
+    "6": {
+      "ci95": [
+        0.6792989460287138,
+        0.8412584907301297
+      ],
+      "estimate": 0.7594791338707247,
+      "label": "at least 15 games in both seasons",
+      "league_changes": 2265
+    },
+    "7": {
+      "ci95": [
+        0.6842563266780446,
+        0.8849120572501032
+      ],
+      "estimate": 0.7858636929228636,
+      "label": "arrival seasons 2020 to 2025, the table refitted only on arrivals before that season",
+      "league_changes": 2083
+    },
+    "8": {
+      "ci95": [
+        0.6903584759250915,
+        0.8422919230204378
+      ],
+      "estimate": 0.7683528472821578,
+      "label": "league pairs with fewer than 30 moves in the two directions together left out",
+      "league_changes": 3375
+    }
+  },
+  "S_f_caption": "The 45 points come from ten numbers and are not 45 independent tests.",
+  "S_f_league_pairs": 45,
+  "amendment": {
+    "path": "docs/research/sloan-full-paper-preregistration-amendment-14-2026-11-17.md",
+    "sha256": "87471565393c01beb3ad4a5ce119fde74ac9d5c75fd96051944f16df5f476750"
+  },
+  "amendment_15": {
+    "path": "docs/research/sloan-full-paper-preregistration-amendment-15-2026-11-17.md",
+    "sha256": "f078841abdd37dbcb463bf37d7525422f436b8ccc1967622e753b2a2c09a755f"
+  },
+  "amendment_17": {
+    "path": "docs/research/sloan-full-paper-preregistration-amendment-17-2026-11-17.md",
+    "sha256": "d2072f085a0cbb3381cfde3eb72eac47adbdd7185948037b0a3aad9df84350ae"
+  },
+  "analysis": "Amendment 14, E30: the league table tested on players who changed domestic league; and E31b of Amendment 15",
+  "bootstrap_draws": 2000,
+  "case": {
+    "case": "Clear",
+    "leagues_whose_interval_includes_zero": [],
+    "leagues_whose_interval_lies_below_zero": [],
+    "limits": [],
+    "sentence": "The league table, fitted only on first continental seasons, predicted what happened to 1,649 players who changed domestic league: slope 0.77 (95% interval 0.69 to 0.84), where 1 would mean the table's size is exactly right.",
+    "size_reading": "about 0.77 of the size the table implies",
+    "to_amir_before_writing": false,
+    "unregistered": []
+  },
+  "corpus": {
+    "files": 155,
+    "leagues": [
+      "aba-league",
+      "bcl",
+      "eurocup",
+      "euroleague",
+      "france-pro-a",
+      "germany-bbl",
+      "greece-a1",
+      "israel-bsl",
+      "italy-lba",
+      "lithuania-lkl",
+      "poland-plk",
+      "spain-acb",
+      "turkey-bsl",
+      "vtb"
+    ],
+    "player_games": 681888,
+    "seasons": [
+      2015,
+      2025
+    ]
+  },
+  "freeze_record_sha256": "93233c2b8b0765fa5309477763ab790684677f9ab92146eef5a3c10dc7429c56",
+  "frozen_sha256": "2df696debc8567d9468844384c259e2289d6d1d985d7cbe4c7930bd7bf85b722",
+  "functions": {
+    "a": "scripts/sloan_fullpaper_prospective.py::source_player_seasons, column above_own_prior",
+    "aggregates": "scripts/sloan_fullpaper_prospective.py::aggregates (the second return value of scripts/validate_translation_holdout.py::build_switchers)",
+    "corpus": "scripts/build_league_factors.py::load_player_games('proballers'), then add_usage",
+    "g": "league_table (this file) on the pinned exchange_rate_acb16.csv, column acb16_equivalent_eff36, rows with destination eurocup",
+    "h": "scripts/sloan_fullpaper_prospective.py::source_player_seasons, column prior_mean_pir36; h := x where it is missing",
+    "population": "eligible_sources (this file) marks stints outside the ten leagues as not eligible before source_player_seasons is called; their games still count in h",
+    "stayer_forecast": "fit_stayers (this file): ordinary least squares of next season's rate on intercept, x, h and a, on players who stayed",
+    "x": "scripts/sloan_fullpaper_prospective.py::source_player_seasons, column pir_per36_src"
+  },
+  "gates": {
+    "G30a": {
+      "box_score_files_equal_the_freeze_run": 155,
+      "files": {
+        "amendment_14": {
+          "negative_control_changed_byte": "rejected as required",
+          "path": "docs/research/sloan-full-paper-preregistration-amendment-14-2026-11-17.md",
+          "sha256": "87471565393c01beb3ad4a5ce119fde74ac9d5c75fd96051944f16df5f476750"
+        },
+        "amendment_15": {
+          "negative_control_changed_byte": "rejected as required",
+          "path": "docs/research/sloan-full-paper-preregistration-amendment-15-2026-11-17.md",
+          "sha256": "f078841abdd37dbcb463bf37d7525422f436b8ccc1967622e753b2a2c09a755f"
+        },
+        "amendment_17": {
+          "negative_control_changed_byte": "rejected as required",
+          "path": "docs/research/sloan-full-paper-preregistration-amendment-17-2026-11-17.md",
+          "sha256": "d2072f085a0cbb3381cfde3eb72eac47adbdd7185948037b0a3aad9df84350ae"
+        },
+        "league_table": {
+          "negative_control_changed_byte": "rejected as required",
+          "path": "docs/research/artifacts/sloan-fullpaper-amend1-decisions-2026-11/exchange_rate_acb16.csv",
+          "sha256": "c8341a37947adcad882f90c9747ea6fee274723b367a0948bbfc50462fead2ca"
+        },
+        "published_table": {
+          "negative_control_changed_byte": "rejected as required",
+          "path": "docs/research/artifacts/sloan-fullpaper-published-tables-2026-11/vashro_2015_competition_scores.csv",
+          "sha256": "2c004c88d10c60f68dabb038330a9f8d282ba87f56b521cb6a87c59a26252d04"
+        },
+        "yearly_refits": {
+          "negative_control_changed_byte": "rejected as required",
+          "path": "docs/research/artifacts/sloan-fullpaper-amend3-2026-11/e19_equivalents_by_refit.csv",
+          "sha256": "49814ea0b0a2d4d443e891c4104fe480749876b32585861405454e7ebf502481"
+        }
+      },
+      "status": "passed"
+    },
+    "G30b": {
+      "counted_on_17_november": {
+        "arrivals_2020_2025": {
+          "equal": true,
+          "found": 2083,
+          "registered": 2083
+        },
+        "ordered_league_pairs": {
+          "equal": true,
+          "found": 90,
+          "registered": 90
+        },
+        "players": {
+          "equal": true,
+          "found": 1649,
+          "registered": 1649
+        },
+        "second_league_either_season": {
+          "equal": true,
+          "found": 447,
+          "registered": 447
+        }
+      },
+      "every_ordered_pair_holds_at_least_10": true,
+      "found": {
+        "league_changes": 3423,
+        "stayer_pairs": 9057
+      },
+      "negative_control": {
+        "found": {
+          "league_changes": 3291,
+          "stayer_pairs": 8813
+        },
+        "games_floor": 9,
+        "result": "rejected as required"
+      },
+      "registered": {
+        "league_changes": 3423,
+        "stayer_pairs": 9057
+      },
+      "smallest_ordered_pair": 10,
+      "status": "passed"
+    },
+    "G30c": {
+      "analysis": "Amendment 14, gate G30c: the code recovers a planted slope (made-up data only)",
+      "bootstrap_draws": 2000,
+      "failures": [],
+      "made_up": {
+        "league_changes": 15987,
+        "noise_sd": "player effect 1.0 and row noise 2.3 EFF/36",
+        "player_seasons": 79373,
+        "players": 20000,
+        "predicted_change_sd": 1.5140832256092043,
+        "stayer_pairs": 43386
+      },
+      "negative_control_shuffled_leagues": {
+        "ci95": [
+          -0.02918702097098809,
+          0.03084662754312075
+        ],
+        "rule": "league labels shuffled across the made-up moves: the interval must include zero",
+        "slope": 0.0009284421485915363
+      },
+      "planted_slope_one": {
+        "ci95": [
+          0.9615483232453973,
+          1.0119796424929957
+        ],
+        "rule": "within 0.05 of 1.0",
+        "slope": 0.9868290568283538
+      },
+      "planted_slope_zero": {
+        "ci95": [
+          -0.03845167675460261,
+          0.011979642492995561
+        ],
+        "rule": "the interval includes zero",
+        "slope": -0.01317094317164605
+      },
+      "seed": 20261117,
+      "status": "passed"
+    },
+    "G30d": {
+      "failures": [],
+      "made_up_change_on_stayers": {
+        "ci95": [
+          -0.023045230781052774,
+          0.0653684560936972
+        ],
+        "rule": "the interval includes zero",
+        "slope": 0.021618730434752032
+      },
+      "negative_control_change_added_to_rates": {
+        "ci95": [
+          0.9769547692189471,
+          1.0653684560936971
+        ],
+        "rule": "the interval must exclude zero",
+        "slope": 1.021618730434752
+      },
+      "status": "passed",
+      "stayer_pairs": 9057
+    },
+    "G30e": {
+      "negative_control_changed_byte": "rejected as required",
+      "sha256": "2df696debc8567d9468844384c259e2289d6d1d985d7cbe4c7930bd7bf85b722",
+      "status": "passed"
+    }
+  },
+  "league_changes": 3423,
+  "n_league_changes": 3423,
+  "n_players": 1649,
+  "players": 1649,
+  "primary": {
+    "bootstrap_se": 0.038980881694896184,
+    "ci95": [
+      0.691996509685343,
+      0.8438927123269487
+    ],
+    "detectable_slope_80": 0.10914646874570931,
+    "estimate": 0.769502200701338,
+    "intercept": 0.308605598076797,
+    "league_changes": 3423,
+    "permutation": {
+      "draws": 10000,
+      "draws_with_slope_at_least_as_large": 1,
+      "p": 0.0001,
+      "permuted_slope_quantiles": {
+        "2.5": -0.5823830434704869,
+        "50": -0.02955993701339968,
+        "97.5": 0.588590059939546
+      }
+    }
+  },
+  "registered": true,
+  "seed": 20261117,
+  "sentences": [
+    "The league table, fitted only on first continental seasons, predicted what happened to 1,649 players who changed domestic league: slope 0.77 (95% interval 0.69 to 0.84), where 1 would mean the table's size is exactly right.",
+    "not distinguishable"
+  ],
+  "stayer_model": {
+    "coefficients": {
+      "a": -0.8363695831301698,
+      "h": 0.10913578418354701,
+      "intercept": 4.011523652681621,
+      "x": 0.6525081527978822
+    },
+    "n": 9057,
+    "residual_sd": 3.44414882145378
+  },
+  "stayer_pairs": 9057,
+  "stayers_sha256": "afdda9226c671e9ef774297097ad5507ed83a72d4d06d4a98cdc26f8fb0997b6"
+}

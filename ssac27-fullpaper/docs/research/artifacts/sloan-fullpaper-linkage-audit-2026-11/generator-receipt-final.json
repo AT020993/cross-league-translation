@@ -1,0 +1,18 @@
+{
+  "arguments_stage": "audit",
+  "code_files": 2509,
+  "entrypoint": "scripts/sloan_fullpaper_linkage_audit.py",
+  "generator_sha256": "8fb91e66c881a5addff6dc5f50a6ebcda5777e5caf19543603c55dedb0e1e91a",
+  "hand_review_argument": true,
+  "inputs": 529,
+  "outputs": {
+    "out/e13_audit_pairs.csv": "c9b08c04d4db0359e2af433d596acab882625b3fb4d89c56b75f1ff96cfcfacc",
+    "out/e13_draw.json": "879f2a8f482efe2983ed7915e51768c0126d86c72862ce4e24c58d5ab7b2eaf0",
+    "out/e13_drawn_keys.csv": "b19d70139ba62e2da8a8ae1ad43a3bf475a06d9cbb2df711e23661ea41ba604d",
+    "out/e13_summary.json": "fe7457e72b5114bd279978a82959f1906a95f1472e0e7dd7a39b141ef983e42a",
+    "out/e13_unresolved_evidence.csv": "a3376a12b887302012c196c83f4a23b8b486063e97b1a26da88573951fc42dfb"
+  },
+  "returncode": 0,
+  "run_dir": "research-runs/sloan-fullpaper/linkage-audit-04",
+  "status": "complete"
+}

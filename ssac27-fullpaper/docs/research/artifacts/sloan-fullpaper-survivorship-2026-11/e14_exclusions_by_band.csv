@@ -1,0 +1,16 @@
+band,reason,n
+1-2,continental_incumbent,19
+1-2,destination_nonpositive,24
+1-2,eligible,24
+1-2,no_consecutive_domestic_source,179
+1-2,source_exposure,32
+1-2,source_nonpositive_or_nonfinite,2
+3-7,continental_incumbent,97
+3-7,destination_nonpositive,10
+3-7,eligible,110
+3-7,no_consecutive_domestic_source,221
+3-7,source_exposure,47
+8+,continental_incumbent,1503
+8+,eligible,674
+8+,no_consecutive_domestic_source,657
+8+,source_exposure,115
