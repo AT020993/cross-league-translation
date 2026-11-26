@@ -360,6 +360,7 @@ OPTIONAL_REFERENCES = {
     "amend24": "Pre-registration Amendment 24: when the pages that show current-season statistics are read if the frozen test ends inconclusive (2026). Commit 8175f92, pushed 22 November 2026, 20:01 UTC, before the scoring of the frozen 2026–27 test; it adds no analysis and no number. Full-paper companion materials (release status in Data and code), https://github.com/AT020993/cross-league-translation",
     "amend25": "Pre-registration Amendment 25: how the scored frozen test is shown: one figure of its contrasts, the read-out of the league numbers where the paper promises it, the ordering sentence in the main text, and a sentence where an interval excludes the earlier estimate (2026). Commit d4aa4bc, pushed 24 November 2026, 08:51 UTC, before the scoring of the frozen 2026–27 test and after blind readers had read the paper composed from rehearsal records with made-up outcomes; it adds no analysis and changes no verdict. Full-paper companion materials (release status in Data and code), https://github.com/AT020993/cross-league-translation",
     "amend27": "Pre-registration Amendment 27: one sentence that points from the comparison with a published league table to its exploratory reading on the older arrivals (2026). Commit 38574fb, pushed 25 November 2026, 12:12 UTC, after E34 was run, with its values known; it registers nothing in advance, adds no analysis and changes no number. Full-paper companion materials (release status in Data and code), https://github.com/AT020993/cross-league-translation",
+    "amend28": "Pre-registration Amendment 28: thirteen repaired sentences, four sentences that define the paper's terms, the figures redrawn in one style, and the Paper ID line (2026). Commit e9fd7dc, pushed 26 November 2026, 09:00 UTC, after every result was known; it registers nothing in advance, adds no analysis and changes no number. Full-paper companion materials (release status in Data and code), https://github.com/AT020993/cross-league-translation",
     "amend26": "Pre-registration Amendment 26: the words of the paper once the frozen 2026–27 test was scored and found inconclusive, and two descriptive sentences from values the paper already prints (2026). Commit c96b283, pushed 25 November 2026, 07:53 UTC, after the scoring of the frozen 2026–27 test, with every value of its score record known; it registers nothing in advance, adds no analysis and changes no number. Full-paper companion materials (release status in Data and code), https://github.com/AT020993/cross-league-translation",
     "amend14": "Pre-registration Amendment 14: analysis E30 (the league table tested on players who changed domestic league) (2026). Commit ae99909, pushed 17 November 2026, 17:08 UTC, before implementation and before any outcome of a league change was read. Full-paper companion materials (release status in Data and code), https://github.com/AT020993/cross-league-translation",
     "amend15": "Pre-registration Amendment 15: analysis E31 (a published league table as a rival) and E32 (named 2026–27 newcomers with their frozen forecasts) (2026). Commit 48f752c, pushed 17 November 2026, 17:09 UTC, before implementation; E31 on the arrivals of 2020–2025 is exploratory. Full-paper companion materials (release status in Data and code), https://github.com/AT020993/cross-league-translation",
@@ -3391,7 +3392,7 @@ def p1_section(d) -> str:
     rows = get(fz, "rows") if isinstance(fz.get("rows"), int) else fz.get("n_rows")
     base = (
         "We froze forecasts from every model for all 2025–26 domestic player-seasons, for both "
-        f"competitions ({rows:,} forecasts), and committed and pushed them on {META['freeze_time']}, "
+        f"competitions ({rows:,} rows, each with the forecasts of every model), and committed and pushed them on {META['freeze_time']}, "
         "after the season had begun but before any 2026–27 statistic was read [@prereg]. "
         f"They are scored on continental games through {META['p1_cutoff']}, for newcomers who reach "
         "eight games; below 60 newcomers the test is descriptive only. The registered directions: translation helps "
@@ -3624,7 +3625,7 @@ def appendix(d) -> str:
         f"appears in continental play in the source season ({by26['source-season bridge']}) or is still at the source club a "
         f"year later ({by26['stayed at the source club']}), each checked as in the first audit; or the previous club in the "
         f"competition's own registration list is the source club ({by26['previous team matches a source club']}). An arrival "
-        f"can have several. The last rule is a text match and passed its registered check: it matched {g26['matches']} of "
+        f"can meet several of these conditions. The last rule is a text match and passed its registered check: it matched {g26['matches']} of "
         f"{g26['n']} arrivals, against {g26['matches_after_shuffle']} after a seeded shuffle of the lists. An arrival is wrong "
         "when the two birthdates disagree, when club or schedule records contradict the link, or when two registered "
         f"players stand behind the destination record. Result: {n26['CONFIRMED']} confirmed, {n26['WRONG']} wrong, {n26['UNRESOLVED']} unresolved, and "
@@ -3642,7 +3643,7 @@ def appendix(d) -> str:
         "![Figure A1. What translation adds once the forecast knows both leagues, across factor recipes, outcomes, "
         "competitions, seasons and age-aware models, as a percentage of the league-aware forecast's error "
         "(league numbers, λ = 10). Points: estimates; bars: 95% intervals. The shaded band marks ±2%, the pre-registered "
-        "margin. The boosted model in Appendix J is not in this panel; its upper bound is above 2%.](figures/figA1_robustness.png)"
+        "margin. The boosted model (Appendix E, Table A5; discussed in Appendix J) is not in this panel; its upper bound is above 2%.](figures/figA1_robustness.png)"
     )
     pooled = [
         row
@@ -3676,7 +3677,7 @@ def appendix(d) -> str:
         "below 1 = he does less of it against continental opponents). The registered estimator averages each pair's "
         "ratio, weighted by the thinner side's minutes (attempts for percentages); the ratio of sums is an unregistered "
         f"sensitivity check. Of the {len(robust) + len(sensitive)} registered comparisons whose registered intervals do not "
-        f"overlap, {len(robust)} also do not overlap under the ratio of sums.\n\n"
+        f"overlap, {len(robust)} keep the same order with intervals that do not overlap under the ratio of sums.\n\n"
         + md_table(
             [
                 "Component",
@@ -5261,8 +5262,9 @@ def e30_unseen(d) -> str:
         rider = E30_NO_CAUSE
     return (
         "**What was unseen.** The table was not fitted to these league changes and not scored on them before "
-        "this test; the same seasons are inputs to the paper's forecasts. One registered sensitivity removes "
-        f"that overlap in time: for the {s7['league_changes']:,} league changes of {season_label(first)} to "
+        "this test. But the same seasons are inputs to the paper's forecasts, so the test and the fitted data "
+        "overlap in time. "
+        f"One registered sensitivity removes that overlap in time: for the {s7['league_changes']:,} league changes of {season_label(first)} to "
         f"{season_label(last)}, with the table refitted only on arrivals before the season of the move, the "
         f"slope is {num(s7['estimate'], 2)} ({span(s7['ci95'], 2)}). Only the league table uses this cutoff. "
         "The comparison forecast for players who stay pools stayer outcomes across all seasons. "
@@ -5602,13 +5604,14 @@ def two_tests(d) -> str:
             "the older-arrivals reading changed; the paragraph on the two tests needs new wording"
         )
     return (
-        "**Two tests outside the fitted arrivals.** League changes: ten leagues, "
-        f"{e['n_moves']:,} changes, {e30_seasons(d)}, domestic outcomes (Proballers box scores), registered "
-        "before any outcome was read: evidence that the table's gaps show up when players change league, in "
-        f"seasons the table was fitted on. Older arrivals: {OLDER_WORDS[len(o['leagues'])]} leagues, {o['n']} "
-        "arrivals, 2008–09 to 2015–16, continental outcomes (the leagues' own box scores), the league-number "
-        "comparison added after the first scoring: the only evidence on an earlier period, where the league "
-        "numbers did not help. "
+        "**Two tests outside the fitted arrivals.** The test on league changes covers ten leagues and "
+        f"{e['n_moves']:,} changes, {e30_seasons(d)}. Its outcomes are domestic, from Proballers box scores, and it "
+        "was registered before any outcome was read. It is evidence that the table's gaps show up when players "
+        "change league, in seasons the table was fitted on. The test on older arrivals covers "
+        f"{OLDER_WORDS[len(o['leagues'])]} leagues and {o['n']} arrivals, 2008–09 to 2015–16. Its outcomes are "
+        "continental, its domestic box scores are the leagues' own, and its league-number comparison was added "
+        "after the first scoring. It is the only evidence on an earlier period, where the league numbers did not "
+        "help. "
         # Amendment 26, rule 2: in the inconclusive state the clause states the outcome
         + (TWO_TESTS_END_INCONCLUSIVE if p1_is_inconclusive(d) else TWO_TESTS_END)
         + "\n\n"
@@ -6087,8 +6090,8 @@ def e30_blocks(d) -> dict:
                 "of each move"
             )
         intro = (
-            f"{statement} The slope measures the average change beyond a stayer's forecast per unit of change "
-            f"predicted by the EuroCup equivalents. {count[:-1]}; the slope is lowest without {short_league(code)} "
+            f"{statement} The slope is the average change in a mover's rate, beyond the forecast for a player who stays in his "
+            f"league, per unit of change that the EuroCup Equivalents predict. {count[:-1]}; the slope is lowest without {short_league(code)} "
             f"({num(low['estimate'], 2)}){refit}. {e30_redrawn_intro(d)} "
         )
         conclusion = f"{statement} {count} "
@@ -7738,6 +7741,45 @@ def check_g27(text: str, d) -> None:
         )
 
 
+# ---------------------------------------------------------------- Amendment 28: repairs of wording and drawing
+#: Gate G28a: the amendment as registered (the test of the file compares it with this value).
+AMENDMENT_28 = Path(
+    "docs/research/sloan-full-paper-preregistration-amendment-28-2026-11-26.md"
+)
+AMENDMENT_28_SHA256 = "d481986f0fd347d6e1c80ad0b1ff366acd54eaad14649c2eb1f7df26ecdf2e9d"
+#: Rule 6: one sentence in Appendix N, in every state.
+AMEND28_NOTE = (
+    "On 26 November 2026, after three readers had read the final paper, thirteen sentences were repaired, "
+    "four sentences that define the paper's terms were added and the figures were redrawn in one style; no "
+    "number and no registered sentence changed [@amend28]."
+)
+AMEND28_NOTE_MARK = "after three readers had read the final paper"
+#: Rule 3: the four added sentences, by their first words.
+AMEND28_DEFINITIONS = (
+    "A season is named by the year in which it starts",
+    "We call these three the history-only, the destination-only and the league-aware forecast",
+    "The ten league numbers are the conversion table",
+    "Tiers follow the rule registered before the analysis",
+)
+
+
+def check_g28(text: str, d) -> None:
+    """Gate G28c of Amendment 28, on the composed text: Appendix N says when the wording was repaired,
+    with its reference, and each of the four definitions stands once (G28a: the test of the file; G28b:
+    the fixture of gate G19c; G28d and G28e: tests against render 55)."""
+    if text.count(AMEND28_NOTE_MARK) != 1 or AMEND28_NOTE_MARK not in appendix_of(
+        text, "N"
+    ):
+        raise ClaimError(
+            "G28c: Appendix N says when the wording was repaired, with the reference to Amendment 28"
+        )
+    for words in AMEND28_DEFINITIONS:
+        if text.count(words) != 1:
+            raise ClaimError(
+                f"G28: the definition of Amendment 28, rule 3, stands once: '{words}'"
+            )
+
+
 def e34_blocks(d, blocks: dict) -> dict:
     """What E34 adds to the paper (Amendment 23, rule 5): nothing until its run is committed."""
     s = d.get("e34")
@@ -9286,6 +9328,8 @@ def compose(d: dict, template: str) -> tuple[str, list]:
     )
     # Amendment 24, rule 2: one sentence in Appendix N, in every status (gate G24b)
     blocks["amend24_note"] = " " + ORDER_OF_READING_NOTE
+    # Amendment 28, rule 6: one sentence in Appendix N, in every state (gate G28c)
+    blocks["amend28_note"] = "**Repairs of wording and drawing.** " + AMEND28_NOTE
     # Amendment 25: S2 where the paper promises it (rule 2), and the note in Appendix N
     blocks.update(p1_s2_blocks(d))
     blocks["amend25_note"] = amend25_note(d)
@@ -9322,6 +9366,7 @@ def compose(d: dict, template: str) -> tuple[str, list]:
     check_g25(text, d)
     check_g26(text, d)
     check_g27(text, d)
+    check_g28(text, d)
     check_examined(text, d)
     return text, order
 

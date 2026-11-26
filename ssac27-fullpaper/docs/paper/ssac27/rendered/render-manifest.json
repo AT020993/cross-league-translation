@@ -31,9 +31,9 @@
   "e30_case": "clear",
   "figures_main_text": 3,
   "inputs": {
-    "docs/paper/ssac27/manuscript.template.md": "4048b86651b6c7737efc6b52efbae13930fa5d5255b0923668adf167f8f07f58",
+    "docs/paper/ssac27/manuscript.template.md": "88b18cf71723582895433b6a8a2a1684b5630d30fab7cbe6b8b1fa2de822f996",
     "docs/paper/ssac27/prior-work-record.json": "30a2765ace63a3fdd9e1f7aaad9c42e2393e29d9c0cb9f2ba9849ded2811d472",
-    "docs/paper/ssac27/release.json": "429a66fc838e9354bde056c850eacb91967d7b7d386d0cd214c594dec78aa8a3",
+    "docs/paper/ssac27/release.json": "6e07ddd8813632a0cd268c74f062da625118410b0d7d5f22e548a5c7539b6591",
     "docs/research/artifacts/sloan-fullpaper-amend1-decisions-2026-11/e10_pair_types.csv": "fdd8a28ef083ec4f044fe8e6192ab55cf14edc20935cab23f3427a05983e88cf",
     "docs/research/artifacts/sloan-fullpaper-amend1-decisions-2026-11/e11_signed_error_by_league.csv": "ab3fcb15675fbeb6199b80f23ff14bf51bf6fed037b717dbc555933c6f2e5d57",
     "docs/research/artifacts/sloan-fullpaper-amend1-decisions-2026-11/e17_league_counts.csv": "6c67c9e6292965d8c23ab8f83ab853d9fd740775828f1a87c730874437cf2215",
@@ -79,18 +79,18 @@
     "scripts/templates/ssac27-word-template.docx": "a7c700e6fb77eed6afafbdeb9d52b94dc652a78af4818d54169991f568fdb647"
   },
   "outputs": {
-    "fig1": "ca0ce2d626e6027f61769a63211b60817a14078b38d20c6de4599e017caa65df",
-    "fig2": "038941212cde462ca6ec4152cce12690866e1f3b80504ca940e394c3223db570",
-    "fig3": "4d5244697738cf5dc7255ff05170cd282269aaaa332bd6a0f08e075b763ce859",
-    "fig4": "0250f636086087445c2987a7bc8062517e902731276fc31c204614bb352ae965",
-    "figA1": "dd32157967bfbcfd2a6eeffac004314c05fb4598752605de1c2381d0cd2c81ba",
-    "fig_bands": "29aa8c15e73a580856b887a57f8dce3a5672548098a1c88639a1ab89f568e3ab",
-    "fig_gap_guide": "900c1762f5a0da8175bac3e3c98d5f920759f899bd370e6c7ba9f0c2bc8aee81",
-    "fig_mechanism": "da9ce3af44bd6e43c35559a06f59c5a9f0aeff5ab81948cc582f0c1d57bf355d",
-    "fig_skills": "521bfa9e3d61c78a20de2cadedea11f85e5cbb62d9ba088f76a1deaf499879b4",
-    "fig_stability": "e19fe8d010fe9752b80b605974618f782cf110719de9c18ed564d98d2f400f7f",
-    "manuscript.md": "56325789be4e1aade2c03c876df84cd78c16c82e458b785ffed3b50abb9e3cf6",
-    "ssac27-paper-47.docx": "3c3e5410e1cd69ddd67854b63963a50dfab254bd5baacd2c8e6f2e6854f25925"
+    "fig1": "af26e6f6ecc511881e207fe952832ef63b0e3b15710b3046283d3fd716be3fbe",
+    "fig2": "9a9953fa0259732824d8467038fa46c729c3c65ba77c852a24f7fd2ea7b2b891",
+    "fig3": "74283a4264b39ee6fc4c5aebc775a5d99931df17028f071282eaa81fd16dac44",
+    "fig4": "223ff2f9c742934fa11d6b89c32761570f2f644d48c928614d2aa9b55eee0543",
+    "figA1": "d11f3aff623ff2690abb8069cb1bf753e1ff73bce7815915e2c232c06eea9517",
+    "fig_bands": "76f969d6f5d082447a35c652736a40cf6b4f2678acd2a9b61ebbc74287ed0e19",
+    "fig_gap_guide": "14ef0d20a30ba73b2ed2b24a5243b554374c16bb3c113a14037f6bfef9f1f9c4",
+    "fig_mechanism": "cd80f2f06bec3b0ba47a00534125106100e34c1d9b461785de48c25ad2086458",
+    "fig_skills": "34a643d24d6dbd033281e2a1399fe5d260b712a2e6ec3ef0a3bce3b36bd622ba",
+    "fig_stability": "9e830f77a4a43f8a88be03dbabc2d82fcc69b7588cf603c60f09650f51bba4f1",
+    "manuscript.md": "dd793f4bd288e13fa43f5cf5592a2b7d554f6c2a6857213665ea1428217c4272",
+    "ssac27-paper-47.docx": "30e33e6621de6121af036fed4a3b3f1d4472061a73b38933605607ed9f5582d6"
   },
   "p1_scored": false,
   "p1_status": "inconclusive",
@@ -153,6 +153,7 @@
     "amend16",
     "amend21",
     "amend27",
+    "amend28",
     "amend24",
     "myrte2026",
     "dinsdale2022",
@@ -161,5 +162,5 @@
     "yeh2022"
   ],
   "title": "European League Equivalents: One Number per League, Tested on League Changes It Was Never Fitted To",
-  "words_main_text": 6835
+  "words_main_text": 6997
 }

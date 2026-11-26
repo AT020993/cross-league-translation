@@ -1,11 +1,11 @@
 # SSAC 2027 full paper: companion
 
-*European League Equivalents: One Number per League, Tested on League Changes It Was Never Fitted To* (Submission 47, Amir Tahori).
+*European League Equivalents: One Number per League, Tested on League Changes It Was Never Fitted To* (Paper ID 47, Amir Tahori).
 
 This folder holds what the full paper needs: the paper as rendered, its template and renderer,
-the pre-registration and its 27 amendments, the results notes, every committed result file of the
+the pre-registration and its 28 amendments, the results notes, every committed result file of the
 full-paper analyses, the analysis code as run, and the derived tables the results are recomputed
-from. It was cut from the private research repository at commit `d4ce6f536aa9e6b6fa3986f123f596b6fa1d6985`.
+from. It was cut from the private research repository at commit `8d58e75d4c8918caa67994b39fa0c3b3960f248e`.
 
 ## Two tools you can use without reading the paper
 

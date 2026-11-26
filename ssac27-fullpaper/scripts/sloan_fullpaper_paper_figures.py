@@ -37,6 +37,16 @@ from __future__ import annotations
 from pathlib import Path
 
 FOCAL, COMP, GREY, LIGHT = "#1f5f8b", "#9aa3ab", "#5f6b75", "#e9edf1"
+#: Text, axis lines and guide lines.
+INK, AXIS, GRID = "#1b2733", "#7b8791", "#e3e7eb"
+#: The one accent colour: what a figure asks the reader to look at first.
+ACCENT = "#c8721a"
+#: The focal colour, lighter: rows that a figure shows but its title does not name.
+SOFT = "#9db9cf"
+#: The typeface of the figures. Its files ship with the code (SIL Open Font License 1.1, see
+#: the licence beside them), so the figures do not depend on the fonts of the machine.
+FONT_NAME = "Source Sans Pro"
+FONT_DIR = Path(__file__).resolve().parent / "fonts" / "source-sans-pro"
 TIER_SHADES = {1: "#f3f6f9", 2: "#e6ecf2", 3: "#d8e1ea"}
 
 LEAGUE_NAMES = {
@@ -58,22 +68,38 @@ class FigureClaimError(ValueError):
 
 
 def style():
-    """Role-mapped size ladder (8/7/6 pt), outward ticks, frameless legends, 300 dpi."""
+    """The figures' common look: one open sans-serif face that ships with the code (so every
+    machine draws the same letters), a role-mapped size ladder (9/8/7.5 pt), outward ticks,
+    light spines, frameless legends, 300 dpi."""
     import matplotlib
 
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
+    from matplotlib import font_manager
 
+    known = {f.fname for f in font_manager.fontManager.ttflist}
+    for file in sorted(FONT_DIR.glob("*.ttf")):
+        if str(file) not in known:
+            font_manager.fontManager.addfont(str(file))
     plt.rcParams.update(
         {
-            "font.family": "serif",
-            "font.serif": ["Cambria", "DejaVu Serif"],
-            "font.size": 8,
-            "axes.titlesize": 8,
-            "axes.labelsize": 8,
-            "legend.fontsize": 7,
-            "xtick.labelsize": 6.5,
-            "ytick.labelsize": 7,
+            "font.family": "sans-serif",
+            "font.sans-serif": [FONT_NAME, "DejaVu Sans"],
+            "font.size": 9,
+            "text.color": INK,
+            "axes.titlesize": 9.5,
+            "axes.titleweight": "semibold",
+            "axes.titlecolor": INK,
+            "axes.labelsize": 9,
+            "axes.labelcolor": INK,
+            "legend.fontsize": 8,
+            "xtick.labelsize": 7.5,
+            "ytick.labelsize": 8,
+            "xtick.color": AXIS,
+            "ytick.color": AXIS,
+            "xtick.labelcolor": INK,
+            "ytick.labelcolor": INK,
+            "axes.edgecolor": AXIS,
             "axes.linewidth": 0.6,
             "xtick.direction": "out",
             "ytick.direction": "out",
@@ -84,7 +110,9 @@ def style():
             "axes.spines.top": False,
             "axes.spines.right": False,
             "axes.titlelocation": "left",
-            "axes.titleweight": "normal",
+            "grid.color": GRID,
+            "grid.linewidth": 0.6,
+            "lines.solid_capstyle": "round",
             "legend.frameon": False,
             "savefig.dpi": 300,
             "pdf.fonttype": 42,
@@ -92,6 +120,57 @@ def style():
         }
     )
     return plt
+
+
+def value_grid(ax, axis="x"):
+    """Light guide lines along the value axis, behind everything drawn."""
+    ax.grid(True, axis=axis, zorder=0)
+    ax.set_axisbelow(True)
+
+
+def headline(fig, text, x=0.012, ha="left"):
+    """The figure's sentence title: the one finding, in the heavier weight."""
+    import matplotlib.pyplot as plt
+
+    fig.suptitle(
+        text,
+        x=x,
+        y=0.995,
+        ha=ha,
+        fontsize=plt.rcParams["axes.titlesize"],
+        fontweight="semibold",
+    )
+
+
+def panel_name(ax, text):
+    """The name of a panel under a headline: lighter than the headline."""
+    ax.set_title(text, loc="left", fontweight="normal", color=GREY)
+
+
+def minus(text: str) -> str:
+    """A printed value with a true minus sign."""
+    return text.replace("-", "\u2212")
+
+
+def spread(positions, gap):
+    """Label positions that keep their order and stand at least ``gap`` apart, each as near
+    to its own value as that allows (labels at the ends of lines that end close together)."""
+    order = sorted(range(len(positions)), key=lambda i: positions[i])
+    placed = [positions[i] for i in order]
+    for _ in range(200):
+        moved = False
+        for j in range(len(placed) - 1):
+            short = gap - (placed[j + 1] - placed[j])
+            if short > 1e-9:
+                placed[j] -= short / 2
+                placed[j + 1] += short / 2
+                moved = True
+        if not moved:
+            break
+    out = [0.0] * len(positions)
+    for j, i in enumerate(order):
+        out[i] = placed[j]
+    return out
 
 
 class FigureOverflow(ValueError):
@@ -237,7 +316,7 @@ def _draw_equivalents(plt, ax, rows, counts, xmax=21.0):
             f"Tier {tier}",
             ha="right",
             va="top",
-            fontsize=6.5,
+            fontsize=7.5,
             color=GREY,
         )
     ax.axvline(16, color=GREY, lw=0.7, ls="--", zorder=1)
@@ -250,11 +329,11 @@ def _draw_equivalents(plt, ax, rows, counts, xmax=21.0):
             )
             if k == "spain-acb":
                 ax.plot(
-                    [v], [y + dy], "o", ms=4.5, mfc=face, mec=FOCAL, mew=0.9, zorder=3
+                    [v], [y + dy], "o", ms=5, mfc=face, mec=FOCAL, mew=1.0, zorder=3
                 )
                 continue
-            ax.plot([lo, hi], [y + dy, y + dy], color=FOCAL, lw=0.9, zorder=2)
-            ax.plot([v], [y + dy], "o", ms=4.5, mfc=face, mec=FOCAL, mew=0.9, zorder=3)
+            ax.plot([lo, hi], [y + dy, y + dy], color=FOCAL, lw=1.2, zorder=2)
+            ax.plot([v], [y + dy], "o", ms=5, mfc=face, mec=FOCAL, mew=1.0, zorder=3)
     ax.set_yticks(
         range(len(order)),
         [f"{LEAGUE_NAMES[k]}  (n = {n[k]})" for k in order],
@@ -267,12 +346,12 @@ def _draw_equivalents(plt, ax, rows, counts, xmax=21.0):
         16.25,
         -0.05,
         "reference: 16",
-        fontsize=6.5,
+        fontsize=7.5,
         color=GREY,
         va="center",
     )
-    ax.plot([], [], "o", mfc=FOCAL, mec=FOCAL, ms=4.5, label="EuroLeague arrival")
-    ax.plot([], [], "o", mfc="white", mec=FOCAL, ms=4.5, label="EuroCup arrival")
+    ax.plot([], [], "o", mfc=FOCAL, mec=FOCAL, ms=5, label="EuroLeague arrival")
+    ax.plot([], [], "o", mfc="white", mec=FOCAL, ms=5, label="EuroCup arrival")
     ax.legend(
         loc="lower left",
         bbox_to_anchor=(0.0, 1.0),
@@ -545,13 +624,23 @@ def fig_avoidable(reducible_rows, flex_reducible, out: Path) -> Path:
         raise FigureClaimError(
             "a plotted forecast removes more avoidable error than one number per league"
         )
-    fig, ax = plt.subplots(figsize=(6.5, 2.5))
+    fig, ax = plt.subplots(figsize=(6.5, 2.6))
+    value_grid(ax)
     for i, (label, w, z) in enumerate(steps):
-        for arm, color, dy in ((w, COMP, -0.13), (z, FOCAL, 0.13)):
+        for arm, color, dy in ((w, COMP, -0.14), (z, FOCAL, 0.14)):
             if arm in ci:
-                ax.plot(ci[arm], [i + dy] * 2, color=color, lw=0.9, alpha=0.9, zorder=2)
-            ax.plot([share[arm]], [i + dy], "o", color=color, ms=5, zorder=3)
-    ax.axvline(0, color=GREY, lw=0.6)
+                ax.plot(ci[arm], [i + dy] * 2, color=color, lw=1.2, alpha=0.9, zorder=2)
+            ax.plot(
+                [share[arm]],
+                [i + dy],
+                "o",
+                color=color,
+                ms=5.5,
+                mec="white",
+                mew=0.5,
+                zorder=3,
+            )
+    ax.axvline(0, color=GREY, lw=0.8, zorder=1)
     ax.axvspan(best, 34, color=LIGHT, lw=0, zorder=0)
     ax.text(
         33.6,
@@ -559,7 +648,7 @@ def fig_avoidable(reducible_rows, flex_reducible, out: Path) -> Path:
         f"{100 - best:.0f}% remains under this\nnoise reference and these models →",
         ha="right",
         va="center",
-        fontsize=6.5,
+        fontsize=7.5,
         color=GREY,
     )
     ax.set_yticks(range(len(steps)), [s[0] for s in steps])
@@ -567,8 +656,8 @@ def fig_avoidable(reducible_rows, flex_reducible, out: Path) -> Path:
     ax.set_xlim(-8, 34)
     ax.set_xticks([0, 5, 10, 15, 20, 25, 30])
     ax.set_xlabel("Estimated reducible-error share removed (%), relative to history")
-    ax.plot([], [], "o", color=COMP, ms=5, label="without translation")
-    ax.plot([], [], "o", color=FOCAL, ms=5, label="with translation")
+    ax.plot([], [], "o", color=COMP, ms=5.5, label="without translation")
+    ax.plot([], [], "o", color=FOCAL, ms=5.5, label="with translation")
     ax.legend(
         loc="lower left",
         bbox_to_anchor=(0.0, 1.0),
@@ -578,7 +667,7 @@ def fig_avoidable(reducible_rows, flex_reducible, out: Path) -> Path:
     )
     ax.set_title(
         "Model comparison under the normal-noise reference",
-        pad=16,
+        pad=17,
     )
     fig.subplots_adjust(left=0.24, right=0.98, bottom=0.17, top=0.84)
     return _save(fig, out / "fig2_avoidable.png")
@@ -605,7 +694,9 @@ def fig_decisions(pair_rows, out: Path) -> Path:
             int(r["pairs"]),
         )
 
-    fig, (a1, a2) = plt.subplots(2, 1, figsize=(6.5, 3.5), gridspec_kw={"hspace": 1.1})
+    fig, (a1, a2) = plt.subplots(2, 1, figsize=(6.5, 3.5), gridspec_kw={"hspace": 1.0})
+    value_grid(a1)
+    value_grid(a2)
     rows = [
         ("League-aware", "history_only__source_ridge_10", FOCAL),
         ("History + translation", "history_only__scheduled_history", COMP),
@@ -614,14 +705,26 @@ def fig_decisions(pair_rows, out: Path) -> Path:
     for pt, name in (("cross", "cross-league"), ("same", "same-league")):
         for label, key, color in rows:
             p, lo, hi, n = get(pt, "d1diff", key)
-            a1.plot([100 * lo, 100 * hi], [y, y], color=color, lw=1.2)
-            a1.plot([100 * p], [y], "o", color=color, ms=5)
+            a1.plot([100 * lo, 100 * hi], [y, y], color=color, lw=1.5, zorder=2)
+            a1.plot(
+                [100 * p], [y], "o", color=color, ms=6, mec="white", mew=0.5, zorder=3
+            )
+            a1.text(
+                100 * hi + 0.05,
+                y,
+                minus(f"{100 * p:+.2f}"),
+                ha="left",
+                va="center",
+                fontsize=7.5,
+                color=FOCAL if color == FOCAL else GREY,
+            )
             labels.append(f"{label}, {name}")
             y += 1
         y += 0.4
-    a1.axvline(0, color=GREY, lw=0.6)
+    a1.axvline(0, color=GREY, lw=0.8, zorder=1)
     a1.set_yticks([0, 1, 2.4, 3.4], labels)
     a1.set_ylim(3.9, -0.6)
+    a1.set_xlim(right=a1.get_xlim()[1] + 0.22)
     a1.set_xlabel(
         "Change in pairs ordered correctly, vs history only (percentage points)"
     )
@@ -640,13 +743,24 @@ def fig_decisions(pair_rows, out: Path) -> Path:
                 raise FigureClaimError(
                     "translation's changes on the league-aware forecast differ from a coin flip"
                 )
-            a2.plot([100 * lo, 100 * hi], [y, y], color=color, lw=1.2)
-            a2.plot([100 * p], [y], "o", color=color, ms=5)
+            a2.plot([100 * lo, 100 * hi], [y, y], color=color, lw=1.5, zorder=2)
+            a2.plot(
+                [100 * p], [y], "o", color=color, ms=6, mec="white", mew=0.5, zorder=3
+            )
+            a2.text(
+                100 * hi + 0.4,
+                y,
+                f"{100 * p:.1f}%",
+                ha="left",
+                va="center",
+                fontsize=7.5,
+                color=FOCAL if color == FOCAL else GREY,
+            )
             labels2.append(f"{label}, {name}")
             y += 1
         y += 0.4
-    a2.axvline(50, ls="--", color=GREY, lw=0.8)
-    a2.text(50.5, -0.45, "coin flip", fontsize=6.5, color=GREY, va="center")
+    a2.axvline(50, ls="--", color=GREY, lw=0.8, zorder=1)
+    a2.text(50.5, -0.45, "coin flip", fontsize=7.5, color=GREY, va="center")
     a2.set_yticks([0, 1, 2.4, 3.4], labels2)
     a2.set_ylim(3.9, -0.6)
     a2.set_xlim(43, 67)
@@ -730,14 +844,43 @@ def fig_league_bias(e24_rows, out: Path, league_order=None) -> Path:
     }
     if under != {"spain-acb", "italy-lba"} or licensed - under != {"germany-bbl"}:
         raise FigureClaimError(f"licensed bias leagues changed: {sorted(licensed)}")
-    fig, ax = plt.subplots(figsize=(6.5, 2.8))
+    fig, ax = plt.subplots(figsize=(6.5, 3.0))
+    value_grid(ax)
+    reach = max(r[f"rebased_ci95_high_{arm}"] for r in rows for arm in (blind, aware))
+    column = reach + 0.2
     for i, r in enumerate(rows):
         for arm, color, dy in ((blind, COMP, -0.15), (aware, FOCAL, 0.15)):
             p = r[f"rebased_{arm}"]
             lo, hi = r[f"rebased_ci95_low_{arm}"], r[f"rebased_ci95_high_{arm}"]
-            ax.plot([lo, hi], [i + dy] * 2, color=color, lw=1.0)
-            ax.plot([p], [i + dy], "o", color=color, ms=4.5)
-    ax.axvline(0, color=GREY, lw=0.7)
+            ax.plot([lo, hi], [i + dy] * 2, color=color, lw=1.3, zorder=2)
+            ax.plot(
+                [p], [i + dy], "o", color=color, ms=5.5, mec="white", mew=0.5, zorder=3
+            )
+        # the two plotted values, printed: without the league numbers, then with them
+        ax.text(
+            column + 0.42,
+            i,
+            minus(f"{r[f'rebased_{blind}']:+.2f}"),
+            ha="right",
+            va="center",
+            fontsize=7.5,
+            color=GREY,
+        )
+        ax.text(
+            column + 0.49,
+            i,
+            "\u2192 " + minus(f"{r[f'rebased_{aware}']:+.2f}"),
+            ha="left",
+            va="center",
+            fontsize=7.5,
+            color=FOCAL,
+        )
+    ax.axvline(0, color=GREY, lw=0.8, zorder=1)
+    for x, side, words in (
+        (-0.08, "right", "\u2190 forecast too low for the league"),
+        (0.08, "left", "too high \u2192"),
+    ):
+        ax.text(x, -0.78, words, ha=side, va="center", fontsize=7.5, color=GREY)
     ax.set_yticks(
         range(len(rows)),
         [
@@ -745,13 +888,20 @@ def fig_league_bias(e24_rows, out: Path, league_order=None) -> Path:
             for r in rows
         ],
     )
-    ax.set_ylim(len(rows) - 0.5, -0.6)
+    for label, r in zip(ax.get_yticklabels(), rows):
+        if r["source_league"] in licensed:
+            label.set_fontweight("semibold")
+    ax.set_ylim(len(rows) - 0.5, -1.15)
+    ax.set_xlim(right=column + 1.12)
+    ax.set_xticks([t for t in ax.get_xticks() if t <= reach + 0.3])
+    ax.set_xlim(right=column + 1.12)
     ax.set_xlabel(
-        "Signed error against the average arrival, EFF/36 (below 0 = league underrated)"
+        "Signed error against the average arrival, EFF/36 (below 0 = league underrated)",
+        loc="left",
     )
     handles = [
-        ax.plot([], [], "o", color=COMP, ms=4.5)[0],
-        ax.plot([], [], "o", color=FOCAL, ms=4.5)[0],
+        ax.plot([], [], "o", color=COMP, ms=5.5)[0],
+        ax.plot([], [], "o", color=FOCAL, ms=5.5)[0],
     ]
     fig.legend(
         handles,
@@ -759,18 +909,15 @@ def fig_league_bias(e24_rows, out: Path, league_order=None) -> Path:
             "knows the destination, not the source league",
             "league-aware (one number per league)",
         ],
-        loc="upper center",
-        bbox_to_anchor=(0.5, 0.93),
+        loc="upper left",
+        bbox_to_anchor=(0.005, 0.935),
         ncol=2,
         handletextpad=0.3,
     )
-    fig.suptitle(
-        "A source-blind forecast underrates Spain and Italy and overrates Germany",
-        x=0.5,
-        y=0.995,
-        fontsize=plt.rcParams["axes.titlesize"],
+    headline(
+        fig, "A source-blind forecast underrates Spain and Italy and overrates Germany"
     )
-    fig.subplots_adjust(left=0.3, right=0.98, bottom=0.15, top=0.83)
+    fig.subplots_adjust(left=0.3, right=0.985, bottom=0.15, top=0.85)
     return _save(fig, out / "fig4_bias.png")
 
 
@@ -820,30 +967,27 @@ def fig_mechanism(recipes, out: Path) -> Path:
         1, 2, figsize=(6.5, 2.5), sharey=True, gridspec_kw={"wspace": 0.08}
     )
 
-    def minus(text):
-        return text.replace("-", "\u2212")
-
     for i, (_, without, with_z, gain, ci) in enumerate(rows):
         a1.plot([without, with_z], [i, i], color=LIGHT, lw=2.2, zorder=1)
-        a1.plot([without], [i], "o", color=COMP, ms=5.5, zorder=3)
-        a1.plot([with_z], [i], "o", color=FOCAL, ms=5.5, zorder=3)
+        a1.plot([without], [i], "o", color=COMP, ms=6.5, mec="white", mew=0.5, zorder=3)
+        a1.plot([with_z], [i], "o", color=FOCAL, ms=6.5, mec="white", mew=0.5, zorder=3)
         a1.text(
             (without + with_z) / 2,
             i - 0.2,
             f"{without:.3f} \u2192 {with_z:.3f}",
             ha="center",
             va="bottom",
-            fontsize=6.5,
+            fontsize=7.5,
         )
-        a2.plot(ci, [i, i], color=FOCAL, lw=1.2, zorder=2)
-        a2.plot([gain], [i], "o", color=FOCAL, ms=5, zorder=3)
+        a2.plot(ci, [i, i], color=FOCAL, lw=1.6, zorder=2)
+        a2.plot([gain], [i], "o", color=FOCAL, ms=6.5, mec="white", mew=0.5, zorder=3)
         a2.text(
             ci[0],
             i - 0.2,
             minus(f"{gain:+.3f} [{ci[0]:.3f}, {ci[1]:.3f}]"),
             ha="left",
             va="bottom",
-            fontsize=6.5,
+            fontsize=7.5,
             zorder=4,
             # the zero line must not run through a printed value
             bbox={"facecolor": "white", "edgecolor": "none", "pad": 0.6},
@@ -852,27 +996,26 @@ def fig_mechanism(recipes, out: Path) -> Path:
     a1.set_ylim(len(rows) - 0.5, -0.6)
     a1.margins(x=0.2)
     a1.set_xlabel("MAE, EFF/36 (lower is better)")
-    a1.set_title("Forecast error", loc="left")
-    a1.plot([], [], "o", color=COMP, ms=5.5, label="without translation")
-    a1.plot([], [], "o", color=FOCAL, ms=5.5, label="with translation")
+    panel_name(a1, "Forecast error")
+    value_grid(a1)
+    value_grid(a2)
+    a1.plot([], [], "o", color=COMP, ms=6.5, label="without translation")
+    a1.plot([], [], "o", color=FOCAL, ms=6.5, label="with translation")
     a2.axvline(0, color=GREY, lw=0.7, ls="--", zorder=1)
     a2.margins(x=0.16)
     # right-aligned: centred under this panel the label ran 7 pixels past the edge of the image
     a2.set_xlabel("Gain from translation, EFF/36 (above 0 helps)", loc="right")
-    a2.set_title("What translation adds", loc="left")
+    panel_name(a2, "What translation adds")
     a2.tick_params(axis="y", length=0)
     a1.legend(
         loc="lower right",
         handletextpad=0.3,
         borderaxespad=0.1,
-        fontsize=6.5,
+        fontsize=7.5,
     )
-    fig.suptitle(
+    headline(
+        fig,
         "Translation helps a league-blind forecast and adds nothing detectable on top of the league numbers",
-        x=0.012,
-        y=0.995,
-        ha="left",
-        fontsize=plt.rcParams["axes.titlesize"],
     )
     fig.subplots_adjust(left=0.215, right=0.985, bottom=0.2, top=0.82)
     return _save(fig, out / "fig_mechanism.png")
@@ -880,6 +1023,19 @@ def fig_mechanism(recipes, out: Path) -> Path:
 
 # --------------------------------------------------------------------- figure 5
 TIER_COLORS = {1: "#1f5f8b", 2: "#6f9fc4", 3: "#b0563b"}
+#: The league names written at the ends of the lines.
+LEAGUE_SHORT = {
+    "spain-acb": "Spain",
+    "france-pro-a": "France",
+    "italy-lba": "Italy",
+    "greece-a1": "Greece",
+    "israel-bsl": "Israel",
+    "turkey-bsl": "Turkey",
+    "aba-league": "Adriatic",
+    "germany-bbl": "Germany",
+    "lithuania-lkl": "Lithuania",
+    "vtb": "VTB",
+}
 
 
 def fig_stability(refit_rows, exchange_rows, summary, out: Path) -> Path:
@@ -913,51 +1069,72 @@ def fig_stability(refit_rows, exchange_rows, summary, out: Path) -> Path:
     if summary["tier3_higher"] != summary["comparisons"]:
         raise FigureClaimError("the E19 summary no longer says 'in every yearly refit'")
     fig, axes = plt.subplots(
-        1, 2, figsize=(6.5, 2.7), sharey=True, gridspec_kw={"wspace": 0.06}
+        1, 2, figsize=(6.5, 3.0), sharey=True, gridspec_kw={"wspace": 0.34}
     )
+    leagues = sorted(tier, key=lambda k: (tier[k], k))
     for ax, dst, name in zip(
         axes, ("euroleague", "eurocup"), ("EuroLeague arrivals", "EuroCup arrivals")
     ):
-        for k in sorted(tier, key=lambda k: (tier[k], k)):
+        value_grid(ax, "y")
+        for k in leagues:
             ys = [value[(dst, k, s)] for s in seasons]
             ax.plot(
                 seasons,
                 ys,
                 "-o",
                 color=TIER_COLORS[tier[k]],
-                lw=1.0,
-                ms=2.6,
-                alpha=0.9,
+                lw=1.2,
+                ms=3,
+                alpha=0.95,
                 zorder=2 + tier[k],
             )
+        # each line is named at its right end; names of lines that end close together are
+        # moved apart and keep their order
+        ends = [value[(dst, k, seasons[-1])] for k in leagues]
+        for k, end, at in zip(leagues, ends, spread(ends, 0.3)):
+            ax.annotate(
+                LEAGUE_SHORT[k],
+                xy=(seasons[-1], end),
+                xytext=(seasons[-1] + 0.32, at),
+                fontsize=7.5,
+                color=TIER_COLORS[tier[k]],
+                va="center",
+                ha="left",
+                annotation_clip=False,
+                arrowprops={
+                    "arrowstyle": "-",
+                    "color": TIER_COLORS[tier[k]],
+                    "lw": 0.5,
+                    "shrinkA": 0.5,
+                    "shrinkB": 2,
+                },
+            )
         ax.axhline(16, color=GREY, lw=0.7, ls="--", zorder=1)
-        ax.set_title(name, loc="left")
+        panel_name(ax, name)
         ax.set_xticks(seasons, [f"{s}–{str(s + 1)[-2:]}" for s in seasons])
-        ax.set_xlabel("Destination season the table was refitted for")
+        ax.tick_params(axis="x", labelsize=7)
+        ax.set_xlabel("Season the table was refitted for")
         ax.margins(x=0.06)
     axes[0].set_ylabel("Domestic EFF/36 that forecasts\nlike a 16 in Spain's ACB")
     axes[1].tick_params(axis="y", length=0)
     handles = [
-        axes[0].plot([], [], "-o", color=TIER_COLORS[t], lw=1.0, ms=2.6)[0]
+        axes[0].plot([], [], "-o", color=TIER_COLORS[t], lw=1.2, ms=3)[0]
         for t in (1, 2, 3)
     ]
     fig.legend(
         handles,
         ["Tier 1 leagues", "Tier 2 leagues", "Tier 3 leagues"],
-        loc="upper right",
-        bbox_to_anchor=(0.985, 0.93),
+        loc="upper left",
+        bbox_to_anchor=(0.005, 0.935),
         ncol=3,
         handletextpad=0.4,
         columnspacing=1.2,
     )
-    fig.suptitle(
+    headline(
+        fig,
         "In every yearly refit, every tier-3 league needed a higher rate than every tier-1 league",
-        x=0.012,
-        y=0.995,
-        ha="left",
-        fontsize=plt.rcParams["axes.titlesize"],
     )
-    fig.subplots_adjust(left=0.115, right=0.985, bottom=0.17, top=0.78)
+    fig.subplots_adjust(left=0.105, right=0.9, bottom=0.16, top=0.77)
     return _save(fig, out / "fig_stability.png")
 
 
@@ -988,7 +1165,7 @@ def fig_gap_guide(e20, out: Path) -> Path:
     trust = e20["licence"]["trust"]
     if not (trust["0.60"]["licensed"] and trust["0.70"]["licensed"]):
         raise FigureClaimError("the forecast-gap thresholds are not licensed")
-    fig, ax = plt.subplots(figsize=(6.5, 2.6))
+    fig, ax = plt.subplots(figsize=(6.5, 2.8))
     for arm, name, color, dx in arms:
         rows = series[arm]
         xs = [r["bin"] + dx for r in rows]
@@ -1005,13 +1182,33 @@ def fig_gap_guide(e20, out: Path) -> Path:
             [100 * r["share_correct"] for r in rows],
             "-o",
             color=color,
-            lw=1.0,
-            ms=4.5,
+            lw=1.2,
+            ms=5.5,
+            mec="white",
+            mew=0.5,
             label=name,
             zorder=3,
         )
+    # the six shares of the league-aware forecast, printed: the numbers a club would use
+    for r in series["source_ridge_10"]:
+        ax.text(
+            r["bin"] + 0.16,
+            100 * r["share_correct"] - 2.6,
+            f"{100 * r['share_correct']:.0f}%",
+            ha="left",
+            va="center",
+            fontsize=8,
+            fontweight="semibold",
+            color=FOCAL,
+            zorder=4,
+        )
+    value_grid(ax, "y")
     ax.axhline(50, color=GREY, lw=0.7, ls="--", zorder=1)
-    ax.text(len(labels) - 0.55, 51.2, "coin flip", fontsize=6.5, color=GREY, ha="right")
+    ax.text(len(labels) - 0.55, 51.2, "coin flip", fontsize=7.5, color=GREY, ha="right")
+    labels = [
+        f"{label}\n{r['pairs']:,} pairs"
+        for label, r in zip(labels, series["source_ridge_10"])
+    ]
     ax.set_xticks(range(len(labels)), labels)
     ax.set_xlim(-0.45, len(labels) - 0.55)
     ax.set_ylim(45, 100)
@@ -1020,7 +1217,7 @@ def fig_gap_guide(e20, out: Path) -> Path:
     ax.set_ylabel("Pairs in which the higher\nforecast was the better player (%)")
     ax.legend(loc="upper left", handletextpad=0.4)
     ax.set_title("The larger the gap between two forecasts, the more often it is right")
-    fig.subplots_adjust(left=0.12, right=0.985, bottom=0.18, top=0.9)
+    fig.subplots_adjust(left=0.12, right=0.985, bottom=0.235, top=0.9)
     return _save(fig, out / "fig_gap_guide.png")
 
 
@@ -1048,24 +1245,67 @@ def fig_bands(e22, out: Path) -> Path:
             [100 * r["wilson95_low"], 100 * r["wilson95_high"]],
             [i, i],
             color=FOCAL,
-            lw=1.0,
+            lw=1.3,
             zorder=2,
         )
-        a1.plot([100 * r["coverage"]], [i], "o", color=FOCAL, ms=4.5, zorder=3)
-    a1.axvline(80, color=GREY, lw=0.7, ls="--", zorder=1)
+        a1.plot(
+            [100 * r["coverage"]],
+            [i],
+            "o",
+            color=FOCAL,
+            ms=5.5,
+            mec="white",
+            mew=0.5,
+            zorder=3,
+        )
+        a1.text(
+            101.5,
+            i,
+            f"{100 * r['coverage']:.0f}%",
+            ha="left",
+            va="center",
+            fontsize=7.5,
+            color=FOCAL,
+        )
+    value_grid(a1)
+    a1.axvline(80, color=GREY, lw=0.8, ls="--", zorder=1)
     a1.set_yticks(
         range(len(rows)),
         [f"{LEAGUE_NAMES[r['source_league']]}  (n = {r['n']})" for r in rows],
     )
     a1.set_ylim(len(rows) - 0.5, -0.6)
-    a1.set_xlim(55, 100)
+    a1.set_xlim(55, 109)
+    a1.set_xticks([60, 70, 80, 90, 100])
     a1.set_xlabel("Arrivals inside the 80% band (%)")
-    a1.set_title("By source league", loc="left")
+    panel_name(a1, "By source league")
     xs = range(len(seasons))
     a2.plot(
-        xs, [100 * v["coverage"] for _, v in seasons], "-o", color=FOCAL, lw=1.0, ms=4.5
+        xs,
+        [100 * v["coverage"] for _, v in seasons],
+        "-o",
+        color=FOCAL,
+        lw=1.2,
+        ms=5.5,
+        mec="white",
+        mew=0.5,
+        zorder=3,
     )
-    a2.axhline(80, color=GREY, lw=0.7, ls="--", zorder=1)
+    shares = [100 * v["coverage"] for _, v in seasons]
+    for x, share in zip(xs, shares):
+        # a value is printed under its point where the line arrives from above
+        near = [shares[j] for j in (x - 1, x + 1) if 0 <= j < len(shares)]
+        under = all(share < other for other in near)
+        a2.text(
+            x,
+            share + (-2.6 if under else 2.6),
+            f"{share:.0f}%",
+            ha="center",
+            va="top" if under else "bottom",
+            fontsize=7.5,
+            color=FOCAL,
+        )
+    value_grid(a2, "y")
+    a2.axhline(80, color=GREY, lw=0.8, ls="--", zorder=1)
     a2.set_xticks(
         xs, [f"{int(s)}–{str(int(s) + 1)[-2:]}\nn = {v['n']}" for s, v in seasons]
     )
@@ -1075,13 +1315,11 @@ def fig_bands(e22, out: Path) -> Path:
     a2.spines["right"].set_visible(True)
     a2.spines["left"].set_visible(False)
     a2.set_xlabel("Destination season")
-    a2.set_title("By season", loc="left")
-    fig.suptitle(
+    a2.tick_params(axis="x", labelsize=7)
+    panel_name(a2, "By season")
+    headline(
+        fig,
         f"No league's 80% band coverage is distinguishable from 80% (all arrivals: {100 * pooled['coverage']:.1f}%, n = {pooled['n']})",
-        x=0.012,
-        y=0.995,
-        ha="left",
-        fontsize=plt.rcParams["axes.titlesize"],
     )
     fig.subplots_adjust(left=0.265, right=0.94, bottom=0.2, top=0.84)
     return _save(fig, out / "fig_bands.png")
@@ -1104,30 +1342,46 @@ def fig_skills(retention_rows, out: Path) -> Path:
         )
     rows = sorted(rows, key=lambda r: -float(r["retention"]))
     fig, ax = plt.subplots(figsize=(6.5, 3.1))
+    value_grid(ax)
     for i, r in enumerate(rows):
-        for cols, face, dy in (
-            (("retention", "ci_low", "ci_high"), FOCAL, -0.16),
+        # the two rows that the title names are drawn in full colour, the others lighter
+        named = r["component"] in ("tov", "pts")
+        color = FOCAL if named else SOFT
+        for cols, filled, dy in (
+            (("retention", "ci_low", "ci_high"), True, -0.16),
             (
                 ("ratio_of_sums", "ratio_of_sums_ci_low", "ratio_of_sums_ci_high"),
-                "white",
+                False,
                 0.16,
             ),
         ):
             v, lo, hi = (float(r[c]) for c in cols)
-            ax.plot([lo, hi], [i + dy] * 2, color=FOCAL, lw=1.0, zorder=2)
-            ax.plot([v], [i + dy], "o", ms=4.5, mfc=face, mec=FOCAL, mew=0.9, zorder=3)
-    ax.axvline(1.0, color=GREY, lw=0.7, ls="--", zorder=1)
+            ax.plot([lo, hi], [i + dy] * 2, color=color, lw=1.3, zorder=2)
+            ax.plot(
+                [v],
+                [i + dy],
+                "o",
+                ms=5,
+                mfc=color if filled else "white",
+                mec=color,
+                mew=1.0,
+                zorder=3,
+            )
+    ax.axvline(1.0, color=GREY, lw=0.8, ls="--", zorder=1)
     ax.set_yticks(
         range(len(rows)),
         [r["label"][0].upper() + r["label"][1:] for r in rows],
     )
+    for label, r in zip(ax.get_yticklabels(), rows):
+        if r["component"] in ("tov", "pts"):
+            label.set_fontweight("semibold")
     ax.set_ylim(len(rows) - 0.5, -0.6)
     ax.margins(x=0.06)
     ax.set_xlabel(
         "Continental rate as a share of the domestic rate, same player and season (1 = unchanged)"
     )
-    ax.plot([], [], "o", mfc=FOCAL, mec=FOCAL, ms=4.5, label="average of player ratios")
-    ax.plot([], [], "o", mfc="white", mec=FOCAL, ms=4.5, label="ratio of totals")
+    ax.plot([], [], "o", mfc=FOCAL, mec=FOCAL, ms=5, label="average of player ratios")
+    ax.plot([], [], "o", mfc="white", mec=FOCAL, ms=5, label="ratio of sums")
     ax.legend(
         loc="lower left",
         bbox_to_anchor=(0.0, 1.0),
@@ -1223,40 +1477,62 @@ def fig_robustness(r, rb, recipe_names, outcome_names, out: Path) -> Path:
         if group != last:
             y += 0.4 if last is not None else 0
             ax.text(
-                -2.45, y, group, fontsize=7, fontweight="bold", va="center", ha="left"
+                -1.93,
+                y,
+                group,
+                fontsize=8,
+                fontweight="semibold",
+                va="center",
+                ha="left",
             )
             y += 0.9
-        ax.plot([100 * lo, 100 * hi], [y, y], color=FOCAL, lw=1.2)
-        ax.plot([100 * est], [y], "o", color=FOCAL, ms=4)
+        ax.plot([100 * lo, 100 * hi], [y, y], color=FOCAL, lw=1.5, zorder=2)
+        ax.plot(
+            [100 * est], [y], "o", color=FOCAL, ms=5.5, mec="white", mew=0.5, zorder=3
+        )
+        shown = f"{100 * est:+.2f}"
+        ax.text(
+            2.95,
+            y,
+            minus("0.00%" if float(shown) == 0 else shown + "%"),
+            ha="right",
+            va="center",
+            fontsize=7.5,
+            color=FOCAL,
+        )
         ticks.append(y)
         labels.append(label)
         last = group
         y += 1
-    ax.axvspan(-2, 2, color=COMP, alpha=0.22, lw=0)
-    ax.axvline(0, color=GREY, lw=0.6)
+    # the margin: a pale band with its two edges drawn, so that it reads as a range
+    ax.axvspan(-2, 2, color=LIGHT, alpha=0.75, lw=0, zorder=0)
+    for edge in (-2, 2):
+        ax.axvline(edge, color=GREY, lw=0.7, ls=(0, (3, 3)), zorder=1)
+    ax.axvline(0, color=GREY, lw=0.8, zorder=1)
     ax.set_yticks(ticks, labels)
-    ax.set_xlim(-2.5, 2.5)
+    ax.set_xlim(-2.5, 3.05)
+    ax.set_xticks([-2, -1, 0, 1, 2])
     ax.set_ylim(y + 0.4, -0.6)
     ax.set_xlabel("What translation adds, % of the league-aware forecast's error")
     ax.text(
-        0.99,
+        1.93,
         0.01,
         "translation helps →",
         ha="right",
         va="bottom",
-        fontsize=6.5,
+        fontsize=7.5,
         color=GREY,
-        transform=ax.transAxes,
+        transform=ax.get_xaxis_transform(),
     )
     ax.text(
-        0.01,
+        -1.93,
         0.01,
         "← translation hurts",
         ha="left",
         va="bottom",
-        fontsize=6.5,
+        fontsize=7.5,
         color=GREY,
-        transform=ax.transAxes,
+        transform=ax.get_xaxis_transform(),
     )
     ax.set_title("No check in this panel shows translation adding 2% or more")
     fig.subplots_adjust(left=0.42, right=0.98, bottom=0.12, top=0.93)

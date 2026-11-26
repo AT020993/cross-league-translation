@@ -455,7 +455,8 @@ def front_matter(meta, doc: Doc):
         centred(meta["title"], 36, True)
         + centred("", 28)
         + centred(meta["track"], 28)
-        + centred(meta["paper_id"], 28)
+        # the template's line reads "Paper ID"; the number stands behind that label
+        + centred(f"Paper ID: {meta['paper_id']}", 28)
         + f'<w:p><w:pPr>{TAB}<w:jc w:val="both"/>{rpr(22)}</w:pPr></w:p>'
     )
 
