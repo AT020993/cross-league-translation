@@ -9,7 +9,8 @@
     "reference": "the reference as the paper prints it, without the date of access (the renderer adds the date of the full read)",
     "short": "the players the forecast was scored on, as the short form in Related work names them",
     "reports": "what the page reports, in the four points of rule 4: what it forecasts (a clause that follows the analyst's name), on which players and seasons the forecast was scored, whether those players are arrivals, and whether the page reports the forecast's accuracy with and without the league level. Two answers go with the fourth point. reports_accuracy_without_league_level is true for a page that reports, for any players, the accuracy of its forecast without the league level, or beside a forecast that does not know which league a player came from; the short form in Related work says that neither analyst does, so with one such page the renderer prints nothing and the wording goes to Amir first. compares_with_and_without_league_level is true only for a page that reports this for basketball players arriving in or playing in European competitions. With one such page the renderer prints nothing and Amir is told before any writing. The texts describe a page in words other than those the paper keeps for its own test on league changes (\"changed league\", \"league change\", \"domestic move\"); the renderer refuses them",
-    "numbers": "every number of the texts above that is not a year, a season label or the day of a date, by name; the texts hold the names in braces, and the renderer refuses a number typed in a text"
+    "numbers": "every number of the texts above that is not a year, a season label or the day of a date, by name; the texts hold the names in braces, and the renderer refuses a number typed in a text",
+    "read_further": "optional: a later reading that completes the full read (ISO date, by whom and from what, and the statement the paper prints in 'How the search was done' in place of 'read in full on <date>', with {first} and {later} for the two days of reading); the reference then gives both dates of access (Amendment 29)"
   },
   "pages": [
     {
@@ -52,6 +53,11 @@
       "read_in_full_only_after_scoring": true,
       "read_in_full": "2026-11-25",
       "read_by": "Claude Science, from PDF prints that Amir saved from his browser on 25 November 2026, after the score record of the frozen 2026-27 test was committed: the overview (5 pages) and the board in its view for true shooting percentage on its three lists, newcomers, returners and holdovers (20 pages), all text and tables. Not in the prints and not read: the board's views for its six other measures, its closed panel 'How to read this board', the players below the board's sample threshold and the card behind each row",
+      "read_further": {
+        "date": "2026-11-26",
+        "by": "Claude Science, from the page source as the server sent it to one plain request on 26 November 2026 (board file sha256 b3e6f1ebff73d383c34ed3bc4ba00e2b62f276d739073916833f9c1fd5476921, overview file sha256 0e1193af9d176ead5acaf97f23269559aa66431ed5861236f99a4060a05b2edf; the files hold statistics of 2026-27 and are not committed): the page code in full, the record cards of all views, the closed panel 'How to read this board', and the unprinted fields of the record cards (mae, null, besser). The player rows were listed by key and count and not read one by one",
+        "statement": "the overview and the board in its view for true shooting percentage were read on {first}, and the page source of the board, with the accuracy record of every view and the folded panel on how to read the board, on {later}; its player rows were not read one by one, so the reading that was registered as \"in full\" (Appendix N) is complete for the page's text and code and not for each player's row"
+      },
       "ledger_heading": "## 25 November 2026: the Gaussian Hoops pages read in full (Amendment 23, rule 4; Amendment 24)",
       "reference": "Köchling, P. (2026). Basketball projections: expected vs. actual, and EuroLeague 2026–27 player projections: expected vs. actual. *Gaussian Hoops*. https://www.gaussianhoops.com/projections/ and https://www.gaussianhoops.com/projections/euroleague/",
       "short": "EuroLeague players",
@@ -59,7 +65,7 @@
         "forecasts": "projects, for each EuroLeague player of 2026–27, a direction and a range for measures of shooting, rebounding and assists, from earlier players who made the same kind of move at the same level of league",
         "scored_on": "Its calls of direction were scored on EuroLeague players of earlier seasons: it reports {share}% of the calls of its 2025–26 board as right ({right} of {calls}) and, for true shooting percentage, {arrival_share}% across {arrivals} players who had arrived in the EuroLeague; the board states that it was tuned on 2023–24 to 2025–26",
         "arrivals": "Part of the scored players are arrivals: the board keeps its record for newcomers apart from those for returning and staying players, and each record counts calls of direction, not an error in the units of a measure",
-        "with_and_without": "It reports no forecast without the league level and no baseline",
+        "with_and_without": "To a visitor it shows no forecast without the league level and no baseline. Its page data, which the page does not print, hold for each group of players and each measure an error of the projection beside an error of a reference that the page code calls guessing; the page does not define that reference, and nothing on it compares the projection with and without the league level",
         "reports_accuracy_without_league_level": false,
         "compares_with_and_without_league_level": false
       },
@@ -70,7 +76,7 @@
         "arrival_share": "76",
         "arrivals": "84"
       },
-      "status": "Read in full on 25 November 2026, as far as the prints go (see read_by), after the frozen 2026-27 test was scored. Entered in the ledger under the heading above."
+      "status": "Read on 25 November 2026 as far as the prints go (see read_by) and on 26 November 2026 from the page source (see read_further), after the frozen 2026-27 test was scored. Entered in the ledger under the heading above and under '## 26 November 2026: the Gaussian Hoops board read from its page source, and references re-opened'. Amir decided on 26 November 2026 that the unprinted fields are disclosed in Appendix O and that the two statements of rule 4 stand (Amendment 29)."
     }
   ]
 }

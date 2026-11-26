@@ -1,6 +1,6 @@
 {
   "note": "Files changed on the way out of the private repository. source_sha256 is the committed file; published_sha256 is the file here. Nothing else in this section differs from the private repository at the source commit.",
-  "source_commit": "8d58e75d4c8918caa67994b39fa0c3b3960f248e",
+  "source_commit": "98af79beac6daba6716af82d40aaaefc2994598a",
   "files": {
     "scripts/adjudicate_sloan_acb_sources.py": {
       "dropped_columns": [],

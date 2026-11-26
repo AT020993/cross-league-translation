@@ -1,6 +1,6 @@
 # MANIFEST
 
-Cut from the private repository `basketball_analysis` at commit `8d58e75d4c8918caa67994b39fa0c3b3960f248e` (`--fullpaper-cut`).
+Cut from the private repository `basketball_analysis` at commit `98af79beac6daba6716af82d40aaaefc2994598a` (`--fullpaper-cut`).
 Historical and v10 files carried from public commit `fc89c2049d4c52637af78f14151b55cb81f20c28`, git hashes checked.
 
 | file | sha256 | bytes |
@@ -10,8 +10,8 @@ Historical and v10 files carried from public commit `fc89c2049d4c52637af78f14151
 | `DATA_TERMS.md` | `77d64699ad2d8798…` | 4,466 |
 | `LICENSE` | `212f90ef9b966edc…` | 1,068 |
 | `LICENSING.md` | `a32251217220b566…` | 926 |
-| `README.md` | `ae9ea71a405a89b2…` | 13,416 |
-| `REGISTRATION_HASHES.md` | `6850123dfae1af34…` | 13,975 |
+| `README.md` | `7031a4ced3c12a8a…` | 13,426 |
+| `REGISTRATION_HASHES.md` | `e6a7f90f80cf688b…` | 16,355 |
 | `data/processed/predictions/power_p1_as_written_2026.json` | `4ea422a071d27e2d…` | 4,946 |
 | `data/processed/predictions/power_restated_2026.json` | `281935c0c7f35649…` | 1,758 |
 | `data/processed/predictions/translation_factors_2025.csv` | `2a7bede4514cdbbb…` | 2,208 |
@@ -154,13 +154,13 @@ Historical and v10 files carried from public commit `fc89c2049d4c52637af78f14151
 | `src/data/translation_predictions.py` | `c2e5288ba2a46d0f…` | 16,672 |
 | `src/research/__init__.py` | `000b83a84f8cb244…` | 66 |
 | `src/research/gates.py` | `df726f9ab030ad0a…` | 13,659 |
-| `ssac27-fullpaper/README.md` | `c75490cca32c5ed4…` | 29,189 |
-| `ssac27-fullpaper/REDACTIONS.json` | `44610077a14a42d9…` | 4,252 |
+| `ssac27-fullpaper/README.md` | `aec3c7c66a8666e6…` | 29,189 |
+| `ssac27-fullpaper/REDACTIONS.json` | `3baf988884d24c21…` | 4,252 |
 | `ssac27-fullpaper/converter/index.html` | `70a37c70a9935d5d…` | 18,493 |
 | `ssac27-fullpaper/docs/codex/research-generators.json` | `321a3d32593645a5…` | 103,267 |
-| `ssac27-fullpaper/docs/paper/ssac27/manuscript.template.md` | `88b18cf717235828…` | 35,433 |
-| `ssac27-fullpaper/docs/paper/ssac27/paper-numbers.json` | `9ec95eef6297f9b8…` | 2,989,089 |
-| `ssac27-fullpaper/docs/paper/ssac27/prior-work-record.json` | `30a2765ace63a3fd…` | 7,774 |
+| `ssac27-fullpaper/docs/paper/ssac27/manuscript.template.md` | `baa36e8dd04c40b7…` | 37,042 |
+| `ssac27-fullpaper/docs/paper/ssac27/paper-numbers.json` | `0d19881dbb496ac4…` | 3,056,398 |
+| `ssac27-fullpaper/docs/paper/ssac27/prior-work-record.json` | `77199b460fa9e89a…` | 9,798 |
 | `ssac27-fullpaper/docs/paper/ssac27/release.json` | `6e07ddd8813632a0…` | 1,326 |
 | `ssac27-fullpaper/docs/paper/ssac27/rendered/figures/fig1_equivalents.png` | `af26e6f6ecc51188…` | 331,760 |
 | `ssac27-fullpaper/docs/paper/ssac27/rendered/figures/fig2_avoidable.png` | `9a9953fa02597328…` | 109,755 |
@@ -172,8 +172,8 @@ Historical and v10 files carried from public commit `fc89c2049d4c52637af78f14151
 | `ssac27-fullpaper/docs/paper/ssac27/rendered/figures/fig_mechanism.png` | `cd80f2f06bec3b0b…` | 136,680 |
 | `ssac27-fullpaper/docs/paper/ssac27/rendered/figures/fig_skills.png` | `34a643d24d6dbd03…` | 142,862 |
 | `ssac27-fullpaper/docs/paper/ssac27/rendered/figures/fig_stability.png` | `9e830f77a4a43f8a…` | 277,875 |
-| `ssac27-fullpaper/docs/paper/ssac27/rendered/manuscript.md` | `dd793f4bd288e13f…` | 142,248 |
-| `ssac27-fullpaper/docs/paper/ssac27/rendered/render-manifest.json` | `b164472a4b2f5c7f…` | 9,797 |
+| `ssac27-fullpaper/docs/paper/ssac27/rendered/manuscript.md` | `cce2ef9d91423d14…` | 149,431 |
+| `ssac27-fullpaper/docs/paper/ssac27/rendered/render-manifest.json` | `22e81b53a88315d6…` | 9,827 |
 | `ssac27-fullpaper/docs/research/artifacts/sloan-fullpaper-amend1-decisions-2026-11/e10_pair_types.csv` | `fdd8a28ef083ec4f…` | 19,277 |
 | `ssac27-fullpaper/docs/research/artifacts/sloan-fullpaper-amend1-decisions-2026-11/e10_pools.csv` | `4f209a37cf740f2a…` | 3,650 |
 | `ssac27-fullpaper/docs/research/artifacts/sloan-fullpaper-amend1-decisions-2026-11/e11_signed_error_by_league.csv` | `ab3fcb15675fbeb6…` | 6,020 |
@@ -361,7 +361,10 @@ Historical and v10 files carried from public commit `fc89c2049d4c52637af78f14151
 | `ssac27-fullpaper/docs/research/sloan-full-paper-preregistration-amendment-26-2026-11-25.md` | `cd090c0131148f20…` | 20,878 |
 | `ssac27-fullpaper/docs/research/sloan-full-paper-preregistration-amendment-27-2026-11-25.md` | `57162dff30fbb46b…` | 10,454 |
 | `ssac27-fullpaper/docs/research/sloan-full-paper-preregistration-amendment-28-2026-11-26.md` | `d481986f0fd347d6…` | 22,793 |
+| `ssac27-fullpaper/docs/research/sloan-full-paper-preregistration-amendment-29-2026-11-26.md` | `e49f2c09f25f7b7f…` | 51,735 |
 | `ssac27-fullpaper/docs/research/sloan-full-paper-preregistration-amendment-3-2026-11-11.md` | `3c56752d05a537fc…` | 17,466 |
+| `ssac27-fullpaper/docs/research/sloan-full-paper-preregistration-amendment-30-2026-11-26.md` | `0bc7d691790fe933…` | 25,574 |
+| `ssac27-fullpaper/docs/research/sloan-full-paper-preregistration-amendment-31-2026-11-26.md` | `4e6b7cc238cc417c…` | 7,852 |
 | `ssac27-fullpaper/docs/research/sloan-full-paper-preregistration-amendment-4-2026-11-11.md` | `16c68731112fa64a…` | 6,991 |
 | `ssac27-fullpaper/docs/research/sloan-full-paper-preregistration-amendment-5-2026-11-12.md` | `6c478891f8b5e4b3…` | 7,576 |
 | `ssac27-fullpaper/docs/research/sloan-full-paper-preregistration-amendment-6-2026-11-12.md` | `4be2416f22275a19…` | 10,984 |
@@ -376,7 +379,7 @@ Historical and v10 files carried from public commit `fc89c2049d4c52637af78f14151
 | `ssac27-fullpaper/docs/research/sloan-fullpaper-decisions-2026-11-03.md` | `bce2bb0804402c42…` | 19,572 |
 | `ssac27-fullpaper/docs/research/sloan-fullpaper-flexible-2026-11-05.md` | `16f3dfb870ebc013…` | 11,878 |
 | `ssac27-fullpaper/docs/research/sloan-fullpaper-league-changes-2026-11-17.md` | `916a1e24965de413…` | 23,265 |
-| `ssac27-fullpaper/docs/research/sloan-fullpaper-league-changes-chrono-2026-11-19.md` | `e29b33e1d45096f6…` | 5,820 |
+| `ssac27-fullpaper/docs/research/sloan-fullpaper-league-changes-chrono-2026-11-19.md` | `e2174bfc838674e3…` | 5,912 |
 | `ssac27-fullpaper/docs/research/sloan-fullpaper-linkage-audit-2026-11-04.md` | `1915880be93b372a…` | 11,674 |
 | `ssac27-fullpaper/docs/research/sloan-fullpaper-linkage-audit-e25-2026-11-12.md` | `a812b4e60f727ef8…` | 9,934 |
 | `ssac27-fullpaper/docs/research/sloan-fullpaper-p1-scorer-rehearsal-2026-11-17.md` | `05462459dcf290f9…` | 39,395 |
@@ -388,7 +391,7 @@ Historical and v10 files carried from public commit `fc89c2049d4c52637af78f14151
 | `ssac27-fullpaper/scripts/adjudicate_sloan_acb_sources.py` | `948e05a8d43a9740…` | 34,781 |
 | `ssac27-fullpaper/scripts/audit_translation_estimators.py` | `de8f60dde4c946ec…` | 25,368 |
 | `ssac27-fullpaper/scripts/build_league_factors.py` | `0746ac8ae08a67af…` | 49,318 |
-| `ssac27-fullpaper/scripts/build_sloan_fullpaper_docx.py` | `8652704fe9f8c08a…` | 22,754 |
+| `ssac27-fullpaper/scripts/build_sloan_fullpaper_docx.py` | `3ce7595d827c2433…` | 24,176 |
 | `ssac27-fullpaper/scripts/calibrate_prediction_intervals.py` | `5c8d2aa4578b5b17…` | 25,474 |
 | `ssac27-fullpaper/scripts/compare_translation_designs.py` | `b8b56b50fee15ae6…` | 20,197 |
 | `ssac27-fullpaper/scripts/fonts/source-sans-pro/LICENSE.txt` | `653aaf9819e33cf1…` | 4,628 |
@@ -397,12 +400,12 @@ Historical and v10 files carried from public commit `fc89c2049d4c52637af78f14151
 | `ssac27-fullpaper/scripts/fonts/source-sans-pro/SourceSansPro-Regular.ttf` | `b77f3a700edd0fc0…` | 293,956 |
 | `ssac27-fullpaper/scripts/fonts/source-sans-pro/SourceSansPro-Semibold.ttf` | `b440fd42fd5a54e1…` | 292,404 |
 | `ssac27-fullpaper/scripts/league_factor_pooling.py` | `a933dea510af14c4…` | 9,424 |
-| `ssac27-fullpaper/scripts/render_sloan_fullpaper.py` | `89840bcd0b5b884e…` | 456,757 |
+| `ssac27-fullpaper/scripts/render_sloan_fullpaper.py` | `4f475cf0921e8271…` | 473,351 |
 | `ssac27-fullpaper/scripts/report_sloan_fullpaper_amend11.py` | `bb78cdff49093233…` | 17,125 |
 | `ssac27-fullpaper/scripts/report_sloan_fullpaper_amend3.py` | `1542b26805a80bdd…` | 24,268 |
 | `ssac27-fullpaper/scripts/report_sloan_fullpaper_amend9.py` | `ff0fb0be76de7c6b…` | 18,207 |
 | `ssac27-fullpaper/scripts/report_sloan_fullpaper_league_changes.py` | `f04162d611e54b79…` | 32,130 |
-| `ssac27-fullpaper/scripts/report_sloan_fullpaper_league_changes_chrono.py` | `299f2c30e489c2f6…` | 13,298 |
+| `ssac27-fullpaper/scripts/report_sloan_fullpaper_league_changes_chrono.py` | `384c37af441912de…` | 13,390 |
 | `ssac27-fullpaper/scripts/report_sloan_fullpaper_published_tables.py` | `d49d9d4d73b1b9e2…` | 20,779 |
 | `ssac27-fullpaper/scripts/reproduce_sloan_fullpaper_public.py` | `24a9fad61ff56b89…` | 49,314 |
 | `ssac27-fullpaper/scripts/revalidate_sloan_sources.py` | `079f9982dea7a661…` | 22,124 |

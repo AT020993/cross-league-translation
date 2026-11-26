@@ -31,8 +31,8 @@
   "e30_case": "clear",
   "figures_main_text": 3,
   "inputs": {
-    "docs/paper/ssac27/manuscript.template.md": "88b18cf71723582895433b6a8a2a1684b5630d30fab7cbe6b8b1fa2de822f996",
-    "docs/paper/ssac27/prior-work-record.json": "30a2765ace63a3fdd9e1f7aaad9c42e2393e29d9c0cb9f2ba9849ded2811d472",
+    "docs/paper/ssac27/manuscript.template.md": "baa36e8dd04c40b714bbdea3e53876602eeadae66a95b7376794b2088841f7ce",
+    "docs/paper/ssac27/prior-work-record.json": "77199b460fa9e89af450b5239c3262cf9f9e1c818dce63c6dd88be783b6d76ec",
     "docs/paper/ssac27/release.json": "6e07ddd8813632a0cd268c74f062da625118410b0d7d5f22e548a5c7539b6591",
     "docs/research/artifacts/sloan-fullpaper-amend1-decisions-2026-11/e10_pair_types.csv": "fdd8a28ef083ec4f044fe8e6192ab55cf14edc20935cab23f3427a05983e88cf",
     "docs/research/artifacts/sloan-fullpaper-amend1-decisions-2026-11/e11_signed_error_by_league.csv": "ab3fcb15675fbeb6199b80f23ff14bf51bf6fed037b717dbc555933c6f2e5d57",
@@ -89,8 +89,8 @@
     "fig_mechanism": "cd80f2f06bec3b0ba47a00534125106100e34c1d9b461785de48c25ad2086458",
     "fig_skills": "34a643d24d6dbd033281e2a1399fe5d260b712a2e6ec3ef0a3bce3b36bd622ba",
     "fig_stability": "9e830f77a4a43f8a88be03dbabc2d82fcc69b7588cf603c60f09650f51bba4f1",
-    "manuscript.md": "dd793f4bd288e13fa43f5cf5592a2b7d554f6c2a6857213665ea1428217c4272",
-    "ssac27-paper-47.docx": "30e33e6621de6121af036fed4a3b3f1d4472061a73b38933605607ed9f5582d6"
+    "manuscript.md": "cce2ef9d91423d14c40082f099db9ac8cf16c14e17f3dfbcd56fc11f57ca48fb",
+    "ssac27-paper-47.docx": "069b715907b7b4ee764da840cf678b380d6f44bb6ed6079e4000f2ad4eb26aa4"
   },
   "p1_scored": false,
   "p1_status": "inconclusive",
@@ -154,6 +154,8 @@
     "amend21",
     "amend27",
     "amend28",
+    "amend29",
+    "amend30",
     "amend24",
     "myrte2026",
     "dinsdale2022",
@@ -162,5 +164,5 @@
     "yeh2022"
   ],
   "title": "European League Equivalents: One Number per League, Tested on League Changes It Was Never Fitted To",
-  "words_main_text": 6997
+  "words_main_text": 7401
 }

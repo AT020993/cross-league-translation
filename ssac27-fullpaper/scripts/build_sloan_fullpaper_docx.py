@@ -464,6 +464,30 @@ def front_matter(meta, doc: Doc):
 # ---------------------------------------------------------------------- package
 
 
+def drop_template_leftovers(parts: dict) -> None:
+    """Parts of the conference template that are not part of a paper (Amendment 29, rule 5): a
+    hidden task pane of a Word add-in, with its relationship and content types, and the template's
+    sample footnote, which no paragraph of the paper refers to."""
+    for name in [n for n in parts if n.startswith("word/webextensions/")]:
+        del parts[name]
+    rels = parts["_rels/.rels"].decode("utf-8")
+    rels = re.sub(r"<Relationship [^>]*webextensiontaskpanes[^>]*/>", "", rels)
+    parts["_rels/.rels"] = rels.encode("utf-8")
+    types = parts["[Content_Types].xml"].decode("utf-8")
+    types = re.sub(r'<Override PartName="/word/webextensions/[^>]*/>', "", types)
+    parts["[Content_Types].xml"] = types.encode("utf-8")
+    if "webextension" in rels or "webextension" in types:
+        raise BuildError("the add-in task pane of the template is still referenced")
+    if "<w:footnoteReference" not in parts["word/document.xml"].decode("utf-8"):
+        notes = parts["word/footnotes.xml"].decode("utf-8")
+        notes, n = re.subn(
+            r'<w:footnote w:id="1">.*?</w:footnote>', "", notes, flags=re.S
+        )
+        if n != 1 or "Footnotes are permitted" in notes:
+            raise BuildError("the sample footnote of the template was not found once")
+        parts["word/footnotes.xml"] = notes.encode("utf-8")
+
+
 def build(manuscript: Path, template: Path, out: Path, pandoc="pandoc") -> dict:
     meta, body = parse_front_matter(manuscript.read_text(encoding="utf-8"))
     doc = Doc(omml_from_pandoc(latex_equations(body), pandoc))
@@ -495,6 +519,8 @@ def build(manuscript: Path, template: Path, out: Path, pandoc="pandoc") -> dict:
     ).encode()
     for part, data in doc.media:
         parts[f"word/{part}"] = data
+
+    drop_template_leftovers(parts)
 
     core = parts["docProps/core.xml"].decode("utf-8")
     core = re.sub(

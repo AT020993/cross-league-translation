@@ -34,7 +34,7 @@ EVENTS = (
     "Amendment 22 was written on 19 November 2026, after the league-changes test (E30) had been scored and its sensitivities seen. Amir accepted it; it was pushed alone (commit `1e69136a`, 18:28:29 UTC) and merged into `main` (pull request #3684, `22e3a414`).",
     "The generator and its tests on made-up frames were written after that push and committed (commit `3c4ddc27`). Before the commit, the gates that read no outcome were tried once outside a retained run; they passed.",
     "The gates were run as retained run `league-changes-chrono-gates-01` and their record committed (commit `f5b68ffc`). The run reads no rate of a league changer: of the scored file it reads the key, the season and the two leagues.",
-    "The row of Amendment 22 was added to the public hash list (public commit `b183a0b`, tag `registration-hashes-2026-11-19a`, 19 November 2026, about 19:10 UTC).",
+    "The row of Amendment 22 was added to the public hash list (public commit `b183a0b`, tag `registration-hashes-2026-11-19a`, 19 November 2026, about 19:10 UTC; the tag was removed on 26 November 2026 with the other earlier tags, and the commit stands).",
     "E33 was then run once, as retained run `league-changes-chrono-01`. No rule was changed after the result was seen, and no other variant of the check was run.",
 )
 CASES = {
