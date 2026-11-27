@@ -371,6 +371,18 @@ def reload_flags() -> dict[str, bool]:
     return status
 
 
+def read_flag_from_env(name: str) -> bool:
+    """Read one flag straight from the environment, without touching globals.
+
+    For callers that must honour a live ``os.environ`` change but must not
+    reload every flag (``reload_flags`` is for the ops endpoint only).
+    """
+    for attr, env_var, default in _FLAG_DEFS:
+        if attr == name:
+            return _read_flag(env_var, default)
+    raise KeyError(name)
+
+
 def get_flag(name: str) -> bool:
     """Read a single flag's current value (hot-reload aware)."""
     import src.config.features as _self

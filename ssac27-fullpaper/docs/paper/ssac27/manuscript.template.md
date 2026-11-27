@@ -14,13 +14,13 @@ A club comparing players from different domestic leagues must ask what a box sco
 
 **The benchmark and its test.** A forecast that knows the destination but not the source league underrates arrivals from {{under_names}} and overrates arrivals from {{over_names}} (Figure 2); **one number per source league** flattens that pattern. These are the **European League Equivalents** (Figure 1, {{eq_table}}): when career history equals the domestic rate, {{hook_short}}.{{e30_intro}}
 
-**What a translation factor adds.** A translation factor does help a forecast that ignores both leagues, by {{hist_gain}} EFF/36. Weighted by playing time, translation's gain over history is not clearly above zero ({{mw_hist}}, 95% interval {{mw_hist_lo}} to {{mw_hist_hi}}). On top of the league numbers, a translation factor adds nothing detectable: {{inc_both}} (Figure 3 draws the first).
+**What a translation factor adds.** A translation factor does help a forecast that ignores both leagues, by {{hist_gain}} EFF/36. Weighted by playing time, translation's gain over history is not clearly above zero ({{mw_hist}}, 95% interval {{mw_hist_lo}} to {{mw_hist_hi}}). On top of the league numbers, a translation factor adds nothing detectable: {{inc_both}} (the first is shown in Figure 3).
 
 ![Figure 1. The European League Equivalents and their test. Left: domestic EFF/36 equivalent to 16 in Spain when career and domestic rates coincide (filled: EuroLeague; open: EuroCup; lines: 95% intervals; n: training arrivals, {{e9_seasons}}); leagues inside a tier are not distinguishable, which does not prove that they are equal.{{e30_fig1}}](figures/fig1_equivalents.png)
 
 {{club_first_page}}
 
-**What these results do not show.** The table is for comparing players, not for forecast levels: the forecasts run low, by {{lvl_off_abs}} EFF/36 on average for the league-aware forecast, the one that uses the league numbers ({{lvl_w_abs}} weighted by playing time). On the arrivals of 2020–2025, {{e28_gd_sentence}}{{gain_share_clause}}; {{e28_abs_older}}, and {{p1_s2_intro}}. {{p1_examined}}.
+**What these results do not show.** The table is for comparing players, not for forecast levels: the forecasts fall below the outcomes, by {{lvl_off_abs}} EFF/36 on average for the league-aware forecast, the one that uses the league numbers, and by {{lvl_w_abs}} when weighted by playing time. On the arrivals of 2020–2025, {{e28_gd_sentence}}{{gain_share_clause}}; {{e28_intro_older}}, and {{p1_s2_intro}}. {{p1_examined}}.
 
 ## Data and methods
 
@@ -28,15 +28,15 @@ A club comparing players from different domestic leagues must ask what a box sco
 
 The unit of study is an arrival: a player who enters EuroLeague or EuroCup with at least eight domestic games in the preceding season, at least eight continental games in the arrival season, and no regular continental role in the preceding season. The {{n_anchor}} arrivals in destination seasons 2020–2025 comprise {{n_el}} EuroLeague and {{n_ec}} EuroCup players. A season is named by the year in which it starts, so 2020–2025 stands for the six seasons 2020–21 to 2025–26. Domestic statistics come from Proballers, continental ones from the EuroLeague API. Without the rule of eight continental games there are {{n_all}} arrivals; the rule excludes {{n_short}} of them ({{short_share}}), who played one to seven continental games.
 
-The outcome, EFF per 36 minutes, is points, rebounds, assists, steals and blocks minus missed shots and turnovers. It is the EuroLeague's Performance Index Rating without fouls drawn, fouls committed and shots rejected. One EFF/36 is one more point, rebound, assist, steal or block, or one fewer missed shot or turnover, per 36 minutes; a made two-point basket adds two. Points per 36, Game Score per 36 [@gamescore] and EFF per 100 on-court possessions [@kubatko2007] are checks. Mean absolute error (MAE) is primary.
+The outcome, EFF per 36 minutes, is points, rebounds, assists, steals and blocks minus missed shots and turnovers. It is the EuroLeague's Performance Index Rating without fouls drawn, fouls committed and shots rejected. One EFF/36 is one more point, rebound, assist, steal or block, or one fewer missed shot or turnover, per 36 minutes; a made two-point basket adds two. Points per 36, Game Score per 36 [@gamescore] and EFF per 100 on-court possessions [@kubatko2007] serve as checks. The primary measure of accuracy is mean absolute error (MAE).
 
 ### Forecasts and estimation
 
-Each season uses only earlier seasons for fitting; the fit behind {{eq_table}} uses all {{n_train}} arrivals of {{e9_seasons}} (the training arrivals). Start with last season's domestic rate x, earlier career rate h and the flag a = 1[x > h]. Add destination, then one number for each source league. We call these three the history-only, the destination-only and the league-aware forecast; each can be fitted without or with translation. The translation feature z scales x by a rate ratio for the source league and the destination, estimated from players observed in both in the same season (Appendix L gives the formulas).
+The forecasts for each season are fitted on earlier seasons only; the fit behind {{eq_table}} uses all {{n_train}} arrivals of {{e9_seasons}} (the training arrivals). The first forecast uses last season's domestic rate x, the earlier career rate h and the flag a = 1[x > h]. The second adds the destination, and the third adds one number for each source league. We call these three the history-only, the destination-only and the league-aware forecast; each can be fitted without or with translation. The translation feature z scales x by a rate ratio for the source league and the destination, estimated from players observed in both in the same season (Appendix L gives the formulas).
 
 $$\hat y = \beta_0+\beta_1 x+\beta_2 h+\beta_3 a + D(\gamma_0+\gamma_1 x)+\sum_{\ell}\delta_\ell\,\mathbf 1[\text{source}=\ell]\;\;(+\,\theta z)$$ {#eq:model}
 
-D = 1 for a EuroLeague destination and 0 for EuroCup; δ is the source-league offset, the league number of the title. The ten league numbers are the conversion table ({{eq_table}}); a league's Equivalent restates its league number as the domestic EFF/36 that forecasts like a 16 in Spain's ACB when career history equals the domestic rate, once for a EuroLeague arrival and once for a EuroCup arrival. Ridge penalties λ = 1, 10 and 100 were fixed in advance, with λ = 10 primary.
+D = 1 for a EuroLeague destination and 0 for EuroCup; δ is the source-league offset, the league number of the title. The ten league numbers are the conversion table ({{eq_table}}); a league's Equivalent restates its league number as the domestic EFF/36 that gives the same continental forecast as 16 in Spain's ACB when career history equals the domestic rate, once for a EuroLeague arrival and once for a EuroCup arrival. Ridge penalties λ = 1, 10 and 100 were fixed in advance, with λ = 10 primary.
 
 ### Comparisons and uncertainty
 
@@ -54,19 +54,19 @@ The analyses beyond the submitted abstract were registered before execution [@pr
 
 League by league, a forecast that knows the destination but not the source league underrates arrivals from {{under_names}} and overrates arrivals from {{over_names}}, measured against the average arrival (Figure 2). {{e24_primary}} The spread of league biases falls from {{spread_d}} to {{spread_o}} EFF/36; sampling noise inflates both levels, so we read the difference, whose interval lies above zero (the interval is in Appendix K). The league table does not remove all bias.
 
-![Figure 2. Where a forecast blind to the source league goes wrong, and how far one number per league flattens it. Each league's mean signed error (forecast minus actual EFF/36) minus that of all arrivals, with 95% cluster-bootstrap intervals; leagues in the order of {{eq_table}}. Grey: a forecast that knows the destination but not the source league. Blue: the league-aware forecast. Asterisk: grey bias detectable after Holm adjustment across the ten leagues{{fig2_notes}}](figures/fig4_bias.png)
+![Figure 2. League biases of a forecast that does not know the source league, and how far one number per league flattens them. Each league's mean signed error (forecast minus actual EFF/36) minus that of all arrivals, with 95% cluster-bootstrap intervals; leagues in the order of {{eq_table}}. Grey: a forecast that knows the destination but not the source league. Blue: the league-aware forecast. Asterisk: grey bias detectable after Holm adjustment across the ten leagues{{fig2_notes}}](figures/fig4_bias.png)
 
 **What the league numbers are worth.** On the same {{n_anchor}} arrivals of 2020–2025, {{e28_gh_sentence}}, and {{e28_gd_sentence}}. {{e28_weighted_sentence}} All four are exploratory: added after a review of the paper, on seasons already examined. They did not carry back to older arrivals (below). For the two unweighted gains only the intervals are new, since those point estimates could be read off Table A24 [@amend9] (by competition and season: Table A19).{{gain_size}}
 
-**Why the average gain is small.** The largest detectable league bias is {{bias_top}} EFF/36 ({{bias_top_name}}), but a single forecast misses by {{mae_off10}} on average, so moving it by a league's bias changes its error little. Against the history-only forecast, {{e21_sentence}} (interval {{lt_right_lo}} to {{lt_right_hi}}).
+**Why the average gain is small.** The largest detectable league bias is {{bias_top}} EFF/36 ({{bias_top_name}}), but the mean absolute error of the forecasts is {{mae_off10}}, so moving one forecast by a league's bias changes its error little. Against the history-only forecast, {{e21_sentence}} (interval {{lt_right_lo}} to {{lt_right_hi}}).
 
-**The forecasts run low.** On average the league-aware forecast is {{lvl_off_abs}} EFF/36 below what arrivals delivered (interval {{lvl_off_lo}} to {{lvl_off_hi}}), most in the latest season. {{lvl_w_sentence}}; this interval is two-way clustered, where the first is a cluster bootstrap [@amend12]. The other forecasts share the shortfall (Appendix K; Table A10), so same-player comparisons stand, but forecast levels need care in decisions. {{lvl_by_competition}} We claim no cause.
+**The forecasts fall below the outcomes.** On average the league-aware forecast is {{lvl_off_abs}} EFF/36 below what arrivals delivered (interval {{lvl_off_lo}} to {{lvl_off_hi}}), most in the latest season. {{lvl_w_sentence}}; this interval is two-way clustered, where the first is a cluster bootstrap [@amend12]. The other forecasts share the shortfall (Appendix K; Table A10), so same-player comparisons stand, but forecast levels need care in decisions. {{lvl_by_competition}} We claim no cause.
 
 ### {{translation_heading}}
 
-Translation reduces history-only MAE from {{mae_hist}} to {{mae_hist_z}} EFF/36 (a gain of {{hist_gain}}, {{hist_gain_pct}}; interval {{hist_gain_lo}} to {{hist_gain_hi}}). Adding destination leaves a translation gain of {{d_dest}} ({{dest_lo}} to {{dest_hi}}); adding the league numbers leaves {{d_inc10}} ({{inc10_lo}} to {{inc10_hi}}; a difference of {{inc10_mde}} would have been detected with 80% power; Figure 3; Table A24 has every row).
+Translation reduces history-only MAE from {{mae_hist}} to {{mae_hist_z}} EFF/36 (a gain of {{hist_gain}}, {{hist_gain_pct}}; interval {{hist_gain_lo}} to {{hist_gain_hi}}). Adding the destination leaves a translation gain of {{d_dest}} (interval {{dest_lo}} to {{dest_hi}}); adding the league numbers leaves {{d_inc10}} (interval {{inc10_lo}} to {{inc10_hi}}; a difference of {{inc10_mde}} would have been detected with 80% power). Figure 3 shows these results, and Table A24 has every row.
 
-![Figure 3. Why translation looks useful, and what it adds once a forecast knows the leagues. Left: forecast error (MAE, EFF/36) on the same {{n_anchor}} arrivals without (grey) and with (blue) the translation feature; the label gives both values. Right: the gain from translation with its 95% interval, clustered by player and destination club-season.](figures/fig_mechanism.png)
+![Figure 3. Forecast error with and without translation, and what translation adds once a forecast knows the leagues. Left: forecast error (MAE, EFF/36) on the same {{n_anchor}} arrivals without (grey) and with (blue) the translation feature; the label gives both values. Right: the gain from translation with its 95% interval, clustered by player and destination club-season.](figures/fig_mechanism.png)
 
 Translation's increment on top of the league numbers is close to a built-in comparison: the translation term is the domestic rate times a factor for each source league and destination, all of which the league-aware forecast already holds, so a small increment is partly expected. It shows that the factor adds nothing detectable once a forecast has the league numbers, not which kind of league information is the better one.
 
@@ -74,9 +74,9 @@ The comparison that is not built in sets the league-aware forecast without trans
 
 Both the head-to-head interval and translation's incremental interval lie inside ±{{margin_eff}} EFF/36, 2% of forecast error [@lakens2017]. That margin was registered for translation's increment, after the submitted recipe's interval had been seen, so it is descriptive for the submitted recipe, the one behind the results above, and for the head-to-head. Put against the gain from knowing the source league, {{e28c_sentence}} (descriptive), so "inside the margin" is a coarse statement on that scale (Appendix J discusses the margin).
 
-**Other outcomes, seasons and richer models.** The same pattern appears on three other outcomes and in most seasons (described, not tested; Appendix J, with the six factor recipes, the pair slopes and the share of translation's gain that league context recovers). {{flex_clause}} (Appendix E: Table A5); that model was fixed and untuned, so this does not bound what a tuned model could do.
+**Other outcomes, seasons and richer models.** The same pattern appears on three other outcomes and in most seasons; this is described, not tested. Appendix J reports it, with the six factor recipes, the pair slopes and the share of translation's gain that league context recovers. {{flex_clause}} (Appendix E: Table A5); that model was fixed and untuned, so this does not bound what a tuned model could do.
 
-**Playing time changes the emphasis.** Weighted by destination minutes, translation's gain over history falls to {{mw_hist}} (interval {{mw_hist_lo}} to {{mw_hist_hi}}), which spans zero, while the league-aware forecast keeps a small point-estimate advantage ({{mw_ch}}) and the increment stays small ({{mw_inc}}) (Table A18); the unweighted analysis is primary and does not demonstrate equal benefit for starters and fringe players.
+**Weighting by playing time.** Weighted by destination minutes, translation's gain over history falls to {{mw_hist}} (interval {{mw_hist_lo}} to {{mw_hist_hi}}), which spans zero, while the league-aware forecast keeps a small point-estimate advantage ({{mw_ch}}) and the increment stays small ({{mw_inc}}; Table A18). The unweighted analysis is primary and does not demonstrate equal benefit for starters and fringe players.
 
 ### Modest ranking gains, no demonstrated shortlist gain
 
@@ -96,7 +96,7 @@ For pairs of arrivals from different source leagues, the league-aware forecast o
 
 ## What a club can use
 
-**European League Equivalents.** {{eq_table}} gives, for each source league, the domestic EFF/36 that forecasts like a 16 in Spain's ACB when career history equals the domestic rate (Figure 1). The league numbers describe players selected for continental recruitment, not pure league strength. {{e19_sentence}} The refits share most of their data, so this describes stability, not independent validation (Appendix H: Figure A3, Table A11).{{gaps_grew}}
+**European League Equivalents.** {{eq_table}} lists, for each source league, the domestic EFF/36 that gives the same continental forecast as 16 in Spain's ACB when career history equals the domestic rate (Figure 1). The league numbers describe players selected for continental recruitment, not pure league strength. {{e19_sentence}} The refits share most of their data, so this describes stability, not independent validation (Appendix H: Figure A3, Table A11).{{gaps_grew}}
 
 {{table:equivalents}}
 
@@ -104,7 +104,7 @@ For pairs of arrivals from different source leagues, the league-aware forecast o
 
 {{eq_fitted}}
 
-Here x is last season's domestic EFF/36 and h the career rate before it (all earlier games on record; h = x for a player with no earlier season); a = 1 when x is above h, D = 1 for a EuroLeague destination and δ is the league number of {{eq_table}}. {{eq_step}} The equation is for EuroLeague and EuroCup arrivals from these ten leagues, and the limits above travel with it: the forecasts run low, the league numbers did not carry back to the older arrivals of two leagues, and they describe the players clubs sign from a league, not league strength. Appendix L: full definitions and rounding bound.
+Here x is last season's domestic EFF/36 and h the career rate before it (all earlier games on record; h = x for a player with no earlier season); a = 1 when x is above h, D = 1 for a EuroLeague destination and δ is the league number of {{eq_table}}. {{eq_step}} The equation is for EuroLeague and EuroCup arrivals from these ten leagues, and the limits stated above apply to it: the forecasts fall below the outcomes on average, the league numbers did not carry back to the older arrivals of two leagues, and they describe the players clubs sign from a league, not league strength. Appendix L gives the full definitions and the rounding bound.
 
 {{club_example_short}} Appendix L shows how to compare recruits with different histories.
 
@@ -112,7 +112,7 @@ Here x is last season's domestic EFF/36 and h the career rate before it (all ear
 
 **Individual uncertainty.** Walk-forward conformal intervals [@lei2018; @barber2023] for the league-aware forecast cover {{e8_cov80}} of {{e8_n}} arrivals at the nominal 80% level (about ±{{e8_hw80}} EFF/36); seasonal coverage ranges from {{e8_cov80_min}} to {{e8_cov80_max}} and is lowest in {{lvl_last_season}}. These wide intervals argue for scouting alongside statistical comparisons (Appendix H; cases in Appendix G).
 
-**Who gets to play?** The {{n_short}} of {{n_all}} arrivals with fewer than eight games had a median continental EFF/36 of {{short_cont_rate}}, compared with {{anchor_cont_rate}} among qualifiers (Tables A6–A7). A club using the rate forecast still needs a view on playing time.
+**Arrivals with few games.** The {{n_short}} of {{n_all}} arrivals with fewer than eight games had a median continental EFF/36 of {{short_cont_rate}}, compared with {{anchor_cont_rate}} among qualifiers (Tables A6–A7). A club using the rate forecast still needs a view on playing time.
 
 ## Related work
 
@@ -120,7 +120,7 @@ Here x is last season's domestic EFF/36 and h the career rate before it (all ear
 
 ## Limitations
 
-**Exploratory seasons.** The 2020–2025 outcomes had been examined before these analyses, so those results are exploratory despite pre-registration. **Sample.** It is EuroCup-heavy ({{n_ec}} of {{n_anchor}} arrivals), requires eight continental games, and holds players clubs chose to sign, so the league numbers describe those choices as much as league strength; the Equivalents hold along the profile where career history equals the domestic rate. {{e30_limits}}
+**Exploratory seasons.** The 2020–2025 outcomes had been examined before these analyses, so those results are exploratory despite pre-registration. **Sample.** The sample is predominantly EuroCup ({{n_ec}} of {{n_anchor}} arrivals), requires eight continental games, and consists of players whom clubs chose to sign, so the league numbers describe those choices as much as league strength; the Equivalents hold along the profile where career history equals the domestic rate. {{e30_limits}}
 
 **Forecast level.** On average the league-aware forecast is {{lvl_off_abs}} EFF/36 below what arrivals delivered, most in the latest season; weighted by playing time, the league-aware forecast is {{lvl_w_abs}} EFF/36 below what arrivals delivered; we do not know the cause, and the frozen 2026–27 forecasts may share it. **Weighting.** Weighted by minutes, translation's gain over history is not clearly above zero, on the main sample and on a wider one (Table A18). {{e28_limits}}
 
@@ -132,7 +132,7 @@ Here x is last season's domestic EFF/36 and h the career rate before it (all ear
 
 ## Conclusion
 
-On arrivals of 2020–2025 a forecast that ignores the source league misjudges whole leagues, and one number per league flattens that pattern. The European League Equivalents print those numbers as a table: when career history equals the domestic rate, {{hook_short}}. {{e30_conclusion}}On top of the league numbers a translation factor adds nothing detectable: {{inc_both}}. The league numbers need only past arrivals ({{n_train}} here), not the {{n_factor_pairs}} same-season pairs that translation factors need. On arrivals of 2020–2025, {{e28_gd_sentence}}; {{e28_conclusion}}{{p1_s2_conclusion}}. {{p1_examined}}; the ranking gain is modest and no top-10 gain was demonstrated. Forecasts frozen on 3 November 2026, after the season began but before outcome inspection, {{p1_summary}}.
+On arrivals of 2020–2025 a forecast that ignores the source league misjudges whole leagues, and one number per league flattens that pattern. The European League Equivalents present those numbers as a table: when career history equals the domestic rate, {{hook_short}}. {{e30_conclusion}}On top of the league numbers a translation factor adds nothing detectable: {{inc_both}}. The league numbers need only past arrivals ({{n_train}} here), not the {{n_factor_pairs}} same-season pairs that translation factors need. On arrivals of 2020–2025, {{e28_gd_sentence}}; {{e28_conclusion}}{{p1_s2_conclusion}}. {{p1_examined}}; the ranking gain is modest and no top-10 gain was demonstrated. Forecasts frozen on 3 November 2026, after the season began but before outcome inspection, {{p1_summary}}.
 
 ## Data and code
 
@@ -156,7 +156,7 @@ On arrivals of 2020–2025 a forecast that ignores the source league misjudges w
 
 ![Figure A2. Top: change in ordering accuracy versus history alone, for pairs from different or the same source league (blue: the league-aware forecast; grey: history plus translation). Bottom: accuracy among rankings changed by adding translation to the league-aware forecast (blue) and to history alone (grey) (50% = coin flip). Lines: 95% cluster-bootstrap intervals.](figures/fig3_decisions.png)
 
-![Figure A3. The Equivalents in each yearly refit. Each line is one source league: the domestic EFF/36 that forecasts like a 16 in Spain's ACB when the table is refitted on the arrivals before each destination season, for EuroLeague arrivals (left) and EuroCup arrivals (right). Colour: the league's tier in the full fit. Dashed line: Spain's ACB, the reference. The refits share most of their data, so the figure describes stability and is not independent validation.](figures/fig_stability.png)
+![Figure A3. The Equivalents in each yearly refit. Each line is one source league: the domestic EFF/36 that gives the same continental forecast as 16 in Spain's ACB when the table is refitted on the arrivals before each destination season, for EuroLeague arrivals (left) and EuroCup arrivals (right). Colour: the league's tier in the full fit. Dashed line: Spain's ACB, the reference. The refits share most of their data, so the figure describes stability and is not independent validation.](figures/fig_stability.png)
 
 **The gap guide and the error bands.** Table A25 holds the guide to forecast gaps of the main text, and Figure A4 draws it beside the same guide for history alone. For scale on the ordering result, a forecaster who knew every player's true rate would order {{x_ceiling}} of cross-league pairs (interval {{x_ceiling_lo}} to {{x_ceiling_hi}}; normal-noise model), so most of the remaining gap stays open. At the 95% level the conformal intervals cover {{e8_cov95}} of arrivals (about ±{{e8_hw95}} EFF/36); Figure A5 shows the 80% coverage by source league and by season.
 

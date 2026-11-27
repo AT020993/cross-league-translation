@@ -3,9 +3,9 @@
 *European League Equivalents: One Number per League, Tested on League Changes It Was Never Fitted To* (Paper ID 47, Amir Tahori).
 
 This folder holds what the full paper needs: the paper as rendered, its template and renderer,
-the pre-registration and its 31 amendments, the results notes, every committed result file of the
+the pre-registration and its 32 amendments, the results notes, every committed result file of the
 full-paper analyses, the analysis code as run, and the derived tables the results are recomputed
-from. It was cut from the private research repository at commit `98af79beac6daba6716af82d40aaaefc2994598a`.
+from. It was cut from the private research repository at commit `09ee1dd40fa327511abbf0a9dd473c0d6bd368a3`.
 
 ## Two tools you can use without reading the paper
 

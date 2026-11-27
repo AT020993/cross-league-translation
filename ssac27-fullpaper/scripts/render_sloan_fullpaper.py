@@ -360,6 +360,7 @@ OPTIONAL_REFERENCES = {
     "amend24": "Pre-registration Amendment 24: when the pages that show current-season statistics are read if the frozen test ends inconclusive (2026). Commit 8175f92, pushed 22 November 2026, 20:01 UTC, before the scoring of the frozen 2026–27 test; it adds no analysis and no number. Full-paper companion materials (release status in Data and code), https://github.com/AT020993/cross-league-translation",
     "amend25": "Pre-registration Amendment 25: how the scored frozen test is shown: one figure of its contrasts, the read-out of the league numbers where the paper promises it, the ordering sentence in the main text, and a sentence where an interval excludes the earlier estimate (2026). Commit d4aa4bc, pushed 24 November 2026, 08:51 UTC, before the scoring of the frozen 2026–27 test and after blind readers had read the paper composed from rehearsal records with made-up outcomes; it adds no analysis and changes no verdict. Full-paper companion materials (release status in Data and code), https://github.com/AT020993/cross-league-translation",
     "amend27": "Pre-registration Amendment 27: one sentence that points from the comparison with a published league table to its exploratory reading on the older arrivals (2026). Commit 38574fb, pushed 25 November 2026, 12:12 UTC, after E34 was run, with its values known (commit 60b03c5 of the same day added a specification table and changed nothing above it); it registers nothing in advance, adds no analysis and changes no number. Full-paper companion materials (release status in Data and code), https://github.com/AT020993/cross-league-translation",
+    "amend32": "Pre-registration Amendment 32: twenty-seven passages reworded for register, the appendix tables numbered in the order in which they stand, and values printed on three figures (2026). Commit 25ae7e3, pushed 27 November 2026, 14:59 UTC, after every result was known; it registers nothing in advance, adds no analysis and changes no result. Full-paper companion materials (release status in Data and code), https://github.com/AT020993/cross-league-translation",
     "amend30": "Pre-registration Amendment 30: eighteen corrections after the changes of Amendment 29, made after a fresh reader had checked them against the rest of the paper (2026). Commit 5376608, pushed 26 November 2026, 19:30 UTC, after every result was known; it registers nothing in advance, adds no analysis and changes no result. Full-paper companion materials (release status in Data and code), https://github.com/AT020993/cross-league-translation",
     "amend29": "Pre-registration Amendment 29: the first page reworded after a blind comparison of two first pages, further sentences repaired or added, and two values of a registered read-out printed (2026). Commit 25aba66, pushed 26 November 2026, 18:13 UTC, after every result was known; it registers nothing in advance, adds no analysis and changes no result. Full-paper companion materials (release status in Data and code), https://github.com/AT020993/cross-league-translation",
     "amend28": "Pre-registration Amendment 28: thirteen repaired sentences, four sentences that define the paper's terms, the figures redrawn in one style, and the Paper ID line (2026). Commit e9fd7dc, pushed 26 November 2026, 09:00 UTC, after every result was known; it registers nothing in advance, adds no analysis and changes no number. Full-paper companion materials (release status in Data and code), https://github.com/AT020993/cross-league-translation",
@@ -788,7 +789,7 @@ def facts(d: dict) -> dict:  # noqa: C901 -- one guarded fact per placeholder
         for dst in ("euroleague", "eurocup"):
             if not abs(ex[(lg, dst)] - 16) < 1:
                 raise ClaimError(f"'within one point of Spain' is false for {lg} {dst}")
-    hook_short = "a 16 EFF/36 in Spain's ACB forecasts like about a 19 in Germany, Lithuania or VTB"
+    hook_short = "16 EFF/36 in Spain's ACB gives the same forecast as about 19 in Germany, Lithuania or VTB"
     hook_long = (
         f"For a player whose career history matches his domestic line, a 16 EFF/36 in Spain's ACB forecasts like a "
         f"{ex[('germany-bbl', 'euroleague')]:.1f} in Germany's BBL, a {ex[('lithuania-lkl', 'euroleague')]:.1f} in Lithuania's LKL "
@@ -3494,9 +3495,9 @@ def p1_section(d) -> str:
         f"competitions ({rows:,} rows, each with the forecasts of every model), and committed and pushed them on {META['freeze_time']}, "
         "after the season had begun but before any 2026–27 statistic was read [@prereg]. "
         f"They are scored on continental games through {META['p1_cutoff']}, for newcomers who reach "
-        "eight games; below 60 newcomers the test is descriptive only. The registered directions: translation helps "
-        "against history, the league-aware forecast is at least as good as history plus translation, and translation "
-        "adds nothing to it. Five secondary read-outs were registered "
+        "eight games; below 60 newcomers the test is descriptive only. The registered directions were that translation "
+        "helps against history, that the league-aware forecast is at least as good as history plus translation, and "
+        "that translation adds nothing to it. Five secondary read-outs were registered "
         "on 16 November 2026, after the freeze and before scoring [@amend8]. Two of them test the league numbers "
         "themselves: the league-aware forecast against the forecast that knows only the destination, and the "
         "ordering of cross-league pairs. As registered, we do not expect the first to be detectable in November: "
@@ -4364,11 +4365,12 @@ def older_limits(d) -> str:
             "E27: the league-aware forecast did not run low on older seasons"
         )
     text = (
-        f"**Older-seasons test:** {OLDER_WORDS[len(o['leagues'])]} of the ten leagues; the leagues' own box scores, where "
-        "the benchmark uses Proballers; league numbers estimated about ten years later, with the league-aware forecast "
-        f"{num(-low, 2)} EFF/36 below the outcomes; no earlier season on disk for {pct(o['shares']['without_history'])} "
-        "of arrivals, which can flatter translation against history; and name links by initial, surname and the first "
-        "three letters of the first name. A pass there is not proof for today's leagues, and a miss is not proof "
+        f"**Older-seasons test.** The test covers {OLDER_WORDS[len(o['leagues'])]} of the ten leagues and uses the "
+        "leagues' own box scores, where the benchmark uses Proballers. The league numbers were estimated about ten "
+        f"years later, and the league-aware forecast is {num(-low, 2)} EFF/36 below the outcomes. For "
+        f"{pct(o['shares']['without_history'])} of arrivals no earlier season is on record, which can favour "
+        "translation against history, and names are linked by initial, surname and the first three letters of the "
+        "first name. A pass there is not proof for today's leagues, and a miss is not proof "
         "against them."
     )
     if o["acb_written_permission"]:
@@ -4862,8 +4864,8 @@ def club_tool(d) -> dict:
         "club_example_short": short,
         # Amendment 29, rule 1: the same example on the first page, with the error band beside the gap
         "club_first_page": (
-            f"{FIRST_PAGE_CLUB_HEAD} To compare candidates from different leagues, put each candidate's league number "
-            "into the fitted equation ({{eq_table}}; the equation stands in the section *What a club can use*): of two "
+            f"{FIRST_PAGE_CLUB_HEAD} Candidates from different leagues can be compared by entering each candidate's league "
+            "number in the fitted equation ({{eq_table}}; the equation is given in the section *What a club can use*): of two "
             "EuroCup candidates who each averaged 16 EFF/36 last season and across their earlier careers, the one from "
             f"Germany's BBL projects at {num(germany, 1)} EFF/36 and the one from Spain's ACB at {num(spain, 1)}, a "
             f"{num(spain - germany, 2)} EFF/36 gap that comes entirely from the two league numbers. "
@@ -5479,7 +5481,7 @@ def e31_section(d) -> str:
         text = (
             f"On the {b['scored_league_changes']:,} league changes of arrival seasons from "
             f"{season_label(b['first_scored_arrival_season'])}, with one coefficient per scale fitted on "
-            "earlier league changes, the stayer forecast misses by "
+            "earlier league changes, the stayer forecast has a mean absolute error of "
             f"{num(b['mae_stayer_forecast']['estimate'])} EFF/36 alone, {num(paper['mae']['estimate'])} with "
             f"the Equivalents and {num(published['mae']['estimate'])} with the 2015 table"
         )
@@ -5716,19 +5718,19 @@ def two_tests(d) -> str:
     if e30_case(d) not in E30_TESTED:
         return ""
     e, o = d["e30"], older(d)
-    if "it did not help" not in e28_older(d)["e28_abs_older"]:
+    if "it did not" not in e28_older(d)["e28_abs_older"]:
         raise ClaimError(
             "the older-arrivals reading changed; the paragraph on the two tests needs new wording"
         )
     return (
         "**Two tests outside the fitted arrivals.** The test on league changes covers ten leagues and "
         f"{e['n_moves']:,} changes, {e30_seasons(d)}. Its outcomes are domestic, from Proballers box scores, and it "
-        "was registered before any outcome was read. It is evidence that the table's gaps show up when players "
+        "was registered before any outcome was read. It is evidence that the table's gaps appear when players "
         "change league, in seasons the table was fitted on. The test on older arrivals covers "
         f"{OLDER_WORDS[len(o['leagues'])]} leagues and {o['n']} arrivals, 2008–09 to 2015–16. Its outcomes are "
         "continental, its domestic box scores are the leagues' own, and its league-number comparison was added "
         "after the first scoring. It is the only evidence on an earlier period, where the league numbers did not "
-        "help. "
+        "improve the forecast. "
         # Amendment 26, rule 2: in the inconclusive state the clause states the outcome
         + (TWO_TESTS_END_INCONCLUSIVE if p1_is_inconclusive(d) else TWO_TESTS_END)
         + "\n\n"
@@ -6287,7 +6289,7 @@ def abstract_numbers(abstract: str) -> dict:
     }
 
 
-HOOK = "forecasts like about a 19"
+HOOK = "gives the same forecast as about 19"
 HOOK_CONDITION = "career history equals the domestic rate"
 SELF_CLAIMS = re.compile(
     r"rather than a new estimator|clubs (?:already |now |routinely )?use (?:league )?translation|"
@@ -7025,7 +7027,7 @@ G19C_MAIN_TEXTS = (
     ),
     (
         "the limits beside the equation (Amendment 12)",
-        "the limits above travel with it: the forecasts run low, the league numbers did not carry back to the "
+        "the limits stated above apply to it: the forecasts fall below the outcomes on average, the league numbers did not carry back to the "
         "older arrivals of two leagues, and they describe the players clubs sign from a league, not league strength",
     ),
 )
@@ -7149,7 +7151,7 @@ LEVEL_OVERLAP_NOT_TESTED = (
 LEVEL_CLAUSE = re.compile(
     r"\b[Ff]or (EuroCup|EuroLeague) arrivals (?:the league-aware forecast is|the interval includes zero)"
 )
-LEVEL_PARAGRAPH = "**The forecasts run low.**"
+LEVEL_PARAGRAPH = "**The forecasts fall below the outcomes.**"
 LEVEL_NO_CAUSE = "We claim no cause."
 MONTH_NAMES = (
     "January",
@@ -7993,10 +7995,25 @@ AMENDMENT_30 = Path(
 )
 AMENDMENT_30_SHA256 = "0bc7d691790fe9337db56bc56fc01ef617772f19657dee322d540d684401ab7a"
 #: Its rule 3: the close of the paragraph of Amendment 29 in Appendix N (gate G30b).
+#: Amendment 32 (27 November 2026): twenty-seven passages reworded for register, the appendix
+#: tables numbered in the order in which they stand, values printed on three figures. Gate G32a:
+#: the file as registered.
+AMENDMENT_32 = Path(
+    "docs/research/sloan-full-paper-preregistration-amendment-32-2026-11-27.md"
+)
+AMENDMENT_32_SHA256 = "8daea8c78fb94403444410c7001f6e7e2ffcda295ce6d9e526df15842b2acb4f"
+#: Its rule 3: one sentence in Appendix N, and the closing sentence of Amendment 30 with this
+#: amendment in its list (gate G32b).
+AMEND32_NOTE = (
+    "On 27 November 2026 twenty-seven passages were reworded for register, the appendix tables were numbered in "
+    "the order in which they stand and values were printed on three figures; no result and no registered reading "
+    "changed, and each reworded passage is listed with its old and new words [@amend32]. Amendments 28, 29, 30 "
+    "and 32 together list every change made to the text of the paper since the version of 25 November 2026."
+)
+AMEND32_NOTE_MARK = "twenty-seven passages were reworded for register"
 AMEND30_NOTE = (
     "A fresh reader then checked these changes against the rest of the paper, and eighteen places were corrected "
-    "the same day [@amend30]. Amendments 28, 29 and 30 together list every change made "
-    "to the text of the paper since the version of 25 November 2026."
+    "the same day [@amend30]. " + AMEND32_NOTE
 )
 AMEND30_NOTE_MARK = (
     "A fresh reader then checked these changes against the rest of the paper"
@@ -8055,6 +8072,25 @@ def check_g29(text: str, d) -> None:
         raise ClaimError(
             "G29c: the first page prints the error band of one forecast beside the gap of the two recruits "
             "and calls it the wider; it is not"
+        )
+
+
+def check_g32(text: str) -> None:
+    """Gate G32b of Amendment 32, on the composed text: Appendix N says what was changed on 27
+    November 2026, with the reference, and the list of amendments that hold every change since
+    25 November names this one (G32a: the test of the file; G32c: the test of the list; G32d:
+    ``printed``; G32e: the tests of the figures)."""
+    if text.count(AMEND32_NOTE_MARK) != 1 or AMEND32_NOTE_MARK not in appendix_of(
+        text, "N"
+    ):
+        raise ClaimError(
+            "G32b: Appendix N says what was reworded and renumbered, with the reference to Amendment 32"
+        )
+    if "Amendments 28, 29 and 30 together" in text or (
+        text.count("Amendments 28, 29, 30 and 32 together list every change") != 1
+    ):
+        raise ClaimError(
+            "G32b: the amendments that list every change since 25 November 2026 are 28, 29, 30 and 32"
         )
 
 
@@ -9127,7 +9163,9 @@ def e28_older(d) -> dict:
     )
     return {
         "e28_older_block": block,
-        "e28_abs_older": f"on {o['n']} older arrivals from {count} leagues it did not help",
+        "e28_abs_older": f"on {o['n']} older arrivals from {count} leagues it did not",
+        # (the introduction names what it did not do: there the clause follows the size of the gain)
+        "e28_intro_older": f"on {o['n']} older arrivals from {count} leagues it did not improve the forecast",
         "e28_limits": (
             "**Carry-over.** The gain from the league table on arrivals of 2020–2025 did not carry back to the "
             f"{o['n']} arrivals of 2008–09 to 2015–16 from {leagues}."
@@ -9656,8 +9694,58 @@ def compose(d: dict, template: str) -> tuple[str, list]:
     check_g27(text, d)
     check_g28(text, d)
     check_g29(text, d)
+    check_g32(text)
     check_examined(text, d)
     return text, order
+
+
+#: A label that names appendix tables: "Table A5", "Tables A6–A7", "Tables A21 and A22".
+TABLE_LABELS = re.compile(r"\bTables? A\d+(?:(?:–|, | and )A\d+)*")
+#: The caption line of an appendix table.
+TABLE_CAPTION = re.compile(r"^Table A(\d+)\.", re.M)
+
+
+def table_numbers_in_order(text: str) -> dict:
+    """Amendment 32: the printed number of each appendix table, by the order in which the tables
+    stand. Keys are the numbers the registrations and the gates use (the numbers a table got when
+    it was added); values are the numbers the paper prints."""
+    order = [int(n) for n in TABLE_CAPTION.findall(text)]
+    if len(order) != len(set(order)):
+        raise ClaimError("two appendix tables carry one number")
+    return {old: new for new, old in enumerate(order, 1)}
+
+
+def printed(text: str) -> str:
+    """The composed text as the paper prints it: the appendix tables numbered in the order in
+    which they stand (Amendment 32). Only the numbers in table labels change. ``compose`` and its
+    gates keep the numbers the registrations use; the manuscript, the Word file and the number
+    manifest take the text from here."""
+    numbers = table_numbers_in_order(text)
+
+    def relabel(match):
+        label = match.group(0)
+        named = [int(n) for n in re.findall(r"A(\d+)", label)]
+        if missing := [n for n in named if n not in numbers]:
+            raise ClaimError(
+                f"'{label}' names a table the appendix does not hold: {missing}"
+            )
+        new = [numbers[n] for n in named]
+        # a range ("Tables A6–A7") must name the same tables after the numbering
+        if "–" in label and new[-1] - new[0] != named[-1] - named[0]:
+            raise ClaimError(
+                f"'{label}' is not the same range once the tables are in order"
+            )
+        return re.sub(r"A(\d+)", lambda m: f"A{numbers[int(m.group(1))]}", label)
+
+    out = TABLE_LABELS.sub(relabel, text)
+    captions = [int(n) for n in TABLE_CAPTION.findall(out)]
+    if captions != list(range(1, len(captions) + 1)):
+        raise ClaimError(f"the appendix tables are not numbered in order: {captions}")
+    if out.count("\n") != text.count("\n") or len(out.split()) != len(text.split()):
+        raise ClaimError(
+            "numbering the tables in order changed more than table numbers"
+        )
+    return out
 
 
 def render(
@@ -9672,6 +9760,7 @@ def render(
     if final:
         check_final(d)
     text, order = compose(d, (root / TEMPLATE).read_text())
+    text = printed(text)
     out.mkdir(parents=True, exist_ok=True)
     # figures first: if one cannot be drawn, no manuscript that embeds it is left in the folder
     figs = figures(d, out / "figures")

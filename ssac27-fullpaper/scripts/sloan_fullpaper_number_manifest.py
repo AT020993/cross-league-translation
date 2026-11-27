@@ -109,7 +109,8 @@ GUARDED = (
     ),
     (
         "19",
-        r"about a 19",
+        # (Amendment 32 words the line "gives the same forecast as about 19")
+        r"about a 19|as about 19\b",
         lambda d: _rows(
             d,
             "exchange",
@@ -242,6 +243,12 @@ def source_files(root: Path) -> dict:
             files[loaded] = files[listed]
     files["template"] = str(rnd.TEMPLATE)
     return files
+
+
+def composed(d: dict, template: str) -> tuple[str, list]:
+    """The text as the paper prints it: composed, then the appendix tables numbered in order."""
+    text, order = rnd.compose(d, template)
+    return rnd.printed(text), order
 
 
 def traced_sources() -> set:
@@ -657,7 +664,7 @@ def build(root: Path) -> dict:  # noqa: C901 -- one pass per tracing method, kep
     files = source_files(root)
     base = rnd.load(root)
     template = (root / rnd.TEMPLATE).read_text()
-    text, _ = rnd.compose(base, template)
+    text, _ = composed(base, template)
     manuscript = (root / MANUSCRIPT).read_text()
     if text != manuscript:
         raise SystemExit(
@@ -674,7 +681,7 @@ def build(root: Path) -> dict:  # noqa: C901 -- one pass per tracing method, kep
     # 1. trace reads
     wrapped = {k: (wrap(v, k) if k in traced_sources() else v) for k, v in base.items()}
     _Trace.reads = set()
-    if rnd.compose(wrapped, template)[0] != text:
+    if composed(wrapped, template)[0] != text:
         raise SystemExit("traced compose differs")
     leaves = sorted({(s, p) for s, p in _Trace.reads if p[-1] != "*"}, key=str)
     containers = sorted({(s, p[:-1]) for s, p in _Trace.reads if p[-1] == "*"}, key=str)
@@ -688,7 +695,7 @@ def build(root: Path) -> dict:  # noqa: C901 -- one pass per tracing method, kep
         try:
             for s, p, v in mutations:
                 setv(base, s, p, v)
-            out = rnd.compose(base, template)[0]
+            out = composed(base, template)[0]
         except rnd.ClaimError:
             return "claim"
         except Exception:  # noqa: BLE001 -- a nudge that breaks a lookup traces nothing
@@ -742,7 +749,7 @@ def build(root: Path) -> dict:  # noqa: C901 -- one pass per tracing method, kep
             continue
         removed = node.pop()
         try:
-            out = rnd.compose(base, template)[0]
+            out = composed(base, template)[0]
             res = token_changes(text, out)
         except Exception:  # noqa: BLE001
             res = None
@@ -765,7 +772,7 @@ def build(root: Path) -> dict:  # noqa: C901 -- one pass per tracing method, kep
             )
             base["prereg"] = prereg.replace(line, new_line, 1)
             try:
-                res = token_changes(text, rnd.compose(base, template)[0])
+                res = token_changes(text, composed(base, template)[0])
             except Exception:  # noqa: BLE001
                 res = None
             finally:
@@ -870,7 +877,7 @@ def verify(root: Path, manifest: dict, manuscript_path: Path | None = None) -> d
                 f"{f['path']}: sha256 differs from the one in the paper-number manifest (paper-numbers.json)"
             )
     d = rnd.load(root)
-    text, _ = rnd.compose(d, (root / rnd.TEMPLATE).read_text())
+    text, _ = composed(d, (root / rnd.TEMPLATE).read_text())
     if text != manuscript_path.read_text():
         problems.append("re-composed manuscript differs from the rendered manuscript")
     lines = text.split("\n")

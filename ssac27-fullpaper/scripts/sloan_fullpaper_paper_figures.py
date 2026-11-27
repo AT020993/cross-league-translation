@@ -276,9 +276,16 @@ def _save(fig, path: Path):
 
 
 # --------------------------------------------------------------------- figure 1
-def _draw_equivalents(plt, ax, rows, counts, xmax=21.0):
+def _draw_equivalents(plt, ax, rows, counts, xmax=21.0, print_values=False):
     """The Equivalents ladder on ``ax``. rows: exchange_rate_acb16.csv dicts;
-    counts: e17_league_counts.csv dicts."""
+    counts: e17_league_counts.csv dicts.
+
+    ``print_values`` prints, right of the panel, the two equivalents that each row draws, each
+    behind a small copy of its marker (filled: EuroLeague; open: EuroCup). They are the plotted
+    values, read from the same rows and rounded as Table 1 rounds them (one decimal). The
+    reference row prints nothing there: its value is the label "reference: 16"."""
+    import matplotlib.transforms as mtransforms
+
     by = {}
     for r in rows:
         by.setdefault(r["source_league"], {})[r["destination"]] = r
@@ -300,6 +307,7 @@ def _draw_equivalents(plt, ax, rows, counts, xmax=21.0):
                         f"{k} {dst} equivalent {v:.2f} is not about 19"
                     )
     ys = {k: i for i, k in enumerate(order)}
+    xmin = 14.0 if print_values else 14.3
     # tier bands
     for tier in (1, 2, 3):
         members = [ys[k] for k in order if int(by[k]["euroleague"]["e9_tier"]) == tier]
@@ -311,10 +319,12 @@ def _draw_equivalents(plt, ax, rows, counts, xmax=21.0):
             zorder=0,
         )
         ax.text(
-            xmax - 0.06,
+            # with the values printed the panel is narrower: the tier is then named at the left
+            # edge, where no interval of a tier's first row reaches
+            (xmin + 0.14) if print_values else (xmax - 0.06),
             min(members) - 0.5 + 0.1,
             f"Tier {tier}",
-            ha="right",
+            ha="left" if print_values else "right",
             va="top",
             fontsize=7.5,
             color=GREY,
@@ -334,16 +344,50 @@ def _draw_equivalents(plt, ax, rows, counts, xmax=21.0):
                 continue
             ax.plot([lo, hi], [y + dy, y + dy], color=FOCAL, lw=1.2, zorder=2)
             ax.plot([v], [y + dy], "o", ms=5, mfc=face, mec=FOCAL, mew=1.0, zorder=3)
+            if print_values:
+                # points to the right of the panel's edge, at the height of the row
+                at = 6.0 if dst == "euroleague" else 28.5
+
+                def beside(points):
+                    return mtransforms.blended_transform_factory(
+                        ax.transAxes, ax.transData
+                    ) + mtransforms.ScaledTranslation(
+                        points / 72, 0, ax.figure.dpi_scale_trans
+                    )
+
+                ax.plot(
+                    [1],
+                    [y],
+                    "o",
+                    ms=3.4,
+                    mfc=face,
+                    mec=FOCAL,
+                    mew=0.8,
+                    transform=beside(at),
+                    clip_on=False,
+                    zorder=3,
+                )
+                ax.text(
+                    1,
+                    y,
+                    f"{v:.1f}",
+                    transform=beside(at + 4.0),
+                    ha="left",
+                    va="center",
+                    fontsize=7.5,
+                    color=INK,
+                )
     ax.set_yticks(
         range(len(order)),
         [f"{LEAGUE_NAMES[k]}  (n = {n[k]})" for k in order],
     )
     ax.set_ylim(len(order) - 0.5, -0.5)
-    ax.set_xlim(14.3, xmax)
+    ax.set_xlim(xmin, xmax)
     ax.set_xticks([15, 16, 17, 18, 19, 20])
-    ax.set_xlabel("Domestic EFF/36 that forecasts like a 16 in Spain's ACB")
+    ax.set_xlabel("Domestic EFF/36 with the same forecast as 16 in Spain's ACB")
     ax.text(
-        16.25,
+        # (with the values printed the panel is narrower: the label starts clear of Spain's markers)
+        16.4 if print_values else 16.25,
         -0.05,
         "reference: 16",
         fontsize=7.5,
@@ -411,7 +455,7 @@ MARKED_COLOR = "#c8721a"
 
 
 def fig_equivalents_and_moves(
-    rows, counts, pair_rows, e30, out: Path, marked=None, notes=None
+    rows, counts, pair_rows, e30, out: Path, marked=None, notes=None, print_values=True
 ) -> Path:
     """Figure 1 with its second panel, drawn only when the E30 outputs exist (Amendment 19, rule 13).
 
@@ -429,6 +473,12 @@ def fig_equivalents_and_moves(
     "refit": the slope with the table refitted only on earlier arrivals}: the first is printed
     beside the group it marks, the second under the counts; the panel prints no other number. The
     panel title names the registered case; it never says more than the case licenses.
+
+    ``print_values``: the left panel prints the two equivalents of each row beside it (see
+    ``_draw_equivalents``); the panel is drawn narrower to make room, and the right panel keeps
+    its size. The legend under the panels explains the right panel only: its three line entries
+    stand under that panel, and the two marker entries to their left. No word of the figure
+    changes.
     """
     from matplotlib.lines import Line2D
     from matplotlib.patches import Patch
@@ -471,8 +521,15 @@ def fig_equivalents_and_moves(
         figsize=(6.5, 4.15),
         gridspec_kw={"wspace": 0.3, "width_ratios": [1, 1.05]},
     )
-    _draw_equivalents(plt, a1, rows, counts, xmax=21.3)
-    a1.set_xlabel("Domestic EFF/36 that forecasts\nlike a 16 in Spain's ACB")
+    _draw_equivalents(
+        plt,
+        a1,
+        rows,
+        counts,
+        xmax=20.9 if print_values else 21.3,
+        print_values=print_values,
+    )
+    a1.set_xlabel("Domestic EFF/36 with the same\nforecast as 16 in Spain's ACB")
     a1.set_title(
         "The table: equivalents when\ncareer history equals domestic rate", pad=16
     )
@@ -556,9 +613,13 @@ def fig_equivalents_and_moves(
         "slope 1: the table's size",
     ]
     dot = {"ls": "", "ms": 4.5, "mec": "white", "mew": 0.3}
+    # the marker entries first, so that they fill the left column and the three line entries
+    # stand in the right column, under the panel that draws those lines (the left panel has a
+    # dashed line of its own, the reference at 16, which the entry "slope 1" does not explain)
+    marker_handles, marker_labels = [], []
     if code is not None:
-        handles.append(Line2D([], [], marker="D", mfc=MARKED_COLOR, **dot))
-        labels.append(
+        marker_handles.append(Line2D([], [], marker="D", mfc=MARKED_COLOR, **dot))
+        marker_labels.append(
             f"pairs with {name}"
             + (
                 f" (slope without {name}: {float(notes['lowest']):.2f})"
@@ -566,26 +627,47 @@ def fig_equivalents_and_moves(
                 else ""
             )
         )
-        handles.append(Line2D([], [], marker="o", mfc=COMP, **dot))
-        labels.append("other pairs (marker area: moves)")
+        marker_handles.append(Line2D([], [], marker="o", mfc=COMP, **dot))
+        marker_labels.append("other pairs (marker area: moves)")
     else:
-        handles.append(Line2D([], [], marker="o", mfc=COMP, **dot))
-        labels.append("league pairs (marker area: moves)")
+        marker_handles.append(Line2D([], [], marker="o", mfc=COMP, **dot))
+        marker_labels.append("league pairs (marker area: moves)")
+    # (the band that stood empty between the axis titles and the legend is used: the panels are
+    # about a tenth taller than before, at the same figure size)
+    fig.subplots_adjust(left=0.268, right=0.985, bottom=0.335, top=0.839)
+    # two legends side by side, each in one column (three columns at this size are wider than
+    # the figure and were cut off at both edges of the image, 24 November 2026); the words of
+    # the entries are unchanged
+    look = {
+        "ncol": 1,
+        "fontsize": 7.5,
+        "handlelength": 1.15,
+        "handletextpad": 0.5,
+        "labelspacing": 0.35,
+        "borderaxespad": 0.0,
+        "borderpad": 0.0,
+    }
+    left_edge = a2.get_position().x0
     fig.legend(
         handles,
         labels,
-        loc="lower center",
-        bbox_to_anchor=(0.5, 0.012),
-        # two columns: three at this size are wider than the figure and were cut off at both
-        # edges of the image (24 November 2026); the words of the entries are unchanged
-        ncol=2,
-        fontsize=7.5,
-        handlelength=1.15,
-        handletextpad=0.5,
-        columnspacing=1.6,
-        labelspacing=0.35,
+        loc="upper left",
+        bbox_to_anchor=(left_edge - 0.012, 0.192),
+        **look,
     )
-    fig.subplots_adjust(left=0.268, right=0.985, bottom=0.376, top=0.839)
+    fig.legend(
+        marker_handles,
+        marker_labels,
+        loc="upper right",
+        bbox_to_anchor=(left_edge - 0.045, 0.192),
+        **look,
+    )
+    if print_values:
+        # the left panel gives up width for its printed values; the right panel keeps its place
+        box = a1.get_position()
+        column = 49.0 / 72 / fig.get_figwidth()  # the printed values, in figure widths
+        left = 0.25
+        a1.set_position([left, box.y0, box.x1 - column - left, box.height])
     return _save(fig, out / "fig1_equivalents.png")
 
 
@@ -1115,7 +1197,7 @@ def fig_stability(refit_rows, exchange_rows, summary, out: Path) -> Path:
         ax.tick_params(axis="x", labelsize=7)
         ax.set_xlabel("Season the table was refitted for")
         ax.margins(x=0.06)
-    axes[0].set_ylabel("Domestic EFF/36 that forecasts\nlike a 16 in Spain's ACB")
+    axes[0].set_ylabel("Domestic EFF/36 with the same\nforecast as 16 in Spain's ACB")
     axes[1].tick_params(axis="y", length=0)
     handles = [
         axes[0].plot([], [], "-o", color=TIER_COLORS[t], lw=1.2, ms=3)[0]
@@ -1194,7 +1276,8 @@ def fig_gap_guide(e20, out: Path) -> Path:
         ax.text(
             r["bin"] + 0.16,
             100 * r["share_correct"] - 2.6,
-            f"{100 * r['share_correct']:.0f}%",
+            # as Table A25 prints them (one decimal): the caption calls them that table's values
+            f"{100 * r['share_correct']:.1f}%",
             ha="left",
             va="center",
             fontsize=8,
@@ -1261,7 +1344,8 @@ def fig_bands(e22, out: Path) -> Path:
         a1.text(
             101.5,
             i,
-            f"{100 * r['coverage']:.0f}%",
+            # as Table A12 prints them (one decimal)
+            f"{100 * r['coverage']:.1f}%",
             ha="left",
             va="center",
             fontsize=7.5,
@@ -1295,12 +1379,17 @@ def fig_bands(e22, out: Path) -> Path:
         # a value is printed under its point where the line arrives from above
         near = [shares[j] for j in (x - 1, x + 1) if 0 <= j < len(shares)]
         under = all(share < other for other in near)
+        at = share + (-2.6 if under else 2.6)
+        # a value whose place under its point lies on a grid line (every 10%) is printed left of
+        # the point, clear of the line and of the axis label beside it
+        beside = under and (at % 10) < 3.0
         a2.text(
-            x,
-            share + (-2.6 if under else 2.6),
-            f"{share:.0f}%",
-            ha="center",
-            va="top" if under else "bottom",
+            x - 0.16 if beside else x,
+            share - 0.2 if beside else at,
+            # as the text prints the seasons' range (one decimal)
+            f"{share:.1f}%",
+            ha="right" if beside else "center",
+            va="center" if beside else ("top" if under else "bottom"),
             fontsize=7.5,
             color=FOCAL,
         )

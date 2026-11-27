@@ -31,7 +31,7 @@
   "e30_case": "clear",
   "figures_main_text": 3,
   "inputs": {
-    "docs/paper/ssac27/manuscript.template.md": "baa36e8dd04c40b714bbdea3e53876602eeadae66a95b7376794b2088841f7ce",
+    "docs/paper/ssac27/manuscript.template.md": "2971640f23e8b59253c2849f38af8ca71dd13c8fba7fb4b3359bc0b711aab9ad",
     "docs/paper/ssac27/prior-work-record.json": "77199b460fa9e89af450b5239c3262cf9f9e1c818dce63c6dd88be783b6d76ec",
     "docs/paper/ssac27/release.json": "6e07ddd8813632a0cd268c74f062da625118410b0d7d5f22e548a5c7539b6591",
     "docs/research/artifacts/sloan-fullpaper-amend1-decisions-2026-11/e10_pair_types.csv": "fdd8a28ef083ec4f044fe8e6192ab55cf14edc20935cab23f3427a05983e88cf",
@@ -79,18 +79,18 @@
     "scripts/templates/ssac27-word-template.docx": "a7c700e6fb77eed6afafbdeb9d52b94dc652a78af4818d54169991f568fdb647"
   },
   "outputs": {
-    "fig1": "af26e6f6ecc511881e207fe952832ef63b0e3b15710b3046283d3fd716be3fbe",
+    "fig1": "7e86cd251ad9c9c4049c6619c6be7e7f4f00f0752c93e1459e2a5492c6ce6797",
     "fig2": "9a9953fa0259732824d8467038fa46c729c3c65ba77c852a24f7fd2ea7b2b891",
     "fig3": "74283a4264b39ee6fc4c5aebc775a5d99931df17028f071282eaa81fd16dac44",
     "fig4": "223ff2f9c742934fa11d6b89c32761570f2f644d48c928614d2aa9b55eee0543",
     "figA1": "d11f3aff623ff2690abb8069cb1bf753e1ff73bce7815915e2c232c06eea9517",
-    "fig_bands": "76f969d6f5d082447a35c652736a40cf6b4f2678acd2a9b61ebbc74287ed0e19",
-    "fig_gap_guide": "14ef0d20a30ba73b2ed2b24a5243b554374c16bb3c113a14037f6bfef9f1f9c4",
+    "fig_bands": "b06eeb1a03b5268e17fe283de8162c29b972b3cc7d1661daf5ab2f6b69f39dc6",
+    "fig_gap_guide": "25b84a91d1c429097a2ea383f60fd38e250edcc94f266566e7777655f279fd00",
     "fig_mechanism": "cd80f2f06bec3b0ba47a00534125106100e34c1d9b461785de48c25ad2086458",
     "fig_skills": "34a643d24d6dbd033281e2a1399fe5d260b712a2e6ec3ef0a3bce3b36bd622ba",
-    "fig_stability": "9e830f77a4a43f8a88be03dbabc2d82fcc69b7588cf603c60f09650f51bba4f1",
-    "manuscript.md": "cce2ef9d91423d14c40082f099db9ac8cf16c14e17f3dfbcd56fc11f57ca48fb",
-    "ssac27-paper-47.docx": "069b715907b7b4ee764da840cf678b380d6f44bb6ed6079e4000f2ad4eb26aa4"
+    "fig_stability": "790d4a0cff5d70a90c5f4fa3664af65dcdb3c913415416311997442d76f31500",
+    "manuscript.md": "7697c1a22555d022700bf8966a0c5d7a105ec90aa9294796343b6a38218818a8",
+    "ssac27-paper-47.docx": "d431b0de2cef93ad7c8ebb4873f3d3ae9c71b5549b0889144726543fd23cec09"
   },
   "p1_scored": false,
   "p1_status": "inconclusive",
@@ -156,6 +156,7 @@
     "amend28",
     "amend29",
     "amend30",
+    "amend32",
     "amend24",
     "myrte2026",
     "dinsdale2022",
@@ -164,5 +165,5 @@
     "yeh2022"
   ],
   "title": "European League Equivalents: One Number per League, Tested on League Changes It Was Never Fitted To",
-  "words_main_text": 7401
+  "words_main_text": 7487
 }

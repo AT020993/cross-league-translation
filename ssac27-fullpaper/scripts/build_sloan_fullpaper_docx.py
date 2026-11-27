@@ -46,6 +46,104 @@ class BuildError(RuntimeError):
     pass
 
 
+# --------------------------------------------------------------------------- table columns
+# Advance widths, in thousandths of an em, of the characters "!" to "~" in the table font
+# (Cambria; measured on Caladea, which has the same widths by design): regular, then bold.
+# They are used only to see whether a column is wide enough for its longest unbreakable
+# piece of text, so that Word never has to break a word or a number in the middle.
+_WIDTH_REGULAR = tuple(
+    int(w)
+    for w in (
+        "286 393 619 506 890 687 237 382 382 427 554 205 332 205 490 554 "
+        "554 554 554 554 554 554 554 554 554 264 264 554 554 554 422 885 "
+        "623 611 562 662 575 537 611 687 324 307 629 537 815 681 653 568 "
+        "653 621 496 593 648 604 921 571 570 538 350 490 350 554 371 285 "
+        "488 547 441 555 488 303 494 552 278 266 524 271 832 558 531 556 "
+        "547 414 430 338 552 504 774 483 504 455 387 316 387 712"
+    ).split()
+)
+_WIDTH_BOLD = tuple(
+    int(w)
+    for w in (
+        "335 422 618 543 976 740 251 408 408 453 592 232 337 232 505 592 "
+        "592 592 592 592 592 592 592 592 592 280 280 592 592 592 452 921 "
+        "652 651 573 705 578 551 646 722 350 341 682 551 846 679 695 614 "
+        "695 662 513 639 676 634 961 619 604 566 368 505 368 592 371 285 "
+        "535 591 469 597 531 326 520 597 314 302 592 308 890 604 569 597 "
+        "591 461 459 365 597 531 798 525 531 479 393 320 393 592"
+    ).split()
+)
+_WIDTH_OTHER = {
+    "−": (554, 592),
+    "–": (500, 500),
+    "—": (1000, 1000),
+    "†": (517, 517),
+    "…": (752, 772),
+}
+_WIDTH_DEFAULT = (600, 640)
+CELL_FONT_TWIPS = 180  # 9 pt
+CELL_PADDING = 120 + 24  # left and right cell margins, plus a little air
+WIDTH_SAFETY = 1.03
+
+
+def text_width(text: str, bold: bool) -> int:
+    """Twips that a run of table text takes on one line."""
+    k = 1 if bold else 0
+    total = 0
+    for ch in text:
+        if ch == " ":
+            total += 220
+        elif "!" <= ch <= "~":
+            total += (_WIDTH_BOLD if bold else _WIDTH_REGULAR)[ord(ch) - 33]
+        else:
+            total += _WIDTH_OTHER.get(ch, _WIDTH_DEFAULT)[k]
+    return int(total * CELL_FONT_TWIPS * WIDTH_SAFETY / 1000) + CELL_PADDING
+
+
+def unbreakable_width(text: str, bold: bool) -> int:
+    """Twips needed by the longest piece of a cell that Word cannot break: pieces end at a
+    space, or after a hyphen or an en dash."""
+    plain = re.sub(r"[*`]", "", text)
+    pieces = [p for p in re.split(r"\s+|(?<=[-–])", plain) if p]
+    return max((text_width(p, bold) for p in pieces), default=CELL_PADDING)
+
+
+def fit_unbreakable(widths: list[int], rows: list[list[str]]) -> list[int]:
+    """Widen every column that is narrower than its longest unbreakable piece. The space is
+    taken first from columns that are wider than their longest cell on one line, then from
+    the others, in proportion to the room each has to spare. A table in which no column is
+    too narrow keeps its widths unchanged."""
+    ncol = len(widths)
+    need = [
+        max(unbreakable_width(r[c], i == 0) for i, r in enumerate(rows))
+        for c in range(ncol)
+    ]
+    short = sum(max(0, n - w) for n, w in zip(need, widths))
+    if short == 0:
+        return widths
+    if sum(need) >= TEXT_WIDTH:
+        # no layout fits every piece: share the text width in proportion to the needs
+        out = [int(TEXT_WIDTH * n / sum(need)) for n in need]
+        out[-1] += TEXT_WIDTH - sum(out)
+        return out
+    one_line = [
+        max(text_width(re.sub(r"[*`]", "", r[c]), i == 0) for i, r in enumerate(rows))
+        for c in range(ncol)
+    ]
+    out = [max(w, n) for w, n in zip(widths, need)]
+    # two rounds: first down to the one-line width of each column, then down to its need
+    for floor in ([max(n, min(o, w)) for n, o, w in zip(need, one_line, out)], need):
+        over = sum(out) - TEXT_WIDTH
+        room = [w - f for w, f in zip(out, floor)]
+        if over <= 0 or sum(room) == 0:
+            continue
+        take = min(over, sum(room))
+        out = [w - int(take * r / sum(room)) for w, r in zip(out, room)]
+    widest = max(range(ncol), key=lambda c: out[c] - need[c])
+    out[widest] += TEXT_WIDTH - sum(out)
+    return out
+
+
 # --------------------------------------------------------------------------- runs
 
 
@@ -216,11 +314,14 @@ class Doc:
             weights = [15, 12, 5, 9, 10, 12, 16, 12, 9]
         widths = [int(TEXT_WIDTH * w / sum(weights)) for w in weights]
         widths[-1] += TEXT_WIDTH - sum(widths)
+        widths = fit_unbreakable(widths, rows)
         line = '<w:{s} w:val="single" w:sz="{sz}" w:space="0" w:color="000000"/>'
+        # children in the order of the schema (CT_TblBorders): top, left, bottom, right, inside
         tbl_borders = (
             line.format(s="top", sz=8)
+            + '<w:left w:val="nil"/>'
             + line.format(s="bottom", sz=8)
-            + '<w:left w:val="nil"/><w:right w:val="nil"/><w:insideH w:val="nil"/><w:insideV w:val="nil"/>'
+            + '<w:right w:val="nil"/><w:insideH w:val="nil"/><w:insideV w:val="nil"/>'
         )
 
         def cell(text, width, bold, first_col, header_row, keep_next=False):
