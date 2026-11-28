@@ -57,6 +57,12 @@ TITLE_ADDS = (
 )
 #: The title while E30 is not run; ``compose`` selects the title by the E30 case.
 TITLE = TITLE_ADDS
+#: Amendment 33 (28 November 2026), rule 1: the paper is printed under the title of the
+#: submitted abstract, in every case. ``compose`` and gate G16a keep the title that Amendment
+#: 16 registers for the case; ``printed`` puts this one in its place (gate G33b).
+TITLE_SUBMITTED = (
+    "What Does League Translation Add? A Benchmark for European Basketball Forecasts"
+)
 ART = "docs/research/artifacts/"
 SOURCES = {
     "recipes": Path(ART + "sloan-fullpaper-recipes-2026-11/summary.json"),
@@ -360,6 +366,7 @@ OPTIONAL_REFERENCES = {
     "amend24": "Pre-registration Amendment 24: when the pages that show current-season statistics are read if the frozen test ends inconclusive (2026). Commit 8175f92, pushed 22 November 2026, 20:01 UTC, before the scoring of the frozen 2026–27 test; it adds no analysis and no number. Full-paper companion materials (release status in Data and code), https://github.com/AT020993/cross-league-translation",
     "amend25": "Pre-registration Amendment 25: how the scored frozen test is shown: one figure of its contrasts, the read-out of the league numbers where the paper promises it, the ordering sentence in the main text, and a sentence where an interval excludes the earlier estimate (2026). Commit d4aa4bc, pushed 24 November 2026, 08:51 UTC, before the scoring of the frozen 2026–27 test and after blind readers had read the paper composed from rehearsal records with made-up outcomes; it adds no analysis and changes no verdict. Full-paper companion materials (release status in Data and code), https://github.com/AT020993/cross-league-translation",
     "amend27": "Pre-registration Amendment 27: one sentence that points from the comparison with a published league table to its exploratory reading on the older arrivals (2026). Commit 38574fb, pushed 25 November 2026, 12:12 UTC, after E34 was run, with its values known (commit 60b03c5 of the same day added a specification table and changed nothing above it); it registers nothing in advance, adds no analysis and changes no number. Full-paper companion materials (release status in Data and code), https://github.com/AT020993/cross-league-translation",
+    "amend33": "Pre-registration Amendment 33: the paper is printed under the title of the submitted abstract, and one sentence of the methods and two passages of Appendix N follow it (2026). Commit 06c4677, pushed 28 November 2026, 11:29 UTC, after every result was known; it registers nothing in advance, adds no analysis and changes no result. Full-paper companion materials (release status in Data and code), https://github.com/AT020993/cross-league-translation",
     "amend32": "Pre-registration Amendment 32: twenty-seven passages reworded for register, the appendix tables numbered in the order in which they stand, and values printed on three figures (2026). Commit 25ae7e3, pushed 27 November 2026, 14:59 UTC, after every result was known; it registers nothing in advance, adds no analysis and changes no result. Full-paper companion materials (release status in Data and code), https://github.com/AT020993/cross-league-translation",
     "amend30": "Pre-registration Amendment 30: eighteen corrections after the changes of Amendment 29, made after a fresh reader had checked them against the rest of the paper (2026). Commit 5376608, pushed 26 November 2026, 19:30 UTC, after every result was known; it registers nothing in advance, adds no analysis and changes no result. Full-paper companion materials (release status in Data and code), https://github.com/AT020993/cross-league-translation",
     "amend29": "Pre-registration Amendment 29: the first page reworded after a blind comparison of two first pages, further sentences repaired or added, and two values of a registered read-out printed (2026). Commit 25aba66, pushed 26 November 2026, 18:13 UTC, after every result was known; it registers nothing in advance, adds no analysis and changes no result. Full-paper companion materials (release status in Data and code), https://github.com/AT020993/cross-league-translation",
@@ -8002,13 +8009,39 @@ AMENDMENT_32 = Path(
     "docs/research/sloan-full-paper-preregistration-amendment-32-2026-11-27.md"
 )
 AMENDMENT_32_SHA256 = "8daea8c78fb94403444410c7001f6e7e2ffcda295ce6d9e526df15842b2acb4f"
-#: Its rule 3: one sentence in Appendix N, and the closing sentence of Amendment 30 with this
-#: amendment in its list (gate G32b).
+#: Amendment 33 (28 November 2026): the paper is printed under the title of the submitted
+#: abstract; one sentence of the methods and two of Appendix N follow it. Gate G33a: the file
+#: as registered.
+AMENDMENT_33 = Path(
+    "docs/research/sloan-full-paper-preregistration-amendment-33-2026-11-28.md"
+)
+AMENDMENT_33_SHA256 = "879054300939a5b6627f431e97b00df60b10a469d36152036fb9b9766557a22e"
+#: Its rule 2, number 2: what Appendix N says of the title (gate G33c); the passage stands in the template.
+AMEND33_TITLE_MARK = "the paper returned to the submitted title"
+
+
+def amend33_registered_title(case: str) -> str:
+    """The clause of that passage that names the title Amendment 16 registers for the case.
+    While the league-changes test is not run there is no result, and Amendment 16, rule 3,
+    keeps the words of the first title out of the paper."""
+    if case == "not_run":
+        return f'while that test is not run it is "{title_for(case)}"'
+    return f'for the result obtained it was "{title_for(case)}"'
+
+
+#: Its rule 2, number 3: the closing sentence of Amendments 30 and 32 with this amendment in
+#: its list (gate G33c).
+AMEND33_LIST = (
+    "Amendments 28, 29, 30, 32 and 33 together list every change made to the text of the paper since the "
+    "version of 25 November 2026."
+)
+#: Rule 3 of Amendment 32: one sentence in Appendix N, and the closing sentence of Amendment 30
+#: with that amendment in its list (gate G32b; Amendment 33 adds itself to the list).
 AMEND32_NOTE = (
     "On 27 November 2026 twenty-seven passages were reworded for register, the appendix tables were numbered in "
     "the order in which they stand and values were printed on three figures; no result and no registered reading "
-    "changed, and each reworded passage is listed with its old and new words [@amend32]. Amendments 28, 29, 30 "
-    "and 32 together list every change made to the text of the paper since the version of 25 November 2026."
+    "changed, and each reworded passage is listed with its old and new words [@amend32]. "
+    + AMEND33_LIST
 )
 AMEND32_NOTE_MARK = "twenty-seven passages were reworded for register"
 AMEND30_NOTE = (
@@ -8087,10 +8120,39 @@ def check_g32(text: str) -> None:
             "G32b: Appendix N says what was reworded and renumbered, with the reference to Amendment 32"
         )
     if "Amendments 28, 29 and 30 together" in text or (
-        text.count("Amendments 28, 29, 30 and 32 together list every change") != 1
+        text.count("Amendments 28, 29, 30, 32 and 33 together list every change") != 1
     ):
         raise ClaimError(
-            "G32b: the amendments that list every change since 25 November 2026 are 28, 29, 30 and 32"
+            "G32b: the amendments that list every change since 25 November 2026 are 28, 29, 30 and 32 "
+            "(and 33, which adds itself to the list)"
+        )
+
+
+def check_g33(text: str) -> None:
+    """Gate G33c of Amendment 33, on the composed text: Appendix N says once, with both
+    references, that the title is the submitted one and that a title registered on 17 November
+    2026 was replaced after every result was known; the closing list names this amendment; the
+    sentence that called the league number "of the title" is gone (G33a: the test of the file;
+    G33b: ``printed``)."""
+    appendix = appendix_of(text, "N")
+    if text.count(AMEND33_TITLE_MARK) != 1 or AMEND33_TITLE_MARK not in appendix:
+        raise ClaimError(
+            "G33c: Appendix N says that the title is the submitted one and when it was put back"
+        )
+    if (
+        "The title was fixed on 17 November 2026" in text
+        or "carry earlier titles" in text
+    ):
+        raise ClaimError(
+            "G33c: Appendix N still says that the paper carries the title fixed on 17 November 2026"
+        )
+    if text.count(AMEND33_LIST) != 1 or "Amendments 28, 29, 30 and 32 together" in text:
+        raise ClaimError(
+            "G33c: the amendments that list every change since 25 November 2026 are 28, 29, 30, 32 and 33"
+        )
+    if "of the title" in main_text(text):
+        raise ClaimError(
+            "G33c: the main text refers to words of a title that the paper no longer carries"
         )
 
 
@@ -9596,6 +9658,7 @@ def compose(d: dict, template: str) -> tuple[str, list]:
     f = facts(d)
     case = e30_case(d)
     f["meta:title"] = title_for(case)
+    f["amend33_registered_title"] = amend33_registered_title(case)
     f["eq_table"] = eq_table(d)
     references = dict(REFERENCES)
     blocks = {
@@ -9695,6 +9758,7 @@ def compose(d: dict, template: str) -> tuple[str, list]:
     check_g28(text, d)
     check_g29(text, d)
     check_g32(text)
+    check_g33(text)
     check_examined(text, d)
     return text, order
 
@@ -9745,7 +9809,47 @@ def printed(text: str) -> str:
         raise ClaimError(
             "numbering the tables in order changed more than table numbers"
         )
+    out = under_the_submitted_title(out)
+    check_g33b(text, out)
     return out
+
+
+def under_the_submitted_title(text: str) -> str:
+    """Gate G33b (Amendment 33, rule 1): the paper is printed under the title of the submitted
+    abstract. The composed text must carry one of the two titles that Amendment 16 registers
+    (gate G16a has checked which); only that line changes. The title registered for the result
+    stays in the sentence of Appendix N that names it."""
+    lines = text.split("\n")
+    registered = [f'title: "{title}"' for title in (TITLE_TESTED, TITLE_ADDS)]
+    if len(lines) < 2 or lines[1] not in registered:
+        raise ClaimError(
+            "G33b: the composed paper does not carry a title that Amendment 16 registers"
+        )
+    lines[1] = f'title: "{TITLE_SUBMITTED}"'
+    out = "\n".join(lines)
+    if sum(line.startswith("title: ") for line in out.split("\n")) != 1:
+        raise ClaimError("G33b: the paper carries one title line")
+    return out
+
+
+def check_g33b(composed: str, out: str) -> None:
+    """Gate G33b on the printed text: its title line is the submitted title, and below that
+    line it differs from the composed text in the numbers of table labels only (gate G32d
+    has checked those numbers)."""
+    before, after = composed.split("\n"), out.split("\n")
+    if after[1] != f'title: "{TITLE_SUBMITTED}"':
+        raise ClaimError(
+            "G33b: the printed paper does not carry the title of the submitted abstract"
+        )
+    same = len(before) == len(after) and before[0] == after[0]
+    if not same or any(
+        TABLE_LABELS.sub("#", a) != TABLE_LABELS.sub("#", b)
+        for a, b in zip(before[2:], after[2:])
+    ):
+        raise ClaimError(
+            "G33b: the printed paper differs from the composed text in more than its title line "
+            "and the numbers of its tables"
+        )
 
 
 def render(
@@ -9769,7 +9873,8 @@ def render(
     abstract = text.split("## Abstract")[1].split("\n## ")[0]
     manifest = {
         "e30_case": e30_case(d),
-        "title": title_for(e30_case(d)),
+        "title": TITLE_SUBMITTED,
+        "title_registered_for_the_case": title_for(e30_case(d)),
         "abstract_numbers": {
             **abstract_numbers(abstract),
             "limit": abstract_limit(d),

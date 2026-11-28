@@ -36,7 +36,7 @@ The forecasts for each season are fitted on earlier seasons only; the fit behind
 
 $$\hat y = \beta_0+\beta_1 x+\beta_2 h+\beta_3 a + D(\gamma_0+\gamma_1 x)+\sum_{\ell}\delta_\ell\,\mathbf 1[\text{source}=\ell]\;\;(+\,\theta z)$$ {#eq:model}
 
-D = 1 for a EuroLeague destination and 0 for EuroCup; δ is the source-league offset, the league number of the title. The ten league numbers are the conversion table ({{eq_table}}); a league's Equivalent restates its league number as the domestic EFF/36 that gives the same continental forecast as 16 in Spain's ACB when career history equals the domestic rate, once for a EuroLeague arrival and once for a EuroCup arrival. Ridge penalties λ = 1, 10 and 100 were fixed in advance, with λ = 10 primary.
+D = 1 for a EuroLeague destination and 0 for EuroCup; δ is the source-league offset, this paper's league number. The ten league numbers are the conversion table ({{eq_table}}); a league's Equivalent restates its league number as the domestic EFF/36 that gives the same continental forecast as 16 in Spain's ACB when career history equals the domestic rate, once for a EuroLeague arrival and once for a EuroCup arrival. Ridge penalties λ = 1, 10 and 100 were fixed in advance, with λ = 10 primary.
 
 ### Comparisons and uncertainty
 
@@ -240,7 +240,7 @@ The translation term is unpenalised; this changes the bias–variance tradeoff a
 
 ### N. Notes on registration
 
-**Order and wording of the first page.** The order in which the abstract, the introduction and the conclusion state these results was fixed on 17 November 2026, after a review of the paper and before that text was written [@amend13; @amend16]. It was changed on 18 November 2026: the first page says less, and several passages moved to the appendix, without any registered sentence leaving the paper [@amend19]. The title was fixed on 17 November 2026 for each possible result of the league-changes test, before that test was run [@amend16]; the registration of 3 November 2026 and the public hash list carry earlier titles of this paper. {{amend19_note}}{{amend20_note}}{{amend21_note}}{{amend23_note}}{{amend25_note}}{{amend26_note}}{{e34_note}}
+**Order and wording of the first page.** The order in which the abstract, the introduction and the conclusion state these results was fixed on 17 November 2026, after a review of the paper and before that text was written [@amend13; @amend16]. It was changed on 18 November 2026: the first page says less, and several passages moved to the appendix, without any registered sentence leaving the paper [@amend19]. The title is that of the submitted abstract and of the registration of 3 November 2026. On 17 November 2026 a title was fixed for each possible result of the league-changes test, before that test was run; {{amend33_registered_title}} [@amend16]. On 28 November 2026, after every result was known, the paper returned to the submitted title, which names neither the league table nor that test [@amend33]. The heading of the public hash list carries a third title, older than that of 17 November 2026. {{amend19_note}}{{amend20_note}}{{amend21_note}}{{amend23_note}}{{amend25_note}}{{amend26_note}}{{e34_note}}
 
 {{amend28_note}}
 

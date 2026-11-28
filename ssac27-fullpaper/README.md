@@ -1,11 +1,11 @@
 # SSAC 2027 full paper: companion
 
-*European League Equivalents: One Number per League, Tested on League Changes It Was Never Fitted To* (Paper ID 47, Amir Tahori).
+*What Does League Translation Add? A Benchmark for European Basketball Forecasts* (Paper ID 47, Amir Tahori).
 
 This folder holds what the full paper needs: the paper as rendered, its template and renderer,
-the pre-registration and its 32 amendments, the results notes, every committed result file of the
+the pre-registration and its 33 amendments, the results notes, every committed result file of the
 full-paper analyses, the analysis code as run, and the derived tables the results are recomputed
-from. It was cut from the private research repository at commit `09ee1dd40fa327511abbf0a9dd473c0d6bd368a3`.
+from. It was cut from the private research repository at commit `1bf587becc078a7bfeb164eaf199d2b1edc7b1b2`.
 
 ## Two tools you can use without reading the paper
 

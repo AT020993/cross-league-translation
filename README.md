@@ -1,11 +1,11 @@
 # European League Equivalents: companion repository of the SSAC 2027 full paper
 
-**Paper:** *"European League Equivalents: One Number per League, Tested on League Changes It Was Never Fitted To"* (Amir Tahori; MIT Sloan Sports Analytics Conference 2027,
+**Paper:** *"What Does League Translation Add? A Benchmark for European Basketball Forecasts"* (Amir Tahori; MIT Sloan Sports Analytics Conference 2027,
 research paper competition, Paper ID 47).
 **This repository:** https://github.com/AT020993/cross-league-translation
 
 Everything needed to check the paper is here: the paper, its pre-registration with all
-32 amendments, the result files behind its numbers, the analysis code as it was run, and
+33 amendments, the result files behind its numbers, the analysis code as it was run, and
 the per-season tables from which the main results are recomputed. One command recomputes the main
 results and confirms, by file hash, the results it cannot recompute.
 
@@ -46,8 +46,8 @@ forecast has the league numbers. The abstract, word for word:
    If a step fails, its message is printed above that list. The full message is in
    `ssac27-fullpaper/recomputed/report.json`, a file the run writes; every later run, also the one
    of step 3, replaces it.
-3. **Check the registrations.** `REGISTRATION_HASHES.md` has 38 rows: the
-   pre-registration, the 32 amendments and the frozen files. Each row gives a file name
+3. **Check the registrations.** `REGISTRATION_HASHES.md` has 39 rows: the
+   pre-registration, the 33 amendments and the frozen files. Each row gives a file name
    and its sha256, a fingerprint that changes if one byte of the file changes. This command
    compares each row with the file it names; it takes about a second and ends with
    `CHECK OF REGISTRATION PASSED`:
@@ -98,7 +98,7 @@ need data this repository does not publish: per-game files, birthdates and playe
 | The 2026-27 freeze (rebuild from raw files) and its scoring | carried, hash-checked | need raw 2025-26 and 2026-27 game files; the frozen file is checked against the sha256 recorded at the freeze |
 
 The numbers of the paper's text are mapped in
-`ssac27-fullpaper/docs/paper/ssac27/paper-numbers.json`: 3,972 number tokens: 2,434 are traced to a result file and key, 1,389 are labels (years, citation numbers, units, the reference list) and 149 are listed as typed (protocol constants such as the 2% margin, and result values that the map could not match to one key without ambiguity). The run composes the manuscript
+`ssac27-fullpaper/docs/paper/ssac27/paper-numbers.json`: 3,985 number tokens: 2,434 are traced to a result file and key, 1,401 are labels (years, citation numbers, units, the reference list) and 150 are listed as typed (protocol constants such as the 2% margin, and result values that the map could not match to one key without ambiguity). The run composes the manuscript
 again from the result files and it must match the rendered manuscript byte for byte.
 
 `ssac27-fullpaper/README.md` has the details: where the main items of the paper come from (Table 1,
@@ -112,7 +112,7 @@ input tables with their row counts, and what is not published and why.
 | `ssac27-fullpaper/README.md` | The detailed guide to the full-paper folder |
 | `ssac27-fullpaper/docs/paper/ssac27/rendered/` | The paper (Markdown) and its figures |
 | `ssac27-fullpaper/docs/paper/ssac27/` | The template the paper is rendered from and the map of its numbers |
-| `ssac27-fullpaper/docs/research/` | The pre-registration of 3 November 2026, its 32 amendments and the results notes |
+| `ssac27-fullpaper/docs/research/` | The pre-registration of 3 November 2026, its 33 amendments and the results notes |
 | `ssac27-fullpaper/docs/research/artifacts/` | The committed result files of every analysis, the frozen forecast files and the per-season tables added for the full paper |
 | `ssac27-v10/data/` | The per-season tables published with the submitted abstract; the full paper's recomputation reads them too |
 | `ssac27-fullpaper/scripts/`, `ssac27-fullpaper/src/` | The analysis code as run, the renderer and the reproduction script |
@@ -158,7 +158,7 @@ runs the tests of the September 2026 companion under `tests/`; it is optional.
 ## Version and provenance
 
 This is release `ssac27-fullpaper-submission`, the only tag of this repository. It was made from the private
-research repository at commit `09ee1dd40fa327511abbf0a9dd473c0d6bd368a3` by that repository's export script (the script is
+research repository at commit `1bf587becc078a7bfeb164eaf199d2b1edc7b1b2` by that repository's export script (the script is
 not part of this repository). The historical and v10 files are those of public commit
 `fc89c2049`, checked file by file against their git hashes. Every release is one commit
 on top of the public history; earlier commits are never rewritten.

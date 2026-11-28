@@ -31,7 +31,7 @@
   "e30_case": "clear",
   "figures_main_text": 3,
   "inputs": {
-    "docs/paper/ssac27/manuscript.template.md": "2971640f23e8b59253c2849f38af8ca71dd13c8fba7fb4b3359bc0b711aab9ad",
+    "docs/paper/ssac27/manuscript.template.md": "63923ce06b2b2c9ead0580d39f4170ff39f7e9f6a1f752ecd3e9e915fa21eccd",
     "docs/paper/ssac27/prior-work-record.json": "77199b460fa9e89af450b5239c3262cf9f9e1c818dce63c6dd88be783b6d76ec",
     "docs/paper/ssac27/release.json": "6e07ddd8813632a0cd268c74f062da625118410b0d7d5f22e548a5c7539b6591",
     "docs/research/artifacts/sloan-fullpaper-amend1-decisions-2026-11/e10_pair_types.csv": "fdd8a28ef083ec4f044fe8e6192ab55cf14edc20935cab23f3427a05983e88cf",
@@ -89,8 +89,8 @@
     "fig_mechanism": "cd80f2f06bec3b0ba47a00534125106100e34c1d9b461785de48c25ad2086458",
     "fig_skills": "34a643d24d6dbd033281e2a1399fe5d260b712a2e6ec3ef0a3bce3b36bd622ba",
     "fig_stability": "790d4a0cff5d70a90c5f4fa3664af65dcdb3c913415416311997442d76f31500",
-    "manuscript.md": "7697c1a22555d022700bf8966a0c5d7a105ec90aa9294796343b6a38218818a8",
-    "ssac27-paper-47.docx": "d431b0de2cef93ad7c8ebb4873f3d3ae9c71b5549b0889144726543fd23cec09"
+    "manuscript.md": "7569c0a05d8236d721bc6553783b8c4aab399636f6446139c21c8b804c58fee8",
+    "ssac27-paper-47.docx": "e531d11d74818f951eb007260a39b25c623e0b442ad67ba6b0e2e6e2727eeced"
   },
   "p1_scored": false,
   "p1_status": "inconclusive",
@@ -151,6 +151,7 @@
     "amend18",
     "amend13",
     "amend16",
+    "amend33",
     "amend21",
     "amend27",
     "amend28",
@@ -164,6 +165,7 @@
     "shaikh2026b",
     "yeh2022"
   ],
-  "title": "European League Equivalents: One Number per League, Tested on League Changes It Was Never Fitted To",
-  "words_main_text": 7487
+  "title": "What Does League Translation Add? A Benchmark for European Basketball Forecasts",
+  "title_registered_for_the_case": "European League Equivalents: One Number per League, Tested on League Changes It Was Never Fitted To",
+  "words_main_text": 7485
 }
